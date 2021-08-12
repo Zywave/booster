@@ -21,6 +21,7 @@
 			}
 			</script>
 		{# <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}"> #}
+		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 		<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 		<script async src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js" type="module"></script>
 		<script src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js" type="module"></script>
@@ -45,6 +46,16 @@
 		{% endif %}
 			{{ content | safe }}
 		</main>
-
+		<script>
+		if (window.netlifyIdentity) {
+			window.netlifyIdentity.on("init", user => {
+			if (!user) {
+				window.netlifyIdentity.on("login", () => {
+				document.location.href = "/admin/";
+				});
+			}
+			});
+		}
+		</script>
 	</body>
 </html>

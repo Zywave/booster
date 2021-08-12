@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# Uncomment below to enable drafts
+publish_mode: editorial_workflow
+
+media_folder: "static/images" # Media files will be stored in the repo under images/uploads
+
+collections:
+  # Our ZUI components
+  - name: "designsystem" # Used in routes
+    label: "Design System" # Used in the UI
+    folder: "src/pages/designsystem" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Package URL", name: "package", widget: "string" }
+      - { label: "Included elements", name: "includedElements", widget: "list", default: [] }

@@ -1,4 +1,4 @@
-public/
+_site/
 node_modules/
 .tsbuildinfo
 static/js

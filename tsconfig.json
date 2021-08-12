@@ -21,5 +21,5 @@
     "target": "ES2019"
   },
   "include": ["**/*.ts", "**/*.d.ts", "**/*.js"],
-  "exclude": ["node_modules", "src/**/*.11ty.js", "public/**/*", "static/**/*"]
+  "exclude": ["node_modules", "src/**/*.11ty.js", "_site/**/*", "static/**/*"]
 }

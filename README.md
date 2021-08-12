@@ -37,7 +37,7 @@ yarn run watch
 ```
 <br/>
 
-Build or re-build site, `public` folder is where output is placed:
+Build or re-build site, `_site` folder is where output is placed:
 ```
 yarn run build
 ```
@@ -51,7 +51,7 @@ yarn run debug:nix
 
 ## Troubleshooting
 
-- Static HTML files are output to a `public` folder, whether you're building for production or running the project locally the site will be served from this directory. **Files in the `public` folder will persist until removed**; if you delete files in `src` it may still be accessible in the `public` folder and therefore in your site,  be careful to delete `public` and re-build if necessary.
+- Static HTML files are output to a `_site` folder, whether you're building for production or running the project locally the site will be served from this directory. **Files in the `_site` folder will persist until removed**; if you delete files in `src` it may still be accessible in the `_site` folder and therefore in your site,  be careful to delete `_site` and re-build if necessary.
 
 ## Helpful information
 
