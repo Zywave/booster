@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src/_includes/assets/scripts",
+    "outDir": "./static/js",
+    "tsBuildInfoFile": ".tsbuildinfo",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "inlineSources": true,
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "esNext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "ES2019"
+  },
+  "include": ["**/*.ts", "**/*.d.ts", "**/*.js"],
+  "exclude": ["node_modules", "src/**/*.11ty.js", "public/**/*", "static/**/*"]
+}

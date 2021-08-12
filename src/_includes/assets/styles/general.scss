@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  
+  &.content-with-sidenav {
+    width: calc(100% - #{rem(350)});
+    padding: rem(20);
+    transition: padding 100ms ease-in-out;
+
+    @media screen and (min-width: 60em) {
+      padding: rem(30);
+    }
+
+    @media screen and (min-width: 64em) {
+      padding: rem(50);
+    }
+
+    @media screen and (min-width: 80em) {
+      padding: rem(90);
+    }
+  }
+}
+
+a {
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: var(--docs-green-color);
+  text-decoration: underline;
+  transition: color 100ms ease-in-out;
+
+  &:hover {
+    color: hsl(var(--docs-green-color-h), var(--docs-green-color-s), 44%);
+  }
+
+  &:focus {
+    outline: 1px solid var(--docs-green-color);
+    outline-offset: rem(4);
+    text-decoration: none;
+  }
+
+  &:active {
+    outline: none;
+    color: hsl(var(--docs-green-color-h), var(--docs-green-color-s), 24%);
+    text-decoration: underline;
+  }
+
+  &.button {
+    display: flex;
+    align-items: center;
+    padding: rem(7) rem(40);
+    font-size: rem(20);
+    font-weight: 600;
+    border-radius: rem(25);
+    color: var(--docs-primary-color);
+    background: var(--docs-orange-color);
+    text-decoration: none;
+    transition: opacity 0.3s ease-in;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+  
+  &.button.secondary {
+    color: #FEFEFE;
+    background: var(--docs-green-color);
+  }
+}
+
+hr {
+  margin: rem(50);
+  border: 0;
+  border-top: 1px solid var(--zui-gray-100);
+}

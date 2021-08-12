@@ -1,0 +1,4 @@
+{
+  "layout": "layout/template-component-single.njk",
+  "eleventyExcludeFromCollections": true
+}

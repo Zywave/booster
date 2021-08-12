@@ -1,0 +1,50 @@
+table.component-status-table {
+    width: 100%;
+
+    thead {
+        text-align: left;
+    }
+
+    tr {
+        td {
+            padding: rem(10) 0;
+            border-bottom: 1px solid var(--zui-gray);
+        }
+
+        &:last-child {
+            td {
+                border-bottom: 0;
+            }
+        }
+    }
+
+    .tooltip-message {
+        padding: rem(9) rem(18);
+    }
+
+    [class^=pill-] {
+        color: #fff;
+        padding: rem(3) rem(10);
+        border-radius: rem(5);
+    }
+
+    .pill-backlog {
+        background-color: var(--docs-gray-color);
+    }
+
+    .pill-beta {
+        background-color: var(--docs-yellow-color);
+    }
+
+    .pill-deprecated {
+        background-color: var(--docs-orange-color);
+    }
+
+    .pill-progress {
+        background-color: var(--docs-secondary-color);
+    }
+
+    .pill-stable {
+        background-color: var(--docs-green-color);
+    }
+}

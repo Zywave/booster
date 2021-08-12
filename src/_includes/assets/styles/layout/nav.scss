@@ -1,0 +1,147 @@
+nav.side-nav {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  width: rem(200);
+  top: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
+  padding: rem(20) 0;
+  color: #fefefe;
+  font-weight: 600;
+  background-color: var(--docs-primary-color);
+  box-sizing: border-box;
+
+  * {
+    transition: all 100ms ease-in-out;
+  }
+
+  @media screen and (min-width: 64em) {
+    width: rem(250);
+    padding: rem(30) 0;
+  }
+
+  @media screen and (min-width: 80em) {
+    width: rem(350);
+    padding: rem(40) 0;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      color: #fff;
+      opacity: 1;
+    }
+
+    &:focus {
+      outline-color: #fff;
+    }
+
+    &:active {
+      opacity: 0.7;
+      text-decoration: none;
+    }
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    padding: 0 rem(15) rem(20);
+    font-size: rem(24);
+    line-height: rem(29);
+
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    svg {
+      height: rem(50);
+      margin-right: rem(10);
+    }
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a.nav-back-button {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 rem(20);
+    font-size: rem(14);
+    text-decoration: none;
+    color: inherit;
+
+    svg {
+      fill: #fefefe;
+      width: rem(25.6);
+      height: rem(25.6);
+      margin-right: rem(9);
+    }
+  }
+
+  hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.19);
+    margin: rem(15) 0 rem(20);
+  }
+
+  h3 {
+    font-size: rem(20);
+    margin: 0 rem(15);
+
+    @media screen and (min-width: 64em) {
+      margin: 0 rem(20);
+    }
+
+    @media screen and (min-width: 80em) {
+      margin: 0 rem(30);
+    }
+  }
+
+  ul {
+    margin: rem(20) rem(8) 0 rem(30);
+    padding: 0;
+
+    @media screen and (min-width: 64em) {
+      margin-left: rem(45);
+    }
+
+    @media screen and (min-width: 80em) {
+      margin-left: rem(70);
+    }
+
+    li {
+      list-style-type: none;
+      margin-bottom: rem(20);
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      a {
+        font-size: rem(18);
+        font-weight: 300;
+        line-height: rem(22);
+        font-weight: 300;
+        color: #fff;
+        opacity: 0.8;
+
+        &[data-current="current item"] {
+          font-weight: 600;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

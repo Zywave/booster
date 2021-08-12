@@ -1,0 +1,6 @@
+public/
+node_modules/
+.tsbuildinfo
+static/js
+static/css
+*.log

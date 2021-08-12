@@ -1,0 +1,15 @@
+---
+layout: layout/template-component-single.njk
+pagination:
+  data: componentRegistry.components.designSystem
+  size: 1
+  alias: component
+permalink: "design-system/components/{{ component.commonName | slug }}/demos/"
+eleventyExcludeFromCollections: true
+---
+<script type="module" src="{{ "js/delayed-scroll-to-id.js" | url }}"></script>
+<script type="module" src="{{ "js/hide-spinner.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/docs-demos.js" | url }}"></script>
+
+<zui-spinner active></zui-spinner>
+<docs-demos demo-url="{{ componentRegistry.baseUrlCdn }}/{{ component.componentPackage }}@next/demo/index.html" component="{{ component.name }}"></docs-demos>

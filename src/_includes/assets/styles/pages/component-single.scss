@@ -1,0 +1,27 @@
+zui-tabs {
+  margin-bottom: rem(48);
+  --zui-tabs-color: var(--docs-secondary-color);
+}
+
+zui-tabs a:-webkit-any-link {
+  color: unset;
+}
+
+zui-spinner:not([active]) {
+  display: none;
+}
+
+.content {
+    width: calc(100% - 200px); /* subtracts quick-links width */
+    max-width: rem(1000);
+}
+
+h1.component-header {
+  font-size: rem(40);
+  font-weight: 700;
+}
+
+h2.component-subheader {
+  font-size: rem(20);
+  font-weight: 600;
+}

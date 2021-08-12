@@ -1,0 +1,50 @@
+---
+layout: layout/base.njk
+---
+
+{% set name = component.commonName or title %}
+
+{% if applicationFrameworkComponent %}
+    {% set tabs = ['API', 'Demos'] %}
+{% else %}
+    {% set tabs = ['API', 'Demos', 'Usage'] %}
+{% endif %}
+
+<link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-tabs@latest/dist/css/zui-tabs.fouc.min.css">
+<link rel="preload" as="fetch" type="application/json" href="{{ componentRegistry.baseUrlCdn }}/{{ component.componentPackage }}@next/dist/custom-elements.json">
+<script type="module" src="https://cdn.zywave.com/@zywave/customelement-manifest-element@latest/index.js"></script>
+<script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
+
+<h1 class="component-header">{{ name }}</h1>
+
+<h2 class="component-subheader">{{ component.content }}</h2>
+
+<nav class="zui row">
+    <zui-tabs
+        selected="
+            {% for tab in tabs %}
+                {% set path = "/" + tab | slug + "/" %}
+                {% if path in permalink %}
+                    {{ loop.index - 1 }}
+                {% endif %}
+            {% endfor %}
+        "
+    >
+        {% for tab in tabs %}
+            <zui-tab>
+                {% if applicationFrameworkComponent %}
+                    <a href="{{ ("/application-framework/components/" + name | slug + "/" + tab | slug + "/") | url }}" class="zui text-decoration-none">{{ tab }}</a>
+                {% else %}
+                    <a href="{{ ("/design-system/components/" + name | slug + "/" + tab | slug + "/") | url }}" class="zui text-decoration-none">{{ tab }}</a>
+                {% endif %}
+            </zui-tab>
+        {% endfor %}
+    </zui-tabs>
+</nav>
+<section class="zui row align-start">
+    <div class="content">
+        {{ content | safe }}
+    </div>
+    <quick-links query="section h1, section h2, section h3, section h4"></quick-links>
+</section>

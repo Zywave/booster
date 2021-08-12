@@ -1,0 +1,4 @@
+{
+    "layout": "layout/template-basic.njk",
+    "backNavKey": "Application framework"
+}

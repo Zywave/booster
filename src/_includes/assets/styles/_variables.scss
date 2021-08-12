@@ -1,0 +1,31 @@
+:root {
+  --docs-primary-color-h: 203;
+  --docs-primary-color-s: 22%;
+  --docs-primary-color-l: 19%;
+  --docs-primary-color: hsl(var(--docs-primary-color-h), var(--docs-primary-color-s), var(--docs-primary-color-l));
+
+  --docs-secondary-color-h: 204;
+  --docs-secondary-color-s: 28%;
+  --docs-secondary-color-l: 27%;
+  --docs-secondary-color: hsl(var(--docs-secondary-color-h), var(--docs-secondary-color-s), var(--docs-secondary-color-l));
+
+  --docs-green-color-h: 167;
+  --docs-green-color-s: 74%;
+  --docs-green-color-l: 34%;
+  --docs-green-color: hsl(var(--docs-green-color-h), var(--docs-green-color-s), var(--docs-green-color-l));
+
+  --docs-orange-color-h: 17;
+  --docs-orange-color-s: 65%;
+  --docs-orange-color-l: 55%;
+  --docs-orange-color: hsl(var(--docs-orange-color-h), var(--docs-orange-color-s), var(--docs-orange-color-l));
+
+  --docs-yellow-color-h: 38;
+  --docs-yellow-color-s: 62%;
+  --docs-yellow-color-l: 51%;
+  --docs-yellow-color: hsl(var(--docs-yellow-color-h), var(--docs-yellow-color-s), var(--docs-yellow-color-l));
+
+  --docs-gray-color-h: 0;
+  --docs-gray-color-s: 0%;
+  --docs-gray-color-l: 60%;
+  --docs-gray-color: hsl(var(--docs-gray-color-h), var(--docs-gray-color-s), var(--docs-gray-color-l));
+}

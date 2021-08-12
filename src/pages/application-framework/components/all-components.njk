@@ -1,0 +1,39 @@
+---
+title: All components
+permalink: '/application-framework/components/{{ title | slug }}/'
+eleventyComputed:
+    eleventyNavigation:
+        key: '{{ title }}'
+        parent: AF-Components
+        order: 1
+---
+
+{% set path = componentRegistry.basePathApplicationFramework %}
+{% set components = componentRegistry.components.applicationFramework %}
+
+<p>Application framework components statuses are updated whenever we add, make significant updates, or deprecate so it's clear what's available to use. If you encounter an issue with any of our components, we encourage you to check out the issues links.</p>
+
+<table class="component-status-table">
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Status</th>
+            <th>Issues</th>
+        </tr>
+    </thead>
+    <tbody>
+        {%- for component in components %}
+        {% set componentUrl %}/{{path | url}}/components/{{ component.commonName | slug }}/{% endset %}
+        <tr>
+            <td><a href="{{ componentUrl | url}}">{{ component.commonName }}</a></td>
+            <td>
+                <zui-tooltip position="top">
+                    <div slot="message" class="tooltip-message">Documentation is up-to-date &amp; component is ready for use.</div>
+                    <div slot="trigger" class="pill-stable">stable</div>
+                </zui-tooltip>
+            </td>
+            <td><a href="https://gitlab.zywave.com/devkit/zui/zywave-api-toolkit/-/issues?label_name[]=component%3A%3A{{ component.gitLabLabel }}" target="_blank">view issues</a></td>
+        </tr>
+        {%- endfor %}
+    </tbody>
+</table>

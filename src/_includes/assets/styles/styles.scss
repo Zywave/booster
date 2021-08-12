@@ -1,0 +1,17 @@
+/* global styles */
+// todo: decide if worth splitting .css files, to load only on specific pages, currently everything is lumped together and loaded as styles.css
+@import '_functions.scss';
+@import '_variables.scss';
+@import 'general.scss';
+@import 'typography.scss';
+@import 'layout/nav.scss';
+
+/* page related styles */
+@import './pages/home.scss';
+@import './pages/systems-home.scss';
+@import './pages/all-components.scss';
+@import './pages/component-single.scss';
+@import './pages/colors.scss';
+
+/* reusable helper classes */
+@import 'helpers.scss';
