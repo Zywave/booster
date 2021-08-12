@@ -1,6 +1,6 @@
 [build]
-  publish = "_site"
-  command = "eleventy"
+  publish = "public"
+  command = "yarn run build --pathprefix /zui/docs/"
 
 # REDIRECT and HEADERS examples
 
