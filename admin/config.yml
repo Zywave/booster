@@ -45,3 +45,16 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Collection", name: "collection", widget: "hidden", "default": "research"}
+  - name: "component"
+    label: "Component"
+    folder: "src/pages"
+    path: "{{system}}/components/{{slug}}"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "component"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "System", name: "system", widget: "select", options: ["design-system", "application-framework"]}
+      - {label: "Package", name: "package", widget: "string"}
+      - {label: "Included elements", name: "includedElements", widget: "string", default: "[]"}
+      - {label: "Subhead", name: "subhead", widget: "string"}
