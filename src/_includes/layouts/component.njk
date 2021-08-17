@@ -1,0 +1,50 @@
+---
+layout: base
+---
+
+{% set tabs = ['API', 'Demos', 'Usage'] %}
+
+<link rel="preload" as="fetch" type="application/json" href="{{ api }}">
+<script type="module" src="https://cdn.zywave.com/@zywave/customelement-manifest-element@latest/index.js"></script>
+<script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/tabs.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
+
+<h1 class="component-header">{{ title }}</h1>
+
+<h2 class="component-subheader">{{ subtitle }}</h2>
+
+<nav class="zui row">
+  <zui-tabs
+    selected="
+      {% for tab in tabs %}
+        {% set path = "/" + tab | slug + "/" %}
+        {% if path in page.url %}
+          {{ loop.index - 1 }}
+        {% endif %}
+      {% endfor %}
+    "
+  >
+    {% for tab in tabs %}
+      <zui-tab>
+        <a href="{{ page.url | componentTabHref(tab) | url }}" class="zui text-decoration-none">{{ tab }}</a>
+      </zui-tab>
+    {% endfor %}
+  </zui-tabs>
+</nav>
+<section class="zui row align-start">
+  <div class="api">
+    <customelement-manifest-element
+      src="{{ api }}"
+      initialElementName="{{ mainComponentName }}"
+      elementNames="['Poop']"
+      {% if includedElements | length %} elementNames='{{ includedElements | htmlArray }}' {% endif %}>
+    </customelement-manifest-element>
+  </div>
+  <div class="demos">
+  </div>
+  <div class="content">
+    {{ content | safe }}
+  </div>
+  <quick-links query="section h1, section h2, section h3, section h4"></quick-links>
+</section>

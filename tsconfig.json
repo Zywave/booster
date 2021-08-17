@@ -20,6 +20,6 @@
     "sourceMap": true,
     "target": "ES2019"
   },
-  "include": ["**/*.ts", "**/*.d.ts", "**/*.js"],
-  "exclude": ["node_modules", "src/**/*.11ty.js", "_site/**/*", "static/**/*"]
+  "include": ["src/_includes/assets/scripts/**/*.ts", "src/_includes/assets/scripts/**/*.d.ts", "src/_includes/assets/scripts/**/*.js"],
+  "exclude": ["node_modules"]
 }

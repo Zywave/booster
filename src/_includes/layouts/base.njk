@@ -1,0 +1,61 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+<head>
+	<base href="{{ "/"  | url }}"></base>
+	<meta charset="utf-8">
+	<link rel="icon" href="./favicon.ico" />
+	<link rel="dns-prefetch" href="https://identity.netlify.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ component.commonName or renderData.title or title }}</title>
+	{# import maps must be registered prior to any script loading #}
+	<script type="importmap">
+		{
+			"imports": {
+				"lit": "https://cdn.zywave.com/lit@2.0.0-rc.2/index.js?module",
+				"lit/": "https://cdn.zywave.com/lit@2.0.0-rc.2/",
+				"@lit/": "https://cdn.zywave.com/@lit/",
+				"lit-html/": "https://cdn.zywave.com/lit-html@next/",
+				"tslib": "https://cdn.zywave.com/tslib@2.3.0/tslib.es6.js"
+			}
+		}
+		</script>
+	{# <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}"> #}
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<script async src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js" type="module"></script>
+	<script src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js" type="module"></script>
+	<link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-base-styles@latest/dist/zui-base-styles.min.css">
+	<link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	{% set js %}
+		{% include "static/js/inline.js" %}
+	{% endset %}
+</head>
+
+<body class="zui row {{ pageType }}">
+
+	{% if navHidden !== true %}
+		{% include "components/nav.njk" %}
+	{% endif %}
+	
+	{% if navHidden !== true %}
+	<main class="content-with-sidenav">
+	{% else %}
+	<main>
+	{% endif %}
+		{{ content | safe }}
+	</main>
+	<script>
+	if (window.netlifyIdentity) {
+		window.netlifyIdentity.on("init", user => {
+			if (!user) {
+				window.netlifyIdentity.on("login", () => {
+					document.location.href = "/admin/";
+				});
+			}
+		});
+	}
+	</script>
+</body>
+</html>

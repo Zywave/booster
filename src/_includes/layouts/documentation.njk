@@ -1,0 +1,20 @@
+---
+layout: base
+---
+
+<link rel="preload" as="fetch" type="application/json" href="{{ api }}">
+<script type="module" src="https://cdn.zywave.com/@zywave/customelement-manifest-element@latest/index.js"></script>
+<script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/tabs.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
+
+<h1 class="component-header">{{ title }}</h1>
+
+<h2 class="component-subheader">{{ subtitle }}</h2>
+
+<section class="zui row align-start">
+  <div class="content">
+    {{ content | safe }}
+  </div>
+  <quick-links query="section h1, section h2, section h3, section h4"></quick-links>
+</section>

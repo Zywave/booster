@@ -2,6 +2,8 @@ const { DateTime } = require("luxon");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const componentTabHref = require("./src/_filters/componentTabHref");
+const htmlArray = require("./src/_filters/htmlArray");
 
 module.exports = function(eleventyConfig) {
 
@@ -22,6 +24,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
   });
+  eleventyConfig.addFilter("componentTabHref", componentTabHref);
+  eleventyConfig.addFilter("htmlArray", htmlArray);
 
   // Date formatting (machine readable)
   eleventyConfig.addFilter("machineDate", dateObj => {
@@ -89,7 +93,8 @@ module.exports = function(eleventyConfig) {
       input: "src",
       includes: "_includes",
       data: "_data",
-      output: "_site"
+      output: "_site",
+      layouts: "_includes/layouts"
     }
   };
 };
