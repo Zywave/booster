@@ -11,13 +11,6 @@ layout: base
 <script type="module" src="{{ "js/web-components/tabs.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
 
-<ul>
-{%- for doc in collections.designSystemAll -%}
-  <li>
-    <a href="{{ doc.url }}">{{ doc.data.title }}, parent: {{ doc.data.eleventyNavigation.parent }}, key: {{ doc.data.eleventyNavigation.key }}</a></li>
-{%- endfor -%}
-</ul>
-
 <h1 class="component-header">{{ title }}</h1>
 
 <h2 class="component-subheader">{{ subtitle }}</h2>
