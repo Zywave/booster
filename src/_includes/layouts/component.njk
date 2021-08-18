@@ -6,9 +6,16 @@ layout: base
 
 <link rel="preload" as="fetch" type="application/json" href="{{ api }}">
 <script type="module" src="https://cdn.zywave.com/@zywave/customelement-manifest-element@latest/index.js"></script>
+<script type="module" src="{{ "js/web-components/docs-demos.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/tabs.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
+
+<ul>
+{%- for doc in collections.designSystemAll -%}
+  <li {% if doc.url == page.url %} style="font-size: 72px;" {% endif %}><a href="{{ doc.url }}">{{ doc.data.title }}, parent: {{ doc.data.parent }}</a></li>
+{%- endfor -%}
+</ul>
 
 <h1 class="component-header">{{ title }}</h1>
 
@@ -32,7 +39,7 @@ layout: base
     {% endfor %}
   </zui-tabs>
 </nav>
-<section class="zui row align-start">
+<section class="zui column align-start">
   <div class="api">
     <customelement-manifest-element
       src="{{ api }}"
@@ -41,10 +48,12 @@ layout: base
       {% if includedElements | length %} elementNames='{{ includedElements | htmlArray }}' {% endif %}>
     </customelement-manifest-element>
   </div>
-  <div class="demos">
+  <div class="zui row align-start demos">
+    <docs-demos demo-url="{{ demo }}" component="{{ mainComponentName }}"></docs-demos>
+    <quick-links query="section h1, section h2, section h3, section h4"></quick-links>
   </div>
-  <div class="content">
-    {{ content | safe }}
+  <div class="zui row align-start content">
+    <div>{{ content | safe }}</div>
+    <quick-links query="section h1, section h2, section h3, section h4"></quick-links>
   </div>
-  <quick-links query="section h1, section h2, section h3, section h4"></quick-links>
 </section>

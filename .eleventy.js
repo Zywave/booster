@@ -10,12 +10,6 @@ module.exports = function(eleventyConfig) {
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
-  // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
-  // layout aliases! Say you have a bunch of existing content using
-  // layout: post. If you don’t want to rewrite all of those values, just map
-  // post to a new file like this:
-  // eleventyConfig.addLayoutAlias("post", "layout/my_new_post_layout.njk");
-
   // Merge data instead of overriding
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
@@ -31,6 +25,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("machineDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
   });
+
+  eleventyConfig.addCollection("designSystemAll", collection => 
+    collection.getAll().filter(item => item.inputPath.match(/^.\/src\/_collections\/design-system\//))
+  );
+
+  // eleventyConfig.addCollection("designSystemComponents", collection => 
+  //   collection.getAll().filter(item => item.inputPath.match(/^\/src\/_collections\/design-system\/components\//))
+  // );
 
   // Minify JS
   eleventyConfig.addFilter("jsmin", function(code) {
@@ -95,6 +97,16 @@ module.exports = function(eleventyConfig) {
       data: "_data",
       output: "_site",
       layouts: "_includes/layouts"
+    },
+    eleventyComputed: {
+      eleventyNavigation: {
+        key: data => data.title,
+        parent: data => {
+          const pathParts = data.inputPath.split("/");
+          const parent = pathParts[pathParts.length - 2];
+          return parent;
+        }
+      }
     }
   };
 };
