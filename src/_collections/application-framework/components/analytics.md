@@ -1,5 +1,4 @@
 ---
-layout: component
 api: https://cdn.zywave.com/@zywave/zywave-analytics/@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zywave-analytics/@next/demo/index.html
 mainComponentName: zywave-analytics

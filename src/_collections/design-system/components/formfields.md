@@ -1,5 +1,4 @@
 ---
-layout: component
 api: https://cdn.zywave.com/@zywave/zui-formfield/@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-formfield/@next/demo/index.html
 mainComponentName: zui-formfield

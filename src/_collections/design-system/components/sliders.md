@@ -1,5 +1,4 @@
 ---
-layout: component
 api: https://cdn.zywave.com/@zywave/zui-slider/@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-slider/@next/demo/index.html
 mainComponentName: zui-slider

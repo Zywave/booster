@@ -1,5 +1,4 @@
 ---
-layout: component
 api: https://cdn.zywave.com/@zywave/zui-dialog/@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-dialog/@next/demo/index.html
 mainComponentName: zui-dialog

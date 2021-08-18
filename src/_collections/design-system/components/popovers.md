@@ -1,5 +1,4 @@
 ---
-layout: component
 api: 
 demo: 
 mainComponentName: 

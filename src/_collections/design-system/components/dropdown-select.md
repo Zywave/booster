@@ -1,9 +1,8 @@
 ---
-title: Dropdown select
 api: https://cdn.zywave.com/@zywave/zui-select-dropdown/@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-select-dropdown/@next/demo/index.html
 includedElements: []
-layout: component
+title: Dropdown select
 subtitle: subtitleing goes here
 ---
 

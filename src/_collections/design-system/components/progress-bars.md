@@ -1,5 +1,4 @@
 ---
-layout: component
 api: https://cdn.zywave.com/@zywave/zui-progress/@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-progress/@next/demo/index.html
 mainComponentName: zui-progress

@@ -14,7 +14,6 @@ collections:
     folder: "src/_collections/application-framework/components"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "component"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -49,7 +48,6 @@ collections:
     folder: "src/_collections/design-system/components"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "component"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

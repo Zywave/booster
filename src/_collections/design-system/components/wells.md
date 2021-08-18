@@ -1,5 +1,4 @@
 ---
-layout: component
 api: https://cdn.zywave.com/@zywave/zui-well/@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-well/@next/demo/index.html
 mainComponentName: zui-well
