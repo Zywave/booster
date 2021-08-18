@@ -111,21 +111,6 @@ module.exports = function(eleventyConfig) {
       data: "_data",
       output: "_site",
       layouts: "_includes/layouts"
-    },
-
-    eleventyComputed: {
-      eleventyNavigation: {
-        key: data => data.title,
-        parent: data => {
-          return "poop";
-          const pathParts = data.inputPath.split("/");
-          if (pathParts.length <= 1) {
-            return null;
-          }
-          const parent = pathParts[pathParts.length - 2];
-          return parent;
-        }
-      }
     }
   };
 };

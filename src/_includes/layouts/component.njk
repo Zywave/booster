@@ -13,7 +13,8 @@ layout: base
 
 <ul>
 {%- for doc in collections.designSystemAll -%}
-  <li {% if doc.url == page.url %} style="font-size: 72px;" {% endif %}><a href="{{ doc.url }}">{{ doc.data.title }}, parent: {{ doc.data.parent }}</a></li>
+  <li>
+    <a href="{{ doc.url }}">{{ doc.data.title }}, parent: {{ doc.data.eleventyNavigation.parent }}, key: {{ doc.data.eleventyNavigation.key }}</a></li>
 {%- endfor -%}
 </ul>
 
