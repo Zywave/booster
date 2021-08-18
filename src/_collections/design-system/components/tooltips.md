@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-tooltip/@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-tooltip/@next/demo/index.html
+api: https://cdn.zywave.com/@zywave/zui-tooltip@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-tooltip@next/demo/index.html
 mainComponentName: zui-tooltip
 includedElements: []
 title: Tooltips

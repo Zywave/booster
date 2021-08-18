@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-select/@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-select/@next/demo/index.html
+api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-select@next/demo/index.html
 mainComponentName: zui-select-dropdown
 includedElements: ["zui-select-dropdown", "zui-option", "zui-option-group"]
 title: Dropdown multi-selects

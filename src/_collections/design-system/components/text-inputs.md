@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-input/@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-input/@next/demo/index.html
+api: https://cdn.zywave.com/@zywave/zui-input@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-input@next/demo/index.html
 mainComponentName: zui-input
 includedElements: ["zui-input"]
 title: Text inputs

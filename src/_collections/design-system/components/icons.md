@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-icons/@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-icons/@next/demo/index.html
+api: https://cdn.zywave.com/@zywave/zui-icons@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-icons@next/demo/index.html
 mainComponentName: zui-icon
 includedElements: []
 title: Icons

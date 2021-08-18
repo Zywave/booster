@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zywave-livechat/@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zywave-livechat/@next/demo/index.html
+api: https://cdn.zywave.com/@zywave/zywave-livechat@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zywave-livechat@next/demo/index.html
 mainComponentName: zywave-livechat
 includedElements: ["zywave-livechat"]
 title: Live chat
