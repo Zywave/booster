@@ -41,6 +41,9 @@ zui-spinner:not([active]) {
   }
 
   clipboard-copy-icon {
+    --button-background-color: transparent;
+    --message-text-color: var(--zui-gray-500);
+    margin-left: rem(10);
     opacity: 0;
     transition: opacity 0.3s ease;
   }
