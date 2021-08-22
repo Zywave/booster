@@ -20,21 +20,35 @@ zui-spinner:not([active]) {
   display: none;
 }
 
-#content .is-hidden {
-  display: none;
-}
+#content {
+  .is-hidden {
+    display: none;
+  }
 
-.usage {
-    width: calc(100% - 200px); /* subtracts quick-links width */
-    max-width: rem(1000);
-}
+  .usage {
+      width: calc(100% - 200px); /* subtracts quick-links width */
+      max-width: rem(1000);
+  }
+  
+  h1.component-header {
+    font-size: rem(40);
+    font-weight: 700;
+  }
+  
+  h2.component-subheader {
+    font-size: rem(20);
+    font-weight: 600;
+  }
 
-h1.component-header {
-  font-size: rem(40);
-  font-weight: 700;
-}
+  clipboard-copy-icon {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
 
-h2.component-subheader {
-  font-size: rem(20);
-  font-weight: 600;
+  h1:hover clipboard-copy-icon,
+  h2:hover clipboard-copy-icon,
+  h3:hover clipboard-copy-icon,
+  h4:hover clipboard-copy-icon {
+    opacity: 1;
+  }
 }
