@@ -5,12 +5,43 @@ layout: base
 {% set tabs = ['API', 'Demos', 'Usage'] %}
 
 <link rel="preload" as="fetch" type="application/json" href="{{ api }}">
-<script type="module" src="{{ "js/component-tabbing.js" | url }}"></script>
 <script type="module" src="https://cdn.zywave.com/@zywave/customelement-manifest-element@latest/index.js"></script>
 <script type="module" src="{{ "js/web-components/docs-demos.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
-<script type="module" src="{{ "js/copy-link-for-usage.js" | url }}"></script>
+<script type="module" src="{{ "js/delayed-scroll-to-id.js" | url }}"></script>
+<script type="module">
+  import { getQueryParamValue, getTabElementById, getIndexPosOfQueryInTabs, hideAllTabContent, showApiTabContent, getUrlNoHash, createClipboardCopyIconElement } from '@booster/utils/component-docs-helpers.js';
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // for tabbing, tabs hidden by default, based on query show tab
+    const queryParam = 'tab';
+    const tabsEl = document.querySelector('zui-tabs');
+
+    if (getQueryParamValue(queryParam)) {
+      // if ?tab=value doesn't match a tab, i.e. ?tab=frenchfries, show and highlight API as selected tab
+      if (getIndexPosOfQueryInTabs(tabsEl, queryParam) === -1) {
+          showApiTabContent(tabsEl)
+      } else {
+          tabsEl.setAttribute('selected', String(getIndexPosOfQueryInTabs(tabsEl, queryParam)));
+          hideAllTabContent();
+          document.querySelector(`#${getQueryParamValue(queryParam)}`)?.classList.remove('is-hidden');
+      }
+    } else {
+        showApiTabContent(tabsEl);
+    }
+
+    // usage tab, generate copy to clipboard links, append inside headers
+    const headers = document.querySelectorAll('#usage h1, #usage h2, #usage h3, #usage h4');
+
+    headers.forEach(function(header) {
+        header.appendChild(
+            createClipboardCopyIconElement(`${getUrlNoHash()}#${header.id}`)
+        );
+    });
+
+  }); // DOMContentLoaded listener
+</script>
 
 <h1 class="component-header">{{ title }}</h1>
 
