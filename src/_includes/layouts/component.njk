@@ -40,6 +40,12 @@ layout: base
         );
     });
 
+    // api tab, apply camelcase attributes to 'customelement-manifest-element', as declarative way is lowercase attribute names
+    const manifestEl = document.querySelector('customelement-manifest-element');
+
+    manifestEl.initialElementName = manifestEl.getAttribute('initialelementname');
+    manifestEl.elementNames = manifestEl.getAttribute('elementnames');
+    
   }); // DOMContentLoaded listener
 </script>
 
@@ -61,8 +67,11 @@ layout: base
     <customelement-manifest-element
       src="{{ api }}"
       initialElementName="{{ mainComponentName }}"
-      elementNames="['Poop']"
-      {% if includedElements | length %} elementNames='{{ includedElements | htmlArray }}' {% endif %}>
+      {% if includedElements | length %} 
+        elementNames='{{ includedElements | htmlArray }}'
+      {% else %}
+        elementNames='[]'
+      {% endif %}>
     </customelement-manifest-element>
   </div>
   <div id="demos" class="zui row align-start is-hidden">
