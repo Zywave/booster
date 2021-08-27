@@ -8,7 +8,7 @@ export function getTabElementById(id: string) {
     return document.getElementById(`tab-${id}`);
 }
 
-export function getIndexPosOfQueryInTabs(parentElement: Element, queryParam: string) {
+export function getIndexPosOfQueryWithinElement(parentElement: Element, queryParam: string) {
     return Array
         .from(parentElement?.children)
         .indexOf(

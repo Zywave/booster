@@ -11,7 +11,7 @@ layout: base
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
 <script type="module" src="{{ "js/delayed-scroll-to-id.js" | url }}"></script>
 <script type="module">
-  import { getQueryParamValue, getTabElementById, getIndexPosOfQueryInTabs, hideAllTabContent, showApiTabContent, getUrlNoHash, createClipboardCopyIconElement } from '@booster/utils/component-docs-helpers.js';
+  import { getQueryParamValue, getTabElementById, getIndexPosOfQueryWithinElement, hideAllTabContent, showApiTabContent, getUrlNoHash, createClipboardCopyIconElement } from '@booster/utils/component-docs-helpers.js';
 
   window.addEventListener('DOMContentLoaded', function() {
     // for tabbing, tabs hidden by default, based on query show tab
@@ -20,10 +20,10 @@ layout: base
 
     if (getQueryParamValue(queryParam)) {
       // if ?tab=value doesn't match a tab, i.e. ?tab=frenchfries, show and highlight API as selected tab
-      if (getIndexPosOfQueryInTabs(tabsEl, queryParam) === -1) {
+      if (getIndexPosOfQueryWithinElement(tabsEl, queryParam) === -1) {
           showApiTabContent(tabsEl)
       } else {
-          tabsEl.setAttribute('selected', String(getIndexPosOfQueryInTabs(tabsEl, queryParam)));
+          tabsEl.setAttribute('selected', String(getIndexPosOfQueryWithinElement(tabsEl, queryParam)));
           hideAllTabContent();
           document.querySelector(`#${getQueryParamValue(queryParam)}`)?.classList.remove('is-hidden');
       }
