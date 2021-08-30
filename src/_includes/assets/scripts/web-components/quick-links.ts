@@ -44,8 +44,8 @@ const css = `
         display: flex;
         align-items: center;
         margin-left: -0.15rem;
-        padding-left: 1rem;
-        line-height: 2.4;
+        padding: 0.5rem 0 0.5rem 1rem;
+        line-height: 1.4;
         text-decoration: none;
         color: var(--zui-gray);
         border-left: 3px solid transparent;
