@@ -1,27 +1,57 @@
+// fouc styles for zui-tabs
+@import "https://cdn.zywave.com/browse/@zywave/zui-tabs@latest/dist/css/zui-tabs.fouc.min.css";
+
 zui-tabs {
   margin-bottom: rem(48);
   --zui-tabs-color: var(--docs-secondary-color);
-}
 
-zui-tabs a:-webkit-any-link {
-  color: unset;
+  a {
+    &:active {
+      text-decoration: none;
+    }
+
+    &:-webkit-any-link {
+      color: unset;
+    }
+  }
 }
 
 zui-spinner:not([active]) {
   display: none;
 }
 
-.content {
-    width: calc(100% - 200px); /* subtracts quick-links width */
-    max-width: rem(1000);
-}
+#content {
+  .is-hidden {
+    display: none;
+  }
 
-h1.component-header {
-  font-size: rem(40);
-  font-weight: 700;
-}
+  .usage {
+      width: calc(100% - 200px); /* subtracts quick-links width */
+      max-width: rem(1000);
+  }
+  
+  h1.component-header {
+    font-size: rem(40);
+    font-weight: 700;
+  }
+  
+  h2.component-subheader {
+    font-size: rem(20);
+    font-weight: 600;
+  }
 
-h2.component-subheader {
-  font-size: rem(20);
-  font-weight: 600;
+  clipboard-copy-icon {
+    --button-background-color: transparent;
+    --message-text-color: var(--zui-gray-500);
+    margin-left: rem(10);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  h1:hover clipboard-copy-icon,
+  h2:hover clipboard-copy-icon,
+  h3:hover clipboard-copy-icon,
+  h4:hover clipboard-copy-icon {
+    opacity: 1;
+  }
 }
