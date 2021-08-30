@@ -15,6 +15,7 @@ Cards are an excellent choice for:
 
 
 <hr>
+
 ## Card basics
 
 Cards function as a container for content. They provide a blank canvas to help balance UI aesthetics with good usability. There are various types of content and many options for functionality that can be placed within a card, but to remain consistent all cards should use the following basic design specifications.
