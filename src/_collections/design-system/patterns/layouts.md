@@ -13,26 +13,8 @@ Cards are an excellent choice for:
 - Dashboards or for pages that display a variety of content types at the same time on the same page.
 - Displaying data visualizations & metrics
 
-<hr>
-
-## Table of contents
-
-- [Card basics](#cards-basics)
-- [Anatomy](#cards-anatomy)
-- [Sizing & layout](#cards-sizing)
-- [Headlines](#cards-headlines)
-- [Actions](#cards-actions)
-- [Moving a card](#cards-dragging)
-- [Cards with tabs](#cards-tabs)
-- [Cards with a table](#cards-tables)
-- [Cards with a carousel](#cards-carousel)
-- [Loading content in a card](#cards-loading)
-- [Background graphics](#cards-background)
-- [Responsive behavior](#cards-responsive)
-<!-- - [Media cards](#cards-media) -->
 
 <hr>
-<div id="cards-basics"></div>
 
 ## Card basics
 
