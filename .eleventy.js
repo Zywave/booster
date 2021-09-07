@@ -26,6 +26,30 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
   });
 
+  // eleventyConfig.addCollection("applicationFrameworkAll", collection => {
+  //   const coll = collection.getAll().filter(item => item.inputPath.match(/^.\/src\/_areas\/application-framework\//)).sort((a, b) => {
+  //     let titleA = a.data.title.toUpperCase();
+  //     let titleB = b.data.title.toUpperCase();
+  //     if (titleA < titleB) return -1;
+  //       else if (titleA > titleB) return 1;
+  //       else return 0;
+  //   });
+
+  //   console.log(coll);
+  //   return coll;
+  // }
+  // );
+
+  // eleventyConfig.addCollection("designSystemAll", collection => 
+  //   collection.getAll().filter(item => item.inputPath.match(/^.\/src\/_areas\/design-system\//)).sort((a, b) => {
+  //     let titleA = a.data.title.toUpperCase();
+  //     let titleB = b.data.title.toUpperCase();
+  //     if (titleA < titleB) return -1;
+  //       else if (titleA > titleB) return 1;
+  //       else return 0;
+  //   })
+  // );
+
   eleventyConfig.addCollection("sortAZ", collection => {
     return collection.getAll().sort(function(a, b) {
       let titleA = a.data.title.toUpperCase();

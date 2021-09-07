@@ -5,8 +5,8 @@
   <section>
     {% set navPages = collections.sortAZ %}
     {% macro NavItem(doc) %}
-    {% if doc.data.system == page.url.split('/')[2] %}
-      {% if doc.data.parent == page.url.split('/')[3] %}
+    {% if doc.data.system == page.url.split('/')[1] %}
+      {% if doc.data.parent == page.url.split('/')[2] %}
         <li{% if doc.url == page.url %} aria-current="current"{% endif %}>
           <a href="{{ doc.url | url }}">{{ doc.data.title }}</a>
         </li>

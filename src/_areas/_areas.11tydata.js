@@ -3,7 +3,7 @@ function parseMetadata(data) {
   let system;
   if (data.page?.inputPath?.length) {
     const inputPath = data.page.inputPath;
-    const parts = inputPath.split("/_collections/");
+    const parts = inputPath.split("/_areas/");
     if (parts.length > 1) {
       const rightPart = parts[1];
       const splitOnSlash = rightPart.split("/");
@@ -18,7 +18,6 @@ function parseMetadata(data) {
     system
   }
 }
-
 
 module.exports = {
   eleventyComputed: {
@@ -42,6 +41,7 @@ module.exports = {
         console.log(data.page.inputPath);
       }
       restOfPath = restOfPath.replace(/\.[^/.]+$/, "");
+      console.log(restOfPath);
       return `${metadata.system}/${restOfPath}/`;
     }
   }
