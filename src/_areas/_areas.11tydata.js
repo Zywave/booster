@@ -38,11 +38,9 @@ module.exports = {
 
       let restOfPath = data.page.inputPath.split(`${metadata.system}/`)[1];
       if (!restOfPath) {
-        console.log(data.page.inputPath);
-        return undefined;
+        return `${data.page.inputPath.split('/_areas/')[1].replace(/\.[^/.]+$/, "")}.html`;
       }
       restOfPath = restOfPath.replace(/\.[^/.]+$/, "");
-      console.log(restOfPath);
       return `${metadata.system}/${restOfPath}/`;
     }
   }
