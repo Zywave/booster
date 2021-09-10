@@ -32,13 +32,14 @@ module.exports = {
     },
     permalink: data => {
       const metadata = parseMetadata(data);
-      if (!metadata.system) {
+      if (!metadata.system && !metadata.parent) {
         return undefined;
       }
 
       let restOfPath = data.page.inputPath.split(`${metadata.system}/`)[1];
       if (!restOfPath) {
         console.log(data.page.inputPath);
+        return undefined;
       }
       restOfPath = restOfPath.replace(/\.[^/.]+$/, "");
       console.log(restOfPath);
