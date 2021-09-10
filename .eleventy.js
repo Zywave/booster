@@ -26,13 +26,39 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
   });
 
-  eleventyConfig.addCollection("designSystemAll", collection => 
-    collection.getAll().filter(item => item.inputPath.match(/^.\/src\/_collections\/design-system\//))
-  );
+  // eleventyConfig.addCollection("applicationFrameworkAll", collection => {
+  //   const coll = collection.getAll().filter(item => item.inputPath.match(/^.\/src\/_areas\/application-framework\//)).sort((a, b) => {
+  //     let titleA = a.data.title.toUpperCase();
+  //     let titleB = b.data.title.toUpperCase();
+  //     if (titleA < titleB) return -1;
+  //       else if (titleA > titleB) return 1;
+  //       else return 0;
+  //   });
 
-  // eleventyConfig.addCollection("designSystemComponents", collection => 
-  //   collection.getAll().filter(item => item.inputPath.match(/^\/src\/_collections\/design-system\/components\//))
+  //   console.log(coll);
+  //   return coll;
+  // }
   // );
+
+  // eleventyConfig.addCollection("designSystemAll", collection => 
+  //   collection.getAll().filter(item => item.inputPath.match(/^.\/src\/_areas\/design-system\//)).sort((a, b) => {
+  //     let titleA = a.data.title.toUpperCase();
+  //     let titleB = b.data.title.toUpperCase();
+  //     if (titleA < titleB) return -1;
+  //       else if (titleA > titleB) return 1;
+  //       else return 0;
+  //   })
+  // );
+
+  eleventyConfig.addCollection("sortAZ", collection => {
+    return collection.getAll().sort(function(a, b) {
+      let titleA = a.data.title.toUpperCase();
+      let titleB = b.data.title.toUpperCase();
+      if (titleA < titleB) return -1;
+      else if (titleA > titleB) return 1;
+      else return 0;
+    });
+  });
 
   // Minify JS
   eleventyConfig.addFilter("jsmin", function(code) {
@@ -80,19 +106,19 @@ module.exports = function(eleventyConfig) {
     .use(markdownItAnchor, opts)
   );
 
-  eleventyConfig.addLinter("inclusive-language", function(content, inputPath, outputPath) {
-    let words = "simply,obviously,basically,of course,clearly,just,everyone knows,however,easy".split(",");
+  // eleventyConfig.addLinter("inclusive-language", function(content, inputPath, outputPath) {
+  //   let words = "simply,obviously,basically,of course,clearly,just,everyone knows,however,easy".split(",");
 
-    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-    if( inputPath.endsWith(".md") ) {
-      for( let word of words) {
-        let regexp = new RegExp("\\b(" + word + ")\\b", "gi");
-        if(content.match(regexp)) {
-          console.warn(`Inclusive Language Linter (${inputPath}) Found: ${word}`);
-        }
-      }
-    }
-  });
+  //   // Eleventy 1.0+: use this.inputPath and this.outputPath instead
+  //   if( inputPath.endsWith(".md") ) {
+  //     for( let word of words) {
+  //       let regexp = new RegExp("\\b(" + word + ")\\b", "gi");
+  //       if(content.match(regexp)) {
+  //         console.warn(`Inclusive Language Linter (${inputPath}) Found: ${word}`);
+  //       }
+  //     }
+  //   }
+  // });
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
