@@ -2,6 +2,13 @@
   publish = "_site"
   command = "yarn run build"
 
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ['main', 'develop', 'netlify-11ty-collections', 'netlify-algolia-search']
+  customDomain = "booster.zywave.dev"
+  renderJavaScript = true
+
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
