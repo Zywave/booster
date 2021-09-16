@@ -9,21 +9,12 @@
   </header>
 
   <section>
-    {% if parent !== system %}
-      <a class="nav-back-button" href="{{ parentPermalink | url }}">
-        <svg class="svg" id="svg" viewBox="0 0 24 24">
-          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
-        </svg>
-        {{ system | sentenceCase }}
-      </a>
-    {% else %}
-      <a class="nav-back-button" href="{{ '/' | url }}">
-        <svg class="svg" id="svg" viewBox="0 0 24 24">
-          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
-        </svg>
-        Home
-      </a>
-    {% endif %}
+    <a class="nav-back-button" href="{{ (parentPermalink | url) if (parent !== system) else ('/' | url) }}">
+      <svg class="svg" id="svg" viewBox="0 0 24 24">
+        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
+      </svg>
+      {{ (system | sentenceCase) if (parent !== system) else "Home" }}
+    </a>
 
     <hr>
 
