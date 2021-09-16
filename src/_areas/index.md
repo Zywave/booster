@@ -10,6 +10,7 @@ pageType: home
         <div class="logo"><img src="images/home/zywave-logo.svg" /></div>
         <nav>
             <ul>
+                <li><a href="{{ '/design-system/components/breadcrumbs/' | url }}">Breadcrumbs</a></li>
                 <li><a href="#">Getting started</a></li>
                 <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
                 <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
