@@ -10,6 +10,10 @@ layout: base
 <script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
 <script type="module" src="{{ "js/delayed-scroll-to-id.js" | url }}"></script>
+
+<script type="module" src="{{ "js/web-components/test-light-dom-wc.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/test-shadow-dom-wc.js" | url }}"></script>
+
 <script type="module">
   import { getQueryParamValue, getTabElementById, getIndexPosOfQueryWithinElement, hideAllTabContent, showApiTabContent, getUrlNoHash, createClipboardCopyIconElement } from '@booster/utils/component-docs-helpers.js';
 
@@ -64,6 +68,8 @@ layout: base
 </nav>
 <section id="content" class="zui column align-start">
   <div id="api" class="is-hidden">
+    <test-light-dom-wc></test-light-dom-wc>
+    <test-shadow-dom-wc></test-shadow-dom-wc>
     <customelement-manifest-element
       src="{{ api }}"
       initialElementName="{{ mainComponentName }}"
