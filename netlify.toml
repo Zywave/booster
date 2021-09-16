@@ -7,7 +7,13 @@ package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
   branches = ['main', 'develop', 'netlify-11ty-collections', 'netlify-algolia-search']
   customDomain = "booster.zywave.dev"
-  renderJavaScript = true
+  renderJavaScript = {
+    enabled: true,
+    waitTime: {
+      min: 1000,
+      max: 15000,
+    }
+  }
 
 # REDIRECT and HEADERS examples
 
