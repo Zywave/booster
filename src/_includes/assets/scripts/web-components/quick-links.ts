@@ -44,8 +44,8 @@ const css = `
         display: flex;
         align-items: center;
         margin-left: -0.15rem;
-        padding-left: 1rem;
-        line-height: 2.4;
+        padding: 0.5rem 0 0.5rem 1rem;
+        line-height: 1.4;
         text-decoration: none;
         color: var(--zui-gray);
         border-left: 3px solid transparent;
@@ -56,13 +56,13 @@ const css = `
         color: var(--zui-gray-300);
     }
 
-    nav a[data-current="current item"] {
+    nav li[aria-current="current"] a {
         color: var(--docs-orange-color);
         font-weight: 600;
         border-color: var(--docs-orange-color);
     }
 
-    nav a[data-current="current item"]:hover {
+    nav li[aria-current="current"] a:hover {
         color: hsl(var(--docs-orange-color-h), var(--docs-orange-color-s), 65%);
         border-color: hsl(var(--docs-orange-color-h), var(--docs-orange-color-s), 65%);
     }
@@ -126,14 +126,8 @@ customElements.define(
           <ul>
             ${this.getQueriedElements().map(
               (el) =>
-                `<li>
-                    <a
-                      href="${this.getUrlNoHash()}#${el.id}"
-                      ${this.doesUrlHaveHash(el.id)
-                        ? `data-current="current item"`
-                        : ``
-                      }
-                    >${el.childNodes[0].textContent}</a>
+                `<li ${this.doesUrlHaveHash(el.id) ? `aria-current="current"` : ``}>
+                    <a href="${this.getUrlNoHash()}#${el.id}">${el.childNodes[0].textContent}</a>
                   </li>`
             ).join('')}
             </ul>
