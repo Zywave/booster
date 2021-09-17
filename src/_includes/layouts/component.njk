@@ -11,9 +11,6 @@ layout: base
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
 <script type="module" src="{{ "js/delayed-scroll-to-id.js" | url }}"></script>
 
-<script type="module" src="{{ "js/web-components/test-light-dom-wc.js" | url }}"></script>
-<script type="module" src="{{ "js/web-components/test-shadow-dom-wc.js" | url }}"></script>
-
 <script type="module">
   import { getQueryParamValue, getTabElementById, getIndexPosOfQueryWithinElement, hideAllTabContent, showApiTabContent, getUrlNoHash, createClipboardCopyIconElement } from '@booster/utils/component-docs-helpers.js';
 
@@ -54,10 +51,7 @@ layout: base
 </script>
 
 <h1 class="component-header">{{ title }}</h1>
-
 <h2 class="component-subheader">{{ subtitle }}</h2>
-<test-light-dom-wc></test-light-dom-wc>
-<test-shadow-dom-wc></test-shadow-dom-wc>
 
 <nav class="zui row">
   <zui-tabs selected="-1">
