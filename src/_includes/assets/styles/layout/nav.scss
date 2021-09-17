@@ -136,8 +136,10 @@ nav.side-nav {
         font-weight: 300;
         color: #fff;
         opacity: 0.8;
+      }
 
-        &[data-current="current item"] {
+      &[aria-current="current"] {
+        a {
           font-weight: 600;
           opacity: 1;
         }
