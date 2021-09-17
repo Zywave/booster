@@ -1,0 +1,22 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+
+  &.content-with-sidenav {
+    width: calc(100% - #{rem(350)});
+    padding: rem(20);
+    transition: padding 100ms ease-in-out;
+
+    @media screen and (min-width: 60em) {
+      padding: rem(30);
+    }
+
+    @media screen and (min-width: 64em) {
+      padding: rem(50);
+    }
+
+    @media screen and (min-width: 80em) {
+      padding: rem(90);
+    }
+  }
+}

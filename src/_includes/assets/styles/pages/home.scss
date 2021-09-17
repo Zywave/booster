@@ -204,6 +204,33 @@
                     }
                 }
             }
+
+            // algolia search overrides
+            #search {
+                grid-column: 4/13;
+                // grid-row: 3/4;
+                width: 100%;
+                max-width: 100ch;
+                margin: 0 auto;
+                padding: rem(15) rem(22);
+                color: #fff;
+
+                @media screen and (min-width: 45em) {
+                    grid-column: 4/11;
+                }
+
+                form {
+                    --color-background: var(--docs-secondary-color);
+                    height: unset;
+                    border-radius: rem(25);
+                    border-color: #fefefe;
+                    
+                    &:hover,
+                    &:focus-visible {
+                        border-color: var(--docs-gray-color);
+                    }
+                }
+            }
         
             input[type="search"] {
                 grid-column: 4/13;
