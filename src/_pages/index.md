@@ -5,12 +5,12 @@ layout: base
 navHidden: true
 pageType: home
 ---
+
 <header class="home-nav">
     <div class="home-nav-content">
         <div class="logo"><img src="images/home/zywave-logo.svg" /></div>
         <nav>
             <ul>
-                <li><a href="{{ '/design-system/components/breadcrumbs/' | url }}">Breadcrumbs</a></li>
                 <li><a href="#">Getting started</a></li>
                 <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
                 <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
@@ -30,7 +30,6 @@ pageType: home
             </h1>
             <h3>Our development network powers and guides our products into orbit.</h3>
         </div>
-        <div id="search"></div>
         <input type="search" placeholder="Let's find something..." />
     </div>
 </div>
