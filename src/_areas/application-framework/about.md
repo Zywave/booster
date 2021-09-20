@@ -7,10 +7,9 @@ subtitle: What is it and what does it do?
 
 The Application Framework (commonly referred to as the Zywave API Toolkit) is a collection of API-driven custom elements that help enforce consistency of:
 
-* the design of a single component on a page
 * data and how it is presented
-* navigation
-* interaction
+* navigation through the Zywave ecosystem
+* interaction with Zywave platform componentry, such as support, profiles, etc.
 
 This collection of components will have heavy dependency on our [design system](/design-system/about/) to assist engineers in creating applications that fit snuggly into the Zywave value proposition. 
 
