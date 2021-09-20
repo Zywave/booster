@@ -1,25 +1,21 @@
 ---
+title: Toggles
+subtitle: A page element used to enable or disable an associated setting or feature.
 api: https://cdn.zywave.com/@zywave/zui-toggle@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-toggle@next/demo/index.html
 mainComponentName: zui-toggle
 includedElements: []
-title: Toggles
-subtitle: A page element used to enable or disable an associated setting or feature.
 ---
-
 ## What are toggles?
 
 A toggle is a page element used to enable or disable an associated setting or feature. For the most effective toggle usage, consider these toggle best practices:
 
-- Toggle settings should take effect immediately without the need for a confirm or save, just as a light switch is immediate.
+* Toggle settings should take effect immediately without the need for a confirm or save, just as a light switch is immediate.
+* Subsequent changes to the UI from the change of a toggle setting - such as hiding, showing, enabling, or disabling content - are not only acceptable but expected.
+* Labeling should generally be kept inline, to the left of a toggle and should imply the on/off or yes/no states.
+* If necessary, on/off labels should be kept next to a toggle rather than inside the component itself.
 
-- Subsequent changes to the UI from the change of a toggle setting&mdash;such as hiding, showing, enabling, or disabling content&mdash;are not only acceptable but expected.
-
-- Labeling should generally be kept inline, to the left of a toggle and should imply the on/off or yes/no states.
-
-- If necessary, on/off labels should be kept next to a toggle rather than inside the component itself.
-
----
+- - -
 
 ## When to use toggles
 
@@ -27,21 +23,21 @@ Use a toggle when the user must select a single option from a set of two opposin
 
 ### Alternate considerations
 
-- Use a [dropdown multi-select](components/dropdown-multi-select/) if zero or more options can be selected and for lists larger than 10 items.
-- Use a [dropdown select](components/dropdown-select/) if only one option can be selected and for lists larger than 10 items.
-- Use a [radio button](components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
-- Use a [checkbox](components/checkboxes/) if zero or more options can be selected and for lists smaller than 10 items.
+* Use a [dropdown multi-select](components/dropdown-multi-select/) if zero or more options can be selected and for lists larger than 10 items.
+* Use a [dropdown select](components/dropdown-select/) if only one option can be selected and for lists larger than 10 items.
+* Use a [radio button](components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
+* Use a [checkbox](components/checkboxes/) if zero or more options can be selected and for lists smaller than 10 items.
 
----
+- - -
 
 ## Styling and anatomy
 
 ![Toggles](images/components/toggles/toggles.svg)
 
-- Toggle height will always be 24px and width will always be 48px
-- Clickable area of the radio button will always be 36px
+* Toggle height will always be 24px and width will always be 48px
+* Clickable area of the radio button will always be 36px
 
----
+- - -
 
 ## Toggle states
 
@@ -63,7 +59,7 @@ Focus state appears when the toggle is currently selected and awaiting action. T
 
 Disabled state occurs when an action currently isn't available. Disabled toggles are locked into their current state and should only be used when an action can be taken within the current UI to enable the toggle. If no action can be taken to enable the toggle, then the toggle should be hidden instead of disabled.
 
----
+- - -
 
 ## Behavior and interaction
 
