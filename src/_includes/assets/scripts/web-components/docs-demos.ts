@@ -4,10 +4,14 @@ import "../prism/prism.js";
 import "./clipboard-copy-icon.js";
 
 const css = `
-  :host,
-    .demo {
-      display: flex;
-      flex-direction: column;
+  docs-demos {
+    width: 100%;
+  }
+
+  docs-demos,
+  .demo {
+    display: flex;
+    flex-direction: column;
   }
 
   h3 clipboard-copy-icon {
@@ -50,9 +54,12 @@ const css = `
     background: var(--docs-secondary-color);
   }
 
-  clipboard-copy-icon {
+  #content docs-demos .code-header clipboard-copy-icon {
     --button-background-color: transparent;
     --message-text-color: var(--zui-gray-200);
+    margin-left: 0;
+    opacity: 1;
+    transition: background 0.3s ease;
   }
 
   .demo:not(:first-of-type) {

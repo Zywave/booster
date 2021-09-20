@@ -25,9 +25,13 @@ zui-spinner:not([active]) {
     display: none;
   }
 
-  .usage {
-      width: calc(100% - 200px); /* subtracts quick-links width */
-      max-width: rem(1000);
+  #demos,
+  #usage .documentation {
+    width: calc(100% - 200px); /* subtracts quick-links width */
+  }
+
+  #usage .documentation {
+    max-width: rem(1000);
   }
   
   h1.component-header {

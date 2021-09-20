@@ -111,16 +111,18 @@ module.exports = {
 
           // check if current page
           let checkCurrentStatus = false;
-          const currentPagePath = data.page?.filePathStem?.split('/_areas/')[1];
-          const currentFileUrl = buildPermalink(fileFullPath).replace('/', '');
-          if (currentPagePath == currentFileUrl.replace(/\\/g, '/')) {
+          const currentPagePath = data.page?.inputPath?.split('/_areas/')[1].replace('.md', '/');
+          const currentFileUrl = buildPermalink(fileFullPath).replace(/\\/g, '/');
+          if (currentPagePath == currentFileUrl) {
             checkCurrentStatus = true;
           }
 
           return {
             url: fileUrl,
             name: fileName,
-            isCurrent: checkCurrentStatus
+            isCurrent: checkCurrentStatus,
+            currentPath: currentPagePath,
+            currentFile: currentFileUrl
           };
         });
       }
