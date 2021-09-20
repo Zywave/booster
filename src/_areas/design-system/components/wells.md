@@ -13,7 +13,7 @@ Wells are messages that provide the user with feedback. They can either be Zywav
 
 Wells provide a container and give emphasis to text. They should be used to attract the users attention to a message, more than just uncontained text. They are typically always present but in rare cases can animate in.
 
-For more information on when a well is the appropriate delivery system, see [messages.](/communications/messages)
+For more information on when a well is the appropriate delivery system, see [messages.](/design-system/voice-and-tone/messages)
 
 <hr>
 
@@ -30,7 +30,7 @@ We use the following terminology to refer to the parts of a well:
 5. **Close:** Allows the user to close a dismissible well.
 6. **Body text:** Provides the main content for the well. The body text should be three lines or less, with a max-width of 65 characters per line without spaces.
 
-For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/6f1e7711-b6ef-4f78-b179-700ddde71e4a-3a4d/).
+For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/6f1e7711-b6ef-4f78-b179-700ddde71e4a-3a4d/).
 
 <hr>
 
@@ -62,7 +62,7 @@ Tells the user that an attempted action or product feature has failed.
 
 <br>
 
-For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/053e23bf-3a9c-4524-a302-25c2a431d5e3-506d/).
+For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/053e23bf-3a9c-4524-a302-25c2a431d5e3-506d/).
 
 <hr>
 
@@ -82,7 +82,7 @@ Sometimes a well doesn't need to be present on the screen at all times. A dismis
 
 When a well is dismissed, we recommend the application remember the user's choice and not show the well again after a page refresh or the back button is pressed to get back to the previous page.
 
-The close icon button follows the same state rules as a button. For more information on these states, see [buttons](/componenets/buttons).
+The close icon button follows the same state rules as a button. For more information on these states, see [buttons](/design-system/components/buttons).
 
 <br>
 

@@ -9,7 +9,7 @@ subtitle: Unobstrusive messages that the user with more details.
 
 ## Usage
 
-Popovers are unobtrusive messages that provide the user with more detailed information when clicking on a page element. Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links. Popovers also trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
+Popovers are unobtrusive messages that provide the user with more detailed information when clicking on a page element. Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links. Popovers also trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
 
 Popovers should be used:
 
@@ -21,7 +21,7 @@ Popovers should be used:
 
 ### Alternate considerations
 
-A [tooltip](http://zui.zywave.comcomponents/tooltips/) may be the appropriate component if the message is a small text hint explaining the anchored element, if the message needs to only be visible on hover, and if the message can disappear when the user moves away from the element.
+A [tooltip](/design-system/components/tooltips/) may be the appropriate component if the message is a small text hint explaining the anchored element, if the message needs to only be visible on hover, and if the message can disappear when the user moves away from the element.
 
 <hr>
 
@@ -29,7 +29,7 @@ A [tooltip](http://zui.zywave.comcomponents/tooltips/) may be the appropriate 
 
 ![Image of popover](images/components/popovers/popover_anatomy.svg)
 
-Popovers consist of a shape background, shadow, text, and can include a variety of components. For detailed documentation on our popover anatomy, view the [ZUI popover design specs](https://xd.adobe.com/view/35952280-c758-4fd8-6dc4-07f88b1fe619-43a4/grid).
+Popovers consist of a shape background, shadow, text, and can include a variety of components. For detailed documentation on our popover anatomy, view the [ZUI popover design specs](https://xd.adobe.com/view/35952280-c758-4fd8-6dc4-07f88b1fe619-43a4/grid).
 
 ### Required
 

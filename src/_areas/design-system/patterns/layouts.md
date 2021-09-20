@@ -56,8 +56,8 @@ Cards are made up of three main sections: a header, a body, and a footer. Each s
 
 The size of a card is determined by the type of content it's hosting. As long as the contents within a card meet our standards of readability, its size does not matter.
 
-- Max width and height of a card follows the [content area guidelines](/foundations/content-area/ "content area guildlines").
-- For larger cards, follow our [line length documentation](/foundations/fonts-typography/ "line length documentation") to make sure lines of text don't get too long.
+- Max width and height of a card follows the [content area guidelines](/design-system/components/shell?tab=usage).
+- For larger cards, follow our [line length documentation](/design-system/visuals/fonts-typography/) to make sure lines of text don't get too long.
 - Cards should not be less than 250px wide.
 
 ![Sizing](images/patterns/cards/card--sizing-minwidth.svg)
@@ -80,7 +80,7 @@ When data is displayed in a listview within cards, they should follow the same g
 
 ### Content guidelines
 
-Cards are a great tool for communicating quick stories. Like all stories, the title is important to know if you'd like to read it. Always follow our [voice and tone guidelines](/communications/voice-tone/ "Voice and Tone Guidelines").
+Cards are a great tool for communicating quick stories. Like all stories, the title is important to know if you'd like to read it. Always follow our [writing style guide](/design-system/writing-style-guide/).
 
 - **Keep it simple:** the headline needs to be easy to digest.
 - **Keep it short:** make it so user can scan the material.
@@ -116,7 +116,7 @@ Use a subheading when you need more supporting copy to reinforce what users will
 
 ### Icons in the header
 
-The only icon we currently support in the header is the gripper icon, which is used to indicate moving a card. See the [dragging a card](#cards-dragging) documentation for more information. If you have a need to include an icon, contact the ZUI team and we will log an enhancement.
+The only icon we currently support in the header is the gripper icon, which is used to indicate moving a card. See the [dragging a card](#dragging-a-card) documentation for more information. If you have a need to include an icon, contact the ZUI team and we will log an enhancement.
 
 <hr>
 
@@ -133,7 +133,7 @@ In many cases a card offers a entry point to for the user to find more informati
 
 ### Header actions
 
-Header actions typically affect the information within the card such as a Add, Edit, or Save. When using a call-to-action within a card, most often use a [secondary button](/components/buttons/ "secondary button"). Primary buttons should be reserved for the most important action a user can take on the page.
+Header actions typically affect the information within the card such as a Add, Edit, or Save. When using a call-to-action within a card, most often use a [secondary button](/design-system/components/buttons/). Primary buttons should be reserved for the most important action a user can take on the page.
 
 ![Header actions](images/patterns/cards/card--actions-header-secondary.svg)
 
@@ -145,7 +145,7 @@ Due to the limited space in the header for actions, using an icon button is acce
 
 <Spacer size="small" />
 
-When a card is larger it is acceptable to have multiple actions within the header, just avoid too many call-to-action buttons or links and only one primary call to action per card. If there are more than two actions, use a [button dropdown](/components/button-dropdowns/ "button dropdown").
+When a card is larger it is acceptable to have multiple actions within the header, just avoid too many call-to-action buttons or links and only one primary call to action per card. If there are more than two actions, use a [button dropdown](/design-system/components/button-dropdowns/).
 
 ![Header multiple actions](images/patterns/cards/card--actions-multiple-actions.svg)
 
@@ -155,7 +155,7 @@ When a card is larger it is acceptable to have multiple actions within the heade
 
 Footer actions are typically directional, used for kicking off workflows or next step type actions, such as Create a dynamic list.
 
-- When using a call-to-action within a card, most often use a [secondary button](/components/buttons/ "secondary button"). Primary buttons should be reserved for the most important action a user can take on the page.
+- When using a call-to-action within a card, most often use a [secondary button](/design-system/components/buttons/). Primary buttons should be reserved for the most important action a user can take on the page.
 - Avoid icon buttons as they aren't clear enough.
 - Depending on the content in the card footer actions can be aligned on the left or centered. For example, if there are form fields in the card, best practice is to line up the action under the fields on the left side.
 
@@ -249,7 +249,7 @@ When you need multiple pieces of content to occupy a single space, a carousel is
 
 ## Loading content into cards
 
-While the data for a card is loading, the card’s contents are replaced with a loading spinner. While the card is in a loading state, any actions that could be taken on the card’s content are disabled. Cards should not change height drastically when data appears and is rendered.
+While the data for a card is loading, the card's contents are replaced with a loading spinner. While the card is in a loading state, any actions that could be taken on the card's content are disabled. Cards should not change height drastically when data appears and is rendered.
 
 ### Skeleton screens
 
@@ -266,7 +266,7 @@ A skeleton screen is a low fidelity UI into which information is gradually loade
 Adding background graphics can give the card more visual interest and evoke more emotion to connect with the user. Follow these best practices:
 
 - Bleeding the image to the edge is preferred.
-- Illustrations are preferred. See our [illustration guidelines](/foundations/illustrations/ "illustration guidelines").
+- Illustrations are preferred. See our [illustration guidelines](/design-system/visuals/illustrations/).
 - Avoid overlapping text.
 - Keep in mind scaling to ensure the background graphic is appropriately sized on all card sizes.
 

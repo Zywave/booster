@@ -14,11 +14,6 @@ subtitle: Wraps around all of our applications and provides suite level consiste
 
 The Shell wraps around all of our applications and provides suite level consistencies, branding, and common functionality. It helps the user understand and navigate the core of the Zywave suite.
 
-<!--
-##### Links
-[View shell specs](https://xd.adobe.com/spec/e5a044ff-f756-4d8a-433b-62c78587509b-9391/)
--->
-
 ---
 
 ## Anatomy
@@ -190,7 +185,7 @@ The following are nav items that are recommended for every application, when app
 
 - All top-level nav items should have a corresponding icon to help quickly identify the action. These icons are also used when the menu is collapsed.
 - Child items do not have icons associated with them.
-- For more information [view our icon standards](/foundations/icons)
+- For more information [view our icon standards](/design-system/visuals/iconography)
 
 <Spacer size="small"/>
 
@@ -395,9 +390,9 @@ Studies have shown that between `45` to `75` characters per single line of text 
 
 Using the same studies and conclusion as Text Areas, Text Inputs should also have a max-width of `700px` for a single line of text. There is also `15px` of interior left and right padding within Text Inputs, therefore the max-width of a text input should overall equal `730px`. Meaning that when there is a Text Input on the page or within a card, the max-width of that input should be `730px`. Regardless of card size, ranging from `900px` to full-width (up to `1600px`), the Text Input should never be larger than `730px`.
 
-[View text standards](http://zui.zywave.com/foundations/fonts-typography/)
+[View text standards](/design-system/visuals/fonts-typography/)
 
-[View form standards](http://zui.zywave.com/patterns/forms/)
+[View form standards](/design-system/patterns/forms/)
 
 #### Tables
 
@@ -557,7 +552,7 @@ Action bar keeps the action buttons in a standard state on the screen, even when
 
 #### Alternate considerations
 
-- Use [dialog box](https://zui.zywave.com/components/dialogs/) to keep the user focused on the form and input fields and if you have only a few input fields
+- Use [dialog box](/design-system/components/dialogs/) to keep the user focused on the form and input fields and if you have only a few input fields
 
 <br />
 

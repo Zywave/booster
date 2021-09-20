@@ -19,10 +19,10 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 ### Alternate considerations
 
-- Use a [dropdown multi-select](components/dropdown-multi-select/) if zero or more options can be selected and for lists larger than 10 items.
-- Use a [dropdown select](components/dropdown-select/) if only one option can be selected and for lists larger than 10 items.
-- Use a [radio button](components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
-- Use a [toggle](components/toggles/) if the options are two opposing states such as a yes or no, on or off.
+- Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
+- Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
+- Use a [radio button](/design-system/components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
+- Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
 
 <hr>
 
@@ -45,7 +45,7 @@ Standard checkboxes are the most common. They allow the user to make selections 
 
 Gallery checkboxes are more prominent than standard checkboxes. They often feature an icon and take up a great deal of space on the page. They are generally used when they control the only selection the user can make on that page.
 
-- Because they’re so large, they should generally be reserved for when that selection is the only one the user can make on that page.
+- Because they're so large, they should generally be reserved for when that selection is the only one the user can make on that page.
 - Icons both emphasize the selection and reinforce the contrast between the options.
 
 <hr>
@@ -87,7 +87,7 @@ Focus state appears when the checkbox is currently selected and awaiting action.
 
 ### Disabled
 
-Disabled state occurs when an action currently isn’t available. Disabled checkboxes should only be used when an action can be taken within the current UI to enable the checkbox. If no action can be taken to enable the checkbox, then the checkbox should be hidden instead of disabled.
+Disabled state occurs when an action currently isn't available. Disabled checkboxes should only be used when an action can be taken within the current UI to enable the checkbox. If no action can be taken to enable the checkbox, then the checkbox should be hidden instead of disabled.
 
 <hr>
 
@@ -119,4 +119,4 @@ A checkbox without a label is unusable; the user will not know what selection th
 
 <hr>
 
-For more information on selection controls and keyboard accessibility [view form standards](http://zui.zywave.com/patterns/forms/).
+For more information on selection controls and keyboard accessibility [view form standards](/design-system/patterns/forms/).
