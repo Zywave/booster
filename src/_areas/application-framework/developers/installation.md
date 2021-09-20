@@ -19,7 +19,7 @@ By loading the bundle via a CDN that can resolve npm tags, we can push fixes/enh
 
 ### latest/next
 
-You may have noticed in that code snippet above the following:\
+You may have noticed in that code snippet above the following:  
 `@{latest|next}`  
 
 These terms correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
@@ -38,6 +38,6 @@ A versioned URL could look something like the following:
 
 The Zywave API Toolkit, as its name might suggest, communicates with Zywave's own APIs via client-side JavaScript. Because of distrust when it comes to client-side authentication, we offer an API Proxy element that communicates API calls through a hosted proxy application, which applies secure headers before sending the request off to the underlying APIs. This element *must* be the first element on the page within your `<body>` and requires an `api-base-url` be supplied to ensure it is pointing at the proper host.
 
-**Note:** the API proxy element can only be used by a Zywave SSO'd user and at a *.zywave.com subdomain. If this doesn't apply to you, then you will be required to provide a `profile-token` or `bearer-token` to all Zywave API Toolkit components. 
+**Note:** the API proxy element can only be used by a user authenticated with Zywave SSO and at a *.zywave.com subdomain. If this doesn't apply to you, then you will be required to provide a `profile-token` or `bearer-token` to all Zywave API Toolkit components. 
 
-For more information on the API Proxy Element, click \[here](/application-framework/components/api-proxy/).
+For more information on the API Proxy Element, click [here](/application-framework/components/api-proxy/).
