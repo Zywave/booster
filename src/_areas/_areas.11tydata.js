@@ -113,7 +113,7 @@ module.exports = {
           let checkCurrentStatus = false;
           const currentPagePath = data.page?.filePathStem?.split('/_areas/')[1];
           console.log(currentPagePath);
-          const currentFileUrl = buildPermalink(fileFullPath).replace('/', '').replace(/\\/g, '/');
+          const currentFileUrl = buildPermalink(fileFullPath);
           console.log(currentFileUrl);
           if (currentPagePath == currentFileUrl) {
             checkCurrentStatus = true;
