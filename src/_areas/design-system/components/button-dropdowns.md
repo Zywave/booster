@@ -108,7 +108,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 #### Interaction behavior
 
-Button dropdowns follow the same [guidelines](/design-system/components/buttons) as regular buttons when it comes to behavior and interaction.
+Button dropdowns follow the same [guidelines](/design-system/components/buttons/) as regular buttons when it comes to behavior and interaction.
 
 <Spacer size="small" />
 

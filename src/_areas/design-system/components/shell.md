@@ -185,7 +185,7 @@ The following are nav items that are recommended for every application, when app
 
 - All top-level nav items should have a corresponding icon to help quickly identify the action. These icons are also used when the menu is collapsed.
 - Child items do not have icons associated with them.
-- For more information [view our icon standards](/design-system/visuals/iconography)
+- For more information [view our icon standards](/design-system/visuals/iconography/)
 
 <Spacer size="small"/>
 

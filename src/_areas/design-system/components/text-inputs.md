@@ -9,7 +9,7 @@ subtitle: A single-line box that the user can enter text into.
 
 ### See also
 
-[forms](/design-system/patterns/forms)
+[forms](/design-system/patterns/forms/)
 <br>
 <br>
 
@@ -107,7 +107,7 @@ The label elements helps bring proper context to your inputs to let the user kno
 
 #### Form labels
 
-Generally, a single label element should be present for a single control. For general form element labeling standards [see our forms labeling documentation.](/design-system/patterns/forms)
+Generally, a single label element should be present for a single control. For general form element labeling standards [see our forms labeling documentation.](/design-system/patterns/forms/)
 
 <br>
 <br>

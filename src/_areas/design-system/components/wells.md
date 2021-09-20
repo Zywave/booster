@@ -13,7 +13,7 @@ Wells are messages that provide the user with feedback. They can either be Zywav
 
 Wells provide a container and give emphasis to text. They should be used to attract the users attention to a message, more than just uncontained text. They are typically always present but in rare cases can animate in.
 
-For more information on when a well is the appropriate delivery system, see [messages.](/design-system/voice-and-tone/messages)
+For more information on when a well is the appropriate delivery system, see [messages.](/design-system/voice-and-tone/messages/)
 
 <hr>
 
@@ -82,7 +82,7 @@ Sometimes a well doesn't need to be present on the screen at all times. A dismis
 
 When a well is dismissed, we recommend the application remember the user's choice and not show the well again after a page refresh or the back button is pressed to get back to the previous page.
 
-The close icon button follows the same state rules as a button. For more information on these states, see [buttons](/design-system/components/buttons).
+The close icon button follows the same state rules as a button. For more information on these states, see [buttons](/design-system/components/buttons/).
 
 <br>
 

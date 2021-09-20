@@ -29,7 +29,7 @@ The following are the basic building blocks for creating forms. These elements a
 
 #### Text input
 
-A single-line box that the user can enter text into. They automatically move with their content to the left as the text input cursor reaches the right edge of the input field. See below for more detailed documentation on field sizes and statuses. For more information see [Text inputs documentation.](/design-system/components/text-inputs)
+A single-line box that the user can enter text into. They automatically move with their content to the left as the text input cursor reaches the right edge of the input field. See below for more detailed documentation on field sizes and statuses. For more information see [Text inputs documentation.](/design-system/components/text-inputs/)
 
 ![Text field](images/components/text-input/text-input--normal.svg)
 
@@ -37,7 +37,7 @@ A single-line box that the user can enter text into. They automatically move wit
 
 #### Drop-down select
 
-Use this control when you need to pick just one item from a list. For more information see [dropdown-select documentation.](/design-system/components/dropdown-selects)
+Use this control when you need to pick just one item from a list. For more information see [dropdown-select documentation.](/design-system/components/dropdown-selects/)
 
 ![Dropdown select](images/components/dropdown-select/dropdown-select.svg)
 
@@ -45,7 +45,7 @@ Use this control when you need to pick just one item from a list. For more infor
 
 #### Radio button
 
-A one at a time selection. Only one button can be selected from a group. If you select another, the previously selected input is deselected. For more information see [radio-button documentation.](/design-system/components/radio-buttons)
+A one at a time selection. Only one button can be selected from a group. If you select another, the previously selected input is deselected. For more information see [radio-button documentation.](/design-system/components/radio-buttons/)
 
 ![Radio buttons](images/components/radio-buttons/radio-button.svg)
 
@@ -53,7 +53,7 @@ A one at a time selection. Only one button can be selected from a group. If you 
 
 #### Checkbox
 
-This type of input is used when you need users to answer a question with a yes or no response. More than one can be selected. For more information see [checkboxes documentation.](/design-system/components/checkboxes)
+This type of input is used when you need users to answer a question with a yes or no response. More than one can be selected. For more information see [checkboxes documentation.](/design-system/components/checkboxes/)
 
 ![Checkbox](images/components/checkboxes/checkbox.svg)
 
@@ -61,7 +61,7 @@ This type of input is used when you need users to answer a question with a yes o
 
 #### Toggle
 
-Cross between a button and checkbox. An on/off or true/false data input, used for a binary flip. For more information see [toggles documentation.](/design-system/components/toggles)
+Cross between a button and checkbox. An on/off or true/false data input, used for a binary flip. For more information see [toggles documentation.](/design-system/components/toggles/)
 
 ![Toggle](images/components/toggles/toggle-on.svg)
 
@@ -77,7 +77,7 @@ Appears as a standard text input but with calendar icon and date format as ghost
 
 #### File input
 
-The file input component allows the user to select one or many files from a user's file system, either natively using a file input or drag and drop. For more information see [file input documentation.](/design-system/components/file-inputs)
+The file input component allows the user to select one or many files from a user's file system, either natively using a file input or drag and drop. For more information see [file input documentation.](/design-system/components/file-inputs/)
 
 ![File input](images/components/file-input/singlefile_do_action.svg)
 
@@ -107,7 +107,7 @@ Putting all the pieces together in the right order and layout is essential for a
 
 ###### Multi-step
 
-A multi-step form is a long form that is broken into multiple pieces. They're used to make long forms less intimidating. By allowing users to complete their information in smaller chunks, you create a positive user experience and increase the chance of form completion. Consider using a [step flow](/design-system/patterns/step-flow) for multi-step forms.
+A multi-step form is a long form that is broken into multiple pieces. They're used to make long forms less intimidating. By allowing users to complete their information in smaller chunks, you create a positive user experience and increase the chance of form completion. Consider using a [step flow](/design-system/patterns/step-flow/) for multi-step forms.
 
 <Spacer size="small" />
 
@@ -186,7 +186,7 @@ In many cases it is reccomended to group related fields together using a card as
 
 #### Action hierarchy
 
-Forms typically have Primary and Cancel actions, but they could also have a secondary save action. Primary actions are buttons in a form that perform essential 'final' functionality, such as 'Save' or 'Submit'. For more information see [button documentation.](/design-system/components/buttons)
+Forms typically have Primary and Cancel actions, but they could also have a secondary save action. Primary actions are buttons in a form that perform essential 'final' functionality, such as 'Save' or 'Submit'. For more information see [button documentation.](/design-system/components/buttons/)
 
 ![contexutal help info icon](images/patterns/forms/forms--actions-heirarchy.svg)
 
@@ -211,7 +211,7 @@ Form actions should appear where the user is likely to look first after completi
 
 ###### Place back buttons at the top
 
-In Multi-step forms some people want to go back to check or change their answers. In these cases use a back button at the top of the form. [Breadcrumbs](/design-system/components/breadcrumbs) work very well in these cases.
+In Multi-step forms some people want to go back to check or change their answers. In these cases use a back button at the top of the form. [Breadcrumbs](/design-system/components/breadcrumbs/) work very well in these cases.
 
 ![form actions inline ](images/patterns/forms/forms--actions-back.svg)
 <br>
@@ -227,7 +227,7 @@ To comply with modal standards the form actions should be placed in the footer o
 
 ###### Actions on the right side of a page
 
-When the action will take you to another page align the action to the bottom right of the page. Usually this is used in a multi-step process. See [Step Flow documentation.](/design-system/patterns/step-flow)
+When the action will take you to another page align the action to the bottom right of the page. Usually this is used in a multi-step process. See [Step Flow documentation.](/design-system/patterns/step-flow/)
 
 <hr>
 
@@ -257,7 +257,7 @@ Occasionally, all of the fields are required except one or two. In these times i
 
 <Spacer/>
 
-In some cases a label isn't enough and we need provide additional help. Contextual help should appear directly on a form page so that users can easily find help when they look for it. This can take many appearances, such as constantly visible helper text below or to the right of the field, or a [tooltip](/design-system/components/tooltips) or popover icon. All of these are suitable options and will depend on structure and complexity of the form.
+In some cases a label isn't enough and we need provide additional help. Contextual help should appear directly on a form page so that users can easily find help when they look for it. This can take many appearances, such as constantly visible helper text below or to the right of the field, or a [tooltip](/design-system/components/tooltips/) or popover icon. All of these are suitable options and will depend on structure and complexity of the form.
 
 ![Contexutal help examples](images/patterns/forms/contextual-help--examples.svg)
 

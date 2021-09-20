@@ -31,7 +31,7 @@ Step flows may appear in a number of different places in our products, and may b
 
 ##### Full-page overlay
 
-To focus user attention, we recommend a full-page overlay that animates in and covers the entire screen, including the top bar and side navigation. For different size considerations, see [dialogs](/design-system/components/dialogs).
+To focus user attention, we recommend a full-page overlay that animates in and covers the entire screen, including the top bar and side navigation. For different size considerations, see [dialogs](/design-system/components/dialogs/).
 
 ##### Navigation
 

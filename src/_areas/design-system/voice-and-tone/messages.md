@@ -23,28 +23,28 @@ Delivery systems are the vehicles we use to convey a message to the user. Rememb
 
 #### <span id="wells">Wells</span>
 
-A non-dismissible container with text. For more information, see [Wells](/design-system/components/wells).
+A non-dismissible container with text. For more information, see [Wells](/design-system/components/wells/).
 
 </GridCol>
 <GridCol col="span-4">
 
 #### <span id="notifiers">Notifiers</span>
 
-An unobtrusive, dismissible piece of text in a window element. For more information, see [Notifiers](/design-system/components/notifiers).
+An unobtrusive, dismissible piece of text in a window element. For more information, see [Notifiers](/design-system/components/notifiers/).
 
 </GridCol>
 <GridCol col="span-4">
 
 #### <span id="dialogs">Dialogs</span>
 
-Text displayed in a content box layered above the current page. For more information, see [Dialogs](/design-system/components/dialogs).
+Text displayed in a content box layered above the current page. For more information, see [Dialogs](/design-system/components/dialogs/).
 
 </GridCol>
 <GridCol col="span-4">
 
 #### <span id="tooltips">Tooltips</span>
 
-A short, helpful piece of text produced by hovering, often an icon next to the field it is referencing. For more information, see [Tooltips](/design-system/components/tooltips).
+A short, helpful piece of text produced by hovering, often an icon next to the field it is referencing. For more information, see [Tooltips](/design-system/components/tooltips/).
 
 </GridCol>
 <GridCol col="span-4">
