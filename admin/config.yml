@@ -10,7 +10,8 @@ media_folder: "static/images" # Media files will be stored in the repo under ima
 
 collections:
   - name: "application_framework"
-    label: "Application Framework"
+    label: "Application framework"
+    label_singular: "Application framework page"
     folder: "src/_areas/application-framework"
     create: true
     fields:
@@ -19,7 +20,8 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "application_framework_components"
-    label: "Application Framework / Components"
+    label: "Application framework / Components"
+    label_singular: "component"
     folder: "src/_areas/application-framework/components"
     create: true
     fields:
@@ -31,7 +33,8 @@ collections:
       - { label: "Main component name", name: "mainComponentName", widget: "string" }
       - { label: "Included elements", name: "includedElements", widget: "list", default: [] }
   - name: "application_framework_developers"
-    label: "Application Framework / Developers"
+    label: "Application framework / Developers"
+    label_singular: "dev doc"
     folder: "src/_areas/application-framework/developers"
     create: true
     fields:
@@ -41,6 +44,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
+    label_singular: "blog post"
     folder: "src/_areas/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -53,7 +57,8 @@ collections:
       - { label: "Collection", name: "collection", widget: "select", options: [ "Design", "Engineering", "Research" ] }
       - { label: "Tags", name: "tags", widget: "list", default: [] }
   - name: "design_system"
-    label: "Design System"
+    label: "Design system"
+    label_singular: "Design system page"
     folder: "src/_areas/design-system"
     create: true
     fields:
@@ -62,7 +67,8 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "design_system_components"
-    label: "Design System / Components"
+    label: "Design system / Components"
+    label_singular: "component"
     folder: "src/_areas/design-system/components"
     create: true
     fields:
@@ -74,7 +80,8 @@ collections:
       - { label: "Main component name", name: "mainComponentName", widget: "string" }
       - { label: "Included elements", name: "includedElements", widget: "list", default: []}
   - name: "design_system_developers"
-    label: "Design System / Developers"
+    label: "Design system / Developers"
+    label_singular: "dev doc"
     folder: "src/_areas/design-system/developers"
     create: true
     fields:
@@ -83,7 +90,8 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "design_system_patterns"
-    label: "Design System / Patterns"
+    label: "Design system / Patterns"
+    label_singular: "Patterns doc"
     folder: "src/_areas/design-system/patterns"
     create: true
     fields:
@@ -92,7 +100,8 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "design_system_visuals"
-    label: "Design System / Visuals"
+    label: "Design system / Visuals"
+    label_singular: "Visuals doc"
     folder: "src/_areas/design-system/visuals"
     create: true
     fields:
@@ -101,7 +110,8 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "design_system_voice-and-tone"
-    label: "Design System / Voice and Tone"
+    label: "Design system / Voice and Tone"
+    label_singular: "Voice and tone doc"
     folder: "src/_areas/design-system/voice-and-tone"
     create: true
     fields:
