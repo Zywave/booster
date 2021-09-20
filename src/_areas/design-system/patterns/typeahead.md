@@ -137,7 +137,7 @@ Using category headers, labels, or icons can help narrow down search suggestions
 Typeahead suggestions will display in a dropdown, typically after the third character is typed into the text box. Users may hover over a typeahead suggestion with their mouse, or arrow down to highlight a suggestion. To select a specific suggestion, uses may either click the suggestion with their mouse, or choose Enter when the suggestion is highlighted.
 <br><br>
 
-[View a live example](http://zui.zywave.com-knockout-typeahead/)
+[View a live example](/design-system/components/dropdown-multi-selects/?tab=demos)
 
 </GridCol>
 

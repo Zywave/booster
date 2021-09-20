@@ -19,20 +19,20 @@ Combining a few related actions into a button group can be useful for a feature.
 
 #### Alternate Considerations
 
-- Use [individual buttons](https://zui.zywave.comcomponents/buttons/) when the buttons are not related.
-- Use [radio buttons](https://zui.zywave.comcomponents/radio-buttons/) when labels require more text, or you need a segmented control that emphasizes a selection being made.
-- Use [tabs](https://zui.zywave.comcomponents/tabs/) when you need tertiary navigation on a page.
-- Use [toggle buttons](https://zui.zywave.comcomponents/toggles/) when a feature needs to be enabled or disabled.
+- Use [individual buttons](/design-system/components/buttons/) when the buttons are not related.
+- Use [radio buttons](/design-system/components/radio-buttons/) when labels require more text, or you need a segmented control that emphasizes a selection being made.
+- Use [tabs](/design-system/components/tabs/) when you need tertiary navigation on a page.
+- Use [toggle buttons](/design-system/components/toggles/) when a feature needs to be enabled or disabled.
 
 ---
 
 ## Anatomy
 
-Button groups follow the same anatomy rules as a button. For more information on these states, see [buttons](https://zui.zywave.comcomponents/buttons/).
+Button groups follow the same anatomy rules as a button. For more information on these states, see [buttons](/design-system/components/buttons/).
 
 ![Anatomy of a button group](images/components/button-groups/anatomy.svg)
 
-1. Button: The shape that encloses the label. Follow the [buttons](https://zui.zywave.comcomponents/buttons/) guidelines for style variations, sizing, and spacing specifications.
+1. Button: The shape that encloses the label. Follow the [buttons](/design-system/components/buttons/) guidelines for style variations, sizing, and spacing specifications.
 2. Dividers: The line that separates the buttons.
 
 For detailed documentation on our button group anatomy, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/specs/).
@@ -67,7 +67,7 @@ For detailed documentation on adding icons to button groups, view the [design sp
 
 #### Using button dropdowns
 
-Button dropdowns are acceptable in button groups. For more information about button dropdowns, see [button dropdowns](https://zui.zywave.comcomponents/button-dropdowns/).
+Button dropdowns are acceptable in button groups. For more information about button dropdowns, see [button dropdowns](/design-system/components/button-dropdowns/).
 
 ![button group dropdowns](images/components/button-groups/buttondropdown.svg)
 
@@ -89,7 +89,7 @@ Dropdowns can be placed anywhere in a button group as long as the buttons are or
 
 ![button group states](images/components/button-groups/states.svg)
 
-The focused state for button groups uses an internal borderline. All of the other states follow regular [buttons](https://zui.zywave.comcomponents/buttons/) guidelines.
+The focused state for button groups uses an internal borderline. All of the other states follow regular [buttons](/design-system/components/buttons/) guidelines.
 
 <br>
 
@@ -129,7 +129,7 @@ For detailed documentation on our button groups states, view the [design specs](
 
 ## Best-practices
 
-Button groups should follow the best practices outlined in the [button](https://zui.zywave.comcomponents/buttons/) component and guidelines for the [button dropdown](https://zui.zywave.comcomponents/button-dropdowns/) component when included.
+Button groups should follow the best practices outlined in the [button](/design-system/components/buttons/) component and guidelines for the [button dropdown](/design-system/components/button-dropdowns/) component when included.
 
 <br>
 

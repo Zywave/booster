@@ -14,8 +14,8 @@ Use step flows to focus the user on a single task and reduce the cognitive load 
 
 #### Alternate considerations
 
-- Use [expanders](/components/zui-expanders) to break long blocks of content into separate sections with independent workflows.
-- Use [tabs](/components/zui-tabs) to break content into distinct workflows that can be completed independently, or to offer alternative views of the same information.
+- Use [expanders](/design-system/components/expanders) to break long blocks of content into separate sections with independent workflows.
+- Use [tabs](/design-system/components/tabs) to break content into distinct workflows that can be completed independently, or to offer alternative views of the same information.
 
 <hr>
 
@@ -31,7 +31,7 @@ Step flows may appear in a number of different places in our products, and may b
 
 ##### Full-page overlay
 
-To focus user attention, we recommend a full-page overlay that animates in and covers the entire screen, including the top bar and side navigation. For different size considerations, see [dialog](/components/zui-dialog).
+To focus user attention, we recommend a full-page overlay that animates in and covers the entire screen, including the top bar and side navigation. For different size considerations, see [dialogs](/design-system/components/dialogs/).
 
 ##### Navigation
 
@@ -118,7 +118,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 - Only use a progress indicator if you know exactly how many steps are in the process.
 - Both horizontal and vertical progress indicators are available.
 
-For more information about the component itself, see the [step progress indicator page](#).
+<!-- For more information about the component itself, see the [step progress indicator page](#). -->
 
 </GridCol>
 

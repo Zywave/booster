@@ -9,7 +9,7 @@ subtitle: Allows the user to select one or many files from the user's file syste
 
 ## Usage
 
-The file input allows the user to select one or many files from the user’s file system and upload to the application.
+The file input allows the user to select one or many files from the user's file system and upload to the application.
 
 ---
 
@@ -19,18 +19,18 @@ The file input allows the user to select one or many files from the user’s fil
 
 The single-file input consists of an action and input field.
 
-1. **Icon (optional):** Gives more definition to the upload action.
-2. **Action:** A single action associated with the file input, such as 'Browse' or 'Upload content.'
+1. **Icon (optional):** Gives more definition to the upload action.
+2. **Action:** A single action associated with the file input, such as 'Browse' or 'Upload content.'
 3. **Input field:** A clickable container that brings up the file explorer.
-4. **Input text:** Placeholder text will instruct users to select file(s) or drop file(s) into the dropzone for upload. Once a file has been selected, the filename will appear.
+4. **Input text:** Placeholder text will instruct users to select file(s) or drop file(s) into the dropzone for upload. Once a file has been selected, the filename will appear.
 
-For detailed documentation on our single-file input anatomy, view the [ZUI single-file input design specs](https://xd.adobe.com/view/f50eaaf7-355c-424d-93d1-59d91ca911a4-a05d/specs/).
+For detailed documentation on our single-file input anatomy, view the [ZUI single-file input design specs](https://xd.adobe.com/view/f50eaaf7-355c-424d-93d1-59d91ca911a4-a05d/specs/).
 
 ---
 
 ## Types
 
-We have two types of file inputs that allow the user to upload the appropriate amount of files through their file explorer or drag and drop.
+We have two types of file inputs that allow the user to upload the appropriate amount of files through their file explorer or drag and drop.
 
 ### Single-file input
 
@@ -46,9 +46,9 @@ Allows the user to upload one file through their file explorer or by dropping th
 
 ![Single-file input mobile](images/components/file-input/singlefile_mobile.svg)
 
-The behavior and location of the single-file input remain unchanged on mobile devices with viewports smaller than 720px. The action text can be omitted due to lack of space on mobile; in this case, the upload icon should be used to represent the action.
+The behavior and location of the single-file input remain unchanged on mobile devices with viewports smaller than 720px. The action text can be omitted due to lack of space on mobile; in this case, the upload icon should be used to represent the action.
 
-This icon can be found in the [icon documentation](/foundations/icons/) under Standard system icons.
+This icon can be found in the [icon documentation](/design-system/components/icons/?tab=usage) under Standard system icons.
 
 ---
 
@@ -58,13 +58,13 @@ This icon can be found in the [icon documentation](/foundations/icons/) under St
 
 When the single-file input is used in a form, it should be grouped with related fields and include a label so users know what type of file is required.
 
-For detailed documentation on our forms pattern, view the [forms documentation](/patterns/forms/).
+For detailed documentation on our forms pattern, view the [forms documentation](/design-system/patterns/forms/).
 
 ![Single-file input form](images/components/file-input/singlefile_form.svg)
 
 ### Icon
 
-An icon can be added to assist the user in quickly identifying the action needed to be taken. The icon or action text can be omitted due to a lack of space, such as on mobile or a form with a decreased width.
+An icon can be added to assist the user in quickly identifying the action needed to be taken. The icon or action text can be omitted due to a lack of space, such as on mobile or a form with a decreased width.
 
 ![Single-file input icon](images/components/file-input/singlefile_iconexamples.svg)
 

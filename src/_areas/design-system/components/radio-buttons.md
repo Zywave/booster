@@ -15,25 +15,14 @@ A radio button is a selection control that allows the user to make a single sele
 
 ## When to use radio buttons
 
-Use a radio button when the user must select a single option from a list of mutually exclusive options less than 10. Meaning that a user can choose only one option, and once an option is selected, the previous option deselects.
+Use a radio button when the user must select a single option from a list of mutually exclusive options less than 10. Meaning that a user can choose only one option, and once an option is selected, the previous option deselects.
 
 ### Alternate considerations
 
-- Use a [dropdown multi-select](http://zui.zywave.comcomponents/dropdown-multi-select/) if zero or more options can be selected and for lists larger than 10 items.
-- Use a [dropdown select](http://zui.zywave.comcomponents/dropdown-select/) if only one option can be selected and for lists larger than 10 items.
-- Use a [checkbox](http://zui.zywave.comcomponents/checkboxes/) if zero or more options can be selected or for lists smaller than 10 items.
-- Use a [toggle](http://zui.zywave.comcomponents/toggles/) if the options are two opposing states such as a yes or no, on or off.
-
-<!-- ###### Developer Documentation
-
-*   [GitLab wiki](https://gitlab.zywave.com/zui/zui-core/wikis/home)
-*   [View in GitLab](https://gitlab.zywave.com/zui/zui-core)
-
-###### Alternative Considerations
-
-*   [Dropdown Select](/#components/dropdown-select)
-*   [Pickers](/#components/pickers)
-*   [Toggles](/#components/toggles) -->
+- Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
+- Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
+- Use a [checkbox](/design-system/components/checkboxes/) if zero or more options can be selected or for lists smaller than 10 items.
+- Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
 
 <hr>
 
@@ -54,7 +43,7 @@ Standard radio buttons are the most common. They allow the user to make a select
 
 ![Image of an inline radio button](images/components/radio-buttons/Assets_02-20/inlineradio_small_outline.svg)
 
-Inline radio buttons are more prominently styled than standard radio buttons. They often feature an icon, and they’re designed to emphasize the selection being made.
+Inline radio buttons are more prominently styled than standard radio buttons. They often feature an icon, and they're designed to emphasize the selection being made.
 
 - Reserve for especially important selections.
 - Limit the number of options to what can fit on a single line.
@@ -78,7 +67,7 @@ Gallery radio buttons are more prominent than both standard and inline radio but
 
 ![Image of all radio buttons](images/components/radio-buttons/Assets_02-20/radiobutton_anatomy.svg)
 
-For detailed documentation on our radio button anatomy, view the [ZUI radio button design specs](https://xd.adobe.com/view/e2ecbbb0-c8a2-4009-6f25-de65bcda7cf1-94dd/grid).
+For detailed documentation on our radio button anatomy, view the [ZUI radio button design specs](https://xd.adobe.com/view/e2ecbbb0-c8a2-4009-6f25-de65bcda7cf1-94dd/grid).
 
 ### Standard radio buttons
 
@@ -117,7 +106,7 @@ Focus state appears when the radio button is currently selected and awaiting act
 
 ### Disabled
 
-Disabled state occurs when an action currently isn’t available. Disabled radio buttons should only be used when an action can be taken within the current UI to enable the radio button. If no action can be taken to enable the radio button, then the radio button should be hidden instead of disabled.
+Disabled state occurs when an action currently isn't available. Disabled radio buttons should only be used when an action can be taken within the current UI to enable the radio button. If no action can be taken to enable the radio button, then the radio button should be hidden instead of disabled.
 
 <hr>
 
@@ -201,4 +190,4 @@ A radio button without a label is unusable; the user will not know what selectio
 
 <hr>
 
-For more information on selection controls and keyboard accessibility [view form standards](http://zui.zywave.com/patterns/forms/).
+For more information on selection controls and keyboard accessibility [view form standards](/design-system/patterns/forms/).

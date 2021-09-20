@@ -9,7 +9,7 @@ subtitle: A single-line box that the user can enter text into.
 
 ### See also
 
-[forms](/patterns/forms)
+[forms](/design-system/patterns/forms/)
 <br>
 <br>
 
@@ -107,7 +107,7 @@ The label elements helps bring proper context to your inputs to let the user kno
 
 #### Form labels
 
-Generally, a single label element should be present for a single control. For general form element labeling standards [see our forms labeling documentation.](/patterns/forms)
+Generally, a single label element should be present for a single control. For general form element labeling standards [see our forms labeling documentation.](/design-system/patterns/forms/)
 
 <br>
 <br>
@@ -147,7 +147,7 @@ Added to front of the input field to specify what should be entered, like a perc
 
 ## Text inputs with actions
 
-On rare occasions, you can put the button next to the input, which is often seen in search. While there’s nothing especially wrong with putting the button below the input, putting it next to it saves space and looks a bit neater. But, do not do this on standard forms that happen to have just 1 field. It’s inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
+On rare occasions, you can put the button next to the input, which is often seen in search. While there's nothing especially wrong with putting the button below the input, putting it next to it saves space and looks a bit neater. But, do not do this on standard forms that happen to have just 1 field. It's inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
 
 ![Text Input Primary Action](images/components/text-input/text-input--primary-action.svg)
 

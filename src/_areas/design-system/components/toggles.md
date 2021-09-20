@@ -27,10 +27,10 @@ Use a toggle when the user must select a single option from a set of two opposin
 
 ### Alternate considerations
 
-- Use a [dropdown multi-select](components/dropdown-multi-select/) if zero or more options can be selected and for lists larger than 10 items.
-- Use a [dropdown select](components/dropdown-select/) if only one option can be selected and for lists larger than 10 items.
-- Use a [radio button](components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
-- Use a [checkbox](components/checkboxes/) if zero or more options can be selected and for lists smaller than 10 items.
+- Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
+- Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
+- Use a [radio button](/design-system/components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
+- Use a [checkbox](/design-system/components/checkboxes/) if zero or more options can be selected and for lists smaller than 10 items.
 
 ---
 
@@ -49,7 +49,7 @@ Use a toggle when the user must select a single option from a set of two opposin
 
 ### Normal
 
-Normal state is the initial state of the toggle when the page first loads and before any action is taken. Toggles are always in a selected state&mdash;on or off&mdash;and can be enabled or, less commonly, disabled.
+Normal state is the initial state of the toggle when the page first loads and before any action is taken. Toggles are always in a selected state&mdash;on or off&mdash;and can be enabled or, less commonly, disabled.
 
 ### Hover
 

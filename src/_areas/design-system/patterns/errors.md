@@ -12,7 +12,7 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 #### How to present it to the user
 
-- Full page error: 401, 403, 404, or 500 (Details can be found in our [error messaging documentation](https://zui.zywave.com/communications/error-messages/ "Documentation for different error messages").)
+- Full page error: 401, 403, 404, or 500 (Details can be found in our [error messaging documentation](/design-system/voice-and-tone/error-messages/ "Documentation for different error messages").)
 
 #### Best practices
 
@@ -21,7 +21,7 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 #### Preventive measures
 
-- Details for each message type can be found in our [error messaging documentation](https://zui.zywave.com/communications/error-messages/ "Documentation for different error messages")
+- Details for each message type can be found in our [error messaging documentation](/design-system/voice-and-tone/error-messages/ "Documentation for different error messages")
 
 <Spacer size="small" />
 
@@ -68,7 +68,7 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 #### How to present it to the user
 
-- Error well and inline validation (Detailed information can be found on the [form pattern documentation](https://zui.zywave.com/patterns/forms/#validation "Link to form documentation").)
+- Error well and inline validation (Detailed information can be found on the [form pattern documentation](/design-system/patterns/forms/#validation "Link to form documentation").)
 
 ### Well
 
@@ -141,7 +141,7 @@ This occurs before the file is processed and notifies the user of an issue, such
 
 #### How to present to the user
 
-- Follow guidelines for errors within a [form](#form-validation)
+- Follow guidelines for errors within a [form](/design-system/patterns/forms#validation)
   - Well/notifier
   - Inline validation
 

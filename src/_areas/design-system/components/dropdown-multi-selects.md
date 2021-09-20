@@ -19,9 +19,9 @@ Appropriate for lists larger than 2 options that may require a user to select mo
 
 #### Alternate considerations
 
-- Use [checkboxes](components/checkboxes) for lists smaller than 3 items.
-- Use a [dropdown select](components/dropdown-select) if users can only select 1 option.
-- Use a [multi-picker](components/pickers) when the user needs to search for specific items and select them from a list with more than 7 – 10 items.
+- Use [checkboxes](/design-system/components/checkboxes/) for lists smaller than 3 items.
+- Use a [dropdown select](/design-system/components/dropdown-selects/) if users can only select 1 option.
+- Use a [multi-picker](/design-system/components/pickers/) when the user needs to search for specific items and select them from a list with more than 7 – 10 items.
 
 ---
 
@@ -35,7 +35,7 @@ Appropriate for lists larger than 2 options that may require a user to select mo
 
 Text that defines what type of options are in the list.
 
-[See labeling best practices](/patterns/forms-layout)
+[See labeling best practices](/design-system/patterns/forms/)
 
 #### Input
 
@@ -153,7 +153,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 - Present in all dropdown selects, streamlines experience for users.
 - Typeahead is relevant only to options in the list, it will not return group names. Grouping headers are not seen when using typeahead.
 
-[See typeahead](#components/typeahead)
+[See typeahead](/design-system/patterns/typeahead/)
 
 </GridCol>
 

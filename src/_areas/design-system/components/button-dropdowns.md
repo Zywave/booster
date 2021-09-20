@@ -24,8 +24,8 @@ Button dropdowns are used when there is a set of closely related actions availab
 
 #### Alternate considerations
 
-- Use [buttons](https://zui.zywave.comcomponents/buttons/) if you have a smaller number of options and also want to present choices to users without hiding options.
-- Use a [dropdown select](https://zui.zywave.comcomponents/dropdown-select/) if an option is not an action. A button dropdown should be used to execute an action, **not** to make a selection from a list.
+- Use [buttons](/design-system/components/buttons/) if you have a smaller number of options and also want to present choices to users without hiding options.
+- Use a [dropdown select](/design-system/components/dropdown-selects/) if an option is not an action. A button dropdown should be used to execute an action, **not** to make a selection from a list.
 
 ---
 
@@ -36,7 +36,7 @@ A button dropdown consists of two main parts:
 - The button reveals the options list when clicked.
 - The list of options where a user can select an action.
 
-Button dropdowns share the same style variations as [buttons](https://zui.zywave.comcomponents/buttons/) (primary, secondary, link, etc.).
+Button dropdowns share the same style variations as [buttons](/design-system/components/buttons/) (primary, secondary, link, etc.).
 
 ![Anatomy of a button dropdown](images/components/button-dropdowns/anatomy.svg)
 
@@ -48,7 +48,7 @@ Button dropdowns share the same style variations as [buttons](https://zui.zywave
 
 ![Anatomy of a button dropdown 2](images/components/button-dropdowns/anatomy2.svg)
 
-1. Button: The shape that encloses the label and chevron. Follow the [buttons](https://zui.zywave.comcomponents/buttons/) guidelines for style variations, sizing, and spacing specifications.
+1. Button: The shape that encloses the label and chevron. Follow the [buttons](/design-system/components/buttons/) guidelines for style variations, sizing, and spacing specifications.
 2. Button label: Text that defines what type of options are in the list.
 3. Chevron: Indicates that an options list can be revealed (pointing down) or concealed (pointing up) when the button is clicked.
 4. Options list: The grouping of related actions the user can select.
@@ -108,7 +108,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 #### Interaction behavior
 
-Button dropdowns follow the same [guidelines](components/buttons) as regular buttons when it comes to behavior and interaction.
+Button dropdowns follow the same [guidelines](/design-system/components/buttons/) as regular buttons when it comes to behavior and interaction.
 
 <Spacer size="small" />
 

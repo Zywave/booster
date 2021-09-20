@@ -19,10 +19,10 @@ Use a dropdown select to organize a list of options a user can select from.
 
 #### Alternate considerations
 
-- Use a [dropdown multi-select](#components/dropdown-multi-select) if two or more options can be selected - not necessarily required.
-- Use [radio buttons](#components/radio-buttons) when there's fewer than 3 options.
-- Use a [toggle](#components/toggles) if the options are a yes or no.
-- Use a [picker](#components/pickers) when the user needs to search for a specific item and select it from a list that is pageable.
+- Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if two or more options can be selected - not necessarily required.
+- Use [radio buttons](/design-system/components/radio-buttons/) when there's fewer than 3 options.
+- Use a [toggle](/design-system/components/toggles/) if the options are a yes or no.
+- Use a [picker](/design-system/components/pickers/) when the user needs to search for a specific item and select it from a list that is pageable.
 
 ---
 
@@ -36,7 +36,7 @@ Use a dropdown select to organize a list of options a user can select from.
 
 Text that defines what type of options are in the list.
 
-[See labeling best practices](#patterns/forms-layout)
+[See labeling best practices](/design-system/patterns/forms/)
 
 #### Input
 
@@ -151,7 +151,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 - Present in all dropdown selects, streamlines experience for users.
 - Typeahead is relevant only to options in the list, it will not return group names. Grouping headers are not seen when using typeahead.
 
-[See typeahead](#components/typeahead)
+[See typeahead](/design-system/patterns/typeahead/)
 
 </GridCol>
 

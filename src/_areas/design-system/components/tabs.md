@@ -105,7 +105,7 @@ There are a variety of different ways tabs can appear based on the page layout y
 
 ![full width tabs](images/components/tabs/full-width_White.svg)
 
-Both the tabs and the content stretch the full-width of the page. These tabs can be used on both page layouts with white or gray backgrounds. For more information on page width, [view the guidelines for content area](/foundations/content-area)
+Both the tabs and the content stretch the full-width of the page. These tabs can be used on both page layouts with white or gray backgrounds. For more information on page width, [view the guidelines for content area](/design-system/components/shell?tab=usage)
 
 <Spacer size="small" />
 
@@ -113,7 +113,7 @@ Both the tabs and the content stretch the full-width of the page. These tabs can
 
 ![fixed width tabs](images/components/tabs/fixed-width_White.svg)
 
-Both the tabs and content can adhere to a fixed-width page layout. These tabs can be used on both white or gray background layouts. For more information on fixed-width layouts [view the content area guidelines](/foundations/content-area)
+Both the tabs and content can adhere to a fixed-width page layout. These tabs can be used on both white or gray background layouts. For more information on fixed-width layouts [view the content area guidelines](/design-system/components/shell?tab=usage)
 
 <Spacer size="small" />
 

@@ -23,7 +23,7 @@ circumstances of the communication, as well as the audience. The core personalit
 voice should still shine through in any communication, but it should do so in a way that
 makes sense given the exact situation. Voice is the persona who's "speaking" when you
 write. You can think of the Zywave product voice as the core personality of the speaker
-who is talking to the user. Zywave’s voice can be described as:
+who is talking to the user. Zywave's voice can be described as:
 
 - Approachable
 - Genuine
@@ -44,7 +44,7 @@ because this is a style guide specific to writing in our products
   inside products depending on who is using it (HRc potentially has 3-4
   different audiences using it: broker, broker admins, clients, etc.)
 - Our audience could be viewed as a combination of both marketing and
-  content’s audiences, but a little more relaxed
+  content's audiences, but a little more relaxed
 
 ---
 
@@ -52,7 +52,7 @@ because this is a style guide specific to writing in our products
 
 This is the meat and potatoes of the style guide. It covers the usual topics and how they
 impact both copy and microcopy/web elements. If you're unsure about any on-screen-text,
-especially if it isn’t address in this style guide, ask a UX Writer. We’re nice and don’t mind
+especially if it isn't address in this style guide, ask a UX Writer. We're nice and don't mind
 answering questions.
 
 #### Capitalization
@@ -64,10 +64,10 @@ answering questions.
 
 - **Periods**: Skip periods and unnecessary punctuation on single sentences. This help readers scan text at a glance. Avoid using periods in single sentences in these: Labels, Hover text, Bulleted lists, dialog body text. Periods should be used on: Multiple sentences, any sentence before a link
 - **Oxford/serial comma**: Use to the comma to avoid potential confusion
-- **Exclamation points**: Use them sparingly, don’t use more than 1, even if you’re really, really excited about something
+- **Exclamation points**: Use them sparingly, don't use more than 1, even if you're really, really excited about something
 - **Ampersands**: Only use ampersands when conserving space is important, ideally only on buttons, or if it is part of a company or brand name
 - **Semicolons**: They usually support long, complicated sentences that could be simplified, shortened, or split in to 2 sentences
-- **Quesion marks**: Don’t use punctuation in a page title/heading unless the title/heading is a question
+- **Quesion marks**: Don't use punctuation in a page title/heading unless the title/heading is a question
 
 #### Lists
 
@@ -86,14 +86,14 @@ answering questions.
 #### Bolding and Italicizing
 
 - Using bolding to emphasize an action, link, or button you are referencing
-- Avoid italicizing. Italic fonts don’t appear as clearly as bold fonts. The
+- Avoid italicizing. Italic fonts don't appear as clearly as bold fonts. The
   exception being normally italicized things, like titles of books or movies.
 
 #### Active/passive voice
 
 - Use active voice
 - Avoid passive voice
-- Write positively whenever possible, avoid ‘not’ when possible
+- Write positively whenever possible, avoid 'not' when possible
 
 #### Contractions
 
@@ -113,7 +113,7 @@ match what is live in product, consider the following:
   updating, when can it be updated or changed?
 - How often will the product be updated? Will it be a long time before the text
   in that product is updated again? You may want to use this opportunity to
-  get the text up to speed, even if it doesn’t perfectly match the rest of the
+  get the text up to speed, even if it doesn't perfectly match the rest of the
   product.
 - Is there a middle ground between what is in the style guide and what is in
   the product that makes sense to use?
