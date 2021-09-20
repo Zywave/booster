@@ -9,103 +9,118 @@ publish_mode: editorial_workflow
 media_folder: "static/images" # Media files will be stored in the repo under images/uploads
 
 collections:
+  - name: "booster"
+    label: "Booster"
+    folder: "src/_pages"
+    create: true
+    nested:
+      depth: 10
+      summary: "{{title}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
+    meta: {
+      path: { widget: string, label: "Path", index_file: "index" }
+    }
   - name: "application_framework"
     label: "Application Framework"
     folder: "src/_areas/application-framework"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "documentation"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
   - name: "application_framework_components"
     label: "Application Framework / Components"
     folder: "src/_areas/application-framework/components"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "API Schema", name: "api", widget: "string"}
-      - {label: "Demo URI", name: "demo", widget: "string"}
-      - {label: "Main component name", name: "mainComponentName", widget: "string"}
-      - {label: "Included elements", name: "includedElements", widget: "list", default: []}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
+      - { label: "API Schema", name: "api", widget: "string "}
+      - { label: "Demo URI", name: "demo", widget: "string "}
+      - { label: "Main component name", name: "mainComponentName", widget: "string "}
+      - { label: "Included elements", name: "includedElements", widget: "list", default: []}
   - name: "application_framework_developers"
     label: "Application Framework / Developers"
     folder: "src/_areas/application-framework/developers"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "documentation"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "src/_areas/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Collection", name: "collection", widget: "select", options: ["Design", "Engineering", "Research"]}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Publish Date", name: "date", widget: "datetime "}
+      - { label: "Body", name: "body", widget: "markdown "}
+      - { label: "Collection", name: "collection", widget: "select", options: ["Design", "Engineering", "Research"]}
       - { label: "Tags", name: "tags", widget: "list", default: [] }
   - name: "design_system"
     label: "Design System"
     folder: "src/_areas/design-system"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "documentation"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
   - name: "design_system_components"
     label: "Design System / Components"
     folder: "src/_areas/design-system/components"
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "API Schema", name: "api", widget: "string", default: "https://cdn.zywave.com/@zywave/zui-[PACKAGENAME]@next/dist/custom-elements.json"}
-      - {label: "Demo URI", name: "demo", widget: "string", default: "https://cdn.zywave.com/@zywave/zui-[PACKAGENAME]@next/demo/index.html"}
-      - {label: "Main component name", name: "mainComponentName", widget: "string", default: "zui-[PACKAGENAME]"}
-      - {label: "Included elements", name: "includedElements", widget: "list", default: []}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
+      - { label: "API Schema", name: "api", widget: "string", default: "https://cdn.zywave.com/@zywave/zui-[PACKAGENAME]@next/dist/custom-elements.json "}
+      - { label: "Demo URI", name: "demo", widget: "string", default: "https://cdn.zywave.com/@zywave/zui-[PACKAGENAME]@next/demo/index.html "}
+      - { label: "Main component name", name: "mainComponentName", widget: "string", default: "zui-[PACKAGENAME] "}
+      - { label: "Included elements", name: "includedElements", widget: "list", default: []}
   - name: "design_system_developers"
     label: "Design System / Developers"
     folder: "src/_areas/design-system/developers"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "documentation"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
   - name: "design_system_patterns"
     label: "Design System / Patterns"
     folder: "src/_areas/design-system/patterns"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "documentation"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
   - name: "design_system_visuals"
     label: "Design System / Visuals"
     folder: "src/_areas/design-system/visuals"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "documentation"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
   - name: "design_system_voice-and-tone"
     label: "Design System / Voice and Tone"
     folder: "src/_areas/design-system/voice-and-tone"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "documentation"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation "}
+      - { label: "Title", name: "title", widget: "string "}
+      - { label: "Subtitle", name: "subtitle", widget: "string "}
+      - { label: "Body", name: "body", widget: "markdown "}
