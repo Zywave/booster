@@ -87,7 +87,7 @@ There are three general kinds of guidance messages&mdash;suggestions, informatio
 
 The importance of the message and desired tone will ultimately determine whether we think of a message as a suggestion, a piece of information, or a warning. That will also help determine the best the type of delivery system for the message.
 
-![Guidance spectrum](images/communications/messages/guidance-spectrum.png)
+![Guidance spectrum](/images/voice-and-tone/messages/guidance-spectrum.png)
 
 <Grid>
 
@@ -145,7 +145,7 @@ Alerts inform the user about the outcome of an action—either an action taken b
 
 <GridCol col="span-8">
 
-![Alerts infographic](images/communications/messages/alerts-infographic.png)
+![Alerts infographic](/images/voice-and-tone/messages/alerts-infographic.png)
 
 </GridCol>
 

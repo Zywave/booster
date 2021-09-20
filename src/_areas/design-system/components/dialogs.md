@@ -19,7 +19,7 @@ Best practice is to avoid including forms within a dialog.
 
 <br>
 
-![Dialog Anatomy](images/components/dialogs/dialog_Anatomy.svg)
+![Dialog Anatomy](/images/components/dialogs/dialog_Anatomy.svg)
 
 <br>
 
@@ -35,7 +35,7 @@ Content area should be a minimum of 120px tall.
 
 Content area width of 415 on SMALL dialogs, 615 on STANDARD dialogs, and 815 on LARGE dialogs.
 
-![Dialog Content Area](images/components/dialogs/dialog_Minimum_Height.svg)
+![Dialog Content Area](/images/components/dialogs/dialog_Minimum_Height.svg)
 
 <br><br>
 
@@ -51,7 +51,7 @@ Content area width of 415 on SMALL dialogs, 615 on STANDARD dialogs, and 815 on 
 3. **Tertiary action**  
    Tertiary actions or help text appear left aligned 30px below the content
 
-![Dialog Actions](images/components/dialogs/dialog_Action_Areas.svg)
+![Dialog Actions](/images/components/dialogs/dialog_Action_Areas.svg)
 
 ---
 
@@ -72,7 +72,7 @@ Contents should follow body copy guidelines.
 - 15px padding between Title and main content area.
 - 30px padding between main content area and actions area.
 
-![Dialog Padding](images/components/dialogs/dialog_Padding.svg)
+![Dialog Padding](/images/components/dialogs/dialog_Padding.svg)
 
 If the dialog is taller than the viewport, 36px padding will be applied between the dialog and the viewport. If the dialog is shorter than the viewport, then it will be centered vertically.  
 Dialogs will always be centered horizontally within the viewport.
@@ -85,21 +85,21 @@ Dialogs will always be centered horizontally within the viewport.
 
 Commonly used to interrupt the user with messaging you need them to confirm, such as delete and loss of data if navigating to a different page.
 
-![Small dialog](images/components/dialogs/dialog_Small.svg)
+![Small dialog](/images/components/dialogs/dialog_Small.svg)
 <br><br>
 
 ### Standard
 
 Standard dialogs should be used for messages that are longer in length, such as legal jargon.
 
-![Standard dialog](images/components/dialogs/dialog_Standard.svg)
+![Standard dialog](/images/components/dialogs/dialog_Standard.svg)
 <br><br>
 
 ### Large
 
 Use a large dialog when there is a more functionality, like a table.
 
-![Large dialog](images/components/dialogs/dialog_Large.svg)
+![Large dialog](/images/components/dialogs/dialog_Large.svg)
 
 ---
 

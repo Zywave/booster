@@ -30,7 +30,7 @@ Use a radio button when the user must select a single option from a list of mutu
 
 ### Standard radio button
 
-![Image of a standard radio button](images/components/radio-buttons/Assets_02-20/standardradio_small_outline.svg)
+![Image of a standard radio button](/images/components/radio-buttons/Assets_02-20/standardradio_small_outline.svg)
 
 Standard radio buttons are the most common. They allow the user to make a selection and quickly move on to the next task.
 
@@ -41,7 +41,7 @@ Standard radio buttons are the most common. They allow the user to make a select
 
 ### Inline radio button
 
-![Image of an inline radio button](images/components/radio-buttons/Assets_02-20/inlineradio_small_outline.svg)
+![Image of an inline radio button](/images/components/radio-buttons/Assets_02-20/inlineradio_small_outline.svg)
 
 Inline radio buttons are more prominently styled than standard radio buttons. They often feature an icon, and they're designed to emphasize the selection being made.
 
@@ -54,7 +54,7 @@ Inline radio buttons are more prominently styled than standard radio buttons. Th
 
 ### Gallery radio button
 
-![Image of a gallery radio button](images/components/radio-buttons/Assets_02-20/galleryradio_small_outline.svg)
+![Image of a gallery radio button](/images/components/radio-buttons/Assets_02-20/galleryradio_small_outline.svg)
 
 Gallery radio buttons are more prominent than both standard and inline radio buttons. They often feature an icon and take up a great deal of space on the page.
 
@@ -65,7 +65,7 @@ Gallery radio buttons are more prominent than both standard and inline radio but
 
 ## Anatomy
 
-![Image of all radio buttons](images/components/radio-buttons/Assets_02-20/radiobutton_anatomy.svg)
+![Image of all radio buttons](/images/components/radio-buttons/Assets_02-20/radiobutton_anatomy.svg)
 
 For detailed documentation on our radio button anatomy, view the [ZUI radio button design specs](https://xd.adobe.com/view/e2ecbbb0-c8a2-4009-6f25-de65bcda7cf1-94dd/grid).
 
@@ -90,7 +90,7 @@ For detailed documentation on our radio button anatomy, view the [ZUI radio butt
 
 ## Radio button states
 
-![Image of standard radio button states](images/components/radio-buttons/Assets_02-20/radiobutton_states_standard.svg)
+![Image of standard radio button states](/images/components/radio-buttons/Assets_02-20/radiobutton_states_standard.svg)
 
 ### Normal
 
@@ -116,7 +116,7 @@ Disabled state occurs when an action currently isn't available. Disabled radio b
 
 <GridCol col="span-6">
 
-![Card Width Do](images/components/radio-buttons/Assets_02-20/radiogroup_do_outline.svg)
+![Card Width Do](/images/components/radio-buttons/Assets_02-20/radiogroup_do_outline.svg)
 
 <Do />
 
@@ -126,7 +126,7 @@ Radio buttons should always be used when there is a list of two or more options,
 
 <GridCol col="span-6">
 
-![Card Width Don't](images/components/radio-buttons/Assets_02-20/radiogroup_dont_outline.svg)
+![Card Width Don't](/images/components/radio-buttons/Assets_02-20/radiogroup_dont_outline.svg)
 
 <DoNot />
 
@@ -142,7 +142,7 @@ A single radio button should never be used alone.
 
 <GridCol col="span-6">
 
-![Card Width Do](images/components/radio-buttons/Assets_02-20/radioselection_do_outline.svg)
+![Card Width Do](/images/components/radio-buttons/Assets_02-20/radioselection_do_outline.svg)
 
 <Do />
 
@@ -152,7 +152,7 @@ Radio buttons should always have at least one option selected as default.
 
 <GridCol col="span-6">
 
-![Card Width Don't](images/components/radio-buttons/Assets_02-20/radioselection_dont_outline.svg)
+![Card Width Don't](/images/components/radio-buttons/Assets_02-20/radioselection_dont_outline.svg)
 
 <DoNot />
 
@@ -168,7 +168,7 @@ A group of radio buttons should never be shown without a default selection.
 
 <GridCol col="span-6">
 
-![Card Width Do](images/components/radio-buttons/Assets_02-20/radiolabel_do_outline.svg)
+![Card Width Do](/images/components/radio-buttons/Assets_02-20/radiolabel_do_outline.svg)
 
 <Do />
 
@@ -178,7 +178,7 @@ Radio buttons should always have a label.
 
 <GridCol col="span-6">
 
-![Card Width Don't](images/components/radio-buttons/Assets_02-20/radiolabel_dont_outline.svg)
+![Card Width Don't](/images/components/radio-buttons/Assets_02-20/radiolabel_dont_outline.svg)
 
 <DoNot />
 

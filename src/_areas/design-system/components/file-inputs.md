@@ -15,7 +15,7 @@ The file input allows the user to select one or many files from the user's file 
 
 ## Anatomy
 
-![Single-file input anatomy](images/components/file-input/singlefile_anatomy.svg)
+![Single-file input anatomy](/images/components/file-input/singlefile_anatomy.svg)
 
 The single-file input consists of an action and input field.
 
@@ -34,7 +34,7 @@ We have two types of file inputs that allow the user to upload the appropriate a
 
 ### Single-file input
 
-![Single-file input](images/components/file-input/singlefile_icon.svg)
+![Single-file input](/images/components/file-input/singlefile_icon.svg)
 
 Allows the user to upload one file through their file explorer or by dropping the file in the dropzone.
 
@@ -44,7 +44,7 @@ Allows the user to upload one file through their file explorer or by dropping th
 
 ## Responsive layout
 
-![Single-file input mobile](images/components/file-input/singlefile_mobile.svg)
+![Single-file input mobile](/images/components/file-input/singlefile_mobile.svg)
 
 The behavior and location of the single-file input remain unchanged on mobile devices with viewports smaller than 720px. The action text can be omitted due to lack of space on mobile; in this case, the upload icon should be used to represent the action.
 
@@ -60,19 +60,19 @@ When the single-file input is used in a form, it should be grouped with related 
 
 For detailed documentation on our forms pattern, view the [forms documentation](/design-system/patterns/forms/).
 
-![Single-file input form](images/components/file-input/singlefile_form.svg)
+![Single-file input form](/images/components/file-input/singlefile_form.svg)
 
 ### Icon
 
 An icon can be added to assist the user in quickly identifying the action needed to be taken. The icon or action text can be omitted due to a lack of space, such as on mobile or a form with a decreased width.
 
-![Single-file input icon](images/components/file-input/singlefile_iconexamples.svg)
+![Single-file input icon](/images/components/file-input/singlefile_iconexamples.svg)
 
 ### Drag and drop
 
 When using the drag and drop functionality of a single-file input, the dropzone should be highlighted only when the user drags a file over the input. This will allow the user to differentiate between multiple inputs on a page and ensure that the correct file is being uploaded.
 
-![Single-file input drag and drop](images/components/file-input/singlefile_dropform.svg)
+![Single-file input drag and drop](/images/components/file-input/singlefile_dropform.svg)
 
 ---
 
@@ -82,7 +82,7 @@ When using the drag and drop functionality of a single-file input, the dropzone 
 
 <GridCol col="span-6">
 
-![Single-file input action do](images/components/file-input/singlefile_do_action.svg)
+![Single-file input action do](/images/components/file-input/singlefile_do_action.svg)
 
 <Do />
 
@@ -92,7 +92,7 @@ The action text can be edited to better apply to the content being uploaded or v
 
 <GridCol col="span-6">
 
-![Single-file input action do not](images/components/file-input/singlefile_donot_action.svg)
+![Single-file input action do not](/images/components/file-input/singlefile_donot_action.svg)
 
 <DoNot />
 

@@ -128,4 +128,4 @@ match what is live in product, consider the following:
 - [Atlassian writing style guide](https://atlassian.design/guidelines/brand/writing-style-1)
 - [Plain Language](https://plainlanguage.gov/)
 
-[Click here to download a pdf version of the Style Guide](/downloads/communications/writing-style-guide/ZUI-Writing-Style-Guide-ver1.pdf)
+[Click here to download a pdf version of the Style Guide](/downloads/voice-and-tone/writing-style-guide/ZUI-Writing-Style-Guide-ver1.pdf)

@@ -31,7 +31,7 @@ subtitle: Unobtrusive messages that provide the user with simple information whe
 
 ## Tooltip anatomy
 
-![Tooltip anatomy](images/components/tooltips/tooltips-anatomy.svg)
+![Tooltip anatomy](/images/components/tooltips/tooltips-anatomy.svg)
 
 1. Body - Centered above page element
 2. Text - Centered within Tooltip
@@ -40,7 +40,7 @@ subtitle: Unobtrusive messages that provide the user with simple information whe
 
 ## Positioning
 
-![Tooltip positioning](images/components/tooltips/tooltips-positioning.svg)
+![Tooltip positioning](/images/components/tooltips/tooltips-positioning.svg)
 
 - The tooltip positioning will default to the top of whatever page element is being hovered.
 - Special use cases may arrive in which the bottom, right, and left tooltip positions may be used if there is not sufficient space to display the tooltip, such as a top bar tooltip.
@@ -49,7 +49,7 @@ subtitle: Unobtrusive messages that provide the user with simple information whe
 
 ## Best practices
 
-![Tooltip best practices](images/components/tooltips/tooltips-bestpractice.svg)
+![Tooltip best practices](/images/components/tooltips/tooltips-bestpractice.svg)
 
 - Tooltips should include short, descriptive text that is succinct enough to remain on one line.
 - In special cases, this text may flow onto a second line within the tooltip. However, if the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.

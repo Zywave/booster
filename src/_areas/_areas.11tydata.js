@@ -83,7 +83,6 @@ module.exports = {
         const firstFile = files.find(x => x.isFile());
         if (firstFile) {
           permalink = buildPermalink(path.join(dirname, firstFile.name)).replace(/\\/g, '/');
-          console.log(permalink);
         }
       }
       permalink = permalink.startsWith(`/`) ? `` : `/${permalink}`;

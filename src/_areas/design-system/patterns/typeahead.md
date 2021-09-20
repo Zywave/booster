@@ -21,7 +21,7 @@ Returns exact query results that start with the characters typed. Dropdown optio
 _Example: a list of states that begin with 'al.'_
 <br><br>
 
-![Image example of what auto-complete looks like](images/components/typeahead/auto_Complete.svg)
+![Image example of what auto-complete looks like](/images/components/typeahead/auto_Complete.svg)
 
 </GridCol>
 
@@ -33,7 +33,7 @@ Guides a user by returning a list of related keywords or phrases based on the ch
 
 _Example: a list of names that include the letters combination 'ad.'_
 
-![Image example of what auto-suggest looks like](images/components/typeahead/auto_Suggest.svg)
+![Image example of what auto-suggest looks like](/images/components/typeahead/auto_Suggest.svg)
 
 </GridCol>
 
@@ -73,7 +73,7 @@ To ensure the best user experience possible, keep in mind the following best pra
 
 <GridCol col="span-8">
 
-![Typeahead styling specs](images/components/typeahead/styling_Specs.svg)
+![Typeahead styling specs](/images/components/typeahead/styling_Specs.svg)
 
 _All values are in pixels._
 
@@ -92,7 +92,7 @@ Depending on the context of the typeahead feature and what's technically feasibl
 
 Recently typed searches or entries are shown in a dropdown the moment the cursor is put into the search field, and disappear as the first character is typed.
 
-![Image example of what auto-complete looks like](images/components/typeahead/recent_Searches.svg)
+![Image example of what auto-complete looks like](/images/components/typeahead/recent_Searches.svg)
 
 <Spacer size="small"/>
 
@@ -109,7 +109,7 @@ Using category headers, labels, or icons can help narrow down search suggestions
 - Font weight: 700
 - Text case: uppercase
 
-![header label](images/components/typeahead/header_Label.svg)
+![header label](/images/components/typeahead/header_Label.svg)
 
 <Spacer size="small"/>
 
@@ -118,14 +118,14 @@ Using category headers, labels, or icons can help narrow down search suggestions
 - Color: ZUI Gray 300
 - Font size: 12px
 
-![inline label](images/components/typeahead/inline_Label.svg)
+![inline label](/images/components/typeahead/inline_Label.svg)
 
 #### Icons
 
 - Color: ZUI Gray 300
 - Size: 16px
 
-![icon label](images/components/typeahead/icon_Label.svg)
+![icon label](/images/components/typeahead/icon_Label.svg)
 
 ---
 
@@ -145,7 +145,7 @@ Typeahead suggestions will display in a dropdown, typically after the third char
 
 **Focused state**
 
-![focused state](images/components/typeahead/focused_State.svg)
+![focused state](/images/components/typeahead/focused_State.svg)
 
 </GridCol>
 
@@ -153,7 +153,7 @@ Typeahead suggestions will display in a dropdown, typically after the third char
 
 **Hover state**
 
-![hover state](images/components/typeahead/hover_State.svg)
+![hover state](/images/components/typeahead/hover_State.svg)
 
 </GridCol>
 

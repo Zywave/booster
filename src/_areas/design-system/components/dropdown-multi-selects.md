@@ -71,7 +71,7 @@ A selectable checkbox beside an option.
 
 <GridCol col="span-8">
 
-![Anatomy of a dropdown multi-select](images/components/dropdown-multi-select/multi_select_label.svg)
+![Anatomy of a dropdown multi-select](/images/components/dropdown-multi-select/multi_select_label.svg)
 
 The anatomy of a dropdown select.
 
@@ -99,7 +99,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 #### Grouping
 
-![Spatial specs for options lists with grouping](images/components/dropdown-multi-select/multiselect_grouping_specs.svg)
+![Spatial specs for options lists with grouping](/images/components/dropdown-multi-select/multiselect_grouping_specs.svg)
 
 - Sometimes you'll need to add grouping to a long list of options. Titles can break up options into groups to help users more easily locate them.
 
@@ -111,7 +111,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 #### Icons
 
-![Spatial specs for options lists with icons next to options](images/components/dropdown-multi-select/multiselect_icon_specs.svg)
+![Spatial specs for options lists with icons next to options](/images/components/dropdown-multi-select/multiselect_icon_specs.svg)
 
 - Use icons to distinguish between options.
 - Often icons are used when you have two different types of options in a list.
@@ -170,7 +170,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 ### Input states
 
-![The various states of an input](images/components/dropdown-multi-select/multiselect_states.svg)
+![The various states of an input](/images/components/dropdown-multi-select/multiselect_states.svg)
 
 [See input states design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/7b6c4ddd-55fa-4521-8598-7e5b280b5aec/)
 
@@ -180,7 +180,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 ### Option list states
 
-![The various states of an option list](images/components/dropdown-multi-select/multiselect_list_states.svg)
+![The various states of an option list](/images/components/dropdown-multi-select/multiselect_list_states.svg)
 
 [See option list states design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/c6b9b274-0fab-4b09-895a-28d141fe96ca/)
 
@@ -198,7 +198,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 <GridCol col="span-6">
 
-![Removing a selection from an input](images/components/dropdown-multi-select/tag_specs.svg)
+![Removing a selection from an input](/images/components/dropdown-multi-select/tag_specs.svg)
 
 </GridCol>
 

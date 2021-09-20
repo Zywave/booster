@@ -6,7 +6,7 @@ subtitle:
 
 <center>
 
-![hero illustration example](images/foundations/illustrations/loading.svg)
+![hero illustration example](/images/foundations/illustrations/loading.svg)
 
 </center>
 
@@ -62,12 +62,12 @@ This example shows what it looks like when the base color is changed on the piec
 <Grid>
 <GridCol col="span-6">
 
-![hero illustration blue](images/foundations/illustrations/hero-blue.svg)
+![hero illustration blue](/images/foundations/illustrations/hero-blue.svg)
 
 </GridCol >
 <GridCol col="span-6">
 
-![hero illustration orange](images/foundations/illustrations/hero-orange.svg)
+![hero illustration orange](/images/foundations/illustrations/hero-orange.svg)
 
 </GridCol >
 </Grid>
@@ -100,17 +100,17 @@ The supplementary illustration is always located in the lower right corner. Whil
 <Grid>
 <GridCol col="span-4">
 
-![spot illustration compliance calendar](images/foundations/illustrations/spot-calendar.svg)
+![spot illustration compliance calendar](/images/foundations/illustrations/spot-calendar.svg)
 
 </GridCol >
 <GridCol col="span-4">
 
-![spot illustration fmla tool](images/foundations/illustrations/spot-fmla.svg)
+![spot illustration fmla tool](/images/foundations/illustrations/spot-fmla.svg)
 
 </GridCol >
 <GridCol col="span-4">
 
-![spot illustration phone interview question builder](images/foundations/illustrations/spot-phone.svg)
+![spot illustration phone interview question builder](/images/foundations/illustrations/spot-phone.svg)
 
 </GridCol>
 </Grid>

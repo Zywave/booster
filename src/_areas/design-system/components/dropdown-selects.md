@@ -68,7 +68,7 @@ A unique input option.
 
 <GridCol col="span-8">
 
-![Anatomy of a dropdown select](images/components/dropdown-select/select_label.svg)
+![Anatomy of a dropdown select](/images/components/dropdown-select/select_label.svg)
 
 The anatomy of a dropdown select.
 
@@ -96,7 +96,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 #### Grouping
 
-![Spatial specs for options lists with grouping](images/components/dropdown-select/select_grouping_specs.svg)
+![Spatial specs for options lists with grouping](/images/components/dropdown-select/select_grouping_specs.svg)
 
 - Sometimes you'll need to add grouping to a long list of options. Titles can break up options into groups to help users more easily locate them.
 
@@ -108,7 +108,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 #### Icons
 
-![Spatial specs for options lists with icons next to options](images/components/dropdown-select/select_icon_specs.svg)
+![Spatial specs for options lists with icons next to options](/images/components/dropdown-select/select_icon_specs.svg)
 
 - Icons may be used beside select options; they should assist by making selection easier for users.
 - Use icons to distinguish between options.
@@ -175,7 +175,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 ### Input states
 
-![The various states of an input](images/components/dropdown-select/select_states.svg)
+![The various states of an input](/images/components/dropdown-select/select_states.svg)
 
 [See input states design specs](https://xd.adobe.com/view/1d1827c1-f08e-480d-806a-647a41a328bd-484b/screen/6fe28f1b-27e1-4e5d-95c4-3063f89fa66e/)
 
@@ -185,7 +185,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 ### Option list states
 
-![The various states of an options list](images/components/dropdown-select/select_list_states.svg)
+![The various states of an options list](/images/components/dropdown-select/select_list_states.svg)
 
 [See option list states design specs](https://xd.adobe.com/view/1d1827c1-f08e-480d-806a-647a41a328bd-484b/screen/39e06ddc-ebd3-4e1c-9745-945f9245b3fd/)
 

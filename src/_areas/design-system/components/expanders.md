@@ -37,7 +37,7 @@ We use the following terminology to refer to the parts of an expander:
 6. **Content area:** the area that appears when a section is expanded.
 7. **Action area:** If there is data in the content area that needs to be saved, this is a common place to put actions.
 
-![Anatomy](images/components/expanders/expander-anatomy.svg)
+![Anatomy](/images/components/expanders/expander-anatomy.svg)
 
 <hr>
 
@@ -49,17 +49,17 @@ We use the following terminology to refer to the parts of an expander:
 
 The Basic Expander is the most common type of Expander. It's typically used as a sub-navigation in the content area and helps organize complex content.
 
-![Example of a collapsed Expander](images/components/expanders/basic-expander--collapsed.svg)
+![Example of a collapsed Expander](/images/components/expanders/basic-expander--collapsed.svg)
 _example of a Basic Expander in a collapsed state_
 
 <br>
 
-![Example of an expanded Expander](images/components/expanders/basic-expander--expanded.svg)
+![Example of an expanded Expander](/images/components/expanders/basic-expander--expanded.svg)
 _example of a Basic Expander in an expanded state_
 
 <br>
 
-![Example of a mobile Expander](images/components/expanders/expander--mobile.svg)
+![Example of a mobile Expander](/images/components/expanders/expander--mobile.svg)
 
 _example of a basic Expander in a mobile responsive state_
 
@@ -71,12 +71,12 @@ _example of a basic Expander in a mobile responsive state_
 
 In some cases it is helpful to give the user more information on what they will find in the section, beyond just the title.
 
-![Example of an expanded Expander](images/components/expanders/basic-expander--with-header-details-collapsed.svg)
+![Example of an expanded Expander](/images/components/expanders/basic-expander--with-header-details-collapsed.svg)
 _example header details in a collapsed state_
 
 <br>
 
-![Example of an expanded Expander](images/components/expanders/basic-expander--with-header-details-expanded.svg)
+![Example of an expanded Expander](/images/components/expanders/basic-expander--with-header-details-expanded.svg)
 _example header details in an expanded state_
 
 <Spacer size="large" />
@@ -87,7 +87,7 @@ _example header details in an expanded state_
 
 In some cases Expanders can be used to perform lightweight actions, such as updating an email address.
 
-![Example of a expanded Expander](images/components/expanders/basic-expander--actions.svg)
+![Example of a expanded Expander](/images/components/expanders/basic-expander--actions.svg)
 _example of adding actions to an Expander_
 
 <Spacer size="large" />
@@ -98,12 +98,12 @@ _example of adding actions to an Expander_
 
 A Peek-a-boo Expander is a single-section Expander that hides some of its content to help make room in the UI.
 
-![Example of a collapsed Peek-a-boo Expander](images/components/expanders/peek-a-boo--collapsed.svg)
+![Example of a collapsed Peek-a-boo Expander](/images/components/expanders/peek-a-boo--collapsed.svg)
 _example of a collapsed Peek-a-boo expander_
 
 <br>
 
-![Example of an expanded Peek-a-boo Expander](images/components/expanders/peek-a-boo--expanded.svg)
+![Example of an expanded Peek-a-boo Expander](/images/components/expanders/peek-a-boo--expanded.svg)
 _example of an expanded Peek-a-boo expander_
 
 <hr>

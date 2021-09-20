@@ -36,7 +36,7 @@ The section at the bottom of most pages contain information that needs to be the
 
 The Content area is the body of our applications where all the features and functionality gets placed. For more detailed information, view the Content area guidelines.
 
-![Shell screenshot](images/components/shell/shell-basics.svg)
+![Shell screenshot](/images/components/shell/shell-basics.svg)
 
 ---
 
@@ -44,12 +44,12 @@ The Content area is the body of our applications where all the features and func
 
 Depending on if you are building a single point solution that will be sold individually or one that fits into our suite with other features of the same nature, the shell can change to accommodate an ideal user experience.
 
-![Shell suite screenshot](images/components/shell/shell--suite.svg)
+![Shell suite screenshot](/images/components/shell/shell--suite.svg)
 _Example: Shell for the Zywave suite._
 
 <Spacer/>
 
-![Shell Modmaster screenshot](images/components/shell/shell--individual-mm.svg)
+![Shell Modmaster screenshot](/images/components/shell/shell--individual-mm.svg)
 _Example: Shell for a single point solution (ModMaster). The application bar becomes slightly larger to accomidate the application name._
 
 ---
@@ -64,7 +64,7 @@ The shell has been designed to transition itself for a better experience on mobi
 </GridCol>
 <GridCol col="span-6">
 
-![Shell mobile screenshot](images/components/shell/shell--mobile-basics.svg)
+![Shell mobile screenshot](/images/components/shell/shell--mobile-basics.svg)
 
 </GridCol>
 </Grid>
@@ -91,7 +91,7 @@ The suite Topbar contains many different components which aid in branding, navig
 4. **Application switcher**
 5. **Profile manager**
 
-![Topbar - anatomy - suite level](images/components/shell/topbar/topbar--anatomy--suite.svg)
+![Topbar - anatomy - suite level](/images/components/shell/topbar/topbar--anatomy--suite.svg)
 
 #### Adding product-specific branding
 
@@ -100,7 +100,7 @@ When necessary, you can also include specific product branding in the Zywave Top
 1. **Product name** - The name of the product.
 2. **Product-specific branding bar** - A taller branding bar.
 
-![Topbar - anatomy - suite level](images/components/shell/topbar/topbar--anatomy--singleproduct.svg)
+![Topbar - anatomy - suite level](/images/components/shell/topbar/topbar--anatomy--singleproduct.svg)
 
 <Spacer size="small"/>
 
@@ -143,7 +143,7 @@ On smaller screens with a **breakpoint <`720px`**, the Topbar responds to allow 
 2. A hamburger menu is located in the upper left. When pushed, the Sidenav slides in from the left.
 3. The right side of the Topbar should only be used for prime actions per product. For example, most partners search Broker Briefcase on mobile, so it would make sense for the search icon to be present in the mobile Topbar.
 
-![Topbar - anatomy - suite level](images/components/shell/topbar/topbar--anatomy--mobile.svg)
+![Topbar - anatomy - suite level](/images/components/shell/topbar/topbar--anatomy--mobile.svg)
 
 </TabPage>
 
@@ -166,7 +166,7 @@ The following are nav items that are recommended for every application, when app
 5. **Help and training** - Links to the support site or Get started with Zywave University.
 6. **Collapse** - Gives the user the ability to collapse the Sidenav for more working space in the Content area.
 
-![Sidenav - suite standard items](images/components/shell/sidenav/sidenav-anatomy--desktop-standard-nav-items.svg)
+![Sidenav - suite standard items](/images/components/shell/sidenav/sidenav-anatomy--desktop-standard-nav-items.svg)
 
 <Spacer size="small"/>
 
@@ -179,7 +179,7 @@ The following are nav items that are recommended for every application, when app
 5. **Subnav items**
 6. **Collapse action**
 
-![Sidenav - anatomy](images/components/shell/sidenav/sidenav-anatomy--desktop-expanded.svg)
+![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--desktop-expanded.svg)
 
 #### Icon rules
 
@@ -205,7 +205,7 @@ The following are nav items that are recommended for every application, when app
 4. **Selected subnav item** - Font color: ZUI Blue 500; font weight: 700; icon color: ZUI Blue 500; background color: none
 5. **Hover** - background color: ZUI Gray 50
 
-![Sidenav - anatomy](images/components/shell/sidenav/sidenav-anatomy--desktop-expanded-behavior.svg)
+![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--desktop-expanded-behavior.svg)
 
 ### Parent and children
 
@@ -235,7 +235,7 @@ The following are nav items that are recommended for every application, when app
 4. **Hover subnav item** - Background color: ZUI Gray 100
 5. **Selected item** - Font color: ZUI Blue 500; font weight: 700; background color: none
 
-![Sidenav - anatomy](images/components/shell/sidenav/sidenav-anatomy--desktop-collapsed-behavior.svg)
+![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--desktop-collapsed-behavior.svg)
 
 <Spacer size="small"/>
 
@@ -243,7 +243,7 @@ The following are nav items that are recommended for every application, when app
 
 The menu slides in over the content. To close the Sidenav, the user can click off to the right of the navigation.
 
-![Sidenav - anatomy](images/components/shell/sidenav/sidenav-anatomy--mobile-behavior.svg)
+![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--mobile-behavior.svg)
 
 <Spacer size="small"/>
 
@@ -298,15 +298,15 @@ As the viewport grows, the footer moves from three lines stacked on top of each 
 
 #### Breakpoint - ≥`480px`
 
-![Footer - 480](images/components/shell/footer/footer--≥480.svg)
+![Footer - 480](/images/components/shell/footer/footer--≥480.svg)
 
 #### Breakpoint - ≥`720px`
 
-![Footer - 720](images/components/shell/footer/footer--≥720.svg)
+![Footer - 720](/images/components/shell/footer/footer--≥720.svg)
 
 #### Breakpoint - ≥`1024px`
 
-![Footer - 1024](images/components/shell/footer/footer--≥1024.svg)
+![Footer - 1024](/images/components/shell/footer/footer--≥1024.svg)
 
 <Spacer/>
 
@@ -318,7 +318,7 @@ As the viewport grows, the footer moves from three lines stacked on top of each 
 
 The Content area is the body of our applications where all the features and funcionality get placed. When building features in our applications, it's important to understand the size of the canvas you'll be building on. A user should always understand the boundaries of our applications, so the Content area should not change from page to page.
 
-![Basics of the content area](images/components/shell/content-area/content-area_basics.svg)
+![Basics of the content area](/images/components/shell/content-area/content-area_basics.svg)
 
 ---
 
@@ -408,7 +408,7 @@ Even though there may be empty space within components such as cards, all compon
 
 <GridCol col="span-6">
 
-![Card Width Do](images/components/shell/content-area/cardwidth_do.svg)
+![Card Width Do](/images/components/shell/content-area/cardwidth_do.svg)
 
 <Do />
 
@@ -418,7 +418,7 @@ When adding a form, make sure that it meets our max-width standards. When the co
 
 <GridCol col="span-6">
 
-![Card Width Don't](images/components/shell/content-area/cardwidth_dont.svg)
+![Card Width Don't](/images/components/shell/content-area/cardwidth_dont.svg)
 
 <DoNot />
 
@@ -432,7 +432,7 @@ There should never be a situation where the form is smaller than `900px` or full
 
 <GridCol col="span-6">
 
-![Page Components Do](images/components/shell/content-area/pagecomponent_do.svg)
+![Page Components Do](/images/components/shell/content-area/pagecomponent_do.svg)
 
 <Do />
 
@@ -442,7 +442,7 @@ When adding multiple components to a page or within the same workflow, all eleme
 
 <GridCol col="span-6">
 
-![Page Components Don't](images/components/shell/content-area/pagecomponent_dont.svg)
+![Page Components Don't](/images/components/shell/content-area/pagecomponent_dont.svg)
 
 <DoNot />
 
@@ -481,14 +481,14 @@ The Context Switcher lives in the Sidenav when a user is viewing a feature on be
 
 The context switch indicates which organization is currently being viewed by the user. When clicked, it will return the user to their dashboard to switch to another organization.
 
-![Context switcher anatomy](images/components/shell/context-switcher/Anatomy.svg)
+![Context switcher anatomy](/images/components/shell/context-switcher/Anatomy.svg)
 
 1. **Organization name** - indicate the current organization the user is viewing
    - Longer organization names will truncate and include ellipses
 2. **Switch action** - allows the user to navigate back to their dashboard to switch to a different organization
    - The icon and "Switch" label both remain when the sidenav is collapsed
 
-![Context switcher anatomy collapsed](images/components/shell/context-switcher/Anatomy_collapsed.svg)
+![Context switcher anatomy collapsed](/images/components/shell/context-switcher/Anatomy_collapsed.svg)
 
 <Spacer size="small"/>
 
@@ -496,7 +496,7 @@ The context switch indicates which organization is currently being viewed by the
 
 On mobile devices, the Context Switcher is hidden off-screen within the Sidenav. This means the organization currently being viewed is hidden within the menu. See [best practices](#best-practices) for our recommendations on ways to help add more clarity about the selected account.
 
-![Mobile context swithcer](images/components/shell/context-switcher/Context_switcher_mobile.svg)
+![Mobile context swithcer](/images/components/shell/context-switcher/Context_switcher_mobile.svg)
 
 <Spacer size="small"/>
 
@@ -505,14 +505,14 @@ On mobile devices, the Context Switcher is hidden off-screen within the Sidenav.
 **Expanded hover:**  
 The background of the Context Switcher becomes ZUI Gray 100 on hover, indicating that the entire area is clickable.
 
-![Expanded switcher hover](images/components/shell/context-switcher/Hover.svg)
+![Expanded switcher hover](/images/components/shell/context-switcher/Hover.svg)
 </br>
 </br>
 
 **Collapsed hover:**
 When the Sidenav is collapsed, additional hover behavior is added to help identify the currently selected organization. The background behind the switch action becomes ZUI Gray 100 to indicate that it is clickable. In addition, there is a fly-out that shows the "Viewing as: _organization_" message on a white background, similar to the child items in the Sidenav.
 
-![Collapsed switcher hover](images/components/shell/context-switcher/Hover_collapsed.svg)
+![Collapsed switcher hover](/images/components/shell/context-switcher/Hover_collapsed.svg)
 
 <Spacer size="small"/>
 
@@ -522,7 +522,7 @@ When the Sidenav is collapsed, additional hover behavior is added to help identi
 
 Because the currently selected account is not immediately visible when the Sidenav is collapsed or on mobile devices, we recommend including the organization name in page titles or descriptions. Including the organization name will provide more clarity about which organization they are currently viewing.
 
-![Best practices for context switcher](images/components/shell/context-switcher/Best_practices.svg)
+![Best practices for context switcher](/images/components/shell/context-switcher/Best_practices.svg)
 
 <Spacer size="small"/>
 
@@ -534,7 +534,7 @@ The contents of the Sidenav should also change to reflect what is available for 
 **Collapsing navigation behavior:**
 When collapsing the Sidenav, the flyout containing the "Viewing as: _organization_" message appears for a few seconds and then disappears. To view this message again, the user can hover over the switch action.
 
-![Behavior when collapsing Sidenav with Context switcher](images/components/shell/context-switcher/Collapse_sidenav.gif)
+![Behavior when collapsing Sidenav with Context switcher](/images/components/shell/context-switcher/Collapse_sidenav.gif)
 
 </TabPage>
 
@@ -560,7 +560,7 @@ Action bar keeps the action buttons in a standard state on the screen, even when
 
 When you have a long form that is not broken up into multiple steps
 
-![in a long form](images/components/shell/action-bar/usage-long-form.svg)
+![in a long form](/images/components/shell/action-bar/usage-long-form.svg)
 
 For detailed documentation on using Action bar in a long form, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/).
 
@@ -570,7 +570,7 @@ For detailed documentation on using Action bar in a long form, view the [design 
 
 When you have a form that is broken up into multiple steps, the progress indicator is located on the left within the action bar and follows the format **# of #: Step title**
 
-![in a multi-step form](images/components/shell/action-bar/usage-multi-step.svg)
+![in a multi-step form](/images/components/shell/action-bar/usage-multi-step.svg)
 
 For detailed documentation on using Action bar in a multi-step form, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/f418246b-ac48-41b4-ad71-570a8071e6aa).
 
@@ -578,7 +578,7 @@ For detailed documentation on using Action bar in a multi-step form, view the [d
 
 ### When editing a document
 
-![when editing a document](images/components/shell/action-bar/usage-editing.svg)
+![when editing a document](/images/components/shell/action-bar/usage-editing.svg)
 
 For detailed documentation on using Action bar when editing a document, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/a8f96726-827b-41aa-bca1-949362230fa8).
 
@@ -590,7 +590,7 @@ For detailed documentation on using Action bar when editing a document, view the
 2. **Page title:** Title is located on the left side within the sticky bar
 3. **Action buttons:** action buttons are located on the right side of the sticky bar
 
-![anatomy](images/components/shell/action-bar/anatomy.svg)
+![anatomy](/images/components/shell/action-bar/anatomy.svg)
 
 For detailed documentation on Action bar anatomy, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/04796dd6-e40a-4de0-b1ca-3175bacf5d38).
 
@@ -606,14 +606,14 @@ The main purpose of the action bar is to provide the user with a consistent plac
 
 <br />
 
-![expanded side nav](images/components/shell/action-bar/expandednav.svg)
+![expanded side nav](/images/components/shell/action-bar/expandednav.svg)
 Focused state with an expanded side nav
 
 For detailed documentation on Action bar with an expanded side nav, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/77f2c9b5-cb7b-497a-b868-72ee9c245e25).
 
 <br/>
 
-![scrolled focus state](images/components/shell/action-bar/scrolled.svg)
+![scrolled focus state](/images/components/shell/action-bar/scrolled.svg)
 Action bar after scrolling down the page
 
 For detailed documentation on Action bar after scrolling down the page, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/8a119f76-5a5f-42c1-ad53-99c88ab13a0d).
@@ -622,7 +622,7 @@ For detailed documentation on Action bar after scrolling down the page, view the
 
 ## Responsiveness
 
-![responsiveness](images/components/shell/action-bar/responsiveness.svg)
+![responsiveness](/images/components/shell/action-bar/responsiveness.svg)
 
 The mobile action bar is a bit different from the desktop version.
 
@@ -641,13 +641,13 @@ For detailed documentation on Action bar responsiveness, view the [design specs]
 
 The action bar will stay fixed to the top of the view point when the keyboard is present.
 
-![keyboard](images/components/shell/action-bar/keyboard.svg)
+![keyboard](/images/components/shell/action-bar/keyboard.svg)
 
 <br />
 
 ZUI-remove will always be present. When you have a form that is broken up into multiple steps, include an action to go to the previous step such as "Back".
 
-![steps](images/components/shell/action-bar/steps.svg)
+![steps](/images/components/shell/action-bar/steps.svg)
 
 ---
 

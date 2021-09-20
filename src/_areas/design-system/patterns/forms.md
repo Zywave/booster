@@ -31,7 +31,7 @@ The following are the basic building blocks for creating forms. These elements a
 
 A single-line box that the user can enter text into. They automatically move with their content to the left as the text input cursor reaches the right edge of the input field. See below for more detailed documentation on field sizes and statuses. For more information see [Text inputs documentation.](/design-system/components/text-inputs/)
 
-![Text field](images/components/text-input/text-input--normal.svg)
+![Text field](/images/components/text-input/text-input--normal.svg)
 
 <Spacer size="small"/>
 
@@ -39,7 +39,7 @@ A single-line box that the user can enter text into. They automatically move wit
 
 Use this control when you need to pick just one item from a list. For more information see [dropdown-select documentation.](/design-system/components/dropdown-selects/)
 
-![Dropdown select](images/components/dropdown-select/dropdown-select.svg)
+![Dropdown select](/images/components/dropdown-select/dropdown-select.svg)
 
 <Spacer size="small"/>
 
@@ -47,7 +47,7 @@ Use this control when you need to pick just one item from a list. For more infor
 
 A one at a time selection. Only one button can be selected from a group. If you select another, the previously selected input is deselected. For more information see [radio-button documentation.](/design-system/components/radio-buttons/)
 
-![Radio buttons](images/components/radio-buttons/radio-button.svg)
+![Radio buttons](/images/components/radio-buttons/radio-button.svg)
 
 <Spacer size="small"/>
 
@@ -55,7 +55,7 @@ A one at a time selection. Only one button can be selected from a group. If you 
 
 This type of input is used when you need users to answer a question with a yes or no response. More than one can be selected. For more information see [checkboxes documentation.](/design-system/components/checkboxes/)
 
-![Checkbox](images/components/checkboxes/checkbox.svg)
+![Checkbox](/images/components/checkboxes/checkbox.svg)
 
 <Spacer size="small"/>
 
@@ -63,7 +63,7 @@ This type of input is used when you need users to answer a question with a yes o
 
 Cross between a button and checkbox. An on/off or true/false data input, used for a binary flip. For more information see [toggles documentation.](/design-system/components/toggles/)
 
-![Toggle](images/components/toggles/toggle-on.svg)
+![Toggle](/images/components/toggles/toggle-on.svg)
 
 <Spacer size="small"/>
 
@@ -71,7 +71,7 @@ Cross between a button and checkbox. An on/off or true/false data input, used fo
 
 Appears as a standard text input but with calendar icon and date format as ghost text. You can type the date in the input field or click in the input field to get a calendar to appear to select a date from. <!-- For more information see [datepicker documentation.](/components/datepicker)-->
 
-![Datepicker](images/components/datepicker/datepicker.svg)
+![Datepicker](/images/components/datepicker/datepicker.svg)
 
 <Spacer size="small"/>
 
@@ -79,7 +79,7 @@ Appears as a standard text input but with calendar icon and date format as ghost
 
 The file input component allows the user to select one or many files from a user's file system, either natively using a file input or drag and drop. For more information see [file input documentation.](/design-system/components/file-inputs/)
 
-![File input](images/components/file-input/singlefile_do_action.svg)
+![File input](/images/components/file-input/singlefile_do_action.svg)
 
 <hr>
 
@@ -127,19 +127,19 @@ The label helps bring proper context to your inputs to let the user know what da
 
 Top aligned labels are prefered for shorter forms. They are easier to read, requiring less eye movement and making it easier to read the label and see its corresponding field. Consider available space and number of fields when determining which label alignment to use.
 
-![Top Aligned Label](images/patterns/forms/forms--label-top.svg)
+![Top Aligned Label](/images/patterns/forms/forms--label-top.svg)
 
 <Spacer size="small" />
 
 Left aligned labels are preffered for long forms with many inputs. Right justifying the label text helps with its relationship to the input field and readability. Consider available space and number of fields when determining which label alignment to use.
 
-![Left Aligned Label](images/patterns/forms/forms--label-left.svg)
+![Left Aligned Label](/images/patterns/forms/forms--label-left.svg)
 
 <Spacer size="small" />
 
 Left aligned labels should line up with the text of the element.
 
-![Left Aligned Label](images/patterns/forms/label--input-alignment.svg)
+![Left Aligned Label](/images/patterns/forms/label--input-alignment.svg)
 
 <Spacer size="small" />
 
@@ -147,7 +147,7 @@ Left aligned labels should line up with the text of the element.
 
 Always keep consistent margins between form labels, inputs, and actions.
 
-![Forms Spacing](images/patterns/forms/forms--spacing.svg)
+![Forms Spacing](/images/patterns/forms/forms--spacing.svg)
 
 1. **30px** margin between title and elements
 2. **10px** margin between labels and elements
@@ -158,7 +158,7 @@ Always keep consistent margins between form labels, inputs, and actions.
 
 When errors happen the form needs to make space for the proper validation indicators and notifications.
 
-![Forms Spacing](images/patterns/forms/forms--spacing--withvalidation.svg)
+![Forms Spacing](/images/patterns/forms/forms--spacing--withvalidation.svg)
 
 1. **20px** margin between elements
 2. **30px** margin between elements and notifications
@@ -168,7 +168,7 @@ When errors happen the form needs to make space for the proper validation indica
 
 For left aligned labels, keep a consistent gutter between the label and the element. Shorter gutter distances make it easier for the user to use the form. Long labels that need to wrap should keep the defined form margin or gutter. We recommend 40px.
 
-![Left Aligned Label](images/patterns/forms/label--left-margin.svg)
+![Left Aligned Label](/images/patterns/forms/label--left-margin.svg)
 
 <Spacer size="small" />
 
@@ -176,7 +176,7 @@ For left aligned labels, keep a consistent gutter between the label and the elem
 
 In many cases it is reccomended to group related fields together using a card as their container. This helps the user understand the relationship between elements by forming a visual relationship. To help emphasise the relationship it's recommended to add group titles and instrutions..
 
-![Forms Spacing](images/patterns/forms/forms--oncards.svg)
+![Forms Spacing](/images/patterns/forms/forms--oncards.svg)
 
 <hr>
 
@@ -188,12 +188,12 @@ In many cases it is reccomended to group related fields together using a card as
 
 Forms typically have Primary and Cancel actions, but they could also have a secondary save action. Primary actions are buttons in a form that perform essential 'final' functionality, such as 'Save' or 'Submit'. For more information see [button documentation.](/design-system/components/buttons/)
 
-![contexutal help info icon](images/patterns/forms/forms--actions-heirarchy.svg)
+![contexutal help info icon](/images/patterns/forms/forms--actions-heirarchy.svg)
 
 <Spacer size="small" />
 
 Sometimes having multiple buttons are necessary. A form may need Primary, Secondary and Cancel actions. In those cases line up the buttons based on their importance. Secondary actions, such as 'Save' are directly related to the form but should be treated as less important. 'Cancel' buttons should be treated as link buttons.
-![contexutal help info icon](images/patterns/forms/forms--actions-hierarchy-with-secondary-action.svg)
+![contexutal help info icon](/images/patterns/forms/forms--actions-hierarchy-with-secondary-action.svg)
 <br/>
 <br/>
 
@@ -203,9 +203,9 @@ Sometimes having multiple buttons are necessary. A form may need Primary, Second
 
 Form actions should appear where the user is likely to look first after completing a form. This is typically directly below the form itself in line with the inputs.
 
-![form actions inline ](images/patterns/forms/forms--actions-inline.svg)
+![form actions inline ](/images/patterns/forms/forms--actions-inline.svg)
 
-![form actions inline ](images/patterns/forms/forms--actions-inline2.svg)
+![form actions inline ](/images/patterns/forms/forms--actions-inline2.svg)
 <br>
 <br>
 
@@ -213,7 +213,7 @@ Form actions should appear where the user is likely to look first after completi
 
 In Multi-step forms some people want to go back to check or change their answers. In these cases use a back button at the top of the form. [Breadcrumbs](/design-system/components/breadcrumbs/) work very well in these cases.
 
-![form actions inline ](images/patterns/forms/forms--actions-back.svg)
+![form actions inline ](/images/patterns/forms/forms--actions-back.svg)
 <br>
 <br>
 
@@ -221,7 +221,7 @@ In Multi-step forms some people want to go back to check or change their answers
 
 To comply with modal standards the form actions should be placed in the footer of the modal.
 
-![form actions inline ](images/patterns/forms/forms--actions-dialog.svg)
+![form actions inline ](/images/patterns/forms/forms--actions-dialog.svg)
 <br>
 <br>
 
@@ -239,7 +239,7 @@ When the action will take you to another page align the action to the bottom rig
 
 Field indicators help the user understand what is necessary for them to complete the form, setting expectations and enabling them to fill out the form more quickly and accurately.
 
-![form optional required](images/patterns/forms/forms--indicators.svg)
+![form optional required](/images/patterns/forms/forms--indicators.svg)
 
 ###### Form instructions
 
@@ -253,13 +253,13 @@ They should be used whenever a field is required. Use a red asterisk next to the
 
 Occasionally, all of the fields are required except one or two. In these times it's ok to use an optional indicator. For this use light gray text that says (optional). This can be under the label, to the right of it, or potentially in the ghost text, depending on available space.
 
-![form optional indicator](images/patterns/forms/forms--indicator-optional.svg)
+![form optional indicator](/images/patterns/forms/forms--indicator-optional.svg)
 
 <Spacer/>
 
 In some cases a label isn't enough and we need provide additional help. Contextual help should appear directly on a form page so that users can easily find help when they look for it. This can take many appearances, such as constantly visible helper text below or to the right of the field, or a [tooltip](/design-system/components/tooltips/) or popover icon. All of these are suitable options and will depend on structure and complexity of the form.
 
-![Contexutal help examples](images/patterns/forms/contextual-help--examples.svg)
+![Contexutal help examples](/images/patterns/forms/contextual-help--examples.svg)
 
 <hr>
 
@@ -278,17 +278,17 @@ In many cases inline validation isn't possible. When those situations arise, con
 
 When something goes wrong, it's important to highlight each element that has an error and add a clear message of what needs to be done to pass validation, this way a user can easily find what they need to fix. Input elements, like text inputs, dropdown selects and date pickers show validation by changing to their error state and showing the validation message below. Elements that don't have error states, like checkboxes, radio buttons and toggles only show the validation message below the element.
 
-![forms validation error](images/patterns/forms/forms--validation-error.svg)
+![forms validation error](/images/patterns/forms/forms--validation-error.svg)
 
 In some cases it is appropriate to give the user a success validation message to increase their confidence in moving forward.
 
-![forms validation success](images/patterns/forms/forms--validation-success.svg)
+![forms validation success](/images/patterns/forms/forms--validation-success.svg)
 
 #### Validation notification
 
 When the form action button is pressed, if there are errors an error notification should show letting the user know something needs to be done before completion. Proper messaging is important for the user to know how to move forward quickly. Be direct on what to fix and use plain and simple language.
 
-![forms validation message](images/patterns/forms/forms--validation-message.svg)
+![forms validation message](/images/patterns/forms/forms--validation-message.svg)
 
 ###### Notification placement
 

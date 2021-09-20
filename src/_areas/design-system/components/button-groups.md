@@ -30,7 +30,7 @@ Combining a few related actions into a button group can be useful for a feature.
 
 Button groups follow the same anatomy rules as a button. For more information on these states, see [buttons](/design-system/components/buttons/).
 
-![Anatomy of a button group](images/components/button-groups/anatomy.svg)
+![Anatomy of a button group](/images/components/button-groups/anatomy.svg)
 
 1. Button: The shape that encloses the label. Follow the [buttons](/design-system/components/buttons/) guidelines for style variations, sizing, and spacing specifications.
 2. Dividers: The line that separates the buttons.
@@ -45,21 +45,21 @@ For detailed documentation on our button group anatomy, view the [design specs](
 
 A secondary button group is used to represent secondary actions on a page.
 
-![secondary button group](images/components/button-groups/secondary.svg)
+![secondary button group](/images/components/button-groups/secondary.svg)
 
 #### Primary
 
 A primary button group is used to call attention to the main actions a user should take. This type should be used sparingly since it is rare you would have more than one primary action on a page.
 
-![primary button group](images/components/button-groups/primary.svg)
+![primary button group](/images/components/button-groups/primary.svg)
 
 #### Adding icons
 
-![button group icons](images/components/button-groups/icons2.svg) ![button group icons](images/components/button-groups/icons.svg)
+![button group icons](/images/components/button-groups/icons2.svg) ![button group icons](/images/components/button-groups/icons.svg)
 
 If you have to omit labels due to lack of space, use an icon that clearly and unambiguously represents the action.
 
-![button group icons](images/components/button-groups/icons3.svg)
+![button group icons](/images/components/button-groups/icons3.svg)
 
 For detailed documentation on adding icons to button groups, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/screen/0221f047-f6ae-4f88-92d0-29d69d4be97b/specs/).
 
@@ -69,7 +69,7 @@ For detailed documentation on adding icons to button groups, view the [design sp
 
 Button dropdowns are acceptable in button groups. For more information about button dropdowns, see [button dropdowns](/design-system/components/button-dropdowns/).
 
-![button group dropdowns](images/components/button-groups/buttondropdown.svg)
+![button group dropdowns](/images/components/button-groups/buttondropdown.svg)
 
 Arrange primary actions on the left, followed by a button dropdown as the last button in a group.
 
@@ -81,13 +81,13 @@ For detailed documentation on using button dropdowns in button groups, view the 
 
 Dropdowns can be placed anywhere in a button group as long as the buttons are ordered logically, either by usage or importance.
 
-![button group dropdowns](images/components/button-groups/buttondropdown2.png)
+![button group dropdowns](/images/components/button-groups/buttondropdown2.png)
 
 ---
 
 ## States
 
-![button group states](images/components/button-groups/states.svg)
+![button group states](/images/components/button-groups/states.svg)
 
 The focused state for button groups uses an internal borderline. All of the other states follow regular [buttons](/design-system/components/buttons/) guidelines.
 
@@ -121,7 +121,7 @@ For detailed documentation on our button groups states, view the [design specs](
 
 #### Icons button group states
 
-![button group icon states](images/components/button-groups/states2.svg)
+![button group icon states](/images/components/button-groups/states2.svg)
 
 For detailed documentation on our button groups states, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/screen/20cde077-f0e1-4e45-8e99-cc2e77a332a7/specs/).
 
