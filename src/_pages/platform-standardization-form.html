@@ -308,6 +308,11 @@
         </header>
         <section>
             <form data-netlify="true" name="platform-standardization" method="POST">
+                <input type="hidden" value="0" name="Authentication / Authorization" />
+                <input type="hidden" value="0" name="UX / Design" />
+                <input type="hidden" value="0" name="Data" />
+                <input type="hidden" value="0" name="Infrastructure / Security" />
+
                 <div class="metadata">
                     <label>
                         <span class="label-text">App name:</span>
@@ -503,8 +508,7 @@
             const formData = x.formData;
             const scores = getScores(form.querySelectorAll("div[data-stage-category]"));
             for (const k of Object.keys(scores)) {
-                const scoreFormName = k.replaceAll(" ", "").replaceAll("/", "-");
-                formData.set(scoreFormName, scores[k].toString());
+                formData.set(k, scores[k].toString());
             }
         });
 
