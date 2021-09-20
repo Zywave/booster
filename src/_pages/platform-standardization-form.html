@@ -491,20 +491,19 @@
         const dialog = document.getElementById("results");
 
         form.addEventListener("submit", (x) => {
-            // don't actually submit, but force formdata
-            new FormData(form);
             x.preventDefault();
+
+            const formData = new FormData(form);
+
+            const scores = getScores(form.querySelectorAll("div[data-stage-category]"));
+            showResults(scores);
         });
 
         form.addEventListener("formdata", (x) => {
-            const scores = getScores(form.querySelectorAll("div[data-stage-category]"));
-
             const formData = x.formData;
             for (const k of Object.keys(scores)) {
                 formData.set(k, scores[k].toString());
             }
-            showResults(scores);
-            return false;
         });
 
         function getScores(stages) {
@@ -550,11 +549,21 @@
             }
         }
 
+        async function submitNetlifyForm() {
+            const formData = new FormData(form)
+            fetch('/', {
+                method: 'POST',
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(formData).toString()
+            }).then(() => console.log('Form successfully submitted'));
+        }
+
         document.getElementById("dialog-close").addEventListener("click", () => {
             dialog.close();
         });
-        document.getElementById("dialog-confirm").addEventListener("click", () => {
-            form?.submit();
+        document.getElementById("dialog-confirm").addEventListener("click", async () => {
+            await submitNetlifyForm();
+            form.reset();
             dialog.close();
         });
     </script>
