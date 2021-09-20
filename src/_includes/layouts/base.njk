@@ -50,15 +50,19 @@
 <body class="zui row {{ pageType }}">
 
 	{% if navHidden !== true %}
-		{% include "components/nav.njk" %}
+		{% include "components/side-nav.njk" %}
 	{% endif %}
 	
 	{% if navHidden !== true %}
-	<main class="content-with-sidenav">
+	<main class="content-with-side-nav">
+		{% include "components/top-nav.njk" %}
+		<div class="content-wrapper">
+			{{ content | safe }}
+		</div>
 	{% else %}
 	<main>
-	{% endif %}
 		{{ content | safe }}
+	{% endif %}
 	</main>
 	<script>
 	if (window.netlifyIdentity) {

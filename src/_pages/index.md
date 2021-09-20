@@ -17,7 +17,7 @@ pageType: home
                 <li><a href="#">Branding</a></li>
             </ul>
         </nav>
-        <div class="login"><a href="admin">Login</a></div>
+        <div class="login"><a href="admin">Log in</a></div>
     </div>
 </header>
 <div class="home-header">
@@ -30,7 +30,7 @@ pageType: home
             </h1>
             <h3>Our development network powers and guides our products into orbit.</h3>
         </div>
-        <input type="search" placeholder="Let's find something..." />
+        <div id="search"></div>
     </div>
 </div>
 <div class="home-content">

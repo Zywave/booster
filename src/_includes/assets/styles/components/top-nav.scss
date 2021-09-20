@@ -1,0 +1,35 @@
+.top-nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: rem(20);
+
+    // algolia search overrides
+    #search {
+        form {
+            border-radius: 50%;
+
+            input {
+                display: none;
+            }
+        }
+    }
+
+    .log-in {
+        padding: rem(10);
+        margin-left: rem(20);
+        color: #324958;
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    & + hr {
+        margin: 0;
+    }
+}
