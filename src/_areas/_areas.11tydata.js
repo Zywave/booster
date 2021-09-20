@@ -112,9 +112,7 @@ module.exports = {
           // check if current page
           let checkCurrentStatus = false;
           const currentPagePath = data.page?.filePathStem?.split('/_areas/')[1];
-          console.log(currentPagePath);
-          const currentFileUrl = buildPermalink(fileFullPath);
-          console.log(currentFileUrl);
+          const currentFileUrl = buildPermalink(fileFullPath).replace('/', '').replace(/\\/g, '/');
           if (currentPagePath == currentFileUrl) {
             checkCurrentStatus = true;
           }
@@ -122,7 +120,9 @@ module.exports = {
           return {
             url: fileUrl,
             name: fileName,
-            isCurrent: checkCurrentStatus
+            isCurrent: checkCurrentStatus,
+            currentPath: currentPagePath,
+            currentFile: currentFileUrl
           };
         });
       }
