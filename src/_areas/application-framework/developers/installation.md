@@ -14,8 +14,25 @@ The Zywave API toolkit offers a bundle with all of the core componentry for the 
 By loading the bundle via a CDN that can resolve npm tags, we can push fixes/enhancements to your application without any deploy on your end. 
 
 ```html
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle/@{latest|next}/dist/bundle.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@{latest|next}/dist/bundle.js"></script>
 ```
+
+### latest/next
+
+You may have noticed in that code snippet above the following:\
+`@{latest|next}`  
+
+These terms correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
+
+Choose the right tag for your situation, and update accordingly (e.g. `https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js`)
+
+### Version numbers
+In addition to dist tags, you can use any valid npm version as found [here](https://www.npmjs.com/package/@zywave/zywave-api-toolkit-bundle).
+
+This can be generally useful when a critical issue is encountered, or a deprecation notice goes unheeded.
+
+A versioned URL could look something like the following:  
+`https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@1.0.22/dist/bundle.js`
 
 ## API Proxy Element
 
