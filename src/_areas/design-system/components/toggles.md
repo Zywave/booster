@@ -104,6 +104,6 @@ In a situation where the Toggle is in a disabled state and the user attempts to 
 
 ## Alt considerations
 
-Use [Radio Buttons](components/radio-buttons) when only one item can be selected from the list of options
+Use [Radio Buttons](/design-system/components/radio-buttons) when only one item can be selected from the list of options
 
 Use [Checkboxes](components/checkboxes) as an alternative to Toggles when the selection is not applied immediately.
