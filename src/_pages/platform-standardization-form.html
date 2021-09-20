@@ -307,7 +307,7 @@
             </div>
         </header>
         <section>
-            <form netlify>
+            <form data-netlify="true" name="platform-standardization" method="POST">
                 <div class="metadata">
                     <label>
                         <span class="label-text">App name:</span>
@@ -503,7 +503,8 @@
             const formData = x.formData;
             const scores = getScores(form.querySelectorAll("div[data-stage-category]"));
             for (const k of Object.keys(scores)) {
-                formData.set(k, scores[k].toString());
+                const scoreFormName = k.replace(" ", "").replace("/", "-");
+                formData.set(scoreFormName, scores[k].toString());
             }
         });
 
