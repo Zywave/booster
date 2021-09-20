@@ -5,7 +5,7 @@ subtitle: Get started with our application framework!
 ---
 The Zywave API Toolkit is offered in a variety of ways. All components (including the bundle) are available via the npm registry; meaning you're just an `npm install` or `yarn add` away.
 
-However, the most common (and recommended) way of installing the toolkit is via a CDN that can resolve npm tags and versions. Zywave offers that service via [the Zywave CDN](https://cdn.zywave.com).
+However, the most common (and recommended) way to install the toolkit is via a CDN that can resolve npm tags and versions. Zywave offers that service via [the Zywave CDN](https://cdn.zywave.com).
 
 ## Installing the bundle via CDN
 
@@ -14,7 +14,7 @@ The Zywave API toolkit offers a bundle with all of the core componentry for the 
 By loading the bundle via a CDN that can resolve npm tags, we can push fixes/enhancements to your application without any deploy on your end. 
 
 ```html
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle/@{latest|next}/dist/bundle.js></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle/@{latest|next}/dist/bundle.js"></script>
 ```
 
 ## API Proxy Element
