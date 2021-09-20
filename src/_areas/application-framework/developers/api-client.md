@@ -3,7 +3,7 @@ layout: documentation
 title: API Client
 subtitle: Communicating with Zywave's public APIs, consistently
 ---
-The Application Framework offers a small library that helps with calling [Zywave's public APIs](https://api.zywave.com/docs/). And, if you're using the [API Proxy Element](/application-framework/components/api-proxy/), it'll be a breeze!
+The Application Framework offers a small library that helps with calling [Zywave's public APIs](https://api.zywave.com/docs/). And, if you're using the [API Proxy Element](/application-framework/components/api-proxy/), authorization headers will be applied for you, making this a breeze!
 
 **Note:** All code examples on this page assume you are loading the Application Framework from the @zywave/zywave-api-toolkit-bundle. This client is also offered via npm/yarn should you so desire at [@zywave/zywave-api-client](https://www.npmjs.com/package/@zywave/zywave-api-client).
 
