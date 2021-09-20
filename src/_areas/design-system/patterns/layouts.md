@@ -80,7 +80,7 @@ When data is displayed in a listview within cards, they should follow the same g
 
 ### Content guidelines
 
-Cards are a great tool for communicating quick stories. Like all stories, the title is important to know if you'd like to read it. Always follow our [writing style guide](/design-system/writing-style-guide/).
+Cards are a great tool for communicating quick stories. Like all stories, the title is important to know if you'd like to read it. Always follow our [writing style guide](/design-system/voice-and-tone/writing-style-guide/).
 
 - **Keep it simple:** the headline needs to be easy to digest.
 - **Keep it short:** make it so user can scan the material.
