@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        html {
+            font-size: 100%;
+            line-height: 1.6;
+            margin: 0;
+            --accent-color-h: 212;
+            --accent-color-s: 69%;
+            --accent-color-l: 49%;
+            --accent-color: hsl(var(--accent-color-h),
+                    var(--accent-color-s),
+                    var(--accent-color-l));
+            /* Light scheme theming */
+            --default-background-color: white;
+            --default-font-color: #31313a;
+            --default-accent-color: var(--accent-color);
+            --default-border-color: #afafbb;
+            --default-sample-font-color: #9494a4;
+            --default-table-headers-color: #f4f4f6;
+            /* Dark scheme theming */
+            --dark-scheme-background-color: var(--default-font-color);
+            --dark-scheme-font-color: var(--default-background-color);
+            --dark-scheme-accent-color: hsl(var(--accent-color-h),
+                    var(--accent-color-s),
+                    calc(var(--accent-color-l) - 20%));
+            --dark-scheme-border-color: #9494a4;
+            --dark-scheme-sample-font-color: #afafbb;
+            --dark-scheme-table-headers-color: #494955;
+        }
+
+        body {
+            margin: 0;
+            color: var(--default-font-color);
+            background-color: var(--default-background-color);
+        }
+
+        dialog {
+            color: var(--default-font-color);
+            background-color: var(--default-background-color);
+            border: none;
+        }
+
+        * {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            accent-color: var(--default-accent-color);
+            box-sizing: border-box;
+            transition: all 100ms ease-in-out;
+        }
+
+        header {
+            background-color: var(--default-accent-color);
+            color: var(--default-background-color);
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        label {
+            display: flex;
+            cursor: pointer;
+        }
+
+        label+label {
+            margin-top: 0.625rem;
+            /* 10 / 16 */
+        }
+
+        input[type=checkbox] {
+            cursor: pointer;
+        }
+
+        button {
+            font-size: 1rem;
+            border: 0;
+            border-radius: 1.875rem;
+            /* 30 / 16 */
+            background: var(--default-accent-color);
+            color: var(--default-background-color);
+            height: 2.25rem;
+            /* 36 / 16 */
+            padding: 0 0.9375rem;
+            /* 15 / 16 */
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 10%));
+        }
+
+        button:focus {
+            background: var(--default-accent-color);
+            box-shadow: 0 0 0 1px #fff, 0 0 0 2px var(--default-accent-color);
+            outline: none;
+        }
+
+        button:active {
+            background: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 10%));
+        }
+
+        .wrapper,
+        section {
+            padding: 1.875rem;
+            /* 30 / 16 */
+            margin: 0 auto;
+            max-width: 80rem;
+            /* 1280 / 16 */
+        }
+
+        .metadata {
+            display: inline-flex;
+            flex-direction: column;
+        }
+
+        .metadata label {
+            align-items: center;
+        }
+
+        .metadata label .label-text {
+            display: inline-block;
+            width: 16ch;
+            font-weight: 700;
+        }
+
+        .metadata label input {
+            font-size: 1rem;
+            border: 1px solid var(--default-border-color);
+            border-radius: 4px;
+            height: 2.1rem;
+            /* 42 / 20 */
+            margin: 0;
+            padding: 0 0.75rem;
+            /* 15 / 20 */
+        }
+
+        .metadata label input[type=url] {
+            width: 60ch;
+        }
+
+        .metadata label input:hover {
+            border-color: var(--dark-scheme-border-color);
+        }
+
+        .metadata label input:focus {
+            border-color: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 10%));
+            box-shadow: 0 0 0 1px hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) + 10%));
+            outline: none;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            margin: 1.875rem 0;
+            /* 30 / 16 */
+        }
+
+        .row {
+            display: contents;
+        }
+
+        .row.sample .cell {
+            color: var(--default-sample-font-color);
+        }
+
+        .cell {
+            padding: 1rem;
+            border-width: 0;
+            border-style: solid;
+            border-color: var(--default-border-color);
+            border-left-width: 1px;
+            border-bottom-width: 1px;
+        }
+
+        .cell:first-child .subtext {
+            font-weight: normal;
+        }
+
+        .cell:last-child {
+            border-right-width: 1px;
+        }
+
+        .cell label+label {
+            margin-top: 1.25rem;
+            /* 20 / 16 */
+        }
+
+        .cell input {
+            width: 1.5rem;
+            /* 24 / 16 */
+            height: 1.5rem;
+            flex-shrink: 0;
+            margin-right: 0.625rem;
+            /* 10 / 16 */
+        }
+
+        .cell:first-child,
+        .heading-row .cell {
+            font-weight: 700;
+            background-color: var(--default-table-headers-color);
+        }
+
+        .heading-row .cell {
+            position: sticky;
+            top: 0;
+            display: flex;
+            align-items: center;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            margin-left: 1rem;
+        }
+
+        ul li+li {
+            margin-top: 1.25rem;
+            /* 20 / 16 */
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            body,
+            dialog {
+                background-color: var(--dark-scheme-background-color);
+                color: var(--dark-scheme-font-color);
+            }
+
+            * {
+                accent-color: var(--dark-scheme-accent-color);
+            }
+
+            header {
+                background-color: var(--dark-scheme-accent-color);
+            }
+
+            input {
+                background-color: var(--dark-scheme-input-background-color);
+                color: var(--dark-scheme-font-color);
+            }
+
+            button {
+                background: var(--dark-scheme-accent-color);
+                color: var(--dark-scheme-font-color);
+            }
+
+            button:hover {
+                background: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 30%));
+            }
+
+            button:focus {
+                background: var(--dark-scheme-accent-color);
+                box-shadow: 0 0 0 1px var(--dark-scheme-background-color), 0 0 0 2px var(--dark-scheme-accent-color);
+            }
+
+            button:active {
+                background: hsl(var(--accent-color-h), var(--accent-color-s), calc(var(--accent-color-l) - 40%));
+            }
+
+            .cell:first-child,
+            .heading-row .cell {
+                background-color: var(--dark-scheme-table-headers-color);
+            }
+
+            .cell {
+                border-color: var(--dark-scheme-border-color);
+            }
+        }
+
+        dialog::backdrop {
+            opacity: 0.5;
+            background-color: #606071;
+        }
+
+        .results-list {
+            width: 40em;
+        }
+
+        .results-list ul li {
+            margin-left: 1rem;
+        }
+
+        .results-list ul li+li {
+            margin-top: 0.5rem;
+            /* 20 / 16 */
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="wrapper">
+                <h1>Zywave Platform Standardization Checklist</h1>
+                <p>Check off the items that apply to your application to determine its standardization maturity for each
+                    column.</p>
+                <p><strong>Note: </strong>Stage 0 is included as an example of what most apps are like during the
+                    initial
+                    phase; the form starts with Stage 1!</p>
+            </div>
+        </header>
+        <section>
+            <form netlify>
+                <div class="metadata">
+                    <label>
+                        <span class="label-text">App name:</span>
+                        <input required type="text" name="app" placeholder="My App" />
+                    </label>
+                    <label>
+                        <span class="label-text">Submitter email:</span>
+                        <input required type="email" name="email" placeholder="me@email.com" />
+                    </label>
+                    <label>
+                        <span class="label-text">Repo URL:</span>
+                        <input required type="url" name="repoUrl" placeholder="https://repo.url.com" />
+                    </label>
+                </div>
+                <div class="grid">
+                    <div class="row heading-row">
+                        <div class="cell">
+                            <!-- empty -->
+                        </div>
+                        <div class="cell">
+                            Authentication / Authorization
+                        </div>
+                        <div class="cell">
+                            UX / Design
+                        </div>
+                        <div class="cell">
+                            Data
+                        </div>
+                        <div class="cell">
+                            Infrastructure / Security
+                        </div>
+                    </div>
+                    <div class="row sample">
+                        <div class="cell">
+                            Stage 0
+                            <div class="subtext">
+                                No tie to the Zywave brand
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <ul>
+                                <li>Requires separate credentials from Zywave</li>
+                            </ul>
+                        </div>
+                        <div class="cell">
+                            <ul>
+                                <li>Look and feel is completely unique from Zywave products</li>
+                                <li>Does not use ZUI foundations, patterns, or components</li>
+                            </ul>
+                        </div>
+                        <div class="cell">
+                            <ul>
+                                <li>Data is separate and distinct from Zywave; duplicate data entry</li>
+                            </ul>
+                        </div>
+                        <div class="cell">
+                            <ul>
+                                <li>Does not live on any Zywave infrastructure</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Stage 1
+                            <div class="subtext">
+                                Bare minimum of integration with Zywave
+                            </div>
+                        </div>
+                        <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="1">
+                            <label>
+                                <input type="checkbox" name="sso" />
+                                Enables login via Zywave Auth; may or may not have its own local login system still
+                            </label>
+                        </div>
+                        <div class="cell" data-stage-category="UX / Design" data-stage-value="1">
+                            <label>
+                                <input type="checkbox" name="zuiShell" />
+                                Topbar and SideNav have same appearance as Zywave
+                            </label>
+                            <label>
+                                <input type="checkbox" name="launchpadAccessible" />
+                                App is accessible via the Zywave Launchpad
+                            </label>
+                        </div>
+                        <div class="cell" data-stage-category="Data" data-stage-value="1">
+                            <label>
+                                <input type="checkbox" name="oneWaySync" />
+                                One way sync of data from the app back into Zywave
+                            </label>
+                        </div>
+                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="1">
+                            <label>
+                                <input type="checkbox" name="zywaveHosted" />
+                                Is hosted and managed by Zywave
+                            </label>
+                            <label>
+                                <input type="checkbox" name="securityScanning" />
+                                Complies with security scanning requirements
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Stage 2
+                            <div class="subtext">
+                                Is an app within Zywave
+                            </div>
+                        </div>
+                        <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="2">
+                            <label><input type="checkbox" name="tenancy" /> Adheres to Zywave's
+                                tenancy model</label>
+                            <label><input type="checkbox" name="onlyZywaveAuth" /> No separate authentication from
+                                Zywave
+                                Auth</label>
+                        </div>
+                        <div class="cell" data-stage-category="UX / Design" data-stage-value="2">
+                            <label><input type="checkbox" name="zapiShell" /> Uses Zywave
+                                Shell</label>
+                        </div>
+                        <div class="cell" data-stage-category="Data" data-stage-value="2">
+                            <label><input type="checkbox" name="twoWaySync" />Two-way sync with
+                                Zywave data</label>
+                        </div>
+                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="2">
+                            <label><input type="checkbox" name="zywaveDomain" />Lives on a
+                                *.zywave.com domain</label>
+                            <label>
+                                <input type="checkbox" name="k8s" />
+                                Runs in Kubernetes, but may have centralized dependencies (e.g. RMQ, SQL, etc.)
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Stage 3
+                            <div class="subtext">
+                                Is a feature within Zywave
+                            </div>
+                        </div>
+                        <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="3">
+                            <label><input type="checkbox" name="acl" />Fully compliant with
+                                access control/permissions</label>
+                            <label><input type="checkbox" name="licensing" />Applies licenses</label>
+                        </div>
+                        <div class="cell" data-stage-category="UX / Design" data-stage-value="3">
+                            <label><input type="checkbox" name="uxConsistency" />Follows ZUI
+                                standards throughout</label>
+                            <label><input type="checkbox" name="integratedSideNav" />SideNav is
+                                fully integrated</label>
+                        </div>
+                        <div class="cell" data-stage-category="Data" data-stage-value="3">
+                            <label><input type="checkbox" name="integratedData" />Data is fully
+                                integrated and managed within Zywave / no redundant data
+                                management</label>
+                        </div>
+                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="3">
+                            <label><input type="checkbox" name="containerization" />Fully containerized and can be
+                                deployed
+                                to any cloud-hosting ecosystem</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">
+                    Determine standardization
+                </button>
+                <button type="reset">
+                    Reset
+                </button>
+            </form>
+        </section>
+        <dialog id="results">
+            <ul id="contentsList" class="results-list"></ul>
+            <menu>
+                <button id="dialog-close">Cancel</button>
+                <button id="dialog-confirm">Submit</button>
+            </menu>
+        </dialog>
+    </main>
+    <script>
+        const form = document.querySelector("form");
+        const dialog = document.getElementById("results");
+
+        form.addEventListener("submit", (x) => {
+            // don't actually submit, but force formdata
+            new FormData(form);
+            x.preventDefault();
+        });
+
+        form.addEventListener("formdata", (x) => {
+            const scores = getScores(form.querySelectorAll("div[data-stage-category]"));
+
+            const formData = x.formData;
+            for (const k of Object.keys(scores)) {
+                formData.set(k, scores[k].toString());
+            }
+            showResults(scores);
+            return false;
+        });
+
+        function getScores(stages) {
+            const results = {};
+            for (const stagedCollection of stages) {
+                const category = stagedCollection.dataset.stageCategory;
+                const value = Number(stagedCollection.dataset.stageValue);
+                const checkboxes = Array.from(
+                    stagedCollection.querySelectorAll("input[type='checkbox']")
+                );
+                if (checkboxes.length && checkboxes.every((x) => x.checked)) {
+                    // ensure at least a score of 0
+                    results[category] ??= 0;
+                    // only set the score if they had the previous score; you can't just jump to stage 2 without stage 1
+                    if (results[category] === value - 1) {
+                        results[category] = Math.max(results[category] ?? 0, value);
+                    }
+                } else if (!results[category]) {
+                    results[category] = 0;
+                }
+            }
+
+            return results;
+        }
+
+        function getKeysByValue(object, value) {
+            return Object.keys(object).filter((key) => object[key] === value);
+        }
+
+        function showResults(scores) {
+            dialog.showModal();
+            const contentsList = dialog.querySelector("#contentsList");
+            contentsList.innerHTML = ""; // reset
+            const stages = [0, 1, 2, 3];
+
+            for (const stage of stages) {
+                const categories = getKeysByValue(scores, stage);
+                const li = document.createElement("li");
+                li.innerHTML = `Stage ${stage}: <ul>${categories
+                    .map((x) => `<li>${x}</li>`)
+                    .join("")}</ul>`;
+                contentsList.append(li);
+            }
+        }
+
+        document.getElementById("dialog-close").addEventListener("click", () => {
+            dialog.close();
+        });
+        document.getElementById("dialog-confirm").addEventListener("click", () => {
+            form?.submit();
+            dialog.close();
+        });
+    </script>
+</body>
+
+</html>
