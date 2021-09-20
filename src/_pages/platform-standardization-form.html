@@ -501,6 +501,7 @@
 
         form.addEventListener("formdata", (x) => {
             const formData = x.formData;
+            const scores = getScores(form.querySelectorAll("div[data-stage-category]"));
             for (const k of Object.keys(scores)) {
                 formData.set(k, scores[k].toString());
             }
