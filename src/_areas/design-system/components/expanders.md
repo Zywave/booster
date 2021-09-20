@@ -13,18 +13,6 @@ An Expander (sometimes referred to as an Accordion) is a useful pattern for prog
 
 <hr>
 
-## Table of contents
-
-- [Anatomy](#expander--anatomy)
-- [Basic Expander](#expander--basic)
-- [Adding header details](#expander--header-details)
-- [Adding actions](#expander--actions)
-- [Peek-a-boo Expander](#expander--peek-a-boo)
-- [Best practices](#expander--best-practices)
-- [Alternative considerations](#expander--alternative-considerations)
-
-<hr>
-
 ## Design specs
 
 [Click here for Expander design specs & guidelines](https://xd.adobe.com/view/d391f1e9-b657-47de-42a6-90e28fcaf4ce-a5a0/grid "Expander Design Specs"), where you will find the following:
@@ -149,5 +137,5 @@ _example of an expanded Peek-a-boo expander_
 ## Alternative considerations
 
 - Consider using **Cards** when you need to the ability to view and edit a group of information all at once. Show read only data on the card with an edit button that changes everything to be editable.
-- Consider using [**Tabs**](components/tabs/) instead of Expanders when there is a lot of information in the content area of a section that would push other sections out of the user's viewport, or if there is a lot of complex information.
+- Consider using [**Tabs**](/design-system/components/tabs/) instead of Expanders when there is a lot of information in the content area of a section that would push other sections out of the user's viewport, or if there is a lot of complex information.
 - Consider using **Jump links** when it would be best to have all the content visible and the user just needs to jump to different sections on the page.

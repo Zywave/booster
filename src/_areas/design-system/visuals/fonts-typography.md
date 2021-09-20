@@ -4,8 +4,6 @@ title: Fonts and typography
 subtitle: Typography guidelines help standardize our typeface styling, to improve the look and readability of product text.
 ---
 
-<!-- * [Developer documentation](https://gitlab.zywave.com/zui/zui-core/wikis/typography) -->
-
 ## Base font
 
 <Grid>
@@ -33,9 +31,9 @@ With system fonts, page content can feel more like it belongs on your particular
 <Grid>
 <GridCol col="span-4">
 
-We have 6 headline styles used throughout our applications. Though there isn’t a strict standard on appropriate headline usage, it’s essential to keep in mind that font weight and size are used to convey importance and bring hierarchy to a page.
+We have 6 headline styles used throughout our applications. Though there isn't a strict standard on appropriate headline usage, it's essential to keep in mind that font weight and size are used to convey importance and bring hierarchy to a page.
 
-**Note**: Our standard set of headline styles–featured in the supporting image--are paired with our default body copy. However, in certain circumstances, an application may use small or x-small body copy.
+**Note**: Our standard set of headline styles–featured in the supporting image--are paired with our default body copy. However, in certain circumstances, an application may use small or x-small body copy.
 
 For more information, see [body copy](#body-copy).
 
@@ -88,7 +86,7 @@ We have 3 defined body copy sizes used throughout our applications. Typically, d
 <Grid>
 <GridCol col="span-4">
 
-We have 4 font weights used throughout our applications. Though there isn’t a strict standard on appropriate font weight usage, it’s essential to keep in mind that font weight and size are used to convey importance and bring hierarchy to a page.
+We have 4 font weights used throughout our applications. Though there isn't a strict standard on appropriate font weight usage, it's essential to keep in mind that font weight and size are used to convey importance and bring hierarchy to a page.
 
 </GridCol>
 <GridCol col="span-8">

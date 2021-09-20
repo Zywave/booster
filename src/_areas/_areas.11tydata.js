@@ -106,8 +106,9 @@ module.exports = {
           if (file.isDirectory()) {
             const parentDirs = fs.readdirSync(fileFullPath, { withFileTypes: true });
             const firstParentDirsFile = parentDirs.find(p => p.isFile());
-            fileUrl = buildPermalink(path.join(dirname, file.name, firstParentDirsFile.name));
+            fileUrl = buildPermalink(path.join(dirname, file.name, firstParentDirsFile.name)).replace(/\\/g, '/');
           }
+          fileUrl = fileUrl.startsWith(`/`) ? `` : `/${fileUrl}`;
 
           // check if current page
           let checkCurrentStatus = false;
