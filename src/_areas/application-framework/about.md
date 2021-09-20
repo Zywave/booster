@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: About Booster's Application Framework
-subtitle: What is it and what does it do?
+subtitle: A collection of API-driven custom elements
 ---
 ## What is it and what does it do?
 
