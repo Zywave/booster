@@ -24,6 +24,8 @@ Toggles are used:
 1. **Switch** - The small circular indicator that slides to the other side of the track upon interaction
 2. **Track** - The rounded rectangle in which the switch slides back and forth
 
+
+
 - - -
 
 ## Layout
@@ -84,11 +86,9 @@ When a user interacts with the Toggle by mouse-click or pressing the enter key, 
 
 In a situation where the Toggle is in a disabled state and the user attempts to interact with it, the switch will "wiggle" in it's current position to indicate the interaction was received, but the state cannot change.
 
-
-![A disabled Toggle in the on position. ](/static/images/toggle-on-disabled.gif "Disabled on Toggle behavior") 
+![A disabled Toggle in the on position. ](/static/images/toggle-on-disabled.gif "Disabled on Toggle behavior")
 
 ![A disabled Toggle in the off position](/static/images/toggle-off-disabled.gif "Disabled off Toggle behavior")
-
 
 - - -
 
@@ -97,6 +97,8 @@ In a situation where the Toggle is in a disabled state and the user attempts to 
 * A Toggle's settings should take effect immediately without the need for a confirm or save, just as a light switch is immediate.
 * Changes to the UI from interacting with a Toggle setting, such as hiding, showing, enabling or disabling of content, are acceptable and expected in some cases. 
 * Labeling should be kept in-line with the Toggle
+
+
 
 - - -
 
