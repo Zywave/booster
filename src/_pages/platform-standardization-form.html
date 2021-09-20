@@ -503,7 +503,7 @@
             const formData = x.formData;
             const scores = getScores(form.querySelectorAll("div[data-stage-category]"));
             for (const k of Object.keys(scores)) {
-                const scoreFormName = k.replace(" ", "").replace("/", "-");
+                const scoreFormName = k.replaceAll(" ", "").replaceAll("/", "-");
                 formData.set(scoreFormName, scores[k].toString());
             }
         });
