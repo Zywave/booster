@@ -10,7 +10,8 @@ media_folder: "static/images" # Media files will be stored in the repo under ima
 
 collections:
   - name: "booster"
-    label: "Booster Development Network"
+    label: "Pages"
+    label_singular: "page"
     folder: "src/_pages"
     create: true
     nested:
