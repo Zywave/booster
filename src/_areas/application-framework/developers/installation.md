@@ -19,7 +19,7 @@ By loading the bundle via a CDN that can resolve npm tags, we can push fixes/enh
 
 ## API Proxy Element
 
-The Zywave API Toolkit, as its name might suggest, communicates with Zywave's own APIs via client-side JavaScript. Because of distrust when it comes to client-side authentication, we offer an API Proxy element. This element *must* be the first element on the page within your `<body>` and requires an `api-base-url` be supplied to ensure it is pointing at the proper host.
+The Zywave API Toolkit, as its name might suggest, communicates with Zywave's own APIs via client-side JavaScript. Because of distrust when it comes to client-side authentication, we offer an API Proxy element that communicates API calls through a hosted proxy application, which applies secure headers before sending the request off to the underlying APIs. This element *must* be the first element on the page within your `<body>` and requires an `api-base-url` be supplied to ensure it is pointing at the proper host.
 
 **Note:** the API proxy element can only be used by a Zywave SSO'd user and at a *.zywave.com subdomain. If this doesn't apply to you, then you will be required to provide a `profile-token` or `bearer-token` to all Zywave API Toolkit components. 
 
