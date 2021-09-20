@@ -14,6 +14,9 @@ layout: base
 <script type="module">
   import { getQueryParamValue, getTabElementById, getIndexPosOfQueryWithinElement, hideAllTabContent, showApiTabContent, getUrlNoHash, createClipboardCopyIconElement } from '@booster/utils/component-docs-helpers.js';
 
+  // load <algolia-customelement-manifest-element> code if context is 'Algolia Crawler'
+  if (navigator.userAgent.includes('Algolia Crawler')) import('./js/web-components/algolia-customelement-manifest-element.js');
+
   window.addEventListener('DOMContentLoaded', function() {
     // for tabbing, tabs hidden by default, based on query show tab
     const queryParam = 'tab';
@@ -64,6 +67,8 @@ layout: base
 </nav>
 <section id="content" class="zui column align-start">
   <div id="api" class="is-hidden">
+    {# 'algolia-customelement-manifest-element' WC code is only loaded if context is 'Algolia Crawler' #}
+    <algolia-customelement-manifest-element url="{{ api }}"></algolia-customelement-manifest-element>
     <customelement-manifest-element
       src="{{ api }}"
       initialElementName="{{ mainComponentName }}"
