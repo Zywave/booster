@@ -22,8 +22,6 @@
 
     <ul>
       {% for navItem in navItems %}
-      {{ navItem.currentPath }}<br>
-      {{ navItem.currentFile }}
         <li{% if navItem.isCurrent %} aria-current="current"{% endif %}>
           <a href="{{ navItem.url }}">{{ navItem.name | sentenceCase }}</a>
         </li>
