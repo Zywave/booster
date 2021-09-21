@@ -61,7 +61,7 @@ This stylesheet can be found in two packages: `zui-app-styles` and `zui-bundle`.
 
 ```html
 <head>
-  <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-bundle@4.0.15/dist/css/zui-bundle.app.css" />
+  <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-bundle@4.0.15/dist/css/zui-bundle.app.css" />
 </head>
 ```
 
@@ -73,7 +73,7 @@ This stylesheet can be found in two packages: `zui-app-styles` and `zui-bundle`.
 
 ```html
 <head>
-  <link rel="stylesheet" href="https://unpkg.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.css" />
+  <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.css" />
 </head>
 ```
 
