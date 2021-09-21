@@ -49,7 +49,7 @@ Footers are probably boring, and most people rarely notice them. Nevertheless, Z
 
 Should you need to extend the footer with extra legal jargon or disclaimers, you'll want to make use of the `legalese` slot.
 
-**Note:** While Zywave Shell *will* provide the copyright years for you should you forget, it is required that your application supply the `current-year` attribute with a server-side provided year. Client-side date's are not a reliable source.
+**Note:** While Zywave Shell *will* provide the copyright years for you should you forget, it is required that your application supply the `current-year` attribute with the server-side provided year of the current date. Client-side date's are not a reliable source.
 
 ## Multi-profile support
 
