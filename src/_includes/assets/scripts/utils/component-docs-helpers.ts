@@ -21,15 +21,15 @@ export function getIndexPosOfQueryWithinElement(parentElement: Element, queryPar
 export function hideAllTabContent() {
     document.querySelectorAll('#content > [id]')
         .forEach(function(el) {
-            if (el.classList.contains('is-hidden')) return;
-            el.classList.add('is-hidden');
+            if (el.getAttribute('style')) return;
+            el.setAttribute('style', 'display: none;');
         }
     );
 }
 
 export function showApiTabContent(element: Element) {
     element.setAttribute('selected', '0');
-    document.querySelector('#api')?.classList.remove('is-hidden');
+    document.querySelector('#api')?.removeAttribute('style');
 }
 
 export function getUrlNoHash() {
