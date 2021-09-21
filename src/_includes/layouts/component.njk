@@ -47,9 +47,9 @@ layout: base
       } else {
         tabsEl.setAttribute('selected', String(getIndexPosOfQueryWithinElement(tabsEl, queryParam)));
         hideAllTabContent();
-        document.querySelector(`#${
-          getQueryParamValue(queryParam)
-        }`)?.removeAttribute('style');
+        const el = document.querySelector(`#${getQueryParamValue(queryParam)}`);
+        el?.removeAttribute('style');
+        el?.removeAttribute('aria-hidden');
       }
     } else {
       showApiTabContent(tabsEl);
