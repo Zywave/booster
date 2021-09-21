@@ -12,45 +12,56 @@ layout: base
 <script type="module" src="{{ "js/delayed-scroll-to-id.js" | url }}"></script>
 
 <script type="module">
-  import { getQueryParamValue, getTabElementById, getIndexPosOfQueryWithinElement, hideAllTabContent, showApiTabContent, getUrlNoHash, createClipboardCopyIconElement } from '@booster/utils/component-docs-helpers.js';
+  import {
+    getQueryParamValue,
+    getTabElementById,
+    getIndexPosOfQueryWithinElement,
+    hideAllTabContent,
+    showApiTabContent,
+    getUrlNoHash,
+    createClipboardCopyIconElement
+  } from '@booster/utils/component-docs-helpers.js';
 
   // load <algolia-customelement-manifest-element> code if context is 'Algolia Crawler'
   if (navigator.userAgent.includes('Algolia Crawler')) import('./js/web-components/algolia-customelement-manifest-element.js');
 
-  window.addEventListener('DOMContentLoaded', function() {
-    // for tabbing, tabs hidden by default, based on query show tab
+  function init() { // for tabbing, tabs hidden by default, based on query show tab
     const queryParam = 'tab';
     const tabsEl = document.querySelector('zui-tabs');
-
-    if (getQueryParamValue(queryParam)) {
-      // if ?tab=value doesn't match a tab, i.e. ?tab=frenchfries, show and highlight API as selected tab
+    if (getQueryParamValue(queryParam)) { // if ?tab=value doesn't match a tab, i.e. ?tab=frenchfries, show and highlight API as selected tab
       if (getIndexPosOfQueryWithinElement(tabsEl, queryParam) === -1) {
-          showApiTabContent(tabsEl)
+        showApiTabContent(tabsEl)
       } else {
-          tabsEl.setAttribute('selected', String(getIndexPosOfQueryWithinElement(tabsEl, queryParam)));
-          hideAllTabContent();
-          document.querySelector(`#${getQueryParamValue(queryParam)}`)?.classList.remove('is-hidden');
+        tabsEl.setAttribute('selected', String(getIndexPosOfQueryWithinElement(tabsEl, queryParam)));
+        hideAllTabContent();
+        document.querySelector(`#${
+          getQueryParamValue(queryParam)
+        }`) ?. classList.remove('is-hidden');
       }
     } else {
-        showApiTabContent(tabsEl);
+      showApiTabContent(tabsEl);
     }
-
     // usage tab, generate copy to clipboard links, append inside headers
     const headers = document.querySelectorAll('#usage h1, #usage h2, #usage h3, #usage h4');
-
-    headers.forEach(function(header) {
-        header.appendChild(
-            createClipboardCopyIconElement(`${getUrlNoHash()}#${header.id}`)
-        );
+    headers.forEach(function (header) {
+      header.appendChild(createClipboardCopyIconElement(`${
+        getUrlNoHash()
+      }#${
+        header.id
+      }`));
     });
-
-    // api tab, apply camelcase attributes to 'customelement-manifest-element', as declarative way is lowercase attribute names
+    // api tab, apply camelcase attributes to 'customelement-manifest-element', as declarative way is lowercase attribute
+    // names
     const manifestEl = document.querySelector('customelement-manifest-element');
-
     manifestEl.initialElementName = manifestEl.getAttribute('initialelementname');
     manifestEl.elementNames = manifestEl.getAttribute('elementnames');
-    
-  }); // DOMContentLoaded listener
+  }
+
+  document.readyState === 'complete' ? init() : document.addEventListener('readystatechange', () => {
+    if (document.readyState === 'complete') {
+      init();
+    }
+  });
 </script>
 
 <h1 class="component-header">{{ title }}</h1>
