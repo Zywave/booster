@@ -55,7 +55,7 @@ In the toolkit, our icons are set to inherit the text color (ZUI Gray 800), and 
 
 <center>
 
-![system icon colors](images/foundations/icons/Table_icon_button.svg)
+![system icon colors](/images/foundations/icons/Table_icon_button.svg)
 
 </center>
 <Spacer size="small"/>
@@ -69,7 +69,7 @@ Colored status indicator icons can be used to visually notify the user when an a
 <GridCol col="span-6">
 <center>
 
-![Status Indicator Do](images/foundations/icons/Status_do.svg)
+![Status Indicator Do](/images/foundations/icons/Status_do.svg)
 
 </center>
 <Do />
@@ -79,7 +79,7 @@ Colored status indicator icons can be used to visually notify the user when an a
   <GridCol col="span-6">
   <center>
 
-![Status Indicator Do Not](images/foundations/icons/Status_do-not.svg)
+![Status Indicator Do Not](/images/foundations/icons/Status_do-not.svg)
 
 </center>
 <DoNot />
@@ -95,7 +95,7 @@ Our message delivery systems can use colored icons to convey the type of message
 
 <center>
 
-![Messaging type icons](images/foundations/icons/Messaging_type.svg)
+![Messaging type icons](/images/foundations/icons/Messaging_type.svg)
 
 </center>
 <Spacer size="small"/>
@@ -106,7 +106,7 @@ Aside from icon buttons, there are a few instances that are clickable or on hove
 
 <center>
 
-![interactive icons](images/foundations/icons/Interactive.svg)
+![interactive icons](/images/foundations/icons/Interactive.svg)
 
 </center>
 <Spacer size="small"/>
@@ -117,7 +117,7 @@ The zui-close icon is used to signify when a component can be closed or dismisse
 
 <center>
 
-![close icons](images/foundations/icons/Dismiss.svg)
+![close icons](/images/foundations/icons/Dismiss.svg)
 
 </center>
 <Spacer size="small"/>
@@ -130,6 +130,6 @@ The zui-remove (X) icon is used more frequently and can indicate the ability to 
 
 <center>
 
-![delete icons](images/foundations/icons/Remove_delete.svg)
+![delete icons](/images/foundations/icons/Remove_delete.svg)
 
 </center>

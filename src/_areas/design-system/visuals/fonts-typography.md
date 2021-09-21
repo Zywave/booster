@@ -40,7 +40,7 @@ For more information, see [body copy](#body-copy).
 </GridCol>
 <GridCol col="span-8">
 
-![Headlines examples](images/foundations/fonts-and-typography/headline_fonts.svg)
+![Headlines examples](/images/foundations/fonts-and-typography/headline_fonts.svg)
 
 </GridCol>
 </Grid>
@@ -67,7 +67,7 @@ We have 3 defined body copy sizes used throughout our applications. Typically, d
 </GridCol>
 <GridCol col="span-8">
 
-![Body copy example](images/foundations/fonts-and-typography/body_copy.svg)
+![Body copy example](/images/foundations/fonts-and-typography/body_copy.svg)
 
 </GridCol>
 </Grid>
@@ -91,7 +91,7 @@ We have 4 font weights used throughout our applications. Though there isn't a st
 </GridCol>
 <GridCol col="span-8">
 
-![Font weight example](images/foundations/fonts-and-typography/font_weight.svg)
+![Font weight example](/images/foundations/fonts-and-typography/font_weight.svg)
 
 </GridCol>
 </Grid>
@@ -111,7 +111,7 @@ Font size is measured from the top of a capital letter (O) to the bottom of desc
 
 <GridCol col="span-8">
 
-![Line height example](images/foundations/fonts-and-typography/line_height.svg)
+![Line height example](/images/foundations/fonts-and-typography/line_height.svg)
 
 </GridCol>
 </Grid>
@@ -122,4 +122,4 @@ Font size is measured from the top of a capital letter (O) to the bottom of desc
 
 To optimize text readability, we recommend line lengths of at least 45 characters and no more than 75 characters.
 
-![Line length example](images/foundations/fonts-and-typography/line_length.svg)
+![Line length example](/images/foundations/fonts-and-typography/line_length.svg)

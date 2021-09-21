@@ -13,13 +13,13 @@ Wells are messages that provide the user with feedback. They can either be Zywav
 
 Wells provide a container and give emphasis to text. They should be used to attract the users attention to a message, more than just uncontained text. They are typically always present but in rare cases can animate in.
 
-For more information on when a well is the appropriate delivery system, see [messages.](/design-system/voice-and-tone/messages)
+For more information on when a well is the appropriate delivery system, see [messages.](/design-system/voice-and-tone/messages/)
 
 <hr>
 
 ## Anatomy
 
-![Anatomy](images/components/well/well_anatomy.svg)
+![Anatomy](/images/components/well/well_anatomy.svg)
 
 We use the following terminology to refer to the parts of a well:
 
@@ -40,7 +40,7 @@ We differentiate wells by both color and icon. These features allow a user skimm
 
 ### Info well
 
-![Info well](images/components/well/well_info.svg)
+![Info well](/images/components/well/well_info.svg)
 
 Gives the user additional information or context that they might find useful.
 
@@ -48,7 +48,7 @@ Gives the user additional information or context that they might find useful.
 
 ### Warning well
 
-![Warning well](images/components/well/well_warning.svg)
+![Warning well](/images/components/well/well_warning.svg)
 
 Informs the user of the potentially undesirable outcome of a future action.
 
@@ -56,7 +56,7 @@ Informs the user of the potentially undesirable outcome of a future action.
 
 ### Error well
 
-![Error well](images/components/well/well_error.svg)
+![Error well](/images/components/well/well_error.svg)
 
 Tells the user that an attempted action or product feature has failed.
 
@@ -76,19 +76,19 @@ Default wells are best used when the message should be present, regardless of th
 
 #### Dismissible well
 
-![Anatomy](images/components/well/well_dismissible.svg)
+![Anatomy](/images/components/well/well_dismissible.svg)
 
 Sometimes a well doesn't need to be present on the screen at all times. A dismissible well allows the user to close it. Our recommendation is to use dismissible wells for reminders and minimal-impacting messages that appear frequently, but do not impede the user's workflow.
 
 When a well is dismissed, we recommend the application remember the user's choice and not show the well again after a page refresh or the back button is pressed to get back to the previous page.
 
-The close icon button follows the same state rules as a button. For more information on these states, see [buttons](/design-system/components/buttons).
+The close icon button follows the same state rules as a button. For more information on these states, see [buttons](/design-system/components/buttons/).
 
 <br>
 
 #### Banner well
 
-![Anatomy](images/components/well/well_banner.svg)
+![Anatomy](/images/components/well/well_banner.svg)
 <small>An example where a banner well would be used is when an employee is reviewing forms before sending to an administrator.</small>
 
 A banner well spans across the entire width of the page. It can be used to deliver site-wide messages; messages that appear on more than one page; or messages that appear in a single workflow.
@@ -101,7 +101,7 @@ We recommend you always make banner wells static so they don't make the page con
 
 #### Animated well
 
-![Anatomy](images/components/well/zui-well-animation-final.gif)
+![Anatomy](/images/components/well/zui-well-animation-final.gif)
 
 A well can be animated to call attention to it, but only after a user takes action to trigger its appearance. Our recommendation is to use animated wells sparingly and only when a message is triggered by the user.
 
@@ -117,7 +117,7 @@ By default, wells are always either anchored to the top-left of the page or near
 
 #### Multiple
 
-![Actionable well](images/components/well/well_actionable.svg)
+![Actionable well](/images/components/well/well_actionable.svg)
 
 Multiple wells should be used sparingly and only seen in certain circumstances. For example, a well appears on the screen and a user-initiated well is triggered.
 
@@ -129,7 +129,7 @@ If there are multiple wells on a page, they should be the same width, with the e
 
 #### Adding actions to wells
 
-![Anatomy](images/components/well/well_actionable.svg)
+![Anatomy](/images/components/well/well_actionable.svg)
 
 Wells can include a single action associated with the message. Actions in wells are styled like text links and are the same color as the well sidebar. This contrasts the action against the well message and calls additional attention to it.
 

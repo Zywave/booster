@@ -82,9 +82,10 @@ module.exports = {
         const files = fs.readdirSync(dirname, { withFileTypes: true });
         const firstFile = files.find(x => x.isFile());
         if (firstFile) {
-          permalink = buildPermalink(path.join(dirname, firstFile.name));
+          permalink = buildPermalink(path.join(dirname, firstFile.name)).replace(/\\/g, '/');
         }
       }
+      permalink = permalink.startsWith(`/`) ? `` : `/${permalink}`;
       return permalink;
     },
     navItems: data => {

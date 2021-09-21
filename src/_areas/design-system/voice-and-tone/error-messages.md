@@ -12,7 +12,7 @@ There are a variety of standard error messages that a user might encounter withi
 
 A user would encounter the 401 - unauthorized error when we don't recognize them. This typically indicates that the requested resource is restricted and requires authentication, but the client failed to provide any such authentication or we failed to authenticate them.
 
-![401 error](images/communications/messages/401-error-message.svg)
+![401 error](/images/voice-and-tone/messages/401-error-message.svg)
 
 ### Implementation details
 
@@ -27,7 +27,7 @@ A user would encounter the 401 - unauthorized error when we don't recognize them
 
 A user would encounter a 403 - forbidden error when they attempt to access a page or tool that their current profile does not have permission to view.
 
-![403 error example](images/communications/messages/403-access-denied.svg)
+![403 error example](/images/voice-and-tone/messages/403-access-denied.svg)
 
 | Scenario                                                                            | Solution                                                                                                                                                                                                                                                                                                                                |
 | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@ A user would encounter the 404 - page not found error when attempting to access 
 
 Whenever possible, a redirect should be provided when a URL is changed so that users encounter this error less often.
 
-![404 error example](images/communications/messages/404-page-not-found.svg)
+![404 error example](/images/voice-and-tone/messages/404-page-not-found.svg)
 
 #### Implementation details
 
@@ -78,7 +78,7 @@ The banner well error text and links are customizable by the consumer. The text 
 
 <spacer size="small" />
 
-![404 Banner](images/communications/messages/404_resourcenotfound_bannerwell.svg)
+![404 Banner](/images/voice-and-tone/messages/404_resourcenotfound_bannerwell.svg)
 <br><br>
 
 ##### Full-page
@@ -97,7 +97,7 @@ Along with this information, if the resource has an ID number associated with it
 
 <spacer size="small" />
 
-![404 Full-page](images/communications/messages/404_resourcenotfound_pageillustration.svg)
+![404 Full-page](/images/voice-and-tone/messages/404_resourcenotfound_pageillustration.svg)
 
 ---
 
@@ -152,10 +152,10 @@ Body: Try coming back later or refreshing the page. If you're still having issue
 
 ### All features error
 
-![500 All features](images/communications/messages/500_internalservererror_fullpage.svg)
+![500 All features](/images/voice-and-tone/messages/500_internalservererror_fullpage.svg)
 
 <spacer size="small" />
 
 ### Single feature error
 
-![500 Single feature](images/communications/messages/500_internalservererror_singleactionerror.svg)
+![500 Single feature](/images/voice-and-tone/messages/500_internalservererror_singleactionerror.svg)

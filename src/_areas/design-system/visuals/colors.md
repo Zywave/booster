@@ -828,7 +828,7 @@ Zywave green still remains the main branding color of the company. It is how we'
 
 <GridCol col="span-6">
 
-![do image](images/foundations/colors/zywave_Green_Do.svg)
+![do image](/images/foundations/colors/zywave_Green_Do.svg)
 
 <Do />
 
@@ -836,7 +836,7 @@ Zywave green still remains the main branding color of the company. It is how we'
 
   <GridCol col="span-6">
 
-![do not image](images/foundations/colors/zywave_Green_Dont.svg)
+![do not image](/images/foundations/colors/zywave_Green_Dont.svg)
 
 <DoNot />
 
@@ -2536,9 +2536,9 @@ Certain colors will have meanings assigned to them. These meanings should be con
 
 |                                                          | Color      | Meanings associated with color               | Where is it used in the UI?                                                                                                                                            |
 | :------------------------------------------------------- | :--------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Red 500](images/foundations/colors/Red_500.svg)       | Red 500    | Error, Delete, Failed                        | <ul><li> Error/Failure wells, dialogs and notifiers</li><li>System icons or illustrations indicating error/delete/failure</li><li>Delete button or link</li></ul>      |
-| ![Green 500](images/foundations/colors/Green_500.svg)   | Green 500  | Success, Confirm                             | <ul><li>Success wells, dialogs, notifiers</li><li>Confirm wells, dialogs, notifiers</li><li>System icons or illustrations indicating success or confirm</li></ul>      |
-| ![Yellow 500](images/foundations/colors/Yellow_500.svg) | Yellow 500 | Caution, Warning, Change(s) made             | <ul><li>Caution/warning wells, dialogs, notifiers</li><li>Wells, dialogs, notifiers indicating a change has been made on the users' behalf</li></ul>                   |
-| ![Blue 500](images/foundations/colors/Blue_500.svg)     | Blue 500   | Information, notification, link, in-progress | <ul><li>Information wells, dialogs, notifiers </li><li>Icons or illustrations used to inform the user or signify something is in progress</li><li>Text links</li></ul> |
-| ![Gray 200](images/foundations/colors/Gray_200.svg)     | Gray 200   | Disabled/Unavailable                         | <ul><li>Disabled buttons or links</li><li>unavailable items in a dropdown selector</li></ul>                                                                           |
-| ![Purple 500](images/foundations/colors/Purple_500.svg) | Purple 500 | Visited link                                 | <ul><li>Visited links</li></ul>                                                                                                                                        |
+| ![Red 500](/images/foundations/colors/Red_500.svg)       | Red 500    | Error, Delete, Failed                        | <ul><li> Error/Failure wells, dialogs and notifiers</li><li>System icons or illustrations indicating error/delete/failure</li><li>Delete button or link</li></ul>      |
+| ![Green 500](/images/foundations/colors/Green_500.svg)   | Green 500  | Success, Confirm                             | <ul><li>Success wells, dialogs, notifiers</li><li>Confirm wells, dialogs, notifiers</li><li>System icons or illustrations indicating success or confirm</li></ul>      |
+| ![Yellow 500](/images/foundations/colors/Yellow_500.svg) | Yellow 500 | Caution, Warning, Change(s) made             | <ul><li>Caution/warning wells, dialogs, notifiers</li><li>Wells, dialogs, notifiers indicating a change has been made on the users' behalf</li></ul>                   |
+| ![Blue 500](/images/foundations/colors/Blue_500.svg)     | Blue 500   | Information, notification, link, in-progress | <ul><li>Information wells, dialogs, notifiers </li><li>Icons or illustrations used to inform the user or signify something is in progress</li><li>Text links</li></ul> |
+| ![Gray 200](/images/foundations/colors/Gray_200.svg)     | Gray 200   | Disabled/Unavailable                         | <ul><li>Disabled buttons or links</li><li>unavailable items in a dropdown selector</li></ul>                                                                           |
+| ![Purple 500](/images/foundations/colors/Purple_500.svg) | Purple 500 | Visited link                                 | <ul><li>Visited links</li></ul>                                                                                                                                        |

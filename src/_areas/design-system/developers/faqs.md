@@ -55,7 +55,7 @@ Great question! There are a number of ways you can go about this, and we are act
 
 1. Help us by building a prototype in your feature! As long as you go into building your component as a typical component, no matter the framework, we can always take what you've learned and convert it in the future. You get a component that looks like ZUI today, and we get a boost up when we start building the component into the Toolkit!
 
-1. ZUI is an "open source"-like project. While there are people more dedicated to maintaining it than others, we appreciate any contribution. The fastest way to get something into the Toolkit is to add it to the Toolkit yourself! We have documentation for [how to contribute](/developers/contribution) and are constantly trying to make it easier to get started.
+1. ZUI is an "open source"-like project. While there are people more dedicated to maintaining it than others, we appreciate any contribution. The fastest way to get something into the Toolkit is to add it to the Toolkit yourself! We have documentation for how to contribute in the repository and are constantly trying to make it easier to get started.
    - **Note:** While we want to highly encourage more contribution, be careful with timelines and ZUI. ZUI has a strict release cycle to try to ensure no changes cause odd side effects in our apps. A lot of people are using ZUI in ways we can't always account for, and we want to ensure as much quality as we can in our releases. We are improving this release process with more automated testing, but that's not currently our reality.
 
 ### What is the process behind deprecating a feature?

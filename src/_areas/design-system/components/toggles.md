@@ -36,7 +36,7 @@ Use a toggle when the user must select a single option from a set of two opposin
 
 ## Styling and anatomy
 
-![Toggles](images/components/toggles/toggles.svg)
+![Toggles](/images/components/toggles/toggles.svg)
 
 - Toggle height will always be 24px and width will always be 48px
 - Clickable area of the radio button will always be 36px
@@ -45,7 +45,7 @@ Use a toggle when the user must select a single option from a set of two opposin
 
 ## Toggle states
 
-![Toggle States](images/components/toggles/toggles_states.svg)
+![Toggle States](/images/components/toggles/toggles_states.svg)
 
 ### Normal
 

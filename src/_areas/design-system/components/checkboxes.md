@@ -30,7 +30,7 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 ### Standard checkbox
 
-![Image of a standard checkbox](images/components/checkboxes/Assets_03-20/standardcheck_small.svg)
+![Image of a standard checkbox](/images/components/checkboxes/Assets_03-20/standardcheck_small.svg)
 
 Standard checkboxes are the most common. They allow the user to make selections and quickly move on to the next task.
 
@@ -41,7 +41,7 @@ Standard checkboxes are the most common. They allow the user to make selections 
 
 ### Gallery checkbox
 
-![Image of a gallery checkbox](images/components/checkboxes/Assets_03-20/gallerycheck_small.svg)
+![Image of a gallery checkbox](/images/components/checkboxes/Assets_03-20/gallerycheck_small.svg)
 
 Gallery checkboxes are more prominent than standard checkboxes. They often feature an icon and take up a great deal of space on the page. They are generally used when they control the only selection the user can make on that page.
 
@@ -52,7 +52,7 @@ Gallery checkboxes are more prominent than standard checkboxes. They often featu
 
 ## Anatomy
 
-![Image of all checkboxes](images/components/checkboxes/Assets_03-20/checkbox_anatomy.svg)
+![Image of all checkboxes](/images/components/checkboxes/Assets_03-20/checkbox_anatomy.svg)
 
 For detailed documentation on our checkbox anatomy, view the [ZUI checkbox design specs](https://xd.adobe.com/view/93be6c9d-e5f1-40af-7116-323e57943237-e58f/grid).
 
@@ -71,7 +71,7 @@ For detailed documentation on our checkbox anatomy, view the [ZUI checkbox desig
 
 ## Checkbox states
 
-![Image of standard checkbox states](images/components/checkboxes/Assets_03-20/checkbox_states_standard.svg)
+![Image of standard checkbox states](/images/components/checkboxes/Assets_03-20/checkbox_states_standard.svg)
 
 ### Normal
 
@@ -97,7 +97,7 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 <GridCol col="span-6">
 
-![Checkbox Label Do](images/components/checkboxes/Assets_03-20/checklabel_do.svg)
+![Checkbox Label Do](/images/components/checkboxes/Assets_03-20/checklabel_do.svg)
 
 <Do />
 
@@ -107,7 +107,7 @@ Checkboxes should always have a label.
 
 <GridCol col="span-6">
 
-![Checkbox Label Don't](images/components/checkboxes/Assets_03-20/checklabel_dont.svg)
+![Checkbox Label Don't](/images/components/checkboxes/Assets_03-20/checklabel_dont.svg)
 
 <DoNot />
 

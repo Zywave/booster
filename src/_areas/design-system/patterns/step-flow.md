@@ -31,7 +31,7 @@ Step flows may appear in a number of different places in our products, and may b
 
 ##### Full-page overlay
 
-To focus user attention, we recommend a full-page overlay that animates in and covers the entire screen, including the top bar and side navigation. For different size considerations, see [dialogs](/design-system/components/dialogs).
+To focus user attention, we recommend a full-page overlay that animates in and covers the entire screen, including the top bar and side navigation. For different size considerations, see [dialogs](/design-system/components/dialogs/).
 
 ##### Navigation
 
@@ -47,7 +47,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <GridCol col="span-8">
 
-![Basic step flow anatomy.](images/components/step-flow/step-flow-anatomy.svg)
+![Basic step flow anatomy.](/images/components/step-flow/step-flow-anatomy.svg)
 
 </GridCol>
 
@@ -73,7 +73,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <GridCol col="span-8">
 
-![Intro screen of a step flow process.](images/components/step-flow/step-flow-intro-screen.svg)
+![Intro screen of a step flow process.](/images/components/step-flow/step-flow-intro-screen.svg)
 
 </GridCol>
 
@@ -90,7 +90,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <GridCol col="span-8">
 
-![Completion screen of a step flow process.](images/components/step-flow/step-flow-completion-screen.svg)
+![Completion screen of a step flow process.](/images/components/step-flow/step-flow-completion-screen.svg)
 
 </GridCol>
 
@@ -124,11 +124,11 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <GridCol col="span-8">
 
-![Step flow with a horizontal progress indicator.](images/components/step-flow/progress-indicator-horizontal.svg)
+![Step flow with a horizontal progress indicator.](/images/components/step-flow/progress-indicator-horizontal.svg)
 
 [See step flow with a horizontal progress indicator specs](https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/052b219a-3df1-462e-bd03-1c186af4e0a6/)
 
-![Step flow with a vertical progress indicator.](images/components/step-flow/progress-indicator-vertical.svg)
+![Step flow with a vertical progress indicator.](/images/components/step-flow/progress-indicator-vertical.svg)
 
 [See step flow with a vertical progress indicator specs](https://xd.adobe.com/spec/a470f91a-f0f7-4a18-475c-6557e480b3e7-d241/screen/6007b49b-4774-4895-9edb-ff6dadefd9bb/)
 
@@ -153,7 +153,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <GridCol col="span-8">
 
-![Step flow without a progress indicator.](images/components/step-flow/step-flow-without-progress-indicator-desktop.svg)
+![Step flow without a progress indicator.](/images/components/step-flow/step-flow-without-progress-indicator-desktop.svg)
 
 </GridCol>
 
@@ -180,13 +180,13 @@ A mobile step flow resembles the desktop versions with a few notable differences
 
 <GridCol col="span-4">
 
-![Mobile view of the step flow with a progress indicator.](images/components/step-flow/step-flow-with-progress-indicator-mobile.svg)
+![Mobile view of the step flow with a progress indicator.](/images/components/step-flow/step-flow-with-progress-indicator-mobile.svg)
 
 </GridCol>
 
 <GridCol col="span-4">
 
-![Mobiel view of the step flow without a progress indicator.](images/components/step-flow/step-flow-without-progress-indicator-mobile.svg)
+![Mobiel view of the step flow without a progress indicator.](/images/components/step-flow/step-flow-without-progress-indicator-mobile.svg)
 
 </GridCol>
 

@@ -11,7 +11,7 @@ subtitle: Give users context so they don't feel lost, even when they are deep in
 
 Use breadcrumbs as a form of secondary navigation, to aid the primary navigation, when site hierarchies get 3 or more levels deep. Breadcrumbs give users context so they don't feel lost, even when they are deep inside large, nested content. The breadcrumb links also allow users to backtrack through deep navigation as far as they need to without having to start over.
 
-![Breadcrumb example](images/components/breadcrumbs/Breadcrumb-full-page.svg)
+![Breadcrumb example](/images/components/breadcrumbs/Breadcrumb-full-page.svg)
 
 <Spacer size="small" />
 
@@ -21,7 +21,7 @@ Use breadcrumbs as a form of secondary navigation, to aid the primary navigation
 - Fast navigation, one-click access to get to a higher-level page which helps users quickly get where they need to, even when they make mistakes
 - Tells the user their location, helping them understand where they are in relation to the rest of the site
 
-![normal breadcrumbs](images/components/breadcrumbs/Breadcrumb-normal.svg)
+![normal breadcrumbs](/images/components/breadcrumbs/Breadcrumb-normal.svg)
 
 <Spacer size="small" />
 
@@ -35,8 +35,8 @@ Use breadcrumbs as a form of secondary navigation, to aid the primary navigation
 - The current page should be included and clickable but styled to look disabled
 - When there are many pages in a breadcrumb trail, you may need to use an ellipsis to hide some of the crumbs. We recommend considering an ellipsis with 5 or more links in the breadcrumb trail. The ellipsis is clickable and will expand to reveal the hidden pages when clicked. In long breadcrumb trails, the breadcrumbs will stack when fully expanded, and that's ok.
 
-![breadcrumbs with ellipsis](images/components/breadcrumbs/breadcrumb-ellipsis.svg)
-![breadcrumb expanded](images/components/breadcrumbs/Breadcrumb-ellipsis-expanded.svg)
+![breadcrumbs with ellipsis](/images/components/breadcrumbs/breadcrumb-ellipsis.svg)
+![breadcrumb expanded](/images/components/breadcrumbs/Breadcrumb-ellipsis-expanded.svg)
 
 <Spacer size="small" />
 
@@ -45,7 +45,7 @@ Use breadcrumbs as a form of secondary navigation, to aid the primary navigation
 - Breadcrumb titles will truncate after 30 characters
 - We recommend keeping breadcrumb titles to 30 characters or less, especially in longer trails, but leave the length up to the consumer.
 
-![truncated title breadcrumb](images/components/breadcrumbs/Breadcrumb-truncated.svg)
+![truncated title breadcrumb](/images/components/breadcrumbs/Breadcrumb-truncated.svg)
 
 <Spacer size="small" />
 
@@ -53,4 +53,4 @@ Use breadcrumbs as a form of secondary navigation, to aid the primary navigation
 
 On mobile devices where space is at a premium, use a single breadcrumb, pointing back one level. Since space is at such a premium on mobile applications, the cost of using breadcrumbs can quickly overwhelm the benefits. Keeping it simple, by using a single breadcrumb, avoids potential issues with wrapping multiple breadcrumbs or using breadcrumbs that are too small or crowded.
 
-![Breadcrumb mobile](images/components/breadcrumbs/Mobile-breadcrumb.svg)
+![Breadcrumb mobile](/images/components/breadcrumbs/Mobile-breadcrumb.svg)

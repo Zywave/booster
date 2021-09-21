@@ -24,7 +24,7 @@ For more information on when a notifier is the appropriate delivery component, s
 
 ## Anatomy
 
-![Notifier anatomy](images/components/notifier/notifier_anatomy.svg)
+![Notifier anatomy](/images/components/notifier/notifier_anatomy.svg)
 
 Notifiers consist of an opaque background, drop shadow, icon, text, and close button to dismiss the notifier.
 
@@ -45,19 +45,19 @@ We have three types of notifiers to help convey a message and each is color-code
 
 ### Info notifier
 
-![Info notifier](images/components/notifier/info_notifier.svg)
+![Info notifier](/images/components/notifier/info_notifier.svg)
 
 Used to give the user general information about the product or current process.
 
 ### Success notifier
 
-![Success notifier](images/components/notifier/success_notifier.svg)
+![Success notifier](/images/components/notifier/success_notifier.svg)
 
 Used to inform the user that an action or workflow has been completed successfully.
 
 ### Error notifier
 
-![Error notifier](images/components/notifier/error_notifier.svg)
+![Error notifier](/images/components/notifier/error_notifier.svg)
 
 Used to alert the user of server-side issues or errors that are not at the fault of the user.
 
@@ -65,7 +65,7 @@ Used to alert the user of server-side issues or errors that are not at the fault
 
 ## Responsive layout (WIP)
 
-![Mobile notifier](images/components/notifier/mobile-notifier.svg)
+![Mobile notifier](/images/components/notifier/mobile-notifier.svg)
 
 While the behavior remains unchanged, the location of Notifiers is different on mobile devices with viewports smaller than 720px. The Notifiers on mobile devices should be pinned to the bottom of the screen instead of the top. This makes it easier for the user to dismiss the message or click the action contained within.
 
@@ -79,7 +79,7 @@ Notifiers are anchored to the top right of the viewport, above all content in z-
 
 For example, if the user is within a dialog and triggers a notifier, the notifier will appear in the top right of the viewport, above all content on the screen, including the dialog.
 
-![Notifier positioning](images/components/notifier/notifier_placement.svg)
+![Notifier positioning](/images/components/notifier/notifier_placement.svg)
 
 ### Timing
 
@@ -101,7 +101,7 @@ The default length of time a notifier will remain on the screen, after animating
 
 Notifiers slide up and fade in as they appear on the screen, and slide down and fade out when they disappear.
 
-![Notifier animation](images/components/notifier/zui-notifier-animation-demo.gif)
+![Notifier animation](/images/components/notifier/zui-notifier-animation-demo.gif)
 
 ---
 
@@ -111,7 +111,7 @@ Notifiers slide up and fade in as they appear on the screen, and slide down and 
 
 <GridCol col="span-6">
 
-![Notifier information do](images/components/notifier/do_general.svg)
+![Notifier information do](/images/components/notifier/do_general.svg)
 
 <Do />
 
@@ -121,7 +121,7 @@ Use a notifier to give the user general information, such as notifying the user 
 
 <GridCol col="span-6">
 
-![Notifier information do not](images/components/notifier/donot_indepth.svg)
+![Notifier information do not](/images/components/notifier/donot_indepth.svg)
 
 <DoNot />
 
@@ -137,7 +137,7 @@ A notifier should not be used to give the user in-depth information that require
 
 <GridCol col="span-6">
 
-![Notifier success do](images/components/notifier/do_success.svg)
+![Notifier success do](/images/components/notifier/do_success.svg)
 
 <Do />
 
@@ -147,7 +147,7 @@ Use a notifier to alert the user that their action was successful, such as infor
 
 <GridCol col="span-6">
 
-![Notifier success do not](images/components/notifier/donot_overuse.svg)
+![Notifier success do not](/images/components/notifier/donot_overuse.svg)
 
 <DoNot />
 
@@ -161,7 +161,7 @@ A notifier should not be used to alert the user that every action is successful,
 
 ### Actions
 
-![Notifier actions](images/components/notifier/notifier_action.svg)
+![Notifier actions](/images/components/notifier/notifier_action.svg)
 
 Notifiers can include a single action associated with the message. Notifier actions are styled similar to text links, but are the same color as the notifier top bar.
 
@@ -178,7 +178,7 @@ If the action must remain visible to the user or is critical for the user to tak
 
 <GridCol col="span-6">
 
-![Notifier action do](images/components/notifier/do_actioncolor.svg)
+![Notifier action do](/images/components/notifier/do_actioncolor.svg)
 
 <Do />
 
@@ -188,7 +188,7 @@ Use the same action color as the notifier color.
 
 <GridCol col="span-6">
 
-![Notifier action do not](images/components/notifier/donot_actioncolor.svg)
+![Notifier action do not](/images/components/notifier/donot_actioncolor.svg)
 
 <DoNot />
 
@@ -202,7 +202,7 @@ An action should not use a different color than the notifier.
 
 ### Multiple notifiers (WIP)
 
-![Multiple notifiers](images/components/notifier/notifier-multiple.svg)
+![Multiple notifiers](/images/components/notifier/notifier-multiple.svg)
 
 When multiple notifiers appear at one time on the screen, they should vertically stack to allow the user to see all messages at once and dismiss or choose an action as needed.
 

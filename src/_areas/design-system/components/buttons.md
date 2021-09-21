@@ -30,7 +30,7 @@ If you run into a situation where you are not sure, your decision should be base
 
 ## Anatomy
 
-![button anatomy](images/components/buttons/Button_anatomy.svg)
+![button anatomy](/images/components/buttons/Button_anatomy.svg)
 
 For detailed documentation on our button anatomy, view the [ZUI button design specs](https://xd.adobe.com/spec/73e1b206-1ffc-4568-5ccf-945d90c5161e-05d0/).
 
@@ -58,7 +58,7 @@ For detailed documentation on our button anatomy, view the [ZUI button design sp
 
 **Primary button**
 
-![primary button](images/components/buttons/Primary_button.svg)
+![primary button](/images/components/buttons/Primary_button.svg)
 
 - A primary button is used to call attention to the main action a user should take on the page.
 - Avoid using standard buttons within tables.
@@ -68,7 +68,7 @@ For detailed documentation on our button anatomy, view the [ZUI button design sp
 
 **Secondary button**
 
-![secondary button](images/components/buttons/Secondary_button.svg)
+![secondary button](/images/components/buttons/Secondary_button.svg)
 
 - A secondary button is used to represent a secondary action on a page.
 - Secondary buttons can be used sparingly within tables.
@@ -77,7 +77,7 @@ For detailed documentation on our button anatomy, view the [ZUI button design sp
 
 **Link button**
 
-![link button](images/components/buttons/link_Button.svg)
+![link button](/images/components/buttons/link_Button.svg)
 
 Link buttons can also be used to represent a secondary action on a page. At first glace these will appear as text, but the button shape will appear on hover/focus. This button shape will add extra padding around the text that isn't noticeable at first. Because of this, we recommend trying to avoid using link buttons when they are left-aligned.
 
@@ -85,7 +85,7 @@ Link buttons can also be used to represent a secondary action on a page. At firs
 
 **Icon button**
 
-![icon buttons](images/components/buttons/icon_Button.svg)
+![icon buttons](/images/components/buttons/icon_Button.svg)
 
 - Icon buttons can be used where text is not necessary to describe the action. The pencil icon for edit, trash can icon for delete, or printer icon for print are great examples of where an icon button would be appropriate.
 - Icon buttons can appear in both primary, secondary and link button styles. Follow the guidelines for the button styles above to determine which one you should use.
@@ -95,7 +95,7 @@ Link buttons can also be used to represent a secondary action on a page. At firs
 
 **Adding an icon to a button - when to use this option**
 
-![icon and text buttons](images/components/buttons/Icon_text_button.svg)
+![icon and text buttons](/images/components/buttons/Icon_text_button.svg)
 
 In some cases it makes sense to include an icon with your text in a button. This should be used sparingly and only where drawing some extra attention to the button is appropriate. + Add is a great example.
 
@@ -106,7 +106,7 @@ Icons should be sized to 16x16px and will always appear to the left of the text 
 
 **Block-level buttons**
 
-![block level button example](images/components/buttons/block-level_Buttons.svg)
+![block level button example](/images/components/buttons/block-level_Buttons.svg)
 
 Block-level buttons can be used to expand to the width of it's containing element. These should be used when the containing element doesn't span the full width of the page. Block-level buttons can be used to show more visual separation between elements or draw more attention to a smaller button that may otherwise be overlooked.
 The height should still remain 36px and font size should remain 14px.
@@ -124,13 +124,13 @@ _IN PROGESS New design/animation coming soon!_
 **Text links**  
 Text links, unlike link buttons, will appear as underlined text with no padding.
 
-![text link examples](images/components/buttons/text_Links.svg)
+![text link examples](/images/components/buttons/text_Links.svg)
 
 ---
 
 ## Button States
 
-![button states](images/components/buttons/Button_States.svg)
+![button states](/images/components/buttons/Button_States.svg)
 
 **Normal**  
 Normal state is the initial state of the button when the page first loads and before any action is taken.  
@@ -159,13 +159,13 @@ We have added the CSS property pointer-events: none; to this button style that w
 
 ### Blue background button states
 
-![blue background button states](images/components/buttons/button-blue-bkg.svg)
+![blue background button states](/images/components/buttons/button-blue-bkg.svg)
 
 <Spacer size="small" />
 
 ### Dark mode button states
 
-![dark mode button states](images/components/buttons/button-dark-mode.svg)
+![dark mode button states](/images/components/buttons/button-dark-mode.svg)
 
 ---
 
@@ -176,4 +176,4 @@ We have added the CSS property pointer-events: none; to this button style that w
   Primary buttons should never be used within a table.
 - The preferred button style to use within a table is the link button.
 
-![buttons in a table](images/components/buttons/Button_table.svg)
+![buttons in a table](/images/components/buttons/Button_table.svg)
