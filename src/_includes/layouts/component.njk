@@ -25,15 +25,28 @@ layout: base
   // load <algolia-customelement-manifest-element> code if context is 'Algolia Crawler'
   if (navigator.userAgent.includes('Algolia Crawler')) import('./js/web-components/algolia-customelement-manifest-element.js');
 
+  let titleSuffix = '';
   switch(getQueryParamValue('tab')) {
     case 'usage':
+      titleSuffix = ' - Usage';
+      if (document.title.includes(titleSuffix)) {
+        break;
+      }
       document.title += ' - Usage';
       break;
     case 'demos':
+      titleSuffix = ' - Demos';
+      if (document.title.includes(titleSuffix)) {
+        break;
+      }
       document.title += ' - Demos';
       break;
     case 'api':
     default:
+      titleSuffix = ' - API';
+      if (document.title.includes(titleSuffix)) {
+        break;
+      }
       document.title += ' - API';
       break;
   }
