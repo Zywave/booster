@@ -11,18 +11,26 @@
 	{# njk var set below, njk templating doesn't play well within 'script' tags #}
 	{% set moduleFolder = "/js/" | url %}
 	{# import maps must be registered prior to any script loading #}
+
 	<script type="importmap">
 		{
 			"imports": {
-				"lit": "https://cdn.zywave.com/lit@2.0.0-rc.2/index.js?module",
-				"lit/": "https://cdn.zywave.com/lit@2.0.0-rc.2/",
+				"lit": "https://cdn.zywave.com/lit@2.0.0/index.js?module",
+				"lit/": "https://cdn.zywave.com/lit@2.0.0/",
 				"@lit/": "https://cdn.zywave.com/@lit/",
 				"lit-html/": "https://cdn.zywave.com/lit-html@next/",
 				"tslib": "https://cdn.zywave.com/tslib@2.3.0/tslib.es6.js",
 				"@booster/": "{{ moduleFolder }}"
 			}
 		}
-		</script>
+	</script>
+	<script type="esms-options">
+		{
+			"polyfillEnable": ["css-modules", "json-modules"]
+		}
+	</script>
+	<script async src="https://cdn.zywave.com/construct-style-sheets-polyfill@latest/dist/adoptedStyleSheets.js"></script>
+
 	{# <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}"> #}
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -37,6 +45,8 @@
 </head>
 
 <body class="zui row {{ pageType }}">
+
+	<script async src="https://cdn.zywave.com/es-module-shims@1.0.0/dist/es-module-shims.js"></script>
 
 	{% if navHidden !== true %}
 		{% include "components/nav.njk" %}
