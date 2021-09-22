@@ -1,8 +1,3 @@
 User-agent: Algolia Crawler
-Disallow: /*/components/*/?tab=api
-
-User-agent: Algolia Crawler
-Disallow: /*/components/buttons/
-
-User-agent: Algolia Crawler
-Disallow: /components/*/?=tab=api$
+Disallow: /components/*/?tab=api
+Disallow: /**/components/buttons
