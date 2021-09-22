@@ -1,11 +1,13 @@
+@use '../functions' as *;
+
 .do, .do-not {
   display: flex;
   width: 100%;
-  padding: 10px 0;
-  font-size: 14px;
+  padding: rem(10) 0;
+  font-size: rem(14);
   text-transform: uppercase;
   font-weight: bold;
-  border-top: 12px solid var(--zui-green-400);
+  border-top: rem(12) solid var(--zui-green-400);
   
 }
 .do {

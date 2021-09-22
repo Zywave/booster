@@ -1,7 +1,9 @@
+@use '../functions' as *;
+
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 2.5rem; /* 40 / 16 */
+  grid-gap: rem(40);
   width: 100%;
   margin: 0 auto;
 

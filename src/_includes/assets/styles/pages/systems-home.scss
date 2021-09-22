@@ -1,22 +1,25 @@
+@use '../functions' as *;
+@use '../variables' as *;
+
 .systems-home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: var(--docs-secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--docs-secondary-color);
 
-    h1 {
-        font-size: rem(48);
-        text-transform: uppercase;
-        font-weight: 600;
-        margin-bottom: rem(48);
-    }
+  h1 {
+    font-size: rem(48);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: rem(48);
+  }
 
-    img {
-        margin-bottom: rem(60);
-    }
+  img {
+    margin-bottom: rem(60);
+  }
 
-    p {
-        font-size: rem(30);
-        font-weight: 400;
-    }
+  p {
+    font-size: rem(30);
+    font-weight: 400;
+  }
 }

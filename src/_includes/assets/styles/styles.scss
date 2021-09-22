@@ -1,7 +1,7 @@
 /* global styles */
 // todo: decide if worth splitting .css files, to load only on specific pages, currently everything is lumped together and loaded as styles.css
-@use '_functions.scss';
-@use '_variables.scss';
+@use '_functions.scss' as *;
+@use '_variables.scss' as *;
 @use 'general.scss';
 @use 'typography.scss';
 @use 'layout/nav.scss';

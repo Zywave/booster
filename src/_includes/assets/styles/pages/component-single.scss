@@ -1,4 +1,8 @@
+@use '../functions' as *;
+@use '../variables' as *;
+
 // fouc styles for zui-tabs
+// @use doesn't import external stylesheets for whatever reason
 @import "https://cdn.zywave.com/@zywave/zui-tabs@latest/dist/css/zui-tabs.fouc.min.css";
 
 zui-tabs {
@@ -33,12 +37,12 @@ zui-spinner:not([active]) {
   #usage .documentation {
     max-width: rem(1000);
   }
-  
+
   h1.component-header {
     font-size: rem(40);
     font-weight: 700;
   }
-  
+
   h2.component-subheader {
     font-size: rem(20);
     font-weight: 600;
