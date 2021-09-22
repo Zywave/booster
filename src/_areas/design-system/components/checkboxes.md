@@ -1,12 +1,12 @@
 ---
+title: Checkboxes
+subtitle: Selection controls that allow the user to make multiple selections
+  from a list of options.
 api: https://cdn.zywave.com/@zywave/zui-checkbox@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-checkbox@next/demo/index.html
 mainComponentName: zui-checkbox
 includedElements: []
-title: Checkboxes
-subtitle: Selection controls that allow the user to make multiple selections from a list of options.
 ---
-
 ## What are checkboxes?
 
 Checkboxes are selection controls that allow the user to make multiple selections from a list of options. Unlike some other selection controls, checkboxes display all of the options, so the user has a chance to see all options before and while making their selections. They most commonly appear in forms.
@@ -19,10 +19,10 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 ### Alternate considerations
 
-- Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
-- Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
-- Use a [radio button](/design-system/components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
-- Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
+* Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
+* Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
+* Use a [radio button](/design-system/components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
+* Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
 
 <hr>
 
@@ -34,10 +34,10 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 Standard checkboxes are the most common. They allow the user to make selections and quickly move on to the next task.
 
-- Use when the number of options is easy for the user to process, generally fewer than 10.
-- Unless you want to emphasize the selection, these are usually the checkboxes you should use.
+* Use when the number of options is easy for the user to process, generally fewer than 10.
+* Unless you want to emphasize the selection, these are usually the checkboxes you should use.
 
-<Spacer size="small" />
+<div class="spacer small"></div>
 
 ### Gallery checkbox
 
@@ -45,8 +45,8 @@ Standard checkboxes are the most common. They allow the user to make selections 
 
 Gallery checkboxes are more prominent than standard checkboxes. They often feature an icon and take up a great deal of space on the page. They are generally used when they control the only selection the user can make on that page.
 
-- Because they're so large, they should generally be reserved for when that selection is the only one the user can make on that page.
-- Icons both emphasize the selection and reinforce the contrast between the options.
+* Because they're so large, they should generally be reserved for when that selection is the only one the user can make on that page.
+* Icons both emphasize the selection and reinforce the contrast between the options.
 
 <hr>
 
@@ -58,14 +58,14 @@ For detailed documentation on our checkbox anatomy, view the [ZUI checkbox desig
 
 ### Standard checkbox
 
-- Checkbox height and width will always be 24px
-- Clickable area of the checkbox will always be 36px, and include the label if applicable
-- System font, size 14px, regular
+* Checkbox height and width will always be 24px
+* Clickable area of the checkbox will always be 36px, and include the label if applicable
+* System font, size 14px, regular
 
 ### Gallery checkbox
 
-- Checkbox height and width is determined by height and width of text
-- System font, size 14px, semibold
+* Checkbox height and width is determined by height and width of text
+* System font, size 14px, semibold
 
 <hr>
 
@@ -93,29 +93,21 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 ## Checkbox best practices
 
-<Grid>
-
-<GridCol col="span-6">
+<div class="grid"><div class="grid-col span-6">
 
 ![Checkbox Label Do](/images/components/checkboxes/Assets_03-20/checklabel_do.svg)
 
-<Do />
+<div class="do">Do</div>
 
-Checkboxes should always have a label.
+Checkboxes should always have a label.</div>
 
-</GridCol>
-
-<GridCol col="span-6">
+<div class="grid-col span-6">
 
 ![Checkbox Label Don't](/images/components/checkboxes/Assets_03-20/checklabel_dont.svg)
 
-<DoNot />
+<div class="do">Do not</div>
 
-A checkbox without a label is unusable; the user will not know what selection they are making without text.
-
-</GridCol>
-
-</Grid>
+A checkbox without a label is unusable; the user will not know what selection they are making without text.</div></div>
 
 <hr>
 
