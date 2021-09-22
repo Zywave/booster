@@ -1,11 +1,12 @@
 [build]
   publish = "_site"
+  #command = "ALGOLIA_API_KEY=$ALGOLIA_API_KEY ALGOLIA_APP_ID=$ALGOLIA_APP_ID SITE_ID=$SITE_ID yarn run build"
   command = "yarn run build"
 
 [[plugins]]
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
-  branches = ['main', 'develop', 'netlify-11ty-collections', 'netlify-algolia-search']
+  branches = ['main']
   customDomain = "booster.zywave.dev"
   renderJavaScript = true
 

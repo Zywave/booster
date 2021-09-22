@@ -43,17 +43,6 @@
 		{% include "static/js/inline.js" %}
 	{% endset %}
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-	<script type="text/javascript">
-		algoliasearchNetlify({
-			appId: '3UNKQCL6FE',
-			apiKey: '39edb28aa8f9f206fa791e3266217700',
-			siteId: '81c675c2-5962-473b-9983-cb2e22cc3395',
-			branch: 'netlify-algolia-search',
-			selector: '#search',
-			placeholder: 'Let\'s find something...'
-		});
-	</script>
 </head>
 
 <body class="zui row {{ pageType }}">
@@ -85,6 +74,17 @@
 			}
 		});
 	}
+	</script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+	<script type="text/javascript">
+		algoliasearchNetlify({
+			apiKey: {{ env.ALGOLIA_APP_KEY }},
+			appId: {{ env.ALGOLIA_APP_ID }},
+			siteId: {{ env.SITE_ID }},
+			branch: 'main',
+			selector: '#search',
+			placeholder: 'Let\'s find something...'
+		});
 	</script>
 </body>
 </html>
