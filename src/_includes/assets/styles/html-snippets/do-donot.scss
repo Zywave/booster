@@ -7,12 +7,15 @@
   font-size: rem(14);
   text-transform: uppercase;
   font-weight: bold;
-  border-top: rem(12) solid var(--zui-green-400);
+  border-top-width: rem(12);
+  border-top-style: solid;
   
 }
 .do {
   color: var(--zui-green-400);
+  border-top-color: var(--zui-green-400);
 }
 .do-not {
   color: var(--zui-red-400);
+  border-top-color: var(--zui-red-400);
 }
