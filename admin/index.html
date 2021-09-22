@@ -10,5 +10,30 @@
     <script src="https://cdn.zywave.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <!-- Include Netlify Identity for authentication -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      CMS.registerEditorComponent({
+        id: "html-snippet-do",
+        label: "Do HTML Snippet",
+        fields: [
+          {
+            name: "do",
+            label: "Do",
+            widget: "hidden"
+          }
+        ],
+        pattern: /^<div class="do"><\/div>/s,
+        fromBlock: (match) => {
+          return {
+            name: match[1]
+          }
+        },
+        toBlock: () => {
+          return `<div class="do"></div>`;
+        },
+        toPreview: () => {
+          return `<div class="do"></div>`;
+        }
+      });
+    </script>
   </body>
 </html>
