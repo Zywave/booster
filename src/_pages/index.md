@@ -17,7 +17,7 @@ pageType: home
                 <li><a href="#">Branding</a></li>
             </ul>
         </nav>
-        <div class="login"><a href="admin">Log in</a></div>
+        <div class="login"><a href="/admin">Log in</a></div>
     </div>
 </header>
 <div class="home-header">

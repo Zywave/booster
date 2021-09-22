@@ -235,14 +235,11 @@
                     }
 
                     // search icon
-                    .aa-InputWrapperPrefix {
-                        position: fixed;
-                        z-index: 1;
+                    .aa-InputWrapperPrefix button {
+                        cursor: pointer;
                     }
 
                     input {
-                        padding-left: rem(45);
-
                         &::placeholder {
                             color: var(--docs-gray-color);
                         }
@@ -254,30 +251,6 @@
                     }
                 }
             }
-        
-            // input[type="search"] {
-            //     grid-column: 4/13;
-            //     grid-row: 3/4;
-            //     width: 100%;
-            //     max-width: 100ch;
-            //     margin: 0 auto;
-            //     padding: rem(15) rem(22);
-            //     border: 1px solid #fefefe;
-            //     border-radius: rem(25);
-            //     background: var(--docs-secondary-color);
-            //     color: #fff;
-        
-            //     &:focus-visible,
-            //     &:hover {
-            //         outline: 0;
-            //         border: 1px solid var(--docs-gray-color);
-            //         background: var(--docs-secondary-color);
-            //     }
-
-            //     @media screen and (min-width: 45em) {
-            //         grid-column: 4/11;
-            //     }
-            // }
         }
     }
     

@@ -1,5 +1,24 @@
 <nav class="top-nav">
     <div id="search"></div>
-    <a class="log-in" href="#">Log in</a>
+    <a class="log-in" href="/admin">Log in</a>
 </nav>
 <hr>
+
+<script>
+    const element = document.querySelector('nav.top-nav #search');
+    const config = { childList: true, subtree: true };
+    const observer = new MutationObserver(callback);
+
+    function callback(mutationList, observer) {
+        for (const mutation of mutationList) {
+            const firstElement = mutation.addedNodes[0];
+            if (firstElement.classList.value === 'aa-Autocomplete') {
+                firstElement.addEventListener('click', function() {
+                    firstElement.classList.add('is-open');
+                });
+            }
+        }
+    }
+
+    observer.observe(element, config);
+</script>

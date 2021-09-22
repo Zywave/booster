@@ -8,11 +8,46 @@
 
     // algolia search overrides
     #search {
-        form {
-            border-radius: 50%;
+        // default / closed state
+        .aa-Autocomplete {
+            form {
+                border: 0;
+                width: rem(40);
+                height: rem(40);
+                background: rgba(72, 117, 107, .1);
+                border-radius: rem(20);
+                
+                button[type="submit"] {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: rem(40);
+                    height: rem(40);
+                    padding-top: rem(4);
+                    cursor: pointer;
+                    border-radius: 50%;
+                }
+                
+                input {
+                    display: none;
+                }
+
+                // x / delete button icon
+                .aa-InputWrapperSuffix {
+                    padding: rem(9);
+                }
+            }
+        }
+
+        // opened / clicked state
+        .aa-Autocomplete.is-open {
+            form {
+                width: auto;
+                min-width: rem(270);
+            }
 
             input {
-                display: none;
+                display: flex;
             }
         }
     }
