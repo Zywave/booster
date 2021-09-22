@@ -24,7 +24,7 @@
         pattern: /^<div class="do">Do<\/div>/s,
         fromBlock: (match) => {
           return {
-            name: match[1]
+            do: match[1]
           }
         },
         toBlock: () => {
@@ -39,7 +39,7 @@
         label: "Do Not HTML Snippet",
         fields: [
           {
-            name: "do-not",
+            name: "doNot",
             label: "Do Not",
             widget: "hidden"
           }
@@ -47,7 +47,7 @@
         pattern: /^<div class="do-not">Do not<\/div>/s,
         fromBlock: (match) => {
           return {
-            name: match[1]
+            doNot: match[1]
           }
         },
         toBlock: () => {
@@ -70,7 +70,7 @@
         pattern: /^<div class="spacer"><\/div>/s,
         fromBlock: (match) => {
           return {
-            name: match[1]
+            spacer: match[1]
           }
         },
         toBlock: () => {
@@ -85,7 +85,7 @@
         label: "Spacer (small) HTML Snippet",
         fields: [
           {
-            name: "spacer-small",
+            name: "spacerSmall",
             label: "Spacer (small)",
             widget: "hidden"
           }
@@ -93,7 +93,7 @@
         pattern: /^<div class="spacer"><\/div>/s,
         fromBlock: (match) => {
           return {
-            name: match[1]
+            spacerSmall: match[1]
           }
         },
         toBlock: () => {
@@ -101,6 +101,59 @@
         },
         toPreview: () => {
           return `<div class="spacer small"></div>`;
+        }
+      });
+      CMS.registerEditorComponent({
+        id: "html-snippet-grid",
+        label: "Grid HTML Snippet",
+        fields: [
+          {
+            name: "grid",
+            label: "Grid",
+            widget: "markdown"
+          }
+        ],
+        pattern: ,
+        fromBlock: (match) => {
+          return {
+            grid: match[1]
+          }
+        },
+        toBlock: (data) => {
+          return `<div class="grid">${data.grid}</div>`;
+        },
+        toPreview: (data) => {
+          return `<div class="grid">${data.grid}</div>`;
+        }
+      });
+      CMS.registerEditorComponent({
+        id: "html-snippet-grid",
+        label: "Grid Column HTML Snippet",
+        fields: [
+          {
+            name: "gridColumn",
+            label: "Grid Column",
+            widget: "select",
+            options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+          },
+          {
+            name: "content",
+            label: "Content",
+            widget: "markdown"
+          }
+        ],
+        pattern: ,
+        fromBlock: (match) => {
+          return {
+            gridColumn: match[1],
+            content: match[2]
+          }
+        },
+        toBlock: (data) => {
+          return `<div class="grid-col span-${data.gridColumn}">${data.content}</div>`;
+        },
+        toPreview: (data) => {
+          return `<div class="grid-col span-${data.gridColumn}">${data.content}</div>`;
         }
       });
       CMS.registerPreviewStyle("https://cdn.zywave.com/@zywave/zui-base-styles@latest/dist/zui-base-styles.min.css");
