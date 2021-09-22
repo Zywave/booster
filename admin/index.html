@@ -113,7 +113,7 @@
             widget: "markdown"
           }
         ],
-        pattern: ,
+        pattern: /^<div class="grid">\n(.*?)\n<\/div>/sm,
         fromBlock: (match) => {
           return {
             grid: match[1]
@@ -142,7 +142,7 @@
             widget: "markdown"
           }
         ],
-        pattern: ,
+        pattern: /<div class="grid-col span-(\d+)">\n(.*?)<\/div>\Z/sm,
         fromBlock: (match) => {
           return {
             gridColumn: match[1],
