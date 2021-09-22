@@ -78,9 +78,9 @@
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
 	<script type="text/javascript">
 		algoliasearchNetlify({
-			apiKey: {{ env.ALGOLIA_APP_KEY }},
-			appId: {{ env.ALGOLIA_APP_ID }},
-			siteId: {{ env.SITE_ID }},
+			apiKey: '{{ env.ALGOLIA_API_KEY }}',
+			appId: '{{ env.ALGOLIA_APP_ID }}',
+			siteId: '{{ env.SITE_ID }}',
 			branch: 'main',
 			selector: '#search',
 			placeholder: 'Let\'s find something...'
