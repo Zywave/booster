@@ -1,0 +1,3 @@
+User-agent: Algolia Crawler
+Disallow: /*?tab=api
+Disallow: /admin

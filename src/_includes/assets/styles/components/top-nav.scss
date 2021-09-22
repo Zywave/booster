@@ -1,0 +1,70 @@
+.top-nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: rem(20);
+
+    // algolia search overrides
+    #search {
+        // default / closed state
+        .aa-Autocomplete {
+            form {
+                border: 0;
+                width: rem(40);
+                height: rem(40);
+                background: rgba(72, 117, 107, .1);
+                border-radius: rem(20);
+                
+                button[type="submit"] {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: rem(40);
+                    height: rem(40);
+                    padding-top: rem(4);
+                    cursor: pointer;
+                    border-radius: 50%;
+                }
+                
+                input {
+                    display: none;
+                }
+
+                // x / delete button icon
+                .aa-InputWrapperSuffix {
+                    padding: rem(9);
+                }
+            }
+        }
+
+        // opened / clicked state
+        .aa-Autocomplete.is-open {
+            form {
+                width: auto;
+                min-width: rem(270);
+            }
+
+            input {
+                display: flex;
+            }
+        }
+    }
+
+    .log-in {
+        padding: rem(10);
+        margin-left: rem(20);
+        color: #324958;
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+
+    & + hr {
+        margin: 0;
+    }
+}
