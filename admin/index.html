@@ -18,20 +18,21 @@
           {
             name: "do",
             label: "Do",
+            value: "Do",
             widget: "hidden"
           }
         ],
-        pattern: /^<div class="do"><\/div>/s,
+        pattern: /^<div class="do">(.*?)<\/div>/s,
         fromBlock: (match) => {
           return {
             name: match[1]
           }
         },
-        toBlock: () => {
-          return `<div class="do"></div>`;
+        toBlock: (data) => {
+          return `<div class="do">${data.do}</div>`;
         },
-        toPreview: () => {
-          return `<div class="do"></div>`;
+        toPreview: (data) => {
+          return `<div class="do">${data.do}</div>`;
         }
       });
     </script>
