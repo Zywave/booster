@@ -121,13 +121,17 @@
         },
         toBlock: (data) => {
           return `<div class="grid">
-          ${data.grid}
-          </div>`;
+
+${data.grid}
+
+</div>`;
         },
         toPreview: (data) => {
           return `<div class="grid">
-          ${data.grid}
-          </div>`;
+
+${data.grid}
+
+</div>`;
         }
       });
       CMS.registerEditorComponent({
@@ -155,13 +159,17 @@
         },
         toBlock: (data) => {
           return `<div class="grid-col span-${data.gridColumn}">
-          ${data.content}
-          </div>`;
+
+${data.content}
+
+</div>`;
         },
         toPreview: (data) => {
           return `<div class="grid-col span-${data.gridColumn}">
-          ${data.content}
-          </div>`;
+
+${data.content}
+
+</div>`;
         }
       });
       CMS.registerPreviewStyle("https://cdn.zywave.com/@zywave/zui-base-styles@latest/dist/zui-base-styles.min.css");
