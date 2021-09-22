@@ -42,6 +42,7 @@
 	{% set js %}
 		{% include "static/js/inline.js" %}
 	{% endset %}
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
 </head>
 
 <body class="zui row {{ pageType }}">
@@ -49,15 +50,19 @@
 	<script async src="https://cdn.zywave.com/es-module-shims@1.0.0/dist/es-module-shims.js"></script>
 
 	{% if navHidden !== true %}
-		{% include "components/nav.njk" %}
+		{% include "components/side-nav.njk" %}
 	{% endif %}
 	
 	{% if navHidden !== true %}
-	<main class="content-with-sidenav">
+	<main class="content-with-side-nav">
+		{% include "components/top-nav.njk" %}
+		<div class="content-wrapper">
+			{{ content | safe }}
+		</div>
 	{% else %}
 	<main>
-	{% endif %}
 		{{ content | safe }}
+	{% endif %}
 	</main>
 	<script>
 	if (window.netlifyIdentity) {
@@ -69,6 +74,17 @@
 			}
 		});
 	}
+	</script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+	<script type="text/javascript">
+		algoliasearchNetlify({
+			apiKey: '{{ env.ALGOLIA_API_KEY }}',
+			appId: '{{ env.ALGOLIA_APP_ID }}',
+			siteId: '{{ env.SITE_ID }}',
+			branch: 'main',
+			selector: '#search',
+			placeholder: 'Let\'s find something...'
+		});
 	</script>
 </body>
 </html>

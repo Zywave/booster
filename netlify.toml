@@ -5,7 +5,7 @@
 [[plugins]]
 package = "@algolia/netlify-plugin-crawler"
   [plugins.inputs]
-  branches = ['main', 'develop', 'netlify-11ty-collections', 'netlify-algolia-search']
+  branches = ['main']
   customDomain = "booster.zywave.dev"
   renderJavaScript = true
 

@@ -1,0 +1,25 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+
+  &.content-with-side-nav {
+    width: calc(100% - #{rem(350)});
+  }
+
+  .content-wrapper {
+    padding: rem(20);
+    transition: padding 100ms ease-in-out;
+
+    @media screen and (min-width: 60em) {
+      padding: rem(30);
+    }
+
+    @media screen and (min-width: 64em) {
+      padding: rem(30) rem(50);
+    }
+
+    @media screen and (min-width: 80em) {
+      padding: rem(40) rem(90);
+    }
+  }
+}
