@@ -113,17 +113,21 @@
             widget: "markdown"
           }
         ],
-        pattern: /^<div class="grid">\n(.*?)\n<\/div>/sm,
+        pattern: /^<div class="grid">\n(.*?)\n<\/div>\n<\/div>\n\n/sm,
         fromBlock: (match) => {
           return {
             grid: match[1]
           }
         },
         toBlock: (data) => {
-          return `<div class="grid">${data.grid}</div>`;
+          return `<div class="grid">
+          ${data.grid}
+          </div>`;
         },
         toPreview: (data) => {
-          return `<div class="grid">${data.grid}</div>`;
+          return `<div class="grid">
+          ${data.grid}
+          </div>`;
         }
       });
       CMS.registerEditorComponent({
@@ -142,7 +146,7 @@
             widget: "markdown"
           }
         ],
-        pattern: /^<div class="grid-col span-(\d+)">\n(.*?)<\/div>\Z/sm,
+        pattern: /^<div class="grid-col span-(\d+)">\n(.*?)^<\/div>\n\n/sm,
         fromBlock: (match) => {
           return {
             gridColumn: match[1],
@@ -150,10 +154,14 @@
           }
         },
         toBlock: (data) => {
-          return `<div class="grid-col span-${data.gridColumn}">${data.content}</div>`;
+          return `<div class="grid-col span-${data.gridColumn}">
+          ${data.content}
+          </div>`;
         },
         toPreview: (data) => {
-          return `<div class="grid-col span-${data.gridColumn}">${data.content}</div>`;
+          return `<div class="grid-col span-${data.gridColumn}">
+          ${data.content}
+          </div>`;
         }
       });
       CMS.registerPreviewStyle("https://cdn.zywave.com/@zywave/zui-base-styles@latest/dist/zui-base-styles.min.css");
