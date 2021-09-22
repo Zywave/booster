@@ -34,6 +34,75 @@
           return `<div class="do">Do</div>`;
         }
       });
+      CMS.registerEditorComponent({
+        id: "html-snippet-do-not",
+        label: "Do Not HTML Snippet",
+        fields: [
+          {
+            name: "do-not",
+            label: "Do Not",
+            widget: "hidden"
+          }
+        ],
+        pattern: /^<div class="do-not">Do not<\/div>/s,
+        fromBlock: (match) => {
+          return {
+            name: match[1]
+          }
+        },
+        toBlock: () => {
+          return `<div class="do">Do not</div>`;
+        },
+        toPreview: () => {
+          return `<div class="do">Do not</div>`;
+        }
+      });
+      CMS.registerEditorComponent({
+        id: "html-snippet-spacer",
+        label: "Spacer HTML Snippet",
+        fields: [
+          {
+            name: "spacer",
+            label: "Spacer",
+            widget: "hidden"
+          }
+        ],
+        pattern: /^<div class="spacer"><\/div>/s,
+        fromBlock: (match) => {
+          return {
+            name: match[1]
+          }
+        },
+        toBlock: () => {
+          return `<div class="spacer"></div>`;
+        },
+        toPreview: () => {
+          return `<div class="spacer"></div>`;
+        }
+      });
+      CMS.registerEditorComponent({
+        id: "html-snippet-spacer-small",
+        label: "Spacer (small) HTML Snippet",
+        fields: [
+          {
+            name: "spacer-small",
+            label: "Spacer (small)",
+            widget: "hidden"
+          }
+        ],
+        pattern: /^<div class="spacer"><\/div>/s,
+        fromBlock: (match) => {
+          return {
+            name: match[1]
+          }
+        },
+        toBlock: () => {
+          return `<div class="spacer small"></div>`;
+        },
+        toPreview: () => {
+          return `<div class="spacer small"></div>`;
+        }
+      });
       CMS.registerPreviewStyle("https://cdn.zywave.com/@zywave/zui-base-styles@latest/dist/zui-base-styles.min.css");
       CMS.registerPreviewStyle("https://cdn.zywave.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.min.css");
       CMS.registerPreviewStyle("/css/styles.css");
