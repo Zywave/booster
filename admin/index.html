@@ -16,16 +16,37 @@
       CMS.registerPreviewStyle("/css/styles.css");
 
       let ComponentsPreview = createClass({
-        render: function() {
-          return h('section', {"id": "content"},
-            h('div', {"id": "usage", "className": "zui row align-start"},
-              h('div', {"className": "documentation"}, this.props.widgetFor('body'))
+        render: () => {
+          return h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
+            h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
+            h('section', {"id": "content"},
+              h('div', {"id": "usage", "className": "zui row align-start"},
+                h('div', {"className": "documentation"}, this.props.widgetFor('body'))
+              )
             )
-          );
+          ;
         }
       });
-
       CMS.registerPreviewTemplate("design_system_components", ComponentsPreview);
+      CMS.registerPreviewTemplate("application_framework_components", ComponentsPreview);
+
+      let DocumentationPreview = createClass({
+        render: () => {
+          return h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
+            h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
+            h('section', {"className": "zui row align-start"},
+              h('div', {"className": "content"}, this.props.widgetFor('body'))
+            )
+          ;
+        }
+      });
+      CMS.registerPreviewTemplate("application_framework", DocumentationPreview);
+      CMS.registerPreviewTemplate("application_framework_developers", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system_developers", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system_patterns", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system_visuals", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system_voice_and_tone", DocumentationPreview);
     </script>
   </body>
 </html>
