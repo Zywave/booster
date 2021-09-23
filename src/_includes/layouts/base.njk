@@ -76,8 +76,12 @@
 	}
 	</script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1.0.8/dist/algoliasearchNetlify.js"></script>
-	<script type="module">
+	<script type="module" noshim>
+		let initialized;
 		function init() {
+			if (initialized) {
+				return;
+			}
 			let selector;
 			if (document.querySelector('#search-home')) {
 				selector = '#search-home';
@@ -93,6 +97,7 @@
 				selector,
 				placeholder: 'Let\'s find something...'
 			});
+			initialized = true;
 		}
 		document.readyState === 'complete'                ? init()
 			: document.addEventListener('readystatechange', () => {
