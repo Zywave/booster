@@ -1,14 +1,14 @@
 ---
 permalink: /
-title: Booster Development Network
 layout: base
+title: Booster Development Network
 navHidden: true
 pageType: home
+subtitle: " "
 ---
-
 <header class="home-nav">
     <div class="home-nav-content">
-        <div class="logo"><img src="images/home/zywave-logo.svg" /></div>
+        <div class="logo"><img src="/images/home/zywave-logo.svg" /></div>
         <nav>
             <ul>
                 <li><a href="#">Getting started</a></li>
@@ -22,7 +22,7 @@ pageType: home
 </header>
 <div class="home-header">
     <div class="home-header-content">
-        <img src="images/home/rocket.svg" />
+        <img src="/images/home/rocket.svg" />
         <div class="heading">
             <h1>
                 <span>Booster</span>
@@ -35,7 +35,7 @@ pageType: home
 </div>
 <div class="home-content">
     <div class="card primary design-system">
-        <img src="images/home/design-system.svg" />
+        <img src="/images/home/design-system.svg" />
         <div class="text">
             <h2>Design system</h2>
             <p>Components, patterns and other visual elements that create the Zywave user experience.</p>
@@ -43,7 +43,7 @@ pageType: home
         </div>
     </div>
     <div class="card primary application-framework">
-        <img src="images/home/application-framework.svg" />
+        <img src="/images/home/application-framework.svg" />
         <div class="text">
             <h2>Application framework</h2>
             <p>A collection of API-driven components and tools to quickly build a Zywave-integrated application.</p>
