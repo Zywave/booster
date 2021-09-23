@@ -1,17 +1,17 @@
 ---
+title: Button groups
+subtitle: Three or more buttons grouped together on a single line.
 api: https://cdn.zywave.com/@zywave/zui-button@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-button@next/demo/index.html
 mainComponentName: zui-button-group
-includedElements: ["zui-button-group"]
-title: Button groups
-subtitle: Three or more buttons grouped together on a single line.
+includedElements:
+  - zui-button-group
 ---
-
 ## What are button groups?
 
-A button group is 3 or more buttons grouped together on a single line.
+A button group is three or more buttons grouped together on a single line.
 
----
+- - -
 
 ## Usage
 
@@ -19,12 +19,12 @@ Combining a few related actions into a button group can be useful for a feature.
 
 #### Alternate Considerations
 
-- Use [individual buttons](/design-system/components/buttons/) when the buttons are not related.
-- Use [radio buttons](/design-system/components/radio-buttons/) when labels require more text, or you need a segmented control that emphasizes a selection being made.
-- Use [tabs](/design-system/components/tabs/) when you need tertiary navigation on a page.
-- Use [toggle buttons](/design-system/components/toggles/) when a feature needs to be enabled or disabled.
+* Use [individual buttons](/design-system/components/buttons/) when the buttons are not related.
+* Use [radio buttons](/design-system/components/radio-buttons/) when labels require more text, or you need a segmented control that emphasizes a selection being made.
+* Use [tabs](/design-system/components/tabs/) when you need tertiary navigation on a page.
+* Use [toggle buttons](/design-system/components/toggles/) when a feature needs to be enabled or disabled.
 
----
+- - -
 
 ## Anatomy
 
@@ -37,7 +37,7 @@ Button groups follow the same anatomy rules as a button. For more information on
 
 For detailed documentation on our button group anatomy, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/specs/).
 
----
+- - -
 
 ## Types
 
@@ -83,7 +83,7 @@ Dropdowns can be placed anywhere in a button group as long as the buttons are or
 
 ![button group dropdowns](/images/components/button-groups/buttondropdown2.png)
 
----
+- - -
 
 ## States
 
@@ -125,7 +125,7 @@ For detailed documentation on our button groups states, view the [design specs](
 
 For detailed documentation on our button groups states, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/screen/20cde077-f0e1-4e45-8e99-cc2e77a332a7/specs/).
 
----
+- - -
 
 ## Best-practices
 
@@ -141,8 +141,8 @@ Button groups should follow the best practices outlined in the [button](/design-
 
 <Do />
 
-- Arrange primary actions on the left, followed by secondary actions, and tertiary actions as the last button in a group.
-- When using 2 buttons, one as a primary and one as a dropdown, place them as separate buttons.
+* Arrange primary actions on the left, followed by secondary actions, and tertiary actions as the last button in a group.
+* When using 2 buttons, one as a primary and one as a dropdown, place them as separate buttons.
 
 </GridCol>
 
