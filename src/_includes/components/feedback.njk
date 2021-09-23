@@ -1,0 +1,40 @@
+<div class="container">
+    <button id="feedback-button">Feedback</button>
+</div>
+<dialog id="feedback-dialog">
+    <h1>Feedback</h1>
+    <form id="feedback-form" netlify="netlify" name="feedback" method="dialog">
+        <section>
+            <label>Email address (optional): <input type="email" name="email"/>
+            </label>
+            <label>Type:
+                <select name="type" required="required">
+                    <option>General</option>
+                    <option>Suggestion</option>
+                    <option>Bug</option>
+                </select>
+            </label>
+            <label>
+                Summary:
+                <textarea required="required" name="summary" placeholder="Provide your feedback here..."></textarea>
+            </label>
+        </section>
+        <menu>
+            <button id="feedback-dialog-cancel" type="reset">Cancel</button>
+            <button type="submit">Confirm</button>
+        </menu>
+    </form>
+</dialog>
+<script type="module">
+    const feedbackBtn = document.getElementById("feedback-button");
+    const dialog = document.getElementById("feedback-dialog");
+    if (typeof dialog.showModal !== "function") {
+        feedbackBtn.style.display = "none";
+    } else {
+        const feedbackForm = document.getElementById("feedback-form");
+        const cancelButton = document.getElementById("feedback-dialog-cancel");
+        feedbackBtn.addEventListener("click", () => dialog.showModal());
+        cancelButton.addEventListener("click", () => dialog.close());
+        feedbackForm.addEventListener("formdata", x => x.formData.set("url", window.location.toString()));
+    }
+</script>
