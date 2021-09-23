@@ -42,7 +42,7 @@
 	{% set js %}
 		{% include "static/js/inline.js" %}
 	{% endset %}
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1.0.8/dist/algoliasearchNetlify.css" />
 </head>
 
 <body class="zui row {{ pageType }}">
@@ -75,16 +75,31 @@
 		});
 	}
 	</script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
-	<script type="text/javascript">
-		algoliasearchNetlify({
-			apiKey: '{{ env.ALGOLIA_API_KEY }}',
-			appId: '{{ env.ALGOLIA_APP_ID }}',
-			siteId: '{{ env.SITE_ID }}',
-			branch: 'main',
-			selector: '#search',
-			placeholder: 'Let\'s find something...'
-		});
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1.0.8/dist/algoliasearchNetlify.js"></script>
+	<script type="module">
+		function init() {
+			let selector;
+			if (document.querySelector('#search-home')) {
+				selector = '#search-home';
+			} else if (document.querySelector('#search-top-nav')) {
+				selector = '#search-top-nav';
+			}
+			if (!selector) return;
+			algoliasearchNetlify({
+				appId: '{{ env.ALGOLIA_APP_ID }}',
+				apiKey: '{{ env.ALGOLIA_SEARCH_API_KEY }}',
+				siteId: '{{ env.SITE_ID }}',
+				branch: 'main',
+				selector,
+				placeholder: 'Let\'s find something...'
+			});
+		}
+		document.readyState === 'complete'                ? init()
+			: document.addEventListener('readystatechange', () => {
+				if (document.readyState === 'complete') {
+					init();
+				}
+			});
 	</script>
 </body>
 </html>

@@ -30,7 +30,7 @@ pageType: home
             </h1>
             <h3>Our development network powers and guides our products into orbit.</h3>
         </div>
-        <div id="search"></div>
+        <div id="search-home"></div>
     </div>
 </div>
 <div class="home-content">

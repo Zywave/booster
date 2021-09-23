@@ -1,11 +1,11 @@
 <nav class="top-nav">
-    <div id="search"></div>
+    <div id="search-top-nav"></div>
     <a class="log-in" href="/admin">Log in</a>
 </nav>
 <hr>
 
 <script type="module">
-    const element = document.querySelector('nav.top-nav #search');
+    const element = document.getElementById("search-top-nav");
     const config = { childList: true, subtree: true };
     const observer = new MutationObserver(whenAlgoliaInsertedAddEventListener);
 
