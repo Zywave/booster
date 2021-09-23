@@ -8,7 +8,7 @@ includedElements: []
 ---
 ## Usage
 
-![Two Toggles stacked on top of each other. The top Toggle is switched off and the bottom Toggle is switched on. ](/static/images/toggle_usage.svg "Toggle usage")
+![Two Toggles stacked on top of each other. The top Toggle is switched off and the bottom Toggle is switched on. ](/static/images/toggle-on.gif "Toggle usage")
 
 Toggles are used:
 
@@ -23,8 +23,6 @@ Toggles are used:
 
 1. **Switch** - The small circular indicator that slides to the other side of the track upon interaction
 2. **Track** - The rounded rectangle in which the switch slides back and forth
-
-
 
 - - -
 
@@ -97,8 +95,6 @@ In a situation where the Toggle is in a disabled state and the user attempts to 
 * A Toggle's settings should take effect immediately without the need for a confirm or save, just as a light switch is immediate.
 * Changes to the UI from interacting with a Toggle setting, such as hiding, showing, enabling or disabling of content, are acceptable and expected in some cases. 
 * Labeling should be kept in-line with the Toggle
-
-
 
 - - -
 
