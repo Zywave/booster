@@ -18,7 +18,9 @@
       let ComponentsPreview = createClass({
         render: function() {
           return h('section', {"id": "content"},
-            h('div', {"id": "usage", "className": "zui row align-start"}, this.props.widgetFor('body'))
+            h('div', {"id": "usage", "className": "zui row align-start"},
+              h('div', {"className": "documentation"}, this.props.widgetFor('body'))
+            )
           );
         }
       });
