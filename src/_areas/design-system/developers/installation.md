@@ -3,7 +3,6 @@ layout: documentation
 title: Installation
 subtitle: Get started with our design system!
 ---
-
 There are two ways you can use ZUI 4 in your application: install the packages via Yarn or NPM; or slap our bad boy ZUI loader CDN script and stylesheets into your application.
 
 <Spacer/>
@@ -43,10 +42,10 @@ npm install @zywave/[zui-package]
 
 ### Where do I find a list of released ZUI packages to install?
 
-- Search for `@zywave` at [npmjs.com](https://www.npmjs.com/search?q=%40zywave)
-- Check out our [monorepo](https://gitlab.zywave.com/zui/zui/tree/master/packages) for all available packages
+* Search for `@zywave` at [npmjs.com](https://www.npmjs.com/search?q=%40zywave)
+* Check out our [monorepo](https://gitlab.zywave.com/zui/zui/tree/master/packages) for all available packages!
 
----
+- - -
 
 ## ZUI loader CDN
 
@@ -54,12 +53,12 @@ For a plug and chug experience, the ZUI loader is the perfect solution to quickl
 
 ### Determine if your application requires stable third-party components
 
-1. If yes, get the most recent **stable** version here: [https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/](https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/)
-1. If no, get the most recent **pre-released** version here: [https://cdn.zywave.com/@zywave/zui-bundle@next/dist/](https://cdn.zywave.com/@zywave/zui-bundle@next/dist/)
-1. There are three required files in order for the ZUI CDN to work properly in every application
-1. `zui-bundle.fouc.css` - required for a smooth transition while all the scripts on the page loads, especially for Internet Explorer 11
-1. `zui-bundle.app.css` - required for resetting styles for all base elements in your application
-1. `zui-loader.js` - required to load ALL ZUI components properly, including most polyfills for Internet Explorer 11
+1. If yes, get the most recent **stable** version here: <https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/>
+2. If no, get the most recent **pre-released** version here: <https://cdn.zywave.com/@zywave/zui-bundle@next/dist/>
+3. There are three required files in order for the ZUI CDN to work properly in every application
+4. `zui-bundle.fouc.css` - required for a smooth transition while all the scripts on the page loads, especially for Internet Explorer 11
+5. `zui-bundle.app.css` - required for resetting styles for all base elements in your application
+6. `zui-loader.js` - required to load ALL ZUI components properly, including most polyfills for Internet Explorer 11
 
 ### Place the script and stylesheets in your application
 
