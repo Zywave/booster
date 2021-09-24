@@ -16,15 +16,12 @@
       CMS.registerPreviewStyle("/css/styles.css");
 
       let ComponentsPreview = createClass({
-        render: () => {
-          let body = this.props.widgetFor('body');
-          console.log(`body: ${body}`);
-          
-          return h('h1', {"className": "component-header"}, 'title'),
-            h('h2', {"className": "component-subheader"}, 'subtitle'),
+        render: function() {
+          return h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
+            h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
             h('section', {"id": "content"},
               h('div', {"id": "usage", "className": "zui row align-start"},
-                h('div', {"className": "documentation"}, body)
+                h('div', {"className": "documentation"}, this.props.widgetFor('body'))
               )
             )
           ;
@@ -34,9 +31,9 @@
       CMS.registerPreviewTemplate("application_framework_components", ComponentsPreview);
 
       let DocumentationPreview = createClass({
-        render: () => {
-          return h('h1', {"className": "component-header"}, 'title'),
-            h('h2', {"className": "component-subheader"}, 'subtitle'),
+        render: function() {
+          return h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
+            h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
             h('section', {"className": "zui row align-start"},
               h('div', {"className": "content"}, this.props.widgetFor('body'))
             )
