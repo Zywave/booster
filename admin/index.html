@@ -17,20 +17,14 @@
 
       let ComponentsPreview = createClass({
         render: () => {
-          let entry = this.props.entry;
-          console.log(`entry: ${this.props.entry}`);
-          let title = entry.getIn(['data', 'title']);
-          console.log(`title: ${title}`);
-          let subtitle = entry.getIn(['data', 'subtitle']);
-          console.log(`subtitle: ${subtitle}`);
           let body = this.props.widgetFor('body');
           console.log(`body: ${body}`);
           
-          return h('h1', {"className": "component-header"}, title),
-            h('h2', {"className": "component-subheader"}, subtitle),
+          return h('h1', {"className": "component-header"}, 'title'),
+            h('h2', {"className": "component-subheader"}, 'subtitle'),
             h('section', {"id": "content"},
               h('div', {"id": "usage", "className": "zui row align-start"},
-                h('div', {"className": "documentation"}, this.props.widgetFor('body'))
+                h('div', {"className": "documentation"}, body)
               )
             )
           ;
@@ -41,12 +35,8 @@
 
       let DocumentationPreview = createClass({
         render: () => {
-          let entry = this.props.entry;
-          let title = entry.getIn(['data', 'title']);
-          let subtitle = entry.getIn(['data', 'subtitle']);
-
-          return h('h1', {"className": "component-header"}, title),
-            h('h2', {"className": "component-subheader"}, subtitle),
+          return h('h1', {"className": "component-header"}, 'title'),
+            h('h2', {"className": "component-subheader"}, 'subtitle'),
             h('section', {"className": "zui row align-start"},
               h('div', {"className": "content"}, this.props.widgetFor('body'))
             )
