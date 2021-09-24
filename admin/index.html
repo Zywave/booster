@@ -10,5 +10,51 @@
     <script src="https://cdn.zywave.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <!-- Include Netlify Identity for authentication -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      CMS.registerPreviewStyle("https://cdn.zywave.com/@zywave/zui-base-styles@latest/dist/zui-base-styles.min.css");
+      CMS.registerPreviewStyle("https://cdn.zywave.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.min.css");
+      CMS.registerPreviewStyle("/css/styles.css");
+
+      let ComponentsPreview = createClass({
+        render: function() {
+          return h('main', {},
+            h('div', {"className": "content-wrapper"},
+              h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
+                h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
+                h('section', {"id": "content"},
+                  h('div', {"id": "usage", "className": "zui row align-start"},
+                    h('div', {"className": "documentation"}, this.props.widgetFor('body'))
+                  )
+                )
+              )
+            )
+          ;
+        }
+      });
+      CMS.registerPreviewTemplate("design_system_components", ComponentsPreview);
+      CMS.registerPreviewTemplate("application_framework_components", ComponentsPreview);
+
+      let DocumentationPreview = createClass({
+        render: function() {
+          return h('main', {},
+            h('div', {"className": "content-wrapper"},
+              h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
+                h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
+                h('section', {"className": "zui row align-start"},
+                  h('div', {"className": "content"}, this.props.widgetFor('body'))
+                )
+              )
+            )
+          ;
+        }
+      });
+      CMS.registerPreviewTemplate("application_framework", DocumentationPreview);
+      CMS.registerPreviewTemplate("application_framework_developers", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system_developers", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system_patterns", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system_visuals", DocumentationPreview);
+      CMS.registerPreviewTemplate("design_system_voice_and_tone", DocumentationPreview);
+    </script>
   </body>
 </html>
