@@ -17,11 +17,15 @@
 
       let ComponentsPreview = createClass({
         render: function() {
-          return h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
-            h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
-            h('section', {"id": "content"},
-              h('div', {"id": "usage", "className": "zui row align-start"},
-                h('div', {"className": "documentation"}, this.props.widgetFor('body'))
+          return h('main', {},
+            h('div', {"className": "content-wrapper"},
+              h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
+                h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
+                h('section', {"id": "content"},
+                  h('div', {"id": "usage", "className": "zui row align-start"},
+                    h('div', {"className": "documentation"}, this.props.widgetFor('body'))
+                  )
+                )
               )
             )
           ;
@@ -32,10 +36,14 @@
 
       let DocumentationPreview = createClass({
         render: function() {
-          return h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
-            h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
-            h('section', {"className": "zui row align-start"},
-              h('div', {"className": "content"}, this.props.widgetFor('body'))
+          return h('main', {},
+            h('div', {"className": "content-wrapper"},
+              h('h1', {"className": "component-header"}, this.props.widgetFor('title')),
+                h('h2', {"className": "component-subheader"}, this.props.widgetFor('subtitle')),
+                h('section', {"className": "zui row align-start"},
+                  h('div', {"className": "content"}, this.props.widgetFor('body'))
+                )
+              )
             )
           ;
         }
