@@ -11,10 +11,10 @@ subtitle: " "
         <div class="logo"><img src="/images/home/zywave-logo.svg" /></div>
         <nav>
             <ul>
-                <li><a href="#">Getting started</a></li>
+                <li><a href="{{ '/coming-soon/' | url }}">Getting started</a></li>
                 <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
                 <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
-                <li><a href="#">Branding</a></li>
+                <li><a href="{{ '/coming-soon/' | url }}">Branding</a></li>
             </ul>
         </nav>
         <div class="login"><a href="/admin">Log in</a></div>
@@ -53,16 +53,16 @@ subtitle: " "
     <div class="card secondary">
         <h2>Glossary </h2>
         <p>A constellation of all of our patterns, components and key terms.</p>
-        <a href="#">View our glossary ➔</a>
+        <a href="{{ '/coming-soon/' | url }}">View our glossary ➔</a>
     </div>
     <div class="card secondary">
         <h2>Branding </h2>
         <p>Our mission, values and identity that sets us apart from the rest of the universe.</p>
-        <a href="#">View our branding standards ➔</a>
+        <a href="{{ '/coming-soon/' | url }}">View our branding standards ➔</a>
     </div>
     <div class="card secondary">
         <h2>Blog</h2>
         <p>Stay up to date on current events, topics and articles in our galaxy.</p>
-        <a href="#">View our blog ➔</a>
+        <a href="{{ '/coming-soon/' | url }}">View our blog ➔</a>
     </div>
 </div>

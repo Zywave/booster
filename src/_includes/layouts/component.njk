@@ -7,7 +7,9 @@ layout: base
 <link rel="preload" as="fetch" type="application/json" href="{{ api }}">
 <script type="module" src="https://cdn.zywave.com/@zywave/customelement-manifest-element@latest/index.js"></script>
 <script type="module" src="{{ "js/web-components/docs-demos.js" | url }}"></script>
+{% if not hideToc %}
 <script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
+{% endif %}
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
 <script type="module" src="{{ "js/delayed-scroll-to-id.js" | url }}"></script>
 
@@ -116,10 +118,14 @@ layout: base
   </div>
   <div id="demos" class="zui row align-start" style="display: none;" aria-hidden="true">
     <docs-demos demo-url="{{ demo }}" component="{{ mainComponentName }}"></docs-demos>
+    {% if not hideToc %}
     <quick-links query="#demos h1, #demos h2, #demos h3, #demos h4"></quick-links>
+    {% endif %}
   </div>
   <div id="usage" class="zui row align-start" style="display: none;" aria-hidden="true">
     <div class="documentation">{{ content | safe }}</div>
+    {% if not hideToc %}
     <quick-links query="#usage h1, #usage h2, #usage h3, #usage h4"></quick-links>
+    {% endif %}
   </div>
 </section>

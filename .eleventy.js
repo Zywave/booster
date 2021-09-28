@@ -25,6 +25,9 @@ module.exports = function(eleventyConfig) {
   // Sentence case titles and replace all hyphens with spaces
   // TODO: Improve title formating since some titles, such as "CSS guide", are outputting as "Css guide"
   eleventyConfig.addFilter("sentenceCase", function(title) {
+    if (!title) {
+      return title;
+    }
     const sentenceCase = title.charAt(0).toUpperCase() + title.slice(1);
     return sentenceCase.replaceAll(/-/gm, ' ');
   });
