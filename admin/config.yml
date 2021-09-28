@@ -6,8 +6,8 @@ backend:
 # Uncomment below to enable drafts
 publish_mode: editorial_workflow
 
-media_folder: "static/baked-potato/images"
-public_folder: "/sausages/images"
+media_folder: "/static/images"
+public_folder: "/images"
 
 collections:
   - name: "application_framework"
