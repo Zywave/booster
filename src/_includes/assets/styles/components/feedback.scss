@@ -1,0 +1,74 @@
+#feedback-button-container {
+    position: fixed;
+    // top: 0;
+    bottom: 20px;
+    right: 30px;
+
+    .feedback-hide-button {
+        display: flex;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        border: 2px solid gray;
+        border-radius: 50%;
+        padding: rem(3);
+
+        svg {
+            width: rem(16);
+            height: rem(16);
+        }
+    }
+    
+    .feedback-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        width: rem(60);
+        padding: rem(16);
+        margin: 0;
+        color: #fff;
+        font-size: rem(10);
+        border: 0;
+        background: url('/images/feedback/badge-background.svg') no-repeat;
+        filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+        transition: opacity 0.3 ease;
+
+        &:hover {
+            opacity: 0.9;
+        }
+        
+        img.rocket-ship {
+            margin-bottom: rem(7);
+        }
+    }
+}
+// #feedback-button-container {
+//     position: fixed;
+//     top: 0;
+//     right: 0;
+
+//     .feedback-hide-button {
+//         margin: 0;
+//         padding: 0;
+
+//         svg {
+//             width: rem(15);
+//             height: rem(15);
+//         }
+//     }
+    
+//     .feedback-button {
+//         margin: 0;
+//         padding: 20px;
+//         background: #D76C42;
+//         border: 0;
+//         color: #fff;
+
+//         span {
+//             writing-mode: vertical-rl;
+//             text-orientation: upright;
+//             letter-spacing: -0.4em;
+//         }
+//     }
+// }

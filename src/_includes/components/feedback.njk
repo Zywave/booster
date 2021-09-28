@@ -1,5 +1,11 @@
-<div class="container">
-    <button id="feedback-button">Feedback</button>
+<div id="feedback-button-container">
+    <button class="feedback-hide-button" type="button" aria-label="Hide feedback button">
+        <svg id="zui-remove" viewBox="0 0 16 16" aria-labelledby="zui-remove-desc zui-remove-title"><title id="zui-remove-title">Remove</title><desc id="zui-remove-desc">An X icon</desc><path d="M12.85 11.44a.5.5 0 010 .71l-.7.7a.5.5 0 01-.71 0L8 9.41l-3.44 3.44a.5.5 0 01-.71 0l-.7-.7a.5.5 0 010-.71L6.59 8 3.15 4.56a.5.5 0 010-.71l.7-.7a.5.5 0 01.71 0L8 6.59l3.44-3.44a.5.5 0 01.71 0l.7.7a.5.5 0 010 .71L9.41 8z"></path></svg>
+    </button>
+    <button type="button" class="feedback-button">
+        <img class="rocket-ship" src="images/feedback/rocket-ship.svg" alt="Rocket ship icon" />
+        <span>Feedback</span>
+    </button>
 </div>
 <dialog id="feedback-dialog">
     <h1>Feedback</h1>
