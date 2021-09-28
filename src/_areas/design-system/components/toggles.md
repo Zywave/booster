@@ -94,13 +94,13 @@ In addition to on and off, Toggles also have default, hover, focus and disabled 
 
 When a user interacts with the Toggle by mouse-click or pressing the enter key, the switch slides smoothly to the other side of the track. 
 
-![The animation of a toggle sliding from the off position to the on position. ](/static/images/toggle-on.gif "Toggle switching behavior")
+![The animation of a toggle sliding from the off position to the on position. ](/images/toggle-on.gif "Toggle switching behavior")
 
 In a situation where the Toggle is in a disabled state and the user attempts to interact with it, the switch will "wiggle" in it's current position to indicate the interaction was received, but the state cannot change.
 
 ![A disabled Toggle in the on position. ](/images/toggle-on-disabled.gif "Disabled on Toggle behavior")
 
-![A disabled Toggle in the off position](/static/images/toggle-off-disabled.gif "Disabled off Toggle behavior")
+![A disabled Toggle in the off position](/images/toggle-off-disabled.gif "Disabled off Toggle behavior")
 
 - - -
 
