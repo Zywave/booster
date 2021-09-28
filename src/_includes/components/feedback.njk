@@ -5,7 +5,7 @@
     </button>
 </div>
 <dialog id="feedback-dialog">
-    <form id="feedback-form" data-netlify="true" name="feedback" method="POST">
+    <form id="feedback-form" data-netlify="true" name="feedback" method="POST" action="/">
         <h1>Feedback</h1>
         <section>
             <label>
@@ -37,11 +37,12 @@
     const feedbackBtn = document.getElementById("feedback-button");
     const dialog = document.getElementById("feedback-dialog");
 
-    if (hasQueryParam('feedback')) dialog.showModal();
-
     if (typeof dialog.showModal !== "function") {
         feedbackBtn.style.display = "none";
     } else {
+        if (hasQueryParam('feedback')) {
+            dialog.showModal();
+        }
         const feedbackForm = document.getElementById("feedback-form");
         const cancelButton = document.getElementById("feedback-dialog-cancel");
         feedbackBtn.addEventListener("click", () => dialog.showModal());
