@@ -19,7 +19,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "documentation" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
-      - { label: "Exclude ToC", name: "hideToc", widget: "boolean", default: false }
+      - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "application_framework_components"
     label: "Application framework / Components"
