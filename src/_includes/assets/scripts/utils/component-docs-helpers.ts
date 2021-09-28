@@ -1,5 +1,9 @@
 const url = new URL(String(document.location));
 
+export function hasQueryParam(queryParam: string) {
+    return url.searchParams.has(queryParam);
+}
+
 export function getQueryParamValue(queryParam: string) {
     return url.searchParams.get(queryParam);
 }
