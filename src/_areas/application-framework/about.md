@@ -4,7 +4,7 @@ title: About Booster's Application Framework
 subtitle: What is it and what does it do?
 hideToc: false
 ---
-The Application Framework, commonly referred to as the Zywave API Toolkit, is a collection of API-driven custom elements that help enforce consistency of:
+  The Application Framework, commonly referred to as the Zywave API Toolkit, is a collection of API-driven custom elements that help enforce consistency of:
 
 * data and how it is presented
 * navigation through the Zywave ecosystem
