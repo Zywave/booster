@@ -64,6 +64,7 @@
 		{{ content | safe }}
 	{% endif %}
 	</main>
+	{% include "components/feedback.njk" %}
 	<script>
 	if (window.netlifyIdentity) {
 		window.netlifyIdentity.on("init", user => {

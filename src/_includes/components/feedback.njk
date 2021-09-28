@@ -1,0 +1,58 @@
+<div id="feedback-button-container">
+    <button id="feedback-button" type="button" class="feedback-button" aria-label="Provide feedback">
+        <img class="rocket-ship" src="images/feedback/rocket-ship.svg" alt="Rocket ship icon" />
+        <span>Feedback</span>
+    </button>
+</div>
+<dialog id="feedback-dialog">
+    <form id="feedback-form" data-netlify="true" name="feedback" method="POST" action="/">
+        <h1>Feedback</h1>
+        <section>
+            <label>
+                <span>Email address (optional):</span>
+                <input type="email" name="email"/>
+            </label>
+            <label>
+                <span>Type:</span>
+                <select name="type" required="required">
+                    <option>General</option>
+                    <option>Suggestion</option>
+                    <option>Bug</option>
+                </select>
+            </label>
+            <label>
+                <span>Summary:</span>
+                <textarea rows="10" required="required" name="summary" placeholder="Provide your feedback here..."></textarea>
+            </label>
+        </section>
+        <menu class="footer">
+            <button class="secondary" id="feedback-dialog-cancel" type="reset">Cancel</button>
+            <button type="submit">Confirm</button>
+        </menu>
+    </form>
+</dialog>
+<script type="module">
+    import { hasQueryParam } from '@booster/utils/component-docs-helpers.js';
+
+    const feedbackBtn = document.getElementById("feedback-button");
+    const dialog = document.getElementById("feedback-dialog");
+
+    if (typeof dialog.showModal !== "function") {
+        feedbackBtn.style.display = "none";
+    } else {
+        if (hasQueryParam('feedback')) {
+            dialog.showModal();
+        }
+        const feedbackForm = document.getElementById("feedback-form");
+        const cancelButton = document.getElementById("feedback-dialog-cancel");
+        feedbackBtn.addEventListener("click", () => dialog.showModal());
+        cancelButton.addEventListener("click", () => dialog.close());
+        feedbackForm.addEventListener("formdata", x => x.formData.set("url", window.location.toString()));
+    }
+
+    function wasBackdropClicked(event) {
+        if (event.target === dialog) dialog.close();
+    }
+
+    dialog.addEventListener('click', wasBackdropClicked);
+</script>
