@@ -8,7 +8,7 @@ includedElements: []
 ---
 ## Usage
 
-![Two Toggles stacked on top of each other. The top Toggle is switched off and the bottom Toggle is switched on. ](/static/images/toggle-on.gif "Toggle usage")
+![Two Toggles stacked on top of each other. The top Toggle is switched off and the bottom Toggle is switched on. ](/images/toggle_usage.svg "Toggle usage")
 
 Toggles are used:
 
