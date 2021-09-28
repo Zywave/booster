@@ -2,7 +2,9 @@
 layout: base
 ---
 
+{% if not hideToc %}
 <script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
+{% endif %}
 <script type="module" src="{{ "js/web-components/tabs.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
 
