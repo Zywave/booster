@@ -52,7 +52,7 @@ When using a Toggle in a Table, always place the Toggle in the far right column.
 
 A Toggle can either be in the on or off position. 
 
-![Toggles in the on and off position](/images/toggle_on-off.svg "Toggles on and off")
+![Toggles in the on and off position.](/images/toggle_on-off.svg "Toggles on and off")
 
 **On**
 
@@ -64,13 +64,11 @@ A Toggle can either be in the on or off position.
 * The switch is positioned on the left side of the track.
 * The track is Gray 400.
 
-
-
 </br>
 
 In addition to on and off, Toggles also have default, hover, focus and disabled states.
 
-![The different states of Toggles](/images/toggle_states.svg "Toggle states")
+![The different states of Toggles.](/images/toggle_states.svg "Toggle states")
 
 **Default**
 
@@ -100,7 +98,7 @@ In a situation where the Toggle is in a disabled state and the user attempts to 
 
 ![A disabled Toggle in the on position. ](/images/toggle-on-disabled.gif "Disabled on Toggle behavior")
 
-![A disabled Toggle in the off position](/images/toggle-off-disabled.gif "Disabled off Toggle behavior")
+![A disabled Toggle in the off position.](/images/toggle-off-disabled.gif "Disabled off Toggle behavior")
 
 - - -
 
