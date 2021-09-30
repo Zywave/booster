@@ -37,7 +37,7 @@ Standard checkboxes are the most common. They allow the user to make selections 
 - Use when the number of options is easy for the user to process, generally fewer than 10.
 - Unless you want to emphasize the selection, these are usually the checkboxes you should use.
 
-<Spacer size="small" />
+<booster-spacer size="small"></booster-spacer>
 
 ### Gallery checkbox
 
