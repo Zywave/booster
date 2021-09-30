@@ -22,17 +22,7 @@ customElements.define('booster-do-not', class extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-  }
 
-  connectedCallback() {
-    if (this.hasAttribute('heading')) {
-      this.heading = this.getAttribute('heading');
-    }
-
-    this.render();
-  }
-
-  render() {
     const template = document.createElement('template');
     const templateStr = `
       <style>${css}</style>
@@ -44,6 +34,12 @@ customElements.define('booster-do-not', class extends HTMLElement {
 
     template.innerHTML = templateStr;
     this.shadowRoot.appendChild(template.content.cloneNode(true));
+  }
+
+  connectedCallback() {
+    if (this.hasAttribute('heading')) {
+      this.heading = this.getAttribute('heading');
+    }
   }
 });
 
