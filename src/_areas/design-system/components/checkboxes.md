@@ -93,9 +93,9 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 ## Checkbox best practices
 
-<Grid>
+<booster-grid>
 
-<GridCol col="span-6">
+<div>
 
 ![Checkbox Label Do](/images/components/checkboxes/Assets_03-20/checklabel_do.svg)
 
@@ -103,9 +103,9 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
   Checkboxes should always have a label.
 </booster-do>
 
-</GridCol>
+</div>
 
-<GridCol col="span-6">
+<div>
 
 ![Checkbox Label Don't](/images/components/checkboxes/Assets_03-20/checklabel_dont.svg)
 
@@ -113,9 +113,9 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
   A checkbox without a label is unusable; the user will not know what selection they are making without text.
 </booster-do-not>
 
-</GridCol>
+</div>
 
-</Grid>
+</booster-grid>
 
 <hr>
 
