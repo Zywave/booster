@@ -1,7 +1,12 @@
 const css = `
-  .bar {
+  .do, .bar {
     display: flex;
     width: 100%;
+  }
+  .do {
+    flex-direction: column;
+  }
+  .bar {
     padding: 0.625rem 0; /* 10 / 16 */
     font-size: 0.875rem; /* 14 / 16 */
     text-transform: uppercase;
@@ -11,13 +16,20 @@ const css = `
   }
 `;
 
-customElements.define('booster-do', class extends HTMLElement {
+customElements.define("booster-do", class extends HTMLElement {
+  heading: string = "Do";
+
   constructor() {
     super();
-    this.attachShadow({ mode: 'open' });
+    this.attachShadow({ mode: "open" });
   }
 
   connectedCallback() {
+    const customHeading = this.getAttribute("heading");
+    if (customHeading) {
+      this.heading = customHeading;
+    }
+
     this.render();
   }
 
@@ -25,7 +37,10 @@ customElements.define('booster-do', class extends HTMLElement {
     const template = document.createElement("template");
     const templateStr = `
       <style>${css}</style>
-      <div class="bar">Do</div>
+      <div class="do">
+        <div class="bar">${this.heading}</div>
+        <slot></slot>
+      </div>
     `;
 
     template.innerHTML = templateStr;
