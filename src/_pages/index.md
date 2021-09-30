@@ -14,7 +14,7 @@ subtitle: " "
                 <li><a href="{{ '/coming-soon/' | url }}">Getting started</a></li>
                 <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
                 <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
-                <li><a href="{{ '/coming-soon/' | url }}">Branding</a></li>
+                <li><a href="https://thenewz.zywave.com/wp-content/uploads/2020/08/Zywave-Brand-Guide.pdf">Branding</a></li>
             </ul>
         </nav>
         <div class="login"><a href="/admin">Log in</a></div>
@@ -58,7 +58,7 @@ subtitle: " "
     <div class="card secondary">
         <h2>Branding </h2>
         <p>Our mission, values and identity that sets us apart from the rest of the universe.</p>
-        <a href="{{ '/coming-soon/' | url }}">View our branding standards ➔</a>
+        <a href="https://thenewz.zywave.com/wp-content/uploads/2020/08/Zywave-Brand-Guide.pdf">View our branding standards ➔</a>
     </div>
     <div class="card secondary">
         <h2>Blog</h2>
