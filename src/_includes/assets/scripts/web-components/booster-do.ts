@@ -16,25 +16,24 @@ const css = `
   }
 `;
 
-customElements.define("booster-do", class extends HTMLElement {
-  heading: string = "Do";
+customElements.define('booster-do', class extends HTMLElement {
+  heading: BoosterDoHeading = 'Do';
 
   constructor() {
     super();
-    this.attachShadow({ mode: "open" });
+    this.attachShadow({ mode: 'open' });
   }
 
   connectedCallback() {
-    const customHeading = this.getAttribute("heading");
-    if (customHeading) {
-      this.heading = customHeading;
+    if (this.hasAttribute('heading')) {
+      this.heading = this.getAttribute('heading');
     }
 
     this.render();
   }
 
   render() {
-    const template = document.createElement("template");
+    const template = document.createElement('template');
     const templateStr = `
       <style>${css}</style>
       <div class="do">
@@ -47,5 +46,7 @@ customElements.define("booster-do", class extends HTMLElement {
     this.shadowRoot.appendChild(template.content.cloneNode(true));
   }
 });
+
+type BoosterDoHeading = string;
 
 export {};

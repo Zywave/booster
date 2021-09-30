@@ -17,7 +17,7 @@ const css = `
 `;
 
 customElements.define('booster-do-not', class extends HTMLElement {
-  heading: string = "Do not";
+  heading: BoosterDoNotHeading = 'Do not';
 
   constructor() {
     super();
@@ -25,16 +25,15 @@ customElements.define('booster-do-not', class extends HTMLElement {
   }
 
   connectedCallback() {
-    const customHeading = this.getAttribute("heading");
-    if (customHeading) {
-      this.heading = customHeading;
+    if (this.hasAttribute('heading')) {
+      this.heading = this.getAttribute('heading');
     }
 
     this.render();
   }
 
   render() {
-    const template = document.createElement("template");
+    const template = document.createElement('template');
     const templateStr = `
       <style>${css}</style>
       <div class="do-not">
@@ -47,5 +46,7 @@ customElements.define('booster-do-not', class extends HTMLElement {
     this.shadowRoot.appendChild(template.content.cloneNode(true));
   }
 });
+
+type BoosterDoNotHeading = string;
 
 export {};
