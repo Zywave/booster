@@ -19,7 +19,17 @@ const css = `
 const template = document.createElement('template');
 
 customElements.define('docs-do-not', class extends HTMLElement {
-  heading: DocsDoNotHeading = 'Do not';
+  static get observedAttributes() {
+    return ['heading'];
+  }
+
+  get heading() {
+    return this.getAttribute('heading');
+  }
+
+  set heading(val: DocsDoNotHeading) {
+    this.setAttribute('heading', val);
+  }
 
   constructor() {
     super();
@@ -28,7 +38,7 @@ customElements.define('docs-do-not', class extends HTMLElement {
     const templateStr = `
       <style>${css}</style>
       <div class="do-not">
-        <div class="bar">${this.heading}</div>
+        <div class="bar">${this.heading ? this.heading : 'Do not'}</div>
         <slot></slot>
       </div>
     `;
@@ -37,9 +47,9 @@ customElements.define('docs-do-not', class extends HTMLElement {
     this.shadowRoot.appendChild(template.content.cloneNode(true));
   }
 
-  connectedCallback() {
-    if (this.hasAttribute('heading')) {
-      this.heading = this.getAttribute('heading');
+  attributeChangedCallback(name: string, oldValue: string, newValue: string) {
+    if (name === 'heading' && oldValue !== newValue) {
+      this.shadowRoot.querySelector('.bar').innerHTML = newValue;
     }
   }
 });

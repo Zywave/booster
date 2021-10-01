@@ -50,12 +50,6 @@ customElements.define('docs-spacer',  class extends HTMLElement {
     return this.shadowRoot?.querySelector('.spacer');
   }
 
-  attributeChangedCallback(name: string, oldValue: string, newValue: string) {
-    if (name === 'size' && oldValue !== newValue) {
-      this.#setSize(newValue);
-    }
-  }
-
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -71,6 +65,12 @@ customElements.define('docs-spacer',  class extends HTMLElement {
 
   connectedCallback() {
     this.#setSize(this.size);
+  }
+
+  attributeChangedCallback(name: string, oldValue: string, newValue: string) {
+    if (name === 'size' && oldValue !== newValue) {
+      this.#setSize(newValue);
+    }
   }
 
   #setSize(size: string | null | undefined) {

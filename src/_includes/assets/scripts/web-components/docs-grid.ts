@@ -33,12 +33,6 @@ customElements.define('docs-grid', class extends HTMLElement {
     this.setAttribute('columns', val);
   }
 
-  attributeChangedCallback(name: string, oldValue: string, newValue: string) {
-    if (name === 'columns' && oldValue !== newValue) {
-      this.style.setProperty('--docs-grid-columns', newValue);
-    }
-  }
-
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -50,6 +44,12 @@ customElements.define('docs-grid', class extends HTMLElement {
 
     template.innerHTML = templateStr;
     this.shadowRoot.appendChild(template.content.cloneNode(true));
+  }
+
+  attributeChangedCallback(name: string, oldValue: string, newValue: string) {
+    if (name === 'columns' && oldValue !== newValue) {
+      this.style.setProperty('--docs-grid-columns', newValue);
+    }
   }
 });
 
