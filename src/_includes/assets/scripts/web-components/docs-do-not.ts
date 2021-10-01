@@ -16,8 +16,8 @@ const css = `
   }
 `;
 
-customElements.define('booster-do-not', class extends HTMLElement {
-  heading: BoosterDoNotHeading = 'Do not';
+customElements.define('docs-do-not', class extends HTMLElement {
+  heading: DocsDoNotHeading = 'Do not';
 
   constructor() {
     super();
@@ -43,6 +43,6 @@ customElements.define('booster-do-not', class extends HTMLElement {
   }
 });
 
-type BoosterDoNotHeading = string;
+type DocsDoNotHeading = string;
 
 export {};

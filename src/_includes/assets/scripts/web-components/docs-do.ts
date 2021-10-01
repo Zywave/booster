@@ -16,8 +16,8 @@ const css = `
   }
 `;
 
-customElements.define('booster-do', class extends HTMLElement {
-  heading: BoosterDoHeading = 'Do';
+customElements.define('docs-do', class extends HTMLElement {
+  heading: DocsDoHeading = 'Do';
 
   constructor() {
     super();
@@ -43,6 +43,6 @@ customElements.define('booster-do', class extends HTMLElement {
   }
 });
 
-type BoosterDoHeading = string;
+type DocsDoHeading = string;
 
 export {};

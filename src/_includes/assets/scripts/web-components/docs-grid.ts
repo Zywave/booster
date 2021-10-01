@@ -1,7 +1,7 @@
 const css = `
 :host {
   display: grid;
-  grid-template-columns: repeat(var(--booster-grid-columns, 1), 1fr);
+  grid-template-columns: repeat(var(--docs-grid-columns, 1), 1fr);
   grid-gap: 1.25; /* 20 / 16 */
   width: 100%;
   margin: 0 auto;
@@ -10,13 +10,13 @@ const css = `
 
 @media (min-width: 60em) { /* 960 / 16 */
   :host {
-    grid-template-columns: repeat(var(--booster-grid-columns, 2), 1fr);
+    grid-template-columns: repeat(var(--docs-grid-columns, 2), 1fr);
     grid-gap: 2.5rem; /* 40 / 16 */
   }
 }
 `;
 
-customElements.define('booster-grid', class extends HTMLElement {
+customElements.define('docs-grid', class extends HTMLElement {
 
   static get observedAttributes() {
     return ['columns'];
@@ -26,13 +26,13 @@ customElements.define('booster-grid', class extends HTMLElement {
     return this.getAttribute('columns');
   }
 
-  set columns(val: BoosterGridColumns) {
+  set columns(val: DocsGridColumns) {
     this.setAttribute('columns', val);
   }
 
   attributeChangedCallback(name: string, oldValue: string, newValue: string) {
     if (name === 'columns' && oldValue !== newValue) {
-      this.style.setProperty('--booster-grid-columns', newValue);
+      this.style.setProperty('--docs-grid-columns', newValue);
     }
   }
 
@@ -51,6 +51,6 @@ customElements.define('booster-grid', class extends HTMLElement {
   }
 });
 
-type BoosterGridColumns = string | null | undefined;
+type DocsGridColumns = string | null | undefined;
 
 export {};

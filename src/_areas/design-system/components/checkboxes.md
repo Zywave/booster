@@ -37,7 +37,7 @@ Standard checkboxes are the most common. They allow the user to make selections 
 - Use when the number of options is easy for the user to process, generally fewer than 10.
 - Unless you want to emphasize the selection, these are usually the checkboxes you should use.
 
-<booster-spacer size="small"></booster-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### Gallery checkbox
 
@@ -93,15 +93,15 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 ## Checkbox best practices
 
-<booster-grid>
+<docs-grid>
 
 <div>
 
 ![Checkbox Label Do](/images/components/checkboxes/Assets_03-20/checklabel_do.svg)
 
-<booster-do>
+<docs-do>
   Checkboxes should always have a label.
-</booster-do>
+</docs-do>
 
 </div>
 
@@ -109,13 +109,13 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 ![Checkbox Label Don't](/images/components/checkboxes/Assets_03-20/checklabel_dont.svg)
 
-<booster-do-not>
+<docs-do-not>
   A checkbox without a label is unusable; the user will not know what selection they are making without text.
-</booster-do-not>
+</docs-do-not>
 
 </div>
 
-</booster-grid>
+</docs-grid>
 
 <hr>
 

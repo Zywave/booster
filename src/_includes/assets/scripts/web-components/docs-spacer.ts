@@ -31,7 +31,7 @@ const css = `
   }
 `;
 
-customElements.define('booster-spacer',  class extends HTMLElement {
+customElements.define('docs-spacer',  class extends HTMLElement {
   static get observedAttributes() {
     return ['size'];
   }
@@ -40,7 +40,7 @@ customElements.define('booster-spacer',  class extends HTMLElement {
     return this.getAttribute('size');
   }
 
-  set size(val: BoosterSpacerSize) {
+  set size(val: DocsSpacerSize) {
     this.setAttribute('size', val);
   }
 
@@ -86,6 +86,6 @@ customElements.define('booster-spacer',  class extends HTMLElement {
   }
 });
 
-type BoosterSpacerSize = "small" | string | null | undefined;
+type DocsSpacerSize = "small" | string | null | undefined;
 
 export {};
