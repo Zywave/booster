@@ -141,8 +141,5 @@ collections:
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "documentation" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-    meta: {
-      path: { widget: string, label: "Path", index_file: "index" }
-    }
