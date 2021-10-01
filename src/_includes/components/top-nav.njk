@@ -1,8 +1,21 @@
-<nav class="top-nav">
-    <div id="search-top-nav"></div>
-    <a class="log-in" href="/admin">Log in</a>
-</nav>
-<hr>
+<header class="top-nav">
+    <div class="top-nav-content">
+        <a href="/" class="logo"><img src="/images/home/zywave-logo.svg" /></a>
+        <nav>
+            <ul>
+                <li><a href="{{ '/coming-soon/' | url }}">Getting started</a></li>
+                <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
+                <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
+                <li><a target="_blank" href="https://thenewz.zywave.com/wp-content/uploads/2020/08/Zywave-Brand-Guide.pdf">Branding</a></li>
+            </ul>
+        </nav>
+        <div class="search-login-container">
+            <div id="search-top-nav"></div>
+            <div class="login"><a href="/admin">Log in</a></div>
+        </div>
+    </div>
+</header>
+
 
 <script type="module">
     const element = document.getElementById("search-top-nav");
