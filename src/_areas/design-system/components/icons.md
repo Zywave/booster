@@ -19,10 +19,9 @@ Our Navigation icons fit into two groups: canonized and generic. Most of our ico
 
 Canonized icons should never be reused to represent more than one feature or tool.
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
-<Grid>
-<GridCol col="span-2">
+<docs-grid columns="4">
 
 <center><zui-icon unresolved icon="zui-nav-accounts"></zui-icon>
 <br/>
@@ -35,10 +34,6 @@ zui-nav-accounts
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-administrators"></zui-icon>
 <br/>
 <br/>
@@ -49,10 +44,6 @@ zui-nav-accounts
 zui-nav-administrators
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-company"></zui-icon>
 <br/>
@@ -65,10 +56,6 @@ zui-nav-company
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-carrier"></zui-icon>
 <br/>
 <br/>
@@ -79,10 +66,6 @@ zui-nav-company
 zui-nav-carrier
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-client-portal"></zui-icon>
 <br/>
@@ -95,10 +78,6 @@ zui-nav-client-portal
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-communications"></zui-icon>
 <br/>
 <br/>
@@ -109,10 +88,6 @@ zui-nav-client-portal
 zui-nav-communications
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-compliance-apps"></zui-icon>
 <br/>
@@ -125,10 +100,6 @@ zui-nav-compliance-apps
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-community"></zui-icon>
 <br/>
 <br/>
@@ -139,10 +110,6 @@ zui-nav-compliance-apps
 zui-nav-community
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-components"></zui-icon>
 <br/>
@@ -155,10 +122,6 @@ zui-nav-components
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-concepts"></zui-icon>
 <br/>
 <br/>
@@ -169,10 +132,6 @@ zui-nav-components
 zui-nav-concepts
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-content"></zui-icon>
 <br/>
@@ -185,10 +144,6 @@ zui-nav-content
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-course-catalog"></zui-icon>
 <br/>
 <br/>
@@ -199,10 +154,6 @@ zui-nav-content
 zui-nav-course-catalog
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-course-packages"></zui-icon>
 <br/>
@@ -215,10 +166,6 @@ zui-nav-course-packages
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-credentials"></zui-icon>
 <br/>
 <br/>
@@ -229,10 +176,6 @@ zui-nav-course-packages
 zui-nav-credentials
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-developers"></zui-icon>
 <br/>
@@ -245,10 +188,6 @@ zui-nav-developers
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-disease-profiles"></zui-icon>
 <br/>
 <br/>
@@ -259,10 +198,6 @@ zui-nav-developers
 zui-nav-disease-profiles
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-domains"></zui-icon>
 <br/>
@@ -275,10 +210,6 @@ zui-nav-domains
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-email-marketing"></zui-icon>
 <br/>
 <br/>
@@ -289,10 +220,6 @@ zui-nav-domains
 zui-nav-email-marketing
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-files"></zui-icon>
 <br/>
@@ -305,10 +232,6 @@ zui-nav-files
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-foundations"></zui-icon>
 <br/>
 <br/>
@@ -319,10 +242,6 @@ zui-nav-files
 zui-nav-foundations
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-from-your-broker"></zui-icon>
 <br/>
@@ -335,10 +254,6 @@ zui-nav-from-your-broker
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-get-started"></zui-icon>
 <br/>
 <br/>
@@ -349,10 +264,6 @@ zui-nav-from-your-broker
 zui-nav-get-started
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-group-management"></zui-icon>
 <br/>
@@ -365,10 +276,6 @@ zui-nav-group-management
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-handbook"></zui-icon>
 <br/>
 <br/>
@@ -379,10 +286,6 @@ zui-nav-group-management
 zui-nav-handbook
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-help"></zui-icon>
 <br/>
@@ -395,10 +298,6 @@ zui-nav-help
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-home"></zui-icon>
 <br/>
 <br/>
@@ -409,10 +308,6 @@ zui-nav-help
 zui-nav-home
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-hr-apps"></zui-icon>
 <br/>
@@ -425,10 +320,6 @@ zui-nav-hr-apps
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-hr-hotline"></zui-icon>
 <br/>
 <br/>
@@ -439,10 +330,6 @@ zui-nav-hr-apps
 zui-nav-hr-hotline
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-import-request-queue"></zui-icon>
 <br/>
@@ -455,10 +342,6 @@ zui-nav-import-request-queue
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-integrations"></zui-icon>
 <br/>
 <br/>
@@ -469,10 +352,6 @@ zui-nav-import-request-queue
 zui-nav-integrations
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-lists"></zui-icon>
 <br/>
@@ -485,10 +364,6 @@ zui-nav-lists
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-lms"></zui-icon>
 <br/>
 <br/>
@@ -499,10 +374,6 @@ zui-nav-lists
 zui-nav-lms
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-manage-user"></zui-icon>
 <br/>
@@ -515,10 +386,6 @@ zui-nav-manage-user
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-mods"></zui-icon>
 <br/>
 <br/>
@@ -529,10 +396,6 @@ zui-nav-manage-user
 zui-nav-mods
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-notices"></zui-icon>
 <br/>
@@ -545,10 +408,6 @@ zui-nav-notices
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-notifications"></zui-icon>
 <br/>
 <br/>
@@ -559,10 +418,6 @@ zui-nav-notices
 zui-nav-notifications
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-organization"></zui-icon>
 <br/>
@@ -575,10 +430,6 @@ zui-nav-organization
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-osha-log"></zui-icon>
 <br/>
 <br/>
@@ -589,10 +440,6 @@ zui-nav-organization
 zui-nav-osha-log
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-packages"></zui-icon>
 <br/>
@@ -605,10 +452,6 @@ zui-nav-packages
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-patterns"></zui-icon>
 <br/>
 <br/>
@@ -619,10 +462,6 @@ zui-nav-packages
 zui-nav-patterns
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-plan-selector"></zui-icon>
 <br/>
@@ -635,10 +474,6 @@ zui-nav-plan-selector
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-portal-admin"></zui-icon>
 <br/>
 <br/>
@@ -649,10 +484,6 @@ zui-nav-plan-selector
 zui-nav-portal-admin
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-proposals"></zui-icon>
 <br/>
@@ -665,10 +496,6 @@ zui-nav-proposals
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-proposals-uk"></zui-icon>
 <br/>
 <br/>
@@ -679,10 +506,6 @@ zui-nav-proposals
 zui-nav-proposals-uk
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-prospecting"></zui-icon>
 <br/>
@@ -695,10 +518,6 @@ zui-nav-prospecting
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-registered-apps"></zui-icon>
 <br/>
 <br/>
@@ -709,10 +528,6 @@ zui-nav-prospecting
 zui-nav-registered-apps
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-settings"></zui-icon>
 <br/>
@@ -725,10 +540,6 @@ zui-nav-settings
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-single-sign-on"></zui-icon>
 <br/>
 <br/>
@@ -739,10 +550,6 @@ zui-nav-settings
 zui-nav-single-sign-on
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-solutions"></zui-icon>
 <br/>
@@ -755,10 +562,6 @@ zui-nav-solutions
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-specifications"></zui-icon>
 <br/>
 <br/>
@@ -769,10 +572,6 @@ zui-nav-solutions
 zui-nav-specifications
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-toolbox"></zui-icon>
 <br/>
@@ -785,10 +584,6 @@ zui-nav-toolbox
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-users"></zui-icon>
 <br/>
 <br/>
@@ -799,10 +594,6 @@ zui-nav-toolbox
 zui-nav-users
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-zywave-sidebar"></zui-icon>
 <br/>
@@ -815,21 +606,17 @@ zui-nav-zywave-sidebar
 
 </center>
 
-</GridCol>
+</docs-grid>
 
-</Grid>
-
-<Spacer />
+<docs-spacer></docs-spacer>
 
 ### Generic icons
 
 Generic icons have a more general meaning and can be used to represent more than one feature or tool.
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
-<Grid>
-<GridCol col="span-2">
-
+<docs-grid columns="4">
 <center><zui-icon unresolved icon="zui-nav-generic-admin"></zui-icon>
 <br/>
 <br/>
@@ -841,10 +628,6 @@ zui-nav-generic-admin
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-nav-generic-branding"></zui-icon>
 <br/>
 <br/>
@@ -855,9 +638,6 @@ zui-nav-generic-admin
 zui-nav-generic-branding
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-generic-placeholder"></zui-icon>
 <br/>
@@ -869,9 +649,6 @@ zui-nav-generic-branding
 zui-nav-generic-placeholder
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-generic-reports"></zui-icon>
 <br/>
@@ -883,9 +660,6 @@ zui-nav-generic-placeholder
 zui-nav-generic-reports
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-nav-generic-resources"></zui-icon>
 <br/>
@@ -897,21 +671,19 @@ zui-nav-generic-reports
 zui-nav-generic-resources
 
 </center>
-</GridCol>
-</Grid>
+</docs-grid>
 
 <small>\* The generic placeholder icon should never make it to production in any of our products. It should only be used as a temporary icon while another is being created to represent the new parent-level menu item.</small>
 
-<Spacer/>
+<docs-spacer></docs-spacer>
 
 ### Shell icons
 
 These icons are used specifically in Shell's 2 core sections: topbar and sidenav. Shell icons help identify major navigational features and different user states in applications.
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
-<Grid>
-<GridCol col="span-2">
+<docs-grid columns="4">
 
 <center><zui-icon unresolved icon="zui-shell-apps"></zui-icon>
 <br/>
@@ -923,9 +695,6 @@ These icons are used specifically in Shell's 2 core sections: topbar and sidenav
 zui-shell-apps
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-shell-impersonation"></zui-icon>
 <br/>
@@ -937,9 +706,6 @@ zui-shell-apps
 zui-shell-impersonation
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-shell-menu"></zui-icon>
 <br/>
@@ -951,8 +717,8 @@ zui-shell-impersonation
 zui-shell-menu
 
 </center>
-</GridCol>
-</Grid>
+
+</docs-grid>
 
 ---
 
@@ -962,10 +728,9 @@ Our system icons are a set of line icons that can be used throughout the UI to d
 
 ### Standard system icons
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
-<Grid>
-<GridCol col="span-2">
+<docs-grid columns="4">
 
 <center><zui-icon unresolved icon="zui-add"></zui-icon>
 <br/>
@@ -978,10 +743,6 @@ zui-add
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-action-items-add"></zui-icon>
 <br/>
 <br/>
@@ -992,10 +753,6 @@ zui-add
 zui-action-items-add
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-building"></zui-icon>
 <br/>
@@ -1008,10 +765,6 @@ zui-building
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-calendar"></zui-icon>
 <br/>
 <br/>
@@ -1022,10 +775,6 @@ zui-building
 zui-calendar
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-caret-down"></zui-icon>
 <br/>
@@ -1038,10 +787,6 @@ zui-caret-down
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-caret-left"></zui-icon>
 <br/>
 <br/>
@@ -1052,10 +797,6 @@ zui-caret-down
 zui-caret-left
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-caret-right"></zui-icon>
 <br/>
@@ -1068,10 +809,6 @@ zui-caret-right
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-caret-up"></zui-icon>
 <br/>
 <br/>
@@ -1082,10 +819,6 @@ zui-caret-right
 zui-caret-up
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-check"></zui-icon>
 <br/>
@@ -1098,10 +831,6 @@ zui-check
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-chevron-down"></zui-icon>
 <br/>
 <br/>
@@ -1112,10 +841,6 @@ zui-check
 zui-chevron-down
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-chevron-left"></zui-icon>
 <br/>
@@ -1128,10 +853,6 @@ zui-chevron-left
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-chevron-right"></zui-icon>
 <br/>
 <br/>
@@ -1142,10 +863,6 @@ zui-chevron-left
 zui-chevron-right
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-chevron-up"></zui-icon>
 <br/>
@@ -1158,10 +875,6 @@ zui-chevron-up
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-copy"></zui-icon>
 <br/>
 <br/>
@@ -1172,10 +885,6 @@ zui-chevron-up
 zui-copy
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-delete"></zui-icon>
 <br/>
@@ -1188,10 +897,6 @@ zui-delete
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-details"></zui-icon>
 <br/>
 <br/>
@@ -1202,10 +907,6 @@ zui-delete
 zui-details
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-doc"></zui-icon>
 <br/>
@@ -1218,10 +919,6 @@ zui-doc
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-double-chevron-left"></zui-icon>
 <br/>
 <br/>
@@ -1232,10 +929,6 @@ zui-doc
 zui-double-chevron-left
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-double-chevron-right"></zui-icon>
 <br/>
@@ -1248,10 +941,6 @@ zui-double-chevron-right
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-down"></zui-icon>
 <br/>
 <br/>
@@ -1262,10 +951,6 @@ zui-double-chevron-right
 zui-down
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-download"></zui-icon>
 <br/>
@@ -1278,10 +963,6 @@ zui-download
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-edit"></zui-icon>
 <br/>
 <br/>
@@ -1292,10 +973,6 @@ zui-download
 zui-edit
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-excel"></zui-icon>
 <br/>
@@ -1308,10 +985,6 @@ zui-excel
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-external"></zui-icon>
 <br/>
 <br/>
@@ -1322,10 +995,6 @@ zui-excel
 zui-external
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-file-drop"></zui-icon>
 <br/>
@@ -1338,10 +1007,6 @@ zui-file-drop
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-filter"></zui-icon>
 <br/>
 <br/>
@@ -1352,10 +1017,6 @@ zui-file-drop
 zui-filter
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-folder"></zui-icon>
 <br/>
@@ -1368,10 +1029,6 @@ zui-folder
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-grid"></zui-icon>
 <br/>
 <br/>
@@ -1382,10 +1039,6 @@ zui-folder
 zui-grid
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center> <zui-icon unresolved icon="zui-grip"></zui-icon>
 <br/>
@@ -1398,10 +1051,6 @@ zui-grip
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center> <zui-icon unresolved icon="zui-group-add"></zui-icon>
 <br/>
 <br/>
@@ -1412,10 +1061,6 @@ zui-grip
 zui-group-add
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-help"></zui-icon>
 <br/>
@@ -1428,10 +1073,6 @@ zui-help
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-impersonation"></zui-icon>
 <br/>
 <br/>
@@ -1442,10 +1083,6 @@ zui-help
 zui-impersonation
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-left"></zui-icon>
 <br/>
@@ -1458,10 +1095,6 @@ zui-left
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-link"></zui-icon>
 <br/>
 <br/>
@@ -1472,10 +1105,6 @@ zui-left
 zui-link
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-list"></zui-icon>
 <br/>
@@ -1488,10 +1117,6 @@ zui-list
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-lock"></zui-icon>
 <br/>
 <br/>
@@ -1502,10 +1127,6 @@ zui-list
 zui-lock
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-mail"></zui-icon>
 <br/>
@@ -1518,10 +1139,6 @@ zui-mail
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-more"></zui-icon>
 <br/>
 <br/>
@@ -1532,10 +1149,6 @@ zui-mail
 zui-more
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-move-to"></zui-icon>
 <br/>
@@ -1548,10 +1161,6 @@ zui-move-to
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-mp3"></zui-icon>
 <br/>
 <br/>
@@ -1562,10 +1171,6 @@ zui-move-to
 zui-mp3
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-mp4"></zui-icon>
 <br/>
@@ -1578,10 +1183,6 @@ zui-mp4
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-multiple-files"></zui-icon>
 <br/>
 <br/>
@@ -1592,10 +1193,6 @@ zui-mp4
 zui-multiple-files
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-new-file"></zui-icon>
 <br/>
@@ -1608,10 +1205,6 @@ zui-new-file
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-new-folder"></zui-icon>
 <br/>
 <br/>
@@ -1622,10 +1215,6 @@ zui-new-file
 zui-new-folder
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-pdf"></zui-icon>
 <br/>
@@ -1638,10 +1227,6 @@ zui-pdf
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-phone"></zui-icon>
 <br/>
 <br/>
@@ -1652,10 +1237,6 @@ zui-pdf
 zui-phone
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-ppt"></zui-icon>
 <br/>
@@ -1668,10 +1249,6 @@ zui-ppt
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-print"></zui-icon>
 <br/>
 <br/>
@@ -1682,10 +1259,6 @@ zui-ppt
 zui-print
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-refresh"></zui-icon>
 <br/>
@@ -1698,10 +1271,6 @@ zui-refresh
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-remove"></zui-icon>
 <br/>
 <br/>
@@ -1712,10 +1281,6 @@ zui-refresh
 zui-remove
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-rename"></zui-icon>
 <br/>
@@ -1728,10 +1293,6 @@ zui-rename
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-reporting"></zui-icon>
 <br/>
 <br/>
@@ -1742,10 +1303,6 @@ zui-rename
 zui-reporting
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-right"></zui-icon>
 <br/>
@@ -1758,10 +1315,6 @@ zui-right
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-rocket"></zui-icon>
 <br/>
 <br/>
@@ -1772,10 +1325,6 @@ zui-right
 zui-rocket
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-search"></zui-icon>
 <br/>
@@ -1788,10 +1337,6 @@ zui-search
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-share"></zui-icon>
 <br/>
 <br/>
@@ -1802,10 +1347,6 @@ zui-search
 zui-share
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-shared-with"></zui-icon>
 <br/>
@@ -1818,10 +1359,6 @@ zui-shared-with
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-sort"></zui-icon>
 <br/>
 <br/>
@@ -1832,10 +1369,6 @@ zui-shared-with
 zui-sort
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-switch-profile"></zui-icon>
 <br/>
@@ -1848,10 +1381,6 @@ zui-switch-profile
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-table"></zui-icon>
 <br/>
 <br/>
@@ -1862,10 +1391,6 @@ zui-switch-profile
 zui-table
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-unlock"></zui-icon>
 <br/>
@@ -1878,10 +1403,6 @@ zui-unlock
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-up"></zui-icon>
 <br/>
 <br/>
@@ -1892,10 +1413,6 @@ zui-unlock
 zui-up
 
 </center>
-
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-upload"></zui-icon>
 <br/>
@@ -1908,10 +1425,6 @@ zui-upload
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-user"></zui-icon>
 <br/>
 <br/>
@@ -1923,10 +1436,6 @@ zui-user
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-video"></zui-icon>
 <br/>
 <br/>
@@ -1937,9 +1446,6 @@ zui-user
 zui-video
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-word"></zui-icon>
 <br/>
@@ -1952,10 +1458,6 @@ zui-word
 
 </center>
 
-</GridCol>
-
-<GridCol col="span-2">
-
 <center><zui-icon unresolved icon="zui-wrench"></zui-icon>
 <br/>
 <br/>
@@ -1967,18 +1469,15 @@ zui-wrench
 
 </center>
 
-</GridCol>
+</docs-grid>
 
-</Grid>
-
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
 ### Status/type indicator icons
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
-<Grid>
-<GridCol col="span-2">
+<docs-grid columns="4">
 
 <center><zui-icon unresolved icon="zui-indicator-add"></zui-icon>
 </br>
@@ -1991,9 +1490,6 @@ zui-wrench
 zui-indicator-add
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-indicator-backslash"></zui-icon>
 </br>
@@ -2006,9 +1502,6 @@ zui-indicator-add
 zui-indicator-backslash
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-indicator-failure"></zui-icon>
 </br>
@@ -2021,9 +1514,6 @@ zui-indicator-backslash
 zui-indicator-failure
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-indicator-remove"></zui-icon>
 </br>
@@ -2036,9 +1526,6 @@ zui-indicator-failure
 zui-indicator-remove
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-indicator-success"></zui-icon>
 </br>
@@ -2051,9 +1538,6 @@ zui-indicator-remove
 zui-indicator-success
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-indicator-warning"></zui-icon>
 </br>
@@ -2066,9 +1550,6 @@ zui-indicator-success
 zui-indicator-warning
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-error"></zui-icon>
 </br>
@@ -2081,9 +1562,6 @@ zui-indicator-warning
 zui-error
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-info"></zui-icon>
 </br>
@@ -2096,9 +1574,6 @@ zui-error
 zui-info
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-success"></zui-icon>
 </br>
@@ -2111,9 +1586,6 @@ zui-info
 zui-success
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-warning"></zui-icon>
 </br>
@@ -2126,20 +1598,18 @@ zui-success
 zui-warning
 
 </center>
-</GridCol>
 
-</Grid>
+</docs-grid>
 
-<Spacer/>
+<docs-spacer></docs-spacer>
 
 ### File system icons
 
 All file system icons have a default color to help users make connections with other, non-Zywave systems. Grayscale is available for edge case scenarios, and should be used rarely.
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
-<Grid>
-<GridCol col="span-2">
+<docs-grid columns="4">
 
 <center><zui-icon unresolved icon="zui-fs-audio"></zui-icon>
 </br>
@@ -2152,9 +1622,6 @@ All file system icons have a default color to help users make connections with o
 zui-fs-audio
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-code"></zui-icon>
 </br>
@@ -2167,9 +1634,6 @@ zui-fs-audio
 zui-fs-code
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-doc"></zui-icon>
 </br>
@@ -2182,9 +1646,6 @@ zui-fs-code
 zui-fs-doc
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-folder"></zui-icon>
 </br>
@@ -2197,9 +1658,6 @@ zui-fs-doc
 zui-fs-folder
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-image"></zui-icon>
 </br>
@@ -2212,9 +1670,6 @@ zui-fs-folder
 zui-fs-image
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-multiple-files"></zui-icon>
 </br>
@@ -2227,9 +1682,6 @@ zui-fs-image
 zui-fs-multiple-files
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-video"></zui-icon>
 </br>
@@ -2242,9 +1694,6 @@ zui-fs-multiple-files
 zui-fs-video
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-7z"></zui-icon>
 </br>
@@ -2257,9 +1706,6 @@ zui-fs-video
 zui-fs-7z
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-zip"></zui-icon>
 </br>
@@ -2272,9 +1718,6 @@ zui-fs-7z
 zui-fs-zip
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-mp3"></zui-icon>
 </br>
@@ -2287,9 +1730,6 @@ zui-fs-zip
 zui-fs-mp3
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-wav"></zui-icon>
 </br>
@@ -2302,9 +1742,6 @@ zui-fs-mp3
 zui-fs-wav
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-ai"></zui-icon>
 </br>
@@ -2317,9 +1754,6 @@ zui-fs-wav
 zui-fs-ai
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-eps"></zui-icon>
 </br>
@@ -2332,9 +1766,6 @@ zui-fs-ai
 zui-fs-eps
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-gif"></zui-icon>
 </br>
@@ -2347,9 +1778,6 @@ zui-fs-eps
 zui-fs-gif
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-jpg"></zui-icon>
 </br>
@@ -2362,9 +1790,6 @@ zui-fs-gif
 zui-fs-jpg
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-png"></zui-icon>
 </br>
@@ -2377,9 +1802,6 @@ zui-fs-jpg
 zui-fs-png
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-ps"></zui-icon>
 </br>
@@ -2392,9 +1814,6 @@ zui-fs-png
 zui-fs-ps
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-psd"></zui-icon>
 </br>
@@ -2407,9 +1826,6 @@ zui-fs-ps
 zui-fs-psd
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-tif"></zui-icon>
 </br>
@@ -2422,9 +1838,6 @@ zui-fs-psd
 zui-fs-tif
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-pdf"></zui-icon>
 </br>
@@ -2437,9 +1850,6 @@ zui-fs-tif
 zui-fs-pdf
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-ppt"></zui-icon>
 </br>
@@ -2452,9 +1862,6 @@ zui-fs-pdf
 zui-fs-ppt
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-word"></zui-icon>
 </br>
@@ -2467,9 +1874,6 @@ zui-fs-ppt
 zui-fs-word
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-excel"></zui-icon>
 </br>
@@ -2482,9 +1886,6 @@ zui-fs-word
 zui-fs-excel
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-css"></zui-icon>
 </br>
@@ -2497,9 +1898,6 @@ zui-fs-excel
 zui-fs-css
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-html"></zui-icon>
 </br>
@@ -2512,9 +1910,6 @@ zui-fs-css
 zui-fs-html
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-java"></zui-icon>
 </br>
@@ -2527,9 +1922,6 @@ zui-fs-html
 zui-fs-java
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-xml"></zui-icon>
 </br>
@@ -2542,9 +1934,6 @@ zui-fs-java
 zui-fs-xml
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-doc"></zui-icon>
 </br>
@@ -2557,9 +1946,6 @@ zui-fs-xml
 zui-fs-doc
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-txt"></zui-icon>
 </br>
@@ -2572,9 +1958,6 @@ zui-fs-doc
 zui-fs-txt
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-mov"></zui-icon>
 </br>
@@ -2587,9 +1970,6 @@ zui-fs-txt
 zui-fs-mov
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-mpg"></zui-icon>
 </br>
@@ -2602,9 +1982,6 @@ zui-fs-mov
 zui-fs-mpg
 
 </center>
-</GridCol>
-
-<GridCol col="span-2">
 
 <center><zui-icon unresolved icon="zui-fs-mp4"></zui-icon>
 </br>
@@ -2617,5 +1994,5 @@ zui-fs-mpg
 zui-fs-mp4
 
 </center>
-</GridCol>
-</Grid>
+
+</docs-grid>
