@@ -17,17 +17,8 @@
     CMS.registerPreviewStyle("https://cdn.zywave.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.min.css");
     CMS.registerPreviewStyle("/css/styles.css");
 
-    function loadWcScripts() {
-      return Promise.allSettled([
-        import("/js/web-components/docs-do.js"),
-        import("/js/web-components/docs-do-not.js"),
-        import("/js/web-components/docs-spacer.js"),
-        import("/js/web-components/docs-grid.js")]);
-    }
-
     let ComponentsPreview = createClass({
       render: function () {
-        loadWcScripts();
         return h('main', {},
           h('div', { "className": "content-wrapper" },
             h('h1', { "className": "component-header" }, this.props.widgetFor('title')),
@@ -47,7 +38,6 @@
 
     let DocumentationPreview = createClass({
       render: function () {
-        loadWcScripts();
         return h('main', {},
           h('div', { "className": "content-wrapper" },
             h('h1', { "className": "component-header" }, this.props.widgetFor('title')),
