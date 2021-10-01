@@ -16,6 +16,8 @@ const css = `
   }
 `;
 
+const template = document.createElement('template');
+
 customElements.define('docs-do-not', class extends HTMLElement {
   heading: DocsDoNotHeading = 'Do not';
 
@@ -23,7 +25,6 @@ customElements.define('docs-do-not', class extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
 
-    const template = document.createElement('template');
     const templateStr = `
       <style>${css}</style>
       <div class="do-not">

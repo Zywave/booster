@@ -1,11 +1,12 @@
 const css = `
 :host {
   display: grid;
-  grid-template-columns: repeat(var(--docs-grid-columns, 1), 1fr);
+  grid-template-columns: repeat(var(--docs-grid-columns), 1fr);
   grid-gap: 1.25; /* 20 / 16 */
   width: 100%;
   margin: 0 auto;
   transition: grid-gap 100ms ease-in-out, grid-template-columns 100ms ease-in-out;
+  --docs-grid-columns: 1;
 }
 
 @media (min-width: 60em) { /* 960 / 16 */
@@ -15,6 +16,8 @@ const css = `
   }
 }
 `;
+
+const template = document.createElement('template');
 
 customElements.define('docs-grid', class extends HTMLElement {
 
@@ -40,7 +43,6 @@ customElements.define('docs-grid', class extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
 
-    const template = document.createElement('template');
     const templateStr = `
       <style>${css}</style>
       <slot></slot>

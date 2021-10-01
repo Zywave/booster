@@ -31,6 +31,8 @@ const css = `
   }
 `;
 
+const template = document.createElement("template");
+
 customElements.define('docs-spacer',  class extends HTMLElement {
   static get observedAttributes() {
     return ['size'];
@@ -58,7 +60,6 @@ customElements.define('docs-spacer',  class extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
 
-    const template = document.createElement("template");
     const templateStr = `
       <style>${css}</style>
       <div class="spacer ${this.size ? this.size : ''}"></div>

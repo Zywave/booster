@@ -93,7 +93,7 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 ## Checkbox best practices
 
-<docs-grid>
+<docs-grid columns="2">
 
 <div>
 
