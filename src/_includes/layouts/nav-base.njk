@@ -1,0 +1,11 @@
+---
+layout: base
+---
+
+{% include "components/side-nav.njk" %}
+<main class="content-with-side-nav">
+    {% include "components/top-nav-lite.njk" %}
+    <div class="content-wrapper">
+        {{ content | safe }}
+    </div>
+</main>

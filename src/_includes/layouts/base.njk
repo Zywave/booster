@@ -44,24 +44,8 @@
 </head>
 
 <body class="zui row {{ pageType }}">
-
 	<script async src="https://cdn.zywave.com/es-module-shims@1.0.0/dist/es-module-shims.js"></script>
-
-	{% if navHidden !== true %}
-		{% include "components/side-nav.njk" %}
-	{% endif %}
-	
-	{% if navHidden !== true %}
-	<main class="content-with-side-nav">
-		{% include "components/top-nav.njk" %}
-		<div class="content-wrapper">
-			{{ content | safe }}
-		</div>
-	{% else %}
-	<main>
-		{{ content | safe }}
-	{% endif %}
-	</main>
+	{{ content | safe }}
 	{% include "components/feedback.njk" %}
 	<script>
 	if (window.netlifyIdentity) {

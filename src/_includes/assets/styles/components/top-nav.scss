@@ -1,10 +1,91 @@
 .top-nav {
-    display: flex;
-    position: sticky;
-    top: 0;
-    align-items: center;
-    justify-content: flex-end;
-    padding: rem(20);
+    background-color: var(--docs-primary-color);
+    border-bottom: 1px solid var(--docs-secondary-color);
+
+    &-content {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      max-width: rem(1600);
+      margin: 0 auto;
+      padding: 0 rem(20);
+      gap: rem(20);
+
+      a {
+        color: #fefefe;
+        text-decoration: none;
+
+        &:focus {
+          outline-color: #fefefe;
+        }
+      }
+
+      .logo {
+        grid-column: 1;
+        display: flex;
+        width: auto;
+        height: rem(36);
+        margin: rem(10) 0 rem(5);
+
+        @media screen and (min-width: 64em) {
+          height: auto;
+          margin: rem(20) 0 rem(10);
+        }
+      }
+
+      nav {
+        grid-column: 2 / 12;
+        display: flex;
+        align-items: center;
+
+        ul {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            font-size: rem(14);
+            font-weight: 600;
+            padding: 0 rem(10);
+
+            @media screen and (min-width: 45em) {
+              padding: 0 rem(20);
+            }
+
+            @media screen and (min-width: 60em) {
+              font-size: rem(16);
+            }
+
+            @media screen and (min-width: 64em) {
+              font-size: rem(18);
+              padding: 0 rem(30);
+            }
+
+            @media screen and (min-width: 80em) {
+              padding: 0 rem(40);
+            }
+          }
+        }
+      }
+
+      .search-login-container {
+          display: flex;
+          align-items: center;
+      }
+
+      .login {
+        grid-column: 12;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: rem(12);
+        margin-left: auto;
+
+        @media screen and (min-width: 64em) {
+          font-size: rem(16);
+        }
+      }
+    }
 
     // algolia search overrides
     #search-top-nav {
@@ -16,7 +97,7 @@
                 height: rem(40);
                 background: rgba(72, 117, 107, .1);
                 border-radius: rem(20);
-                
+
                 button[type="submit"] {
                     display: flex;
                     align-items: center;
@@ -27,7 +108,7 @@
                     cursor: pointer;
                     border-radius: 50%;
                 }
-                
+
                 input {
                     display: none;
                 }
@@ -51,20 +132,4 @@
             }
         }
     }
-
-    .log-in {
-        padding: rem(10);
-        margin-left: rem(20);
-        color: #324958;
-        text-decoration: none;
-        transition: opacity 0.3s ease;
-
-        &:hover {
-            opacity: 0.9;
-        }
-    }
-
-    & + hr {
-        margin: 0;
-    }
-}
+  }
