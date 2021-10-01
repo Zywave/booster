@@ -1,10 +1,6 @@
 .home {
   --zui-background: var(--zui-gray-50);
 
-  * {
-    transition: all 100ms ease-in-out;
-  }
-
   &-nav {
     background-color: var(--docs-primary-color);
     border-bottom: 1px solid var(--docs-secondary-color);
