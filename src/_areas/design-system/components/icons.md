@@ -1,12 +1,11 @@
 ---
+title: Icons
+subtitle: Visual representation of features and actions users can take.
 api: https://cdn.zywave.com/@zywave/zui-icons@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-icons@next/demo/index.html
 mainComponentName: zui-icon
 includedElements: []
-title: Icons
-subtitle: Visual representation of features and actions users can take.
 ---
-
 ## Navigation Icons
 
 Navigation icons provide our users with an easily recognizable visual for parent-level items within the Sidenav or Topbar. Combined with their text labels, they will speed up recognition and processing of the link text. Navigation icons are especially important when the user has collapsed the Sidenav as they are the only item immediately visible to the user.
@@ -19,10 +18,9 @@ Our Navigation icons fit into two groups: canonized and generic. Most of our ico
 
 Canonized icons should never be reused to represent more than one feature or tool.
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
-<Grid>
-<GridCol col="span-2">
+<docs-grid col="3">
 
 <center><zui-icon unresolved icon="zui-nav-accounts"></zui-icon>
 <br/>
@@ -35,7 +33,7 @@ zui-nav-accounts
 
 </center>
 
-</GridCol>
+</docs-grid>
 
 <GridCol col="span-2">
 
@@ -863,7 +861,7 @@ zui-nav-generic-branding
 <br/>
 <br/>
 
-**Generic placeholder\***
+**Generic placeholder***
 </br>
 
 zui-nav-generic-placeholder
@@ -900,7 +898,7 @@ zui-nav-generic-resources
 </GridCol>
 </Grid>
 
-<small>\* The generic placeholder icon should never make it to production in any of our products. It should only be used as a temporary icon while another is being created to represent the new parent-level menu item.</small>
+<small>* The generic placeholder icon should never make it to production in any of our products. It should only be used as a temporary icon while another is being created to represent the new parent-level menu item.</small>
 
 <Spacer/>
 
@@ -954,7 +952,7 @@ zui-shell-menu
 </GridCol>
 </Grid>
 
----
+- - -
 
 ## System Icons
 
