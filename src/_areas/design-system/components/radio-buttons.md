@@ -1,116 +1,146 @@
 ---
+title: Radio buttons
+subtitle: ""
 api: https://cdn.zywave.com/@zywave/zui-radio@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-radio@next/demo/index.html
 mainComponentName: zui-radio
 includedElements: []
-title: Radio buttons
-subtitle: A selection control that allows the user to make a single selection.
 ---
-
 ## What are radio buttons?
 
-A radio button is a selection control that allows the user to make a single selection. Unlike some other selection controls, radio buttons display all of the options, so the user has a chance to see all options before making a selection. They most commonly appear in forms.
+Most commonly appearing in forms, Radio Buttons are selection controls that allow the user to make a single selection in a radio group. Unlike other selection controls, Radio Buttons display all options, so the user has a chance to decide before making a selection.
+
+
 
 <hr>
 
-## When to use radio buttons
+
+
+## Usage
+
+Radio Buttons should be used when the user must select a single option from a radio group of 10 or fewer related options. Once an option is selected, the previously selected option will be deselected.
+
+<br>
+
+### When to use radio buttons
 
 Use a radio button when the user must select a single option from a list of mutually exclusive options less than 10. Meaning that a user can choose only one option, and once an option is selected, the previous option deselects.
 
-### Alternate considerations
 
-- Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
-- Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
-- Use a [checkbox](/design-system/components/checkboxes/) if zero or more options can be selected or for lists smaller than 10 items.
-- Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
 
 <hr>
 
-## Style variations
 
-### Standard radio button
-
-![Image of a standard radio button](/images/components/radio-buttons/Assets_02-20/standardradio_small_outline.svg)
-
-Standard radio buttons are the most common. They allow the user to make a selection and quickly move on to the next task.
-
-- Use when the number of options is easy for the user to process, generally fewer than 10.
-- Unless you want to emphasize the selection, this is usually the radio button you should use.
-
-<Spacer size="small" />
-
-### Inline radio button
-
-![Image of an inline radio button](/images/components/radio-buttons/Assets_02-20/inlineradio_small_outline.svg)
-
-Inline radio buttons are more prominently styled than standard radio buttons. They often feature an icon, and they're designed to emphasize the selection being made.
-
-- Reserve for especially important selections.
-- Limit the number of options to what can fit on a single line.
-- Use an icon, if appropriate, to further emphasize the importance of the selection.
-- Don't use multiple groups of inline radio buttons on the same page.
-
-<Spacer size="small" />
-
-### Gallery radio button
-
-![Image of a gallery radio button](/images/components/radio-buttons/Assets_02-20/galleryradio_small_outline.svg)
-
-Gallery radio buttons are more prominent than both standard and inline radio buttons. They often feature an icon and take up a great deal of space on the page.
-
-- Because they're so large, they should generally be reserved for when there is only one selection the user can make on that page.
-- Icons both emphasize the selections and reinforce the contrast between the options.
-
-<hr>
 
 ## Anatomy
 
-![Image of all radio buttons](/images/components/radio-buttons/Assets_02-20/radiobutton_anatomy.svg)
+For a more detailed breakdown of spacing and sizing, *[view the design specs.](https://xd.adobe.com/view/8eb4bcb4-1a69-4f34-ad25-b9171d366435-dbe7/grid)*
 
-For detailed documentation on our radio button anatomy, view the [ZUI radio button design specs](https://xd.adobe.com/view/e2ecbbb0-c8a2-4009-6f25-de65bcda7cf1-94dd/grid).
+![Standard radio button](/images/standardradio.png)
 
-### Standard radio buttons
+### **Standard Radio Button**
 
-- Radio button height and width will always be 24px
-- Clickable area of the radio button will always be 36px, and include the label if applicable
-- System font, size 14px, regular
+1. Option: the combination of a radio button and a label
+2. Radio button: an input type where only one can be selected at a time in a given radio group
+3. Label: a text description of the option
 
-### Inline radio buttons
+<br>
 
-- Radio button height will always be 42px, button width is determined by the length of the text
-- 0px margin between radio buttons, the buttons should be connected and added to the right of the first
-- System font, size 14px, semibold
+![Inline radio button](/images/inlineradio.png)
 
-### Gallery radio buttons
+### **Inline Radio Button**
 
-- Radio button height and width is determined by height and width of text
-- System font, size 14px, semibold
+1. Option: the combination of a radio button and a label
+2. Icon (optional): emphasizes the option and reinforces the contrast between different options
+3. Label: a text description of the option
 
-<hr>
+<br>
 
-## Radio button states
+![Gallery radio button](/images/anatomy-gallery.png)
 
-![Image of standard radio button states](/images/components/radio-buttons/Assets_02-20/radiobutton_states_standard.svg)
+### **Gallery Radio Button**
 
-### Normal
+1. Radio button:  an input type where only one can be selected at a time in a given radio group
+2. Label: a text description of the option
+3. Icon (optional): emphasizes the option and reinforces the contrast between different options
 
-Normal state is the initial state of the radio button when the page first loads and before any action is taken.
+<br>
 
-### Hover
 
-Hover state occurs when the user hovers over the radio button with their mouse.
-
-### Focus
-
-Focus state appears when the radio button is currently selected and awaiting action. This commonly occurs when using a keyboard to navigate.
-
-### Disabled
-
-Disabled state occurs when an action currently isn't available. Disabled radio buttons should only be used when an action can be taken within the current UI to enable the radio button. If no action can be taken to enable the radio button, then the radio button should be hidden instead of disabled.
 
 <hr>
 
-## Radio button best practices
+
+
+## Types
+
+![Types of radio buttons](/images/type.png)
+
+<br>
+
+**Standard Radio Button**
+
+Standard Radio Buttons are the most common Radio Buttons, and they allow the user to make a selection and quickly move on to the next task.
+
+<br>
+
+**Inline Radio Button**
+
+Inline Radio Buttons are more prominently styled than standard Radio Buttons. They often feature a system icon (24 pt x 24 pt), and they’re designed to emphasize the selection being made.
+
+<br>
+
+**Gallery Radio Button**
+
+Gallery Radio Buttons are more prominent than both standard and inline Radio Buttons. They often feature an icon and take up a great deal of space on the page.
+
+
+
+<hr>
+
+
+
+## States
+
+![standard radio buttons states](/images/radio_states_standard.png)
+
+Standard Radio Button states
+
+![inline radio buttons states](/images/inlineradio_states.png)
+
+Inline Radio Button states
+
+![Gallery radio buttons states](/images/galleryradio_states.png)
+
+Gallery Radio Button states
+
+<br>
+
+
+
+### **Normal**
+
+Normal state is how a Radio Button looks by default before any interaction or action is taken.
+
+### **Hover**
+
+Hover state occurs when the user hovers over the Radio Buttons with their mouse.
+
+### **Focus**
+
+Focus state appears when the Radio Button is currently selected and awaiting action. This commonly occurs when using a keyboard to navigate.
+
+### **Disabled**
+
+Disabled state occurs when an action currently isn’t available. Disabled Radio Buttons should only be used when an action can be taken within the current UI to enable the Radio Button. If no action can be taken to enable the Radio Button, then it should be hidden instead of disabled.
+
+
+
+<hr>
+
+
+
+## Best Practices
 
 <Grid>
 
@@ -191,3 +221,18 @@ A radio button without a label is unusable; the user will not know what selectio
 <hr>
 
 For more information on selection controls and keyboard accessibility [view form standards](/design-system/patterns/forms/).
+
+
+
+
+
+<hr>
+
+
+
+### Alternate considerations
+
+* Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
+* Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
+* Use a [checkbox](/design-system/components/checkboxes/) if zero or more options can be selected or for lists smaller than 10 items.
+* Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
