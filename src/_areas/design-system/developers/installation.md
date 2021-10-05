@@ -4,34 +4,6 @@ title: Installation
 subtitle: Get started with our design system!
 ---
 
-There are two ways you can use ZUI 4 in your application: install the packages via Yarn or NPM; or slap our bad boy ZUI loader CDN script and stylesheets into your application.
-
-<docs-spacer></docs-spacer>
-
-After that, you can now access all Zywave packages and install all the things, including ZUI:
-
-```shell
-# Yarn
-yarn add @zywave/[zui-package]
-
-# NPM
-npm install @zywave/[zui-package]
-
-# Tip: Include @next at the end of your ZUI page name to get the most recent pre-released version
-# For example: yarn add @zywave/zui-shell@next
-```
-
-<zui-well type="info" static>Don't forget to provide polyfills for our favorite browser Internet Explorer 11!</zui-well>
-
-<docs-spacer size="small"></docs-spacer>
-
-### Where do I find a list of released ZUI packages to install?
-
-- Search for `@zywave` at [npmjs.com](https://www.npmjs.com/search?q=%40zywave)
-- Check out our [monorepo](https://gitlab.zywave.com/zui/zui/tree/master/packages) for all available packages
-
----
-
 ## ZUI bundle via CDN (recommended)
 
 For a plug and chug experience, the ZUI bundle is the perfect solution to quickly get started! Gain access to all of our components, most web components polyfills, and stylesheets without having to install a single package. This is a popular choice among developers when building a new application.
@@ -74,6 +46,8 @@ You may have noticed in the code snippet above something like `@latest`
 
 These terms correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
 
+These dist tags gives the toolkit the ability to deploy updates and fixes to your application, without you having to lift a finger!
+
 Choose the right tag for your situation, and update accordingly (e.g. `https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dist/bundle.js`)
 
 ## Install ZUI packages via npm/yarn
@@ -86,3 +60,8 @@ The following works with no extra work:
 ```
 
 **Note:** All packages are distributed as standard ES modules. You must deliver or bundle these packages accordingly.
+
+### Where do I find a list of released ZUI packages to install?
+
+- Search for `@zywave` at [npmjs.com](https://www.npmjs.com/search?q=%40zywave)
+- Check out our [monorepo](https://gitlab.zywave.com/zui/zui/tree/master/packages) for all available packages
