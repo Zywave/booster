@@ -1,10 +1,11 @@
 ---
+title: Breadcrumbs
+subtitle: Breadcrumbs are a form of secondary navigation that helps users easily
+  see and navigate through page hierarchies.
 api: https://cdn.zywave.com/@zywave/zui-breadcrumbs@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-breadcrumbs@next/demo/index.html
 mainComponentName: zui-breadcrumbs
 includedElements: []
-title: Breadcrumbs
-subtitle: Give users context so they don't feel lost, even when they are deep inside large, nested content.
 ---
 
 ## What are breadcrumbs
