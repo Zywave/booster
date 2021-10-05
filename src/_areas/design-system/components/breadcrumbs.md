@@ -21,6 +21,8 @@ Breadcrumbs give users context so they don't feel lost, even when they are deep 
 
 ![Breadcrumb example](/images/default.png)
 
+<br>
+
 ### When to use Breadcrumbs
 
 * When there are 2 or more pages in the hierarchy
