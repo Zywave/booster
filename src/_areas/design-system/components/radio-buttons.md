@@ -10,11 +10,7 @@ includedElements: []
 
 Most commonly appearing in forms, Radio Buttons are selection controls that allow the user to make a single selection in a radio group. Unlike other selection controls, Radio Buttons display all options, so the user has a chance to decide before making a selection.
 
-
-
 <hr>
-
-
 
 ## Usage
 
@@ -26,11 +22,7 @@ Radio Buttons should be used when the user must select a single option from a ra
 
 Use a radio button when the user must select a single option from a list of mutually exclusive options less than 10. Meaning that a user can choose only one option, and once an option is selected, the previous option deselects.
 
-
-
 <hr>
-
-
 
 ## Anatomy
 
@@ -66,11 +58,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 <br>
 
-
-
 <hr>
-
-
 
 ## Types
 
@@ -94,11 +82,7 @@ Inline Radio Buttons are more prominently styled than standard Radio Buttons. Th
 
 Gallery Radio Buttons are more prominent than both standard and inline Radio Buttons. They often feature an icon and take up a great deal of space on the page.
 
-
-
 <hr>
-
-
 
 ## States
 
@@ -116,8 +100,6 @@ Gallery Radio Button states
 
 <br>
 
-
-
 ### **Normal**
 
 Normal state is how a Radio Button looks by default before any interaction or action is taken.
@@ -134,11 +116,7 @@ Focus state appears when the Radio Button is currently selected and awaiting ac
 
 Disabled state occurs when an action currently isn’t available. Disabled Radio Buttons should only be used when an action can be taken within the current UI to enable the Radio Button. If no action can be taken to enable the Radio Button, then it should be hidden instead of disabled.
 
-
-
 <hr>
-
-
 
 ## Best Practices
 
@@ -222,17 +200,14 @@ A radio button without a label is unusable; the user will not know what selectio
 
 For more information on selection controls and keyboard accessibility [view form standards](/design-system/patterns/forms/).
 
-
-
-
-
 <hr>
 
+## Alternate considerations
 
+Use a *dropdown select* if only one option can be selected and and the list is larger than 10 items.
 
-### Alternate considerations
+Use a *toggle* if the options are two opposing states such as a yes or no and on or off. 
 
-* Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
-* Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
-* Use a [checkbox](/design-system/components/checkboxes/) if zero or more options can be selected or for lists smaller than 10 items.
-* Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
+Use *checkboxes* if zero or more options can be selected for lists smaller than 10 items
+
+Use a *dropdown multi-select* if one or more options can be selected and the list is larger than 10 items.
