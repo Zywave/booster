@@ -39,17 +39,18 @@
     const dialog = document.getElementById("feedback-dialog");
 
     if (typeof dialog.showModal !== "function") {
-        feedbackBtn.style.display = "none";
-    } else {
-        if (hasQueryParam('feedback')) {
-            dialog.showModal();
-        }
-        const feedbackForm = document.getElementById("feedback-form");
-        const cancelButton = document.getElementById("feedback-dialog-cancel");
-        feedbackBtn.addEventListener("click", () => dialog.showModal());
-        cancelButton.addEventListener("click", () => dialog.close());
-        feedbackForm.addEventListener("formdata", x => x.formData.set("url", window.location.toString()));
+        const exports = await import("https://cdn.zywave.com/dialog-polyfill@0.5.6/dist/dialog-polyfill.esm.js");
+        exports.default.registerDialog(dialog);
     }
+
+    if (hasQueryParam('feedback')) {
+        dialog.showModal();
+    }
+    const feedbackForm = document.getElementById("feedback-form");
+    const cancelButton = document.getElementById("feedback-dialog-cancel");
+    feedbackBtn.addEventListener("click", () => dialog.showModal());
+    cancelButton.addEventListener("click", () => dialog.close());
+    feedbackForm.addEventListener("formdata", x => x.formData.set("url", window.location.toString()));
 
     function wasBackdropClicked(event) {
         if (event.target === dialog) dialog.close();
