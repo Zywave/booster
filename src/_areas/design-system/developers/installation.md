@@ -48,7 +48,7 @@ These terms correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/
 
 These dist tags gives the toolkit the ability to deploy updates and fixes to your application, without you having to lift a finger!
 
-Choose the right tag for your situation, and update accordingly (e.g. `https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dist/bundle.js`)
+Choose the right tag for your situation, and update accordingly (e.g. `https://cdn.zywave.com/@zywave/zui-bundle@next/dist/bundle.js`)
 
 ## Install ZUI packages via npm/yarn
 
