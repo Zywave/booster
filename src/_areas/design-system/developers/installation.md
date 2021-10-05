@@ -64,4 +64,4 @@ The following works with no extra work:
 ### Where do I find a list of released ZUI packages to install?
 
 - Search for `@zywave` at [npmjs.com](https://www.npmjs.com/search?q=%40zywave)
-- Check out our [monorepo](https://gitlab.zywave.com/zui/zui/tree/master/packages) for all available packages
+- Check out our [monorepo](https://gitlab.zywave.com/devkit/zui/zui) for all available packages
