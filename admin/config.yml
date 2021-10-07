@@ -56,7 +56,7 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
       - { label: "Type", name: "type", widget: "hidden", default: "blogPost" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "string", required: true }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
