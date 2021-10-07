@@ -64,7 +64,7 @@ subtitle: " "
         <div class="card secondary">
             <h2>Blog</h2>
             <p>Stay up to date on current events, topics and articles in our galaxy.</p>
-            <a href="{{ '/coming-soon/' | url }}">View our blog ➔</a>
+            <a href="{{ '/blog/' | url }}">View our blog ➔</a>
         </div>
     </div>
 </main>
