@@ -1,0 +1,8 @@
+<ul class="blog-posts">
+{%- for post in collections.blogPosts -%}
+  <li class="card"><a href="{{ post.url }}">
+      <h2>{{ post.data.title }}</h2>
+      <div>{{ post.data.description }}</div>
+  </a></li>
+{%- endfor -%}
+</ul>

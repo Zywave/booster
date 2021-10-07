@@ -72,6 +72,9 @@ module.exports = {
       return metadata.system;
     },
     permalink: data => {
+      if (data.permalink) {
+        return data.permalink;
+      }
       const metadata = parseMetadata(data);
       return metadata.permalink;
     },
@@ -94,39 +97,39 @@ module.exports = {
         const dirname = path.join(path.dirname(data.page?.inputPath));
         
         return fs.readdirSync(dirname, { withFileTypes: true })
-        .filter(dirEnt => dirEnt.isDirectory() || dirEnt.name.endsWith('.html') || dirEnt.name.endsWith('.md'))
-        .map(file => {
-          const fileFullPath = path.join(dirname, file.name);
+          .filter(dirEnt => dirEnt.isDirectory() || dirEnt.name.endsWith('.html') || dirEnt.name.endsWith('.md'))
+          .map(file => {
+            const fileFullPath = path.join(dirname, file.name);
 
-          // get the file name without the extension only
-          const fileName = path.parse(file.name).name;
+            // get the file name without the extension only
+            const fileName = path.parse(file.name).name;
 
-          // create the file URL
-          let fileUrl = buildPermalink(fileFullPath.replace(/\\/g, '/'));
-          //check if current entry is a directory
-          if (file.isDirectory()) {
-            const parentDirs = fs.readdirSync(fileFullPath, { withFileTypes: true });
-            const firstParentDirsFile = parentDirs.find(p => p.isFile());
-            fileUrl = buildPermalink(path.join(dirname, file.name, firstParentDirsFile.name)).replace(/\\/g, '/');
-          }
-          fileUrl = fileUrl.startsWith(`/`) ? `` : `/${fileUrl}`;
+            // create the file URL
+            let fileUrl = buildPermalink(fileFullPath.replace(/\\/g, '/'));
+            //check if current entry is a directory
+            if (file.isDirectory()) {
+              const parentDirs = fs.readdirSync(fileFullPath, { withFileTypes: true });
+              const firstParentDirsFile = parentDirs.find(p => p.isFile());
+              fileUrl = buildPermalink(path.join(dirname, file.name, firstParentDirsFile.name)).replace(/\\/g, '/');
+            }
+            fileUrl = fileUrl.startsWith(`/`) ? `` : `/${fileUrl}`;
 
-          // check if current page
-          let checkCurrentStatus = false;
-          const currentPagePath = data.page?.inputPath?.split('/_areas/')[1].replace('.md', '/');
-          const currentFileUrl = buildPermalink(fileFullPath).replace(/\\/g, '/');
-          if (currentPagePath == currentFileUrl) {
-            checkCurrentStatus = true;
-          }
+            // check if current page
+            let checkCurrentStatus = false;
+            const currentPagePath = data.page?.inputPath?.split('/_areas/')[1].replace('.md', '/');
+            const currentFileUrl = buildPermalink(fileFullPath).replace(/\\/g, '/');
+            if (currentPagePath == currentFileUrl) {
+              checkCurrentStatus = true;
+            }
 
-          return {
-            url: fileUrl,
-            name: fileName,
-            isCurrent: checkCurrentStatus,
-            currentPath: currentPagePath,
-            currentFile: currentFileUrl
-          };
-        });
+            return {
+              url: fileUrl,
+              name: fileName,
+              isCurrent: checkCurrentStatus,
+              currentPath: currentPagePath,
+              currentFile: currentFileUrl
+            };
+          });
       }
     }
   }

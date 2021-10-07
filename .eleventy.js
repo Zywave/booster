@@ -56,6 +56,17 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
+  eleventyConfig.addCollection("blogPosts", function(collectionApi) {
+    return collectionApi
+      .getAll()
+      .filter(function(item) {
+        return item.data.type === "blogPost";
+      })
+      .sort(function(a, b) {
+        return b.date - a.date;
+      });
+  });
+
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy({ "static/": "/"});
