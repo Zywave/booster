@@ -39,7 +39,7 @@ Previously, we were using a third-party tool to display our API docs, but the us
 
 ![](/images/image2021-9-28_11-40-31.png)
 
-<docs-grid>
+</docs-grid>
 
 ### Demos and code snippets
 
