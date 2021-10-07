@@ -1,14 +1,14 @@
 ---
 layout: blog
+type: blogPost
 title: Introducing Booster Development Network
-description: A new site to enable engineers to build consistent, quality applications aligned with the Zywave brand.
+description: A new site to enable engineers to build consistent, quality
+  applications aligned with the Zywave brand.
 date: 2021-09-28T17:20:05.635Z
 hideToc: false
-type: blogPost
 tags:
   - Meta
 ---
-
 A few months ago, we gave a preview of the successor to the ZUI (Zywave User Interface) and ZAPI (Zywave API) docs: Booster Development Network. Today, we're happy to announce that it has finally been released!
 
 ## How it started
@@ -23,7 +23,9 @@ After the inception of ZAPI a couple years ago, it was still relatively unknown 
 
 Initially, we tried to merge both ZUI and ZAPI components into one category, but that did not make any sense and just created more confusion. It made more sense to house them both under the same roof, but in different rooms. ZUI will now be referred to as "design system" and ZAPI as "application framework" to reflect their purposes.
 
-<!-- TODO img -->
+![](/images/image2021-9-28_9-42-12.png)
+
+<docs-spacer size="small"></docs-spacer>
 
 The convenience of having one documentation site is so that we can invest more time into the experience, such as providing better API docs, demos, and a robust search. The Product Design Team has also taken this time to polish our design guidelines using the new content management system we implemented.
 
@@ -31,7 +33,13 @@ The convenience of having one documentation site is so that we can invest more t
 
 Previously, we were using a third-party tool to display our API docs, but the user experience was confusing. This made it difficult to surface the valuable information that engineers need. We decided to build our [own API formatting tool](https://www.npmjs.com/package/@zywave/customelement-manifest-element) using [custom-elements-manifest](https://github.com/webcomponents/custom-elements-manifest) so we can control the format to make it easier for engineers to find the data required to interact with our components.
 
-<!-- TODO img -->
+<docs-grid columns="2">
+
+![](/images/image2021-9-28_11-40-24.png)
+
+![](/images/image2021-9-28_11-40-31.png)
+
+</docs-grid>
 
 ### Demos and code snippets
 
@@ -45,7 +53,9 @@ In our effort to keep these up to date as our components evolve, we've added the
 
 Adding a robust search is one of our top favorite improvements to the documentation site. We're using Algolia + Netlify, which is a flexible and powerful search plugin for Netlify apps, to instantly deliver search results. It's actually impressive how the search can distinguish results between tabs within pages. We encourage you to give it a shot!
 
-<!-- TODO img -->
+
+
+![](/images/image2021-9-28_9-44-24.png)
 
 ### Content management system
 
@@ -53,14 +63,14 @@ A big pain point that we did not highlight previously is how difficult it was fo
 
 ## What about zui.zywave.com?
 
-We are deprecating https://zui.zywave.com. In October, it will redirect to https://booster.zywave.dev.
+We are deprecating <https://zui.zywave.com>. In October, it will redirect to <https://booster.zywave.dev>.
 
 ## What's next?
 
 This is just the MVP release. There are a few loose ends we are tying up, such as:
 
-- Fixing some broken styles and demos.
-- Adding custom web components to the CMS to make formatting our documentation easier.
-- Improving design guidelines, design specs, and imagery.
+* Fixing some broken styles and demos.
+* Adding custom web components to the CMS to make formatting our documentation easier.
+* Improving design guidelines, design specs, and imagery.
 
 The Product Design Team is also finalizing a new look for the site!
