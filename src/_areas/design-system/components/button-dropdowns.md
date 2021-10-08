@@ -1,18 +1,12 @@
 ---
+title: Button dropdowns
+subtitle: Buttons that reveal a list of three or more actionable options.
 api: https://cdn.zywave.com/@zywave/zui-button@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-button@next/demo/index.html
 mainComponentName: zui-button-dropdown
-includedElements: ["zui-button-dropdown"]
-title: Button dropdowns
-subtitle: Buttons that reveal a list of three or more actionable options.
+includedElements:
+  - zui-button-dropdown
 ---
-
-## What are button dropdowns?
-
-Button dropdowns are buttons that reveal a list of three or more actionable options.
-
----
-
 ## Usage
 
 Button dropdowns are used when there is a set of closely related actions available to the user, or as a solution to consolidate the number of actions that appear on the screen. Clicking the button dropdown opens an option list. The option list remains open until the user either clicks off of the component or clicks an action in the option list. They are most commonly seen within tables due to space restrictions, but they are not limited to tables.
