@@ -7,8 +7,6 @@ demo: https://cdn.zywave.com/@zywave/zui-breadcrumbs@next/demo/index.html
 mainComponentName: zui-breadcrumbs
 includedElements: []
 ---
-
-
 ### What are Breadcrumbs
 
 Breadcrumbs are a form of secondary navigation that helps users easily see and navigate through page hierarchies. The Breadcrumb links also allow users to backtrack through deep navigation as far as they need to.
@@ -27,7 +25,7 @@ Breadcrumbs give users context so they don't feel lost, even when they are deep 
 
 * When there are 2 or more pages in the hierarchy
 * When it's necessary to inform users of where they are
-* When users need a quick and easy way to navigate back to higher level pages
+* When users need a quick and easy way to navigate back to high-level pages
 
 <br>
 
@@ -36,8 +34,6 @@ Breadcrumbs give users context so they don't feel lost, even when they are deep 
 * Simple, efficient, easy navigation within the application
 * Fast navigation: one-click access to get to a higher-level page
 * Informs the user of their location in relation to other pages
-
-
 
 <hr>
 
@@ -55,11 +51,7 @@ Breadcrumbs can contain the following elements:
 2. **Item/page**: the section or page title, use the same style as text links without an underline
 3. **Current page**: the current page is always the last Breadcrumb, styled as a disabled text link and it is not clickable
 
-
-
 <hr>
-
-
 
 ## Layout
 
@@ -70,11 +62,7 @@ Breadcrumbs alignment:
 * Position Breadcrumbs at top left corner of the page, above page titles
 * Appear 30px below the Topbar and 20px above the page title;
 
-
-
 <hr>
-
-
 
 ## Types/States
 
@@ -101,8 +89,6 @@ When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidde
 ![Breadcrumbs - long expanded](/images/long-–-expanded.png)
 
 <hr>
-
-
 
 ## Best Practices
 
@@ -153,11 +139,7 @@ Breadcrumbs are not designed to show browsing history (such as "back" button in 
 
 When in a long Breadcrumb trail, items that are closer to the current page hold more weight to users than others. It is recommended to make the last two items (including current page) visible.
 
-
-
 <hr>
-
-
 
 ## Responsive Layout
 
@@ -167,15 +149,9 @@ Due to the smaller screen size and potential complexity of Breadcrumbs, a mobile
 
 ![Breadcrumbs - mobile layout](/images/moble.png)
 
-
-
 <hr>
 
-
-
 ## Behavior
-
-
 
 ### Upon refreshing/re-navigating to the page, collapse long Breadcrumb trails
 
