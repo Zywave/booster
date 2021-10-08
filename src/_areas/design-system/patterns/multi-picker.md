@@ -57,7 +57,7 @@ Use a Tooltip to display the rest of the results on hover. If the results are lo
 
 Use a search to filter a long list of options. Typeahead is optional, but recommended, to provide suggestions for a more efficient experience. For more information [Typeahead documentation](https://zui.zywave.com/patterns/typeahead/).
 
-
+![Search](/images/multipicker_search.png)
 
 <br>
 
@@ -65,7 +65,7 @@ Use a search to filter a long list of options. Typeahead is optional, but recom
 
 Once an option is checked, it becomes a selection. Selections are visually defined by the encapsulation of the label in a gray rectangle accompanied by the remove button (X icon). Selections can be removed by clicking the remove button.
 
-# IMAGE
+![Tag](/images/multipicker_tags.png)
 
 <br>
 
@@ -73,13 +73,15 @@ Once an option is checked, it becomes a selection. Selections are visually defi
 
 Checkboxes are used to represent options in a Multi-picker list. More than one option can be checked. To remove a selection, uncheck the checkbox. For more information see [Checkbox documentation](https://zui.zywave.com/components/checkboxes/).
 
-# IMAGE
+![List of options](/images/multipicker_checkboxes.png)
 
 <br>
 
 ### **Pager (optional)**
 
 Use a pager when the list of options is larger than 20 options in a two-column list. Use your judgment as the height of the list of options will vary based on screen size.
+
+![Pager](/images/multipicker_pager.png)
 
 <hr>
 
