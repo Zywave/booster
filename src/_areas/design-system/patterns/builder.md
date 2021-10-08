@@ -41,4 +41,6 @@ Consider the following when configuring the Kickoff step.
 
 Typically page-level actions should be placed in the top right corner to start a workflow. Use a table when the user needs to return to a previous project. This is also helpful for downloading, editing and duplication of projects. If the table is empty, use an empty state in the table.
 
+![Kickoff](/images/kickoff.png)
+
 <!--EndFragment-->
