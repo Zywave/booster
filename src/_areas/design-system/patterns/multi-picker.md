@@ -99,17 +99,9 @@ For detailed documentation on our Multi-picker, view the [Multi-picker design s
 
 <br>
 
-<!--StartFragment-->
-
 ### **Title**
 
 Give your Multi-picker a clear, actionable title that will help users understand what exactly they need to do. For example: Add accounts.
-
-<br>
-
-### **Selections**
-
-Display the list of option
 
 <br>
 
@@ -117,7 +109,9 @@ Display the list of option
 
 Display the list of options in two columns when the list exceeds 10 options. If the option labels are very long, use one column instead. Use a pager when the list of options in two columns exceeds 20 options. As the screen size reduces, the two-column list should reduce to just one column.
 
-# IMAGE
+#### Two-column list with pager
+
+![Multi-picker list](/images/multipicker_unselected.png)
 
 <br>
 
@@ -125,13 +119,13 @@ Display the list of options in two columns when the list exceeds 10 options. If
 
 To comply with Dialog standards, the Multi-picker actions should be placed in the footer of the Dialog.
 
-# IMAGE
+![Multi-picker - actions](/images/multipicker_actions.png)
 
 <br>
 
 When the Multi-picker does not use a dialog, the actions should appear at the top right of the page aligned with the title.
 
-# IMAGE
+![Multi-picker - page](/images/multipicker_page.png)
 
 <hr>
 
@@ -146,7 +140,7 @@ Users can remove a selection using one of two methods:
 * * Clicking on the remove button (X icon) within the selection.
   * Unchecking the checkbox in the list of options.
 
-# IMAGE
+![Removing selections](/images/multipicker_removing-selections.png)
 
 <br>
 
@@ -154,7 +148,7 @@ Users can remove a selection using one of two methods:
 
 A "Select all" button provides an efficient way for the user to add all of the options into the selection list.
 
-# IMAGE
+![Select all button](/images/multipicker_select-all-button.png)
 
 <br>
 
@@ -162,13 +156,15 @@ A "Select all" button provides an efficient way for the user to add all of the 
 
 A "Remove all" button provides an efficient way for the user to remove all selections, which will simultaneously uncheck all options in the list.
 
+![Remove all button](/images/multipicker_remove-all-button.png)
+
 <hr>
 
 # Responsiveness
 
 When on a mobile device (breakpoint ≤480px) the Multi-picker option list reduces to just one column.
 
-# IMAGE
+
 
 <br>
 
