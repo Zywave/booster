@@ -164,17 +164,15 @@ A "Remove all" button provides an efficient way for the user to remove all sel
 
 When on a mobile device (breakpoint ≤480px) the Multi-picker option list reduces to just one column.
 
-
+![Multi-picker mobile](/images/multipicker_mobile.png)
 
 <br>
 
 Selections will wrap to the next line. If a user has made a large number of selections, the page should scroll.
 
-# IMAGE
+![Multi-picker mobile selected](/images/multipicker_mobile_selected.png)
 
 <hr>
-
-<!--StartFragment-->
 
 ## Alternative considerations
 
