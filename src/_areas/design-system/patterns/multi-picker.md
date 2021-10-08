@@ -182,5 +182,3 @@ Selections will wrap to the next line. If a user has made a large number of sele
 * Use a [dropdown select](https://zui.zywave.com/components/dropdown-select/) if users can only select 1 option from lists larger than 2 options.
 
 <!--EndFragment-->
-
-<!--EndFragment-->
