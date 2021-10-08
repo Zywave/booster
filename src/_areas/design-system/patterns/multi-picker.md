@@ -19,7 +19,7 @@ Appropriate for lists larger than 7-10 options that may require a user to add an
 
 ## Components
 
-The following are the basic elements for creating a Multi-picker. For detailed documentation on our Multi-picker, view the [Multi-picker design specs](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid).
+The following are the basic elements for creating a Multi-picker. For detailed documentation on our Multi-picker, view the [](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid)[Multi-picker design specs](https://xd.adobe.com/view/07f3afc4-2f17-4bea-b72d-ad8dbf99e101-52a0/grid).
 
 <br>
 
