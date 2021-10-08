@@ -95,6 +95,96 @@ Putting all of the elements together in the right order and layout is essential 
 
 For detailed documentation on our Multi-picker, view the [Multi-picker design specs](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid).
 
+<br>
 
+<!--StartFragment-->
+
+### **Title**
+
+Give your Multi-picker a clear, actionable title that will help users understand what exactly they need to do. For example: Add accounts.
+
+<br>
+
+### **Selections**
+
+Display the list of option
+
+<br>
+
+### **List**
+
+Display the list of options in two columns when the list exceeds 10 options. If the option labels are very long, use one column instead. Use a pager when the list of options in two columns exceeds 20 options. As the screen size reduces, the two-column list should reduce to just one column.
+
+# IMAGE
+
+<br>
+
+### Actions
+
+To comply with Dialog standards, the Multi-picker actions should be placed in the footer of the Dialog.
+
+# IMAGE
+
+<br>
+
+When the Multi-picker does not use a dialog, the actions should appear at the top right of the page aligned with the title.
+
+# IMAGE
+
+<hr>
+
+## Behavior
+
+### **Removing selections**
+
+After a user has checked at least one option, they will appear as selections between the selections counter and the search bar. The "Remove all" action should appear disabled until there is at least one selection made.
+
+Users can remove a selection using one of two methods:
+
+* * Clicking on the remove button (X icon) within the selection.
+  * Unchecking the checkbox in the list of options.
+
+# IMAGE
+
+<br>
+
+### **Selecting all options**
+
+A "Select all" button provides an efficient way for the user to add all of the options into the selection list.
+
+# IMAGE
+
+<br>
+
+### **Remove all options**
+
+A "Remove all" button provides an efficient way for the user to remove all selections, which will simultaneously uncheck all options in the list.
+
+<hr>
+
+# Responsiveness
+
+When on a mobile device (breakpoint ≤480px) the Multi-picker option list reduces to just one column.
+
+# IMAGE
+
+<br>
+
+Selections will wrap to the next line. If a user has made a large number of selections, the page should scroll.
+
+# IMAGE
+
+<hr>
+
+<!--StartFragment-->
+
+## Alternative considerations
+
+* Use [checkboxes ](https://zui.zywave.com/components/checkboxes/)for lists smaller than 7-10 items.
+* Use a [dropdown multi-select](https://zui.zywave.com/components/dropdown-multi-select/) for lists larger than 10 options that may require a user to select more than 1 option.
+* Use [radio buttons](https://zui.zywave.com/components/radio-buttons/) if users can only select 1 option from a list of 3 or fewer options.
+* Use a [dropdown select](https://zui.zywave.com/components/dropdown-select/) if users can only select 1 option from lists larger than 2 options.
+
+<!--EndFragment-->
 
 <!--EndFragment-->
