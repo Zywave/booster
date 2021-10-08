@@ -7,7 +7,7 @@ hideToc: false
 
 A Multi-picker allows users to make multiple selections by searching for specific items in a list. It is made up of other components to make selecting multiple options easy and fast.
 
-![Multi-picker - unselected](/images/multipicker_unselected.png)
+![Multi-picker - selected](/images/multipicker_selected.png)
 
 <br>
 
@@ -27,7 +27,7 @@ The following are the basic elements for creating a Multi-picker. For detailed 
 
 A Dialog can be used as the base to display all of the components within a multi-picker. For more information see [Dialog documentation](https://zui.zywave.com/components/dialogs/).
 
-# IMAGE
+![Dialog box](/images/dialog-box.png)
 
 <br>
 
@@ -37,19 +37,19 @@ There are some scenarios where it makes sense to display the results of selectio
 
 Display the result if few selections were made.
 
-# IMAGE
+![Multi-picker - results](/images/multipicker_results.png)
 
 <br>
 
 If selections get too long or wrap to a new line, we recommend truncating the results to only show one selection and have an overflow pill with the number of truncated selections represent the rest.
 
-# IMAGE
+![Multi-picker - results 2](/images/multipicker_results-–-2.png)
 
 <br>
 
 Use a Tooltip to display the rest of the results on hover. If the results are longer than 45 characters, remove the tooltip and only allow the user to view the results in the multi-picker.
 
-# IMAGE
+![Multi-picker - results 3](/images/multipicker_results-–-3.png)
 
 <br>
 
@@ -57,7 +57,7 @@ Use a Tooltip to display the rest of the results on hover. If the results are lo
 
 Use a search to filter a long list of options. Typeahead is optional, but recommended, to provide suggestions for a more efficient experience. For more information [Typeahead documentation](https://zui.zywave.com/patterns/typeahead/).
 
-# IMAGE
+
 
 <br>
 
