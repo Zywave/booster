@@ -174,20 +174,9 @@ Consider the following when configuring loading.
 
 <hr>
 
-<!--StartFragment-->
-
-## Responsiveness
-
-When on a mobile device (breakpoint ≤480px) the *Builder*...
-
-<hr>
-
-## \
-Alternative considerations
+## Alternative considerations
 
 * Use [expanders](https://zui.zywave.com/components/zui-expanders) to break long blocks of content into separate sections with independent workflows.
 * Use [tabs](https://zui.zywave.com/components/zui-tabs) to break content into distinct workflows that can be completed independently, or to offer alternative views of the same information.
-
-<!--EndFragment-->
 
 <!--EndFragment-->
