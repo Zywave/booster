@@ -3,8 +3,6 @@ layout: documentation
 title: Multi-picker
 hideToc: false
 ---
-<!--StartFragment-->
-
 A Multi-picker allows users to make multiple selections by searching for specific items in a list. It is made up of other components to make selecting multiple options easy and fast.
 
 ![Multi-picker - selected](/images/multipicker_selected.png)
@@ -180,5 +178,3 @@ Selections will wrap to the next line. If a user has made a large number of sele
 * Use a [dropdown multi-select](https://zui.zywave.com/components/dropdown-multi-select/) for lists larger than 10 options that may require a user to select more than 1 option.
 * Use [radio buttons](https://zui.zywave.com/components/radio-buttons/) if users can only select 1 option from a list of 3 or fewer options.
 * Use a [dropdown select](https://zui.zywave.com/components/dropdown-select/) if users can only select 1 option from lists larger than 2 options.
-
-<!--EndFragment-->
