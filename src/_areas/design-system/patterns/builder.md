@@ -3,8 +3,6 @@ layout: documentation
 title: Builder
 hideToc: false
 ---
-<!--StartFragment-->
-
 A Builder is a workflow used to construct, edit and organize to build presentable content, for example, a policy renewal proposal.
 
 ## Usage
@@ -178,5 +176,3 @@ Consider the following when configuring loading.
 
 * Use [expanders](https://zui.zywave.com/components/zui-expanders) to break long blocks of content into separate sections with independent workflows.
 * Use [tabs](https://zui.zywave.com/components/zui-tabs) to break content into distinct workflows that can be completed independently, or to offer alternative views of the same information.
-
-<!--EndFragment-->
