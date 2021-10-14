@@ -21,7 +21,7 @@ The following are the basic elements for creating a Multi-picker. For detailed 
 
 <br>
 
-### **Dialog (optional)**
+#### **Dialog (optional)**
 
 A Dialog can be used as the base to display all of the components within a multi-picker. For more information see [Dialog documentation](https://zui.zywave.com/components/dialogs/).
 
@@ -29,7 +29,7 @@ A Dialog can be used as the base to display all of the components within a multi
 
 <br>
 
-### **Displaying results after confirming selections in a Multi-picker dialog**
+#### **Displaying results after confirming selections in a Multi-picker dialog**
 
 There are some scenarios where it makes sense to display the results of selections made within a Multi-picker.
 
@@ -51,7 +51,7 @@ Use a Tooltip to display the rest of the results on hover. If the results are lo
 
 <br>
 
-### **Text input: Search**
+#### **Text input: Search**
 
 Use a search to filter a long list of options. Typeahead is optional, but recommended, to provide suggestions for a more efficient experience. For more information [Typeahead documentation](https://zui.zywave.com/patterns/typeahead/).
 
@@ -59,7 +59,7 @@ Use a search to filter a long list of options. Typeahead is optional, but recom
 
 <br>
 
-### **Tag (exception of components)**
+#### **Tag (exception of components)**
 
 Once an option is checked, it becomes a selection. Selections are visually defined by the encapsulation of the label in a gray rectangle accompanied by the remove button (X icon). Selections can be removed by clicking the remove button.
 
@@ -67,7 +67,7 @@ Once an option is checked, it becomes a selection. Selections are visually defi
 
 <br>
 
-### **List of options**
+#### **List of options**
 
 Checkboxes are used to represent options in a Multi-picker list. More than one option can be checked. To remove a selection, uncheck the checkbox. For more information see [Checkbox documentation](https://zui.zywave.com/components/checkboxes/).
 
@@ -75,7 +75,7 @@ Checkboxes are used to represent options in a Multi-picker list. More than one o
 
 <br>
 
-### **Pager (optional)**
+#### **Pager (optional)**
 
 Use a pager when the list of options is larger than 20 options in a two-column list. Use your judgment as the height of the list of options will vary based on screen size.
 
@@ -87,23 +87,23 @@ Use a pager when the list of options is larger than 20 options in a two-column l
 
 Putting all of the elements together in the right order and layout is essential for a user to search, add, and remove options efficiently. This includes:
 
-* Title
-* Selections
-* Search
-* List
-* Actions
+* **Title**
+* **Selections**
+* **Search**
+* **List**
+* **Actions**
 
 For detailed documentation on our Multi-picker, view the [Multi-picker design specs](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid).
 
 <br>
 
-### **Title**
+#### **Title**
 
 Give your Multi-picker a clear, actionable title that will help users understand what exactly they need to do. For example: Add accounts.
 
 <br>
 
-### **List**
+#### **List**
 
 Display the list of options in two columns when the list exceeds 10 options. If the option labels are very long, use one column instead. Use a pager when the list of options in two columns exceeds 20 options. As the screen size reduces, the two-column list should reduce to just one column.
 
@@ -113,7 +113,7 @@ Display the list of options in two columns when the list exceeds 10 options. If
 
 <br>
 
-### Actions
+#### Actions
 
 To comply with Dialog standards, the Multi-picker actions should be placed in the footer of the Dialog.
 
@@ -129,7 +129,7 @@ When the Multi-picker does not use a dialog, the actions should appear at the to
 
 ## Behavior
 
-### **Removing selections**
+#### **Removing selections**
 
 After a user has checked at least one option, they will appear as selections between the selections counter and the search bar. The "Remove all" action should appear disabled until there is at least one selection made.
 
@@ -142,7 +142,7 @@ Users can remove a selection using one of two methods:
 
 <br>
 
-### **Selecting all options**
+#### **Selecting all options**
 
 A "Select all" button provides an efficient way for the user to add all of the options into the selection list.
 
@@ -150,7 +150,7 @@ A "Select all" button provides an efficient way for the user to add all of the 
 
 <br>
 
-### **Remove all options**
+#### **Remove all options**
 
 A "Remove all" button provides an efficient way for the user to remove all selections, which will simultaneously uncheck all options in the list.
 
