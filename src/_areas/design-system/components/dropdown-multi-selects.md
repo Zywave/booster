@@ -10,9 +10,9 @@ includedElements:
   - zui-option
   - zui-option-group
 ---
-## What is a dropdown multi-select?
+## What is a Dropdown multi-select?
 
-A dropdown multi-select is a type of input field in which a user fills an input box with one or many items from a list of acceptable inputs.
+A Dropdown multi-select is a type of input field in which a user fills an input box with one or many items from a list of acceptable inputs.
 
 - - -
 
@@ -20,57 +20,28 @@ A dropdown multi-select is a type of input field in which a user fills an input 
 
 Appropriate for lists larger than 2 options that may require a user to select more than 1 option.
 
+![Dropdown multi-select usage](/images/multi_select_usage.svg)
+
+
+
 - - -
 
 ## Anatomy
 
-#### Label
+The anatomy of a dropdown multi-select.
 
-Text that defines what type of options are in the list.
+![Dropdown multi-select anatomy](/images/multi_select_anatomy.svg)
 
-[See labeling best practices](/design-system/patterns/forms/)
+1. **Input:** The field designated for selecting an individual option from a grouping of related options.
+2. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
+3. **Option list:** The grouping of related input options.
+4. **Option:** A unique input option.
+5. **Option checkbox:** A selectable checkbox beside an option.
+6. **Scrollbar**: A bar used to scroll to view more options
 
-#### Input
+<br>
 
-The field designated for selecting an individual option from a grouping of related options.
-
-#### Selection
-
-Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle.
-
-#### Dropdown chevron
-
-The chevron arrow, within the input suggesting that there are items to select within a dropdown.
-
-#### Selected option
-
-An option that is visibly selected.
-
-#### Options list
-
-The grouping of related input options.
-
-#### Option
-
-A unique input option.
-
-#### Option checkbox
-
-A selectable checkbox beside an option.
-
-[See base design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/grid)
-
-![Anatomy of a dropdown multi-select](/images/components/dropdown-multi-select/multi_select_label.svg)
-
-The anatomy of a dropdown select.
-
-- - -
-
-## Sizing and Spacing
-
-Use the following links to find exact pixel specs for dropdowns multi-select.
-
-[Design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/grid)
+See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
 
 - - -
 
