@@ -64,53 +64,53 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 - - -
 
+## States
+
+#### Input states
+
+![Dropdown multi-select states](/images/multiselect_states.svg)
+
+<br>
+
+#### Option list states
+
+![Dropdown multi-select list states](/images/multiselect_list_states.svg)
+
+- - -
+
 ## Behavior
 
 Sort the list in a logical order. For instance, put the most selected option(s) at the top. In many cases we recommend alphabetical order.
 
-### Open / close
+#### Open / close
 
 * Normal behavior is to reveal the list down when placement of the select input is high enough within the viewport. When select input is lower on the screen the list will reveal up.
 * Dropdrown chevron icon: rotates 180 degrees clockwise when opened, when closed spins back 180 degrees counter clockwise, returning to the original position.
 
-### Scrolling
+#### Scrolling
 
 * If the options can be displayed within the viewport it is ideal to not have a scroll bar. Scroll bars should appear when an options list exceeds the height of the screen but should not be taller than 300px.
 * Note options lists will appear below or above select inputs depending on where they sit within the viewport (see Open / close).
 
-### Typeahead
+#### Typeahead
 
 * Present in all dropdown selects, streamlines experience for users.
 * Typeahead is relevant only to options in the list, it will not return group names. Grouping headers are not seen when using typeahead.
 
 [See typeahead](/design-system/patterns/typeahead/)
 
-### Defaulting a selection
+#### Defaulting a selection
 
 * A dropdown select shouldn't default a selected option. If you're confident users will likely choose an option you may consider defaulting to a selection.
 * Sometimes choosing 'none' as an option is necessary, if none of the options are applicable to the user. None should appear at the top of the list.
 
-### Input states
-
-![The various states of an input](/images/components/dropdown-multi-select/multiselect_states.svg)
-
-[See input states design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/7b6c4ddd-55fa-4521-8598-7e5b280b5aec/)
-
-### Option list states
-
-![The various states of an option list](/images/components/dropdown-multi-select/multiselect_list_states.svg)
-
-[See option list states design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/c6b9b274-0fab-4b09-895a-28d141fe96ca/)
-
-### Selection wrapping
+#### Selection wrapping
 
 * When multiple options are selected in a multi-select list, selections will populate the input and eventually will have to wrap, in order to fit.
 
-[See selection wrapping design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/38048d13-2726-4db4-84aa-54048de9c1f1/)
+![Tags selection wrapping](/images/tag_specs.svg)
 
-![Removing a selection from an input](/images/components/dropdown-multi-select/tag_specs.svg)
-
-### Removing the selection
+#### Removing the selection
 
 * After a user has chosen an option it turns into a selection within the input. Users can remove a selection by using one of three methods.
 * Selections can be removed by clicking on the X icon within the selection.
