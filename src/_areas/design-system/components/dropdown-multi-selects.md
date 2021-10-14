@@ -1,5 +1,5 @@
 ---
-title: Dropdown multi-selects
+title: Dropdown multi-select
 subtitle: Type of input field in which a user fills an input box with one or
   many items from a list of acceptable inputs.
 api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
@@ -22,8 +22,6 @@ Appropriate for lists larger than 2 options that may require a user to select mo
 
 ![Dropdown multi-select usage](/images/multi_select_usage.svg)
 
-
-
 - - -
 
 ## Anatomy
@@ -41,7 +39,7 @@ The anatomy of a dropdown multi-select.
 
 <br>
 
-See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
+See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid)[Design specs](https://xd.adobe.com/view/630718e2-ca07-4189-961b-2a655245666d-3654/grid) for detailed sizing and spacing information
 
 - - -
 
