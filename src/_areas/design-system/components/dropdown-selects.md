@@ -20,15 +20,17 @@ A dropdown select is a type of input field in which a user fills an input box wi
 
 Use a dropdown select to organize a list of options a user can select from.
 
+![Dropdown select usage](/images/select_usage.svg)
+
 - - -
 
 ## Anatomy
 
+The anatomy of a dropdown select.
+
 <Grid>
 
 <GridCol col="span-4">
-
-
 
 1. **Input:** The field designated for selecting an individual option from a grouping of related options.
 2. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
@@ -41,10 +43,6 @@ Use a dropdown select to organize a list of options a user can select from.
 </GridCol>
 
 <GridCol col="span-8">
-
-![Anatomy of a dropdown select](/images/components/dropdown-select/select_label.svg)
-
-The anatomy of a dropdown select.
 
 </GridCol>
 
