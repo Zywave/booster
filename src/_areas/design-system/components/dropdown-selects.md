@@ -28,9 +28,7 @@ Use a dropdown select to organize a list of options a user can select from.
 
 The anatomy of a dropdown select.
 
-<Grid>
-
-<GridCol col="span-4">
+![Dropdown select anatomy](/images/select_anatomy.svg)
 
 1. **Input:** The field designated for selecting an individual option from a grouping of related options.
 2. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
@@ -40,13 +38,7 @@ The anatomy of a dropdown select.
 
 <docs-spacer size="small"></docs-spacer>
 
-</GridCol>
-
-<GridCol col="span-8">
-
-</GridCol>
-
-</Grid>
+See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0be4e76-4193/) for detailed sizing and spacing information
 
 - - -
 
