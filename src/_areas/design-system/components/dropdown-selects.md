@@ -36,7 +36,7 @@ The anatomy of a dropdown select.
 4. **Option:** A unique input option.
 5. **Scrollbar**: A bar used to scroll to view more options
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0be4e76-4193/) for detailed sizing and spacing information
 
@@ -48,9 +48,9 @@ See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0b
 
 * Sometimes you'll need to add grouping to a long list of options. Titles can break up options into groups to help users more easily locate them.
 
-![Spatial specs for options lists with grouping](/images/components/dropdown-select/select_grouping_specs.svg)
+![Dropdown select grouping](/images/select_grouping_specs.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 #### Icons
 
@@ -58,7 +58,7 @@ See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0b
 * Use icons to distinguish between options.
 * Often icons are used when you have two different types of options in a list.
 
-![Spatial specs for options lists with icons next to options](/images/components/dropdown-select/select_icon_specs.svg)
+![Dropdown select icons](/images/select_icon_specs.svg)
 
 - - -
 
