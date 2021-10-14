@@ -64,11 +64,11 @@ See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0b
 
 ## States
 
-![The various states of an input](/images/components/dropdown-select/select_states.svg)
+![Dropdown select states](/images/select_states.svg)
 
 ### Option list states
 
-![The various states of an options list](/images/components/dropdown-select/select_list_states.svg)
+![Dropdown select list states](/images/select_list_states.svg)
 
 - - -
 
