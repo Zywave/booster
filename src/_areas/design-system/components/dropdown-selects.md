@@ -64,9 +64,11 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 ## States
 
+#### Input states
+
 ![Dropdown select states](/images/select_states.svg)
 
-### Option list states
+#### Option list states
 
 ![Dropdown select list states](/images/select_list_states.svg)
 
