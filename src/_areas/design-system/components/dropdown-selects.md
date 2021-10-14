@@ -42,14 +42,6 @@ See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0b
 
 - - -
 
-## Sizing and Spacing
-
-Use the following links to find exact pixel specs for dropdowns select.
-
-[Design specs](https://xd.adobe.com/view/1d1827c1-f08e-480d-806a-647a41a328bd-484b/grid)
-
-- - -
-
 ## Organizing the list
 
 Sort the list in a logical order. For instance, put the most selected option(s) at the top. In many cases we recommend alphabetical order.
