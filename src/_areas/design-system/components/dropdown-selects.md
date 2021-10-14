@@ -28,37 +28,15 @@ Use a dropdown select to organize a list of options a user can select from.
 
 <GridCol col="span-4">
 
-#### Label
 
-Text that defines what type of options are in the list.
 
-[See labeling best practices](/design-system/patterns/forms/)
+1. **Input:** The field designated for selecting an individual option from a grouping of related options.
+2. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
+3. **Option list:** The grouping of related input options.
+4. **Option:** A unique input option.
+5. **Scrollbar**: A bar used to scroll to view more options
 
-#### Input
-
-The field designated for selecting an individual option from a grouping of related options.
-
-#### Selection
-
-Chosen option from the options list.
-
-#### Dropdown chevron
-
-The chevron arrow, within the input suggesting that there are items to select within a dropdown.
-
-#### Selected option
-
-An option that is visibly selected.
-
-#### Options list
-
-The grouping of related input options.
-
-#### Option
-
-A unique input option.
-
-[See base design specs](https://xd.adobe.com/view/1d1827c1-f08e-480d-806a-647a41a328bd-484b/grid)
+<docs-spacer size="small"></docs-spacer>
 
 </GridCol>
 
