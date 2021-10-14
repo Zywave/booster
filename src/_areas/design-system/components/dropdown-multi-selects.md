@@ -45,26 +45,28 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 - - -
 
-## Organizing the list
-
-Sort the list in a logical order. For instance, put the most selected option(s) at the top. In many cases we recommend alphabetical order.
+## Types
 
 #### Grouping
 
-![Spatial specs for options lists with grouping](/images/components/dropdown-multi-select/multiselect_grouping_specs.svg)
-
 * Sometimes you'll need to add grouping to a long list of options. Titles can break up options into groups to help users more easily locate them.
 
-#### Icons
+![Dropdown multi-select grouping](/images/multiselect_grouping_specs.svg)
 
-![Spatial specs for options lists with icons next to options](/images/components/dropdown-multi-select/multiselect_icon_specs.svg)
+<br>
+
+#### Icons
 
 * Use icons to distinguish between options.
 * Often icons are used when you have two different types of options in a list.
 
+![Dropdown multi-select icons](/images/multiselect_icon_specs.svg)
+
 - - -
 
 ## Behavior
+
+Sort the list in a logical order. For instance, put the most selected option(s) at the top. In many cases we recommend alphabetical order.
 
 ### Open / close
 
