@@ -17,10 +17,10 @@ There are 4 common steps used in the Builder pattern. Choose the steps that best
 
 The 4 steps include:
 
-* Kickoff
-* Setup
-* Data Entry
-* Generation
+* **Kickoff**
+* **Setup**
+* **Data Entry**
+* **Generation**
 
 For detailed documentation on our Builder steps, view the [Builder design specs](https://xd.adobe.com/view/918e997c-d5e3-4c4c-8cb5-491b6aeac31c-c4dd/grid).
 
@@ -160,7 +160,7 @@ Consider the following when configuring loading.
 
 ## Behavior
 
-### **Exiting and returning**
+#### **Exiting and returning**
 
 * Ideally, a user would complete a step flow in a single, uninterrupted session. However, sometimes, the user may want or need to leave before completing the step flow.
 
