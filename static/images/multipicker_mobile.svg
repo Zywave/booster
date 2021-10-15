@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="787" viewBox="0 0 485 787">
+  <defs>
+    <filter id="Rectangle_9995" x="17" y="30" width="452" height="749" filterUnits="userSpaceOnUse">
+      <feOffset dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="231" height="42" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-multipicker_mobile">
+      <rect width="485" height="787"/>
+    </clipPath>
+  </defs>
+  <g id="multipicker_mobile" clip-path="url(#clip-multipicker_mobile)">
+    <rect width="485" height="787" fill="#f4f4f6"/>
+    <g id="Group_267227" data-name="Group 267227" transform="translate(3)">
+      <rect id="Rectangle_10402" data-name="Rectangle 10402" width="485" height="787" transform="translate(-3)" fill="rgba(0,0,0,0.85)"/>
+      <g id="Group_267226" data-name="Group 267226" transform="translate(20 30)">
+        <g transform="matrix(1, 0, 0, 1, -23, -30)" filter="url(#Rectangle_9995)">
+          <rect id="Rectangle_9995-2" data-name="Rectangle 9995" width="440" height="727" transform="translate(23 30)" fill="#fff"/>
+        </g>
+        <path id="Line_18" data-name="Line 18" d="M380,.5H0v-1H380Z" transform="translate(30 171)" fill="#dbdbdb"/>
+        <g id="Group_264400" data-name="Group 264400" transform="translate(30 80)">
+          <rect id="Rectangle_3779" data-name="Rectangle 3779" width="380" height="42" rx="2" fill="#fff"/>
+          <path id="Rectangle_3779_-_Outline" data-name="Rectangle 3779 - Outline" d="M2,1A1,1,0,0,0,1,2V40a1,1,0,0,0,1,1H378a1,1,0,0,0,1-1V2a1,1,0,0,0-1-1H2M2,0H378a2,2,0,0,1,2,2V40a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#dbdbdb"/>
+          <text id="Search" transform="translate(14 27)" fill="#c6c6c6" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Search</tspan></text>
+          <path id="Rectangle_3780" data-name="Rectangle 3780" d="M0,0H41a1,1,0,0,1,1,1V39a1,1,0,0,1-1,1H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(337 1)" fill="#fafafa"/>
+          <rect id="Rectangle_3781" data-name="Rectangle 3781" width="1" height="40" transform="translate(337 1)" fill="#ebebeb"/>
+          <g id="Group_7480" data-name="Group 7480" transform="translate(347 9)">
+            <path id="Path_520" data-name="Path 520" d="M303.8,258.3l-5-5a6.354,6.354,0,0,0,1.1-4.9,6.471,6.471,0,0,0-5.6-5.3,6.53,6.53,0,0,0-2,12.9,6.914,6.914,0,0,0,4.9-1.1l5,5a1.088,1.088,0,0,0,1.5,0A1.222,1.222,0,0,0,303.8,258.3Zm-14.7-9.5a4.458,4.458,0,0,1,3.7-3.7,4.57,4.57,0,0,1,5.2,5.2,4.458,4.458,0,0,1-3.7,3.7A4.609,4.609,0,0,1,289.1,248.8Z" transform="translate(-284 -240)" fill="#5786bd"/>
+            <path id="Path_519" data-name="Path 519" d="M284.1,240h24v24h-24Z" transform="translate(-284 -240)" fill="none"/>
+            <rect id="Rectangle_304" data-name="Rectangle 304" width="24" height="24" fill="none"/>
+          </g>
+        </g>
+        <g id="Group_264402" data-name="Group 264402" transform="translate(30 142)">
+          <text id="Select_all" data-name="Select all" transform="translate(30 15)" fill="#5786bd" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-29.866" y="0">Select all</tspan></text>
+        </g>
+        <path id="Path_101235" data-name="Path 101235" d="M380,.5H0v-1H380Z" transform="translate(30 559)" fill="#dbdbdb"/>
+        <g id="Checkbox" transform="translate(30 191)">
+          <text id="ACA_Reporting" data-name="ACA Reporting" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ACA Reporting</tspan></text>
+          <g id="Unchecked">
+            <path id="Unchecked-2" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Checkbox-2" data-name="Checkbox" transform="translate(30 227)">
+          <text id="Client_Portal" data-name="Client Portal" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Client Portal</tspan></text>
+          <g id="Unchecked-3" data-name="Unchecked">
+            <path id="Unchecked-4" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Checkbox-3" data-name="Checkbox" transform="translate(30 263)">
+          <text id="Cobra_Notices_Generator" data-name="Cobra Notices Generator" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Cobra Notices Generator</tspan></text>
+          <g id="Unchecked-5" data-name="Unchecked">
+            <path id="Unchecked-6" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Checkbox-4" data-name="Checkbox" transform="translate(30 299)">
+          <text id="Compliance_Notice_Builder" data-name="Compliance Notice Builder" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Compliance Notice Builder</tspan></text>
+          <g id="Unchecked-7" data-name="Unchecked">
+            <path id="Unchecked-8" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Checkbox-5" data-name="Checkbox" transform="translate(30 335)">
+          <text id="Custom_Job_Description_Builder" data-name="Custom Job Description Builder" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Custom Job Description Builder</tspan></text>
+          <g id="Unchecked-9" data-name="Unchecked">
+            <path id="Unchecked-10" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Checkbox-6" data-name="Checkbox" transform="translate(30 371)">
+          <text id="Employee_Cost_Calculator" data-name="Employee Cost Calculator" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Employee Cost Calculator</tspan></text>
+          <g id="Unchecked-11" data-name="Unchecked">
+            <path id="Unchecked-12" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Checkbox-7" data-name="Checkbox" transform="translate(30 407)">
+          <text id="Employee_Handbook_Builder" data-name="Employee Handbook Builder" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Employee Handbook Builder</tspan></text>
+          <g id="Unchecked-13" data-name="Unchecked">
+            <path id="Unchecked-14" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Checkbox-8" data-name="Checkbox" transform="translate(30 443)">
+          <text id="Federal_Poster_Advisor" data-name="Federal Poster Advisor" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Federal Poster Advisor</tspan></text>
+          <g id="Unchecked-15" data-name="Unchecked">
+            <path id="Unchecked-16" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Pager_-_light" data-name="Pager - light" transform="translate(105 589)" clip-path="url(#clip-path)">
+          <g id="Group_7420" data-name="Group 7420" transform="translate(0 6)">
+            <text id="_1_of_33" data-name="1 of 33" transform="translate(43 17)" fill="#2777d3" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">1</tspan><tspan y="0" fill="#4aae59" font-family="SegoeUI, Segoe UI" font-weight="400"> </tspan><tspan y="0" fill="#9494a4" font-family="SegoeUI, Segoe UI" font-weight="400">of 33</tspan></text>
+            <rect id="Rectangle_3750" data-name="Rectangle 3750" width="80" height="3" transform="translate(34 27)" fill="#2777d3"/>
+            <g id="Group_7417" data-name="Group 7417">
+              <path id="Path_381" data-name="Path 381" d="M269.2,16.2,265,12l4.2-4.2a.967.967,0,0,0,0-1.4h0a.967.967,0,0,0-1.4,0l-4.2,4.2-.7.7a.967.967,0,0,0,0,1.4l.7.7,4.2,4.2a.967.967,0,0,0,1.4,0h0A.965.965,0,0,0,269.2,16.2Z" transform="translate(-254)" fill="#9494a4"/>
+              <rect id="Rectangle_173" data-name="Rectangle 173" width="24" height="24" fill="none"/>
+            </g>
+            <g id="Group_7419" data-name="Group 7419" transform="translate(148 24) rotate(180)">
+              <path id="Path_381-2" data-name="Path 381" d="M6.6,10.1,2.4,5.9,6.6,1.7A.967.967,0,0,0,6.6.3h0A.967.967,0,0,0,5.2.3L1,4.5l-.7.7a.967.967,0,0,0,0,1.4l.7.7,4.2,4.2a.967.967,0,0,0,1.4,0h0A.965.965,0,0,0,6.6,10.1Z" transform="translate(8.6 6.1)" fill="#9494a4"/>
+              <rect id="Rectangle_173-2" data-name="Rectangle 173" width="24" height="24" fill="none"/>
+            </g>
+            <g id="Group_7842" data-name="Group 7842" transform="translate(92)">
+              <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+              <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(-41)" fill="#9494a4"/>
+            </g>
+          </g>
+          <g id="Rectangle_3751" data-name="Rectangle 3751" transform="translate(166)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="65" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="64" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="_1" data-name="1" transform="translate(180 27)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">1</tspan></text>
+        </g>
+        <text id="Filter_by_applications" data-name="Filter by applications" transform="translate(30 58)" fill="#3d3d3d" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Filter by applications</tspan></text>
+        <g id="Actions" transform="translate(-90.31 661)">
+          <g id="Primary_Button" data-name="Primary Button" transform="translate(419.31)">
+            <rect id="Rectangle_3990" data-name="Rectangle 3990" width="81" height="36" rx="18" fill="#e6e6ea"/>
+            <text id="Confirm" transform="translate(15 23)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Confirm</tspan></text>
+          </g>
+          <g id="Link_Button_-_Normal" data-name="Link Button - Normal" transform="translate(337.31)">
+            <g id="Group_264143" data-name="Group 264143">
+              <rect id="Rectangle_6075" data-name="Rectangle 6075" width="72" height="36" rx="18" fill="rgba(255,255,255,0)"/>
+              <text id="Cancel" transform="translate(15 22)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Cancel</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g id="Checkbox-9" data-name="Checkbox" transform="translate(30 479)">
+          <text id="FMLA_Advisor" data-name="FMLA Advisor" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">FMLA Advisor</tspan></text>
+          <g id="Unchecked-17" data-name="Unchecked">
+            <path id="Unchecked-18" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+        <g id="Checkbox-10" data-name="Checkbox" transform="translate(30 515)">
+          <text id="Health_Plan_Compliance_Calendar" data-name="Health Plan Compliance Calendar" transform="translate(30 17)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Health Plan Compliance Calendar</tspan></text>
+          <g id="Unchecked-19" data-name="Unchecked">
+            <path id="Unchecked-20" data-name="Unchecked" d="M21,2.4a.567.567,0,0,1,.6.6V21a.567.567,0,0,1-.6.6H3a.567.567,0,0,1-.6-.6V3A.567.567,0,0,1,3,2.4H21M21,0H3A2.971,2.971,0,0,0,0,3V21a2.971,2.971,0,0,0,3,3H21a2.971,2.971,0,0,0,3-3V3a2.971,2.971,0,0,0-3-3Z" fill="#9494a4"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

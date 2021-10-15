@@ -119,12 +119,6 @@ To comply with Dialog standards, the Multi-picker actions should be placed in th
 
 ![Multi-picker - actions](/images/multipicker_actions.svg)
 
-<br>
-
-When the Multi-picker does not use a dialog, the actions should appear at the top right of the page aligned with the title.
-
-![Multi-picker - page](/images/multipicker_page.png)
-
 <hr>
 
 ## Behavior
@@ -138,7 +132,7 @@ Users can remove a selection using one of two methods:
 * * Clicking on the remove button (X icon) within the selection.
   * Unchecking the checkbox in the list of options.
 
-![Removing selections](/images/multipicker_removing-selections.png)
+![Multi-picker - removing selections](/images/multipicker_removing-selections.svg)
 
 <br>
 
@@ -146,7 +140,7 @@ Users can remove a selection using one of two methods:
 
 A "Select all" button provides an efficient way for the user to add all of the options into the selection list.
 
-![Select all button](/images/multipicker_select-all-button.png)
+![Multi-picker - select all button](/images/multipicker_select-all-button.svg)
 
 <br>
 
@@ -154,7 +148,7 @@ A "Select all" button provides an efficient way for the user to add all of the 
 
 A "Remove all" button provides an efficient way for the user to remove all selections, which will simultaneously uncheck all options in the list.
 
-![Remove all button](/images/multipicker_remove-all-button.png)
+![Multi-picker - remove all button](/images/multipicker_remove-all-button.svg)
 
 <hr>
 
@@ -162,13 +156,13 @@ A "Remove all" button provides an efficient way for the user to remove all sel
 
 When on a mobile device (breakpoint ≤480px) the Multi-picker option list reduces to just one column.
 
-![Multi-picker mobile](/images/multipicker_mobile.png)
+![Multi-picker - mobile](/images/multipicker_mobile.svg)
 
 <br>
 
 Selections will wrap to the next line. If a user has made a large number of selections, the page should scroll.
 
-![Multi-picker mobile selected](/images/multipicker_mobile_selected.png)
+![Multi-picker - mobile selected](/images/multipicker_mobile_selected.svg)
 
 <hr>
 
