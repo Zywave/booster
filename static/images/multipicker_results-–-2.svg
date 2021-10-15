@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="96" viewBox="0 0 485 96">
+  <defs>
+    <clipPath id="clip-multipicker_results_2">
+      <rect width="485" height="96"/>
+    </clipPath>
+  </defs>
+  <g id="multipicker_results_2" data-name="multipicker_results – 2" clip-path="url(#clip-multipicker_results_2)">
+    <rect width="485" height="96" fill="#f4f4f6"/>
+    <g id="Dropdown_Multi-Select-Side-NEW" data-name="Dropdown Multi-Select-Side-NEW" transform="translate(36 38)">
+      <text id="Applications" transform="translate(79 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-78.757" y="0">Applications</tspan></text>
+      <g id="Group_15054" data-name="Group 15054" transform="translate(-4601 -6429)">
+        <g id="Group_14579" data-name="Group 14579" transform="translate(4694 6394)">
+          <g id="Group_267154" data-name="Group 267154" transform="translate(-284 -657)">
+            <rect id="Rectangle_10401" data-name="Rectangle 10401" width="31" height="24" rx="3" transform="translate(488 690)" fill="#d0e2f6"/>
+            <text id="Employee_Handbook_Builder_" data-name="Employee Handbook Builder," transform="translate(299 707)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Employee Handbook Builder,</tspan></text>
+            <text id="_3" data-name="+3" transform="translate(495 707)" fill="#17477d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">+3</tspan></text>
+          </g>
+        </g>
+        <g id="Group_14726" data-name="Group 14726" transform="translate(1443 6078)">
+          <g id="Remove" transform="translate(3347 363)">
+            <g id="Remove-2" data-name="Remove" transform="translate(-8 -8)">
+              <rect id="Rectangle_8133" data-name="Rectangle 8133" width="10" height="10" fill="none"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Link_Button" data-name="Link Button" transform="translate(338 -8)">
+        <g id="Group_264143" data-name="Group 264143">
+          <rect id="Rectangle_6075" data-name="Rectangle 6075" width="70" height="36" rx="18" fill="rgba(255,255,255,0)"/>
+          <text id="Refine" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Refine</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

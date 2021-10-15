@@ -5,7 +5,7 @@ hideToc: false
 ---
 A Multi-picker allows users to make multiple selections by searching for specific items in a list. It is made up of other components to make selecting multiple options easy and fast.
 
-![Multi-picker - selected](/images/multipicker_selected.png)
+![Multi-picker - selected](/images/multipicker.svg)
 
 <br>
 
@@ -25,7 +25,7 @@ The following are the basic elements for creating a Multi-picker. For detailed 
 
 A Dialog can be used as the base to display all of the components within a multi-picker. For more information see [Dialog documentation](https://zui.zywave.com/components/dialogs/).
 
-![Dialog box](/images/dialog-box.png)
+![Multi-picker - dialog box](/images/multipicker_dialog.svg)
 
 <br>
 
@@ -35,19 +35,19 @@ There are some scenarios where it makes sense to display the results of selectio
 
 Display the result if few selections were made.
 
-![Multi-picker - results](/images/multipicker_results.png)
+![Multi-picker - results](/images/multipicker_results.svg)
 
 <br>
 
 If selections get too long or wrap to a new line, we recommend truncating the results to only show one selection and have an overflow pill with the number of truncated selections represent the rest.
 
-![Multi-picker - results 2](/images/multipicker_results-–-2.png)
+![Multi-picker - results 2](/images/multipicker_results-–-2.svg)
 
 <br>
 
 Use a Tooltip to display the rest of the results on hover. If the results are longer than 45 characters, remove the tooltip and only allow the user to view the results in the multi-picker.
 
-![Multi-picker - results 3](/images/multipicker_results-–-3.png)
+![Multi-picker - results 3](/images/multipicker_results-–-3.svg)
 
 <br>
 
@@ -55,7 +55,7 @@ Use a Tooltip to display the rest of the results on hover. If the results are lo
 
 Use a search to filter a long list of options. Typeahead is optional, but recommended, to provide suggestions for a more efficient experience. For more information [Typeahead documentation](https://zui.zywave.com/patterns/typeahead/).
 
-![Search](/images/multipicker_search.png)
+![Multi-picker - search](/images/multipicker_search.svg)
 
 <br>
 
@@ -63,7 +63,7 @@ Use a search to filter a long list of options. Typeahead is optional, but recom
 
 Once an option is checked, it becomes a selection. Selections are visually defined by the encapsulation of the label in a gray rectangle accompanied by the remove button (X icon). Selections can be removed by clicking the remove button.
 
-![Tag](/images/multipicker_tags.png)
+![Multi-picker - tags](/images/multipicker_tags.svg)
 
 <br>
 
@@ -71,7 +71,7 @@ Once an option is checked, it becomes a selection. Selections are visually defi
 
 Checkboxes are used to represent options in a Multi-picker list. More than one option can be checked. To remove a selection, uncheck the checkbox. For more information see [Checkbox documentation](https://zui.zywave.com/components/checkboxes/).
 
-![List of options](/images/multipicker_checkboxes.png)
+![Multi-picker - list of options](/images/multipicker_checkboxes.svg)
 
 <br>
 
@@ -79,7 +79,7 @@ Checkboxes are used to represent options in a Multi-picker list. More than one o
 
 Use a pager when the list of options is larger than 20 options in a two-column list. Use your judgment as the height of the list of options will vary based on screen size.
 
-![Pager](/images/multipicker_pager.png)
+![Multi-picker - pager](/images/multipicker_pager.svg)
 
 <hr>
 
@@ -109,7 +109,7 @@ Display the list of options in two columns when the list exceeds 10 options. If
 
 #### Two-column list with pager
 
-![Multi-picker list](/images/multipicker_unselected.png)
+![Multi-picker - two-column list](/images/multipicker_unselected.svg)
 
 <br>
 
@@ -117,7 +117,7 @@ Display the list of options in two columns when the list exceeds 10 options. If
 
 To comply with Dialog standards, the Multi-picker actions should be placed in the footer of the Dialog.
 
-![Multi-picker - actions](/images/multipicker_actions.png)
+![Multi-picker - actions](/images/multipicker_actions.svg)
 
 <br>
 

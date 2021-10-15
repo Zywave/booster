@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="102" viewBox="0 0 485 102">
+  <defs>
+    <clipPath id="clip-multipicker_pager">
+      <rect width="485" height="102"/>
+    </clipPath>
+  </defs>
+  <g id="multipicker_pager" clip-path="url(#clip-multipicker_pager)">
+    <rect width="485" height="102" fill="#f4f4f6"/>
+    <g id="Group_264401" data-name="Group 264401" transform="translate(20 30)">
+      <g id="Group_7421" data-name="Group 7421" transform="translate(0 6)">
+        <rect id="Rectangle_3731" data-name="Rectangle 3731" width="168" height="1" transform="translate(76 28)" fill="#999"/>
+        <rect id="Rectangle_3749" data-name="Rectangle 3749" width="42" height="1" transform="translate(286 28)" fill="#999"/>
+        <text id="_1" data-name="1" transform="translate(51 15)" fill="#2777d3" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+        <text id="_2" data-name="2" transform="translate(93 15)" fill="#5b5b5b" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">2</tspan></text>
+        <text id="_3" data-name="3" transform="translate(135 15)" fill="#5b5b5b" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">3</tspan></text>
+        <text id="_4" data-name="4" transform="translate(177 15)" fill="#5b5b5b" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">4</tspan></text>
+        <text id="_5" data-name="5" transform="translate(219 15)" fill="#5b5b5b" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">5</tspan></text>
+        <text id="_33" data-name="33" transform="translate(299 15)" fill="#5b5b5b" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">33</tspan></text>
+        <text id="_..." data-name="..." transform="translate(261 15)" fill="#5b5b5b" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">...</tspan></text>
+        <rect id="Rectangle_3732" data-name="Rectangle 3732" width="42" height="3" transform="translate(34 26)" fill="#2777d3"/>
+        <g id="Group_7415" data-name="Group 7415">
+          <path id="Path_381" data-name="Path 381" d="M269.2,16.2,265,12l4.2-4.2a.967.967,0,0,0,0-1.4h0a.967.967,0,0,0-1.4,0l-4.2,4.2-.7.7a.967.967,0,0,0,0,1.4l.7.7,4.2,4.2a.967.967,0,0,0,1.4,0h0A.965.965,0,0,0,269.2,16.2Z" transform="translate(-254)" fill="#999"/>
+          <rect id="Rectangle_173" data-name="Rectangle 173" width="24" height="24" fill="none"/>
+        </g>
+        <g id="Group_7416" data-name="Group 7416" transform="translate(362 24) rotate(180)">
+          <path id="Path_381-2" data-name="Path 381" d="M6.6,10.1,2.4,5.9,6.6,1.7A.967.967,0,0,0,6.6.3h0A.967.967,0,0,0,5.2.3L1,4.5l-.7.7a.967.967,0,0,0,0,1.4l.7.7,4.2,4.2a.967.967,0,0,0,1.4,0h0A.965.965,0,0,0,6.6,10.1Z" transform="translate(8.6 6.1)" fill="#999"/>
+          <rect id="Rectangle_173-2" data-name="Rectangle 173" width="24" height="24" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_3752" data-name="Rectangle 3752" width="65" height="42" rx="2" transform="translate(380)" fill="#fff"/>
+      <path id="Rectangle_3752_-_Outline" data-name="Rectangle 3752 - Outline" d="M2,1A1,1,0,0,0,1,2V40a1,1,0,0,0,1,1H63a1,1,0,0,0,1-1V2a1,1,0,0,0-1-1H2M2,0H63a2,2,0,0,1,2,2V40a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(380)" fill="#dbdbdb"/>
+      <text id="_1-2" data-name="1" transform="translate(394 27)" fill="#3d3d3d" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>
