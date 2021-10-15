@@ -24,9 +24,9 @@ The anatomy of a dropdown multi-select.
 
 ![Dropdown multi-select anatomy](/images/multi_select_anatomy.svg)
 
-1. **Input:** The field designated for selecting an individual option from a grouping of related options.
+1. **Input:** The form field where the user can select one or more options from a list
 2. **Selection tag**: Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle.
-3. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
+3. **Chevron:** The chevron icon indicates there are options available in a dropdown list.
 4. **Option list:** The grouping of related input options.
 5. **Option:** A unique input option.
 6. **Option checkbox:** A selectable checkbox beside an option.
@@ -73,7 +73,7 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/g
 
 ## Behavior
 
-Sort the list in a logical order. For instance, put the most selected option(s) at the top. In many cases we recommend alphabetical order.
+Sort the list in a logical order. For instance, alphabetical order or put the most selected option(s) at the top.
 
 #### Open / close
 
