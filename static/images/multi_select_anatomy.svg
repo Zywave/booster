@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="424" viewBox="0 0 1000 424">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="457" viewBox="0 0 1000 457">
   <defs>
-    <filter id="Rectangle_4576" x="298" y="90" width="418" height="316" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_4576" x="298" y="123" width="418" height="316" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -11,14 +11,14 @@
       <rect width="24" height="24" fill="none"/>
     </clipPath>
     <clipPath id="clip-multi_select_anatomy">
-      <rect width="1000" height="424"/>
+      <rect width="1000" height="457"/>
     </clipPath>
   </defs>
   <g id="multi_select_anatomy" clip-path="url(#clip-multi_select_anatomy)">
-    <rect width="1000" height="424" fill="#f4f4f6"/>
-    <g id="Group_15383" data-name="Group 15383" transform="translate(132 -37)">
-      <g transform="matrix(1, 0, 0, 1, -132, 37)" filter="url(#Rectangle_4576)">
-        <rect id="Rectangle_4576-2" data-name="Rectangle 4576" width="400" height="298" rx="4" transform="translate(307 96)" fill="#fff"/>
+    <rect width="1000" height="457" fill="#f4f4f6"/>
+    <g id="Group_15383" data-name="Group 15383" transform="translate(132 -4)">
+      <g transform="matrix(1, 0, 0, 1, -132, 4)" filter="url(#Rectangle_4576)">
+        <rect id="Rectangle_4576-2" data-name="Rectangle 4576" width="400" height="298" rx="4" transform="translate(307 129)" fill="#fff"/>
       </g>
       <text id="Florida" transform="translate(220 414)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Florida</tspan></text>
       <rect id="Rectangle_4574" data-name="Rectangle 4574" width="400" height="42" rx="4" transform="translate(175 91)" fill="#fff"/>
@@ -103,27 +103,32 @@
             <path id="Path_7-2" data-name="Path 7" d="M0,0H1V293.522H0Z" transform="translate(130 0.75)" fill="#17987c"/>
           </g>
         </g>
-        <text id="_3" data-name="3" transform="translate(76 501.626)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">3</tspan></text>
+        <text id="_4" data-name="4" transform="translate(76 501.626)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">4</tspan></text>
       </g>
       <g id="Group_15375" data-name="Group 15375" transform="translate(126 324.5)">
         <path id="Path_4" data-name="Path 4" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" fill="#17987c"/>
         <path id="Path_6" data-name="Path 6" d="M0,0H1V39H0Z" transform="translate(23 12) rotate(-90)" fill="#17987c"/>
-        <text id="_4" data-name="4" transform="translate(8 17)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">4</tspan></text>
+        <text id="_5" data-name="5" transform="translate(8 17)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">5</tspan></text>
       </g>
       <g id="Group_15373" data-name="Group 15373" transform="translate(565 100)">
         <path id="Path_4-2" data-name="Path 4" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Z" transform="translate(38)" fill="#17987c"/>
         <path id="Path_6-2" data-name="Path 6" d="M0,39H1V0H0Z" transform="translate(0 12) rotate(-90)" fill="#17987c"/>
-        <text id="_2" data-name="2" transform="translate(46 17)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">2</tspan></text>
+        <text id="_3" data-name="3" transform="translate(46 17)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">3</tspan></text>
       </g>
       <g id="Group_15376" data-name="Group 15376" transform="translate(569 179)">
         <path id="Path_4-3" data-name="Path 4" d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Z" transform="translate(38)" fill="#17987c"/>
         <path id="Path_6-3" data-name="Path 6" d="M0,39H1V0H0Z" transform="translate(0 12) rotate(-90)" fill="#17987c"/>
-        <text id="_6" data-name="6" transform="translate(46 17)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">6</tspan></text>
+        <text id="_7" data-name="7" transform="translate(46 17)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">7</tspan></text>
       </g>
       <g id="Group_15382" data-name="Group 15382" transform="translate(126 360.5)">
         <path id="Path_4-4" data-name="Path 4" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" fill="#17987c"/>
         <path id="Path_6-4" data-name="Path 6" d="M0,0H1V33.39H0Z" transform="translate(23 12) rotate(-90)" fill="#17987c"/>
-        <text id="_5" data-name="5" transform="translate(8 17)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">5</tspan></text>
+        <text id="_6" data-name="6" transform="translate(8 17)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">6</tspan></text>
+      </g>
+      <g id="Group_15389" data-name="Group 15389" transform="translate(248 34) rotate(90)">
+        <path id="Path_4-5" data-name="Path 4" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" fill="#17987c"/>
+        <path id="Path_6-5" data-name="Path 6" d="M0,0H1V39H0Z" transform="translate(23 12) rotate(-90)" fill="#17987c"/>
+        <text id="_2" data-name="2" transform="translate(17.5 16) rotate(-90)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">2</tspan></text>
       </g>
     </g>
   </g>

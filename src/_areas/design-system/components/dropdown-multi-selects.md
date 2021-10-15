@@ -25,11 +25,12 @@ The anatomy of a dropdown multi-select.
 ![Dropdown multi-select anatomy](/images/multi_select_anatomy.svg)
 
 1. **Input:** The field designated for selecting an individual option from a grouping of related options.
-2. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
-3. **Option list:** The grouping of related input options.
-4. **Option:** A unique input option.
-5. **Option checkbox:** A selectable checkbox beside an option.
-6. **Scrollbar**: A bar used to scroll to view more options
+2. **Selection tag**: Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle.
+3. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
+4. **Option list:** The grouping of related input options.
+5. **Option:** A unique input option.
+6. **Option checkbox:** A selectable checkbox beside an option.
+7. **Scrollbar**: A bar used to scroll to view more options
 
 <br>
 
