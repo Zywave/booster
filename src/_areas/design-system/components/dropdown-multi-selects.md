@@ -10,15 +10,9 @@ includedElements:
   - zui-option
   - zui-option-group
 ---
-## What is a Dropdown multi-select?
-
-A Dropdown multi-select is a type of input field in which a user fills an input box with one or many items from a list of acceptable inputs.
-
-- - -
-
 ## Usage
 
-Appropriate for lists larger than 2 options that may require a user to select more than 1 option.
+A form control used when there are more than 2 options and may require a user to select more than 1 option.
 
 ![Dropdown multi-select usage](/images/multi_select_usage.svg)
 
