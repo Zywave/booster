@@ -2,7 +2,10 @@
 {%- for post in collections.blogPosts -%}
   <li class="card"><a href="{{ post.url }}">
       <h2>{{ post.data.title }}</h2>
-      <div>{{ post.data.description }}</div>
+      <div class="details">
+        <time datetime="{{ post.date | machineDate }}">{{ post.date | readableDate }}</time>
+        <div>{{ post.data.description }}</div>
+      </div>
   </a></li>
 {%- endfor -%}
 </ul>

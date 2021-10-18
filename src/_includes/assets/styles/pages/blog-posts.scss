@@ -23,6 +23,8 @@
         }
   
         h2 {
+          margin: 0;
+          padding-bottom: rem(16);
           font-size: rem(26);
         }
   
@@ -30,86 +32,9 @@
           font-size: rem(16);
           font-weight: 600;
         }
-  
-        &.primary {
-          grid-column: span 12;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: rem(20);
-          justify-items: start;
-          align-items: center;
-  
-          @media screen and (min-width: 60em) {
-            grid-column: span 6;
-            gap: rem(30);
-            justify-items: center;
-          }
-  
-          @media screen and (min-width: 64em) {
-            justify-items: start;
-          }
-  
-          img {
-            @media screen and (min-width: 60em) {
-              grid-column: span 3;
-            }
-  
-            @media screen and (min-width: 64em) {
-              grid-column: span 1;
-            }
-          }
-  
-          .text {
-            grid-column: span 2;
-            margin: rem(20) 0;
-  
-            @media screen and (min-width: 60em) {
-              grid-column: span 3;
-              margin: 0;
-            }
-  
-            @media screen and (min-width: 64em) {
-              grid-column: span 2;
-              margin: rem(3) 0;
-            }
-          }
-  
-          &.design-system a {
-            color: var(--docs-orange-color);
-  
-            &:hover {
-              color: hsl(
-                var(--docs-orange-color-h),
-                var(--docs-orange-color-s),
-                65%
-              );
-            }
-  
-            &:focus {
-              outline: 1px solid var(--docs-orange-color);
-              outline-offset: rem(4);
-              text-decoration: none;
-            }
-  
-            &:active {
-              outline: none;
-              color: hsl(
-                var(--docs-orange-color-h),
-                var(--docs-orange-color-s),
-                45%
-              );
-              text-decoration: underline;
-            }
-          }
-        }
-  
-        &.secondary {
-          flex-direction: column;
-          grid-column: span 12;
-  
-          @media screen and (min-width: 64em) {
-            grid-column: span 4;
-          }
+
+        .details {
+          color: black;
         }
       }
 }

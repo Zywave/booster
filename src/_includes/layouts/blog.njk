@@ -20,6 +20,8 @@ layout: no-nav-base
     </zui-breadcrumb>
   </zui-breadcrumbs>
   <h1 class="component-header">{{ title }}</h1>
-  <h2 class="component-subheader">{{ subtitle }}</h2>
+  <p>
+    <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
+  </p>
   {{ content | safe }}
 </article>
