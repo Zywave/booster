@@ -27,6 +27,7 @@ layout: nav-base
     getUrlNoHash,
     createClipboardCopyIconElement
   } from '@booster/utils/component-docs-helpers.js';
+  import { EventBus } from '@booster/event-bus.js';
 
   // load <algolia-customelement-manifest-element> code if context is 'Algolia Crawler'
   if (navigator.userAgent.includes('Algolia Crawler')) import('./js/web-components/algolia-customelement-manifest-element.js');
@@ -73,15 +74,20 @@ layout: nav-base
     } else {
       showApiTabContent(tabsEl);
     }
+
     // usage tab, generate copy to clipboard links, append inside headers
-    const headers = document.querySelectorAll('#usage h1, #usage h2, #usage h3, #usage h4');
-    headers.forEach(function (header) {
-      header.appendChild(createClipboardCopyIconElement(`${
-        getUrlNoHash()
-      }#${
-        header.id
-      }`));
-    });
+    if (!EventBus.instance.wasCopyToClipboardComponentAddedToDom) {
+      const headers = document.querySelectorAll('#usage h1, #usage h2, #usage h3');
+      headers.forEach(function (header) {
+        header.appendChild(createClipboardCopyIconElement(`${
+          getUrlNoHash()
+        }#${
+          header.id
+        }`));
+      });
+      EventBus.instance.wasCopyToClipboardComponentAddedToDom = true;
+    }
+
     // api tab, apply camelcase attributes to 'customelement-manifest-element', as declarative way is lowercase attribute
     // names
     const manifestEl = document.querySelector('customelement-manifest-element');
