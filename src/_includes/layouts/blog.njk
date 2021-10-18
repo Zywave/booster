@@ -12,10 +12,14 @@ layout: no-nav-base
 <script type="module" src="{{ "js/web-components/docs-spacer.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/docs-grid.js" | url }}"></script>
 
-<h1 class="component-header">{{ title }}</h1>
 
-<h2 class="component-subheader">{{ subtitle }}</h2>
-
-<section class="zui content area">
+<article class="zui content-area slim">
+  <zui-breadcrumbs>
+    <zui-breadcrumb>
+      <a href="{{ '/blog/' | url }}">Blogs</a>
+    </zui-breadcrumb>
+  </zui-breadcrumbs>
+  <h1 class="component-header">{{ title }}</h1>
+  <h2 class="component-subheader">{{ subtitle }}</h2>
   {{ content | safe }}
-</section>
+</article>

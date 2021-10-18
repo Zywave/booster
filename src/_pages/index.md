@@ -15,6 +15,7 @@ subtitle: " "
                     <li><a href="{{ '/coming-soon/' | url }}">Getting started</a></li>
                     <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
                     <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
+                    <li><a href="{{ '/blog/' | url }}">Blog</a></li>
                     <li><a target="_blank" href="https://thenewz.zywave.com/wp-content/uploads/2020/08/Zywave-Brand-Guide.pdf">Branding</a></li>
                 </ul>
             </nav>
