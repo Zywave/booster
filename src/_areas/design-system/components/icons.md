@@ -1996,8 +1996,12 @@ zui-fs-mp4
 
 </docs-grid>
 
+<hr>
+
 <h2>Deprecated icons</h2>
 <br />
+<style>table.zui.table td { text-transform: none !important; }</style>
+
 <table class="zui table">
   <thead>
     <tr>
