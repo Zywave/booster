@@ -42,7 +42,7 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/g
 
 #### Grouping
 
-* Sometimes you'll need to add grouping to a long list of options. Titles can break up options into groups to help users more easily locate them.
+* Titles can break up options into logical groups to help users scan the options more easily.
 
 ![Dropdown multi-select grouping](/images/multiselect_grouping_specs.svg)
 
@@ -51,7 +51,6 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/g
 #### Icons
 
 * Use icons to distinguish between options.
-* Often icons are used when you have two different types of options in a list.
 
 ![Dropdown multi-select icons](/images/multiselect_icon_specs.svg)
 
