@@ -1998,7 +1998,9 @@ zui-fs-mp4
 
 <hr>
 
-<h2>Deprecated icons</h2>
+## Deprecated icons
+
+
 <br />
 <style>table.zui.table td { text-transform: none !important; }</style>
 
