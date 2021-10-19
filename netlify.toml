@@ -44,7 +44,7 @@ package = "netlify-plugin-rss"
 [headers.values]
   X-Frame-Options = "DENY"
   X-XSS-Protection = "1; mode=block"
-  Content-Security-Policy = "script-src 'self' blob: cdn.zywave.com identity.netlify.com netlify-cdp-loader.netlify.app 'unsafe-eval' 'unsafe-inline';style-src 'self' cdn.zywave.com 'unsafe-inline';frame-src 'self'"
+  Content-Security-Policy = "script-src 'self' blob: unpkg.com cdn.zywave.com identity.netlify.com netlify-cdp-loader.netlify.app 'unsafe-eval' 'unsafe-inline';style-src 'self' unpkg.com cdn.zywave.com 'unsafe-inline';frame-src 'self'"
 
 # Redirects and headers are GLOBAL for all builds – they do not get scoped to
 # contexts no matter where you define them in the file.
