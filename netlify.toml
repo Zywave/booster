@@ -14,7 +14,7 @@ package = "@algolia/netlify-plugin-crawler"
 package = "netlify-plugin-rss"
   [plugins.inputs]
   # required configs, customize as needed
-  dirToScan = "/_site/blog/posts" # a subfolder to scan. "/" to scan all
+  dirToScan = "/blog/posts" # a subfolder to scan. "/" to scan all
   authorName = "Zywave, Inc."
   site_url = "https://booster.zywave.dev"
   title = "Booster Blog RSS Feed"
