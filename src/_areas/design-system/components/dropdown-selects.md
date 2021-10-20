@@ -46,7 +46,7 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 #### Grouping
 
-* Sometimes you'll need to add grouping to a long list of options. Titles can break up options into groups to help users more easily locate them.
+* Titles can break up options into logical groups to help users scan the options more easily.
 
 ![Dropdown select grouping](/images/select_grouping_specs.svg)
 
@@ -54,9 +54,7 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 #### Icons
 
-* Icons may be used beside select options; they should assist by making selection easier for users.
 * Use icons to distinguish between options.
-* Often icons are used when you have two different types of options in a list.
 
 ![Dropdown select icons](/images/select_icon_specs.svg)
 
@@ -66,9 +64,13 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 #### Input states
 
+Dropdown select has six states—unselected, hover, focused, active, selected and disabled.
+
 ![Dropdown select states](/images/select_states.svg)
 
 #### Option list states
+
+Dropdown select option list has three states—selected, hover and disabled.
 
 ![Dropdown select list states](/images/select_list_states.svg)
 
