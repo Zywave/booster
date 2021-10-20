@@ -7,6 +7,9 @@
 	<link rel="icon" href="./favicon.ico" />
 	<link rel="dns-prefetch" href="https://identity.netlify.com">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% if description %}
+	<meta name="description" content="{{ description }}">
+	{% endif %}
 	<title>{{ component.commonName or renderData.title or title }}</title>
 	{# njk var set below, njk templating doesn't play well within 'script' tags #}
 	{% set moduleFolder = "/js/" | url %}
