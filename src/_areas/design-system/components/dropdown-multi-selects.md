@@ -60,11 +60,15 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/g
 
 #### Input states
 
+Dropdown multi-select has seven states—unselected, hover, focused, active, selected focused, selected and disabled.
+
 ![Dropdown multi-select states](/images/multiselect_states.svg)
 
 <br>
 
 #### Option list states
+
+Dropdown multi-select option list has three states—selected, hover and disabled.
 
 ![Dropdown multi-select list states](/images/multiselect_list_states.svg)
 
