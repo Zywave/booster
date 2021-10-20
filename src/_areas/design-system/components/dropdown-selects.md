@@ -114,7 +114,7 @@ Users on mobile and touch devices should not see our styling; instead the defaul
 
 ## Best practices
 
-* Label text is used to inform users as to what information is requested for a dropdown. Every input should have a label.
+* Every input should have a label. Label text is used to inform users as to what information is requested for a dropdown.
 
 - - -
 
