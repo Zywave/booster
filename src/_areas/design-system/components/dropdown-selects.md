@@ -64,13 +64,13 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 #### Input states
 
-Dropdown select has six states—unselected, hover, focused, active, selected and disabled.
+Dropdown select can display the following states: unselected, hover, focused, active, selected and disabled.
 
 ![Dropdown select states](/images/select_states.svg)
 
 #### Option list states
 
-Dropdown select option list has three states—selected, hover and disabled.
+Dropdown select option list can display the following states: selected, hover and disabled.
 
 ![Dropdown select list states](/images/select_list_states.svg)
 
@@ -109,6 +109,12 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 #### Mobile
 
 Users on mobile and touch devices should not see our styling; instead the default styles native to the device should override ours, as these typically provide a better UX as they're designed for use on that particular device.
+
+- - -
+
+## Best practices
+
+* Label text is used to inform users as to what information is requested for a dropdown. Every input should have a label.
 
 - - -
 
