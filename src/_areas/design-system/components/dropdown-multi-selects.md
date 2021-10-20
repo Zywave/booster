@@ -60,7 +60,7 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/g
 
 #### Input states
 
-Dropdown multi-select has seven states—unselected, hover, focused, active, selected focused, selected and disabled.
+Dropdown multi-select can display the following states: unselected, hover, focused, active, selected focused, selected and disabled.
 
 ![Dropdown multi-select states](/images/multiselect_states.svg)
 
@@ -68,7 +68,7 @@ Dropdown multi-select has seven states—unselected, hover, focused, active, sel
 
 #### Option list states
 
-Dropdown multi-select option list has three states—selected, hover and disabled.
+Dropdown multi-select option list can display the following states: selected, hover and disabled.
 
 ![Dropdown multi-select list states](/images/multiselect_list_states.svg)
 
@@ -121,6 +121,12 @@ Sort the list in a logical order. For instance, alphabetical order or put the mo
 #### Mobile
 
 Users on mobile and touch devices should not see our styling; instead the default styles native to the device should override ours, as these typically provide a better UX as they're designed for use on that particular device.
+
+- - -
+
+## Best practices
+
+* Every input should have a label. Label text is used to inform users as to what information is requested for a dropdown.
 
 - - -
 
