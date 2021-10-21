@@ -1,7 +1,7 @@
 # Eleventy Documentation Site Builder
 
-## Demo link
-[https://devkit.gitlab.zywave.com/zui/docs/](http://devkit.gitlab.zywave.com/zui/docs/)
+## Website link
+[https://booster.zywave.dev](http://booster.zywave.dev)
 
 ## What is it?
 
