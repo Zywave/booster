@@ -20,7 +20,6 @@
     let ComponentsPreview = createClass({
       componentDidMount() {
         const { document } = this.props;
-        const script = document.createElement('script');
         const docsCustomElementsFiles = [
           "/js/web-components/docs-do.js",
           "/js/web-components/docs-do-not.js",
@@ -29,9 +28,10 @@
         ];
         
         docsCustomElementsFiles.forEach(file => {
+          const script = document.createElement('script');
           script.type = "module";
           script.src = file;
-          document.head.appendChild(script.cloneNode(true));
+          document.head.appendChild(script);
         });
       },
       render: function () {
