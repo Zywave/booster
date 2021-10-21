@@ -26,7 +26,9 @@ Popovers should be used:
 
 ![Popover anatomy](/images/popover_anatomy.svg)
 
-Popovers consist of a shape background, shadow, text, and can include a variety of components. For detailed documentation on our popover anatomy, view the [ZUI popover design specs](https://xd.adobe.com/view/35952280-c758-4fd8-6dc4-07f88b1fe619-43a4/grid).
+Popovers consist of a shape background, shadow, text, and can include a variety of components.
+
+<br>
 
 #### Required
 
@@ -36,7 +38,11 @@ Popovers must always include a blue top bar, a close button in the top right, an
 
 Popovers can include primary and secondary buttons for walkthroughs, and text links to link users to more information.
 
-<hr>
+<br>
+
+See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid)[Design specs](https://xd.adobe.com/view/b5414570-9452-427d-9b19-a96778f43874-e012/grid) for detailed sizing and spacing information
+
+- - -
 
 ## States
 
@@ -58,7 +64,7 @@ Focus state appears when the action is currently selected and awaiting activity.
 
 Pressed state occurs when a user clicks (or hits enter on a keyboard). This state only appears briefly while the page/action is loading.
 
-<hr>
+- - -
 
 ## Positioning
 
@@ -67,7 +73,7 @@ Pressed state occurs when a user clicks (or hits enter on a keyboard). This stat
 * The popover positioning will default to the right of whatever page element is being clicked.
 * Special use cases may arrive in which the bottom, top, and left tooltip positions may be used if there is not sufficient space to display the popover, such as a top bar popover.
 
-<hr>
+- - -
 
 ## Best practices
 
