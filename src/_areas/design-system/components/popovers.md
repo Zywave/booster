@@ -26,11 +26,11 @@ Popovers should be used:
 
 Popovers consist of a shape background, shadow, text, and can include a variety of components. For detailed documentation on our popover anatomy, view the [ZUI popover design specs](https://xd.adobe.com/view/35952280-c758-4fd8-6dc4-07f88b1fe619-43a4/grid).
 
-### Required
+#### Required
 
 Popovers must always include a blue top bar, a close button in the top right, and either header text or body text to provide information.
 
-### Optional
+#### Optional
 
 Popovers can include primary and secondary buttons for walkthroughs, and text links to link users to more information.
 
@@ -40,19 +40,19 @@ Popovers can include primary and secondary buttons for walkthroughs, and text li
 
 ![Image of popover states](/images/components/popovers/popover_states.svg)
 
-### Normal
+#### Default
 
 Normal state is the initial state of the popover when it first appears and before any action is taken.
 
-### Hover
+#### Hover
 
 Hover state occurs when the user hovers over the action with their mouse.
 
-### Focus
+#### Focus
 
 Focus state appears when the action is currently selected and awaiting activity. This commonly occurs when using a keyboard to navigate.
 
-### Pressed
+#### Pressed
 
 Pressed state occurs when a user clicks (or hits enter on a keyboard). This state only appears briefly while the page/action is loading.
 
