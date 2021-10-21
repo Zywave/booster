@@ -18,6 +18,22 @@
     CMS.registerPreviewStyle("/css/styles.css");
 
     let ComponentsPreview = createClass({
+      componentDidMount() {
+        const { document } = this.props;
+        const script = document.createElement('script');
+        const docsCustomElementsFiles = [
+          "/js/web-components/docs-do.js",
+          "/js/web-components/docs-do-not.js",
+          "/js/web-components/docs-spacer.js",
+          "/js/web-components/docs-grid.js"
+        ];
+        
+        docsCustomElementsFiles.forEach(file => {
+          script.type = "module";
+          script.src = file;
+          document.head.appendChild(script.cloneNode(true));
+        });
+      }
       render: function () {
         return h('main', {},
           h('div', { "className": "content-wrapper" },
