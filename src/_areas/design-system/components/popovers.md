@@ -1,27 +1,22 @@
 ---
-api: 
-demo: 
-mainComponentName: 
-includedElements: []
 title: Popovers
 subtitle: Unobstrusive messages that the user with more details.
+api: https://cdn.zywave.com/@zywave/zui-popover@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-popover@next/demo/index.html
+mainComponentName: zui-popover
+includedElements: []
 ---
-
 ## Usage
 
 Popovers are unobtrusive messages that provide the user with more detailed information when clicking on a page element. Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links. Popovers also trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
 
 Popovers should be used:
 
-- to help users understand unknown or unfamiliar controls, features, or workflows that are not described directly on the page.
-- to provide information to users when they need it, and to help free up screen space.
-- when more detailed information is needed, such as a header and multiple lines of body text.
-- to provide more actions to the user, such as a walkthrough or text link.
-- when the content needs to remain open without being moused over.
-
-### Alternate considerations
-
-A [tooltip](/design-system/components/tooltips/) may be the appropriate component if the message is a small text hint explaining the anchored element, if the message needs to only be visible on hover, and if the message can disappear when the user moves away from the element.
+* to help users understand unknown or unfamiliar controls, features, or workflows that are not described directly on the page.
+* to provide information to users when they need it, and to help free up screen space.
+* when more detailed information is needed, such as a header and multiple lines of body text.
+* to provide more actions to the user, such as a walkthrough or text link.
+* when the content needs to remain open without being moused over.
 
 <hr>
 
@@ -67,8 +62,8 @@ Pressed state occurs when a user clicks (or hits enter on a keyboard). This stat
 
 ![Image of popover positioning](/images/components/popovers/popover_positioning.svg)
 
-- The popover positioning will default to the right of whatever page element is being clicked.
-- Special use cases may arrive in which the bottom, top, and left tooltip positions may be used if there is not sufficient space to display the popover, such as a top bar popover.
+* The popover positioning will default to the right of whatever page element is being clicked.
+* Special use cases may arrive in which the bottom, top, and left tooltip positions may be used if there is not sufficient space to display the popover, such as a top bar popover.
 
 <hr>
 
@@ -94,6 +89,8 @@ A popover can hold more detailed information and multiple lines of text.
 
 A tooltip should not contain detailed information and multiple lines of text.
 
-</GridCol>
+- - -
 
-</Grid>
+## Alternate considerations
+
+* A [tooltip](/design-system/components/tooltips/) may be the appropriate component if the message is a small text hint explaining the anchored element, if the message needs to only be visible on hover, and if the message can disappear when the user moves away from the element.
