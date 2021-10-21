@@ -135,7 +135,7 @@ layout: nav-base
   <div id="usage" class="zui row align-start" style="display: none;" aria-hidden="true">
     <div class="documentation">{{ content | safe }}</div>
     {% if not hideToc %}
-    <quick-links query="#usage h1, #usage h2, #usage h3, #usage h4"></quick-links>
+    <quick-links hierarchical="true" query="#usage h1, #usage h2, #usage h3, #usage h4"></quick-links>
     {% endif %}
   </div>
 </section>

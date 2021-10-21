@@ -72,13 +72,15 @@ customElements.define(
   "quick-links",
   class QuickLinks extends HTMLElement {
     query: QuickLinksTypes["query"] = null;
+    hierarchical = false;
 
     static get observedAttributes() {
-      return ["query"];
+      return ["query", "hierarchical"];
     }
 
     connectedCallback() {
       this.query = this.getAttribute("query");
+      this.hierarchical = this.getAttribute("hierarchical") ? true : false;
       this.render();
       EventBus.instance.addEventListener(
         "markup-loaded",
@@ -114,6 +116,12 @@ customElements.define(
       }, 50);
     }
 
+    renderListItem(element: Element) {
+      return `<li ${this.doesUrlHaveHash(element.id) ? `aria-current="current"` : ``}>
+        <a href="${this.getUrlNoHash()}#${element.id}">${element.childNodes[0].textContent}</a>
+      </li>`;
+    }
+
     render() {
       if (this.getQueriedElements().length === 0) {
         return;
@@ -124,11 +132,32 @@ customElements.define(
         <style>${css}</style>
         <nav>
           <ul>
+            ${this.hierarchical ? (`<div>hierarchy</div>`) : ''}
             ${this.getQueriedElements().map(
-              (el) =>
-                `<li ${this.doesUrlHaveHash(el.id) ? `aria-current="current"` : ``}>
-                    <a href="${this.getUrlNoHash()}#${el.id}">${el.childNodes[0].textContent}</a>
-                  </li>`
+              (element, index, array) =>
+              {
+                if (this.hierarchical) {
+                  const currVal = element?.tagName.split('').pop();
+                  const prevVal = array[index - 1]?.tagName.split('').pop();
+                  // possible values: 1,2,3,4,5,6
+                  // 2 - 3
+                  console.log('ding');
+                  console.log(currVal);
+                  console.log(prevVal);
+                  console.log(currVal < prevVal);
+                  if (currVal === prevVal || !prevVal) {
+                    return this.renderListItem(element);
+                  } else if (currVal < prevVal) {
+                    return `<li>
+                      <ul>
+                        ${this.renderListItem(element)}
+                      </ul>
+                    </li>`;
+                  }
+                }
+                
+                return this.renderListItem(element);
+              }
             ).join('')}
             </ul>
           </nav>
