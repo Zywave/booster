@@ -1,7 +1,7 @@
 # Eleventy Documentation Site Builder
 
-## Demo link
-[https://devkit.gitlab.zywave.com/zui/docs/](http://devkit.gitlab.zywave.com/zui/docs/)
+## Website link
+[https://booster.zywave.dev](http://booster.zywave.dev)
 
 ## What is it?
 
@@ -14,13 +14,13 @@ The main tooling behind the static site generator is Eleventy, sometimes written
 ### 1. Clone this repository:
 
 ```
-git clone https://gitlab.zywave.com/devkit/zui/docs.git docs
+git clone https://github.com/Zywave/booster.git
 ```
 
 ### 2. Navigate to the directory
 
 ```
-cd docs
+cd booster
 ```
 
 ### 3. Install dependencies
