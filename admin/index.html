@@ -33,7 +33,7 @@
           script.src = file;
           document.head.appendChild(script.cloneNode(true));
         });
-      }
+      },
       render: function () {
         return h('main', {},
           h('div', { "className": "content-wrapper" },
@@ -45,8 +45,7 @@
               )
             )
           )
-        )
-          ;
+        );
       }
     });
     CMS.registerPreviewTemplate("design_system_components", ComponentsPreview);
