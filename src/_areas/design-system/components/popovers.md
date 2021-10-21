@@ -8,7 +8,7 @@ includedElements: []
 ---
 ## Usage
 
-Popovers are unobtrusive messages that provide the user with more detailed information when clicking on a page element. Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links. Popovers also trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
+Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links. Popovers also trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
 
 ![Popover usage](/images/popover_usage.svg)
 
