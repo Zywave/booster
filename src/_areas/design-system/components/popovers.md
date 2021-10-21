@@ -77,9 +77,11 @@ Pressed state occurs when a user clicks (or hits enter on a keyboard). This stat
 
 ![Popover Do](/images/popover_do.svg)
 
-<Do />
+<docs-do>
 
 A popover can hold more detailed information and multiple lines of text.
+
+</docs-do>
 
 </GridCol>
 
@@ -87,9 +89,11 @@ A popover can hold more detailed information and multiple lines of text.
 
 ![Popover Don't](/images/popover_dont.svg)
 
-<DoNot />
+<docs-do-not>
 
 A tooltip should not contain detailed information and multiple lines of text.
+
+</docs-do-not>
 
 - - -
 
