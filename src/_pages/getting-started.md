@@ -13,13 +13,9 @@ What we'd like to share in this section is an in-depth explanation of what the B
 
 This guide is to empower our community to contribute to the docs with some recommendations, rules, and helpful resources.
 
-<docs-spacer></docs-spacer>
-
 ## Format docs with custom elements
 
 To maintain consistency, we've created custom elements for patterns that are commonly used throughout the docs.
-
-<docs-spacer><docs-spacer>
 
 ### Do and do not
 
@@ -79,8 +75,6 @@ You can provide your own HTML markup in here, such as an unordered list, if you 
 ### Spacers
 
 To help with spacing consistency between content, we have two spacer sizes.
-
-<docs-spacer size="small"></docs-spacer>
 
 #### Regular spacer
 
