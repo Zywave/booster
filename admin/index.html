@@ -18,6 +18,22 @@
     CMS.registerPreviewStyle("/css/styles.css");
 
     let ComponentsPreview = createClass({
+      componentDidMount() {
+        const { document } = this.props;
+        const docsCustomElementsFiles = [
+          "/js/web-components/docs-do.js",
+          "/js/web-components/docs-do-not.js",
+          "/js/web-components/docs-spacer.js",
+          "/js/web-components/docs-grid.js"
+        ];
+        
+        docsCustomElementsFiles.forEach(file => {
+          const script = document.createElement('script');
+          script.type = "module";
+          script.src = file;
+          document.head.appendChild(script);
+        });
+      },
       render: function () {
         return h('main', {},
           h('div', { "className": "content-wrapper" },
@@ -29,8 +45,7 @@
               )
             )
           )
-        )
-          ;
+        );
       }
     });
     CMS.registerPreviewTemplate("design_system_components", ComponentsPreview);
