@@ -10,6 +10,8 @@ includedElements: []
 
 Popovers are unobtrusive messages that provide the user with more detailed information when clicking on a page element. Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links. Popovers also trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
 
+![Popover usage](/images/popover_usage.svg)
+
 Popovers should be used:
 
 * to help users understand unknown or unfamiliar controls, features, or workflows that are not described directly on the page.
@@ -22,7 +24,7 @@ Popovers should be used:
 
 ## Anatomy
 
-![Image of popover](/images/components/popovers/popover_anatomy.svg)
+![Popover anatomy](/images/popover_anatomy.svg)
 
 Popovers consist of a shape background, shadow, text, and can include a variety of components. For detailed documentation on our popover anatomy, view the [ZUI popover design specs](https://xd.adobe.com/view/35952280-c758-4fd8-6dc4-07f88b1fe619-43a4/grid).
 
@@ -38,7 +40,7 @@ Popovers can include primary and secondary buttons for walkthroughs, and text li
 
 ## States
 
-![Image of popover states](/images/components/popovers/popover_states.svg)
+![Popover states](/images/select_states.svg)
 
 #### Default
 
@@ -60,7 +62,7 @@ Pressed state occurs when a user clicks (or hits enter on a keyboard). This stat
 
 ## Positioning
 
-![Image of popover positioning](/images/components/popovers/popover_positioning.svg)
+![Image of popover positioning](/images/select_positioning.svg)
 
 * The popover positioning will default to the right of whatever page element is being clicked.
 * Special use cases may arrive in which the bottom, top, and left tooltip positions may be used if there is not sufficient space to display the popover, such as a top bar popover.
@@ -73,7 +75,7 @@ Pressed state occurs when a user clicks (or hits enter on a keyboard). This stat
 
 <GridCol col="span-6">
 
-![Popover Do](/images/components/popovers/popover_do.svg)
+![Popover Do](/images/popover_do.svg)
 
 <Do />
 
@@ -83,7 +85,7 @@ A popover can hold more detailed information and multiple lines of text.
 
 <GridCol col="span-6">
 
-![Popover Don't](/images/components/popovers/popover_dont.svg)
+![Popover Don't](/images/popover_dont.svg)
 
 <DoNot />
 

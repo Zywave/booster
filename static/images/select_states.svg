@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="889" viewBox="0 0 1000 889">
+  <defs>
+    <filter id="White_background" x="317" y="21" width="440" height="210" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="White_background-2" x="317" y="236" width="440" height="210" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="White_background-3" x="317" y="451" width="440" height="219" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="White_background-4" x="317" y="668" width="440" height="212" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-select_states">
+      <rect width="1000" height="889"/>
+    </clipPath>
+  </defs>
+  <g id="select_states" clip-path="url(#clip-select_states)">
+    <rect width="1000" height="889" fill="#f4f4f6"/>
+    <text id="flat_light" transform="translate(312 555)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-27.79" y="0">Focus</tspan></text>
+    <text id="flat_light-2" data-name="flat_light" transform="translate(312 772)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-37.302" y="0">Pressed</tspan></text>
+    <text id="flat_light-3" data-name="flat_light" transform="translate(312 340)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-29.101" y="0">Hover</tspan></text>
+    <text id="flat_light-4" data-name="flat_light" transform="translate(312 125)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-53.657" y="0">Unselected</tspan></text>
+    <g id="Popover" transform="translate(332 30)">
+      <g transform="matrix(1, 0, 0, 1, -332, -30)" filter="url(#White_background)">
+        <path id="White_background-5" data-name="White background" d="M4,0H396c2.209,0,4,2.6,4,5.806V174.194c0,3.207-1.791,5.806-4,5.806H4c-2.209,0-4-2.6-4-5.806V106.517L-10,90.3,0,75.591V5.806C0,2.6,1.791,0,4,0Z" transform="translate(342 30)" fill="#fff"/>
+      </g>
+      <g id="Popover_content" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
+related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#2777d3"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve" fill="#3d3d3d">.  </tspan></tspan></text>
+        <text id="Popover_walkthrough" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+      </g>
+      <g id="Close" transform="translate(396 40)">
+        <g id="Group_11940" data-name="Group 11940" transform="translate(-20 -20)">
+          <rect id="Rectangle_5239" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+          <path id="Path_6644" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+        </g>
+      </g>
+      <path id="Path_10317" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Primary_Button" data-name="Primary Button" transform="translate(330 124)">
+        <rect id="Rectangle_3990" data-name="Rectangle 3990" width="60" height="36" rx="18" fill="#2777d3"/>
+        <text id="Next" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
+      </g>
+      <g id="Link_Button" data-name="Link Button" transform="translate(260 124)">
+        <g id="Group_264143" data-name="Group 264143">
+          <rect id="Rectangle_6075" data-name="Rectangle 6075" width="60" height="36" rx="18" fill="rgba(255,255,255,0)"/>
+          <text id="Back" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Popover-2" data-name="Popover" transform="translate(332 245)">
+      <g transform="matrix(1, 0, 0, 1, -332, -245)" filter="url(#White_background-2)">
+        <path id="White_background-6" data-name="White background" d="M4,0H396c2.209,0,4,2.6,4,5.806V174.194c0,3.207-1.791,5.806-4,5.806H4c-2.209,0-4-2.6-4-5.806V106.517L-10,90.3,0,75.591V5.806C0,2.6,1.791,0,4,0Z" transform="translate(342 245)" fill="#fff"/>
+      </g>
+      <g id="Popover_content-2" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._2" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
+related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#4e92df"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve">.  </tspan></tspan></text>
+        <text id="Popover_walkthrough-2" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+      </g>
+      <g id="Close-2" data-name="Close" transform="translate(396 40)">
+        <g id="Group_11940-2" data-name="Group 11940" transform="translate(-20 -20)">
+          <rect id="Rectangle_5239-2" data-name="Rectangle 5239" width="36" height="36" rx="18" transform="translate(-6 -6)" fill="#e6e6ea"/>
+          <path id="Path_6644-2" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+        </g>
+      </g>
+      <path id="Path_10317-2" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Primary_Button-2" data-name="Primary Button" transform="translate(330 124)">
+        <rect id="Rectangle_3990-2" data-name="Rectangle 3990" width="60" height="36" rx="18" fill="#4e92df"/>
+        <text id="Next-2" data-name="Next" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
+      </g>
+      <g id="Link_Button-2" data-name="Link Button" transform="translate(260 124)">
+        <g id="Group_264143-2" data-name="Group 264143">
+          <rect id="Rectangle_6075-2" data-name="Rectangle 6075" width="60" height="36" rx="18" fill="#e6e6ea"/>
+          <text id="Back-2" data-name="Back" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Popover-3" data-name="Popover" transform="translate(332 460)">
+      <g transform="matrix(1, 0, 0, 1, -332, -460)" filter="url(#White_background-3)">
+        <path id="White_background-7" data-name="White background" d="M4,0H396c2.209,0,4,2.73,4,6.1V182.9c0,3.367-1.791,6.1-4,6.1H4c-2.209,0-4-2.73-4-6.1V111.843l-10-17.03L0,79.371V6.1C0,2.73,1.791,0,4,0Z" transform="translate(342 460)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_8203" data-name="Rectangle 8203" width="36" height="36" rx="18" transform="translate(370 14)" fill="none" stroke="#2372c0" stroke-width="1"/>
+      <g id="Close-3" data-name="Close" transform="translate(396 40)">
+        <g id="Group_11940-3" data-name="Group 11940" transform="translate(-20 -20)">
+          <rect id="Rectangle_5239-3" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+          <path id="Path_6644-3" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+        </g>
+      </g>
+      <g id="Popover_content-3" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
+ " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan x="0" y="53"> </tspan></text>
+        <text id="Popover_walkthrough-3" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+      </g>
+      <path id="Path_10317-3" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Primary_Button-3" data-name="Primary Button" transform="translate(326 122)">
+        <g id="Group_264399" data-name="Group 264399" transform="translate(-5)">
+          <rect id="Rectangle_3990-3" data-name="Rectangle 3990" width="60" height="36" rx="18" transform="translate(7 2)" fill="#2777d3"/>
+          <text id="Next-3" data-name="Next" transform="translate(22 25)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
+        </g>
+        <g id="Rectangle_8068" data-name="Rectangle 8068" fill="none" stroke="#2777d3" stroke-width="1" stroke-dasharray="2 0">
+          <rect width="64" height="40" rx="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="63" height="39" rx="19.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Link_Button-3" data-name="Link Button" transform="translate(228 116)">
+        <g id="Group_264143-3" data-name="Group 264143" transform="translate(13 8)">
+          <rect id="Rectangle_6075-3" data-name="Rectangle 6075" width="101" height="53" rx="19" transform="translate(-13 -8)" fill="none"/>
+          <rect id="Rectangle_8204" data-name="Rectangle 8204" width="71" height="36" rx="18" transform="translate(2)" fill="#e6e6ea"/>
+          <text id="Back-3" data-name="Back" transform="translate(23 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
+        </g>
+        <g id="Rectangle_8070" data-name="Rectangle 8070" transform="translate(13 6)" fill="none" stroke="#2777d3" stroke-width="1">
+          <rect width="75" height="40" rx="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="74" height="39" rx="19.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Popover-4" data-name="Popover" transform="translate(332 677)">
+      <g transform="matrix(1, 0, 0, 1, -332, -677)" filter="url(#White_background-4)">
+        <path id="White_background-8" data-name="White background" d="M4,0H396c2.209,0,4,2.629,4,5.871V176.129c0,3.242-1.791,5.871-4,5.871H4c-2.209,0-4-2.629-4-5.871V107.7L-10,91.3,0,76.431V5.871C0,2.629,1.791,0,4,0Z" transform="translate(342 677)" fill="#fff"/>
+      </g>
+      <g id="Popover_content-4" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._3" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
+related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#1f5ea8"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve" fill="#3d3d3d">.  </tspan></tspan></text>
+        <text id="Popover_walkthrough-4" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+      </g>
+      <g id="Close-4" data-name="Close" transform="translate(396 40)">
+        <g id="Group_11940-4" data-name="Group 11940" transform="translate(-20 -20)">
+          <rect id="Rectangle_5239-4" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
+          <path id="Path_6644-4" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
+        </g>
+      </g>
+      <path id="Path_10317-4" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Primary_Button-4" data-name="Primary Button" transform="translate(330 124)">
+        <rect id="Rectangle_3990-4" data-name="Rectangle 3990" width="60" height="36" rx="18" fill="#1f5ea8"/>
+        <text id="Next-4" data-name="Next" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
+      </g>
+      <g id="Link_Button-4" data-name="Link Button" transform="translate(245 122)">
+        <g id="Group_264143-4" data-name="Group 264143" transform="translate(0 2)">
+          <rect id="Rectangle_6075-4" data-name="Rectangle 6075" width="60" height="36" rx="18" transform="translate(8)" fill="none"/>
+          <text id="Back-4" data-name="Back" transform="translate(23 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
+        </g>
+        <g id="Rectangle_8070-2" data-name="Rectangle 8070" fill="none" stroke="#2777d3" stroke-width="1">
+          <rect width="75" height="40" rx="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="74" height="39" rx="19.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Rectangle_8205" data-name="Rectangle 8205" d="M1,1V21H87V1H1M0,0H88V22H0Z" transform="translate(358 544)" fill="#2777d3"/>
+    <path id="Path_10331" data-name="Path 10331" d="M4.785-5.865a1.371,1.371,0,0,0-.848-.226,1.431,1.431,0,0,0-1.2.677,3.129,3.129,0,0,0-.482,1.846V0H1.135V-7H2.256v1.442h.027a2.444,2.444,0,0,1,.731-1.152,1.668,1.668,0,0,1,1.1-.414,1.83,1.83,0,0,1,.67.1ZM11.628-3.22H6.686a2.618,2.618,0,0,0,.629,1.8,2.168,2.168,0,0,0,1.654.636,3.439,3.439,0,0,0,2.174-.779V-.506A4.063,4.063,0,0,1,8.7.164,2.959,2.959,0,0,1,6.371-.79a3.9,3.9,0,0,1-.848-2.683A3.828,3.828,0,0,1,6.45-6.135a2.97,2.97,0,0,1,2.3-1.029,2.632,2.632,0,0,1,2.126.889,3.705,3.705,0,0,1,.752,2.468Zm-1.148-.95a2.281,2.281,0,0,0-.468-1.511,1.6,1.6,0,0,0-1.282-.54,1.811,1.811,0,0,0-1.347.567A2.575,2.575,0,0,0,6.7-4.17ZM14.444,0H13.323V-10.363h1.121Zm7.28,0H20.6V-1.094h-.027A2.347,2.347,0,0,1,18.423.164,2.3,2.3,0,0,1,16.786-.39a1.918,1.918,0,0,1-.591-1.47q0-1.962,2.311-2.283l2.1-.294q0-1.784-1.442-1.784a3.446,3.446,0,0,0-2.283.861V-6.508a4.338,4.338,0,0,1,2.379-.656q2.468,0,2.468,2.611ZM20.6-3.541l-1.688.232a2.741,2.741,0,0,0-1.176.386,1.114,1.114,0,0,0-.4.981,1.068,1.068,0,0,0,.366.837,1.413,1.413,0,0,0,.974.325,1.8,1.8,0,0,0,1.377-.584,2.088,2.088,0,0,0,.543-1.48Zm6.48,3.473A2.161,2.161,0,0,1,26.038.15Q24.2.15,24.2-1.9V-6.043H23V-7h1.2V-8.709l1.121-.362V-7h1.764v.957H25.32V-2.1a1.635,1.635,0,0,0,.239,1,.955.955,0,0,0,.793.3,1.179,1.179,0,0,0,.731-.232ZM34.207-3.22H29.265a2.618,2.618,0,0,0,.629,1.8,2.168,2.168,0,0,0,1.654.636,3.439,3.439,0,0,0,2.174-.779V-.506a4.063,4.063,0,0,1-2.44.67A2.959,2.959,0,0,1,28.95-.79,3.9,3.9,0,0,1,28.1-3.473a3.828,3.828,0,0,1,.926-2.663,2.97,2.97,0,0,1,2.3-1.029,2.632,2.632,0,0,1,2.126.889,3.705,3.705,0,0,1,.752,2.468Zm-1.148-.95a2.281,2.281,0,0,0-.468-1.511,1.6,1.6,0,0,0-1.282-.54,1.811,1.811,0,0,0-1.347.567,2.575,2.575,0,0,0-.684,1.483ZM41.877,0H40.756V-1.189h-.027A2.588,2.588,0,0,1,38.322.164a2.615,2.615,0,0,1-2.109-.94,3.856,3.856,0,0,1-.79-2.56A4.2,4.2,0,0,1,36.3-6.118,2.886,2.886,0,0,1,38.63-7.164a2.244,2.244,0,0,1,2.1,1.135h.027v-4.334h1.121ZM40.756-3.165V-4.2A2,2,0,0,0,40.2-5.633a1.88,1.88,0,0,0-1.422-.588,1.936,1.936,0,0,0-1.613.752,3.3,3.3,0,0,0-.588,2.078,2.964,2.964,0,0,0,.564,1.911,1.843,1.843,0,0,0,1.514.7,1.915,1.915,0,0,0,1.521-.677A2.521,2.521,0,0,0,40.756-3.165ZM49.13-1.012H49.1V3.22H47.981V-7H49.1v1.23h.027a2.651,2.651,0,0,1,2.42-1.395,2.563,2.563,0,0,1,2.112.94,3.893,3.893,0,0,1,.759,2.519,4.339,4.339,0,0,1-.854,2.813A2.845,2.845,0,0,1,51.229.164,2.342,2.342,0,0,1,49.13-1.012ZM49.1-3.835v.978a2.081,2.081,0,0,0,.564,1.473,1.873,1.873,0,0,0,1.432.6,1.876,1.876,0,0,0,1.6-.779,3.575,3.575,0,0,0,.578-2.167,2.822,2.822,0,0,0-.54-1.832,1.787,1.787,0,0,0-1.463-.663,1.986,1.986,0,0,0-1.572.68A2.5,2.5,0,0,0,49.1-3.835ZM61.223,0H60.1V-1.094h-.027A2.347,2.347,0,0,1,57.921.164,2.3,2.3,0,0,1,56.284-.39a1.918,1.918,0,0,1-.591-1.47q0-1.962,2.311-2.283l2.1-.294q0-1.784-1.442-1.784a3.446,3.446,0,0,0-2.283.861V-6.508a4.338,4.338,0,0,1,2.379-.656q2.468,0,2.468,2.611ZM60.1-3.541l-1.688.232a2.741,2.741,0,0,0-1.176.386,1.114,1.114,0,0,0-.4.981,1.068,1.068,0,0,0,.366.837,1.413,1.413,0,0,0,.974.325,1.8,1.8,0,0,0,1.377-.584,2.088,2.088,0,0,0,.543-1.48ZM69.31-.561q0,3.855-3.691,3.855a4.956,4.956,0,0,1-2.27-.492V1.682a4.661,4.661,0,0,0,2.256.656q2.584,0,2.584-2.748v-.766h-.027A2.622,2.622,0,0,1,65.755.164a2.628,2.628,0,0,1-2.1-.933,3.73,3.73,0,0,1-.8-2.505,4.358,4.358,0,0,1,.858-2.837,2.866,2.866,0,0,1,2.348-1.053,2.282,2.282,0,0,1,2.1,1.135h.027V-7H69.31Zm-1.121-2.6V-4.2a2,2,0,0,0-.564-1.429,1.857,1.857,0,0,0-1.4-.595,1.947,1.947,0,0,0-1.627.755A3.372,3.372,0,0,0,64-3.35a2.894,2.894,0,0,0,.564,1.87,1.822,1.822,0,0,0,1.494.7,1.951,1.951,0,0,0,1.535-.67A2.5,2.5,0,0,0,68.188-3.165Zm9.017-.055H72.263a2.618,2.618,0,0,0,.629,1.8,2.168,2.168,0,0,0,1.654.636,3.439,3.439,0,0,0,2.174-.779V-.506a4.063,4.063,0,0,1-2.44.67A2.959,2.959,0,0,1,71.948-.79,3.9,3.9,0,0,1,71.1-3.473a3.828,3.828,0,0,1,.926-2.663,2.97,2.97,0,0,1,2.3-1.029,2.632,2.632,0,0,1,2.126.889,3.705,3.705,0,0,1,.752,2.468Zm-1.148-.95a2.281,2.281,0,0,0-.468-1.511,1.6,1.6,0,0,0-1.282-.54,1.811,1.811,0,0,0-1.347.567,2.575,2.575,0,0,0-.684,1.483ZM0,1H46.981V2H0ZM50.1,1H62.349V2H50.1ZM70.117,1h7.649V2H70.117ZM79.29.15a.726.726,0,0,1-.537-.226.742.742,0,0,1-.222-.54.754.754,0,0,1,.222-.543.72.72,0,0,1,.537-.229.739.739,0,0,1,.547.229.748.748,0,0,1,.226.543.737.737,0,0,1-.226.54A.745.745,0,0,1,79.29.15Z" transform="translate(362 560)" fill="#2777d3"/>
+  </g>
+</svg>
