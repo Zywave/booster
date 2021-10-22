@@ -54,7 +54,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 1. Radio button:  an input type where only one can be selected at a time in a given radio group
 2. Label: a text description of the option
-3. Icon (optional): emphasizes the option and reinforces the contrast between different options
+3. Spot illustration(optional): emphasizes the option and reinforces the contrast between different options
 
 <br>
 
