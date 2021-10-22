@@ -14,14 +14,14 @@
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="White_background-3" x="317" y="451" width="440" height="219" filterUnits="userSpaceOnUse">
+    <filter id="White_background-3" x="317" y="451" width="440" height="212" filterUnits="userSpaceOnUse">
       <feOffset dy="6" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="5" result="blur-3"/>
       <feFlood flood-opacity="0.302"/>
       <feComposite operator="in" in2="blur-3"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="White_background-4" x="317" y="668" width="440" height="212" filterUnits="userSpaceOnUse">
+    <filter id="White_background-4" x="317" y="668" width="440" height="210" filterUnits="userSpaceOnUse">
       <feOffset dy="6" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="5" result="blur-4"/>
       <feFlood flood-opacity="0.302"/>
@@ -42,45 +42,34 @@
       <g transform="matrix(1, 0, 0, 1, -332, -30)" filter="url(#White_background)">
         <path id="White_background-5" data-name="White background" d="M4,0H396c2.209,0,4,2.6,4,5.806V174.194c0,3.207-1.791,5.806-4,5.806H4c-2.209,0-4-2.6-4-5.806V106.517L-10,90.3,0,75.591V5.806C0,2.6,1.791,0,4,0Z" transform="translate(342 30)" fill="#fff"/>
       </g>
-      <g id="Popover_content" data-name="Popover content" transform="translate(-10460 -4254)">
-        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
-related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#2777d3"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve" fill="#3d3d3d">.  </tspan></tspan></text>
-        <text id="Popover_walkthrough" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
-      </g>
-      <g id="Close" transform="translate(396 40)">
-        <g id="Group_11940" data-name="Group 11940" transform="translate(-20 -20)">
-          <rect id="Rectangle_5239" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
-          <path id="Path_6644" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
-        </g>
-      </g>
-      <path id="Path_10317" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
-      <g id="Primary_Button" data-name="Primary Button" transform="translate(330 124)">
-        <rect id="Rectangle_3990" data-name="Rectangle 3990" width="60" height="36" rx="18" fill="#2777d3"/>
-        <text id="Next" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
-      </g>
       <g id="Link_Button" data-name="Link Button" transform="translate(260 124)">
         <g id="Group_264143" data-name="Group 264143">
           <rect id="Rectangle_6075" data-name="Rectangle 6075" width="60" height="36" rx="18" fill="rgba(255,255,255,0)"/>
           <text id="Back" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
         </g>
       </g>
+      <g id="Primary_Button" data-name="Primary Button" transform="translate(330 124)">
+        <rect id="Rectangle_3990" data-name="Rectangle 3990" width="60" height="36" rx="18" fill="#2777d3"/>
+        <text id="Next" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
+      </g>
+      <g id="Popover_content" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
+related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#2777d3"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve" fill="#3d3d3d">.  </tspan></tspan></text>
+        <text id="Popover_walkthrough" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+      </g>
+      <path id="Path_10317" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Remove" transform="translate(392 28)">
+        <g id="Group_264400" data-name="Group 264400" transform="translate(-8 -8)">
+          <path id="Path_10410" data-name="Path 10410" d="M12.85,11.44a.5.5,0,0,1,0,.71l-.7.7a.5.5,0,0,1-.71,0L8,9.41,4.56,12.85a.5.5,0,0,1-.71,0l-.7-.7a.5.5,0,0,1,0-.71L6.59,8,3.15,4.56a.5.5,0,0,1,0-.71l.7-.7a.5.5,0,0,1,.71,0L8,6.59l3.44-3.44a.5.5,0,0,1,.71,0l.7.7a.5.5,0,0,1,0,.71L9.41,8Z" fill="#303030"/>
+          <rect id="Rectangle_8221" data-name="Rectangle 8221" width="16" height="16" fill="none"/>
+        </g>
+      </g>
     </g>
     <g id="Popover-2" data-name="Popover" transform="translate(332 245)">
       <g transform="matrix(1, 0, 0, 1, -332, -245)" filter="url(#White_background-2)">
-        <path id="White_background-6" data-name="White background" d="M4,0H396c2.209,0,4,2.6,4,5.806V174.194c0,3.207-1.791,5.806-4,5.806H4c-2.209,0-4-2.6-4-5.806V106.517L-10,90.3,0,75.591V5.806C0,2.6,1.791,0,4,0Z" transform="translate(342 245)" fill="#fff"/>
+        <path id="White_background-6" data-name="White background" d="M4,0H396c2.209,0,4,2.6,4,5.806V174.193c0,3.207-1.791,5.807-4,5.807H4c-2.209,0-4-2.6-4-5.807V106.517L-10,90.3,0,75.591V5.806C0,2.6,1.791,0,4,0Z" transform="translate(342 245)" fill="#fff"/>
       </g>
-      <g id="Popover_content-2" data-name="Popover content" transform="translate(-10460 -4254)">
-        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._2" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
-related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#4e92df"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve">.  </tspan></tspan></text>
-        <text id="Popover_walkthrough-2" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
-      </g>
-      <g id="Close-2" data-name="Close" transform="translate(396 40)">
-        <g id="Group_11940-2" data-name="Group 11940" transform="translate(-20 -20)">
-          <rect id="Rectangle_5239-2" data-name="Rectangle 5239" width="36" height="36" rx="18" transform="translate(-6 -6)" fill="#e6e6ea"/>
-          <path id="Path_6644-2" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
-        </g>
-      </g>
-      <path id="Path_10317-2" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <rect id="Rectangle_8226" data-name="Rectangle 8226" width="32" height="32" rx="16" transform="translate(376 12)" fill="#e6e6ea"/>
       <g id="Primary_Button-2" data-name="Primary Button" transform="translate(330 124)">
         <rect id="Rectangle_3990-2" data-name="Rectangle 3990" width="60" height="36" rx="18" fill="#4e92df"/>
         <text id="Next-2" data-name="Next" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
@@ -91,24 +80,23 @@ related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14"
           <text id="Back-2" data-name="Back" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
         </g>
       </g>
+      <g id="Popover_content-2" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._2" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
+related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#4e92df"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve">.  </tspan></tspan></text>
+        <text id="Popover_walkthrough-2" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+      </g>
+      <path id="Path_10317-2" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Remove-2" data-name="Remove" transform="translate(392 28)">
+        <g id="Group_264400-2" data-name="Group 264400" transform="translate(-8 -8)">
+          <path id="Path_10410-2" data-name="Path 10410" d="M12.85,11.44a.5.5,0,0,1,0,.71l-.7.7a.5.5,0,0,1-.71,0L8,9.41,4.56,12.85a.5.5,0,0,1-.71,0l-.7-.7a.5.5,0,0,1,0-.71L6.59,8,3.15,4.56a.5.5,0,0,1,0-.71l.7-.7a.5.5,0,0,1,.71,0L8,6.59l3.44-3.44a.5.5,0,0,1,.71,0l.7.7a.5.5,0,0,1,0,.71L9.41,8Z" fill="#303030"/>
+          <rect id="Rectangle_8221-2" data-name="Rectangle 8221" width="16" height="16" fill="none"/>
+        </g>
+      </g>
     </g>
     <g id="Popover-3" data-name="Popover" transform="translate(332 460)">
       <g transform="matrix(1, 0, 0, 1, -332, -460)" filter="url(#White_background-3)">
-        <path id="White_background-7" data-name="White background" d="M4,0H396c2.209,0,4,2.73,4,6.1V182.9c0,3.367-1.791,6.1-4,6.1H4c-2.209,0-4-2.73-4-6.1V111.843l-10-17.03L0,79.371V6.1C0,2.73,1.791,0,4,0Z" transform="translate(342 460)" fill="#fff"/>
+        <path id="White_background-7" data-name="White background" d="M4,0H396c2.209,0,4,2.629,4,5.871V176.129c0,3.242-1.791,5.871-4,5.871H4c-2.209,0-4-2.629-4-5.871V107.7L-10,91.3,0,76.431V5.871C0,2.629,1.791,0,4,0Z" transform="translate(342 460)" fill="#fff"/>
       </g>
-      <rect id="Rectangle_8203" data-name="Rectangle 8203" width="36" height="36" rx="18" transform="translate(370 14)" fill="none" stroke="#2372c0" stroke-width="1"/>
-      <g id="Close-3" data-name="Close" transform="translate(396 40)">
-        <g id="Group_11940-3" data-name="Group 11940" transform="translate(-20 -20)">
-          <rect id="Rectangle_5239-3" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
-          <path id="Path_6644-3" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
-        </g>
-      </g>
-      <g id="Popover_content-3" data-name="Popover content" transform="translate(-10460 -4254)">
-        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
- " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan x="0" y="53"> </tspan></text>
-        <text id="Popover_walkthrough-3" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
-      </g>
-      <path id="Path_10317-3" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
       <g id="Primary_Button-3" data-name="Primary Button" transform="translate(326 122)">
         <g id="Group_264399" data-name="Group 264399" transform="translate(-5)">
           <rect id="Rectangle_3990-3" data-name="Rectangle 3990" width="60" height="36" rx="18" transform="translate(7 2)" fill="#2777d3"/>
@@ -119,46 +107,54 @@ related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14"
           <rect x="0.5" y="0.5" width="63" height="39" rx="19.5" fill="none"/>
         </g>
       </g>
-      <g id="Link_Button-3" data-name="Link Button" transform="translate(228 116)">
-        <g id="Group_264143-3" data-name="Group 264143" transform="translate(13 8)">
-          <rect id="Rectangle_6075-3" data-name="Rectangle 6075" width="101" height="53" rx="19" transform="translate(-13 -8)" fill="none"/>
-          <rect id="Rectangle_8204" data-name="Rectangle 8204" width="71" height="36" rx="18" transform="translate(2)" fill="#e6e6ea"/>
-          <text id="Back-3" data-name="Back" transform="translate(23 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
+      <g id="Link_Button-3" data-name="Link Button" transform="translate(241 122)">
+        <g id="Group_264143-3" data-name="Group 264143" transform="translate(8 2)">
+          <rect id="Rectangle_6075-3" data-name="Rectangle 6075" width="60" height="36" rx="18" fill="none"/>
+          <text id="Back-3" data-name="Back" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
         </g>
-        <g id="Rectangle_8070" data-name="Rectangle 8070" transform="translate(13 6)" fill="none" stroke="#2777d3" stroke-width="1">
+        <g id="Rectangle_8070" data-name="Rectangle 8070" fill="none" stroke="#2777d3" stroke-width="1">
           <rect width="75" height="40" rx="20" stroke="none"/>
           <rect x="0.5" y="0.5" width="74" height="39" rx="19.5" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectangle_8203" data-name="Rectangle 8203" width="32" height="32" rx="16" transform="translate(376 12)" fill="none" stroke="#2372c0" stroke-width="1"/>
+      <g id="Popover_content-3" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
+ " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan x="0" y="53"> </tspan></text>
+        <text id="Popover_walkthrough-3" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+      </g>
+      <path id="Path_10317-3" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Remove-3" data-name="Remove" transform="translate(392 28)">
+        <g id="Group_264409" data-name="Group 264409" transform="translate(-8 -8)">
+          <path id="Path_10419" data-name="Path 10419" d="M12.85,11.44a.5.5,0,0,1,0,.71l-.7.7a.5.5,0,0,1-.71,0L8,9.41,4.56,12.85a.5.5,0,0,1-.71,0l-.7-.7a.5.5,0,0,1,0-.71L6.59,8,3.15,4.56a.5.5,0,0,1,0-.71l.7-.7a.5.5,0,0,1,.71,0L8,6.59l3.44-3.44a.5.5,0,0,1,.71,0l.7.7a.5.5,0,0,1,0,.71L9.41,8Z" fill="#303030"/>
+          <rect id="Rectangle_8234" data-name="Rectangle 8234" width="16" height="16" fill="none"/>
         </g>
       </g>
     </g>
     <g id="Popover-4" data-name="Popover" transform="translate(332 677)">
       <g transform="matrix(1, 0, 0, 1, -332, -677)" filter="url(#White_background-4)">
-        <path id="White_background-8" data-name="White background" d="M4,0H396c2.209,0,4,2.629,4,5.871V176.129c0,3.242-1.791,5.871-4,5.871H4c-2.209,0-4-2.629-4-5.871V107.7L-10,91.3,0,76.431V5.871C0,2.629,1.791,0,4,0Z" transform="translate(342 677)" fill="#fff"/>
+        <path id="White_background-8" data-name="White background" d="M4,0H396c2.209,0,4,2.6,4,5.806V174.194c0,3.207-1.791,5.806-4,5.806H4c-2.209,0-4-2.6-4-5.806V106.517L-10,90.3,0,75.591V5.806C0,2.6,1.791,0,4,0Z" transform="translate(342 677)" fill="#fff"/>
+      </g>
+      <g id="Primary_Button-4" data-name="Primary Button" transform="translate(330 124)">
+        <rect id="Rectangle_3990-4" data-name="Rectangle 3990" width="60" height="36" rx="18" fill="#1f5ea8"/>
+        <text id="Next-4" data-name="Next" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
+      </g>
+      <g id="Link_Button-4" data-name="Link Button" transform="translate(260 124)">
+        <g id="Group_264143-4" data-name="Group 264143">
+          <rect id="Rectangle_6075-4" data-name="Rectangle 6075" width="60" height="36" rx="18" fill="#cbcbd2"/>
+          <text id="Back-4" data-name="Back" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
+        </g>
       </g>
       <g id="Popover_content-4" data-name="Popover content" transform="translate(-10460 -4254)">
         <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._3" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
 related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#1f5ea8"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve" fill="#3d3d3d">.  </tspan></tspan></text>
         <text id="Popover_walkthrough-4" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
       </g>
-      <g id="Close-4" data-name="Close" transform="translate(396 40)">
-        <g id="Group_11940-4" data-name="Group 11940" transform="translate(-20 -20)">
-          <rect id="Rectangle_5239-4" data-name="Rectangle 5239" width="24" height="24" fill="none"/>
-          <path id="Path_6644-4" data-name="Path 6644" d="M13.905,12l4.673-4.673a.227.227,0,0,0,0-.318L16.99,5.422a.227.227,0,0,0-.318,0L12,10.095,7.327,5.422a.227.227,0,0,0-.318,0L5.422,7.01a.227.227,0,0,0,0,.318L10.095,12,5.422,16.673a.227.227,0,0,0,0,.318L7.01,18.578a.227.227,0,0,0,.318,0L12,13.905l4.673,4.673a.227.227,0,0,0,.318,0l1.588-1.588a.227.227,0,0,0,0-.318Z" transform="translate(0 0)" fill="#31313a"/>
-        </g>
-      </g>
       <path id="Path_10317-4" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
-      <g id="Primary_Button-4" data-name="Primary Button" transform="translate(330 124)">
-        <rect id="Rectangle_3990-4" data-name="Rectangle 3990" width="60" height="36" rx="18" fill="#1f5ea8"/>
-        <text id="Next-4" data-name="Next" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next</tspan></text>
-      </g>
-      <g id="Link_Button-4" data-name="Link Button" transform="translate(245 122)">
-        <g id="Group_264143-4" data-name="Group 264143" transform="translate(0 2)">
-          <rect id="Rectangle_6075-4" data-name="Rectangle 6075" width="60" height="36" rx="18" transform="translate(8)" fill="none"/>
-          <text id="Back-4" data-name="Back" transform="translate(23 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Back</tspan></text>
-        </g>
-        <g id="Rectangle_8070-2" data-name="Rectangle 8070" fill="none" stroke="#2777d3" stroke-width="1">
-          <rect width="75" height="40" rx="20" stroke="none"/>
-          <rect x="0.5" y="0.5" width="74" height="39" rx="19.5" fill="none"/>
+      <g id="Remove-4" data-name="Remove" transform="translate(392 28)">
+        <g id="Group_264411" data-name="Group 264411" transform="translate(-8 -8)">
+          <path id="Path_10421" data-name="Path 10421" d="M12.85,11.44a.5.5,0,0,1,0,.71l-.7.7a.5.5,0,0,1-.71,0L8,9.41,4.56,12.85a.5.5,0,0,1-.71,0l-.7-.7a.5.5,0,0,1,0-.71L6.59,8,3.15,4.56a.5.5,0,0,1,0-.71l.7-.7a.5.5,0,0,1,.71,0L8,6.59l3.44-3.44a.5.5,0,0,1,.71,0l.7.7a.5.5,0,0,1,0,.71L9.41,8Z" fill="#303030"/>
+          <rect id="Rectangle_8236" data-name="Rectangle 8236" width="16" height="16" fill="none"/>
         </g>
       </g>
     </g>
