@@ -1,10 +1,10 @@
 ---
+title: Expanders
+subtitle: Reveal more details upon a tap or click.
 api: https://cdn.zywave.com/@zywave/zui-expander@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-expander@next/demo/index.html
 mainComponentName: zui-expander
 includedElements: []
-title: Expanders
-subtitle: A useful pattern for progressive disclosure—highlighting important details of a section and revealing more details upon a tap or click.
 ---
 
 ## Usage
