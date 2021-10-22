@@ -23,7 +23,7 @@ Popovers are also used:
 
 ## Anatomy
 
-Popovers consist of a shape background, shadow, text, and can include a variety of components. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links. Popovers also trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
+Popovers consist of a shape background, shadow, text, and can include a variety of components. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links.
 
 ![Popover anatomy](/images/popover_anatomy.svg)
 
@@ -65,14 +65,20 @@ Pressed state occurs when a user clicks (or hits enter on a keyboard). This stat
 
 - - -
 
-## Positioning
+## Behavior
+
+Popovers trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
+
+<br>
+
+#### Positioning
 
 Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read.
 
-![Image of popover positioning](/images/select_positioning.svg)
-
 * The popover positioning will default to the right of whatever page element is being clicked.
 * Special use cases may arrive in which the bottom, top, and left tooltip positions may be used if there is not sufficient space to display the popover, such as a top bar popover.
+
+![Image of popover positioning](/images/select_positioning.svg)
 
 - - -
 
