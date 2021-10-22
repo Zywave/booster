@@ -8,9 +8,10 @@ includedElements: []
 ---
 ## Usage
 
-Popovers should be used:
+Popovers are used to help users understand unknown or unfamiliar controls, features, or workflows that are not described directly on the page.
 
-* to help users understand unknown or unfamiliar controls, features, or workflows that are not described directly on the page.
+Popovers are also used:
+
 * to provide information to users when they need it, and to help free up screen space.
 * when more detailed information is needed, such as a header and multiple lines of body text.
 * to provide more actions to the user, such as a walkthrough or text link.
@@ -22,9 +23,9 @@ Popovers should be used:
 
 ## Anatomy
 
-![Popover anatomy](/images/popover_anatomy.svg)
-
 Popovers consist of a shape background, shadow, text, and can include a variety of components. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links. Popovers also trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
+
+![Popover anatomy](/images/popover_anatomy.svg)
 
 <br>
 
