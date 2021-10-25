@@ -43,6 +43,24 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/
 
 - - -
 
+## Types
+
+![Popover types](/images/popover_types.svg)
+
+#### Header/action
+
+Header/action provides actions to the user, such as a walkthrough.
+
+#### Header/body
+
+Header/body provides information to the user such as a header and multiple lines of body text or a text link.
+
+#### Header/body/action
+
+Header/body/action provides actions to the user, such as a walkthrough. It also provides information to the user such as a header and multiple lines of body text or a text link.
+
+- - -
+
 ## Behavior
 
 Popovers trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
