@@ -43,28 +43,6 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/
 
 - - -
 
-## States
-
-![Popover states](/images/select_states.svg)
-
-#### Default
-
-Normal state is the initial state of the popover when it first appears and before any action is taken.
-
-#### Hover
-
-Hover state occurs when the user hovers over the action with their mouse.
-
-#### Focus
-
-Focus state appears when the action is currently selected and awaiting activity. This commonly occurs when using a keyboard to navigate.
-
-#### Pressed
-
-Pressed state occurs when a user clicks (or hits enter on a keyboard). This state only appears briefly while the page/action is loading.
-
-- - -
-
 ## Behavior
 
 Popovers trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
