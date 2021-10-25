@@ -43,6 +43,17 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/
 
 - - -
 
+## States
+
+Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read.
+
+* The popover positioning will default to the right of whatever page element is being clicked.
+* Special use cases may arrive in which the bottom, top, and left tooltip positions may be used if there is not sufficient space to display the popover, such as a top bar popover.
+
+![Popover states](/images/select_positioning.svg)
+
+- - -
+
 ## Types
 
 ![Popover types](/images/popover_types.svg)
@@ -63,18 +74,9 @@ Header/body/action provides actions to the user, such as a walkthrough. It also 
 
 ## Behavior
 
+#### Opening and closing popovers
+
 Popovers trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
-
-<br>
-
-#### Positioning
-
-Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read.
-
-* The popover positioning will default to the right of whatever page element is being clicked.
-* Special use cases may arrive in which the bottom, top, and left tooltip positions may be used if there is not sufficient space to display the popover, such as a top bar popover.
-
-![Image of popover positioning](/images/select_positioning.svg)
 
 - - -
 
