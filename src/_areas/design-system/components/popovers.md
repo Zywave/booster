@@ -82,9 +82,14 @@ Popovers trigger on click and remain active until the user either clicks off of 
 
 ## Best practices
 
-<Grid>
+Button Groups should follow the best practices outlined in the [Button](https://booster.zywave.dev/design-system/components/buttons) component when included.
 
-<GridCol col="span-6">
+<br>
+
+#### Popover  vs. tooltip
+
+<docs-grid columns="2">
+  <div>
 
 ![Popover Do](/images/popover_do.svg)
 
@@ -94,9 +99,9 @@ A popover can hold more detailed information and multiple lines of text.
 
 </docs-do>
 
-</GridCol>
+  </div>
 
-<GridCol col="span-6">
+  <div>
 
 ![Popover Don't](/images/popover_dont.svg)
 
@@ -106,11 +111,19 @@ A tooltip should not contain detailed information and multiple lines of text.
 
 </docs-do-not>
 
+  </div>
+
 <br>
 
-<Grid>
+</docs-grid>
 
-<GridCol col="span-6">
+<br>
+
+#### Popover positioning
+
+<docs-grid columns="2">
+
+   <div>
 
 ![Popover Do](/images/popover_do-–-2.svg)
 
@@ -120,9 +133,9 @@ A popover should be display all of its contents regardless of where it is positi
 
 </docs-do>
 
-</GridCol>
+   </div>
 
-<GridCol col="span-6">
+   <div>
 
 ![Popover Don't](/images/popover_don-t-–-2.svg)
 
@@ -131,6 +144,9 @@ A popover should be display all of its contents regardless of where it is positi
 A popover should not be cut off to fit within a container such as a card.
 
 </docs-do-not>
+
+   </div>
+</docs-grid>
 
 - - -
 
