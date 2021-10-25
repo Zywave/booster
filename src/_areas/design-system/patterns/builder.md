@@ -1,10 +1,10 @@
 ---
 layout: documentation
 title: Builder
+subtitle: A Builder is a workflow used to construct, edit and organize to
+  build presentable content, for example, a policy renewal proposal.
 hideToc: false
 ---
-A Builder is a workflow used to construct, edit and organize to build presentable content, for example, a policy renewal proposal.
-
 ## Usage
 
 A Builder divides the work of creating content into a sequence of steps, which allows the user to focus their attention on each task individually.
@@ -26,7 +26,7 @@ For detailed documentation on our Builder steps, view the [Builder design specs
 
 <br>
 
-### **Kickoff** (optional)
+#### **Kickoff** (optional)
 
 The first step is the Kickoff. It contains a high-level action to start the workflow. Kickoff can take place within the tool or from an account page.
 
@@ -55,7 +55,7 @@ Actions within multiple cards can also be used when there is more than one entr
 
 <br>
 
-### Setup
+#### Setup
 
 The Setup step is where you can apply project-level settings and manage what content or data will be in the project. . A form is typically used for inputting these high-level details such as account, title, and branding.
 
@@ -75,7 +75,7 @@ Drag and drop can be a helpful feature in organizing data when hierarchy is rele
 
 <br>
 
-### Data entry
+#### Data entry
 
 Data entry is where users will most likely be spending most of their time. This layout will have the most variety in templates based on the project. In this step, users can input data, organize, add/edit content. 
 
@@ -113,7 +113,7 @@ Use a fixed side panel on the right side when users need to manage selections in
 
 <br>
 
-### Generation
+#### Generation
 
 The final step in the document/presentation creation process is to generate an output. The user will need an action to begin the Generation step. 
 
