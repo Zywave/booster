@@ -106,6 +106,32 @@ A tooltip should not contain detailed information and multiple lines of text.
 
 </docs-do-not>
 
+<br>
+
+<Grid>
+
+<GridCol col="span-6">
+
+![Popover Do](/images/popover_do-–-2.svg)
+
+<docs-do>
+
+A popover should be display all of its contents regardless of where it is positioned on the page.
+
+</docs-do>
+
+</GridCol>
+
+<GridCol col="span-6">
+
+![Popover Don't](/images/popover_don-t-–-2.svg)
+
+<docs-do-not>
+
+A popover should not be cut off to fit within a container such as a card.
+
+</docs-do-not>
+
 - - -
 
 ## Alternate considerations
