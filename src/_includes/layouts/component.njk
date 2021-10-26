@@ -17,6 +17,57 @@ layout: nav-base
 <script type="module" src="{{ "js/web-components/docs-spacer.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/docs-grid.js" | url }}"></script>
 
+<h1 class="component-header">{{ title }}</h1>
+{% if subtitle %} <h2 class="component-subheader">{{ subtitle }}</h2> {% endif %}
+{% if not api %}
+<span class="component-status not-available" title="While documented, this component may not be available in the Toolkit.">Not available</span>
+{% else %}
+<span class="component-status stable" title="This component is ready to use!.">Stable</span>
+{% endif %}
+
+<nav class="zui row">
+  <zui-tabs selected="-1">
+    {% for tab in tabs %}
+      <zui-tab id="tab-{{ tab | slug }}">
+        <a href="{{ page.url | componentTabHref(tab) | url }}" class="zui text-decoration-none">{{ tab }}</a>
+      </zui-tab>
+    {% endfor %}
+  </zui-tabs>
+</nav>
+<section id="content" class="zui column align-start">
+  <div id="api" style="display: none;" aria-hidden="true">
+    {% if api %}
+    {# 'algolia-customelement-manifest-element' WC code is only loaded if context is 'Algolia Crawler' #}
+    <algolia-customelement-manifest-element url="{{ api }}"></algolia-customelement-manifest-element>
+    <customelement-manifest-element
+      src="{{ api }}"
+      initialElementName="{{ mainComponentName }}"
+      {% if includedElements | length %}
+        elementNames='{{ includedElements | htmlArray }}'
+      {% endif %}>
+    </customelement-manifest-element>
+    {% else %}
+    <p>No API documentation available. The Toolkit does not offer this component at this time.</p>
+    {% endif %}
+  </div>
+  <div id="demos" class="zui row align-start" style="display: none;" aria-hidden="true">
+    {% if demos %}
+    <docs-demos demo-url="{{ demo }}" component="{{ mainComponentName }}"></docs-demos>
+    {% if not hideToc %}
+    <quick-links query="#demos h1, #demos h2, #demos h3, #demos h4"></quick-links>
+    {% endif %}
+    {% else %}
+    <p>No demos available. The Toolkit does not offer this component at this time.</p>
+    {% endif %}
+  </div>
+  <div id="usage" class="zui row align-start" style="display: none;" aria-hidden="true">
+    <div class="documentation">{{ content | safe }}</div>
+    {% if not hideToc %}
+    <quick-links query="#usage h1, #usage h2, #usage h3, #usage h4"></quick-links>
+    {% endif %}
+  </div>
+</section>
+
 <script type="module">
   import {
     getQueryParamValue,
@@ -95,41 +146,3 @@ layout: nav-base
     }
   });
 </script>
-
-<h1 class="component-header">{{ title }}</h1>
-<h2 class="component-subheader">{{ subtitle }}</h2>
-
-<nav class="zui row">
-  <zui-tabs selected="-1">
-    {% for tab in tabs %}
-      <zui-tab id="tab-{{ tab | slug }}">
-        <a href="{{ page.url | componentTabHref(tab) | url }}" class="zui text-decoration-none">{{ tab }}</a>
-      </zui-tab>
-    {% endfor %}
-  </zui-tabs>
-</nav>
-<section id="content" class="zui column align-start">
-  <div id="api" style="display: none;" aria-hidden="true">
-    {# 'algolia-customelement-manifest-element' WC code is only loaded if context is 'Algolia Crawler' #}
-    <algolia-customelement-manifest-element url="{{ api }}"></algolia-customelement-manifest-element>
-    <customelement-manifest-element
-      src="{{ api }}"
-      initialElementName="{{ mainComponentName }}"
-      {% if includedElements | length %} 
-        elementNames='{{ includedElements | htmlArray }}'
-      {% endif %}>
-    </customelement-manifest-element>
-  </div>
-  <div id="demos" class="zui row align-start" style="display: none;" aria-hidden="true">
-    <docs-demos demo-url="{{ demo }}" component="{{ mainComponentName }}"></docs-demos>
-    {% if not hideToc %}
-    <quick-links query="#demos h1, #demos h2, #demos h3, #demos h4"></quick-links>
-    {% endif %}
-  </div>
-  <div id="usage" class="zui row align-start" style="display: none;" aria-hidden="true">
-    <div class="documentation">{{ content | safe }}</div>
-    {% if not hideToc %}
-    <quick-links query="#usage h1, #usage h2, #usage h3, #usage h4"></quick-links>
-    {% endif %}
-  </div>
-</section>
