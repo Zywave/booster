@@ -169,7 +169,7 @@ Generate an output in a dialog when a focused state is not present.
 
 ##### Options for generating output
 
-Providing output options, such as which format to download as, can be beneficial for users.
+Providing output options, such as which format to download the final output as, can be beneficial for users.
 
 ![Form generate](/images/generation-–-5.png)
 
