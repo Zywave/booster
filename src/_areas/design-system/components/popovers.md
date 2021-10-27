@@ -1,9 +1,9 @@
 ---
 title: Popovers
 subtitle: Unobtrusive messages that provide the user with more details.
-api: https://cdn.zywave.com/@zywave/zui-popover@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-popover@next/demo/index.html
-mainComponentName: zui-popover
+api: ""
+demo: ""
+mainComponentName: ""
 includedElements: []
 ---
 ## Usage
