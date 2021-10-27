@@ -11,7 +11,7 @@ includedElements: []
 
 The Shell wraps around all of our applications and provides suite level consistencies, branding, and common functionality. It helps the user understand and navigate the core of the Zywave suite.
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Anatomy
 
@@ -35,7 +35,7 @@ The Content area is the body of our applications where all the features and func
 
 ![Shell screenshot](/images/components/shell/shell-basics.svg)
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Suite vs individual products
 
@@ -49,7 +49,7 @@ Depending on if you are building a single point solution that will be sold indiv
 ![Shell Modmaster screenshot](/images/components/shell/shell--individual-mm.svg)
 *Example: Shell for a single point solution (ModMaster). The application bar becomes slightly larger to accomidate the application name.*
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Responsive design
 
@@ -70,7 +70,7 @@ Depending on if you are building a single point solution that will be sold indiv
 
 The Topbar gives the user easy access to suite and organization-level actions, as well as some important actions specific to the application or tool. The Topbar also provides a space for product branding. It is a base component of the suite and should be used for every product, unless there is a specific reason not to.
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Anatomy
 
@@ -86,6 +86,8 @@ The suite Topbar contains many different components which aid in branding, navig
 
 ![Topbar - anatomy - suite level](/images/components/shell/topbar/topbar--anatomy--suite.svg)
 
+<docs-spacer></docs-spacer>
+
 #### Adding product-specific branding
 
 When necessary, you can also include specific product branding in the Zywave Topbar:
@@ -95,14 +97,14 @@ When necessary, you can also include specific product branding in the Zywave Top
 
 ![Topbar - anatomy - suite level](/images/components/shell/topbar/topbar--anatomy--singleproduct.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Sizing & Spacing
 
 * [Zywave Topbar sizing and spacing specs](https://xd.adobe.com/spec/41e8cdc3-6df1-4a55-73e3-41b3ea68ac16-37d9/)
 * [Mobile Topbar and spacing specs](https://xd.adobe.com/spec/4b0ad3da-0bc2-429c-5eca-6edee1c1df44-3d3b/)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Types
 
@@ -111,7 +113,7 @@ Although there is not much difference in layout and componentry, depending on th
 1. **Zywave Topbar** - Use when the primary user is a user client. This Topbar has several different branding features depending on if the product is singular in focus or crosses multiple workflows.
 2. **Client Topbar** - Use when the primary user is a Broker's client; e.g., Employer Admin or Employee.
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Behavior
 
@@ -144,7 +146,7 @@ On smaller screens with a **breakpoint <`720px`**, the Topbar responds to allow 
 
 The Sidenav contains the majority of the application and suite-level navigation. This includes the feature-level navigation as well as access to Notifications, Settings, and Help and training. Having the Sidenav in a standard and reliable place helps ground the user experience of all our products. It should be used for every product, unless there is a speific reason not to.
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### What things go in the Sidenav
 
@@ -159,7 +161,7 @@ The following are nav items that are recommended for every application, when app
 
 ![Sidenav - suite standard items](/images/components/shell/sidenav/sidenav-anatomy--desktop-standard-nav-items.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Sidenav anatomy
 
@@ -172,13 +174,15 @@ The following are nav items that are recommended for every application, when app
 
 ![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--desktop-expanded.svg)
 
+<docs-spacer></docs-spacer>
+
 #### Icon rules
 
 * All top-level nav items should have a corresponding icon to help quickly identify the action. These icons are also used when the menu is collapsed.
 * Child items do not have icons associated with them.
 * For more information [view our icon standards](/design-system/visuals/iconography/)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### States
 
@@ -186,7 +190,7 @@ The following are nav items that are recommended for every application, when app
 2. **Collapsed** - When the collapse button is pressed the menu will slim down to show only icons as main navigational items.
 3. **Mobile** - At the **breakpoint of <720,** the Sidenav is off-screen and slides in from the left when the hamburger menu is pushed.
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Behavior (expanded state)
 
@@ -216,7 +220,7 @@ The following are nav items that are recommended for every application, when app
 * When collapsed, the content area will respond to make more room for itself by taking up the area that the Sidenav had been using.
 * There is no need for the expand/collapse Sidenav function in the mobile state, so the button is hidden.
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Behavior (collapsed state)
 
@@ -228,7 +232,7 @@ The following are nav items that are recommended for every application, when app
 
 ![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--desktop-collapsed-behavior.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Behavior (mobile state)
 
@@ -236,7 +240,7 @@ The menu slides in over the content. To close the Sidenav, the user can click of
 
 ![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--mobile-behavior.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Sizing & Spacing
 
@@ -252,7 +256,7 @@ Use the following links to find exact pixel specs for each state of the Sidenav.
 
 The Footer is the small section at the bottom of each page that contains things like the privacy and cookie policies, and other legal and trademark information. It is easy to find the information you are looking for, should you need it, and does not interfere with using the app. The Footer is a core feature of Shell and should be used in every application.
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Anatomy
 
@@ -265,7 +269,7 @@ The core features of the footer include:
 * **Cookie Usage link**
 * **Contact link**
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Behavior
 
@@ -279,7 +283,7 @@ The links in the footer go to the following:
 * Cookie Usage link - https://www.zywave.com/cookie-usage/
 * Contact link - mailto:support@zywave.com
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Responsive Design
 
@@ -289,9 +293,13 @@ As the viewport grows, the footer moves from three lines stacked on top of each 
 
 ![Footer - 480](/images/components/shell/footer/footer--≥480.svg)
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Breakpoint - ≥`720px`
 
 ![Footer - 720](/images/components/shell/footer/footer--≥720.svg)
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Breakpoint - ≥`1024px`
 
@@ -305,7 +313,7 @@ The Content area is the body of our applications where all the features and func
 
 ![Basics of the content area](/images/components/shell/content-area/content-area_basics.svg)
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Standard padding
 
@@ -326,7 +334,7 @@ Common page padding is important to keep the content in one place and give it so
 
 <small>*`em` units are based off the browser's default font size of `16px`</small>
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Content area max-width
 
@@ -338,6 +346,8 @@ Our standard Content area max-width is: **`1600px`** or **`100em`**
 
 [View standard max-width specs](https://xd.adobe.com/view/01cb99e4-9c91-4a72-7ff9-08f865c98c89-77fa/grid)
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Component specific max-width
 
 In special cases, a component should not fill the full width of the Content area. Instead it should stop at a specific width to ensure a good user experience. Enforcing these max-widths will allow the user to read and understand information easier than if the component was stretched.
@@ -345,6 +355,8 @@ In special cases, a component should not fill the full width of the Content area
 Components with an enforced max-width should remain the same size when the Content area grows wider to suit a larger viewport. However, once a component's max-width reaches the limit of the Content area max-width, it should stop growing to not overflow.
 
 [View component specific max-width specs](https://xd.adobe.com/view/1da35ebb-d8fd-40ae-76db-cd4d77144a78-6b92/grid)
+
+<docs-spacer size="small"></docs-spacer>
 
 ##### Cards
 
@@ -367,9 +379,13 @@ Because Cards can hold a variety of different components and content, all specif
 
 <small>*`em` units are based off the browser's default font size of `16px`</small>
 
+<docs-spacer size="small"></docs-spacer>
+
 ##### Text areas
 
 Studies have shown that between `45` to `75` characters per single line of text is the optimal length for reading. Anything shorter than this can cause the readers' eyes to bounce around too much. Anything longer and the reader can become fatigued and lose their place when moving to the beginning of the next line. Depending on font type and size, this character length equates to about `700px` in width. Meaning that when there is a Text Area on the page or within a card, the max-width of that area should be `700px`. Regardless of card size, ranging from `900px` to full-width (up to `1600px`), the Text Area should never be larger than `700px` and be left-aligned with the card.
+
+<docs-spacer size="small"></docs-spacer>
 
 ##### Text inputs
 
@@ -379,11 +395,13 @@ Using the same studies and conclusion as Text Areas, Text Inputs should also hav
 
 [View form standards](/design-system/patterns/forms/)
 
+<docs-spacer size="small"></docs-spacer>
+
 ##### Tables
 
 Tables can have a large amount of information, options, and details within them; because of this, it is acceptable that they expand to the full width of `1600px` of the page where applicable.
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Content area best practices
 
@@ -439,15 +457,19 @@ There should never be a situation where a form has a max-width of `900px`, and a
 
 </docs-grid>
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Background coloring
 
 Gray and white background colors are available, depending on the situation.
 
+<docs-spacer size="small"></docs-spacer>
+
 #### When to use a gray background
 
 For most applications, our standard is to use a gray background. We use gray because it creates a base layer we can build off of and highlight, allowing the user to focus on the task at hand. Most of our components and containers are specifically built to help draw the users attention and a gray background helps with that.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### When to use a white background
 
@@ -461,7 +483,7 @@ Use a white background when the content is mainly text based to enhance readabil
 
 The Context Switcher lives in the Sidenav when a user is viewing a feature on behalf of a different organization. It provides information about which organization is being accessed as well as an easy way to switch to a different organization.
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Anatomy
 
@@ -478,7 +500,7 @@ The context switch indicates which organization is currently being viewed by the
 
 ![Context switcher anatomy collapsed](/images/components/shell/context-switcher/Anatomy_collapsed.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Responsive layout
 
@@ -486,7 +508,7 @@ On mobile devices, the Context Switcher is hidden off-screen within the Sidenav.
 
 ![Mobile context swithcer](/images/components/shell/context-switcher/Context_switcher_mobile.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Types/States
 
@@ -501,7 +523,7 @@ When the Sidenav is collapsed, additional hover behavior is added to help identi
 
 ![Collapsed switcher hover](/images/components/shell/context-switcher/Hover_collapsed.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Best practices
 
@@ -511,7 +533,7 @@ Because the currently selected account is not immediately visible when the Siden
 
 ![Best practices for context switcher](/images/components/shell/context-switcher/Best_practices.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Behavior
 
@@ -529,17 +551,19 @@ When collapsing the Sidenav, the flyout containing the "Viewing as: *organizatio
 
 The Action bar is used to provide the user with a consistent placement of actions on the screen when interacting with longer, more complex pages.
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Usage
 
 Action bar keeps the action buttons in a standard state on the screen, even when scrolling. It is the ideal component to use when walking the user through a complex step flow. While the content on the page follows our max-content-widths, the page title and buttons float to the far left and right inside the action bar, using the entire width of the screen.
 
+
+
 ##### Alternate considerations
 
 * Use [dialog box](/design-system/components/dialogs/) to keep the user focused on the form and input fields and if you have only a few input fields
 
-<br />
+<docs-spacer size="small"></docs-spacer>
 
 #### In a long form
 
@@ -549,7 +573,7 @@ When you have a long form that is not broken up into multiple steps
 
 For detailed documentation on using Action bar in a long form, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/).
 
-<br />
+<docs-spacer size="small"></docs-spacer>
 
 #### In a multi-step form
 
@@ -559,7 +583,7 @@ When you have a form that is broken up into multiple steps, the progress indicat
 
 For detailed documentation on using Action bar in a multi-step form, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/f418246b-ac48-41b4-ad71-570a8071e6aa).
 
-<br />
+<docs-spacer size="small"></docs-spacer>
 
 #### When editing a document
 
@@ -567,7 +591,7 @@ For detailed documentation on using Action bar in a multi-step form, view the [d
 
 For detailed documentation on using Action bar when editing a document, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/a8f96726-827b-41aa-bca1-949362230fa8).
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Anatomy
 
@@ -579,7 +603,7 @@ For detailed documentation on using Action bar when editing a document, view the
 
 For detailed documentation on Action bar anatomy, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/04796dd6-e40a-4de0-b1ca-3175bacf5d38).
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Behavior
 
@@ -603,7 +627,7 @@ Action bar after scrolling down the page
 
 For detailed documentation on Action bar after scrolling down the page, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/8a119f76-5a5f-42c1-ad53-99c88ab13a0d).
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Responsiveness
 
@@ -622,19 +646,19 @@ The mobile action bar is a bit different from the desktop version.
 
 For detailed documentation on Action bar responsiveness, view the [design specs](https://xd.adobe.com/view/fc9c6e16-fcda-4634-b5f9-81f6b3c93d65-a9cf/grid).
 
-<br />
+<docs-spacer size="small"></docs-spacer>
 
 The action bar will stay fixed to the top of the view point when the keyboard is present.
 
 ![keyboard](/images/components/shell/action-bar/keyboard.svg)
 
-<br />
+<docs-spacer size="small"></docs-spacer>
 
 ZUI-remove will always be present. When you have a form that is broken up into multiple steps, include an action to go to the previous step such as "Back".
 
 ![steps](/images/components/shell/action-bar/steps.svg)
 
-<hr>
+<docs-spacer></docs-spacer>
 
 ### Best practices
 
