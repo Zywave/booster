@@ -35,7 +35,7 @@ A  Button Dropdown consists of a Button and a list of actions.
 
 <docs-spacer size="small"></docs-spacer>
 
-The width of the action list is, at minimum, 150px wide. The width of the list list can expand, maintaining 15px padding on each side, should one of the options exceeds the 150px minimum.   
+The width of the action list is, at minimum, 150px wide. The width of the list can expand, maintaining 15px padding on each side, should one of the options exceeds the 150px minimum.   
 
 ![Button Dropdown minimum and expanded option list widths](/images/button-dropdown_list_width.svg)
 
@@ -160,7 +160,5 @@ The options dropdown also has normal, hover and disabled states as shown below.
 * The option list should always open below the button.
 * The option list should appear above any components in z-space. It should not push items downwards on the page when open.
 * The option list should not be confined to the container in which it was triggered, meaning it can go over the edge of the card or table in which it was triggered. 
-
-
 
 ![Button Dropdown behavior](/images/behavior.svg)
