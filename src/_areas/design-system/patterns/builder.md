@@ -26,7 +26,7 @@ For detailed documentation on our Builder steps, view the [Builder design specs
 
 <docs-spacer size="small"></docs-spacer>
 
-### **Kickoff** (optional)
+### Kickoff (optional)
 
 The first step is the Kickoff. It contains a high-level action to start the workflow. Kickoff can take place within the tool or from an account page.
 
@@ -36,6 +36,8 @@ Consider the following when configuring the Kickoff step:
 * Does the user need to return to a home page to view a previously created project?
 
 <docs-spacer size="small"></docs-spacer>
+
+#### Actions
 
 Typically, page-level actions should be placed in the top right corner to start a workflow. Use a table when the user needs to return to a previous project. This is also helpful for downloading, editing, and duplicating projects. If the table is empty, use an empty state in the table.
 
@@ -83,11 +85,15 @@ In a well-designed Builder, users will only see the steps and the information re
 
 <docs-spacer size="small"></docs-spacer>
 
+#### Progress indicator
+
 Use a progress indicator when the user needs the ability to go back and forth within the workflow. Only use a progress indicator if you know exactly how many steps are in the process.
 
 ![Data entry](/images/data-entry.png)
 
 <docs-spacer size="small"></docs-spacer>
+
+#### Action bar
 
 Use an action bar when the user needs to take ordered steps to finish a workflow. The user is not allowed to skip steps. For more information, see [Action bar documentation](/design-system/components/shell/?tab=usage#what-is-the-action-bar%3F)**.**
 
@@ -95,17 +101,27 @@ Use an action bar when the user needs to take ordered steps to finish a workflow
 
 <docs-spacer size="small"></docs-spacer>
 
-Single-column editor
+#### Template examples
+
+To give some ideas on how to design this step, below are some examples of data entry can be accomplished.
+
+##### Single-column rich document editor
+
+This example provides the user with a rich text editor experience to build and customize documents from scratch.
 
 ![Single-column editor](/images/data-entry-–-3.png)
 
 <docs-spacer size="small"></docs-spacer>
 
-Two-column editor
+##### Two-column limited document editor
+
+If multiple designs are available to choose from, this example allows the user to preview their custom email with a preset design.
 
 ![Two-column editor](/images/data-entry-–-5.png)
 
 <docs-spacer size="small"></docs-spacer>
+
+##### Fixed side panel
 
 Use a fixed side panel on the right side when users need to manage selections in the workflow. This also helps to give users easy access to components or tools while still having a work area.
 
@@ -123,15 +139,21 @@ Use words similar to download or generate. Although, "generate" should typically
 
 <docs-spacer size="small"></docs-spacer>
 
+#### Previewing before output
+
 If there is no preview available during the Data entry step, consider implementing a way for the user to preview the final document prior to generating the output.
 
 <docs-spacer size="small"></docs-spacer>
 
-Full-page preview 
+##### Full-page preview
+
+Consider a full-page preview after data entry to allow users to go over their changes before generating an output. This preview could happen after data entry and right before generation.
 
 ![Full-page review](/images/generation-–-2.png)
 
 <docs-spacer size="small"></docs-spacer>
+
+##### Dialog preview
 
 Preview in a dialog to focus the user's attention on the preview itself and not to distract the user with other options. 
 
@@ -145,11 +167,15 @@ Generate an output in a dialog when a focused state is not present.
 
 <docs-spacer size="small"></docs-spacer>
 
-Generate output in a form.
+##### Options for generating output
+
+Providing output options, such as which format to download as, can be beneficial for users.
 
 ![Form generate](/images/generation-–-5.png)
 
 <docs-spacer size="small"></docs-spacer>
+
+#### Loading experience while generating an output
 
 When generating an output, there may be a need for a loading experience. Loading can be shown in various different ways: full page loading, progress bar in a notifier, progress circle in a dialog, etc. When a user will be notified by email upon generation completion, there may be no need for a loading state.
 
