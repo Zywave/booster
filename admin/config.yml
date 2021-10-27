@@ -32,9 +32,9 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "API Schema", name: "api", widget: "string" }
-      - { label: "Demo URI", name: "demo", widget: "string" }
-      - { label: "Main component name", name: "mainComponentName", widget: "string" }
+      - { label: "API Schema", name: "api", widget: "string", required: false }
+      - { label: "Demo URI", name: "demo", widget: "string", required: false }
+      - { label: "Main component name", name: "mainComponentName", widget: "string", required: false }
       - { label: "Included elements", name: "includedElements", widget: "list", default: [] }
 
   - name: "application_framework_developers"
@@ -98,9 +98,9 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "API Schema", name: "api", widget: "string" }
-      - { label: "Demo URI", name: "demo", widget: "string" }
-      - { label: "Main component name", name: "mainComponentName", widget: "string" }
+      - { label: "API Schema", name: "api", widget: "string", required: false }
+      - { label: "Demo URI", name: "demo", widget: "string", required: false }
+      - { label: "Main component name", name: "mainComponentName", widget: "string", required: false }
       - { label: "Included elements", name: "includedElements", widget: "list", default: []}
 
   - name: "design_system_developers"
