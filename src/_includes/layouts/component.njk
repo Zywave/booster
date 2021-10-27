@@ -17,13 +17,13 @@ layout: nav-base
 <script type="module" src="{{ "js/web-components/docs-spacer.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/docs-grid.js" | url }}"></script>
 
-<h1 class="component-header">{{ title }}</h1>
-{% if subtitle %} <h2 class="component-subheader">{{ subtitle }}</h2> {% endif %}
 {% if not api %}
-<span class="component-status not-available" title="While documented, this component may not be available in the Toolkit.">Not available</span>
+<span class="component-status not-available" title="While documented, this component may not be available in the Toolkit.">Not implemented</span>
 {% else %}
 <span class="component-status stable" title="This component is ready to use!.">Stable</span>
 {% endif %}
+<h1 class="component-header">{{ title }}</h1>
+{% if subtitle %} <h2 class="component-subheader">{{ subtitle }}</h2> {% endif %}
 
 <nav class="zui row">
   <zui-tabs selected="-1">

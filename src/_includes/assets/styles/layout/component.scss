@@ -25,7 +25,7 @@ h1.component-header {
 }
 
 h2.component-subheader {
-  margin-bottom: unset;
+  margin-bottom: rem(20);
 }
 
 #content {
@@ -62,7 +62,7 @@ h2.component-subheader {
   display: inline-block;
   border-radius: rem(4);
   padding: rem(2) rem(12);
-  margin: rem(10) 0;
+  margin-bottom: rem(10);
 
   &.not-available {
     color: white;
