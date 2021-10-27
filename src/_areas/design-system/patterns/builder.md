@@ -103,7 +103,9 @@ Use an action bar when the user needs to take ordered steps to finish a workflow
 
 #### Template examples
 
-To give some ideas on how to design this step, below are some examples of data entry can be accomplished.
+To give some ideas on how to design this step, below are some examples of data entry templates.
+
+<docs-spacer size="small"></docs-spacer>
 
 ##### Single-column rich document editor
 
