@@ -30,7 +30,7 @@ For detailed documentation on our Button Group anatomy, view the [design specs](
 
 ## Types
 
-Primary and Secondary are the two main types of Button Groups available. These types of Button Groups visually indicate to the user that the actions are grouped together. The two types should never be mixed within one Button Group, meaning you cannot have one primary action and 2 secondary actions within one group.\
+Primary and secondary are the two main types of Button Groups available. These types of Button Groups visually indicate to the user that the actions are grouped together. The two types should never be mixed within one Button Group, meaning you cannot have one primary action and 2 secondary actions within one group.\
 <docs-spacer size="small"></docs-spacer>
 
 #### Secondary
@@ -43,7 +43,7 @@ Because there should only be one primary action on a page, a secondary type is h
 
 #### Primary
 
-In rare cases, a primary Button Group may be used. Primary Button Groups will appear within more complex pages that may have additional secondary actions outside of the group.  
+In rare cases, a primary Button Group may be used. Primary Button Groups should appear within more complex pages that may have additional secondary actions outside of the group.  
 
 ![Primary style Button Group](/images/button-group_primary.svg)
 
@@ -59,13 +59,13 @@ Text labels can be omitted to conserve space, but only icons that clearly repres
 </br>
 </br>
 
-For detailed documentation on adding icons to Button Groups, view the [design specs](https://xd.adobe.com/view/42fe9ab5-9034-4b68-b1a5-ce3827ec5560-17ad/)
+For detailed documentation on adding icons to Button Groups, view the [design specs](https://xd.adobe.com/view/42fe9ab5-9034-4b68-b1a5-ce3827ec5560-17ad/).
 
 <docs-spacer size="small"></docs-spacer>
 
 #### Using Button Dropdowns
 
-Button dropdowns can be used within Button Groups.  For more information about button dropdowns, see [Button Dropdowns](/design-system/components/button-dropdowns). Dropdowns can be placed anywhere in a Button Group as long as the buttons are ordered logically, either by usage or importance.  
+Button Dropdowns can be used within Button Groups. They can be placed anywhere in a Button Group as long as the buttons are ordered logically, either by usage or importance. For more information, see [Button Dropdowns](/design-system/components/button-dropdowns).
 
 ![Button Group containing a Button Dropdown](/images/button-group_dropdown.svg)
 
@@ -80,7 +80,7 @@ For detailed documentation on using Button Dropdowns in Button Groups, view the 
 
 ![States of Button Groups](/images/button-group_states.svg)
 
-The focused state for Button Groups uses an internal borderline. All of the other states follow regular [button guidelines](/design-system/components/buttons). 
+The focused state for Button Groups uses an internal borderline. All of the other states follow regular [Button guidelines](/design-system/components/buttons). 
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -110,9 +110,11 @@ Pressed state occurs very briefly when the button is being activated by the user
 
 #### Disabled state
 
-Disable state occurs when an action currently isn't available. Disabled Button Groups should only be used when an action can be taken within the current UI to enable the button. IF no action can be taken to enable the Button Group, then the Button Group should be hidden instead of disabled.  
+Disable state occurs when an action currently isn't available within a Button Group.
 
-We have added the CSS property pointer-events: none; to this Button Group style that will further prevent users from clicking a disabled Button Group.
+Disabled Button Groups should only be used when an action can be taken within the current UI to enable them. If no action can be taken to enable the Button Group, then the Button Group should be hidden instead of disabled.  
+
+We have added the CSS property <code>pointer-events: none;</code> to this Button Group style that will further prevent users from clicking a disabled Button Group.
 
 - - -
 
@@ -159,10 +161,7 @@ Always use the same Button style variation in a Button Group for a consistent st
   </div>
   <div>
 
-
-
 ![Do not Button Group styling](/images/button-group_styling-do-not.svg)
-
 
    <docs-do-not>
 
@@ -174,11 +173,7 @@ Avoid combining primary and secondary buttons in the same Button Group.
   
 </docs-grid>
 
-
-
 <docs-spacer size="small"></docs-spacer>  
-
-
 
 #### Button labeling
 
@@ -196,10 +191,7 @@ Use action labels that are 1-3 short words.
   </div>
   <div>
 
-
-
 ![Do not Button Group labels](/images/button-group_labeling-do-not-–-1.svg)
-
 
    <docs-do-not>
 
@@ -211,10 +203,11 @@ Use action labels that are long or more than 3 words.
   
 </docs-grid>
 
---- 
+- - -
 
 ## Alternate considerations
-* Use individual [Buttons](/design-system/components/buttons)  when the buttons are not closely related, have varying levels of priority, or are fewer .
-* Use  [Radio Buttons](/design-system/components/radio-buttons)  when labels require more text, or you need a segmented control that emphasizes a selection being made.
-* Use [Tabs](/design-system/components/tabs) when you need tertiary navigation on a page 
+
+* Use individual [Buttons](/design-system/components/buttons) when the buttons are not closely related, have varying levels of priority, or are fewer.
+* Use  [Radio Buttons](/design-system/components/radio-buttons) when labels require more text, or you need a segmented control that emphasizes a selection being made.
+* Use [Tabs](/design-system/components/tabs) when you need tertiary navigation on a page.
 * Use [Toggles](/design-system/components/toggles) when a feature needs to be enabled or disabled.
