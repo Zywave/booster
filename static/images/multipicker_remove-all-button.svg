@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="79" viewBox="0 0 485 79">
+  <defs>
+    <clipPath id="clip-multipicker_remove_all_button">
+      <rect width="485" height="79"/>
+    </clipPath>
+  </defs>
+  <g id="multipicker_remove_all_button" data-name="multipicker_remove all button" clip-path="url(#clip-multipicker_remove_all_button)">
+    <rect width="485" height="79" fill="#f4f4f6"/>
+    <g id="Group_267225" data-name="Group 267225" transform="translate(215.757 30)">
+      <text id="Remove_all" data-name="Remove all" transform="translate(27.243 15)" fill="#5786bd" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-37.037" y="0">Remove all</tspan></text>
+    </g>
+  </g>
+</svg>

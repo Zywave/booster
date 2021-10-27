@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="84" viewBox="0 0 485 84">
+  <defs>
+    <clipPath id="clip-multipicker_tags">
+      <rect width="485" height="84"/>
+    </clipPath>
+  </defs>
+  <g id="multipicker_tags" clip-path="url(#clip-multipicker_tags)">
+    <rect width="485" height="84" fill="#f4f4f6"/>
+    <g id="Group_267222" data-name="Group 267222" transform="translate(2 10)">
+      <g id="Group_267216" data-name="Group 267216" transform="translate(20 20)">
+        <rect id="Rectangle_8132" data-name="Rectangle 8132" width="128" height="24" rx="2" fill="#eaeaea"/>
+        <g id="Remove" transform="translate(108.408 7)">
+          <g id="Remove-2" data-name="Remove">
+            <path id="Path_10244" data-name="Path 10244" d="M9.933,8.934a.25.25,0,0,1,0,.312l-.624.624a.25.25,0,0,1-.312,0L5,6,1.066,9.933a.25.25,0,0,1-.312,0L.129,9.309A.25.25,0,0,1,.129,9L4,5,.067,1.066a.25.25,0,0,1,0-.312L.691.129A.25.25,0,0,1,1,.129L5,4,8.934.067a.25.25,0,0,1,.312,0l.624.624a.25.25,0,0,1,0,.312L6,5Z" transform="translate(-0.012 0)" fill="#b2b2b2"/>
+            <rect id="Rectangle_8133" data-name="Rectangle 8133" width="10" height="10" transform="translate(0.241)" fill="none"/>
+          </g>
+        </g>
+        <text id="ACA_Reporting" data-name="ACA Reporting" transform="translate(7 17)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ACA Reporting</tspan></text>
+      </g>
+      <g id="Group_267208" data-name="Group 267208" transform="translate(153 20)">
+        <rect id="Rectangle_8132-2" data-name="Rectangle 8132" width="113" height="24" rx="2" fill="#eaeaea"/>
+        <g id="Remove-3" data-name="Remove" transform="translate(92.149 7)">
+          <g id="Remove-4" data-name="Remove">
+            <path id="Path_10244-2" data-name="Path 10244" d="M9.933,8.934a.25.25,0,0,1,0,.312l-.624.624a.25.25,0,0,1-.312,0L5,6,1.066,9.933a.25.25,0,0,1-.312,0L.129,9.309A.25.25,0,0,1,.129,9L4,5,.067,1.066a.25.25,0,0,1,0-.312L.691.129A.25.25,0,0,1,1,.129L5,4,8.934.067a.25.25,0,0,1,.312,0l.624.624a.25.25,0,0,1,0,.312L6,5Z" transform="translate(-0.012 0)" fill="#b2b2b2"/>
+            <rect id="Rectangle_8133-2" data-name="Rectangle 8133" width="10" height="10" transform="translate(0.241)" fill="none"/>
+          </g>
+        </g>
+        <text id="Client_Portal" data-name="Client Portal" transform="translate(7 17)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Client Portal</tspan></text>
+      </g>
+      <g id="Group_267212" data-name="Group 267212" transform="translate(271 20)">
+        <rect id="Rectangle_8132-3" data-name="Rectangle 8132" width="191" height="24" rx="2" fill="#eaeaea"/>
+        <g id="Remove-5" data-name="Remove" transform="translate(170.571 7)">
+          <g id="Remove-6" data-name="Remove">
+            <path id="Path_10244-3" data-name="Path 10244" d="M9.933,8.934a.25.25,0,0,1,0,.312l-.624.624a.25.25,0,0,1-.312,0L5,6,1.066,9.933a.25.25,0,0,1-.312,0L.129,9.309A.25.25,0,0,1,.129,9L4,5,.067,1.066a.25.25,0,0,1,0-.312L.691.129A.25.25,0,0,1,1,.129L5,4,8.934.067a.25.25,0,0,1,.312,0l.624.624a.25.25,0,0,1,0,.312L6,5Z" transform="translate(-0.012 0)" fill="#b2b2b2"/>
+            <rect id="Rectangle_8133-3" data-name="Rectangle 8133" width="10" height="10" transform="translate(0.241)" fill="none"/>
+          </g>
+        </g>
+        <text id="Cobra_Notices_Generator" data-name="Cobra Notices Generator" transform="translate(7 17)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Cobra Notices Generator</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
