@@ -17,13 +17,13 @@ Appropriate for lists larger than 7-10 options that may require a user to add an
 
 ## Components
 
-The following are the basic elements for creating a Multi-picker. For detailed documentation on our Multi-picker, view the [](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid)[Multi-picker design specs](https://xd.adobe.com/view/a3a6fa71-a1f0-4665-8eeb-20ee68e11de7-f6f5/grid)
+The following are the basic elements for creating a Multi-picker. For detailed documentation on our Multi-picker, view the [](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid)[Multi-picker design specs](https://xd.adobe.com/view/a3a6fa71-a1f0-4665-8eeb-20ee68e11de7-f6f5/grid).
 
 <br>
 
 #### **Dialog (optional)**
 
-A Dialog can be used as the base to display all of the components within a multi-picker. For more information see [Dialog documentation](https://zui.zywave.com/components/dialogs/).
+A Dialog can be used as the base to display all of the components within a multi-picker. For more information, see [Dialog documentation](/design-system/components/dialogs/).
 
 ![Multi-picker - dialog box](/images/multipicker_dialog.svg)
 
@@ -45,7 +45,7 @@ If selections get too long or wrap to a new line, we recommend truncating the re
 
 <br>
 
-Use a Tooltip to display the rest of the results on hover. If the results are longer than 45 characters, remove the tooltip and only allow the user to view the results in the multi-picker.
+Use a Tooltip to display the rest of the results on hover. If the results are longer than 45 characters, remove the Tooltip and only allow the user to view the results in the multi-picker. For more information, see [Tooltip documentation](/design-system/components/tooltips/).
 
 ![Multi-picker - results 3](/images/multipicker_results-–-3.svg)
 
@@ -53,7 +53,7 @@ Use a Tooltip to display the rest of the results on hover. If the results are lo
 
 #### **Text input: Search**
 
-Use a search to filter a long list of options. Typeahead is optional, but recommended, to provide suggestions for a more efficient experience. For more information [Typeahead documentation](https://zui.zywave.com/patterns/typeahead/).
+Use a search to filter a long list of options. Typeahead is optional, but recommended, to provide suggestions for a more efficient experience. For more information, see [Typeahead documentation](/design-system/patterns/typeahead/).
 
 ![Multi-picker - search](/images/multipicker_search.svg)
 
@@ -69,7 +69,7 @@ Once an option is checked, it becomes a selection. Selections are visually defi
 
 #### **List of options**
 
-Checkboxes are used to represent options in a Multi-picker list. More than one option can be checked. To remove a selection, uncheck the checkbox. For more information see [Checkbox documentation](https://zui.zywave.com/components/checkboxes/).
+Checkboxes are used to represent options in a Multi-picker list. More than one option can be checked. To remove a selection, uncheck the checkbox. For more information, see [Checkbox documentation](/design-system/components/checkboxes/).
 
 ![Multi-picker - list of options](/images/multipicker_checkboxes.svg)
 
@@ -77,7 +77,7 @@ Checkboxes are used to represent options in a Multi-picker list. More than one o
 
 #### **Pager (optional)**
 
-Use a pager when the list of options is larger than 20 options in a two-column list. Use your judgment as the height of the list of options will vary based on screen size.
+Use a pager when the list of options is larger than 20 options in a two-column list. Use your judgment as the height of the list of options will vary based on screen size. For information, see [Pager documentation](/design-system/components/pagers/).
 
 ![Multi-picker - pager](/images/multipicker_pager.svg)
 
@@ -129,8 +129,8 @@ After a user has checked at least one option, they will appear as selections bet
 
 Users can remove a selection using one of two methods:
 
-* * Clicking on the remove button (X icon) within the selection.
-  * Unchecking the checkbox in the list of options.
+* Clicking on the remove button (X icon) within the selection.
+* Unchecking the checkbox in the list of options.
 
 ![Multi-picker - removing selections](/images/multipicker_removing-selections.svg)
 
@@ -154,7 +154,7 @@ A "Remove all" button provides an efficient way for the user to remove all sel
 
 # Responsiveness
 
-When on a mobile device (breakpoint ≤480px) the Multi-picker option list reduces to just one column.
+When on a mobile device (breakpoint ≤480px), the Multi-picker option list reduces to just one column.
 
 ![Multi-picker - mobile](/images/multipicker_mobile.svg)
 
@@ -168,7 +168,7 @@ Selections will wrap to the next line. If a user has made a large number of sele
 
 ## Alternative considerations
 
-* Use [checkboxes ](https://zui.zywave.com/components/checkboxes/)for lists smaller than 7-10 items.
-* Use a [dropdown multi-select](https://zui.zywave.com/components/dropdown-multi-select/) for lists larger than 10 options that may require a user to select more than 1 option.
-* Use [radio buttons](https://zui.zywave.com/components/radio-buttons/) if users can only select 1 option from a list of 3 or fewer options.
-* Use a [dropdown select](https://zui.zywave.com/components/dropdown-select/) if users can only select 1 option from lists larger than 2 options.
+* Use [Checkboxes ](/design-system/components/checkboxes/)for lists smaller than 7-10 items.
+* Use a [Dropdown multi-select](/design-system/components/dropdown-multi-selects/) for lists larger than 10 options that may require a user to select more than 1 option.
+* Use [Radio buttons](/design-system/components/radio-buttons/) if users can only select 1 option from a list of 3 or fewer options.
+* Use a [Dropdown select](/design-system/components/dropdown-selects/) if users can only select 1 option from lists larger than 2 options.
