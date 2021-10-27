@@ -11,19 +11,19 @@ A Multi-picker allows users to make multiple selections by searching for specifi
 
 ## Usage
 
-Appropriate for lists larger than 7-10 options that may require a user to add and remove multiple options. The Mutli-picker allows a user to search through a large organized list to find and select multiple options. It makes the selections clear and easy to remove.
+Appropriate for lists larger than 7-10 options that may require a user to add and remove multiple options. The Multi-picker allows a user to search through a large organized list to find and select multiple options. It makes the selections clear and easy to remove.
 
 <hr>
 
 ## Components
 
-The following are the basic elements for creating a Multi-picker. For detailed documentation on our Multi-picker, view the [](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid)[Multi-picker design specs](https://xd.adobe.com/view/a3a6fa71-a1f0-4665-8eeb-20ee68e11de7-f6f5/grid).
+The following are the basic components for creating a Multi-picker. For detailed documentation on our Multi-picker, view the [](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid)[Multi-picker design specs](https://xd.adobe.com/view/a3a6fa71-a1f0-4665-8eeb-20ee68e11de7-f6f5/grid).
 
 <br>
 
 #### **Dialog (optional)**
 
-A Dialog can be used as the base to display all of the components within a multi-picker. For more information, see [Dialog documentation](/design-system/components/dialogs/).
+A Dialog can be used as the base to display all of the components within a Multi-picker. For more information, see [Dialog documentation](/design-system/components/dialogs/).
 
 ![Multi-picker - dialog box](/images/multipicker_dialog.svg)
 
@@ -39,13 +39,13 @@ Display the result if few selections were made.
 
 <br>
 
-If selections get too long or wrap to a new line, we recommend truncating the results to only show one selection and have an overflow pill with the number of truncated selections represent the rest.
+If selections get too long or wrap to a new line, we recommend truncating the results to only show one selection and have an overflow indicator with the number of truncated selections represent the rest.
 
 ![Multi-picker - results 2](/images/multipicker_results-–-2.svg)
 
 <br>
 
-Use a Tooltip to display the rest of the results on hover. If the results are longer than 45 characters, remove the Tooltip and only allow the user to view the results in the multi-picker. For more information, see [Tooltip documentation](/design-system/components/tooltips/).
+Use a Tooltip to display the rest of the results on hover. If the results are longer than 45 characters, remove the Tooltip and only allow the user to view the results in the Multi-picker. For more information, see [Tooltip documentation](/design-system/components/tooltips/).
 
 ![Multi-picker - results 3](/images/multipicker_results-–-3.svg)
 
@@ -53,17 +53,19 @@ Use a Tooltip to display the rest of the results on hover. If the results are lo
 
 #### **Text input: Search**
 
-Use a search to filter a long list of options. Typeahead is optional, but recommended, to provide suggestions for a more efficient experience. For more information, see [Typeahead documentation](/design-system/patterns/typeahead/).
+Use Search to filter a long list of options. Typeahead is optional, but recommended, to provide suggestions for a more efficient experience. For more information, see [Search documentation](/design-system/components/search/) and [Typeahead documentation](/design-system/patterns/typeahead/).
 
 ![Multi-picker - search](/images/multipicker_search.svg)
 
 <br>
 
-#### **Tag (exception of components)**
+#### **Tags (exception to available components)**
 
 Once an option is checked, it becomes a selection. Selections are visually defined by the encapsulation of the label in a gray rectangle accompanied by the remove button (X icon). Selections can be removed by clicking the remove button.
 
 ![Multi-picker - tags](/images/multipicker_tags.svg)
+
+Out of all the available components listed to create a Multi-picker, tags are the exception and should be custom. View the Multi-picker design specs for [tabs design specs](https://xd.adobe.com/view/a3a6fa71-a1f0-4665-8eeb-20ee68e11de7-f6f5/screen/ce7b0a4f-51c0-44ba-a074-95d78d60b687/specs/).
 
 <br>
 
@@ -85,7 +87,7 @@ Use a pager when the list of options is larger than 20 options in a two-column l
 
 ## Layout & Structure
 
-Putting all of the elements together in the right order and layout is essential for a user to search, add, and remove options efficiently. This includes:
+Putting all of the components together in the right order and layout is essential for a user to search, add, and remove options efficiently. This includes:
 
 * **Title**
 * **Selections**
@@ -93,7 +95,7 @@ Putting all of the elements together in the right order and layout is essential 
 * **List**
 * **Actions**
 
-For detailed documentation on our Multi-picker, view the [Multi-picker design specs](https://xd.adobe.com/view/5de56467-92d7-4c5c-8514-3bea26b21b1b-08b6/grid).
+For detailed documentation on our Multi-picker, view the [Multi-picker design specs](https://xd.adobe.com/view/a3a6fa71-a1f0-4665-8eeb-20ee68e11de7-f6f5/grid).
 
 <br>
 
