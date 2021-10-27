@@ -1,8 +1,8 @@
 ---
 layout: documentation
 title: Builder
-subtitle: A Builder is a workflow used to construct, edit, and organize to
-  build presentable content; for example, a policy renewal proposal.
+subtitle: A workflow used to construct, edit, and organize presentable content;
+  for example, a policy renewal proposal.
 hideToc: false
 ---
 ## Usage
@@ -17,10 +17,10 @@ There are 4 common steps used in the Builder pattern. Choose the steps that best
 
 The 4 steps include:
 
-* **Kickoff**
-* **Setup**
-* **Data Entry**
-* **Generation**
+1. **Kickoff**
+2. **Setup**
+3. **Data Entry**
+4. **Generation**
 
 For detailed documentation on our Builder steps, view the [Builder design specs](https://xd.adobe.com/view/918e997c-d5e3-4c4c-8cb5-491b6aeac31c-c4dd/grid).
 
@@ -30,14 +30,14 @@ For detailed documentation on our Builder steps, view the [Builder design specs
 
 The first step is the Kickoff. It contains a high-level action to start the workflow. Kickoff can take place within the tool or from an account page.
 
-Consider the following when configuring the Kickoff step.
+Consider the following when configuring the Kickoff step:
 
 * How will the Builder launch?
 * Does the user need to return to a home page to view a previously created project?
 
 <docs-spacer size="small"></docs-spacer>
 
-Typically, page-level actions should be placed in the top right corner to start a workflow. Use a table when the user needs to return to a previous project. This is also helpful for downloading, editing, and duplication of projects. If the table is empty, use an empty state in the table.
+Typically, page-level actions should be placed in the top right corner to start a workflow. Use a table when the user needs to return to a previous project. This is also helpful for downloading, editing, and duplicating projects. If the table is empty, use an empty state in the table.
 
 ![Kickoff](/images/kickoff.png)
 
@@ -89,9 +89,7 @@ Use a progress indicator when the user needs the ability to go back and forth wi
 
 <docs-spacer size="small"></docs-spacer>
 
-Use an action bar when the user needs to take ordered steps to finish a workflow. The user is not allowed to skip steps. 
-
-For more information, see [Action bar documentation](/design-system/components/shell/?tab=usage#what-is-the-action-bar%3F)**.**
+Use an action bar when the user needs to take ordered steps to finish a workflow. The user is not allowed to skip steps. For more information, see [Action bar documentation](/design-system/components/shell/?tab=usage#what-is-the-action-bar%3F)**.**
 
 ![Data entry action bar](/images/data-entry-–-2.png)
 
@@ -105,13 +103,13 @@ Single-column editor
 
 Two-column editor
 
-![Two-column editor](/images/data-entry-–-4.png)
+![Two-column editor](/images/data-entry-–-5.png)
 
 <docs-spacer size="small"></docs-spacer>
 
 Use a fixed side panel on the right side when users need to manage selections in the workflow. This also helps to give users easy access to components or tools while still having a work area.
 
-![Fixed panel](/images/data-entry-–-5.png)
+![Fixed panel](/images/data-entry-–-4.png)
 
 <docs-spacer></docs-spacer>
 
@@ -119,7 +117,7 @@ Use a fixed side panel on the right side when users need to manage selections in
 
 The final step in the document/presentation creation process is to generate an output. The user will need an action to begin the Generation step. 
 
-Use words similar to download or generate. Although, "generate", should typically be used when the user has to perform an action, or additional steps need to occur before the user receives the output.
+Use words similar to download or generate. Although, "generate" should typically be used when the user has to perform an action; or additional steps need to occur before the user receives the output.
 
 ![Generate actions](/images/generation.png)
 
