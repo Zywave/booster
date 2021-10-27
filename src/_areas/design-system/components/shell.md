@@ -17,17 +17,25 @@ The Shell wraps around all of our applications and provides suite level consiste
 
 The shell includes 4 core sections that surround the content standard content area, Topbar, Side nav, and footer. For a consistent user experience, use all 3 shell components when building applications.
 
+<docs-spacer size="small"></docs-spacer>
+
 #### 1. Topbar
 
 The Topbar is the section reserved at the top of the page that provides application branding, suite-level navigation, and high priority functionality such as search. For more detailed information, view the Topbar guidelines.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### 2. Sidenav
 
 The Side nav provides a standard place for navigation within a product. Placed on the left-hand side of the site, it lists out the application-specific site features you can access, as well as features like settings, notifications, and help. For more detailed information, view the Sidenav guidelines.
 
+<docs-spacer size="small"></docs-spacer>
+
 #### 3. Footer
 
 The section at the bottom of most pages contain information that needs to be there, but doesn't necessarily demand the user's primary focus. The footer can include legal, trademark, terms &amp; conditions, privacy statement, DMCA, cookie usage, and contact information. For more detailed information, view the Footer guidelines.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### 4. Content area
 
@@ -55,7 +63,7 @@ Depending on if you are building a single point solution that will be sold indiv
 
 <docs-grid columns="2">
 
-<div>The shell has been designed to transition itself for a better experience on mobile devices. At our mobile breakpoint (≥\`720px\`), the side nav becomes hidden off-screen and slides in when the menu button his pushed. For a detailed list of what happens in each 4 core sections, please visit those sections.</div>
+<div>The shell has been designed to transition itself for a better experience on mobile devices. At our mobile breakpoint (≥<code>720px</code>), the side nav becomes hidden off-screen and slides in when the menu button his pushed. For a detailed list of what happens in each 4 core sections, please visit those sections.</div>
 
 <div>
 
@@ -122,13 +130,19 @@ Although there is not much difference in layout and componentry, depending on th
 * **Application switcher** - When clicked, a dropdown list will appear and show the user other applications they own so they can easily switch between them.
 * **Profile manager** - When clicked, a dropdown will show user information (e.g., principle and profile) and notifications.
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Searching
 
 Search is an optional feature dependent on the application and the users' needs. Depending on the importance or need of searching, this component may or may not be included in the Topbar. The search bar will default to the category that's searchable for the product. For example, "content" in Broker Briefcase.
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Scrolling
 
 The Topbar is the highest section of Shell, meaning everything in the Sidenav, Content area and Footer can slide underneath it when scrolling. When the user starts scrolling down the page the Topbar will shrink down to `10px` tall, allowing for more vertical space in the Content area. Once the user scrolls up `1px` or more, the entire Topbar reappears.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Responsive Design
 
@@ -209,10 +223,14 @@ The following are nav items that are recommended for every application, when app
 * Parent items can all be open at the same time to show all subnav item for the entire application.
 * After a user clicks on a link, expanded navigation remains expanded. Don't close the navigation until the user pushes to close it.
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Scrolling
 
 * When the list of expanded items extends the entire height of the viewport, a small scrollbar appears, allowing the user to scroll the Sidenav.
 * The collapsed nav item remains stuck to the bottom and is not part of the scrolling section.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Collapsing the Sidenav
 
@@ -540,6 +558,8 @@ Because the currently selected account is not immediately visible when the Siden
 The Context Switcher only appears in the Sidenav when the user has chosen to view a feature as an organization. Once they return to their dashboard, the Context Switcher should be removed.
 The contents of the Sidenav should also change to reflect what is available for that account in the feature/tool.
 
+<docs-spacer size="small"></docs-spacer>
+
 **Collapsing navigation behavior:**
 When collapsing the Sidenav, the flyout containing the "Viewing as: *organization*" message appears for a few seconds and then disappears. To view this message again, the user can hover over the switch action.
 
@@ -613,14 +633,14 @@ The main purpose of the action bar is to provide the user with a consistent plac
 * The action bar is sticky and should remain flush up against the bottom of the Top bar, even as the user scrolls down the page to keep the actions in a consistent place on the screen
 * Depending on the task at hand and how the data is being saved, a dialog may need to be displayed before a user navigates away to prevent loss of information
 
-<br />
+<docs-spacer size="small"></docs-spacer>
 
 ![expanded side nav](/images/components/shell/action-bar/expandednav.svg)
 Focused state with an expanded side nav
 
 For detailed documentation on Action bar with an expanded side nav, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/77f2c9b5-cb7b-497a-b868-72ee9c245e25).
 
-<br/>
+<docs-spacer size="small"></docs-spacer>
 
 ![scrolled focus state](/images/components/shell/action-bar/scrolled.svg)
 Action bar after scrolling down the page
