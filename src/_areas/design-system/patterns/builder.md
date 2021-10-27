@@ -145,13 +145,13 @@ Generate an output in a dialog when a focused state is not present.
 
 <docs-spacer size="small"></docs-spacer>
 
-Generate an output in a form.
+Generate output in a form.
 
 ![Form generate](/images/generation-–-5.png)
 
 <docs-spacer size="small"></docs-spacer>
 
-When generating an output, there may be a need for a loading experience. Loading can be shown in various different ways: full page loading, progress bar in a notifier, progress circle in a dialog, etc. When an email invite is being mailed, there may be no need for loading.
+When generating an output, there may be a need for a loading experience. Loading can be shown in various different ways: full page loading, progress bar in a notifier, progress circle in a dialog, etc. When a user will be notified by email upon generation completion, there may be no need for a loading state.
 
 Consider the following when configuring loading:
 
