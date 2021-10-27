@@ -1,8 +1,7 @@
 ---
 layout: documentation
 title: Builder
-subtitle: A workflow used to construct, edit, and organize presentable content;
-  for example, a policy renewal proposal.
+subtitle: A workflow used to construct, edit, and organize presentable content
 hideToc: false
 ---
 ## Usage
