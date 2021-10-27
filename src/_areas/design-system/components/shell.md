@@ -55,7 +55,7 @@ Depending on if you are building a single point solution that will be sold indiv
 
 <docs-grid columns="2">
 
-<div>The shell has been designed to transition itself for a better experience on mobile devices. At our mobile breakpoint (≥`720px`), the side nav becomes hidden off-screen and slides in when the menu button his pushed. For a detailed list of what happens in each 4 core sections, please visit those sections.</div>
+<div>The shell has been designed to transition itself for a better experience on mobile devices. At our mobile breakpoint (≥\`720px\`), the side nav becomes hidden off-screen and slides in when the menu button his pushed. For a detailed list of what happens in each 4 core sections, please visit those sections.</div>
 
 <div>
 
@@ -650,7 +650,7 @@ Use the Action bar for forms that are longer than 5 input fields
 
 <docs-do-not>
 
-* Use the Action bar for forms that are under 5 input fields
+Use the Action bar for forms that are under 5 input fields
 
 </docs-do-not>
 
