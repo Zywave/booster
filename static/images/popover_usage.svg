@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="184" viewBox="0 0 1000 184">
+  <defs>
+    <filter id="White_background" x="280" y="21" width="440" height="154" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-popover_usage">
+      <rect width="1000" height="184"/>
+    </clipPath>
+  </defs>
+  <g id="popover_usage" clip-path="url(#clip-popover_usage)">
+    <rect width="1000" height="184" fill="#f4f4f6"/>
+    <g id="Popover" transform="translate(295 30)">
+      <g transform="matrix(1, 0, 0, 1, -295, -30)" filter="url(#White_background)">
+        <path id="White_background-2" data-name="White background" d="M4,0H396a4,4,0,0,1,4,4V120a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V73.378L-10,62.205,0,52.074V4A4,4,0,0,1,4,0Z" transform="translate(305 30)" fill="#fff"/>
+      </g>
+      <g id="Popover_content" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="Click_next_to_proceed_back_to_return_to_the_last_popover_cancel_to_exit_walkthrough_or_click_this_link_to_go_to_a_related_page._" data-name="Click next to proceed, back to return to the last popover, cancel to exit walkthrough, or click this link to go to a 
+related page.  " transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Click next to proceed, back to return to the last popover, </tspan><tspan x="0" y="34">cancel to exit walkthrough, or click this link to go to a </tspan><tspan fill="#2777d3"><tspan x="0" y="53" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve" fill="#3d3d3d">.  </tspan></tspan></text>
+        <text id="Popover_walkthrough" data-name="Popover walkthrough" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+      </g>
+      <path id="Path_10317" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Remove" transform="translate(392 28)">
+        <g id="Group_264400" data-name="Group 264400" transform="translate(-8 -8)">
+          <path id="Path_10410" data-name="Path 10410" d="M12.85,11.44a.5.5,0,0,1,0,.71l-.7.7a.5.5,0,0,1-.71,0L8,9.41,4.56,12.85a.5.5,0,0,1-.71,0l-.7-.7a.5.5,0,0,1,0-.71L6.59,8,3.15,4.56a.5.5,0,0,1,0-.71l.7-.7a.5.5,0,0,1,.71,0L8,6.59l3.44-3.44a.5.5,0,0,1,.71,0l.7.7a.5.5,0,0,1,0,.71L9.41,8Z" fill="#303030"/>
+          <rect id="Rectangle_8221" data-name="Rectangle 8221" width="16" height="16" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
