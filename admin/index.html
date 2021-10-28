@@ -52,22 +52,6 @@
     CMS.registerPreviewTemplate("application_framework_components", ComponentsPreview);
 
     let DocumentationPreview = createClass({
-      componentDidMount() {
-        const { document } = this.props;
-        const docsCustomElementsFiles = [
-          "/js/web-components/docs-do.js",
-          "/js/web-components/docs-do-not.js",
-          "/js/web-components/docs-spacer.js",
-          "/js/web-components/docs-grid.js"
-        ];
-        
-        docsCustomElementsFiles.forEach(file => {
-          const script = document.createElement('script');
-          script.type = "module";
-          script.src = file;
-          document.head.appendChild(script);
-        });
-      },
       render: function () {
         return h('main', {},
           h('div', { "className": "content-wrapper" },
@@ -88,7 +72,6 @@
     CMS.registerPreviewTemplate("design_system_patterns", DocumentationPreview);
     CMS.registerPreviewTemplate("design_system_visuals", DocumentationPreview);
     CMS.registerPreviewTemplate("design_system_voice_and_tone", DocumentationPreview);
-    CMS.registerPreviewTemplate("pages", DocumentationPreview);
   </script>
 </body>
 
