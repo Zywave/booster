@@ -12,7 +12,7 @@ subtitle: " "
             <div class="logo"><img src="/images/home/zywave-logo.svg" /></div>
             <nav>
                 <ul>
-                    <li><a href="{{ '/coming-soon/' | url }}">Getting started</a></li>
+                    <li><a href="{{ '/getting-started/' | url }}">Getting started</a></li>
                     <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
                     <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
                     <li><a href="{{ '/blog/' | url }}">Blog</a></li>
