@@ -16,27 +16,19 @@ Checkboxes are selection controls that allow the user to make multiple selection
 
 A checkbox should be used when selecting zero, one, or more independent options from a list or to show a list of sub-selections. A standalone checkbox can also be used to select a single option in certain environments and situations.
 
-
-
 <hr>
-
-
 
 ## Anatomy
 
-For detailed documentation on our checkbox anatomy, view the [ZUI checkbox design specs](https://xd.adobe.com/view/93be6c9d-e5f1-40af-7116-323e57943237-e58f/grid).
+For detailed documentation on our checkbox anatomy, view the [ZUI checkbox design specs](https://xd.adobe.com/view/1e451acf-dca2-47ce-8bee-99ca93473313-4b16/grid).
 
 ![Image of Standard Checkbox](/images/anatomy-standard.png)
-
-
 
 ### Standard Checkbox
 
 * Checkbox height and width will always be 24px
 * Clickable area of the checkbox will always be 36px, and include the label if applicable
 * System font, size 14px, regular
-
-
 
 ![Image of Gallery Checkbox](/images/anatomy-gallery.png)
 
@@ -48,8 +40,6 @@ For detailed documentation on our checkbox anatomy, view the [ZUI checkbox desig
 <hr>
 
 ## Styles
-
-
 
 ![Image of a standard checkbox](/images/checkbox-styles.png)
 
@@ -128,8 +118,6 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 </docs-grid>
 
 <hr>
-
-
 
 ## Alternate considerations
 
