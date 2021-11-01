@@ -11,7 +11,7 @@ includedElements: []
 
 The Shell wraps around all of our applications and provides suite level consistencies, branding, and common functionality. It helps the user understand and navigate the core of the Zywave suite.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### Anatomy
 
@@ -78,7 +78,7 @@ Depending on if you are building a single point solution that will be sold indiv
 
 The Topbar gives the user easy access to suite and organization-level actions, as well as some important actions specific to the application or tool. The Topbar also provides a space for product branding. It is a base component of the suite and should be used for every product, unless there is a specific reason not to.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### Anatomy
 
@@ -160,7 +160,7 @@ On smaller screens with a **breakpoint <`720px`**, the Topbar responds to allow 
 
 The Sidenav contains the majority of the application and suite-level navigation. This includes the feature-level navigation as well as access to Notifications, Settings, and Help and training. Having the Sidenav in a standard and reliable place helps ground the user experience of all our products. It should be used for every product, unless there is a speific reason not to.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### What things go in the Sidenav
 
@@ -274,7 +274,7 @@ Use the following links to find exact pixel specs for each state of the Sidenav.
 
 The Footer is the small section at the bottom of each page that contains things like the privacy and cookie policies, and other legal and trademark information. It is easy to find the information you are looking for, should you need it, and does not interfere with using the app. The Footer is a core feature of Shell and should be used in every application.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### Anatomy
 
@@ -331,7 +331,7 @@ The Content area is the body of our applications where all the features and func
 
 ![Basics of the content area](/images/components/shell/content-area/content-area_basics.svg)
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### Standard padding
 
@@ -501,7 +501,7 @@ Use a white background when the content is mainly text based to enhance readabil
 
 The Context Switcher lives in the Sidenav when a user is viewing a feature on behalf of a different organization. It provides information about which organization is being accessed as well as an easy way to switch to a different organization.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### Anatomy
 
@@ -571,7 +571,7 @@ When collapsing the Sidenav, the flyout containing the "Viewing as: *organizatio
 
 The Action bar is used to provide the user with a consistent placement of actions on the screen when interacting with longer, more complex pages.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### Usage
 
