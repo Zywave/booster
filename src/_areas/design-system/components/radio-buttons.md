@@ -211,10 +211,6 @@ A Radio Button without a label is unusable; users would have a hard time knowing
 
 <hr>
 
-For more information on selection controls and keyboard accessibility [view form standards](/design-system/patterns/forms/).
-
-<hr>
-
 ## Alternate considerations
 
 Use a *[dropdown select](/design-system/components/dropdown-selects/)* if only one option can be selected and and the list is larger than 10 items.
@@ -224,3 +220,11 @@ Use a [*toggle* ](/design-system/components/toggles/)if the options are two op
 Use *[checkboxes](/design-system/components/checkboxes/)* if zero or more options can be selected for lists smaller than 10 items
 
 Use a *[dropdown multi-select](/design-system/components/dropdown-multi-selects/)* if one or more options can be selected and the list is larger than 10 items.
+
+
+
+<hr>
+
+For more information on selection controls and keyboard accessibility [view form standards](/design-system/patterns/forms/).
+
+<hr>
