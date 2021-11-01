@@ -91,11 +91,7 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 <hr>
 
-
-
 ## Best practices
-
-
 
 #### Be consistent when writing Checkbox labels
 
@@ -127,11 +123,7 @@ Avoide having multiple formats such as different phrases, end in periods, and et
 
 </docs-grid>
 
-
-
 <br>
-
-
 
 #### Use positive wording for Checkbox labels
 
@@ -161,11 +153,7 @@ Avoid negations in Checkbox labels, which means that the user would have to chec
 
 </docs-grid>
 
-
-
 <br>
-
-
 
 #### Lay out Checkbox lists vertically
 
@@ -195,11 +183,7 @@ Avoid placing Checkboxes too close to each other as it would create confusion on
 
 </docs-grid>
 
-
-
 <br>
-
-
 
 #### Use Tri-State Checkbox when a list is partially selected
 
@@ -222,20 +206,14 @@ Use a tri-state Checkbox when a list is partially selected
 ![Avoid leaving the parent level Checkbox unchecked to avoid confusion](/images/4-2.png)
 
 <docs-do-not>
-Avoid leaving the parent level Checkbox unchecked to avoid confusion
+ Avoid leaving the parent level Checkbox unchecked to avoid confusion
 </docs-do-not>
 
 </div>
 
 </docs-grid>
 
-
-
-
-
 <hr>
-
-
 
 ## Alternate considerations
 
