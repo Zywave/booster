@@ -91,33 +91,151 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 <hr>
 
-## Checkbox best practices
+
+
+## Best practices
+
+
+
+#### Be consistent when writing Checkbox labels
+
+* Make sure all Checkbox labels follow the same text format, such as sentence case, title case, etc.
+* Avoid ending Checkbox labels with a period (.)
+* Make sure all Checkbox labels follow the same pattern; which can be a sentence, a phrase, or a single word
 
 <docs-grid columns="2">
 
 <div>
 
-![Checkbox Label Do](/images/components/checkboxes/Assets_03-20/checklabel_do.svg)
+![Keep label text format consistent](/images/group-264508.png)
 
 <docs-do>
-  Checkboxes should always have a label.
+Keep label text format and pattern consistent
 </docs-do>
 
 </div>
 
 <div>
 
-![Checkbox Label Don't](/images/components/checkboxes/Assets_03-20/checklabel_dont.svg)
+![Avoid ending Checkbox labels with a period (.)](/images/2.png)
 
 <docs-do-not>
-  A checkbox without a label is unusable; the user will not know what selection they are making without text.
+Avoide having multiple formats such as different phrases, end in periods, and etc.
 </docs-do-not>
 
 </div>
 
 </docs-grid>
 
+
+
+<br>
+
+
+
+#### Use positive wording for Checkbox labels
+
+Checkboxes universally infer affirmation, not negation. When writting the Checkbox label, make sure to use positive and active wording so that it is clear to users what *will* happen if they click on the Checkbox. 
+
+<docs-grid columns="2">
+
+<div>
+
+![Use positive and active wording in Checkbox labels to indicate what will happen if checked.](/images/2-1.png)
+
+<docs-do>
+Use positive and active wording in Checkbox labels to indicate what will happen if checked.
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid negations in Checkbox labels, which means that the user would have to check the box in order for something not to happen.](/images/2-2.png)
+
+<docs-do-not>
+Avoid negations in Checkbox labels, which means that the user would have to check the box in order for something not to happen.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+
+
+<br>
+
+
+
+#### Lay out Checkbox lists vertically
+
+It is recommended that check lists be displayed vertically with one checkbox per line to better distinguish each option so they are easier to scan and read. If you must use a horizontal layout, make sure to space items out abundantly so that it is easy for users to associate Checkboxes with the correct label. 
+
+<docs-grid columns="2">
+
+<div>
+
+![If you have to display Checkboxes horizontally, make sure to space each checkbox out appropriately so the checkbox associates with the related label](/images/3-1.png)
+
+<docs-do>
+If you have to display Checkboxes horizontally, make sure to space each checkbox out appropriately so the checkbox associates with the related label
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid placing Checkboxes too close to each other as it would create confusion on associate the right checkbox to the right label](/images/3-2.png)
+
+<docs-do-not>
+Avoid placing Checkboxes too close to each other as it would create confusion on associate the right checkbox to the right label
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+
+
+<br>
+
+
+
+#### Use Tri-State Checkbox when a list is partially selected
+
+An indeterminate state is required when sub-options are grouped under a parent Checkbox. The indeterminate state represents a parent Checkbox that is partially checked due to some of its sub-options only being checked.
+
+<docs-grid columns="2">
+
+<div>
+
+![Use a tri-state Checkbox when a list is partially selected](/images/4-1.png)
+
+<docs-do>
+Use a tri-state Checkbox when a list is partially selected
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid leaving the parent level Checkbox unchecked to avoid confusion](/images/4-2.png)
+
+<docs-do-not>
+Avoid leaving the parent level Checkbox unchecked to avoid confusion
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+
+
+
+
 <hr>
+
+
 
 ## Alternate considerations
 
