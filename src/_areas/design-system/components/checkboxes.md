@@ -123,7 +123,13 @@ Avoide having multiple formats such as different phrases, end in periods, and et
 
 </docs-grid>
 
-<br>
+
+
+<docs-spacer>
+
+</docs-spacer>
+
+
 
 #### Use positive wording for Checkbox labels
 
@@ -153,7 +159,13 @@ Avoid negations in Checkbox labels, which means that the user would have to chec
 
 </docs-grid>
 
-<br>
+
+
+<docs-spacer>
+
+</docs-spacer>
+
+
 
 #### Lay out Checkbox lists vertically
 
@@ -183,7 +195,13 @@ Avoid placing Checkboxes too close to each other as it would create confusion on
 
 </docs-grid>
 
-<br>
+
+
+<docs-spacer>
+
+</docs-spacer>
+
+
 
 #### Use Tri-State Checkbox when a list is partially selected
 
@@ -213,7 +231,13 @@ Use a tri-state Checkbox when a list is partially selected
 
 </docs-grid>
 
-<hr>
+
+
+<docs-spacer>
+
+</docs-spacer>
+
+
 
 ## Alternate considerations
 
