@@ -118,89 +118,124 @@ Disabled state occurs when an action currently isn’t available. Disabled Radio
 
 <hr>
 
+
+
 ## Best Practices
 
-<Grid>
+<docs-grid columns="2">
 
-<GridCol col="span-6">
 
-![Card Width Do](/images/components/radio-buttons/Assets_02-20/radiogroup_do_outline.svg)
+<div>
 
-<Do />
+![Radio Buttons should be used when a user must select one option from a list of 2-10 options.](/images/components/radio-buttons/Assets_02-20/radiogroup_do_outline.svg)
 
-Radio buttons should always be used when there is a list of two or more options, up to 10, and the user must select only one.
+<docs-do>  
+Radio Buttons should be used when a user must select one option from a list of 2-10 options.
 
-</GridCol>
+</docs-do>
 
-<GridCol col="span-6">
+</div>
 
-![Card Width Don't](/images/components/radio-buttons/Assets_02-20/radiogroup_dont_outline.svg)
 
-<DoNot />
+<div>
 
-A single radio button should never be used alone.
+![Do not use a Radio Button when there is only one option available to the user.](/images/components/radio-buttons/Assets_02-20/radiogroup_dont_outline.svg)
 
-</GridCol>
+<docs-do-not>
 
-</Grid>
+Do not use a Radio Button when there is only one option available to the user.
 
-<Spacer size="small" />
+</docs-do-not>
 
-<Grid>
+</div>
 
-<GridCol col="span-6">
 
-![Card Width Do](/images/components/radio-buttons/Assets_02-20/radioselection_do_outline.svg)
+  
+</docs-grid>
 
-<Do />
 
-Radio buttons should always have at least one option selected as default.
-
-</GridCol>
-
-<GridCol col="span-6">
-
-![Card Width Don't](/images/components/radio-buttons/Assets_02-20/radioselection_dont_outline.svg)
-
-<DoNot />
-
-A group of radio buttons should never be shown without a default selection.
-
-</GridCol>
-
-</Grid>
 
 <Spacer size="small" />
 
-<Grid>
+<docs-grid columns="2">
 
-<GridCol col="span-6">
 
-![Card Width Do](/images/components/radio-buttons/Assets_02-20/radiolabel_do_outline.svg)
+<div>
 
-<Do />
+![A radio group should always have at least one radio button selected by default.](/images/components/radio-buttons/Assets_02-20/radioselection_do_outline.svg)
 
-Radio buttons should always have a label.
+<docs-do>  
 
-</GridCol>
+A radio group should always have at least one radio button selected by default.
 
-<GridCol col="span-6">
+</docs-do>
 
-![Card Width Don't](/images/components/radio-buttons/Assets_02-20/radiolabel_dont_outline.svg)
+</div>
 
-<DoNot />
 
-A radio button without a label is unusable; the user will not know what selection they are making without text.
+<div>
 
-</GridCol>
+![A radio group should never be shown without a default selection.](/images/components/radio-buttons/Assets_02-20/radioselection_dont_outline.svg)
 
-</Grid>
+<docs-do-not>
+
+A radio group should never be shown without a default selection.
+
+</docs-do-not>
+
+</div>
+
+
+</docs-grid>
+
+
+
+<Spacer size="small" />
+
+<docs-grid columns="2">
+
+
+<div>
+
+![Radio Buttons should always have a label.](/images/components/radio-buttons/Assets_02-20/radiolabel_do_outline.svg)
+
+<docs-do>  
+
+Radio Buttons should always have a label.
+
+</docs-do>
+
+</div>
+
+
+<div>
+
+![A Radio Button without a label is unusable; users would have a hard time knowing what selection they are making without context.](/images/components/radio-buttons/Assets_02-20/radiolabel_dont_outline.svg)
+
+<docs-do-not>
+
+A Radio Button without a label is unusable; users would have a hard time knowing what selection they are making without context.
+
+</docs-do-not>
+
+</div>
+
+
+</docs-grid>
+
+
+
+<Spacer size="small" />
+
+
 
 <hr>
 
 For more information on selection controls and keyboard accessibility [view form standards](/design-system/patterns/forms/).
 
 <hr>
+
+
 
 ## Alternate considerations
 
