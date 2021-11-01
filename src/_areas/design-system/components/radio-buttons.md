@@ -221,10 +221,6 @@ Use *[checkboxes](/design-system/components/checkboxes/)* if zero or more opti
 
 Use a *[dropdown multi-select](/design-system/components/dropdown-multi-selects/)* if one or more options can be selected and the list is larger than 10 items.
 
-
-
 <hr>
 
 For more information on selection controls and keyboard accessibility [view form standards](/design-system/patterns/forms/).
-
-<hr>
