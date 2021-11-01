@@ -118,12 +118,9 @@ Disabled state occurs when an action currently isn’t available. Disabled Radio
 
 <hr>
 
-
-
 ## Best Practices
 
 <docs-grid columns="2">
-
 
 <div>
 
@@ -135,7 +132,6 @@ Radio Buttons should be used when a user must select one option from a list of 2
 </docs-do>
 
 </div>
-
 
 <div>
 
@@ -149,16 +145,11 @@ Do not use a Radio Button when there is only one option available to the user.
 
 </div>
 
-
-  
 </docs-grid>
-
-
 
 <Spacer size="small" />
 
 <docs-grid columns="2">
-
 
 <div>
 
@@ -172,7 +163,6 @@ A radio group should always have at least one radio button selected by default.
 
 </div>
 
-
 <div>
 
 ![A radio group should never be shown without a default selection.](/images/components/radio-buttons/Assets_02-20/radioselection_dont_outline.svg)
@@ -185,15 +175,11 @@ A radio group should never be shown without a default selection.
 
 </div>
 
-
 </docs-grid>
-
-
 
 <Spacer size="small" />
 
 <docs-grid columns="2">
-
 
 <div>
 
@@ -207,7 +193,6 @@ Radio Buttons should always have a label.
 
 </div>
 
-
 <div>
 
 ![A Radio Button without a label is unusable; users would have a hard time knowing what selection they are making without context.](/images/components/radio-buttons/Assets_02-20/radiolabel_dont_outline.svg)
@@ -220,14 +205,9 @@ A Radio Button without a label is unusable; users would have a hard time knowing
 
 </div>
 
-
 </docs-grid>
 
-
-
 <Spacer size="small" />
-
-
 
 <hr>
 
@@ -235,14 +215,12 @@ For more information on selection controls and keyboard accessibility [view form
 
 <hr>
 
-
-
 ## Alternate considerations
 
-Use a *dropdown select* if only one option can be selected and and the list is larger than 10 items.
+Use a *[dropdown select](/design-system/components/dropdown-selects/)* if only one option can be selected and and the list is larger than 10 items.
 
-Use a *toggle* if the options are two opposing states such as a yes or no and on or off. 
+Use a [*toggle* ](/design-system/components/toggles/)if the options are two opposing states such as a yes or no and on or off. 
 
-Use *checkboxes* if zero or more options can be selected for lists smaller than 10 items
+Use *[checkboxes](/design-system/components/checkboxes/)* if zero or more options can be selected for lists smaller than 10 items
 
-Use a *dropdown multi-select* if one or more options can be selected and the list is larger than 10 items.
+Use a *[dropdown multi-select](/design-system/components/dropdown-multi-selects/)* if one or more options can be selected and the list is larger than 10 items.
