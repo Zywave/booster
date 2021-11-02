@@ -825,13 +825,13 @@ We've provided some guidelines below to help you choose the best unit for your p
 
 <Spacer size="small"/>
 
-### Pixel (`px`)
+### Pixel (px)
 
 Pixels are only recommended for spacing and layout, but not for font-size. As an absolute unit, pixels do not scale if users increase their browser font size. A great example of when to use pixels is border widths.
 
 <zui-well type="info" static>Still not sure if you should be using pixels? If scaling and proportions are important, you probably shouldn't use pixels. Use relative units instead.</zui-well>
 
-### Percent (`%`)
+### Percent (%)
 
 Percents are great for creating a fluid layout, or for scaling purposes. Elements will resize to a defined percentage of the total space available to them, provided by their parent container. Setting an image's size in percents will allow it to grow and shrink as the screen real estate changes.
 
@@ -843,11 +843,11 @@ Percents are great for creating a fluid layout, or for scaling purposes. Element
 
 `rem`s are also recommended for font sizes and when proportionsa are important, with one caveat that they will always be relative to the _root element_'s (`<html>`) font size. For example, if a root element's font size is set to `16px`, a container's font size is set to `18px`, but its padding is set to `1rem`, the `1rem` equates to `16px`.
 
-### Viewport width (`vw`)
+### Viewport width (vw)
 
 `vw` is similar to `%` with the exception that it depends on the width of the viewport and not its parent element. This unit is best used when your element relys on the width of the viewport, regardless of its parent container.
 
-### Viewport height (`vh`)
+### Viewport height (vh)
 
 `vh` is also similar to `%` with the exception that it depends on the height of the viewport and not its parent element. This unit is best used when your element relys on the height of the viewport, regardless of its parent container.
 
@@ -857,7 +857,7 @@ Percents are great for creating a fluid layout, or for scaling purposes. Element
 
 Provided below are two formulas for the most common unit conversions.
 
-### `px` to `rem`
+### px to rem
 
 ```shell
 [pixel] / [root font size] = [new rem value]
@@ -866,7 +866,7 @@ Provided below are two formulas for the most common unit conversions.
 30px / 16px = 1.875rem
 ```
 
-### `px` to `%`
+### px to %
 
 ```shell
 [pixel] / [parent container width] * 100 = [new % value]

@@ -66,7 +66,7 @@ Add the following script tag to the head of your document in order to register t
 <script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js"></script>
 ```
 
-#### Step 2: Add `<zywave-analytics>` to your page
+#### Step 2: Add 'zywave-analytics' to your page
 
 Add the following HTML (supplying attributes when needed, and removing when unnecessary) to your page:
 
@@ -82,7 +82,7 @@ This custom element will load the necessary analytics based on the attributes yo
 
 We'll go over what the attribute identity is in the next step.
 
-#### Step 3: Add `identity`
+#### Step 3: Add 'identity'
 
 The last thing you need to supply is a unique global identifier to the `identity` attribute in `<zywave-analytics>`. With the way the third-party scripts work, we need an identifier to help track a given individual across multiple sessions and devices. `identity` should be a guaranteed unique global identifier from your system. For Zywave, we use a combination of `profileTypeCode` and `profileId`, separated by a tilde (e.g., `identity="B~1234"`).
 

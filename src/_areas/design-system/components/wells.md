@@ -64,17 +64,14 @@ Tells the user that an attempted action or product feature has failed.
 
 For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/053e23bf-3a9c-4524-a302-25c2a431d5e3-506d/).
 
-<hr>
 
-## Types
-
-#### Default well (static)
+### Default well (static)
 
 Default wells are best used when the message should be present, regardless of the user's actions.
 
 <br>
 
-#### Dismissible well
+### Dismissible well
 
 ![Anatomy](/images/components/well/well_dismissible.svg)
 
@@ -86,7 +83,7 @@ The close icon button follows the same state rules as a button. For more informa
 
 <br>
 
-#### Banner well
+### Banner well
 
 ![Anatomy](/images/components/well/well_banner.svg)
 <small>An example where a banner well would be used is when an employee is reviewing forms before sending to an administrator.</small>
@@ -99,7 +96,7 @@ We recommend you always make banner wells static so they don't make the page con
 
 ## Behavior
 
-#### Animated well
+### Animated well
 
 ![Anatomy](/images/components/well/zui-well-animation-final.gif)
 
@@ -109,13 +106,13 @@ Note: animating a well will push content down on the page, causing a jarring use
 
 <br>
 
-#### Positioning
+### Positioning
 
 By default, wells are always either anchored to the top-left of the page or near the content that it's associated with. Whereas, user-initiated wells should appear by the action that triggered it.
 
 <br>
 
-#### Multiple
+### Multiple
 
 ![Actionable well](/images/components/well/well_actionable.svg)
 
@@ -127,7 +124,7 @@ If there are multiple wells on a page, they should be the same width, with the e
 
 ## Best-practices
 
-#### Adding actions to wells
+### Adding actions to wells
 
 ![Anatomy](/images/components/well/well_actionable.svg)
 
@@ -139,7 +136,7 @@ Well action buttons are styled similar to text links but are the same color as t
 
 <br>
 
-#### Lines of text (default well)
+### Lines of text (default well)
 
 <Grid>
 
@@ -165,7 +162,7 @@ Well action buttons are styled similar to text links but are the same color as t
 
 <spacer size="small" />
 
-#### Multiple wells
+### Multiple wells
 
 <Grid>
 
@@ -191,7 +188,7 @@ Well action buttons are styled similar to text links but are the same color as t
 
 <spacer size="small" />
 
-#### Well actions (number of actions)
+### Well actions (number of actions)
 
 <Grid>
 
@@ -215,7 +212,7 @@ Avoid using more than one action.
 
 <spacer size="small" />
 
-#### Well action style
+### Well action style
 
 <Grid>
 
@@ -239,7 +236,7 @@ Avoid using the primary and secondary ZUI buttons as the action.
 
 <spacer size="small" />
 
-#### Labeling well actions
+### Labeling well actions
 
 <Grid>
 
@@ -263,7 +260,7 @@ Avoid using a non-actionable label such as "Details."
 
 <spacer size="small" />
 
-#### Banner wells behavior
+### Banner wells behavior
 
 <Grid>
 
@@ -287,7 +284,7 @@ Avoid animating the banner well.
 
 <spacer size="small" />
 
-#### Positioning of wells
+### Positioning of wells
 
 <Grid>
 

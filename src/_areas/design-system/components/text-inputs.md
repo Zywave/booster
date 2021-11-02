@@ -6,7 +6,7 @@ includedElements: ["zui-input"]
 title: Text inputs
 subtitle: A single-line box that the user can enter text into.
 ---
-
+## General
 ### See also
 
 [forms](/design-system/patterns/forms/)
@@ -29,7 +29,7 @@ Use different states to help show the user how they can interact with Text Input
 <br>
 <br>
 
-#### Normal
+### Normal
 
 Text Input is blank with nothing entered, no non-standard colors.
 
@@ -37,7 +37,7 @@ Text Input is blank with nothing entered, no non-standard colors.
 <br>
 <br>
 
-#### Focused
+### Focused
 
 The user has clicked into the input, it's outlined blue and the blinking text cursor appears.
 
@@ -45,7 +45,7 @@ The user has clicked into the input, it's outlined blue and the blinking text cu
 <br>
 <br>
 
-#### Disabled
+### Disabled
 
 The input appears grayed out and cannot currently be filled out. Disabled fields should only be used if there is an action the user can take on the page that will enable the field. It may also be beneficial to provide the user with help to explain why the field is disabled.
 
@@ -55,7 +55,7 @@ If the field is not made enabled when submitting, then the information shown in 
 <br>
 <br>
 
-#### Read only
+### Read only
 
 The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
 
@@ -65,7 +65,7 @@ It may be frustrating or confusing to users when an input field is read-only. Yo
 <br>
 <br>
 
-#### Success
+### Success
 
 Text Input is outlined in green. Success message may appear nearby.
 
@@ -73,7 +73,7 @@ Text Input is outlined in green. Success message may appear nearby.
 <br>
 <br>
 
-#### Error
+### Error
 
 Text Input is outlined in red. Error message with details on the error will appear nearby.
 
@@ -81,7 +81,7 @@ Text Input is outlined in red. Error message with details on the error will appe
 <br>
 <br>
 
-#### Loading
+### Loading
 
 A loading icon appears on the right side of the input to indicate that something is happening.
 
@@ -105,14 +105,14 @@ We recommend capping the max height of a text area so it doesn't grow too large 
 
 The label elements helps bring proper context to your inputs to let the user know what data to enter.
 
-#### Form labels
+### Form labels
 
 Generally, a single label element should be present for a single control. For general form element labeling standards [see our forms labeling documentation.](/design-system/patterns/forms/)
 
 <br>
 <br>
 
-#### Place holder text
+### Place holder text
 
 Place holder text appears inside of the input field, prior to entering data into it, and disappears. It is always used in conjunction with labels, never instead of a label. It provides an example of what you should enter in that field, and the format of that information when appropriate. An example would be phone number: (555) 555-5555.
 
@@ -120,7 +120,7 @@ Place holder text appears inside of the input field, prior to entering data into
 <br>
 <br>
 
-#### Input prefix
+### Input prefix
 
 Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. An example would be a magnifying glass to show that the input field is a type-ahead search filter. These labels are typically an icon.
 
@@ -131,7 +131,7 @@ Added to front of the input field to specify what should be entered, like a doll
 <br>
 <br>
 
-#### Input suffix
+### Input suffix
 
 Added to front of the input field to specify what should be entered, like a percentage symbol. To add more attention a container can be added to the styling. These labels are typically an icon.
 
@@ -139,7 +139,7 @@ Added to front of the input field to specify what should be entered, like a perc
 <br>
 <br>
 
-#### Input prefix & suffix
+### Input prefix & suffix
 
 ![Text Input Label Prefix](/images/components/text-input/text-input--label-prefix+suffix.svg)
 

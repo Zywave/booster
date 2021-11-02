@@ -17,7 +17,7 @@ A dropdown select is a type of input field in which a user fills an input box wi
 
 Use a dropdown select to organize a list of options a user can select from.
 
-#### Alternate considerations
+### Alternate considerations
 
 - Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if two or more options can be selected - not necessarily required.
 - Use [radio buttons](/design-system/components/radio-buttons/) when there's fewer than 3 options.
@@ -32,33 +32,33 @@ Use a dropdown select to organize a list of options a user can select from.
 
 <GridCol col="span-4">
 
-#### Label
+### Label
 
 Text that defines what type of options are in the list.
 
 [See labeling best practices](/design-system/patterns/forms/)
 
-#### Input
+### Input
 
 The field designated for selecting an individual option from a grouping of related options.
 
-#### Selection
+### Selection
 
 Chosen option from the options list.
 
-#### Dropdown chevron
+### Dropdown chevron
 
 The chevron arrow, within the input suggesting that there are items to select within a dropdown.
 
-#### Selected option
+### Selected option
 
 An option that is visibly selected.
 
-#### Options list
+### Options list
 
 The grouping of related input options.
 
-#### Option
+### Option
 
 A unique input option.
 
@@ -94,7 +94,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 <GridCol col="span-6">
 
-#### Grouping
+### Grouping
 
 ![Spatial specs for options lists with grouping](/images/components/dropdown-select/select_grouping_specs.svg)
 
@@ -106,7 +106,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 <GridCol col="span-6">
 
-#### Icons
+### Icons
 
 ![Spatial specs for options lists with icons next to options](/images/components/dropdown-select/select_icon_specs.svg)
 

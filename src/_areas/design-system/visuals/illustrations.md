@@ -10,6 +10,8 @@ subtitle:
 
 </center>
 
+## General
+
 Our illustrations are broken into two main categories: hero illustrations and spot illustrations.
 Regardless of the type, the answer to these 3 questions should always be yes.
 
