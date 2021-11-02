@@ -30,9 +30,19 @@ const css = `
       }
     }
 
+    nav {
+      margin: 0 1rem 0 0.2rem;
+    }
+
     nav ul {
-        padding: 0.7rem 0;
-        border-left: 1px solid var(--zui-gray-200);
+      margin: 0;
+      padding: 0;
+      border-left: 1px solid var(--zui-gray-200);
+    }
+
+    nav ul ul {
+      border: 0;
+      padding: 0;
     }
 
     nav li {
@@ -50,6 +60,18 @@ const css = `
         color: var(--zui-gray);
         border-left: 3px solid transparent;
         transition: color .3s ease-in-out border-color .3s ease-in-out;
+    }
+
+    nav ul ul a {
+      padding-left: 2rem;
+    }
+
+    nav ul ul ul a {
+      padding-left: 3rem;
+    }
+
+    nav ul ul ul ul a {
+      padding-left: 4rem;
     }
 
     nav a:hover {
@@ -71,20 +93,27 @@ const css = `
 customElements.define(
   "quick-links",
   class QuickLinks extends HTMLElement {
-    query: QuickLinksTypes["query"] = null;
-    hierarchical = false;
+    context: QuickLinksTypes["context"] = null;
+    headings: QuickLinksTypes["headings"] = null;
+
+    #orderedHeadings: string[] | null = null;
+    #headingsElements: Element[] | null = null;
+    #orderedList: HeaderTree[] = [];
 
     static get observedAttributes() {
-      return ["query", "hierarchical"];
+      return ["context", "headings"];
     }
 
     connectedCallback() {
-      this.query = this.getAttribute("query");
-      this.hierarchical = this.getAttribute("hierarchical") ? true : false;
-      this.render();
+      this.context = this.getAttribute("context");
+      this.headings = this.getAttribute("headings");
+      this.#orderedHeadings = this.headings.replaceAll(' ', '').split(',').sort();
+      this.#headingsElements = this.#getContextHeadings();
+      this.#buildHeaderList();
+      this.#render();
       EventBus.instance.addEventListener(
         "markup-loaded",
-        this.render.bind(this)
+        this.#render.bind(this)
       );
     }
 
@@ -94,36 +123,88 @@ customElements.define(
       }
     }
 
-    getQueriedElements() {
-      const queryWithIdAttr = this.query
+    #buildHeaderList() {
+      function getHeadingLevel(element: Element) {
+          return Number(element.tagName.split("H")[1]);
+      }
+
+      function buildHeaderTree(currentHeader: Element, restHeaders: Element[]): HeaderTree {
+        const result: HeaderTree = {
+            element: currentHeader,
+            children: []
+        };
+
+        const currentLevel = getHeadingLevel(currentHeader);
+
+        for (let i = 0; i < restHeaders.length; i++) {
+            const h = restHeaders[i];
+            const hLevel = getHeadingLevel(h);
+            if (hLevel <= currentLevel) { 
+                break;
+            } else if (hLevel === currentLevel + 1) {
+                result.children.push(buildHeaderTree(h, restHeaders.slice(i + 1)));
+            }
+        }
+        return result;
+      }
+
+      for (let i = 0; i < this.#headingsElements.length; i++) {
+        const h = this.#headingsElements[i];
+
+        if (getHeadingLevel(h) === Number(this.#orderedHeadings[0].split('h')[1])) {
+            this.#orderedList.push(buildHeaderTree(h, this.#headingsElements.slice(i + 1)));
+        }
+      }
+    }
+
+    #getContextHeadings() {
+      const queryWithIdAttr = this.headings
         .split(',')
         .map(item => `${item}[id]`)
         .join(', ');
+      console.log('queryWithIdAttr');
+      console.log(queryWithIdAttr);
       return Array.from(document.querySelectorAll(queryWithIdAttr));
     }
 
-    getUrlNoHash() {
+    #getUrlNoHash() {
       return window.location.href.includes("#") ? window.location.href.split("#")[0] : window.location.href;
     }
 
-    doesUrlHaveHash(hash: string) {
-      return window.location.href.split('#')[1]?.includes(hash) ?? false;
+    #doesUrlHaveHash(hash: string) {
+      return window.location.href.split('#')[1] === hash ?? false;
     }
 
-    updatedRender() {
+    #renderListItem(item: HeaderTree) {
+      let result = `
+        <li ${this.#doesUrlHaveHash(item.element.id)
+          ? `aria-current="current"`
+          : ``}
+        >
+          <a href="${this.#getUrlNoHash()}#${item.element.id}">${item.element.childNodes[0].textContent}</a>
+        </li>
+      `;
+
+      if (item.children.length) {
+        console.log('item.children');
+        console.log(item.children);
+        result += `<li>
+          <ul>
+            ${item.children.map(child => this.#renderListItem(child)).join('')}
+          </ul>
+        </li>`;
+      }
+      return result;
+    }
+
+    #updatedRender() {
       return setTimeout(() => {
-        this.render();
+        this.#render();
       }, 50);
     }
 
-    renderListItem(element: Element) {
-      return `<li ${this.doesUrlHaveHash(element.id) ? `aria-current="current"` : ``}>
-        <a href="${this.getUrlNoHash()}#${element.id}">${element.childNodes[0].textContent}</a>
-      </li>`;
-    }
-
-    render() {
-      if (this.getQueriedElements().length === 0) {
+    #render() {
+      if (this.#headingsElements.length === 0) {
         return;
       }
 
@@ -132,36 +213,13 @@ customElements.define(
         <style>${css}</style>
         <nav>
           <ul>
-            ${this.hierarchical ? (`<div>hierarchy</div>`) : ''}
-            ${this.getQueriedElements().map(
-              (element, index, array) =>
-              {
-                if (this.hierarchical) {
-                  const currVal = element?.tagName.split('').pop();
-                  const prevVal = array[index - 1]?.tagName.split('').pop();
-                  // possible values: 1,2,3,4,5,6
-                  // 2 - 3
-                  console.log('ding');
-                  console.log(currVal);
-                  console.log(prevVal);
-                  console.log(currVal < prevVal);
-                  if (currVal === prevVal || !prevVal) {
-                    return this.renderListItem(element);
-                  } else if (currVal < prevVal) {
-                    return `<li>
-                      <ul>
-                        ${this.renderListItem(element)}
-                      </ul>
-                    </li>`;
-                  }
-                }
-                
-                return this.renderListItem(element);
-              }
-            ).join('')}
-            </ul>
-          </nav>
-        `;
+            ${this.#orderedList
+              .map((item: HeaderTree) => this.#renderListItem(item))
+              .join('')
+            }
+          </ul>
+        </nav>
+      `;
 
       template.innerHTML = templateStr;
       if (!this.shadowRoot) {
@@ -169,11 +227,17 @@ customElements.define(
       }
       this.shadowRoot.innerHTML = templateStr;
       const anchors = this.shadowRoot.querySelectorAll("a");
-      anchors.forEach((a) => a.addEventListener("click", this.updatedRender.bind(this)));
+      anchors.forEach((a) => a.addEventListener("click", this.#updatedRender.bind(this)));
     }
   }
 );
 
+type HeaderTree = {
+  element: Element,
+  children: HeaderTree[];
+}
+
 interface QuickLinksTypes {
-  query: string | null,
+  context: string | null,
+  headings: string | null,
 }

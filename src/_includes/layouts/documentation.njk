@@ -21,6 +21,6 @@ layout: nav-base
     {{ content | safe }}
   </div>
   {% if not hideToc %}
-  <quick-links hierarchical="true" query="section h1, section h2, section h3, section h4"></quick-links>
+  <quick-links context=".content" headings="h2, h3, h4"></quick-links>
   {% endif %}
 </section>

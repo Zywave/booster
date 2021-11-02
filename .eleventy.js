@@ -83,7 +83,7 @@ module.exports = function(eleventyConfig) {
   };
   let opts = {
     permalink: false,
-    level: [1, 2, 3] // only gen ToC anchor id's for <h2>s, <h3>s and <h4>s in .md files
+    level: [1, 2, 3, 4] // only gen ToC anchor id's for <h2>s, <h3>s and <h4>s in .md files
   };
 
   eleventyConfig.setLibrary("md", markdownIt(options)
