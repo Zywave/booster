@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="183" viewBox="0 0 485 183">
+  <defs>
+    <filter id="White_background" x="23" y="21" width="440" height="154" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-popover_do">
+      <rect width="485" height="183"/>
+    </clipPath>
+  </defs>
+  <g id="popover_do" clip-path="url(#clip-popover_do)">
+    <rect width="485" height="183" fill="#f4f4f6"/>
+    <g id="Popover" transform="translate(38 30)">
+      <g transform="matrix(1, 0, 0, 1, -38, -30)" filter="url(#White_background)">
+        <path id="White_background-2" data-name="White background" d="M4,0H396a4,4,0,0,1,4,4V120a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V73.378L-10,62.205,0,52.074V4A4,4,0,0,1,4,0Z" transform="translate(48 30)" fill="#fff"/>
+      </g>
+      <g id="Popover_content" data-name="Popover content" transform="translate(-10460 -4254)">
+        <text id="To_receive_more_personalized_recommendations_select_an_account_or_an_attribute_from_the_dropdowns_below_and_click_search_to_view_results." data-name="To receive more personalized recommendations, select an account or an attribute from the dropdowns below and click search to view results." transform="translate(10490 4301)" fill="#3d3d3d" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">To receive more personalized recommendations, select an </tspan><tspan x="0" y="34">account or an attribute from the dropdowns below and </tspan><tspan x="0" y="53">click search to view results.</tspan></text>
+        <text id="Smart_content" data-name="Smart content" transform="translate(10490 4291)" fill="#3d3d3d" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Smart content</tspan></text>
+      </g>
+      <path id="Path_10317" data-name="Path 10317" d="M4,0H396a4,4,0,0,1,4,4v6H0V4A4,4,0,0,1,4,0Z" transform="translate(10)" fill="#2372c0"/>
+      <g id="Remove" transform="translate(392 28)">
+        <g id="Group_264409" data-name="Group 264409" transform="translate(-8 -8)">
+          <path id="Path_10419" data-name="Path 10419" d="M12.85,11.44a.5.5,0,0,1,0,.71l-.7.7a.5.5,0,0,1-.71,0L8,9.41,4.56,12.85a.5.5,0,0,1-.71,0l-.7-.7a.5.5,0,0,1,0-.71L6.59,8,3.15,4.56a.5.5,0,0,1,0-.71l.7-.7a.5.5,0,0,1,.71,0L8,6.59l3.44-3.44a.5.5,0,0,1,.71,0l.7.7a.5.5,0,0,1,0,.71L9.41,8Z" fill="#303030"/>
+          <rect id="Rectangle_8234" data-name="Rectangle 8234" width="16" height="16" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

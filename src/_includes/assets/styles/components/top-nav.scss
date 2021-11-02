@@ -92,6 +92,9 @@
         // default / closed state
         .aa-Autocomplete {
             form {
+              --color-text: #fff;
+              --color-background: var(--docs-secondary-color);
+              --color-input-icon: var(--docs-gray-color);
                 border: 0;
                 width: rem(40);
                 height: rem(40);

@@ -1,4 +1,3 @@
-const { DateTime } = require("luxon");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const componentTabHref = require("./src/_filters/componentTabHref");
@@ -13,15 +12,24 @@ module.exports = function(eleventyConfig) {
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+    const opts = {
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+      hour12: true,
+    };
+    return new Intl.DateTimeFormat("default", opts).format(dateObj);
   });
-  eleventyConfig.addFilter("componentTabHref", componentTabHref);
-  eleventyConfig.addFilter("htmlArray", htmlArray);
-
   // Date formatting (machine readable)
   eleventyConfig.addFilter("machineDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
+    return dateObj.toISOString();
   });
+
+  eleventyConfig.addFilter("componentTabHref", componentTabHref);
+  eleventyConfig.addFilter("htmlArray", htmlArray);
 
   // Sentence case titles and replace all hyphens with spaces
   // TODO: Improve title formating since some titles, such as "CSS guide", are outputting as "Css guide"

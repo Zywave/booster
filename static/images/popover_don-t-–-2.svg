@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="240" viewBox="0 0 1000 240">
+  <defs>
+    <filter id="Card" x="-81.5" y="75.5" width="679" height="453" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8206" data-name="Rectangle 8206" width="16" height="16" fill="none"/>
+    </clipPath>
+    <filter id="White_background" x="291" y="21" width="316.986" height="210" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-popover_don_t_2">
+      <rect width="1000" height="240"/>
+    </clipPath>
+  </defs>
+  <g id="popover_don_t_2" data-name="popover_don&apos;t – 2" clip-path="url(#clip-popover_don_t_2)">
+    <rect width="1000" height="240" fill="#f4f4f6"/>
+    <g id="Group_264442" data-name="Group 264442" transform="translate(-345 76)">
+      <text id="Location_information" data-name="Location information" transform="translate(-62 25)" fill="#31313a" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Location information</tspan></text>
+      <text id="Location_information_is_required_for_quoting_and_smart_content." data-name="Location information is required for quoting and smart content." transform="translate(-62 40)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Location information is required for </tspan><tspan x="0" y="34">quoting and smart content.</tspan></text>
+      <g id="Location_information-2" data-name="Location information" transform="translate(268 3)">
+        <g transform="matrix(1, 0, 0, 1, 77, -79)" filter="url(#Card)">
+          <rect id="Card-2" data-name="Card" width="670" height="444" rx="2" transform="translate(-77 79)" fill="#fff"/>
+        </g>
+        <g id="Link_Icon" data-name="Link + Icon" transform="translate(152 388)">
+          <rect id="Rectangle_5275" data-name="Rectangle 5275" width="188" height="36" rx="18" fill="none"/>
+          <g id="Group_12534" data-name="Group 12534" transform="translate(26)">
+            <text id="Add_another_address" data-name="Add another address" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Add another address</tspan></text>
+          </g>
+          <g id="Add" transform="translate(23 18)">
+            <g id="Add-2" data-name="Add" transform="translate(-8 -8)">
+              <path id="Path_101629" data-name="Path 101629" d="M14,7.5v1a.5.5,0,0,1-.5.5H9v4.5a.5.5,0,0,1-.5.5h-1a.5.5,0,0,1-.5-.5V9H2.5A.5.5,0,0,1,2,8.5v-1A.5.5,0,0,1,2.5,7H7V2.5A.5.5,0,0,1,7.5,2h1a.5.5,0,0,1,.5.5V7h4.5A.5.5,0,0,1,14,7.5Z" fill="#2777d3"/>
+              <rect id="Rectangle_10238" data-name="Rectangle 10238" width="16" height="16" fill="none"/>
+            </g>
+          </g>
+        </g>
+        <g id="Input-Top" transform="translate(41 133)">
+          <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(110)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="375" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="374" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="Street_address" data-name="Street address" transform="translate(0 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Street address</tspan></text>
+          <text id="_Required_for_quoting_and_smart_content_" data-name="(Required for quoting and smart content)" transform="translate(112 61)" fill="#78788c" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">(Required for quoting and smart content)</tspan></text>
+        </g>
+        <g id="Input-Top-2" data-name="Input-Top" transform="translate(42 212)">
+          <g id="Rectangle_288-2" data-name="Rectangle 288" transform="translate(109)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="375" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="374" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="Address_line_2" data-name="Address line 2" transform="translate(0 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Address line 2</tspan></text>
+        </g>
+        <g id="Input-Top-3" data-name="Input-Top" transform="translate(106 269)">
+          <g id="Rectangle_288-3" data-name="Rectangle 288" transform="translate(45)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="200" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="199" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="City" transform="translate(0 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">City</tspan></text>
+        </g>
+        <g id="Input-Top-4" data-name="Input-Top" transform="translate(371 269)">
+          <g id="Rectangle_288-4" data-name="Rectangle 288" transform="translate(66)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="200" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="199" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="County" transform="translate(0 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">County</tspan></text>
+        </g>
+        <g id="Input-Top-5" data-name="Input-Top" transform="translate(99 326)">
+          <g id="Rectangle_288-5" data-name="Rectangle 288" transform="translate(52)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="55" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="54" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="State" transform="translate(0 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">State</tspan></text>
+        </g>
+        <g id="Input-Top-6" data-name="Input-Top" transform="translate(226 326)">
+          <g id="Rectangle_288-6" data-name="Rectangle 288" transform="translate(40)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="70" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="69" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="ZIP" transform="translate(0 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">ZIP</tspan></text>
+        </g>
+        <g id="Dropdown_Select-Top-NEW" data-name="Dropdown Select-Top-NEW" transform="translate(80 76)">
+          <g id="Group_14579" data-name="Group 14579" transform="translate(71)">
+            <g id="Rectangle_288-7" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="202" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="201" height="41" rx="3.5" fill="none"/>
+            </g>
+            <text id="United_States" data-name="United States" transform="translate(15 27)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">United States</tspan></text>
+            <g id="Group_7793" data-name="Group 7793" transform="translate(168 9)">
+              <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+              <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(-41)" fill="#9494a4"/>
+            </g>
+          </g>
+          <text id="Country" transform="translate(0 26)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Country</tspan></text>
+        </g>
+        <g id="Dropdown_Select-Top-NEW-2" data-name="Dropdown Select-Top-NEW" transform="translate(48 19)">
+          <g id="Group_14579-2" data-name="Group 14579" transform="translate(103)">
+            <g id="Rectangle_288-8" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="202" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="201" height="41" rx="3.5" fill="none"/>
+            </g>
+            <text id="Current_residence" data-name="Current residence" transform="translate(15 27)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Current residence</tspan></text>
+            <g id="Group_7793-2" data-name="Group 7793" transform="translate(168 9)">
+              <rect id="Rectangle_3867-2" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+              <path id="Path_5558-2" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(-41)" fill="#9494a4"/>
+            </g>
+          </g>
+          <text id="Address_type" data-name="Address type" transform="translate(0 26)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Address type</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_264444" data-name="Group 264444" transform="translate(96 8)">
+      <g id="help" transform="translate(197 112)">
+        <g id="Group_15319" data-name="Group 15319" transform="translate(-8 -8)" clip-path="url(#clip-path)">
+          <path id="Path_10365" data-name="Path 10365" d="M15.7,14.5h0a11.3,11.3,0,0,1-1-3.7,7.6,7.6,0,0,0,.7-3.2,7.7,7.7,0,1,0-5.1,7.2A19,19,0,0,0,14.7,16h.2a1,1,0,0,0,.9-1.5m-5-.9h-.5a6.4,6.4,0,1,1,4-5.9,6.3,6.3,0,0,1-.7,2.8v.3a13.6,13.6,0,0,0,.9,3.8,15.5,15.5,0,0,1-3.7-1" fill="#2777d3"/>
+          <path id="Path_10366" data-name="Path 10366" d="M8,9.9a.8.8,0,1,0,.8.8h0A.8.8,0,0,0,8,9.9" fill="#2777d3"/>
+          <path id="Path_10367" data-name="Path 10367" d="M8.1,3.5A2.5,2.5,0,0,0,5.6,6H6.9c0-.1.1-1.3,1.2-1.3a1,1,0,0,1,1,.6A1.3,1.3,0,0,1,9,6.7l-.6.5A1.8,1.8,0,0,0,7.5,9H8.7c0-.5,0-.5.4-.8l.7-.6a2.5,2.5,0,0,0,.4-2.7A2.2,2.2,0,0,0,8.1,3.5" fill="#2777d3"/>
+        </g>
+      </g>
+      <g id="Group_15260" data-name="Group 15260" transform="translate(-10252 -4010)">
+        <g transform="matrix(1, 0, 0, 1, 10156, 4002)" filter="url(#White_background)">
+          <path id="White_background-2" data-name="White background" d="M-.2,0H274.186c1.546,0,2.8,1.791,2.8,4V176c0,2.209-1.254,4-2.8,4H-.2c-1.546,0-2.8-1.791-2.8-4V101.378l-7-11.173,7-10.131V4C-3,1.791-1.747,0-.2,0Z" transform="translate(316 30)" fill="#fff"/>
+        </g>
+        <g id="Link_Button" data-name="Link Button" transform="translate(10722 4156)">
+          <g id="Group_264143" data-name="Group 264143">
+            <rect id="Rectangle_6075" data-name="Rectangle 6075" width="38" height="36" rx="18" fill="rgba(255,255,255,0)"/>
+            <text id="B" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">B</tspan></text>
+          </g>
+        </g>
+        <text id="Popover_walkthrough" data-name="Popover walkthrough" transform="translate(10492 4069)" fill="#3d3d3d" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="0">Popover walkthrough</tspan></text>
+        <text id="Click_next_to_proceed_back_to_return_to_popover_cancel_to_exit_walkthrough_or_go_to_a_related_page._" data-name="Click next to proceed, back to return to 
+popover, cancel to exit walkthrough, or
+go to a related page.  " transform="translate(10492 4079)" fill="#3d3d3d" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="15">Click next to proceed, back to return to </tspan><tspan x="0" y="34">popover, cancel to exit walkthrough, or</tspan><tspan x="0" y="53">go to a </tspan><tspan y="53" fill="#2777d3" text-decoration="underline">related page</tspan><tspan y="53" xml:space="preserve">.  </tspan></text>
+        <path id="Path_10315" data-name="Path 10315" d="M2.8,0H280.024c-.018.015,0,1.791,0,4v6H0V4C0,1.791,1.254,0,2.8,0Z" transform="translate(10468.962 4032)" fill="#2372c0"/>
+      </g>
+    </g>
+  </g>
+</svg>

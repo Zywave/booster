@@ -152,7 +152,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             margin: 1.875rem 0;
             /* 30 / 16 */
         }
@@ -311,7 +311,8 @@
                 <input type="hidden" value="0" name="Authentication / Authorization" />
                 <input type="hidden" value="0" name="UX / Design" />
                 <input type="hidden" value="0" name="Data" />
-                <input type="hidden" value="0" name="Infrastructure / Security" />
+                <!-- TODO: update infrastructure column -->
+                <!-- <input type="hidden" value="0" name="Infrastructure / Security" /> -->
 
                 <div class="metadata">
                     <label>
@@ -341,9 +342,9 @@
                         <div class="cell">
                             Data
                         </div>
-                        <div class="cell">
+                        <!-- <div class="cell">
                             Infrastructure / Security
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row sample">
                         <div class="cell">
@@ -354,25 +355,24 @@
                         </div>
                         <div class="cell">
                             <ul>
-                                <li>Requires separate credentials from Zywave</li>
+                                <li>Uses separate authentication from Zywave Auth</li>
                             </ul>
                         </div>
                         <div class="cell">
                             <ul>
-                                <li>Look and feel is completely unique from Zywave products</li>
-                                <li>Does not use ZUI foundations, patterns, or components</li>
+                                <li>Look and feel is completely unique from Zywave products (Does not use ZUI foundations, patterns, or components)</li>
                             </ul>
                         </div>
                         <div class="cell">
                             <ul>
-                                <li>Data is separate and distinct from Zywave; duplicate data entry</li>
+                                <li>Redundant data exists between your solution and another products solution</li>
                             </ul>
                         </div>
-                        <div class="cell">
+                        <!-- <div class="cell">
                             <ul>
-                                <li>Does not live on any Zywave infrastructure</li>
+                                <li>Infrastructure is distinct from Zywave and is not supported by Zywave</li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -384,13 +384,13 @@
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="sso" />
-                                Enables login via Zywave Auth; may or may not have its own local login system still
+                                Enables login via Zywave Auth (may continue to have separate authentication)
                             </label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="zuiShell" />
-                                Topbar and SideNav have same appearance as Zywave
+                                Topbar and SideNav (shell) have same appearance as Zywave
                             </label>
                             <label>
                                 <input type="checkbox" name="launchpadAccessible" />
@@ -400,19 +400,15 @@
                         <div class="cell" data-stage-category="Data" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="oneWaySync" />
-                                One way sync of data from the app back into Zywave
+                                One way "sync" of data from the app back into Zywave
                             </label>
                         </div>
-                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="1">
-                            <label>
-                                <input type="checkbox" name="zywaveHosted" />
-                                Is hosted and managed by Zywave
-                            </label>
+                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="securityScanning" />
-                                Complies with security scanning requirements
+                                Complies with security requirements
                             </label>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -422,28 +418,18 @@
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="2">
-                            <label><input type="checkbox" name="tenancy" /> Adheres to Zywave's
-                                tenancy model</label>
-                            <label><input type="checkbox" name="onlyZywaveAuth" /> No separate authentication from
-                                Zywave
-                                Auth</label>
+                            <label><input type="checkbox" name="tenancy" /> Adheres to Zywave's tenancy model</label>
+                            <label><input type="checkbox" name="onlyZywaveAuth" />Uses Zywave's user store</label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="2">
-                            <label><input type="checkbox" name="zapiShell" /> Uses Zywave
-                                Shell</label>
+                            <label><input type="checkbox" name="zapiShell" /> Uses Zywave Shell</label>
                         </div>
                         <div class="cell" data-stage-category="Data" data-stage-value="2">
-                            <label><input type="checkbox" name="twoWaySync" />Two-way sync with
-                                Zywave data</label>
+                            <label><input type="checkbox" name="twoWaySync" />Two-way sync with Zywave analogous features</label>
                         </div>
-                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="2">
-                            <label><input type="checkbox" name="zywaveDomain" />Lives on a
-                                *.zywave.com domain</label>
-                            <label>
-                                <input type="checkbox" name="k8s" />
-                                Runs in Kubernetes, but may have centralized dependencies (e.g. RMQ, SQL, etc.)
-                            </label>
-                        </div>
+                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="2">
+                            <label><input type="checkbox" name="zywaveDomain" />Lives on a Zywave domain</label>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -453,26 +439,22 @@
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="3">
-                            <label><input type="checkbox" name="acl" />Fully compliant with
-                                access control/permissions</label>
-                            <label><input type="checkbox" name="licensing" />Applies licenses</label>
+                            <label><input type="checkbox" name="acl" />Fully compliant with access control via permissions</label>
+                            <label><input type="checkbox" name="licensing" />Can apply licenses</label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="3">
-                            <label><input type="checkbox" name="uxConsistency" />Follows ZUI
-                                standards throughout</label>
-                            <label><input type="checkbox" name="integratedSideNav" />SideNav is
-                                fully integrated</label>
+                            <label><input type="checkbox" name="uxConsistency" />Complete UX/UI consistency and follows ZUI design standards throughout</label>
+                            <label><input type="checkbox" name="integratedSideNav" />SideNav is fully integrated (same as all Zywave core products)</label>
                         </div>
                         <div class="cell" data-stage-category="Data" data-stage-value="3">
                             <label><input type="checkbox" name="integratedData" />Data is fully
-                                integrated and managed within Zywave / no redundant data
-                                management</label>
+                                integrated and managed within Zywave (no redundancy of data management)</label>
                         </div>
-                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="3">
+                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="3">
                             <label><input type="checkbox" name="containerization" />Fully containerized and can be
                                 deployed
                                 to any cloud-hosting ecosystem</label>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <button type="submit">

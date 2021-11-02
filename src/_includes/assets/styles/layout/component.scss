@@ -20,6 +20,14 @@ zui-spinner:not([active]) {
   display: none;
 }
 
+h1.component-header {
+  margin-bottom: unset;
+}
+
+h2.component-subheader {
+  margin-bottom: rem(20);
+}
+
 #content {
   .is-hidden {
     display: none;
@@ -32,16 +40,6 @@ zui-spinner:not([active]) {
 
   #usage .documentation {
     max-width: rem(1000);
-  }
-  
-  h1.component-header {
-    font-size: rem(40);
-    font-weight: 700;
-  }
-  
-  h2.component-subheader {
-    font-size: rem(20);
-    font-weight: 600;
   }
 
   clipboard-copy-icon {
@@ -57,5 +55,22 @@ zui-spinner:not([active]) {
   h3:hover clipboard-copy-icon,
   h4:hover clipboard-copy-icon {
     opacity: 1;
+  }
+}
+
+.component-status {
+  display: inline-block;
+  border-radius: rem(4);
+  padding: rem(2) rem(12);
+  margin-bottom: rem(10);
+
+  &.not-available {
+    color: white;
+    background-color: var(--zui-red);
+  }
+
+  &.stable {
+    color: white;
+    background-color: var(--docs-green-color);
   }
 }

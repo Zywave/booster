@@ -10,7 +10,7 @@ includedElements:
 ---
 Zywave currently uses three third-party tracking solutions to gather analytics from our applications: [Heap](https://heap.io/), [Appcues](https://www.appcues.com/), and [Google Analytics](https://analytics.google.com).
 
-There are four ways to add the analytics scripts to Zywave applications:
+There are three ways to add the analytics scripts to Zywave applications:
 
 1. Use [Zywave Shell](https://booster.zywave.dev/application-framework/components/shell/) and it will add the necessary analytics scripts to your application (recommended)
 2. If you cannot use Zywave Shell, but your application has single sign-on (SSO) with Zywave or a Zywave subdomain (*.zywave.com):

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="346" viewBox="0 0 1000 346">
+  <defs>
+    <filter id="Rectangle_9997" x="58" y="30" width="887" height="308" filterUnits="userSpaceOnUse">
+      <feOffset dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.141"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-multipicker_dialog">
+      <rect width="1000" height="346"/>
+    </clipPath>
+  </defs>
+  <g id="multipicker_dialog" clip-path="url(#clip-multipicker_dialog)">
+    <rect width="1000" height="346" fill="#f4f4f6"/>
+    <rect id="Rectangle_3862" data-name="Rectangle 3862" width="1000" height="346" fill="rgba(0,0,0,0.85)"/>
+    <g id="Large_Dialog" data-name="Large Dialog" transform="translate(64 30)">
+      <g transform="matrix(1, 0, 0, 1, -64, -30)" filter="url(#Rectangle_9997)">
+        <rect id="Rectangle_9997-2" data-name="Rectangle 9997" width="875" height="286" transform="translate(64 30)" fill="#fff"/>
+      </g>
+      <g id="Dialog_content" data-name="Dialog content" transform="translate(30 -39)">
+        <g id="Actions" transform="translate(-75.347 -14)">
+          <g id="Primary_Button" data-name="Primary Button" transform="translate(819.347 273)">
+            <rect id="Rectangle_3990" data-name="Rectangle 3990" width="71" height="36" rx="18" fill="#2777d3"/>
+            <text id="Action" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action</tspan></text>
+          </g>
+          <g id="Link_Button_-_Normal" data-name="Link Button - Normal" transform="translate(737.346 273)">
+            <g id="Group_264143" data-name="Group 264143">
+              <rect id="Rectangle_6075" data-name="Rectangle 6075" width="72" height="36" rx="18" fill="rgba(255,255,255,0)"/>
+              <text id="Cancel" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Cancel</tspan></text>
+            </g>
+          </g>
+        </g>
+        <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Proin_consequat_lacus_ac_diam_faucibus_ac_accumsan_nisl_varius._Maecenas_congue_turpis_eu_euismod_eleifend._Etiam_euismod_est_magna_eu_facilisis_mi_tempor_auctor._Etiam_malesuada_augue_sit_amet_mi_" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat lacus ac diam faucibus, ac accumsan nisl varius. Maecenas congue turpis eu euismod eleifend. Etiam euismod est magna, eu facilisis mi tempor auctor. Etiam malesuada augue sit amet mi " transform="translate(0 120)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat lacus ac diam faucibus, ac accumsan nisl varius. Maecenas </tspan><tspan x="0" y="33">congue turpis eu euismod eleifend. Etiam euismod est magna, eu facilisis mi tempor auctor. Etiam malesuada augue sit amet mi </tspan><tspan x="0" y="51">lobortis aliquam. Phasellus quis neque sollicitudin, volutpat risus a, blandit augue. Pellentesque id malesuada enim. Duis iaculis </tspan><tspan x="0" y="69">lectus ultricies metus elementum imperdiet. Proin vel sagittis turpis. Nullam vulputate mauris a ultrices aliquet. Integer risus urna, </tspan><tspan x="0" y="87">euismod sit amet lobortis vel, ultricies eu urna. In pretium luctus diam et blandit. Pellentesque hendrerit sed eros ac volutpat. Morbi </tspan><tspan x="0" y="105">varius sodales varius. Curabitur venenatis ligula non felis ornare, quis semper turpis fringilla. Proin interdum ante fermentum nulla </tspan></text>
+        <text id="Headline_Title" data-name="Headline Title" transform="translate(0 97)" fill="#3d3d3d" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Headline Title</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

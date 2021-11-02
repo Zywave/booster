@@ -1,125 +1,164 @@
 ---
+title: Button dropdowns
+subtitle: Buttons that reveal a list of three or more actionable options.
 api: https://cdn.zywave.com/@zywave/zui-button@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-button@next/demo/index.html
 mainComponentName: zui-button-dropdown
-includedElements: ["zui-button-dropdown"]
-title: Button dropdowns
-subtitle: Buttons that reveal a list of three or more actionable options.
+includedElements:
+  - zui-button-dropdown
 ---
-
-## What are button dropdowns?
-
-Button dropdowns are buttons that reveal a list of three or more actionable options.
-
----
-
 ## Usage
 
-Button dropdowns are used when there is a set of closely related actions available to the user, or as a solution to consolidate the number of actions that appear on the screen. Clicking the button dropdown opens an option list. The option list remains open until the user either clicks off of the component or clicks an action in the option list. They are most commonly seen within tables due to space restrictions, but they are not limited to tables.
+Button Dropdowns are used when there is a set of closely related actions available to the user, or as a solution to consolidate the number of actions that appear on the screen. Clicking the Button Dropdown opens an option list where the user can select an action or shift focus off the button to close the list. They are commonly seen within tables due to space restrictions.
 
-#### Button dropdowns should be used
+![Standard and selected Button Dropdown states](/images/button-dropdown_usage.svg)
 
-- When there are more than three actions in a component.
-- In a table actions column where there is limited space.
+<docs-spacer size="small"></docs-spacer>
 
-#### Alternate considerations
+#### When to use Button Dropdowns
 
-- Use [buttons](/design-system/components/buttons/) if you have a smaller number of options and also want to present choices to users without hiding options.
-- Use a [dropdown select](/design-system/components/dropdown-selects/) if an option is not an action. A button dropdown should be used to execute an action, **not** to make a selection from a list.
+* When three or more actions are available
+* When space is limited - such as within a table  
 
----
+- - -
 
 ## Anatomy
 
-A button dropdown consists of two main parts:
+A  Button Dropdown consists of a Button and a list of actions. 
 
-- The button reveals the options list when clicked.
-- The list of options where a user can select an action.
+![Button Dropdown anatomy](/images/button-dropdown_anatomy.svg)
 
-Button dropdowns share the same style variations as [buttons](/design-system/components/buttons/) (primary, secondary, link, etc.).
+1. **Button:** See [Button documentation](/design-system/components/buttons) for more details on button styles
+2. **Chevron:** Text buttons contain a chevron to indicate that there are options available
+3. **Action list:** A grouping of actions, appears after the button is clicked
+4. **Action:** Clicking will execute the action
 
-![Anatomy of a button dropdown](/images/components/button-dropdowns/anatomy.svg)
+<docs-spacer size="small"></docs-spacer>
 
-1. Icon button: The action icon that, when clicked, reveals the options list.
-2. Options list: The grouping of related actions the user can select.
-3. A unique action a user can select.
+The width of the action list is, at minimum, 150px wide. The width of the list can expand, maintaining 15px padding on each side, should one of the options exceeds the 150px minimum.   
 
-[See design specs](https://xd.adobe.com/view/045ad3c3-398d-4b4e-b4ce-d2135418cd29-5109/)
+![Button Dropdown minimum and expanded option list widths](/images/button-dropdown_list_width.svg)
 
-![Anatomy of a button dropdown 2](/images/components/button-dropdowns/anatomy2.svg)
+See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0be4e76-4193/) for detailed sizing and spacing information
 
-1. Button: The shape that encloses the label and chevron. Follow the [buttons](/design-system/components/buttons/) guidelines for style variations, sizing, and spacing specifications.
-2. Button label: Text that defines what type of options are in the list.
-3. Chevron: Indicates that an options list can be revealed (pointing down) or concealed (pointing up) when the button is clicked.
-4. Options list: The grouping of related actions the user can select.
-5. Option: A unique action a user can select.
+- - -
 
-[See design specs](https://xd.adobe.com/view/045ad3c3-398d-4b4e-b4ce-d2135418cd29-5109/screen/694a22d3-01a3-407a-8c5e-d801fc0a3054)
+## Types
 
----
+#### Standard Button Dropdown
 
-## Organizing the list
+* Button with a chevron icon to the right of the text label
+* Can be primary, secondary or link styles (see Buttons for details on types)
+* Once active, a dropdown opens to display options  
 
-Sort the list in a logical order. For instance, put the most selected option(s) at the top.
+<docs-grid columns="2">
+  <div>
 
-#### Using icons
+![Do Button Dropdown label](/images/standard_do.svg)
 
-- Use icons to make actions clearer for users to understand.
-- Icons should only be used when it make sense to pair them with actions.
-- It is preferred to either pair all text with icons or to use no icons at all.
-- In some cases you may use icons for only some of the actions to put emphasis on an important action.
+<docs-do>
+Use a clear, actionable umbrella term for all options available in the dropdown
 
-![Using icons](/images/components/button-dropdowns/button2.svg)
+</docs-do>
+  </div>
+  <div>
 
-[See design specs](https://xd.adobe.com/view/045ad3c3-398d-4b4e-b4ce-d2135418cd29-5109/screen/9a6e8257-bd26-4034-be80-4f0c9a172bc6)
+![Do not Button Dropdown label](/images/standard_donot.svg)
 
-![Using icons 2](/images/components/button-dropdowns/button.svg)
+<docs-do-not>
+Use a term that it too vague and does not provide clarity about the options available in the dropdown 
 
-[See design specs](https://xd.adobe.com/view/045ad3c3-398d-4b4e-b4ce-d2135418cd29-5109/screen/4d78aa9f-0c45-401d-811e-a155e2d3138f)
+</docs-do-not>
+  </div>
+  
+</docs-grid>
 
----
+<docs-spacer size="small"></docs-spacer>
 
-## Labeling
+#### Icon Button Dropdown
 
-<Grid>
-<GridCol col="span-8">
+* Icon button, (most commonly the more icon)
+* Can be primary, secondary or link styles
+* Once active, a dropdown opens to display options 
 
-- The button label should be an actionable umbrella term or category that encompasses all options in the list. After reading a label, the dropdown options should meet a user's expectations.
-- Use action verbs and clear verb phrases for your labels. For example, **"Save to"** indicates additional options are available, while **"Save"** does not.
+<docs-grid columns="2">
+  <div>
 
-#### Using icons as labels
+![Do icon Button Dropdown](/images/icon_do.svg)
 
-- Use a button dropdown without a label to minimize footprint.
-- Ideally, button dropdowns should be clearly labeled. If there are circumstances that prevent that from happening, use an icon that clearly and unambiguously represents its list.
+<docs-do>
 
-[See design specs](https://xd.adobe.com/view/045ad3c3-398d-4b4e-b4ce-d2135418cd29-5109/screen/1c80d35b-d1c2-4f1a-83e9-778bab4b4347)
+Use icons that are easily recognizable and clearly represent the option list 
 
-</GridCol>
-<GridCol col="span-4">
+</docs-do>
+  </div>
+  <div>
 
-![Button labeling](/images/components/button-dropdowns/labeling.svg)
+![Do not icon Button Dropdown](/images/icon_donot.svg)
 
-</GridCol>
-</Grid>
+<docs-do-not>
+Use icons that are unclear or are unrelated to the list of options  
 
----
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
+
+#### Option list with icons
+
+* Pair icons with text labels for clear and easy recognition of actions in the dropdown
+* Icons appear to the left of the text label within the dropdown
+
+<docs-grid columns="2">
+  <div>
+
+![Do options list Button Dropdown](/images/options_do.svg)
+
+<docs-do>
+
+Include icons with all or none of the options in the dropdown list
+
+</docs-do>
+  </div>
+  <div>
+
+![Do not option list Button Dropdown](/images/options_donot.svg)
+
+<docs-do-not>
+Include icons on only one or some of the options 
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+- - -
+
+## States
+
+Buttons Dropdowns follow Button states with the exception of the selected state, which opens the dropdown to display the list of options available to the user. 
+
+The options dropdown also has normal, hover and disabled states as shown below. 
+
+![Option list states](/images/option_states.svg)
+
+- - -
+
+## Alternate considerations
+
+* [Buttons](/design-system/components/buttons) should be used when there are 2 or fewer actions available 
+* [Buttons](/design-system/components/buttons) or [Button Groups](/design-system/components/button-groups) should be used when choices should be immediately visible to users
+* [Dropdown Select](/design-system/components/dropdown-select) should be used if the user is making a selection instead of executing an action
+
+- - -
 
 ## Behavior
 
-#### Interaction behavior
+* Depending on the placement of the Button Dropdown and the space available, the option list can appear either left-aligned or right-aligned.
+* The option list should always open below the button.
+* The option list should appear above any components in z-space. It should not push items downwards on the page when open.
+* The option list should not be confined to the container in which it was triggered, meaning it can go over the edge of the card or table in which it was triggered. 
 
-Button dropdowns follow the same [guidelines](/design-system/components/buttons/) as regular buttons when it comes to behavior and interaction.
-
-<Spacer size="small" />
-
-**Option list states**
-
-![The various states of an options list](/images/components/button-dropdowns/states_list.svg)
-
-[See option list states design specs](https://xd.adobe.com/view/045ad3c3-398d-4b4e-b4ce-d2135418cd29-5109/screen/3d9950dd-2e3f-4351-a78e-ccaef7d8689d)
-
-</GridCol>
-
-</Grid>
-
-<Spacer/>
+![Button Dropdown behavior](/images/behavior.svg)

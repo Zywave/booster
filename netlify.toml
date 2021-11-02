@@ -9,6 +9,21 @@ package = "@algolia/netlify-plugin-crawler"
   customDomain = "booster.zywave.dev"
   renderJavaScript = true
 
+# https://github.com/sw-yx/netlify-plugin-rss/
+[[plugins]]
+package = "netlify-plugin-rss"
+  [plugins.inputs]
+  # required configs, customize as needed
+  dirToScan = "/blog/posts" # a subfolder to scan. "/" to scan all
+  authorName = "Zywave, Inc."
+  site_url = "https://booster.zywave.dev"
+  title = "Booster Blog RSS Feed"
+  rssDescription = "Booster Blog RSS Feed"
+  categories = ['Technology', 'Zywave', 'Web Development', 'Design']
+  contentSelector = "article"
+  publishDateSelector = "time"
+  descriptionSelector = "meta[name=description]"
+
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
@@ -24,14 +39,13 @@ package = "@algolia/netlify-plugin-crawler"
 # Headers rule example
 # For more information see:- https://www.netlify.com/docs/netlify-toml-reference/
 
-#[[headers]]
-#   Define which paths this specific [[headers]] block will cover.
-#   for = "/*"
+[[headers]]
+  for = "/*"
 
-#[headers.values]
-#   X-Frame-Options = "DENY"
-#   X-XSS-Protection = "1; mode=block"
-#   Content-Security-Policy = "frame-ancestors https://www.facebook.com"
+[headers.values]
+  X-Frame-Options = "DENY"
+  X-XSS-Protection = "1; mode=block"
+  Content-Security-Policy = "script-src 'self' blob: unpkg.com cdn.zywave.com identity.netlify.com netlify-cdp-loader.netlify.app 'unsafe-eval' 'unsafe-inline';style-src 'self' unpkg.com cdn.zywave.com 'unsafe-inline';frame-src 'self'"
 
 # Redirects and headers are GLOBAL for all builds – they do not get scoped to
 # contexts no matter where you define them in the file.

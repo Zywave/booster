@@ -21,6 +21,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "application_framework_components"
     label: "Application framework / Components"
     label_singular: "component"
@@ -31,10 +32,11 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "API Schema", name: "api", widget: "string" }
-      - { label: "Demo URI", name: "demo", widget: "string" }
-      - { label: "Main component name", name: "mainComponentName", widget: "string" }
+      - { label: "API Schema", name: "api", widget: "string", required: false }
+      - { label: "Demo URI", name: "demo", widget: "string", required: false }
+      - { label: "Main component name", name: "mainComponentName", widget: "string", required: false }
       - { label: "Included elements", name: "includedElements", widget: "list", default: [] }
+
   - name: "application_framework_developers"
     label: "Application framework / Developers"
     label_singular: "dev doc"
@@ -46,6 +48,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     label_singular: "blog post"
@@ -59,7 +62,6 @@ collections:
       - { label: "Description", name: "description", widget: "string", required: true }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
       - label: "Tags"
         name: "tags"
         widget: "select"
@@ -72,6 +74,8 @@ collections:
           - "Web Components"
           - "Web"
           - "Meta"
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "design_system"
     label: "Design system"
     label_singular: "Design system page"
@@ -83,6 +87,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "design_system_components"
     label: "Design system / Components"
     label_singular: "component"
@@ -93,10 +98,11 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "API Schema", name: "api", widget: "string" }
-      - { label: "Demo URI", name: "demo", widget: "string" }
-      - { label: "Main component name", name: "mainComponentName", widget: "string" }
+      - { label: "API Schema", name: "api", widget: "string", required: false }
+      - { label: "Demo URI", name: "demo", widget: "string", required: false }
+      - { label: "Main component name", name: "mainComponentName", widget: "string", required: false }
       - { label: "Included elements", name: "includedElements", widget: "list", default: []}
+
   - name: "design_system_developers"
     label: "Design system / Developers"
     label_singular: "dev doc"
@@ -108,6 +114,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "design_system_patterns"
     label: "Design system / Patterns"
     label_singular: "Patterns doc"
@@ -119,6 +126,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "design_system_visuals"
     label: "Design system / Visuals"
     label_singular: "Visuals doc"
@@ -130,6 +138,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "design_system_voice-and-tone"
     label: "Design system / Voice and Tone"
     label_singular: "Voice and tone doc"
@@ -141,6 +150,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      
   - name: "pages"
     label: "Pages"
     label_singular: "page"

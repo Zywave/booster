@@ -1,205 +1,213 @@
 ---
+title: Button groups
+subtitle: A Button Group is 3 or more Buttons grouped together on a single line.
 api: https://cdn.zywave.com/@zywave/zui-button@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-button@next/demo/index.html
 mainComponentName: zui-button-group
-includedElements: ["zui-button-group"]
-title: Button groups
-subtitle: Three or more buttons grouped together on a single line.
+includedElements:
+  - zui-button-group
 ---
-
-## What are button groups?
-
-A button group is 3 or more buttons grouped together on a single line.
-
----
-
 ## Usage
 
-Combining a few related actions into a button group can be useful for a feature. Button labels should be short and self-explanatory; for example: **Add**, **Edit**, **Import**, etc. The order of buttons and/or button dropdowns in a button group should be ordered logically, either by usage or importance.
+Combining related actions into a Button Group can save space and reduce the visual clutter of multiple actions on a page. Button Group labels should be short and self-explanatory; for example: export, edit, duplicate. The actions available in a Button Group should be ordered logically, either by usage or importance from left to right.
 
-#### Alternate Considerations
+![Button group example](/images/button-group_usage.svg)
 
-- Use [individual buttons](/design-system/components/buttons/) when the buttons are not related.
-- Use [radio buttons](/design-system/components/radio-buttons/) when labels require more text, or you need a segmented control that emphasizes a selection being made.
-- Use [tabs](/design-system/components/tabs/) when you need tertiary navigation on a page.
-- Use [toggle buttons](/design-system/components/toggles/) when a feature needs to be enabled or disabled.
-
----
+- - -
 
 ## Anatomy
 
-Button groups follow the same anatomy rules as a button. For more information on these states, see [buttons](/design-system/components/buttons/).
+The individual Buttons within a Button Group follow the anatomy guidelines for Buttons except that only the far right and left Buttons have rounded corners to create the appearance of one button. 
 
-![Anatomy of a button group](/images/components/button-groups/anatomy.svg)
+![Button Group anatomy](/images/button-group_anatomy.svg)
 
-1. Button: The shape that encloses the label. Follow the [buttons](/design-system/components/buttons/) guidelines for style variations, sizing, and spacing specifications.
-2. Dividers: The line that separates the buttons.
+1. **Button:** The shape that encloses the label. Follow the [Buttons documentation](/design-system/components/buttons) for style variations, sizing and spacing specifications.
+2. **Dividers:** The appearance of lines that show division between the individual Buttons. 
 
-For detailed documentation on our button group anatomy, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/specs/).
+For detailed documentation on our Button Group anatomy, view the [design specs](https://xd.adobe.com/view/42fe9ab5-9034-4b68-b1a5-ce3827ec5560-17ad/).  
 
----
+- - -
 
 ## Types
 
+Primary and secondary are the two main types of Button Groups available. These types of Button Groups visually indicate to the user that the actions are grouped together. The two types should never be mixed within one Button Group, meaning you cannot have one primary action and 2 secondary actions within one group.\
+<docs-spacer size="small"></docs-spacer>
+
 #### Secondary
 
-A secondary button group is used to represent secondary actions on a page.
+Because there should only be one primary action on a page, a secondary type is highly recommended for Button Groups.  
 
-![secondary button group](/images/components/button-groups/secondary.svg)
+![Secondary style Button Group](/images/button-group_secondary.svg)
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Primary
 
-A primary button group is used to call attention to the main actions a user should take. This type should be used sparingly since it is rare you would have more than one primary action on a page.
+In rare cases, a primary Button Group may be used. Primary Button Groups should appear within more complex pages that may have additional secondary actions outside of the group.  
 
-![primary button group](/images/components/button-groups/primary.svg)
+![Primary style Button Group](/images/button-group_primary.svg)
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Adding icons
 
-![button group icons](/images/components/button-groups/icons2.svg) ![button group icons](/images/components/button-groups/icons.svg)
+Icons can be added to assist in quickly identifying actions. Ideally, Button Groups should be clearly labeled.
+Text labels can be omitted to conserve space, but only icons that clearly represent their actions should be used.
 
-If you have to omit labels due to lack of space, use an icon that clearly and unambiguously represents the action.
+![Button Group with icons](/images/button-group_icons.svg)
 
-![button group icons](/images/components/button-groups/icons3.svg)
+</br>
+</br>
 
-For detailed documentation on adding icons to button groups, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/screen/0221f047-f6ae-4f88-92d0-29d69d4be97b/specs/).
+For detailed documentation on adding icons to Button Groups, view the [design specs](https://xd.adobe.com/view/42fe9ab5-9034-4b68-b1a5-ce3827ec5560-17ad/).
 
-<br>
+<docs-spacer size="small"></docs-spacer>
 
-#### Using button dropdowns
+#### Using Button Dropdowns
 
-Button dropdowns are acceptable in button groups. For more information about button dropdowns, see [button dropdowns](/design-system/components/button-dropdowns/).
+Button Dropdowns can be used within Button Groups. They can be placed anywhere in a Button Group as long as the buttons are ordered logically, either by usage or importance. For more information, see [Button Dropdowns](/design-system/components/button-dropdowns).
 
-![button group dropdowns](/images/components/button-groups/buttondropdown.svg)
+![Button Group containing a Button Dropdown](/images/button-group_dropdown.svg)
 
-Arrange primary actions on the left, followed by a button dropdown as the last button in a group.
+</br>
+</br>
 
-The `zui-more` icon indicates a button dropdown within a button group. A button label with a chevron may also be used to indicate a button dropdown within a button group when more specificity is desired.
+For detailed documentation on using Button Dropdowns in Button Groups, view the [design specs](https://xd.adobe.com/view/42fe9ab5-9034-4b68-b1a5-ce3827ec5560-17ad/).  
 
-For detailed documentation on using button dropdowns in button groups, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/screen/aae0de17-ab8f-4713-b765-53f512169cd7/specs/).
-
-<br>
-
-Dropdowns can be placed anywhere in a button group as long as the buttons are ordered logically, either by usage or importance.
-
-![button group dropdowns](/images/components/button-groups/buttondropdown2.png)
-
----
+- - -
 
 ## States
 
-![button group states](/images/components/button-groups/states.svg)
+![States of Button Groups](/images/button-group_states.svg)
 
-The focused state for button groups uses an internal borderline. All of the other states follow regular [buttons](/design-system/components/buttons/) guidelines.
+The focused state for Button Groups uses an internal borderline. All of the other states follow regular [Button guidelines](/design-system/components/buttons). 
 
-<br>
+<docs-spacer size="small"></docs-spacer>
 
 #### Normal
 
-Normal state is the initial state of the button group when the page first loads and before any action is taken.
+Normal state is how the Button Group looks by default before any interaction or action is taken.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Hover
 
-Hover state occurs when the user hovers over a button or button dropdown with their mouse.
+Hover state occurs when the user hovers over a button or button dropdown with their cursor.   
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Focus
 
-Focus state appears when the button or button dropdown is currently selected and awaiting action. This commonly occurs when using a keyboard to navigate.
+Focus state appears when the button or button dropdown is currently selected and awaiting action. This commonly occurs when using a keyboard to navigate.  
+
+<docs-spacer size="small"></docs-spacer>  
 
 #### Pressed
 
-Pressed state occurs when a user clicks (or hits enter on a keyboard). This state only appears briefly while the page/action is loading.
+Pressed state occurs very briefly when the button is being activated by the user when pressing down on the mouse button.  
+
+<docs-spacer size="small"></docs-spacer>  
 
 #### Disabled state
 
-Disabled state occurs when an action currently isn't available. Disabled button groups should only be used when an action can be taken within the current UI to enable the button. If no action can be taken to enable the button group, then the button group should be hidden instead of disabled.
+Disable state occurs when an action currently isn't available within a Button Group.
 
-A single button in a button group can be disabled as well as the entire button group.
+Disabled Button Groups should only be used when an action can be taken within the current UI to enable them. If no action can be taken to enable the Button Group, then the Button Group should be hidden instead of disabled.  
 
-For detailed documentation on our button groups states, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/screen/e977216b-4526-4bc5-9899-bdbaa4141307/specs/).
+We have added the CSS property <code>pointer-events: none;</code> to this Button Group style that will further prevent users from clicking a disabled Button Group.
 
-<br>
+- - -
 
-#### Icons button group states
+## Best practices
 
-![button group icon states](/images/components/button-groups/states2.svg)
+Button Groups should follow the best practices outlined in the [Button](/design-system/components/buttons) component and guidelines for the [Button Dropdown](/design-system/components/button-dropdowns) component when included.
 
-For detailed documentation on our button groups states, view the [design specs](https://xd.adobe.com/view/f1da7e56-5f40-48b1-9502-c3da540a7068-a489/screen/20cde077-f0e1-4e45-8e99-cc2e77a332a7/specs/).
+<docs-spacer size="small"></docs-spacer>  
 
----
+#### Button order
 
-## Best-practices
+<docs-grid columns="2">
+  <div>
+     <docs-do> 
+     Arrange actions in order of importance with the most important/most clicked action on the left.
+     </docs-do>
 
-Button groups should follow the best practices outlined in the [button](/design-system/components/buttons/) component and guidelines for the [button dropdown](/design-system/components/button-dropdowns/) component when included.
+  </div>
+  <div>
+    <docs-do-not> 
 
-<br>
+Reverse the order of the actions or disregard importance of actions when determining their order within the group.  
 
-#### Buttton arrangement
+</docs-do-not>
 
-<Grid>
+  </div>
+  
+</docs-grid>
 
-<GridCol col="span-6">
-
-<Do />
-
-- Arrange primary actions on the left, followed by secondary actions, and tertiary actions as the last button in a group.
-- When using 2 buttons, one as a primary and one as a dropdown, place them as separate buttons.
-
-</GridCol>
-
-<GridCol col="span-6">
-
-<DoNot />
-
-Arrange tertiary actions as the first button in a group or have secondary actions before primary actions.
-
-</GridCol>
-
-</Grid>
-
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>  
 
 #### Button styling
 
-<Grid>
+<docs-grid columns="2">
+  <div>
 
-<GridCol col="span-6">
+![Do Button Group styling](/images/button-group_styling-do.svg)
 
-<Do />
+ <docs-do>  
+Always use the same Button style variation in a Button Group for a consistent style. For example, all actions have the secondary Button style.
 
-Always use the same button and button dropdown style variation in a button group for a consistent style. For example, all actions have the primary button style.
+</docs-do>
 
-</GridCol>
+  </div>
+  <div>
 
-<GridCol col="span-6">
+![Do not Button Group styling](/images/button-group_styling-do-not.svg)
 
-<DoNot />
+   <docs-do-not>
 
-Avoid combining primary and secondary buttons in the same button group.
+Avoid combining primary and secondary buttons in the same Button Group.
 
-</GridCol>
+   </docs-do-not>
 
-</Grid>
+  </div>
+  
+</docs-grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>  
 
 #### Button labeling
 
-<Grid>
+<docs-grid columns="2">
+  <div>
 
-<GridCol col="span-6">
+![Do Button Group labels](/images/button-group_labeling-do-–-1.svg)
 
-<Do />
+ <docs-do>  
 
 Use action labels that are 1-3 short words.
 
-</GridCol>
+</docs-do>
 
-<GridCol col="span-6">
+  </div>
+  <div>
 
-<DoNot />
+![Do not Button Group labels](/images/button-group_labeling-do-not-–-1.svg)
 
-Use action labels that are long or more than 3 words.
+   <docs-do-not>
 
-</GridCol>
+Use action labels that are long or more than 3 words.
 
-</Grid>
+   </docs-do-not>
+
+  </div>
+  
+</docs-grid>
+
+- - -
+
+## Alternate considerations
+
+* Use individual [Buttons](/design-system/components/buttons) when the buttons are not closely related, have varying levels of priority, or are fewer.
+* Use  [Radio Buttons](/design-system/components/radio-buttons) when labels require more text, or you need a segmented control that emphasizes a selection being made.
+* Use [Tabs](/design-system/components/tabs) when you need tertiary navigation on a page.
+* Use [Toggles](/design-system/components/toggles) when a feature needs to be enabled or disabled.

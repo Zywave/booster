@@ -7,6 +7,9 @@
 	<link rel="icon" href="./favicon.ico" />
 	<link rel="dns-prefetch" href="https://identity.netlify.com">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% if description %}
+	<meta name="description" content="{{ description }}">
+	{% endif %}
 	<title>{{ component.commonName or renderData.title or title }}</title>
 	{# njk var set below, njk templating doesn't play well within 'script' tags #}
 	{% set moduleFolder = "/js/" | url %}
@@ -40,7 +43,7 @@
 	{% set js %}
 		{% include "static/js/inline.js" %}
 	{% endset %}
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1.0.8/dist/algoliasearchNetlify.css" />
+	<link rel="stylesheet" href="https://cdn.zywave.com/@algolia/algoliasearch-netlify-frontend@1.0.8/dist/algoliasearchNetlify.css" />
 </head>
 
 <body class="zui row {{ pageType }}">
@@ -58,7 +61,7 @@
 		});
 	}
 	</script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1.0.8/dist/algoliasearchNetlify.js"></script>
+	<script type="text/javascript" src="https://cdn.zywave.com/@algolia/algoliasearch-netlify-frontend@1.0.8/dist/algoliasearchNetlify.js"></script>
 	<script type="module" noshim>
 		let initialized;
 		function init() {
