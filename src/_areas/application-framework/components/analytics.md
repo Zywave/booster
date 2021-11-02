@@ -8,6 +8,9 @@ mainComponentName: zywave-analytics
 includedElements:
   - zywave-analytics
 ---
+
+## General
+
 Zywave currently uses three third-party tracking solutions to gather analytics from our applications: [Heap](https://heap.io/), [Appcues](https://www.appcues.com/), and [Google Analytics](https://analytics.google.com).
 
 There are three ways to add the analytics scripts to Zywave applications:

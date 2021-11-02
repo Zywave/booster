@@ -4,35 +4,6 @@ title: CSS guide
 subtitle: CSS classes to help you build applications faster.
 ---
 
-<Tabs :tabs="['zui-app-styles', 'Responsive design']">
-
-<TabPage>
-<!-- zui-app-styles page -->
-<TOC>
-    <TOCItem href="#overview">Overview</TOCItem>
-    <TOCItem href="#installation">Installation</TOCItem>
-    <TOCItem href="#purpose">Purpose</TOCItem>
-    <TOCItem href="#contents">Contents</TOCItem>
-        <TOC>
-            <TOCItem href="#shared">/shared/ folder</TOCItem>
-        </TOC>
-        <TOC>
-            <TOCItem href="#utility">/utility/ folder</TOCItem>
-            <TOC>
-                <TOCItem href="#zui-class">.zui class / zui-all-reset.scss</TOCItem>
-                <TOCItem href="#composition">composition.scss</TOCItem>
-                <TOCItem href="#elements">elements.scss</TOCItem>
-                <TOCItem href="#spatial">spatial.scss</TOCItem>
-                <TOCItem href="#typography">typography.scss</TOCItem>
-            </TOC>
-        </TOC>
-    <!-- <TOCItem href="#examples">Examples</TOCItem> -->
-</TOC>
-
----
-
-<TOCItemId id="overview">
-
 ## Overview
 
 </TOCItemId>
@@ -41,11 +12,8 @@ ZUI exposes a `zui-app-styles` package which is a collection of style files cont
 
 ---
 
-<TOCItemId id="installation">
 
 ## Installation
-
-</TOCItemId>
 
 To install `zui-app-styles` there are 2 main ways to add to a project, very similar to how ZUI components are added.
 
@@ -111,11 +79,7 @@ npm install @zywave/zui-app-styles@latest
 
 ---
 
-<TOCItemId id="purpose">
-
 ## Purpose
-
-</TOCItemId>
 
 Stylesheets have a tendency to become excessive and brittle. Naming things is difficult. A class name is chosen but later its meaning can become irrelevant, and future developers aren't certain what styles can be safely removed. Utility classes offer flexibility with semantics, exceptionally useful when a layout signicantly changes, you're able to avoid renaming many classes. Conforming to a style library is also effecient for developers and projects.
 
@@ -165,41 +129,25 @@ If applying more than 4 utility classes to an element, consider creating your ow
 
 ---
 
-<TOCItemId id="contents">
-
 ## Contents
-
-</TOCItemId>
 
 The `zui-app-styles` package will be broken down with explanations of what each folder contains and the purpose of the contents within them.
 
 <Spacer size="small" />
 
-<TOCItemId id="shared">
-
 ### `/shared/` folder
-
-</TOCItemId>
 
 The `/shared/` folder exists as a hub to house reusable styles between component packages. Unless you're creating a component, you can ignore this.
 
 <Spacer size="small" />
 
-<TOCItemId id="utility">
-
 ### `/utility/` folder
 
 The `/utility/` folder houses different stylesheets based on the type of effects the styles apply. The naming attempts to organize and define the styles. We will provide a description for each stylesheet below.
 
-</TOCItemId>
-
 <Spacer size="small" />
 
-<TOCItemId id="zui-class">
-
 #### `.zui` class / `zui-all-reset.scss`
-
-</TOCItemId>
 
 These 2 stylesheets are responsible for ensuring all ZUI utility classes do not clash with third-party stylesheets:
 
@@ -212,11 +160,7 @@ The `.zui` class prevents identical class names from colliding by unsetting all 
 
 <Spacer size="small" />
 
-<TOCItemId id="composition">
-
 #### `compositon.scss`
-
-</TOCItemId>
 
 `composition.scss` is synonymous with layout. This includes styling for flexbox (flex containers and flex items), pushing items left and right, rows and columns, etc.
 
@@ -304,11 +248,7 @@ The `.zui` class prevents identical class names from colliding by unsetting all 
 
 <Spacer size="small" />
 
-<TOCItemId id="elements">
-
 #### `elements.scss`
-
-</TOCItemId>
 
 `elements.scss` can be thought of as HTML elements, or more solidifed objects and items. This includes stylings for tables (`thead`, `th`, `tr`), line breaks, links, etc.
 
@@ -453,11 +393,7 @@ table.zui.table {
 
 <Spacer size="small" />
 
-<TOCItemId id="spatial">
-
 #### `spatial.scss`
-
-</TOCItemId>
 
 `spatial.scss` includes classes for sizing, box model effects, margin and padding etc.
 
@@ -631,11 +567,7 @@ The margin and padding utility classes are based on what we refer to as 't-shirt
 
 <Spacer size="small" />
 
-<TOCItemId id="typography">
-
 #### `typography.scss`
-
-</TOCItemId>
 
 This stylesheet houses all things related to font sizing, weights, truncation, text alignment, and some validation error highlighting.
 
@@ -744,16 +676,8 @@ This stylesheet houses all things related to font sizing, weights, truncation, t
 
 <Spacer size="small" />
 
-<!-- <TOCItemId id="Examples">
-
-## Examples
-
-</TOCItemId> -->
-
-<!-- end zui-app-styles page -->
 </TabPage>
 <TabPage>
-<!-- Responsive design page -->
 
 ## Mobile first approach
 

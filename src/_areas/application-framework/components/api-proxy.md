@@ -6,6 +6,9 @@ demo: https://cdn.zywave.com/@zywave/zywave-api-proxy@next/demo/index.html
 mainComponentName: zywave-api-proxy
 includedElements: []
 ---
+
+## General
+
 The `ZywaveApiProxyElement` enables easier, more secure client-side API communication. It also makes the utilization of all Application Framework components simpler, enabling you to focus on what matters.
 
 ## Requirements
