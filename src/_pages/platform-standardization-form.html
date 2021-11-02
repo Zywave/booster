@@ -152,7 +152,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             margin: 1.875rem 0;
             /* 30 / 16 */
         }
@@ -311,7 +311,8 @@
                 <input type="hidden" value="0" name="Authentication / Authorization" />
                 <input type="hidden" value="0" name="UX / Design" />
                 <input type="hidden" value="0" name="Data" />
-                <input type="hidden" value="0" name="Infrastructure / Security" />
+                <!-- TODO: update infrastructure column -->
+                <!-- <input type="hidden" value="0" name="Infrastructure / Security" /> -->
 
                 <div class="metadata">
                     <label>
@@ -341,9 +342,9 @@
                         <div class="cell">
                             Data
                         </div>
-                        <div class="cell">
+                        <!-- <div class="cell">
                             Infrastructure / Security
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row sample">
                         <div class="cell">
@@ -367,11 +368,11 @@
                                 <li>Redundant data exists between your solution and another products solution</li>
                             </ul>
                         </div>
-                        <div class="cell">
+                        <!-- <div class="cell">
                             <ul>
                                 <li>Infrastructure is distinct from Zywave and is not supported by Zywave</li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -402,12 +403,12 @@
                                 One way "sync" of data from the app back into Zywave
                             </label>
                         </div>
-                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="1">
+                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="securityScanning" />
                                 Complies with security requirements
                             </label>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -426,9 +427,9 @@
                         <div class="cell" data-stage-category="Data" data-stage-value="2">
                             <label><input type="checkbox" name="twoWaySync" />Two-way sync with Zywave analogous features</label>
                         </div>
-                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="2">
+                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="2">
                             <label><input type="checkbox" name="zywaveDomain" />Lives on a Zywave domain</label>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -449,11 +450,11 @@
                             <label><input type="checkbox" name="integratedData" />Data is fully
                                 integrated and managed within Zywave (no redundancy of data management)</label>
                         </div>
-                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="3">
+                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="3">
                             <label><input type="checkbox" name="containerization" />Fully containerized and can be
                                 deployed
                                 to any cloud-hosting ecosystem</label>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <button type="submit">
