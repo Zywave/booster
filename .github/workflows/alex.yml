@@ -19,3 +19,4 @@ jobs:
         no_binary: true
         pr_only: true
         glob_pattern: "src/**"
+        profanity_sureness: 2
