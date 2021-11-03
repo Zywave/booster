@@ -193,7 +193,11 @@ Breadcrumbs are not designed to show browsing history (such as "back" button in 
 
 When in a long Breadcrumb trail, items that are closer to the current page hold more weight to users than others. It is recommended to make the last two items (including current page) visible.
 
+
+
 <hr>
+
+
 
 ## Responsive Layout
 
