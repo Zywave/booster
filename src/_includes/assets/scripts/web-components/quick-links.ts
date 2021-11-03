@@ -122,7 +122,7 @@ customElements.define(
       return this.headings.replaceAll(' ', '').split(',').sort();
     }
 
-    get #getHeadingsElements() {
+    get #getHeadingsElements(): HTMLHeadingElement[] {
       const queryWithIdAttr = this.headings
         .split(',')
         .map(item => `${item}[id]`)
@@ -139,11 +139,11 @@ customElements.define(
     }
 
     #buildHeaderList() {
-      function getHeadingLevel(element: Element) {
+      function getHeadingLevel(element: HTMLHeadingElement) {
           return Number(element.tagName.split("H")[1]);
       }
 
-      function buildHeaderTree(currentHeader: Element, restHeaders: Element[]): HeaderTree {
+      function buildHeaderTree(currentHeader: HTMLHeadingElement, restHeaders: HTMLHeadingElement[]): HeaderTree {
         const result: HeaderTree = {
             element: currentHeader,
             children: []
@@ -178,7 +178,8 @@ customElements.define(
           ? `aria-current="current"`
           : ``}
         >
-          <a href="${this.#getUrlNoHash}#${item.element.id}">${item.element.childNodes[0].textContent}</a>
+          
+          <a href="${this.#getUrlNoHash}#${item.element.id}">${item.element.innerText}</a>
         </li>
       `;
 
@@ -228,7 +229,7 @@ customElements.define(
 );
 
 type HeaderTree = {
-  element: Element,
+  element: HTMLHeadingElement,
   children: HeaderTree[];
 }
 
