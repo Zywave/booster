@@ -6,16 +6,21 @@ quick-links {
         max-height: calc(100vh - 24rem);
     }
 
-    &::-webkit-scrollbar {
-        width: 7px;
-        height: 7px;
-        background-color: #f4f4f6;
-        background-color: var(--zui-gray-50);
-    }
+    @supports (scrollbar-width: thin) {
+        scrollbar-color: var(--zui-gray-400) var(--zui-gray-50);
+        scrollbar-width: thin;
+      }
 
-    &::-webkit-scrollbar-thumb {
-        background-color: #9494a4;
-        background-color: var(--zui-gray-400);
-        border-radius: 10px;
+    @supports not (scrollbar-width: thin) {
+        &::-webkit-scrollbar {
+            width: 7px;
+            height: 7px;
+            background-color: var(--zui-gray-50);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: var(--zui-gray-400);
+            border-radius: 10px;
+        }
     }
 }
