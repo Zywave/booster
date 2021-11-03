@@ -1,3 +1,5 @@
+@use '../../../../../node_modules/@zywave/zui-sass-scripts/skinny-scrollbar.scss';
+
 quick-links {
     max-height: calc(100vh - 15rem);
     overflow-y: auto;
@@ -6,21 +8,5 @@ quick-links {
         max-height: calc(100vh - 24rem);
     }
 
-    @supports (scrollbar-width: thin) {
-        scrollbar-color: var(--zui-gray-400) var(--zui-gray-50);
-        scrollbar-width: thin;
-      }
-
-    @supports not (scrollbar-width: thin) {
-        &::-webkit-scrollbar {
-            width: 7px;
-            height: 7px;
-            background-color: var(--zui-gray-50);
-        }
-
-        &::-webkit-scrollbar-thumb {
-            background-color: var(--zui-gray-400);
-            border-radius: 10px;
-        }
-    }
+    @extend %skinny-scrollbar
 }
