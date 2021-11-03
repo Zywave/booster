@@ -92,22 +92,60 @@ When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidde
 
 ## Best Practices
 
-### Page title length
+#### Page title length
 
 * We recommend keeping Breadcrumb titles to 30 characters or less, especially in longer trails, but leave the length up to the consumer
 * Page titles will truncate after 30 characters with an ellipsis at the end
 
 ![truncated title breadcrumb](/images/truncate.png)
 
-<br>
 
-### Separators should mimic movement
+
+<docs-spacer>
+
+</docs-spacer>
+
+
+
+#### Separators should mimic movement
 
 Use chevrons as separators between page/Breadcrumb titles. They not only help separate between different page/Breadcrumb titles, but also help indicate hierarchy.
 
-![Separators should mimic movement](/images/signs.png)
 
-<br>
+
+<docs-grid columns="2">
+
+<div>
+
+![Always use right arrows in breadcrumb trials](/images/1-1.png)
+
+<docs-do>
+Always use right arrows in breadcrumb trials
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid using icons that are not right arrows, such as forward slash "/", dash "-", and etc.](/images/1-2.png)
+
+<docs-do-not>
+Avoid using icons that are not right arrows, such as forward slash "/", dash "-", and etc.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+
+
+<docs-spacer>
+
+</docs-spacer>
+
+
+
+
 
 ### The first Breadcrumb should always be spelled out
 
