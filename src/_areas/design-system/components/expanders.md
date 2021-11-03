@@ -6,22 +6,24 @@ demo: https://cdn.zywave.com/@zywave/zui-expander@next/demo/index.html
 mainComponentName: zui-expander
 includedElements: []
 ---
+## Usage
 
-## Usage 
-An Expander is used to organize an overabundance of content and conserve space. Important details are initially shown and additional information is revealed upon interaction.  
+An Expander is a container used to organize an overabundance of content and conserve space. Important information is initially shown and additional details are revealed upon interaction.  
 
----
+Expanders can be used standalone or in a group to hide and reveal different sections of content. 
 
-## Anatomy  
+- - -
 
----
+## Anatomy
 
-## Types and states  
+- - -
 
----
+## Types and states
 
-## Best practices  
+- - -
 
----
+## Best practices
+
+- - -
 
 ## Alternate considerations
