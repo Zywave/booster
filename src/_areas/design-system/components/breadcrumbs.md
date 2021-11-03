@@ -92,18 +92,22 @@ When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidde
 
 ## Best Practices
 
-#### Page title length
+### Page title length
 
 * We recommend keeping Breadcrumb titles to 30 characters or less, especially in longer trails, but leave the length up to the consumer
 * Page titles will truncate after 30 characters with an ellipsis at the end
 
 ![truncated title breadcrumb](/images/truncate.png)
 
+
+
 <docs-spacer>
 
 </docs-spacer>
 
-#### Separators should mimic movement
+
+
+### Separators should mimic movement
 
 Use chevrons as separators between page/Breadcrumb titles. They not only help separate between different page/Breadcrumb titles, but also help indicate hierarchy.
 
@@ -131,15 +135,11 @@ Avoid using icons that are not right arrows, such as forward slash "/", dash "-"
 
 </docs-grid>
 
-
-
 <docs-spacer>
 
 </docs-spacer>
 
-
-
-#### The first Breadcrumb should always be spelled out
+### The first Breadcrumb should always be spelled out
 
 When placing ellipses, always leave the first item visible and avoid using ellipses at the beginning.
 
@@ -167,47 +167,37 @@ Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficia
 
 </docs-grid>
 
-
-
 <docs-spacer>
 
 </docs-spacer>
 
-
-
-
-
-#### **Breadcrumb width should not exceed 700px**
+### **Breadcrumb width should not exceed 700px**
 
 For the optimal readability, it is recommended to keep the maximum Breadcrumb length at 700px. If the Breadcrumb trail length exceeds the limit, wrap the remaining Breadcrumbs to the next row below.
 
 <br>
 
-#### Breadcrumbs are not intended to be the primary action on a page
+### Breadcrumbs are not intended to be the primary action on a page
 
 Breadcrumbs are intended to supplement other navigational elements on the page, such as "back" "continue" buttons in an action bar.
 
 <br>
 
-#### **Breadcrumbs should only indicate hierarchical site pages, not page history**
+### **Breadcrumbs should only indicate hierarchical site pages, not page history**
 
 Breadcrumbs are not designed to show browsing history (such as "back" button in browsers), it is meant to show a given webpage's hierarchical structure. This is critical since browsing history can get long and complicated very quickly and also would not be beneficial for users who come in from an external link to quickly find out where they are.
 
 <br>
 
-#### When using **ellipses, consider making the last two items visible**
+### When using **ellipses, consider making the last two items visible**
 
 When in a long Breadcrumb trail, items that are closer to the current page hold more weight to users than others. It is recommended to make the last two items (including current page) visible.
 
-
-
 <hr>
-
-
 
 ## Responsive Layout
 
-#### Shorten Breadcrumbs to only show the last level on mobile
+### Shorten Breadcrumbs to only show the last level on mobile
 
 Due to the smaller screen size and potential complexity of Breadcrumbs, a mobile Breadcrumb functions as an on-screen back button. This Breadcrumb is simplified to the last level before the current page with a chevron to the left.
 
@@ -217,6 +207,6 @@ Due to the smaller screen size and potential complexity of Breadcrumbs, a mobile
 
 ## Behavior
 
-#### Upon refreshing/re-navigating to the page, collapse long Breadcrumb trails
+### Upon refreshing/re-navigating to the page, collapse long Breadcrumb trails
 
 After expanding a long Breadcrumb trail, refreshing the page will collapse the trail automatically.
