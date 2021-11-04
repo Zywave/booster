@@ -1,8 +1,8 @@
 ---
 layout: documentation
 title: About Booster's Design System
-subtitle: What is it and what does it do?
 ---
+## What is it and what does it do?
 
 It is a broader term that many of Zywave's visual, front end, and design related standards and tooling are filed under. ZUI, Zywave's reusable component library, (for more info, see below) is part of the Booster Design System.
 

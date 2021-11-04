@@ -10,16 +10,16 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 ## Critical error preventing the user from continuing with their workflow
 
-#### How to present it to the user
+### How to present it to the user
 
 - Full page error: 401, 403, 404, or 500 (Details can be found in our [error messaging documentation](/design-system/voice-and-tone/error-messages/ "Documentation for different error messages").)
 
-#### Best practices
+### Best practices
 
 - Avoid if possible - the user should encounter these very rarely
 - Display with the Zywave Shell
 
-#### Preventive measures
+### Preventive measures
 
 - Details for each message type can be found in our [error messaging documentation](/design-system/voice-and-tone/error-messages/ "Documentation for different error messages")
 
@@ -31,11 +31,11 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 ## Server-side error that applies to the entire contents of a page
 
-#### How to present it to the user
+### How to present it to the user
 
 - Error banner well
 
-#### Best practices
+### Best practices
 
 - Messaging should inform the user it is not their fault
 - Guide on how to solve the issue (if possible)
@@ -47,16 +47,16 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 ## Error occurs that does not directly impact the user's current workflow
 
-#### Common use cases
+### Common use cases
 
 - Server-side error that does not affect the current workflow
 - Error occurs on a job that is running in the background
 
-#### How to present it to the user
+### How to present it to the user
 
 - Error notifier
 
-#### Best practices
+### Best practices
 
 - Should not be on a timer
 
@@ -66,7 +66,7 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 ## User provides incorrect or missing information on a form<a id="form-validation"></a>
 
-#### How to present it to the user
+### How to present it to the user
 
 - Error well and inline validation (Detailed information can be found on the [form pattern documentation](/design-system/patterns/forms/#validation "Link to form documentation").)
 
@@ -104,11 +104,11 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 ## User provides incorrect or missing information on a focused state form
 
-#### How to present to the user
+### How to present to the user
 
 - Error notifier and inline validation
 
-#### Best practices
+### Best practices
 
 - Message in the notifier should remain general, informing the user to review errors
 - The notifier should be dismissible, but not on a timer.
@@ -121,16 +121,16 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 This occurs before the file is processed and notifies the user of an issue, such as an invalid file type or size.
 
-#### How to present to the user
+### How to present to the user
 
 - Inline validation
 
-#### Best practices
+### Best practices
 
 - Be specific and inform the user about what is wrong or how to fix the issue
 - File should remain in the input field for reference
 
-#### Preventive measures
+### Preventive measures
 
 - Provide file size restrictions either in page description or as uncontained text below the field
 - Provide accepted file types
@@ -139,13 +139,13 @@ This occurs before the file is processed and notifies the user of an issue, such
 
 ## Error when uploading a file
 
-#### How to present to the user
+### How to present to the user
 
 - Follow guidelines for errors within a [form](/design-system/patterns/forms#validation)
   - Well/notifier
   - Inline validation
 
-#### Best practices
+### Best practices
 
 - If possible, inform the user why the file failed to upload
 - The file can be removed allowing the user to upload a different file in it's place
@@ -156,7 +156,7 @@ This occurs before the file is processed and notifies the user of an issue, such
 
 ## Error uploading a file - multiple file upload
 
-#### How to present to the user
+### How to present to the user
 
 - Red x status indicator icon in upload drawer
   ![file upload drawer](/images/patterns/errors/upload-drawer-error.svg)
@@ -167,19 +167,19 @@ This occurs before the file is processed and notifies the user of an issue, such
 
 ## Error when editing a table
 
-#### How to present to the user
+### How to present to the user
 
 - Cells containing errors are highlighted
 - On hover, tooltip informs the user of the error
 - Validates after focus is shifted off of cell OR upon save
 - Multiple cells can be highlighted at the same time
 
-#### Best practices
+### Best practices
 
 - Cell should be filled with transparent red to avoid any confusion on which cells are highlighted
 - Tooltip text should be short and precise
 
-#### Preventive measures
+### Preventive measures
 
 - Provide specifics about requirements (i.e. 5 or 9 digit zip code)
 - Provide ghost text when cell is not filled out

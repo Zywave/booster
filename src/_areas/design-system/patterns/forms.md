@@ -8,18 +8,7 @@ Forms allow users to enter data that is used by the application. The point of al
 
 <hr>
 
-##### Table of contents
 
-- [Form elements](#form-elements)
-- [Form layout and structure](#form-layout)
-- [Form actions](#form-actions)
-- [Indicators and contextual help](#form-help)
-- [Validation](#validation)
-- [Keyboard accessibility](#keyboard-accessibility)
-
-<hr>
-
-<div id="form-elements"></div>
 
 ## Form elements
 
@@ -39,7 +28,7 @@ A single-line box that the user can enter text into. They automatically move wit
 
 Use this control when you need to pick just one item from a list. For more information see [dropdown-select documentation.](/design-system/components/dropdown-selects/)
 
-![Dropdown select](/images/components/dropdown-select/dropdown-select.svg)
+![Dropdown select](/images/components/dropdown-select/select_grouping_specs.svg)
 
 <Spacer size="small"/>
 
@@ -83,8 +72,6 @@ The file input component allows the user to select one or many files from a user
 
 <hr>
 
-<div id="form-layout"></div>
-
 ## Form layout & structure
 
 Putting all the pieces together in the right order and layout is essential for a user to add information quickly and easily. The user must understand exactly what is needed of them and why. If they run into issues, help must be obvious. This includes:
@@ -98,14 +85,14 @@ Putting all the pieces together in the right order and layout is essential for a
 - Required Field Indication
 - Validation
 
-###### General rules
+### General rules
 
 - All forms need a title, form elements and actions.
 - Form elements need labels so the user knows what type of data to add.
 - Whenever possible keep your form elements to one column.
 - Communicate what you want through size, make each element the size of what data you are collecting.
 
-###### Multi-step
+### Multi-step
 
 A multi-step form is a long form that is broken into multiple pieces. They're used to make long forms less intimidating. By allowing users to complete their information in smaller chunks, you create a positive user experience and increase the chance of form completion. Consider using a [step flow](/design-system/patterns/step-flow/) for multi-step forms.
 
@@ -180,11 +167,9 @@ In many cases it is reccomended to group related fields together using a card as
 
 <hr>
 
-<div id="form-actions"></div>
-
 ## Form actions
 
-#### Action hierarchy
+### Action hierarchy
 
 Forms typically have Primary and Cancel actions, but they could also have a secondary save action. Primary actions are buttons in a form that perform essential 'final' functionality, such as 'Save' or 'Submit'. For more information see [button documentation.](/design-system/components/buttons/)
 
@@ -197,9 +182,9 @@ Sometimes having multiple buttons are necessary. A form may need Primary, Second
 <br/>
 <br/>
 
-#### Action positioning
+### Action positioning
 
-###### Place actions inline with form fields
+#### Place actions inline with form fields
 
 Form actions should appear where the user is likely to look first after completing a form. This is typically directly below the form itself in line with the inputs.
 
@@ -209,7 +194,7 @@ Form actions should appear where the user is likely to look first after completi
 <br>
 <br>
 
-###### Place back buttons at the top
+#### Place back buttons at the top
 
 In Multi-step forms some people want to go back to check or change their answers. In these cases use a back button at the top of the form. [Breadcrumbs](/design-system/components/breadcrumbs/) work very well in these cases.
 
@@ -217,7 +202,7 @@ In Multi-step forms some people want to go back to check or change their answers
 <br>
 <br>
 
-###### Place actions in a modal dialog footer
+#### Place actions in a modal dialog footer
 
 To comply with modal standards the form actions should be placed in the footer of the modal.
 
@@ -225,13 +210,11 @@ To comply with modal standards the form actions should be placed in the footer o
 <br>
 <br>
 
-###### Actions on the right side of a page
+#### Actions on the right side of a page
 
 When the action will take you to another page align the action to the bottom right of the page. Usually this is used in a multi-step process. See [Step Flow documentation.](/design-system/patterns/step-flow/)
 
 <hr>
-
-<div id="form-help"></div>
 
 ## Indicators and contextual help
 
@@ -241,15 +224,15 @@ Field indicators help the user understand what is necessary for them to complete
 
 ![form optional required](/images/patterns/forms/forms--indicators.svg)
 
-###### Form instructions
+#### Form instructions
 
 Every form should include a note at the start of the form that explains what fields are required in the form. This helps prevent errors and minimizes workload. How you communicate this depends on the specific mix of field types your form has. If all fields are required, you don't need indicators on every field, but in the notes let the user know that all questions must be answered.
 
-###### Required indicators
+#### Required indicators
 
 They should be used whenever a field is required. Use a red asterisk next to the label.
 
-###### Optional indicators
+#### Optional indicators
 
 Occasionally, all of the fields are required except one or two. In these times it's ok to use an optional indicator. For this use light gray text that says (optional). This can be under the label, to the right of it, or potentially in the ghost text, depending on available space.
 
@@ -263,8 +246,6 @@ In some cases a label isn't enough and we need provide additional help. Contextu
 
 <hr>
 
-<div id="validation"></div>
-
 ## Validation
 
 Users dislike when they go through the entire process of filling up the forms and have to wait for clicking the submit button to understand what went wrong. If possible, validation should be inline: meaning, as soon as the user has finished filling in the element, an indication should appear if the field contains an error, or is valid, if validation is necessary. If an element is in an error state, when the user meets the requirements of the input it should revalidate, removing the error.
@@ -274,7 +255,7 @@ In many cases inline validation isn't possible. When those situations arise, con
 <br>
 <br>
 
-#### Element validation
+### Element validation
 
 When something goes wrong, it's important to highlight each element that has an error and add a clear message of what needs to be done to pass validation, this way a user can easily find what they need to fix. Input elements, like text inputs, dropdown selects and date pickers show validation by changing to their error state and showing the validation message below. Elements that don't have error states, like checkboxes, radio buttons and toggles only show the validation message below the element.
 
@@ -284,20 +265,18 @@ In some cases it is appropriate to give the user a success validation message to
 
 ![forms validation success](/images/patterns/forms/forms--validation-success.svg)
 
-#### Validation notification
+### Validation notification
 
 When the form action button is pressed, if there are errors an error notification should show letting the user know something needs to be done before completion. Proper messaging is important for the user to know how to move forward quickly. Be direct on what to fix and use plain and simple language.
 
 ![forms validation message](/images/patterns/forms/forms--validation-message.svg)
 
-###### Notification placement
+#### Notification placement
 
 - If there wasn't a reload of the page – show the message directly above the submit/save button.
 - If there was a reload of the page – show the message at the top of the page, usually under the form title so the user doesn't need to scroll to see it.
 
 <hr>
-
-<div id="keyboard-accessibility"></div>
 
 ## Keyboard accessibility
 

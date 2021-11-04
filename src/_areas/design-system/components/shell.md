@@ -20,19 +20,19 @@ The Shell wraps around all of our applications and provides suite level consiste
 
 The shell includes 4 core sections that surround the content standard content area, Topbar, Side nav, and footer. For a consistent user experience, use all 3 shell components when building applications.
 
-#### 1. Topbar
+### 1. Topbar
 
 The Topbar is the section reserved at the top of the page that provides application branding, suite-level navigation, and high priority functionality such as search. For more detailed information, view the Topbar guidelines.
 
-#### 2. Sidenav
+### 2. Sidenav
 
 The Side nav provides a standard place for navigation within a product. Placed on the left-hand side of the site, it lists out the application-specific site features you can access, as well as features like settings, notifications, and help. For more detailed information, view the Sidenav guidelines.
 
-#### 3. Footer
+### 3. Footer
 
 The section at the bottom of most pages contain information that needs to be there, but doesn't necessarily demand the user's primary focus. The footer can include legal, trademark, terms &amp; conditions, privacy statement, DMCA, cookie usage, and contact information. For more detailed information, view the Footer guidelines.
 
-#### 4. Content area
+### 4. Content area
 
 The Content area is the body of our applications where all the features and functionality gets placed. For more detailed information, view the Content area guidelines.
 
@@ -181,7 +181,7 @@ The following are nav items that are recommended for every application, when app
 
 ![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--desktop-expanded.svg)
 
-#### Icon rules
+### Icon rules
 
 - All top-level nav items should have a corresponding icon to help quickly identify the action. These icons are also used when the menu is collapsed.
 - Child items do not have icons associated with them.
@@ -296,15 +296,15 @@ The links in the footer go to the following:
 
 As the viewport grows, the footer moves from three lines stacked on top of each other to a single line.
 
-#### Breakpoint - ≥`480px`
+### Breakpoint - ≥ 480px
 
 ![Footer - 480](/images/components/shell/footer/footer--≥480.svg)
 
-#### Breakpoint - ≥`720px`
+### Breakpoint - ≥ 720px
 
 ![Footer - 720](/images/components/shell/footer/footer--≥720.svg)
 
-#### Breakpoint - ≥`1024px`
+### Breakpoint - ≥ 1024px
 
 ![Footer - 1024](/images/components/shell/footer/footer--≥1024.svg)
 
@@ -550,7 +550,7 @@ The Action bar is used to provide the user with a consistent placement of action
 
 Action bar keeps the action buttons in a standard state on the screen, even when scrolling. It is the ideal component to use when walking the user through a complex step flow. While the content on the page follows our max-content-widths, the page title and buttons float to the far left and right inside the action bar, using the entire width of the screen.
 
-#### Alternate considerations
+### Alternate considerations
 
 - Use [dialog box](/design-system/components/dialogs/) to keep the user focused on the form and input fields and if you have only a few input fields
 
@@ -653,7 +653,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 ## Best practices
 
-#### Complex forms
+### Complex forms
 
 <Grid>
 
@@ -677,7 +677,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 <spacer size="small" />
 
-#### Multi-step forms
+### Multi-step forms
 
 <Grid>
 
@@ -699,7 +699,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 <spacer size="small" />
 
-#### Action buttons
+### Action buttons
 
 <Grid>
 

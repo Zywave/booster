@@ -1,0 +1,12 @@
+@use '../../../../../node_modules/@zywave/zui-sass-scripts/skinny-scrollbar.scss';
+
+quick-links {
+    max-height: calc(100vh - 15rem);
+    overflow-y: auto;
+
+    &.quick-links-with-tabs-above {
+        max-height: calc(100vh - 24rem);
+    }
+
+    @extend %skinny-scrollbar
+}

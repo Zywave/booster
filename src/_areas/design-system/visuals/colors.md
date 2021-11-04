@@ -91,7 +91,7 @@ We have updated the color palette to use the HSL color system in order to mainta
     <table class="zui-blue">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Blue</h3>
+          <h3 id="blue-2">Blue</h3>
         </td>
       </tr>
       <tr class="header">
@@ -173,7 +173,7 @@ We have updated the color palette to use the HSL color system in order to mainta
     <table class="zui-green">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Green</h3>
+          <h3 id="green-2">Green</h3>
         </td>
       </tr>
       <tr class="header">
@@ -249,7 +249,7 @@ We have updated the color palette to use the HSL color system in order to mainta
     <table class="zui-aqua">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Aqua</h3>
+          <h3 id="aqua-2">Aqua</h3>
         </td>
       </tr>
       <tr class="header">
@@ -323,7 +323,7 @@ We have updated the color palette to use the HSL color system in order to mainta
     <table class="zui-purple">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Purple</h3>
+          <h3 id="purple-2">Purple</h3>
         </td>
       </tr>
       <tr class="header">
@@ -399,7 +399,7 @@ We have updated the color palette to use the HSL color system in order to mainta
     <table class="zui-rose">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Rose</h3>
+          <h3 id="rose-2">Rose</h3>
         </td>
       </tr>
       <tr class="header">
@@ -473,7 +473,7 @@ We have updated the color palette to use the HSL color system in order to mainta
     <table class="zui-red">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Red</h3>
+          <h3 id="red-2">Red</h3>
         </td>
       </tr>
       <tr class="header">
@@ -549,7 +549,7 @@ We have updated the color palette to use the HSL color system in order to mainta
     <table class="zui-orange">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Orange</h3>
+          <h3 id="orange-2">Orange</h3>
         </td>
       </tr>
       <tr class="header">
@@ -623,7 +623,7 @@ We have updated the color palette to use the HSL color system in order to mainta
     <table class="zui-yellow">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Yellow</h3>
+          <h3 id="yellow-2">Yellow</h3>
         </td>
       </tr>
       <tr class="header">
@@ -698,7 +698,7 @@ We have updated the color palette to use the HSL color system in order to mainta
   <GridCol col="span-9">    <table class="zui-gray">
       <tr class="color-title">
         <td class="title" colspan="6">
-          <h3>Gray</h3>
+          <h3 id="gray-2">Gray</h3>
         </td>
       </tr>
       <tr class="header">

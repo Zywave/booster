@@ -49,3 +49,9 @@ export function createClipboardCopyIconElement(clipboardVal: string) {
     el.setAttribute('clipboard', clipboardVal);
     return el;
 }
+
+export function slugify(string: string) {
+    return string
+        .replaceAll(' ', '-')
+        .toLowerCase();
+}

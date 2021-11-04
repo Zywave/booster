@@ -17,7 +17,7 @@ A dropdown multi-select is a type of input field in which a user fills an input 
 
 Appropriate for lists larger than 2 options that may require a user to select more than 1 option.
 
-#### Alternate considerations
+### Alternate considerations
 
 - Use [checkboxes](/design-system/components/checkboxes/) for lists smaller than 3 items.
 - Use a [dropdown select](/design-system/components/dropdown-selects/) if users can only select 1 option.
@@ -31,37 +31,37 @@ Appropriate for lists larger than 2 options that may require a user to select mo
 
 <GridCol col="span-4">
 
-#### Label
+### Label
 
 Text that defines what type of options are in the list.
 
 [See labeling best practices](/design-system/patterns/forms/)
 
-#### Input
+### Input
 
 The field designated for selecting an individual option from a grouping of related options.
 
-#### Selection
+### Selection
 
 Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle.
 
-#### Dropdown chevron
+### Dropdown chevron
 
 The chevron arrow, within the input suggesting that there are items to select within a dropdown.
 
-#### Selected option
+### Selected option
 
 An option that is visibly selected.
 
-#### Options list
+### Options list
 
 The grouping of related input options.
 
-#### Option
+### Option
 
 A unique input option.
 
-#### Option checkbox
+### Option checkbox
 
 A selectable checkbox beside an option.
 
@@ -97,7 +97,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 <GridCol col="span-6">
 
-#### Grouping
+### Grouping
 
 ![Spatial specs for options lists with grouping](/images/components/dropdown-multi-select/multiselect_grouping_specs.svg)
 
@@ -109,7 +109,7 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 <GridCol col="span-6">
 
-#### Icons
+### Icons
 
 ![Spatial specs for options lists with icons next to options](/images/components/dropdown-multi-select/multiselect_icon_specs.svg)
 

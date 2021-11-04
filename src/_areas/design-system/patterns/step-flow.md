@@ -12,32 +12,32 @@ A step flow is a series of pages designed to walk the user through a defined wor
 
 Use step flows to focus the user on a single task and reduce the cognitive load of complex tasks in a single, related workflow.
 
-#### Alternate considerations
+### Alternate considerations
 
 - Use [expanders](/design-system/components/expanders) to break long blocks of content into separate sections with independent workflows.
 - Use [tabs](/design-system/components/tabs) to break content into distinct workflows that can be completed independently, or to offer alternative views of the same information.
 
 <hr>
 
-### Pattern basics
+## Pattern basics
 
 <Grid>
 
 <GridCol col="span-4">
 
-##### Launching a step flow
+### Launching a step flow
 
 Step flows may appear in a number of different places in our products, and may be launched from a number of different components (e.g., buttons, links, etc.).
 
-##### Full-page overlay
+### Full-page overlay
 
 To focus user attention, we recommend a full-page overlay that animates in and covers the entire screen, including the top bar and side navigation. For different size considerations, see [dialogs](/design-system/components/dialogs/).
 
-##### Navigation
+### Navigation
 
 Basic navigation controls include "next" and "back" buttons in the lower right corner of the dialog, as well as an "exit" action in the upper right corner of the dialog.
 
-##### Number of steps
+### Number of steps
 
 While there's no fixed number, try to limit step flows to between 3 and 10 steps. Fewer than 3 can probably be combined onto a single screen, and more than 10 might better be served by breaking up the workflow differently (e.g., using tabs, multiple step flows, etc.).
 
@@ -55,13 +55,13 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <hr>
 
-### Context
+## Context
 
 <Grid>
 
 <GridCol col="span-4">
 
-##### Intro screen
+### Intro screen
 
 - When possible and not redundant, it's a good idea to include an intro page.
 - The intro should reiterate the basic scope and purpose of the step flow.
@@ -79,7 +79,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <GridCol col="span-4">
 
-##### Completion screen
+### Completion screen
 
 - In order to signal the end of the step flow, include a completion screen, which validates that the action has been completed.
 - The completion screen can be dismissed by a single action button, and should indicate where the user will land upon clicking it.
@@ -98,7 +98,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <hr>
 
-### Exiting and returning
+## Exiting and returning
 
 - Ideally, a user would complete a step flow in a single, uninterrupted session. However, sometimes, the user may want or need to leave before completing the step flow.
   - Designers and developers should decide whether or not the progress of an incomplete flow will be saved if exiting before complete.
@@ -109,7 +109,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <hr>
 
-### Step flow with a progress indicator
+## Step flow with a progress indicator
 
 <Grid>
 
@@ -138,7 +138,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <hr>
 
-### Step flow without a progress indicator
+## Step flow without a progress indicator
 
 <Grid>
 
@@ -161,7 +161,7 @@ While there's no fixed number, try to limit step flows to between 3 and 10 steps
 
 <hr>
 
-### Mobile considerations
+## Mobile considerations
 
 <Grid>
 

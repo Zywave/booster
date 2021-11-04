@@ -21,35 +21,35 @@ Delivery systems are the vehicles we use to convey a message to the user. Rememb
 <Grid>
 <GridCol col="span-4">
 
-#### <span id="wells">Wells</span>
+### <span id="wells">Wells</span>
 
 A non-dismissible container with text. For more information, see [Wells](/design-system/components/wells/).
 
 </GridCol>
 <GridCol col="span-4">
 
-#### <span id="notifiers">Notifiers</span>
+### <span id="notifiers">Notifiers</span>
 
 An unobtrusive, dismissible piece of text in a window element. For more information, see [Notifiers](/design-system/components/notifiers/).
 
 </GridCol>
 <GridCol col="span-4">
 
-#### <span id="dialogs">Dialogs</span>
+### <span id="dialogs">Dialogs</span>
 
 Text displayed in a content box layered above the current page. For more information, see [Dialogs](/design-system/components/dialogs/).
 
 </GridCol>
 <GridCol col="span-4">
 
-#### <span id="tooltips">Tooltips</span>
+### <span id="tooltips">Tooltips</span>
 
 A short, helpful piece of text produced by hovering, often an icon next to the field it is referencing. For more information, see [Tooltips](/design-system/components/tooltips/).
 
 </GridCol>
 <GridCol col="span-4">
 
-#### <span id="popovers">Popovers</span>
+### <span id="popovers">Popovers</span>
 
 Text displayed in a content box adjacent to the form field or page section it applies to, that opens and closes with a click.
 
@@ -57,7 +57,7 @@ Text displayed in a content box adjacent to the form field or page section it ap
 
 <GridCol col="span-4">
 
-#### <span id="uncontained-text">Uncontained text</span>
+### <span id="uncontained-text">Uncontained text</span>
 
 Any text without styling around it. Uncontained text is available on screen at all times to give direction and context to the page or section.
 

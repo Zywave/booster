@@ -5,7 +5,6 @@ layout: nav-base
 {% if not hideToc %}
 <script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
 {% endif %}
-<script type="module" src="{{ "js/web-components/tabs.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/docs-do.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/docs-do-not.js" | url }}"></script>
@@ -21,6 +20,6 @@ layout: nav-base
     {{ content | safe }}
   </div>
   {% if not hideToc %}
-  <quick-links query="section h1, section h2, section h3, section h4"></quick-links>
+  <quick-links context=".content" headings="h2, h3, h4"></quick-links>
   {% endif %}
 </section>

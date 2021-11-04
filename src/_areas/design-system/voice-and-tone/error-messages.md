@@ -4,6 +4,8 @@ title: Error messages
 subtitle:
 ---
 
+## General
+
 There are a variety of standard error messages that a user might encounter within our products outside of validation errors. Each error should have a unique message that provides the user with a clear understanding of what caused the error and what their next steps might be. Depending on the scenario in which they encounter the error, this message could be presented using a few different delivery systems.
 
 <spacer size="small" />

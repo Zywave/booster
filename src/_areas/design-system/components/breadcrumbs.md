@@ -7,7 +7,7 @@ demo: https://cdn.zywave.com/@zywave/zui-breadcrumbs@next/demo/index.html
 mainComponentName: zui-breadcrumbs
 includedElements: []
 ---
-### What are Breadcrumbs
+## What are Breadcrumbs
 
 Breadcrumbs are a form of secondary navigation that helps users easily see and navigate through page hierarchies. The Breadcrumb links also allow users to backtrack through deep navigation as far as they need to.
 

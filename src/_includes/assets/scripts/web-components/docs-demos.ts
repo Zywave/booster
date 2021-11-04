@@ -1,4 +1,5 @@
 import { EventBus } from "../event-bus.js";
+import { slugify } from "../utils/component-docs-helpers.js";
 import { css as cssPrism } from "../prism/prism-css.js";
 import "../prism/prism.js";
 import "./clipboard-copy-icon.js";
@@ -133,12 +134,13 @@ customElements.define(
           const demoHeading = demo.hasAttribute("heading")
             ? demo.getAttribute("heading")
             : `Demo ` + (index + 1);
+          const demoHeadingSlug = slugify(demoHeading);
           const demoCodeOnly = demo.hasAttribute("code-only");
           const demoCodeSnippet = demo.innerHTML.replace(/\n  /, "").replaceAll(/=\"\"/g, "");
 
           return `
             <div class="demo">
-              <h3 id="demo-${index + 1}">${demoHeading}<clipboard-copy-icon icon="link" clipboard="${this.getUrlNoHash()}#demo-${index + 1}"></clipboard-copy-icon></h3>
+              <h3 id="${demoHeadingSlug}">${demoHeading}<clipboard-copy-icon icon="link" clipboard="${this.getUrlNoHash()}#${demoHeadingSlug}"></clipboard-copy-icon></h3>
               ${this.codeOnly || demoCodeOnly ? `` : `<div class="live-demo">${demo.innerHTML}</div>` }
               <div class="code-header">
                 <clipboard-copy-icon position="left" clipboard="${this.encodeHtml(

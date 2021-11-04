@@ -58,7 +58,7 @@ To ensure the best user experience possible, keep in mind the following best pra
 
 <GridCol col="span-4">
 
-#### Dropdown
+### Dropdown
 
 - Unique text font weight: 700
 - Hover color: ZUI Gray 50
@@ -88,7 +88,7 @@ _All values are in pixels._
 Depending on the context of the typeahead feature and what's technically feasible, you may want to consider using search categories or displaying a user's previous entries/searches.
 <Spacer size="small"/>
 
-#### Recent entries
+### Recent entries
 
 Recently typed searches or entries are shown in a dropdown the moment the cursor is put into the search field, and disappear as the first character is typed.
 
@@ -96,13 +96,13 @@ Recently typed searches or entries are shown in a dropdown the moment the cursor
 
 <Spacer size="small"/>
 
-#### Search categories
+### Search categories
 
 Using category headers, labels, or icons can help narrow down search suggestions by organizing items in the dropdown. If you decide to use search categories, remember that they are meant to consolidate results and make the list of suggestions easier to read. Labels should be concise, and icons must be clear and distinct.
 
 <Spacer size="small"/>
 
-#### Header label
+### Header label
 
 - Color: ZUI Gray 300
 - Font size: 12px
@@ -113,14 +113,14 @@ Using category headers, labels, or icons can help narrow down search suggestions
 
 <Spacer size="small"/>
 
-#### Inline label
+### Inline label
 
 - Color: ZUI Gray 300
 - Font size: 12px
 
 ![inline label](/images/components/typeahead/inline_Label.svg)
 
-#### Icons
+### Icons
 
 - Color: ZUI Gray 300
 - Size: 16px

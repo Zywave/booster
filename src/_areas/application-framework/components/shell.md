@@ -7,6 +7,8 @@ mainComponentName: zywave-shell
 includedElements:
   - zywave-shell
 ---
+## General
+
 Zywave Shell enables applications to have a rich, consistent experience across any application. It builds each subcomponent of [ZUI Shell](/design-system/components/shell) for you, ensuring your users can navigate anywhere in the Zywave ecosystem. 
 
 Bring your application's contents, and let Zywave Shell do the rest!
