@@ -93,8 +93,8 @@ const css = `
 customElements.define(
   "quick-links",
   class QuickLinks extends HTMLElement {
-    context: QuickLinksTypes["context"] = null;
-    headings: QuickLinksTypes["headings"] = null;
+    context: QuickLinksTypes["context"] = '';
+    headings: QuickLinksTypes["headings"] = '';
     #orderedList: HeaderTree[] = [];
 
     static get observedAttributes() {
@@ -108,7 +108,10 @@ customElements.define(
       this.#render();
       EventBus.instance.addEventListener(
         "markup-loaded",
-        this.#render.bind(this)
+        () => {
+          this.#buildHeaderList();
+          this.#render();
+        }
       );
     }
 
@@ -125,7 +128,7 @@ customElements.define(
     get #getHeadingsElements(): HTMLHeadingElement[] {
       const queryWithIdAttr = this.headings
         .split(',')
-        .map(item => `${item}[id]`)
+        .map(item => `${this.context} ${item}[id]`)
         .join(', ');
       return Array.from(document.querySelectorAll(queryWithIdAttr));
     }
@@ -139,6 +142,8 @@ customElements.define(
     }
 
     #buildHeaderList() {
+      this.#orderedList = [];
+
       function getHeadingLevel(element: HTMLHeadingElement) {
           return Number(element.tagName.split("H")[1]);
       }
@@ -178,7 +183,6 @@ customElements.define(
           ? `aria-current="current"`
           : ``}
         >
-          
           <a href="${this.#getUrlNoHash}#${item.element.id}">${item.element.innerText}</a>
         </li>
       `;
@@ -203,7 +207,6 @@ customElements.define(
       if (this.#getHeadingsElements.length === 0) {
         return;
       }
-
       const template = document.createElement("template");
       const templateStr = `
         <style>${css}</style>
@@ -216,15 +219,16 @@ customElements.define(
           </ul>
         </nav>
       `;
-
       template.innerHTML = templateStr;
       if (!this.shadowRoot) {
         this.attachShadow({ mode: "open" });
+        this.shadowRoot.appendChild(template.content.cloneNode(true));
+      } else {
+        (this.shadowRoot as any).replaceChildren(template.content.cloneNode(true));
       }
-      this.shadowRoot.innerHTML = templateStr;
       const anchors = this.shadowRoot.querySelectorAll("a");
       anchors.forEach((a) => a.addEventListener("click", this.#updatedRender.bind(this)));
-    }
+    } 
   }
 );
 
@@ -234,6 +238,6 @@ type HeaderTree = {
 }
 
 interface QuickLinksTypes {
-  context: string | null,
-  headings: string | null,
+  context: string,
+  headings: string,
 }
