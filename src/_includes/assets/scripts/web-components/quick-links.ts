@@ -5,7 +5,7 @@ const css = `
         order: 1;
         position: sticky;
         right: 0;
-        top: 3rem;
+        top: 5rem;
         flex-shrink: 0;
         margin: 0 0 0 1.25rem; /* 20 / 16 */
         width: 200px;
