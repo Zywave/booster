@@ -152,20 +152,52 @@ Avoid using sentences or long phrases for label text.
 
 <div>
 
-![Labeling do](/images/select_bestpractices-–-do-–-2.svg)
+![Required fields do](/images/select_bestpractices-–-do-–-2.svg)
 
 <docs-do>
-Make it clear to the user which fields are required by using a red asterisk in the lable.
+Make it clear to the user which fields are required by using a red asterisk in the label.
 </docs-do>
 
 </div>
 
 <div>
 
-![Labeling don't](/images/select_bestpractices-–-donot-–-2.svg)
+![Required fields don't](/images/select_bestpractices-–-donot-–-2.svg)
 
 <docs-do-not>
 Avoid assuming the user knows which fields are required and which are optional.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+
+
+#### Validation
+
+<docs-grid columns="2">
+
+<div>
+
+![Validation do](/images/select_bestpractices-–-do-–-3.svg)
+
+<docs-do>
+Indicate errors or invalid inputs with clear messages describing the validation error.
+</docs-do>
+
+</div>
+
+<div>
+
+![Validation don't](/images/select_bestpractices-–-donot-–-3.svg)
+
+<docs-do-not>
+Avoid not drawing attention to a dropdown select with a validation error.
 </docs-do-not>
 
 </div>
