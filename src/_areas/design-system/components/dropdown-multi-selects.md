@@ -126,7 +126,101 @@ Users on mobile and touch devices should not see our styling; instead the defaul
 
 ## Best practices
 
-* Every input should have a label. Label text is used to inform users as to what information is requested for a dropdown.
+#### Labeling
+
+<docs-grid columns="2">
+
+<div>
+
+![Labeling do](/images/multiselect_bestpractices-–-do.svg)
+
+<docs-do>
+Use clear and concise labeling. Label text is used to inform users as to what information is requested for a dropdown. 
+</docs-do>
+
+</div>
+
+<div>
+
+![Labeling don't](/images/multiselect_bestpractices-–-donot.svg)
+
+<docs-do-not>
+Avoid using sentences or long phrases for label text. 
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+
+
+#### Required fields
+
+<docs-grid columns="2">
+
+<div>
+
+![Required fields do](/images/multiselect_bestpractices-–-do-–-2.svg)
+
+<docs-do>
+Make it clear to the user which fields are required by using a red asterisk in the label.
+</docs-do>
+
+</div>
+
+<div>
+
+![Required fields don't](/images/multiselect_bestpractices-–-donot-–-2.svg)
+
+<docs-do-not>
+Avoid assuming the user knows which fields are required and which are optional.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+
+
+#### Validation
+
+<docs-grid columns="2">
+
+<div>
+
+![Validation do](/images/multiselect_bestpractices-–-do-–-3.svg)
+
+<docs-do>
+Indicate errors or invalid inputs with clear messages describing the validation error.
+</docs-do>
+
+</div>
+
+<div>
+
+![Validation don't](/images/multiselect_bestpractices-–-donot-–-3.svg)
+
+<docs-do-not>
+Avoid not drawing attention to a dropdown select with a validation error.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+
 
 - - -
 
