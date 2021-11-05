@@ -133,7 +133,7 @@ Use clear and concise labeling. Label text is used to inform users as to what in
 ![Labeling don't](/images/select_bestpractices-–-donot.svg)
 
 <docs-do-not>
-Avoid using more than word or sentences for label text. 
+Avoid using sentences or long phrases for label text. 
 </docs-do-not>
 
 </div>
@@ -145,6 +145,36 @@ Avoid using more than word or sentences for label text.
 </docs-spacer>
 
 
+
+#### Required fields
+
+<docs-grid columns="2">
+
+<div>
+
+![Labeling do](/images/select_bestpractices-–-do-–-2.svg)
+
+<docs-do>
+Make it clear to the user which fields are required by using a red asterisk in the lable.
+</docs-do>
+
+</div>
+
+<div>
+
+![Labeling don't](/images/select_bestpractices-–-donot-–-2.svg)
+
+<docs-do-not>
+Avoid assuming the user knows which fields are required and which are optional.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
 
 - - -
 
