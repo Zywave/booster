@@ -114,7 +114,37 @@ Users on mobile and touch devices should not see our styling; instead the defaul
 
 ## Best practices
 
-* Every input should have a label. Label text is used to inform users as to what information is requested for a dropdown.
+#### Labeling
+
+<docs-grid columns="2">
+
+<div>
+
+![Labeling do](/images/select_bestpractices-–-do.svg)
+
+<docs-do>
+Use clear and concise labeling. Label text is used to inform users as to what information is requested for a dropdown. 
+</docs-do>
+
+</div>
+
+<div>
+
+![Labeling don't](/images/select_bestpractices-–-donot.svg)
+
+<docs-do-not>
+Avoid using more than word or sentences for label text. 
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+
 
 - - -
 
