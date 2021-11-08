@@ -7,6 +7,8 @@ layout: nav-base
 <link rel="preload" as="fetch" type="application/json" href="{{ api }}">
 <script type="module" src="https://cdn.zywave.com/@zywave/customelement-manifest-element@latest/index.js"></script>
 <script type="module" src="{{ "js/web-components/docs-demos.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/test-shadow-dom-wc.js" | url }}"></script>
+<script type="module" src="{{ "js/web-components/test-light-dom-wc.js" | url }}"></script>
 {% if not hideToc %}
 <script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
 {% endif %}
@@ -24,6 +26,9 @@ layout: nav-base
 {% endif %}
 <h1 class="component-header">{{ title }}</h1>
 {% if subtitle %} <h2 class="component-subheader">{{ subtitle }}</h2> {% endif %}
+
+<test-shadow-dom-wc></test-shadow-dom-wc>
+<test-light-dom-wc></test-light-dom-wc>
 
 <nav class="zui row">
   <zui-tabs selected="-1">
