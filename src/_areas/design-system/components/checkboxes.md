@@ -69,9 +69,13 @@ Gallery checkboxes are more prominent than standard checkboxes. They often featu
 
 Standard Checkbox states
 
-![Image of gallery checkbox states](/images/gallery-checkbox-states.png)
+![Gallery Checkbox states](/images/gallery-checkbox-states-no-illustrations.png)
 
 Gallery Checkbox states
+
+![Gallery Checkbox states - with illustrations](/images/gallery-checkbox-states.png)
+
+Gallery Checkbox states - with illustrations
 
 ### Normal
 
