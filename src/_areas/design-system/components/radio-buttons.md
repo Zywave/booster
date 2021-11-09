@@ -94,9 +94,13 @@ Standard Radio Button states
 
 Inline Radio Button states
 
-![Gallery radio buttons states](/images/galleryradio_states.png)
+![Gallery Radio Buttons states](/images/galleryradio_states-–-no-illustrations.png)
 
 Gallery Radio Button states
+
+![Gallery Radio Buttons states - with illustrations](/images/galleryradio_states.png)
+
+Gallery Radio Button states - with illustrations
 
 <br>
 
