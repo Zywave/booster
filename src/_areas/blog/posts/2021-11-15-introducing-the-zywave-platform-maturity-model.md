@@ -12,9 +12,9 @@ tags:
 Over the years, Zywave has rapidly transformed from a set of disconnected products with separate logins into a more unified offering, where our customers are buying Zywave instead of a hodge-podge of point solutions. Features like [Zywave Authentication](#TODO), [Zywave Shell](https://booster.zywave.dev/application-framework/components/shell/?tab=usage), [Licensing](#TODO) and [Access Control](#TODO) have helped prepare our applications for a larger unification. It is now up to our applications to utilize these tools to improve the experience of all Zywave users.
 
 ## Glossary of terms
-Throughout this process, you're likely to encounter terminology that might be unclear to you. 
+Throughout this process, you're likely to encounter terminology that might be unclear to you. To help, we've provided a quick glossary in the expander below.
 
-<details><summary>Click here to view</summary>
+<details><summary>Click here to view terms</summary>
 <dl>
 <dt>Zywave Authentication</dt>
 <dd>A centralized login experience, where users can utilize a single login and access all of their Zywave solutions; available via <a href="https://auth.zywave.com">https://auth.zywave.com</a>
@@ -36,6 +36,8 @@ The further subdivision of permissions, allowing a single tenant to restrict or 
 An API-driven component that generates a ZUI Shell implementation to ensure consistency of data and navigation in any Zywave application.
 </dd>
 </details>
+
+<hr/>
 
 ## Defining Platform Maturity
 The Zywave platform is both wide and deep. While the tools we have have simplified the process compared to where Zywave was even two years ago, it requires an investment from our product teams to elevate our applications to higher standards —or understand what their users might be missing out on.
@@ -72,6 +74,8 @@ By the time your app is at this stage, you should notice how your app fits into 
 The "One Zywave" goal. Where a user could have any segment of features due to Zywave's flexible licensing structure. At the end of the day, the user's flow is embedded into the Zywave app experience. Sending a campaign to your clients, and realize a client is missing? Never fear, you can quickly access account management without having to hunt.
 
 This is the vision of the Zywave Platform Standardization project.
+
+<hr/>
 
 ## Next steps
 Curious what stage your solutions are at? Use our [Zywave Platform Standardization Checklist](https://booster.zywave.dev/platform-standardization-form/) to find out.
