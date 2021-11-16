@@ -355,7 +355,7 @@
                         </div>
                         <div class="cell">
                             <ul>
-                                <li>Uses separate authentication from Zywave Auth</li>
+                                <li>Uses separate authentication from Zywave user principal</li>
                             </ul>
                         </div>
                         <div class="cell">
@@ -384,7 +384,7 @@
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="sso" />
-                                Enables login via Zywave Auth (may continue to have separate authentication)
+                                Enables login via Zywave user principal (may continue to have separate authentication)
                             </label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="1">
@@ -418,8 +418,8 @@
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="2">
-                            <label><input type="checkbox" name="tenancy" /> Adheres to Zywave's tenancy model</label>
-                            <label><input type="checkbox" name="onlyZywaveAuth" />Uses Zywave's user store</label>
+                            <label><input type="checkbox" name="tenancy" /> Adheres to Zywave's tenancy model (organizations/agencies)</label>
+                            <label><input type="checkbox" name="onlyZywaveAuth" />Uses Zywave's login exclusively</label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="2">
                             <label><input type="checkbox" name="zapiShell" /> Uses Zywave Shell</label>
@@ -439,8 +439,7 @@
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="3">
-                            <label><input type="checkbox" name="acl" />Fully compliant with access control via permissions</label>
-                            <label><input type="checkbox" name="licensing" />Can apply licenses</label>
+                            <label><input type="checkbox" name="acl" />Solution will deny users access based on Zywave auth permissions</label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="3">
                             <label><input type="checkbox" name="uxConsistency" />Complete UX/UI consistency and follows ZUI design standards throughout</label>
