@@ -278,6 +278,14 @@
             opacity: 0.5;
             background-color: #606071;
         }
+        .bullet-list {
+            margin-left: 1rem;
+            margin-top: 0.5rem;            
+        }
+
+        .bullet-list li {
+            margin-top: 0rem;            
+        }
 
         .results-list {
             width: 40em;
@@ -355,12 +363,12 @@
                         </div>
                         <div class="cell">
                             <ul>
-                                <li>Uses separate authentication from Zywave user principal</li>
+                                <li>Your solution uses separate authentication from Zywave user principal.</li>
                             </ul>
                         </div>
                         <div class="cell">
                             <ul>
-                                <li>Look and feel is completely unique from Zywave products (Does not use ZUI foundations, patterns, or components)</li>
+                                <li>The look and feel of your solution is completely different from Zywave solutions.</li>
                             </ul>
                         </div>
                         <div class="cell">
@@ -384,17 +392,29 @@
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="sso" />
-                                Enables login via Zywave user principal (may continue to have separate authentication)
+                                Your solution enables login via Zywave user principal but may continue to have separate authentication.
                             </label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="zuiShell" />
-                                Topbar and SideNav (shell) have same appearance as Zywave
+                                <div>                                    
+                                    The look and feel of your solution is the same as Zywave solutions:                                                                    
+                                    <ul class="bullet-list">
+                                        <li>Top bar</li>
+                                        <li>Side navigation</li>
+                                    </ul>                                    
+                                </div>                                
                             </label>
                             <label>
                                 <input type="checkbox" name="launchpadAccessible" />
-                                App is accessible via the Zywave Launchpad
+                                <div>
+                                    Your solution is accessible via:
+                                    <ul class="bullet-list">
+                                        <li>Apps menu</li>
+                                        <li>Side navigation</li>
+                                    </ul>
+                                </div>                                
                             </label>
                         </div>
                         <div class="cell" data-stage-category="Data" data-stage-value="1">
@@ -418,11 +438,20 @@
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="2">
-                            <label><input type="checkbox" name="tenancy" /> Adheres to Zywave's tenancy model (organizations/agencies)</label>
-                            <label><input type="checkbox" name="onlyZywaveAuth" />Uses Zywave's login exclusively</label>
+                            <label><input type="checkbox" name="tenancy" /> Your solution adheres to Zywave's tenancy model (organizations/agencies).</label>
+                            <label><input type="checkbox" name="onlyZywaveAuth" />Your solution uses Zywave's login exclusively.</label>
+                            <label><input type="checkbox" name="licensedApp" />Your solution is licensed via admin.zywave.com.</label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="2">
-                            <label><input type="checkbox" name="zapiShell" /> Uses Zywave Shell</label>
+                            <label><input type="checkbox" name="zapiShell" /> Your solution utilizes the Zywave Shell component.</label>
+                            <label><input type="checkbox" name="styledContentArea" />
+                                <div>
+                                    The look and feel of your solution is the same as Zywave solutions:
+                                    <ul class="bullet-list">
+                                        <li>Content area</li>
+                                    </ul>
+                                </div>                                
+                            </label>
                         </div>
                         <div class="cell" data-stage-category="Data" data-stage-value="2">
                             <label><input type="checkbox" name="twoWaySync" />Two-way sync with Zywave analogous features</label>
@@ -439,11 +468,11 @@
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="3">
-                            <label><input type="checkbox" name="acl" />Solution will deny users access based on Zywave auth permissions</label>
+                            <label><input type="checkbox" name="acl" />Your solution will deny users access based on Zywave auth permissions.</label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="3">
-                            <label><input type="checkbox" name="uxConsistency" />Complete UX/UI consistency and follows ZUI design standards throughout</label>
-                            <label><input type="checkbox" name="integratedSideNav" />SideNav is fully integrated (same as all Zywave core products)</label>
+                            <label><input type="checkbox" name="uxConsistency" />Your solutions content area is consistent with and follows ZUI design standards throughout.</label>
+                            <label><input type="checkbox" name="integratedSideNav" />Your solution does not override Zywave's universal navigation.</label>
                         </div>
                         <div class="cell" data-stage-category="Data" data-stage-value="3">
                             <label><input type="checkbox" name="integratedData" />Data is fully
