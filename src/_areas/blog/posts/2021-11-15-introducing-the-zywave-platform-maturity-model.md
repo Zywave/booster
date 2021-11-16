@@ -28,12 +28,20 @@ The segmentation of data to enable Zywave to provide a multi-tenant solution; e.
 <dd>
 The further subdivision of permissions, allowing a single tenant to restrict or allow access to certain features of the Zywave platform; e.g. Joe White at Agency A should not be able to import accounts, and only access content in Zywave CMS.
 </dd>
+<dt>ZUI</dt>
+<dt>ZUI Toolkit</dt>
+<dd>The design system and standards as defined by Zywave. This is often used interchangeably with ZUI Toolkit, the set of web components that implement ZUI-compliant components.</dd>
+<dt>ZAPI</dt>
+<dt>ZAPI Toolkit</dt>
+<dd>A set of API-driven web components that can help integrate applications' UX</dd>
 <dt><a href="https://booster.zywave.dev/design-system/components/shell/?tab=usage">ZUI Shell</a></dt>
 <dd>A set of components that provide the design-system compliant implementation of the wrapping container of Zywave applications.
 </dd>
 <dt><a href="https://booster.zywave.dev/application-framework/components/shell/?tab=usage">Zywave Shell</a></dt>
 <dd>
 An API-driven component that generates a ZUI Shell implementation to ensure consistency of data and navigation in any Zywave application.
+
+Internally, this is unofficially referenced as "Universal Navigation."
 </dd>
 </details>
 
