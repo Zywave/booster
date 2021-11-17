@@ -150,6 +150,15 @@
             outline: none;
         }
 
+        p {
+            margin: unset;
+        }
+
+        a {
+            color: cornflowerblue;
+            text-decoration: auto;
+        }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -401,7 +410,7 @@
                                 <div>                                    
                                     The look and feel of your solution is the same as Zywave solutions:                                                                    
                                     <ul class="bullet-list">
-                                        <li>Top bar</li>
+                                        <li><a href="https://booster.zywave.dev/application-framework/components/shell/">Top bar</a></li>
                                         <li>Side navigation</li>
                                     </ul>                                    
                                 </div>                                
@@ -438,12 +447,22 @@
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="2">
-                            <label><input type="checkbox" name="tenancy" /> Your solution adheres to Zywave's tenancy model (organizations/agencies).</label>
+                            <label>
+                                <input type="checkbox" name="tenancy" /> 
+                                <p>
+                                    Your solution adheres to Zywave's <a href="https://gitlab.zywave.com/groups/auth-systems/-/wikis/architectural-overview">tenancy model</a> (organizations/agencies).
+                                </p>                                
+                            </label>
                             <label><input type="checkbox" name="onlyZywaveAuth" />Your solution uses Zywave's login exclusively.</label>
                             <label><input type="checkbox" name="licensedApp" />Your solution is licensed via admin.zywave.com.</label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="2">
-                            <label><input type="checkbox" name="zapiShell" /> Your solution utilizes the Zywave Shell component.</label>
+                            <label>
+                                <input type="checkbox" name="zapiShell" /> 
+                                <p>
+                                    Your solution utilizes the <a href="https://booster.zywave.dev/application-framework/components/shell/">Zywave Shell</a> component.
+                                </p>                                
+                            </label>
                             <label><input type="checkbox" name="styledContentArea" />
                                 <div>
                                     The look and feel of your solution is the same as Zywave solutions:
@@ -468,7 +487,12 @@
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="3">
-                            <label><input type="checkbox" name="acl" />Your solution will deny users access based on Zywave auth permissions.</label>
+                            <label>
+                                <input type="checkbox" name="acl" />
+                                <p>
+                                    Your solution will deny users access based on Zywave auth <a href="https://gitlab.zywave.com/groups/auth-systems/-/wikis/Component/Permissions/Permission">permissions</a>.
+                                </p>                                
+                            </label>
                         </div>
                         <div class="cell" data-stage-category="UX / Design" data-stage-value="3">
                             <label><input type="checkbox" name="uxConsistency" />Your solutions content area is consistent with and follows ZUI design standards throughout.</label>
