@@ -161,7 +161,7 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(5, 1fr);
             margin: 1.875rem 0;
             /* 30 / 16 */
         }
@@ -329,7 +329,7 @@
                 <input type="hidden" value="0" name="UX / Design" />
                 <input type="hidden" value="0" name="Data" />
                 <!-- TODO: update infrastructure column -->
-                <!-- <input type="hidden" value="0" name="Infrastructure / Security" /> -->
+                <input type="hidden" value="0" name="Infrastructure / Security" />
 
                 <div class="metadata">
                     <label>
@@ -359,15 +359,15 @@
                         <div class="cell">
                             Data
                         </div>
-                        <!-- <div class="cell">
+                        <div class="cell">
                             Infrastructure / Security
-                        </div> -->
+                        </div>
                     </div>
                     <div class="row sample">
                         <div class="cell">
                             Stage 0
                             <div class="subtext">
-                                No tie to the Zywave brand
+                                Your solution has little to no integration with Zywave products.
                             </div>
                         </div>
                         <div class="cell">
@@ -386,17 +386,16 @@
                                 <li>Your solution has separate or no BI tool.</li>
                             </ul>
                         </div>
-                        <!-- <div class="cell">
+                        <div class="cell">
                             <ul>
                                 <li>Infrastructure is distinct from Zywave and is not supported by Zywave</li>
                             </ul>
-                        </div> -->
+                        </div>
                     </div>
                     <div class="row">
                         <div class="cell">
                             Stage 1
-                            <div class="subtext">
-                                Your solution has little to no integration with Zywave products.
+                            <div class="subtext">                                
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="1">
@@ -437,12 +436,12 @@
                                 Your solutions data is accessible via Zywave BI tools.
                             </label>
                         </div>
-                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="1">
+                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="securityScanning" />
-                                Complies with security requirements
+                                Your solution complies with Zywave security requirements.
                             </label>
-                        </div> -->
+                        </div>
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -479,9 +478,12 @@
                         <div class="cell" data-stage-category="Data" data-stage-value="2">
                             <label></label>
                         </div>
-                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="2">
-                            <label><input type="checkbox" name="zywaveDomain" />Lives on a Zywave domain</label>
-                        </div> -->
+                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="2">
+                            <label>
+                                <input type="checkbox" name="zywaveDomain" />
+                                Your solution lives on a Zywave domain.
+                            </label>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -512,11 +514,12 @@
                                 Your solutions data is integrated and managed within Zywave's BI tool.
                             </label>
                         </div>
-                        <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="3">
-                            <label><input type="checkbox" name="containerization" />Fully containerized and can be
-                                deployed
-                                to any cloud-hosting ecosystem</label>
-                        </div> -->
+                        <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="3">
+                            <label>
+                                <input type="checkbox" name="containerization" />
+                                Your solution is fully containerized and can be deployed to any cloud-hosting ecosystem.
+                            </label>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="cell">
@@ -529,6 +532,10 @@
                         <div class="cell">
                             <label>
                                 <a href="https://zywave.atlassian.net/wiki/spaces/RDPR/pages/15589474469/User+Experience+Design+Standardization+Sell+Sheet">What are the benefits of each stage?</a>
+                            </label>
+                        </div>
+                        <div class="cell">
+                            <label>                                
                             </label>
                         </div>
                         <div class="cell">
