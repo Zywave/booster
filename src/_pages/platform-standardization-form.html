@@ -382,7 +382,8 @@
                         </div>
                         <div class="cell">
                             <ul>
-                                <li>Redundant data exists between your solution and another products solution</li>
+                                <li>Your solution has redundant or isolated data.</li>
+                                <li>Your solution has separate or no BI tool.</li>
                             </ul>
                         </div>
                         <!-- <div class="cell">
@@ -395,7 +396,7 @@
                         <div class="cell">
                             Stage 1
                             <div class="subtext">
-                                Bare minimum of integration with Zywave
+                                Your solution has little to no integration with Zywave products.
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="1">
@@ -429,7 +430,11 @@
                         <div class="cell" data-stage-category="Data" data-stage-value="1">
                             <label>
                                 <input type="checkbox" name="oneWaySync" />
-                                One way "sync" of data from the app back into Zywave
+                                Your solution functionally adheres to the Zywave data model in some capacity.
+                            </label>
+                            <label>
+                                <input type="checkbox" name="partialModel" />
+                                Your solutions data is accessible via Zywave BI tools.
                             </label>
                         </div>
                         <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="1">
@@ -442,8 +447,7 @@
                     <div class="row">
                         <div class="cell">
                             Stage 2
-                            <div class="subtext">
-                                Is an app within Zywave
+                            <div class="subtext">                                
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="2">
@@ -473,7 +477,7 @@
                             </label>
                         </div>
                         <div class="cell" data-stage-category="Data" data-stage-value="2">
-                            <label><input type="checkbox" name="twoWaySync" />Two-way sync with Zywave analogous features</label>
+                            <label></label>
                         </div>
                         <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="2">
                             <label><input type="checkbox" name="zywaveDomain" />Lives on a Zywave domain</label>
@@ -483,7 +487,7 @@
                         <div class="cell">
                             Stage 3
                             <div class="subtext">
-                                Is a feature within Zywave
+                                Your solution is fully integrated with other Zywave solutions.
                             </div>
                         </div>
                         <div class="cell" data-stage-category="Authentication / Authorization" data-stage-value="3">
@@ -499,14 +503,38 @@
                             <label><input type="checkbox" name="integratedSideNav" />Your solution does not override Zywave's universal navigation.</label>
                         </div>
                         <div class="cell" data-stage-category="Data" data-stage-value="3">
-                            <label><input type="checkbox" name="integratedData" />Data is fully
-                                integrated and managed within Zywave (no redundancy of data management)</label>
+                            <label>
+                                <input type="checkbox" name="integratedData" />
+                                Your solutions data is integrated and managed within Zywave.
+                            </label>
+                            <label>
+                                <input type="checkbox" name="integratedBI" />
+                                Your solutions data is integrated and managed within Zywave's BI tool.
+                            </label>
                         </div>
                         <!-- <div class="cell" data-stage-category="Infrastructure / Security" data-stage-value="3">
                             <label><input type="checkbox" name="containerization" />Fully containerized and can be
                                 deployed
                                 to any cloud-hosting ecosystem</label>
                         </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                        </div>
+                        <div class="cell">
+                            <label>
+                                <a href="https://zywave.atlassian.net/wiki/spaces/RDPR/pages/15586885835/Authentication+Authorization+Standardization+Sell+Sheet">What are the benefits of each stage?</a>                                
+                            </label>
+                        </div>
+                        <div class="cell">
+                            <label>
+                                <a href="https://zywave.atlassian.net/wiki/spaces/RDPR/pages/15589474469/User+Experience+Design+Standardization+Sell+Sheet">What are the benefits of each stage?</a>
+                            </label>
+                        </div>
+                        <div class="cell">
+                            <label>                                
+                            </label>
+                        </div>
                     </div>
                 </div>
                 <button type="submit">
