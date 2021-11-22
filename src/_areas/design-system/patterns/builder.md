@@ -162,12 +162,6 @@ Preview in a dialog to focus the user's attention on the preview itself and not 
 
 <docs-spacer size="small"></docs-spacer>
 
-Generate an output in a dialog when a focused state is not present.
-
-![Dialog generate](/images/generation-–-4.png)
-
-<docs-spacer size="small"></docs-spacer>
-
 ##### Options for generating output
 
 Providing output options, such as which format to download the final output as, can be beneficial for users.
