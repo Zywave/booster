@@ -73,10 +73,10 @@ Expanders have a default, hover, focus and expanded state.
 The default state is the collapsed view of an Expander. It is also the default state of the Expander when the user lands on the page. 
 
 ### Hover
-The hover state occurs when the user uses their cursor to hover over the Expander section for Default Expanders or the "See more" button on a Peek-a-boo Expander.
+The hover state for Standard Expanders occurs when the user hovers over the section with their mouse. See the Button guidelines for the hover state of the See more action of a Peek-a-boo Expander.
 
 ### Focus
-Focus state appears when the Expander or "See more" button is currently selected and awaiting action. This is most commonly seen when using a keyboard to navigate. 
+Focus state appears when the Expander section is currently selected and awaiting action. This is most commonly seen when using a keyboard to navigate. See the Button guidelines for the focus state of the See more action of a Peek-a-boo expander
 
 ### Expanded
 The expanded state is seen after the user has interacted with the Expander to show more information. On a Standard Expander the section is expanded and the indicator icon is flipped to visualize that the section can now be collapsed. For the Peek-a-boo Expander the button text will now say "See less". 
