@@ -30,7 +30,7 @@ Standard Expanders are best used:
 
 * when there is a need for multiple expanding sections on a page
 * the revealed content is lengthy or contains form fields
-* there is a need for an action within the expander, such as "Save"
+* there is a need for an action within the Expander, such as "Save"
 
 <docs-spacer size= "small"></docs-spacer>
 
@@ -93,7 +93,7 @@ The hover state for Standard Expanders occurs when the user hovers over the sect
 
 ### Focus
 
-Focus state appears when the Expander section is currently selected and awaiting action. This is most commonly seen when using a keyboard to navigate. See the Button guidelines for the focus state of the 'See more' action of a Peek-a-boo expander
+Focus state appears when the Expander section is currently selected and awaiting action. This is most commonly seen when using a keyboard to navigate. See the Button guidelines for the focus state of the 'See more' action of a Peek-a-boo Expander
 
 ### Expanded
 
@@ -107,7 +107,7 @@ The expanded state is seen after the user has interacted with the Expander to sh
 
 ## Behavior
 
-We recommend that all expanders be in the default state when the user navigates to the page. This ensures that as many sections as possible are visible to the user immediately. 
+We recommend that all Expanders be in the default state when the user navigates to the page. This ensures that as many sections as possible are visible to the user immediately. 
 
 By default, all sections can be opened at the same time. If there are any sections that contain actions, then consider limiting the user to opening one section at a time to keep the user focused. 
 
