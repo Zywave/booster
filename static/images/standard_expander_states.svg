@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="525" viewBox="0 0 1000 525">
+  <defs>
+    <filter id="Rectangle_53" x="153.5" y="290.5" width="779" height="210" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-2" x="153.5" y="26.5" width="779" height="57" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-3" x="153.5" y="114.5" width="779" height="57" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_53-4" x="153.5" y="202.5" width="779" height="57" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Standard_Expander_States">
+      <rect width="1000" height="525"/>
+    </clipPath>
+  </defs>
+  <g id="Standard_Expander_States" clip-path="url(#clip-Standard_Expander_States)">
+    <rect width="1000" height="525" fill="#f4f4f6"/>
+    <g id="Group_264657" data-name="Group 264657" transform="translate(-4 206)">
+      <g id="Group_264655" data-name="Group 264655" transform="translate(162 88)">
+        <g transform="matrix(1, 0, 0, 1, -158, -294)" filter="url(#Rectangle_53)">
+          <rect id="Rectangle_53-5" data-name="Rectangle 53" width="770" height="201" rx="2" transform="translate(158 294)" fill="#fff"/>
+        </g>
+        <text id="Seventies" transform="translate(10 31)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Username</tspan></text>
+        <g id="Icon_link" data-name="Icon link" transform="translate(724 6)">
+          <g id="Group_264647" data-name="Group 264647" transform="translate(0 0)">
+            <rect id="Rectangle_5240" data-name="Rectangle 5240" width="36" height="36" rx="18" transform="translate(0 0)" fill="none"/>
+            <g id="Chevron_down" data-name="Chevron down" transform="translate(26 26) rotate(180)">
+              <g id="Group_264648" data-name="Group 264648">
+                <path id="Path_101496" data-name="Path 101496" d="M9.307.084l1.275,1.275a.289.289,0,0,1,0,.407L5.522,6.849a.289.289,0,0,1-.407,0L.084,1.766a.289.289,0,0,1,0-.407L1.359.084a.289.289,0,0,1,.407,0l3.553,3.6L8.9.084A.289.289,0,0,1,9.307.084Z" transform="translate(2.667 5.2)" fill="#78788c"/>
+                <rect id="Rectangle_10025" data-name="Rectangle 10025" width="16" height="16" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Input_-_Side" data-name="Input - Side" transform="translate(23 68)">
+          <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(94)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="350" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="349" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="john.doe_zywave.com" data-name="john.doe@zywave.com" transform="translate(109 27)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">john.doe@zywave.com</tspan></text>
+          <text id="Username" transform="translate(64 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-63.813" y="0">Username</tspan></text>
+        </g>
+        <text id="Note:_Your_username_should_be_your_primary_email_and_is_used_to_log_in_to_all_Zywave_applications." data-name="Note: Your username should be your primary email and is used to log in to all Zywave applications." transform="translate(487 68)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Note: Your username should be </tspan><tspan x="0" y="34">your primary email and is used to </tspan><tspan x="0" y="53">log in to all Zywave applications.</tspan></text>
+        <line id="Line_4" data-name="Line 4" x2="770" transform="translate(0 145)" fill="none" stroke="#e6e6ea" stroke-width="1"/>
+        <g id="Primary_Button" data-name="Primary Button" transform="translate(701 155)">
+          <rect id="Rectangle_3990" data-name="Rectangle 3990" width="59" height="36" rx="18" fill="#2777d3"/>
+          <text id="Save" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Save</tspan></text>
+        </g>
+        <g id="Link_Button" data-name="Link Button" transform="translate(619 155)">
+          <g id="Group_264143" data-name="Group 264143">
+            <rect id="Rectangle_6075" data-name="Rectangle 6075" width="72" height="36" rx="18" fill="rgba(255,255,255,0)"/>
+            <text id="Cancel" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Cancel</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_264668" data-name="Group 264668" transform="translate(-4 -221)">
+      <g id="Group_264656" data-name="Group 264656" transform="translate(162 299)">
+        <g transform="matrix(1, 0, 0, 1, -158, -78)" filter="url(#Rectangle_53-2)">
+          <rect id="Rectangle_53-6" data-name="Rectangle 53" width="770" height="48" rx="2" transform="translate(158 30)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_264669" data-name="Group 264669" transform="translate(162 251)">
+        <text id="Seventies-2" data-name="Seventies" transform="translate(10 31)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Username</tspan></text>
+        <text id="john.doe_zywave.com-2" data-name="john.doe@zywave.com" transform="translate(370 30)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">john.doe@zywave.com</tspan></text>
+        <g id="Icon_link-2" data-name="Icon link" transform="translate(724 6)">
+          <g id="Group_264647-2" data-name="Group 264647">
+            <rect id="Rectangle_5240-2" data-name="Rectangle 5240" width="36" height="36" rx="18" fill="none"/>
+            <g id="Chevron_down-2" data-name="Chevron down" transform="translate(10 10)">
+              <g id="Group_264648-2" data-name="Group 264648">
+                <path id="Path_101496-2" data-name="Path 101496" d="M11.974,5.284l1.275,1.275a.289.289,0,0,1,0,.407l-5.06,5.083a.289.289,0,0,1-.407,0L2.751,6.966a.289.289,0,0,1,0-.407L4.026,5.284a.289.289,0,0,1,.407,0l3.553,3.6,3.581-3.6A.289.289,0,0,1,11.974,5.284Z" fill="#78788c"/>
+                <rect id="Rectangle_10025-2" data-name="Rectangle 10025" width="16" height="16" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_264670" data-name="Group 264670" transform="translate(-4 -133)">
+      <g id="Group_264656-2" data-name="Group 264656" transform="translate(162 299)">
+        <g transform="matrix(1, 0, 0, 1, -158, -166)" filter="url(#Rectangle_53-3)">
+          <rect id="Rectangle_53-7" data-name="Rectangle 53" width="770" height="48" rx="2" transform="translate(158 118)" fill="#e6e6ea"/>
+        </g>
+      </g>
+      <g id="Group_264669-2" data-name="Group 264669" transform="translate(162 251)">
+        <text id="Seventies-3" data-name="Seventies" transform="translate(10 31)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Username</tspan></text>
+        <text id="john.doe_zywave.com-3" data-name="john.doe@zywave.com" transform="translate(370 30)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">john.doe@zywave.com</tspan></text>
+        <g id="Icon_link-3" data-name="Icon link" transform="translate(724 6)">
+          <g id="Group_264647-3" data-name="Group 264647">
+            <rect id="Rectangle_5240-3" data-name="Rectangle 5240" width="36" height="36" rx="18" fill="none"/>
+            <g id="Chevron_down-3" data-name="Chevron down" transform="translate(10 10)">
+              <g id="Group_264648-3" data-name="Group 264648">
+                <path id="Path_101496-3" data-name="Path 101496" d="M11.974,5.284l1.275,1.275a.289.289,0,0,1,0,.407l-5.06,5.083a.289.289,0,0,1-.407,0L2.751,6.966a.289.289,0,0,1,0-.407L4.026,5.284a.289.289,0,0,1,.407,0l3.553,3.6,3.581-3.6A.289.289,0,0,1,11.974,5.284Z" fill="#78788c"/>
+                <rect id="Rectangle_10025-3" data-name="Rectangle 10025" width="16" height="16" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_264671" data-name="Group 264671" transform="translate(-4 -45)">
+      <g id="Group_264656-3" data-name="Group 264656" transform="translate(162 299)">
+        <g transform="matrix(1, 0, 0, 1, -158, -254)" filter="url(#Rectangle_53-4)">
+          <rect id="Rectangle_53-8" data-name="Rectangle 53" width="770" height="48" rx="2" transform="translate(158 206)" fill="#fff"/>
+        </g>
+        <g id="Rectangle_53-9" data-name="Rectangle 53" transform="translate(0 -48)" fill="none" stroke="#2777d3" stroke-width="2">
+          <rect width="770" height="48" rx="2" stroke="none"/>
+          <rect x="1" y="1" width="768" height="46" rx="1" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_264669-3" data-name="Group 264669" transform="translate(162 251)">
+        <text id="Seventies-4" data-name="Seventies" transform="translate(10 31)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Username</tspan></text>
+        <text id="john.doe_zywave.com-4" data-name="john.doe@zywave.com" transform="translate(370 30)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">john.doe@zywave.com</tspan></text>
+        <g id="Icon_link-4" data-name="Icon link" transform="translate(724 6)">
+          <g id="Group_264647-4" data-name="Group 264647">
+            <rect id="Rectangle_5240-4" data-name="Rectangle 5240" width="36" height="36" rx="18" fill="none"/>
+            <g id="Chevron_down-4" data-name="Chevron down" transform="translate(10 10)">
+              <g id="Group_264648-4" data-name="Group 264648">
+                <path id="Path_101496-4" data-name="Path 101496" d="M11.974,5.284l1.275,1.275a.289.289,0,0,1,0,.407l-5.06,5.083a.289.289,0,0,1-.407,0L2.751,6.966a.289.289,0,0,1,0-.407L4.026,5.284a.289.289,0,0,1,.407,0l3.553,3.6,3.581-3.6A.289.289,0,0,1,11.974,5.284Z" fill="#78788c"/>
+                <rect id="Rectangle_10025-4" data-name="Rectangle 10025" width="16" height="16" fill="none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="Default" transform="translate(73 60)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Default</tspan></text>
+    <text id="Hover" transform="translate(73 148)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hover</tspan></text>
+    <text id="Focus" transform="translate(73 236)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Focus</tspan></text>
+    <text id="Expanded" transform="translate(73 400)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Expanded</tspan></text>
+  </g>
+</svg>

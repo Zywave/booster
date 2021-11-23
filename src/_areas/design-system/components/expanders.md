@@ -12,28 +12,34 @@ An Expander is a container used to organize an overabundance of content and cons
 
 Expanders can be used standalone or in a group to hide and reveal different sections of content providing users with the bigger picture of the content on the page before diving into the details. Important information is shown initially and additional details are revealed upon interaction.  
 
+![Standard Expander on a mobile device](/images/expander_usage_mobile.svg)
+
 - - -
 
 ## Types
 
 There are two types of Expanders — Standard and Peek-a-boo. 
 
+![Types of expanders](/images/expander_types.svg)
+
+</br>
+
 ### Standard Expanders
 
 Standard Expanders are best used:
-- when there is a need for multiple expanding sections on a page
-- the revealed content is lengthy or contains form fields
-- there is a need for an action within the expander, such as "Save"
+
+* when there is a need for multiple expanding sections on a page
+* the revealed content is lengthy or contains form fields
+* there is a need for an action within the expander, such as "Save"
 
 <docs-spacer size= "small"></docs-spacer>
 
 ### Peek-a-boo Expanders
 
 Peek-a-boo Expanders should be used:
-- standalone to hide and reveal a small amount of plain-text content
-- when the hidden content is supplementary to the main purpose of the page
 
-
+* standalone to hide and reveal a small amount of plain-text content
+* when the hidden content is supplementary to the main purpose of the page
 
 - - -
 
@@ -42,6 +48,10 @@ Peek-a-boo Expanders should be used:
 ### Standard Expander
 
 Standard Expanders consist of up to 7 different parts. 
+
+![Standard Expander anatomy](/images/standard_expander_anatomy.svg)
+
+</br>
 
 1. **Section:** Where both the header and content are contained.
 2. **Header area:** The area inside of a section that contains the section title, preview text and indicator icon. This header is a clickable area to expand and collapse the section. 
@@ -57,79 +67,127 @@ Standard Expanders consist of up to 7 different parts.
 
 A Peek-a-boo Expander contains 3 different parts.
 
+![Peek-a-boo expander anatomy](/images/peek-a-boo_expander_anatomy.svg)
+
+</br>
+
 1. **Title:** The text label that indicates the content that is contained within the section. 
-
 2. **Content:** The full length of the content is visible when expanded. When collapsed the content is truncated to just a few lines. 
-
 3. **Expander action:** A link to "See more" is below the truncated content when collapsed, and a link to "See less" is below the expanded content. 
 
 - - -
 
 ## States
 
-Expanders have a default, hover, focus and expanded state.
-
 ### Default
+
 The default state is the collapsed view of an Expander. It is also the default state of the Expander when the user lands on the page. 
 
 ### Hover
-The hover state for Standard Expanders occurs when the user hovers over the section with their mouse. See the Button guidelines for the hover state of the See more action of a Peek-a-boo Expander.
+
+The hover state for Standard Expanders occurs when the user hovers over the section with their mouse. See the Button guidelines for the hover state of the 'See more' action of a Peek-a-boo Expander.
 
 ### Focus
-Focus state appears when the Expander section is currently selected and awaiting action. This is most commonly seen when using a keyboard to navigate. See the Button guidelines for the focus state of the See more action of a Peek-a-boo expander
+
+Focus state appears when the Expander section is currently selected and awaiting action. This is most commonly seen when using a keyboard to navigate. See the Button guidelines for the focus state of the 'See more' action of a Peek-a-boo expander
 
 ### Expanded
+
 The expanded state is seen after the user has interacted with the Expander to show more information. On a Standard Expander the section is expanded and the indicator icon is flipped to visualize that the section can now be collapsed. For the Peek-a-boo Expander the button text will now say "See less". 
+
+![Standard Expander states](/images/standard_expander_states.svg)
+
+![Peek-a-boo Expander states](/images/peek-a-boo_expander_states-–-1.svg)
 
 - - -
 
-## Behavior 
+## Behavior
 
 We recommend that all expanders be in the default state when the user navigates to the page. This ensures that as many sections as possible are visible to the user immediately. 
 
 By default, all sections can be opened at the same time. If there are any sections that contain actions, then consider limiting the user to opening one section at a time to keep the user focused. 
 
-
-
 ### Keyboard navigation
-- Tab to select an Expander
-- Space bar/ enter key to open or close the selected section
-- When open, tab to select any interactive elements within (input, link or buttons)
--Tab again to select the next Expander
 
+* Tab to select an Expander
+* Space bar/ enter key to open or close the selected section
+* When open, tab to select interactive elements (input, link or buttons if available)
+* Tab to select the next Expander
 
----
-
+- - -
 
 ## Best practices
 
 ### Expanding sections
-- If opening a section makes the content longer than the viewport, do not auto-scroll to show that content. Auto scrolling will disorientate the user if they aren't expecting it, so leave the decision to scroll up to them.
 
-
-- Expanders generally work best when the user can focus on a single task, or a very small number of closely-related tasks. It is not good practice to nest a table, long forms, or tabs inside an Expander section.
-<docs-spacer size= "small"></docs-spacer>
-
-
+* If opening a section makes the content longer than the viewport, do not auto-scroll to show that content. Auto-scrolling can be disorienting, so is is best to leave the decision to scroll up to the user.
+* Expanders work best to focus the user on a single task, or a very small number of closely-related tasks. It is not good practice to nest tables, long forms, or tabs inside an Expander section.
+  <docs-spacer size= "small"></docs-spacer>
 
 ### Header information
-- The title should be descriptive and concise to explain what content is within without being too lengthy
-- When space is limited the title will truncate. Be mindful of how much space is available and how your header may truncate on mobile or when preview text is present. 
 
-- When the section is expanded, the preview text should be removed since the full description will be seen within the content area.  
-<docs-spacer size= "small"></docs-spacer>
+<docs-grid columns="2">
 
+  <div>
+
+![Header title example](/images/header_title_do.svg)
+
+ <docs-do>
+     Make titles descriptive but concise so that the user can easily scan the sections for what they are looking for and to avoid truncation whenever possible.
+</docs-do>
+  </div>
+  <div>
+   
+
+![Header title truncation](/images/header_title_do-not.svg)
+
+ <docs-do-not>
+     Make the titles long and harder to scan quickly. Try to avoid truncation whenever possible.
+</docs-do-not>
+  </div>
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
+
+<docs-grid columns="2">
+
+  <div>
+
+![Preview text is removed when expanded](/images/expanded_do.svg)
+
+ <docs-do>
+    Remove the preview text when a section is expanded.
+</docs-do>
+  </div>
+  <div>
+
+![Preview text remains when expanded](/images/expanded_do-not.svg)
+
+ <docs-do-not>
+     Allow the preview text to persist when expanded. This causes redundancy and some confusion with editable fields.
+
+</docs-do-not>
+  </div>
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Adding actions
-- Actions in Expanders are best used for lightweight editing of an element, such as selecting a value for a setting.
 
-- Be sure any actions within the Expander do not contradict any page-level actions. For example, avoid saving at the page level and within the Expander. 
+Actions in Expanders are best used for lightweight editing, such as selecting a value for a setting.
+
+<docs-spacer size="small"></docs-spacer>
+
+![Page-level and Expander actions](/images/action_do-not.svg)
+
+<docs-do-not>
+Avoid using actions within the Expander that contradict any page-level actions. For example, you should not have a page-level save and a save button within an Expander. 
+</docs-do-not>  
 
 - - -
 
 ## Alternate considerations
 
-- Consider using Cards when you need to the ability to view and edit a group of information all at once. 
-
-- Consider using Tabs when the length of the content area far exceeds the average users' viewport height or when there are more than a handful of form fields. 
-- Consider using Jump links when it would be best to have all the content visible and the user just needs to jump to different sections on the page.
+* Consider using Cards when you need to the ability to view and edit a group of information all at once. 
+* Consider using Tabs when the length of the content area far exceeds the average users' viewport height or when there are more than a handful of form fields. 
+* Consider using Jump links when it would be best to have all the content visible and the user just needs to jump to different sections on the page.
