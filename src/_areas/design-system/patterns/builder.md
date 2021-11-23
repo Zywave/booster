@@ -166,6 +166,10 @@ Preview in a dialog to focus the user's attention on the preview itself and not 
 
 Providing output options, such as which format to download the final output as, can be beneficial for users.
 
+![Form generate](/images/generation-–-5.svg)
+
+Providing output options, such as which format to download the final output as, can be beneficial for users.
+
 ![Form generate](/images/generation-–-5.png)
 
 <docs-spacer size="small"></docs-spacer>
