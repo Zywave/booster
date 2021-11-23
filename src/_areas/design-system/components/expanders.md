@@ -168,7 +168,7 @@ By default, all sections can be opened at the same time. If there are any sectio
 ![Preview text remains when expanded](/images/expanded_do-not.svg)
 
  <docs-do-not>
-     Allow the preview text to persist when expanded. This causes redundancy and some confusion with editable fields.
+     Allow the preview text to persist when expanded. This causes redundancy and confusion when editable fields are present.
 
 </docs-do-not>
   </div>
