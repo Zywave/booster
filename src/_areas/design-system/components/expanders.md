@@ -75,6 +75,10 @@ A Peek-a-boo Expander contains 3 different parts.
 2. **Content:** The full length of the content is visible when expanded. When collapsed the content is truncated to just a few lines. 
 3. **Expander action:** A link to "See more" is below the truncated content when collapsed, and a link to "See less" is below the expanded content. 
 
+<docs-spacer size="small"></docs-spacer>
+
+For a more detailed breakdown of the sizing and spacing, [view the design specs](https://xd.adobe.com/view/a6f89984-5337-4059-b732-a81634401e1d-f3ab/).
+
 - - -
 
 ## States
@@ -188,6 +192,5 @@ Avoid using actions within the Expander that contradict any page-level actions. 
 
 ## Alternate considerations
 
-* Consider using Cards when you need to the ability to view and edit a group of information all at once. 
-* Consider using Tabs when the length of the content area far exceeds the average users' viewport height or when there are more than a handful of form fields. 
-* Consider using Jump links when it would be best to have all the content visible and the user just needs to jump to different sections on the page.
+* Consider using [Cards](/design-system/components/cards/) when there is no real benefit to focusing the user on one section at a time.
+* Consider using [Tabs](/design-system/components/tabs/) when the length of the content area exceeds the average users' viewport height or when there are more than a handful of form fields.
