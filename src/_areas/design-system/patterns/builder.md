@@ -168,7 +168,7 @@ Providing output options, such as which format to download the final output as, 
 
 ![Form generate](/images/generation-–-5.png)
 
-When only few options are needed to download, use a button dropdown.
+When only a few options are needed to download, use a button dropdown.
 
 ![Form generate](/images/generation-–-5.svg)
 
