@@ -166,6 +166,15 @@
             /* 30 / 16 */
         }
 
+        .key-grid {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+        }
+
+        .key-header {
+            margin-top: 5rem;
+        }
+
         .row {
             display: contents;
         }
@@ -220,6 +229,21 @@
             border-bottom-width: 1px;
         }
 
+        .header-text {
+            background-color: rgb(222, 235, 255);
+            color: black;
+            border-radius: 0.5rem;
+            margin-top: 1.25rem;
+        }
+
+        .header-text p {
+            margin-bottom: 1rem;
+        }
+
+        .header-text p:last-of-type {
+            margin-bottom: 0;
+        }
+
         ul {
             margin: 0;
             padding: 0;
@@ -232,7 +256,7 @@
         ul li+li {
             margin-top: 1.25rem;
             /* 20 / 16 */
-        }
+        }        
 
         @media (prefers-color-scheme: dark) {
 
@@ -316,11 +340,6 @@
         <header>
             <div class="wrapper">
                 <h1>Zywave Platform Standardization Checklist</h1>
-                <p>Check off the items that apply to your application to determine its standardization maturity for each
-                    column.</p>
-                <p><strong>Note: </strong>Stage 0 is included as an example of what most apps are like during the
-                    initial
-                    phase; the form starts with Stage 1!</p>
             </div>
         </header>
         <section>
@@ -344,6 +363,20 @@
                         <span class="label-text">Repo URL:</span>
                         <input required type="url" name="repoUrl" placeholder="https://repo.url.com" />
                     </label>
+                </div>
+                <div class="wrapper header-text">
+                    <p>
+                        The Zywave Platform standardization checklist is used to evaluate where your team's solution falls within the Zywave Platform Standardization process.
+                    </p>
+                    <p>
+                        The data collected will be used by the Platform Assimilation Team to help provide support for your team's progression through the standardization process and to assist in prioritizing your individual evolution. 
+                    </p>
+                    <p>
+                        Each column is a path on its own. So a team can be at stage 2 in Authentication/Authorization and still be at stage 0 in User Experience/Design. The progress through the matrix is not required to be uniform and may be completed at your own team’s pace.
+                    </p>
+                    <p>
+                        If there is confusion regarding a term being used, refer to the <strong>Key Terms</strong> table below for more information.  
+                    </p>
                 </div>
                 <div class="grid">
                     <div class="row heading-row">
@@ -410,7 +443,7 @@
                                 <div>                                    
                                     The look and feel of your solution is the same as Zywave solutions:                                                                    
                                     <ul class="bullet-list">
-                                        <li><a href="https://booster.zywave.dev/application-framework/components/shell/">Top bar</a></li>
+                                        <li>Topbar</li>
                                         <li>Side navigation</li>
                                     </ul>                                    
                                 </div>                                
@@ -420,7 +453,7 @@
                                 <div>
                                     Your solution is accessible via:
                                     <ul class="bullet-list">
-                                        <li>Apps menu</li>
+                                        <li>Apps menu (zui-shell-apps)</li>
                                         <li>Side navigation</li>
                                     </ul>
                                 </div>                                
@@ -453,7 +486,7 @@
                             <label>
                                 <input type="checkbox" name="tenancy" /> 
                                 <p>
-                                    Your solution adheres to Zywave's <a href="https://gitlab.zywave.com/groups/auth-systems/-/wikis/architectural-overview">tenancy model</a> (organizations/agencies).
+                                    Your solution adheres to Zywave's tenancy model (organizations/agencies).
                                 </p>                                
                             </label>
                             <label><input type="checkbox" name="onlyZywaveAuth" />Your solution uses Zywave's login exclusively.</label>
@@ -463,7 +496,7 @@
                             <label>
                                 <input type="checkbox" name="zapiShell" /> 
                                 <p>
-                                    Your solution utilizes the <a href="https://booster.zywave.dev/application-framework/components/shell/">Zywave Shell</a> component.
+                                    Your solution utilizes the Zywave Shell component.
                                 </p>                                
                             </label>
                             <label><input type="checkbox" name="styledContentArea" />
@@ -496,7 +529,7 @@
                             <label>
                                 <input type="checkbox" name="acl" />
                                 <p>
-                                    Your solution will deny users access based on Zywave auth <a href="https://gitlab.zywave.com/groups/auth-systems/-/wikis/Component/Permissions/Permission">permissions</a>.
+                                    Your solution will deny users access based on Zywave access control frameworks.
                                 </p>                                
                             </label>
                         </div>
@@ -550,6 +583,156 @@
                 <button type="reset">
                     Reset
                 </button>
+                <div class="key-header">
+                    <h1>
+                        Key terms
+                    </h1>
+                </div>                
+                <div class="key-grid">
+                    <div class="row heading-row">
+                        <div class="cell">
+                            Term
+                        </div>
+                        <div class="cell">
+                            Definition
+                        </div>
+                        <div class="cell">
+                            Link
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Zywave user principal
+                        </div>
+                        <div class="cell">
+                            This represents a users identity within Zywave infrastructure.
+                        </div>
+                        <div class="cell">
+                            <a href="https://gitlab.zywave.com/groups/auth-systems/-/wikis/architectural-overview">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Zywave tenancy model
+                        </div>
+                        <div class="cell">
+                            
+                        </div>
+                        <div class="cell">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Zywave's access control frameworks
+                        </div>
+                        <div class="cell">
+                            This represents the underlying Zywave framework pieces that govern licenses and permissions.
+                        </div>
+                        <div class="cell">
+                            <a href="https://gitlab.zywave.com/groups/auth-systems/-/wikis/how-to/Permissions/Setup">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            admin.zywave.com
+                        </div>
+                        <div class="cell">
+                            This refers to the Organizations Admin administration tool.
+                        </div>
+                        <div class="cell">
+                            <a href="https://gitlab.zywave.com/auth-systems/apps/organizations-admin">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Topbar
+                        </div>
+                        <div class="cell">
+                            The Topbar is the section reserved at the top of the page that provides application branding, suite-level navigation, and high priority functionality such as search.
+                        </div>
+                        <div class="cell">
+                            <a href="https://booster.zywave.dev/design-system/components/shell/?tab=usage#1.-topbar">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Side navigation
+                        </div>
+                        <div class="cell">
+                            The Side nav provides a standard place for navigation within a product. Placed on the left-hand side of the site, it lists out the application-specific site features you can access, as well as features like settings, notifications, and help.
+                        </div>
+                        <div class="cell">
+                            <a href="https://booster.zywave.dev/design-system/components/shell/?tab=usage#2.-sidenav">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Content area
+                        </div>
+                        <div class="cell">
+                            The Content area is the body of our applications where all the features and functionality gets placed
+                        </div>
+                        <div class="cell">
+                            <a href="https://booster.zywave.dev/design-system/components/shell/?tab=usage#4.-content-area">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Apps menu (zui-shell-apps)
+                        </div>
+                        <div class="cell">
+                            The zui-shell-apps element is our apps launchpad and is a global topbar feature. This is the primary method for jumping from one anchor solution to another. Consumers should set this up to only list products the user has access to. When adding this element, be sure to set its assigned slot to apps so it appears in the proper place in zui-shell-apps.
+                        </div>
+                        <div class="cell">
+                            <a href="https://booster.zywave.dev/design-system/components/shell/">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Zywave Shell
+                        </div>
+                        <div class="cell">
+                            The Shell wraps around all of our applications and provides suite level consistencies, branding, and common functionality. This element, in particular, wraps all <zui-shell> custom sub-elements.
+                        </div>
+                        <div class="cell">
+                            <a href="https://booster.zywave.dev/">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            ZUI
+                        </div>
+                        <div class="cell">
+                            The Zywave User Interface (ZUI) is a modern and responsive front-end framework based on Zywave's established design standards.
+                        </div>
+                        <div class="cell">
+                            <a href="https://booster.zywave.dev/design-system/about/#what-is-zui%3F">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            ZAPI
+                        </div>
+                        <div class="cell">
+                            ZAPI is another acronym that stands forZywaveAPIToolkit. It is a series of components—driven by APIs—that enable building applications faster, often by using ZUI under the hood.
+                        </div>
+                        <div class="cell">
+                            <a href="https://booster.zywave.dev/design-system/developers/faqs/#i-hear-%22zapi%22-sometimes.-what-is-that%3F">More info</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="cell">
+                            Zywave Security Model
+                        </div>
+                        <div class="cell">
+                            This refers to Zywave’s security requirements.
+                        </div>
+                        <div class="cell">
+                            <a href="https://backstage.zywave.com/catalog/devsecops/outcome/secq">More info</a>
+                        </div>
+                    </div>
+                </div>                
             </form>
         </section>
         <dialog id="results">
