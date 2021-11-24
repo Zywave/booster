@@ -35,7 +35,7 @@ Use a radio button when the user must select a single option from a list of mutu
 Standard Radio Buttons are the most common types of Radio Buttons. They allow users to make a selection and quickly move on to the next task.
 
 * Use when the number of options is easy for the user to process, generally fewer than 10.
-* Unless you want to emphasize the selection, these are usually the Radio Buttons you should use.
+* Radio buttons are small by its nature, and they can be hard to click or tap. To help users make easier selections, make sure the clickable area includes both the radio button and its label.
 
 <br>
 
