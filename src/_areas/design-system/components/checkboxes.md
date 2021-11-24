@@ -18,7 +18,7 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 <hr>
 
-## Styles
+## Types
 
 ![Image of a standard checkbox](/images/checkbox-styles.png)
 
