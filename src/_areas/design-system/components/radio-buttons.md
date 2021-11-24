@@ -30,19 +30,19 @@ Use a radio button when the user must select a single option from a list of mutu
 
 <br>
 
-**Standard Radio Button**
+### Standard Radio Button
 
 Standard Radio Buttons are the most common Radio Buttons, and they allow the user to make a selection and quickly move on to the next task.
 
 <br>
 
-**Inline Radio Button**
+### Inline Radio Button
 
 Inline Radio Buttons are more prominently styled than standard Radio Buttons. They often feature a system icon (24 pt x 24 pt), and they’re designed to emphasize the selection being made.
 
 <br>
 
-**Gallery Radio Button**
+### Gallery Radio Button
 
 Gallery Radio Buttons are more prominent than both standard and inline Radio Buttons. They often feature an icon and take up a great deal of space on the page.
 
@@ -54,7 +54,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 ![Standard radio button](/images/standardradio.png)
 
-### **Standard Radio Button**
+### Standard Radio Button
 
 1. Option: the combination of a radio button and a label
 2. Radio button: an input type where only one can be selected at a time in a given radio group
@@ -64,7 +64,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 ![Inline radio button](/images/inlineradio.png)
 
-### **Inline Radio Button**
+### Inline Radio Button
 
 1. Option: the combination of a radio button and a label
 2. Icon (optional): emphasizes the option and reinforces the contrast between different options
@@ -74,7 +74,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 ![Gallery radio button](/images/anatomy-gallery.png)
 
-### **Gallery Radio Button**
+### Gallery Radio Button
 
 1. Radio button:  an input type where only one can be selected at a time in a given radio group
 2. Label: a text description of the option
@@ -102,19 +102,19 @@ Gallery Radio Button states - with illustrations
 
 <br>
 
-### **Normal**
+### Normal
 
 Normal state is how a Radio Button looks by default before any interaction or action is taken.
 
-### **Hover**
+### Hover
 
 Hover state occurs when the user hovers over the Radio Buttons with their mouse.
 
-### **Focus**
+### Focus
 
 Focus state appears when the Radio Button is currently selected and awaiting action. This commonly occurs when using a keyboard to navigate.
 
-### **Disabled**
+### Disabled
 
 Disabled state occurs when an action currently isn’t available. Disabled Radio Buttons should only be used when an action can be taken within the current UI to enable the Radio Button. If no action can be taken to enable the Radio Button, then it should be hidden instead of disabled.
 
