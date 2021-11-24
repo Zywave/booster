@@ -37,6 +37,32 @@ Breadcrumbs give users context so they don't feel lost, even when they are deep 
 
 <hr>
 
+## Types/States
+
+### Default
+
+Default state is the shortest form of a Breadcrumb navigation. It contains the current page with one prior Breadcrumb.
+
+![Breadcrumbs - default](/images/default.png)
+
+<br>
+
+### Long Breadcrumb trail
+
+When there are 5 or more pages in a Breadcrumb trail, we recommend using an ellipsis to hide everything between the first page and the second to last page. Clicking the ellipsis will expand to reveal all the hidden Breadcrumbs.
+
+![Breadcrumbs - long](/images/long.png)
+
+<br>
+
+### Long Breadcrumb trail - expanded
+
+When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidden pages. When the Breadcrumbs are fully expanded, any overflow will wrap to a new line.
+
+![Breadcrumbs - long expanded](/images/long-–-expanded.png)
+
+<hr>
+
 ## Anatomy
 
 For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/a732e0cf-0523-44cb-9c64-cd8162785b7b-f261/grid)
@@ -64,32 +90,6 @@ Breadcrumbs alignment:
 
 <hr>
 
-## Types/States
-
-### Default
-
-Default state is the shortest form of a Breadcrumb navigation. It contains the current page with one prior Breadcrumb.
-
-![Breadcrumbs - default](/images/default.png)
-
-<br>
-
-### Long Breadcrumb trail
-
-When there are 5 or more pages in a Breadcrumb trail, we recommend using an ellipsis to hide everything between the first page and the second to last page. Clicking the ellipsis will expand to reveal all the hidden Breadcrumbs.
-
-![Breadcrumbs - long](/images/long.png)
-
-<br>
-
-### Long Breadcrumb trail - expanded
-
-When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidden pages. When the Breadcrumbs are fully expanded, any overflow will wrap to a new line.
-
-![Breadcrumbs - long expanded](/images/long-–-expanded.png)
-
-<hr>
-
 ## Best Practices
 
 ### Page title length
@@ -99,13 +99,9 @@ When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidde
 
 ![truncated title breadcrumb](/images/truncate.png)
 
-
-
 <docs-spacer>
 
 </docs-spacer>
-
-
 
 ### Separators should mimic movement
 
@@ -193,11 +189,7 @@ Breadcrumbs are not designed to show browsing history (such as "back" button in 
 
 When in a long Breadcrumb trail, items that are closer to the current page hold more weight to users than others. It is recommended to make the last two items (including current page) visible.
 
-
-
 <hr>
-
-
 
 ## Responsive Layout
 
