@@ -29,7 +29,7 @@ A checkbox should be used when selecting zero, one, or more independent options 
 Standard checkboxes are the most common types of Checkboxes. They allow users to make selections and quickly move on to the next task.
 
 * Use when the number of options is easy for the user to process, generally fewer than 10.
-* Unless you want to emphasize the selection, these are usually the checkboxes you should use.
+* Checkboxes are small by its nature, and they can be hard to click or tap. To help users make easier selections, make sure the clickable area includes both the checkbox and its label.
 
 <br>
 
