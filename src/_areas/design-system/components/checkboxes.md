@@ -18,27 +18,6 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 <hr>
 
-## Anatomy
-
-For detailed documentation on our checkbox anatomy, view the [ZUI checkbox design specs](https://xd.adobe.com/view/1e451acf-dca2-47ce-8bee-99ca93473313-4b16/grid).
-
-![Image of Standard Checkbox](/images/anatomy-standard.png)
-
-### Standard Checkbox
-
-* Checkbox height and width will always be 24px
-* Clickable area of the checkbox will always be 36px, and include the label if applicable
-* System font, size 14px, regular
-
-![Image of Gallery Checkbox](/images/anatomy-gallery.png)
-
-### Gallery Checkbox
-
-* Checkbox height and width is determined by height and width of text
-* System font, size 14px, semibold
-
-<hr>
-
 ## Styles
 
 ![Image of a standard checkbox](/images/checkbox-styles.png)
@@ -60,6 +39,27 @@ Gallery checkboxes are more prominent than standard checkboxes. They often featu
 
 * Because they're so large, they should generally be reserved for when that selection is the only one the user can make on that page.
 * Icons both emphasize the selection and reinforce the contrast between the options.
+
+<hr>
+
+## Anatomy
+
+For detailed documentation on our checkbox anatomy, view the [ZUI checkbox design specs](https://xd.adobe.com/view/1e451acf-dca2-47ce-8bee-99ca93473313-4b16/grid).
+
+![Image of Standard Checkbox](/images/anatomy-standard.png)
+
+### Standard Checkbox
+
+* Checkbox height and width will always be 24px
+* Clickable area of the checkbox will always be 36px, and include the label if applicable
+* System font, size 14px, regular
+
+![Image of Gallery Checkbox](/images/anatomy-gallery.png)
+
+### Gallery Checkbox
+
+* Checkbox height and width is determined by height and width of text
+* System font, size 14px, semibold
 
 <hr>
 
