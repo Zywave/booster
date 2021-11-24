@@ -32,7 +32,10 @@ Use a radio button when the user must select a single option from a list of mutu
 
 ### Standard Radio Button
 
-Standard Radio Buttons are the most common Radio Buttons, and they allow the user to make a selection and quickly move on to the next task.
+Standard Radio Buttons are the most common types of Radio Buttons. They allow users to make a selection and quickly move on to the next task.
+
+* Use when the number of options is easy for the user to process, generally fewer than 10.
+* Unless you want to emphasize the selection, these are usually the Radio Buttons you should use.
 
 <br>
 
@@ -45,6 +48,9 @@ Inline Radio Buttons are more prominently styled than standard Radio Buttons. Th
 ### Gallery Radio Button
 
 Gallery Radio Buttons are more prominent than both standard and inline Radio Buttons. They often feature an icon and take up a great deal of space on the page.
+
+* Since Gallery Radio Buttons can be significantly larger in size than Standard Radio Buttons, they should generally be reserved for when that selection is the only one the user can make on that page.
+* Spot illustrations are optional to use inside a Gallery Radio Buttons. They are used to both emphasize the selection and reinforce the contrast between the options.
 
 <hr>
 
