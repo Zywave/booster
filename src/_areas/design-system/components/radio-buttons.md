@@ -24,6 +24,30 @@ Use a radio button when the user must select a single option from a list of mutu
 
 <hr>
 
+## Types
+
+![Types of radio buttons](/images/type.png)
+
+<br>
+
+**Standard Radio Button**
+
+Standard Radio Buttons are the most common Radio Buttons, and they allow the user to make a selection and quickly move on to the next task.
+
+<br>
+
+**Inline Radio Button**
+
+Inline Radio Buttons are more prominently styled than standard Radio Buttons. They often feature a system icon (24 pt x 24 pt), and they’re designed to emphasize the selection being made.
+
+<br>
+
+**Gallery Radio Button**
+
+Gallery Radio Buttons are more prominent than both standard and inline Radio Buttons. They often feature an icon and take up a great deal of space on the page.
+
+<hr>
+
 ## Anatomy
 
 For a more detailed breakdown of spacing and sizing, *[view the design specs.](https://xd.adobe.com/view/8eb4bcb4-1a69-4f34-ad25-b9171d366435-dbe7/grid)*
@@ -55,32 +79,6 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 1. Radio button:  an input type where only one can be selected at a time in a given radio group
 2. Label: a text description of the option
 3. Spot illustration(optional): emphasizes the option and reinforces the contrast between different options
-
-<br>
-
-<hr>
-
-## Types
-
-![Types of radio buttons](/images/type.png)
-
-<br>
-
-**Standard Radio Button**
-
-Standard Radio Buttons are the most common Radio Buttons, and they allow the user to make a selection and quickly move on to the next task.
-
-<br>
-
-**Inline Radio Button**
-
-Inline Radio Buttons are more prominently styled than standard Radio Buttons. They often feature a system icon (24 pt x 24 pt), and they’re designed to emphasize the selection being made.
-
-<br>
-
-**Gallery Radio Button**
-
-Gallery Radio Buttons are more prominent than both standard and inline Radio Buttons. They often feature an icon and take up a great deal of space on the page.
 
 <hr>
 
