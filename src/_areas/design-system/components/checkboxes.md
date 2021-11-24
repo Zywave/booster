@@ -26,7 +26,7 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 ### Standard Checkboxes
 
-Standard checkboxes are the most common. They allow the user to make selections and quickly move on to the next task.
+Standard checkboxes are the most common types of Checkboxes. They allow users to make selections and quickly move on to the next task.
 
 * Use when the number of options is easy for the user to process, generally fewer than 10.
 * Unless you want to emphasize the selection, these are usually the checkboxes you should use.
@@ -35,10 +35,10 @@ Standard checkboxes are the most common. They allow the user to make selections 
 
 ### Gallery Checkbox
 
-Gallery checkboxes are more prominent than standard checkboxes. They often feature an icon and take up a great deal of space on the page. They are generally used when they control the only selection the user can make on that page.
+Gallery checkboxes are more prominent than standard checkboxes. They are generally used when they control the only selection the user can make on that page.
 
-* Because they're so large, they should generally be reserved for when that selection is the only one the user can make on that page.
-* Icons both emphasize the selection and reinforce the contrast between the options.
+* Since Gallery Checkboxes can be significantly larger in size than Standard Checkboxes, they should generally be reserved for when that selection is the only one the user can make on that page.
+* Spot illustrations are optional to use inside a Gallery Checkbox. They are used to both emphasize the selection and reinforce the contrast between the options.
 
 <hr>
 
