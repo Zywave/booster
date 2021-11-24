@@ -50,16 +50,21 @@ For detailed documentation on our checkbox anatomy, view the [ZUI checkbox desig
 
 ### Standard Checkbox
 
-* Checkbox height and width will always be 24px
-* Clickable area of the checkbox will always be 36px, and include the label if applicable
-* System font, size 14px, regular
+The entire Checkbox can be interacted with to check or uncheck it.
+
+1. Checkbox: A visual indicator for the option when it been checked or unchecked
+2. Label: a text description of the option
+3. Option: the combination of a checkbox and a label
 
 ![Image of Gallery Checkbox](/images/anatomy-gallery.png)
 
 ### Gallery Checkbox
 
-* Checkbox height and width is determined by height and width of text
-* System font, size 14px, semibold
+The entire gallery Checkbox can be interacted with to check or uncheck it.
+
+1. Checkbox: A visual indicator for the option when it been checked or unchecked
+2. Label: a text description of the option
+3. Spot illustration (optional): emphasizes the option and reinforces the contrast between different options
 
 <hr>
 
