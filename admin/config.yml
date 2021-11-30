@@ -36,6 +36,16 @@ collections:
       - { label: "Demo URI", name: "demo", widget: "string", required: false }
       - { label: "Main component name", name: "mainComponentName", widget: "string", required: false }
       - { label: "Included elements", name: "includedElements", widget: "list", default: [] }
+      - { label: "Entry point URI", name: "entryPointURI", widget: "string", required: false }
+      - label: "Status override"
+        name: "statusOverride"
+        widget: "select"
+        multiple: false
+        required: false
+        options:
+          - "stable"
+          - "unstable"
+          - "deprecated"
 
   - name: "application_framework_developers"
     label: "Application framework / Developers"

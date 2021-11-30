@@ -73,4 +73,14 @@ h2.component-subheader {
     color: white;
     background-color: var(--docs-green-color);
   }
+
+  &.deprecated {
+    color: white;
+    background-color: var(--zui-gray);
+  }
+
+  &.unstable {
+    color: black;
+    background-color: var(--zui-yellow);
+  }
 }

@@ -10,6 +10,11 @@ layout: nav-base
 {% if not hideToc %}
 <script type="module" src="{{ "js/web-components/quick-links.js" | url }}"></script>
 {% endif %}
+{% if entryPointURI %}
+<script type="module" src="{{ entryPointURI | url }}"></script>
+{% endif %}
+{% if hideToc %}
+{% endif %}
 <script type="module" src="{{ "js/web-components/clipboard-copy-icon.js" | url }}"></script>
 <script type="module" src="{{ "js/delayed-scroll-to-id.js" | url }}"></script>
 <script type="module" src="{{ "js/web-components/docs-do.js" | url }}"></script>
@@ -20,7 +25,14 @@ layout: nav-base
 {% if not api %}
 <span class="component-status not-available" title="While documented, this component may not be available in the Toolkit.">Not implemented</span>
 {% else %}
-<span class="component-status stable" title="This component is ready to use!.">Stable</span>
+  {% switch statusOverride %}
+  {% case "unstable" %}
+  <span class="component-status unstable" title="This component is in an experimental phase. Not suitable for production!">Unstable</span>
+  {% case "deprecated" %}
+  <span class="component-status deprecated" title="This component has been deprecated and is pending removal.">Deprecated</span>
+  {% default %}
+  <span class="component-status stable" title="This component is ready to use!.">Stable</span>
+  {% endswitch %}
 {% endif %}
 <h1 class="component-header">{{ title }}</h1>
 {% if subtitle %} <h2 class="component-subheader">{{ subtitle }}</h2> {% endif %}
@@ -37,6 +49,13 @@ layout: nav-base
 <section id="content" class="zui column align-start">
   <div id="api" style="display: none;" aria-hidden="true">
     {% if api %}
+    <div class="install-instructions">
+      <h2>Installation:</h2>
+      <ul>
+        <li><strong>HTML: </strong><code>&lt;script type="module" src="{{ entryPointURI or 'https://cdn.zywave.com/@zywave/zui-bundle/dist/bundle.js' }}"&gt;&lt;/script&gt;</code></li>
+        <li><strong>JavaScript: </strong><code>import "{{entryPointURI or 'https://cdn.zywave.com/@zywave/zui-bundle/dist/bundle.js' }}";</code></li>
+      </ul>
+    </div>
     {# 'algolia-customelement-manifest-element' WC code is only loaded if context is 'Algolia Crawler' #}
     <algolia-customelement-manifest-element url="{{ api }}"></algolia-customelement-manifest-element>
     <customelement-manifest-element

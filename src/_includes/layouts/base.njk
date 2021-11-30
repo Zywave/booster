@@ -35,7 +35,11 @@
 	<script async src="https://cdn.zywave.com/construct-style-sheets-polyfill@latest/dist/adoptedStyleSheets.js"></script>
 
 	<script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	{% if statusOverride == "unstable" %}
+	<script async src="https://cdn.zywave.com/@zywave/zui-bundle@next/dist/bundle.js" type="module"></script>
+	{% else %}
 	<script async src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js" type="module"></script>
+	{% endif %}
 	<script src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js" type="module"></script>
 	<link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-base-styles@latest/dist/zui-base-styles.min.css">
 	<link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.min.css">
