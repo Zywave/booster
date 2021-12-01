@@ -47,7 +47,7 @@ Peek-a-boo Expanders should be used:
 
 ### Standard Expander
 
-Standard Expanders consist of up to 7 different parts. 
+Standard Expanders consist of up to seven different parts. 
 
 ![Standard Expander anatomy](/images/standard_expander_anatomy.svg)
 
@@ -65,7 +65,7 @@ Standard Expanders consist of up to 7 different parts.
 
 ### Peek-a-boo Expander
 
-A Peek-a-boo Expander contains 3 different parts.
+A Peek-a-boo Expander contains three different parts.
 
 ![Peek-a-boo expander anatomy](/images/peek-a-boo_expander_anatomy.svg)
 
@@ -89,7 +89,7 @@ The default state is the collapsed view of an Expander. It is also the default s
 
 ### Hover
 
-The hover state for Standard Expanders occurs when the user hovers over the section with their mouse. See the Button guidelines for the hover state of the 'See more' action of a Peek-a-boo Expander.
+The hover state for Standard Expanders occurs when the user hovers over a section with their mouse. See the Button guidelines for the hover state of the 'See more' action of a Peek-a-boo Expander.
 
 ### Focus
 
