@@ -1,179 +1,150 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-button@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-button@next/docs/demo.html
-mainComponentName: zui-button
-includedElements: ["zui-button"]
 title: Buttons
 subtitle: Create clickable buttons.
+api: https://cdn.zywave.com/@zywave/zui-button@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-button@next/demo/index.html
+mainComponentName: zui-button
+includedElements:
+  - zui-button
 ---
+## Usage
 
-## What is a link? What is a button? - Best practices
+Buttons are an essential element in an effective user experience to execute an action and drive user behaviors. 
 
-Links and buttons are different technically, but they can look the same.
+![](/images/button-docs-usage.png)
 
-**What is a link?**  
-The technical definition of a "link" `<a>` is an element that triggers a context switch. Meaning, it will take the user away from their current workflow and to a new location. For example: when we provide the users with a link to the help site, this takes them out of their current workflow and to a new location/workflow.
+#### When to use Buttons
 
-Typically, you will see these links appear as a text link (plain, underlined text). However, there are instances where we may prefer to have a link displayed using one of our button styles. For example, we may have a link that we want to draw more attention to. This link might be styled as a button, but would take the user to a new workflow.
+* Use Buttons when you need to perform an action.
+* Buttons communicate which action will occur and allow users to complete a task.   
+* Buttons should not be navigational.  Use a link when navigating somewhere else.
 
-**What is a button?**  
-The technical definition of a "button" `<button>` is an element that keeps the user within the same context. This action will keep the user within the same workflow.
-
-Typically, buttons will look like one of the various button styles we have listed below. In certain circumstances it may make more sense to have a button element styled to look like a text link. One great example of this is an action within a well. These actions could be defined as a link or a button depending on the circumstance, but they will always be styled to look like text regardless.
-
-**Best practices - should it look like a button or should it look like a text link?**  
-In MOST cases it should look like a text link when it appears within a body of text, and it should look like a button when it appears as an action independent of a body of text.
-
-If you run into a situation where you are not sure, your decision should be based off the hierarchy of elements on the page. If a link element is very important and needs to stand out more, then consider styling it like a button. If a button element shouldn't be drawing attention to itself, then perhaps a text link style would be best.
-
----
+- - -
 
 ## Anatomy
 
-![button anatomy](/images/components/buttons/Button_anatomy.svg)
+![](/images/button-docs-anatomy.png)
 
-For detailed documentation on our button anatomy, view the [ZUI button design specs](https://xd.adobe.com/spec/73e1b206-1ffc-4568-5ccf-945d90c5161e-05d0/).
+A Button consists of the following elements:
 
-**Sizing and spacing**
+1. Touch target
+2. Icon (optional)
+3. Label (required, unless it's an icon button)
 
-- Button height will always be 36px, button length is determined by the length of text.
-- 8px padding above and below the text
-- 15px padding to left and right of text
-- 10px margin between buttons  
-  <br/>
+See the [design specs](https://xd.adobe.com/view/d4670059-5de0-416c-b731-d180acd93a00-8134/) for detailed sizing and spacing information. 
 
-**Font**
+- - -
 
-- System font, size 14px, semibold  
-  <br/>
+## Button types
 
-**Rounded corners**
+#### Primary Button
 
-- The corners should always be rounded to create a half-circle effect. 50px corner radius should be used.
-  <br/>
+A Primary Button is used for the most common, or most important action on the page. Avoid using more than one Primary Button on a page to help direct users to the main action. 
 
----
+![](/images/button-docs-primarybutton.png)
 
-## Style Variations
+A destructive Primary Button is used when the action being taken will cause permanent changes to the system, such as deleting data.
 
-**Primary button**
+![](/images/button-docs-destructiveprimary.png)
 
-![primary button](/images/components/buttons/Primary_button.svg)
+#### Secondary Button
 
-- A primary button is used to call attention to the main action a user should take on the page.
-- Avoid using standard buttons within tables.
-- Avoid using more than 1 primary button on a page if possible.
+A Secondary Button is used to represent a secondary action on a page. A page can consist of many Secondary Buttons.
 
-<Spacer size="small" />
+![](/images/button-docs-secondarybutton.png)
 
-**Secondary button**
+#### Link button
 
-![secondary button](/images/components/buttons/Secondary_button.svg)
+A Link Button is used for a less important or uncommon action. At first glace these will look similar to a text link but the button shape will appear on hover/focus. The button shape will add extra padding around the text that isn't noticeable at first. Because of this, we recommend trying to avoid using Link Buttons when they are left-aligned.
 
-- A secondary button is used to represent a secondary action on a page.
-- Secondary buttons can be used sparingly within tables.
+![](/images/button-docs-linkbutton.png)
 
-<Spacer size="small" />
+#### Icon Button
 
-**Link button**
+* Icon Buttons can be used where text is not necessary to describe the action or there isn't space for a button label.  Only use icons that are easily recognizable when presented alone.  Great examples of where an icon button would be appropriate are the pencil icon for edit; trash can icon for delete; and printer icon for print.
+* Icon Buttons can appear in both primary, secondary and link button styles. Follow the guidelines for the button styles above to determine which one you should use.
 
-![link button](/images/components/buttons/link_Button.svg)
+![](/images/button-docs-iconbutton.png)
 
-Link buttons can also be used to represent a secondary action on a page. At first glace these will appear as text, but the button shape will appear on hover/focus. This button shape will add extra padding around the text that isn't noticeable at first. Because of this, we recommend trying to avoid using link buttons when they are left-aligned.
+In some cases, it makes sense to include an icon with your button label. This should be used to add some extra attention to the button with an easily recognizable icon.
 
-<Spacer/>
+![](/images/button-docs-button-icon.png)
 
-**Icon button**
+#### Button Dropdown
 
-![icon buttons](/images/components/buttons/icon_Button.svg)
+A Button Dropdown shows all the available actions when clicked. They are found most often in tables, where there is limited space.  For more information, see [Button Dropdowns](https://booster.zywave.dev/design-system/components/button-dropdowns/?tab=usage). 
 
-- Icon buttons can be used where text is not necessary to describe the action. The pencil icon for edit, trash can icon for delete, or printer icon for print are great examples of where an icon button would be appropriate.
-- Icon buttons can appear in both primary, secondary and link button styles. Follow the guidelines for the button styles above to determine which one you should use.
-- Icons should be sized to 16x16px with 10px padding around the icon to create a perfect circle.
+![](/images/button-docs-overflowicon.png)
 
-<Spacer size="small" />
+#### **Full-width Button**
 
-**Adding an icon to a button - when to use this option**
+Full-width Buttons can be used to expand to the width of their containing elements. These should be used when the containing element doesn't span the full width of the page. Full-width Buttons can be used to show more visual separation between elements or draw more attention to buttons that may otherwise be overlooked. 
 
-![icon and text buttons](/images/components/buttons/Icon_text_button.svg)
+![](/images/button-docs-block-level-button.png)
 
-In some cases it makes sense to include an icon with your text in a button. This should be used sparingly and only where drawing some extra attention to the button is appropriate. + Add is a great example.
+#### **Loading state**
 
-Icons should be sized to 16x16px and will always appear to the left of the text within the button. The margin between the icon and the text should be 10px.
-15px padding should remain on the left and right side of the button.
+Sometimes it is necessary for Buttons to have a loading state to showcase an action is in progress as a result of the user clicking the Button. While the action is in progress, the Button will remain in its loading state. The Button becomes disabled and a loading spinner appears inside of it. Disabling the Button prevents the user from clicking it multiple times during the action's progress. The loading spinner is a visual representation of the action in progress to ensure the user that something is happening behind the scenes. After the action is complete, the loading state will no longer be in effect and the Button will go back to its normal state.
 
-<Spacer size="small" />
+![](/images/button-docs-loadingstate.png)
 
-**Block-level buttons**
+- - -
 
-![block level button example](/images/components/buttons/block-level_Buttons.svg)
+## Button states
 
-Block-level buttons can be used to expand to the width of it's containing element. These should be used when the containing element doesn't span the full width of the page. Block-level buttons can be used to show more visual separation between elements or draw more attention to a smaller button that may otherwise be overlooked.
-The height should still remain 36px and font size should remain 14px.
+![](/images/button-docs-states.png)
 
-<Spacer size="small" />
+#### **Normal**
 
-**Loading button**  
-A loading button appears when the action does not take the user away from the current page, but the process that is kicked off prevents the user from taking additional action on the page.
-Other actions that cannot be taken while the process is loading should become disabled buttons.
+Normal state is how a button looks by default before any interaction or action is taken.
 
-_IN PROGESS New design/animation coming soon!_
+#### **Hover**
 
-<Spacer size="small" />
+Hover state occurs when the user hovers over a button or link with their mouse.
 
-**Text links**  
-Text links, unlike link buttons, will appear as underlined text with no padding.
+#### **Focus**
 
-![text link examples](/images/components/buttons/text_Links.svg)
+Focus state appears when the button is currently selected and awaiting action. This commonly occurs when using a keyboard to navigate.
 
----
+#### **Pressed**
 
-## Button States
+Pressed state occurs when a user clicks or taps the button, or hits enter on a keyboard while the button is focused. This state only appears briefly while the page/action is loading.
 
-![button states](/images/components/buttons/Button_States.svg)
+#### **Disabled**
 
-**Normal**  
-Normal state is the initial state of the button when the page first loads and before any action is taken.  
-<br/>
+Disable state occurs when an action currently isn't available. Disabled buttons should only be used when an action can be taken within the current UI to enable the button. IF no action can be taken to enable the button, then the button should be hidden instead of disabled.
 
-**Hover**  
-Hover state occurs when the user hovers over a button or link with their mouse.  
-<br/>
+Note:  We have added the CSS property pointer-events: none; to this button style that will further prevent users from clicking a disabled button.
 
-**Focus**  
-Focus state appears when the button is currently selected and awaiting action. This commonly occurs when using a keyboard to navigate.  
-<br/>
+#### Blue background button states
 
-**Pressed**  
-Pressed state occurs when a user clicks (or hits enter on a keyboard). This state only appears briefly while the page/action is loading.  
-<br/>
+Used in the Shell Action Bar. For more information, see [Shell documentation](https://booster.zywave.dev/design-system/components/shell/?tab=usage).
 
-**Disabled**  
-Disable state occurs when an action currently isn't available.
-Disabled buttons should only be used when an action can be taken within the current UI to enable the button. IF no action can be taken to enable the button, then the button should be hidden instead of disabled.
+![](/images/button-docs-states-bluebg.png)
 
-We have added the CSS property pointer-events: none; to this button style that will further prevent users from clicking a disabled button.
-<br/>
+- - -
 
-<Spacer size="small" />
+## Best practices
 
-### Blue background button states
+* Avoid using more than 1 Primary Button on a page if possible.
+* Link Buttons are preferred to use within a table.
+* If there are 3three Buttons next to each other, try to only use two styles (for example, one Primary and two Link Buttons) or combine them into a Button Group.
 
-![blue background button states](/images/components/buttons/button-blue-bkg.svg)
+#### Button labeling
 
-<Spacer size="small" />
+* You can add a label, icon, or both to a button.
+* Be straightforward, use labels that describe what actually happens when people use the button. 
+* Use sentence casing. 
+* Don’t use punctuation.
+* Start label with a verb.
+* Consider using two words (verb + noun = Create report / Add user / Send email).  This adds clarity when there are multiple different actions on a page.  In some situations, a simple "Edit" "Save" or "Cancel" is just fine.
+* Icons can be used to add more visual weight and identity to the action.
 
-### Dark mode button states
+- - -
 
-![dark mode button states](/images/components/buttons/button-dark-mode.svg)
+## Alt considerations
 
----
-
-## Button style best practices
-
-- Try to avoid using more than one primary button per page.
-- If there are 3 buttons next to each other, try to only use 2 styles (for example: 1 primary and 2 link buttons)
-  Primary buttons should never be used within a table.
-- The preferred button style to use within a table is the link button.
-
-![buttons in a table](/images/components/buttons/Button_table.svg)
+* Use a Text Linkfor actions that are navigational and take the user to another place. 
+* Use a [Button Group](https://booster.zywave.dev/design-system/components/button-groups/?tab=usage) when 3 or more buttons are grouped together on a single line.
+* Use a [Button Dropdown](https://booster.zywave.dev/design-system/components/button-dropdowns/?tab=usage) to reveal a list of three or more actionable options.
+* Use a [Dropdown Select](https://booster.zywave.dev/design-system/components/dropdown-selects/?tab=usage)if the user is making a selection instead of executing an action.
