@@ -126,9 +126,9 @@ Used in the Shell Action Bar. For more information, see [Shell documentation](ht
 
 ## Best practices
 
-* Avoid using more than 1 Primary Button on a page if possible.
+* Avoid using more than one Primary Button on a page if possible.
 * Link Buttons are preferred to use within a table.
-* If there are 3three Buttons next to each other, try to only use two styles (for example, one Primary and two Link Buttons) or combine them into a Button Group.
+* If there are three Buttons next to each other, try to only use two styles (for example, one Primary and two Link Buttons) or combine them into a Button Group.
 
 #### Button labeling
 
@@ -144,7 +144,7 @@ Used in the Shell Action Bar. For more information, see [Shell documentation](ht
 
 ## Alternate considerations
 
-* Use a Text Linkfor actions that are navigational and take the user to another place. 
+* Use a Text Link for actions that are navigational and take the user to another place. 
 * Use a [Button Group](https://booster.zywave.dev/design-system/components/button-groups/?tab=usage) when 3 or more buttons are grouped together on a single line.
 * Use a [Button Dropdown](https://booster.zywave.dev/design-system/components/button-dropdowns/?tab=usage) to reveal a list of three or more actionable options.
 * Use a [Dropdown Select](https://booster.zywave.dev/design-system/components/dropdown-selects/?tab=usage)if the user is making a selection instead of executing an action.
