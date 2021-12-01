@@ -142,7 +142,7 @@ Used in the Shell Action Bar. For more information, see [Shell documentation](ht
 
 - - -
 
-## Alt considerations
+## Alternate considerations
 
 * Use a Text Linkfor actions that are navigational and take the user to another place. 
 * Use a [Button Group](https://booster.zywave.dev/design-system/components/button-groups/?tab=usage) when 3 or more buttons are grouped together on a single line.
