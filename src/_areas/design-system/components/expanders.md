@@ -193,4 +193,4 @@ Avoid using actions within the Expander that contradict any page-level actions. 
 ## Alternate considerations
 
 * Consider using [Cards](/design-system/components/cards/) when there is no real benefit to focusing the user on one section at a time.
-* Consider using [Tabs](/design-system/components/tabs/) when the length of the content area exceeds the average users' viewport height or when there are more than a handful of form fields.
+* Consider using [Tabs](/design-system/components/tabs/) when the length of the content area exceeds the average user's viewport height or when there are more than a handful of form fields.
