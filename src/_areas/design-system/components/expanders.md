@@ -59,7 +59,7 @@ Standard Expanders consist of up to seven different parts.
 4. **Preview text (optional):**  An optional sample of the content contained in the section. Preview text can be useful to display settings that are applied in the content area. 
 5. **Indicator icon:** An icon located in the header area that indicates to the user when a section can be expanded or collapsed. 
 6. **Content area:** The area that appears when a section is expanded.
-7. **Action area (optional):** An optional area for consistent placement for actions inside of a section.
+7. **Action area (optional):** An optional area for consistent placement of actions inside of a section.
 
 <docs-spacer size="small"></docs-spacer>
 
