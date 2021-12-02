@@ -10,7 +10,7 @@ includedElements: []
 
 An Expander is a container used to organize an overabundance of content and conserve space on the page. Because Expanders can save a large amount of space, they can be extremely useful for mobile interfaces.
 
-Expanders can be used standalone or in a group to hide and reveal different sections of content providing users with the bigger picture of the content on the page before diving into the details. Important information is shown initially and additional details are revealed upon interaction.  
+Expanders can be used standalone or in a group to hide and reveal different sections of content, providing users with the bigger picture of the content on the page before diving into the details. Important information is shown initially and additional details are revealed upon interaction.  
 
 ![Standard Expander on a mobile device](/images/expander_usage_mobile.svg)
 
