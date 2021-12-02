@@ -113,10 +113,10 @@ By default, all sections can be opened at the same time. If there are any sectio
 
 ### Keyboard navigation
 
-* Tab to select an Expander
-* Space bar/ enter key to open or close the selected section
-* When open, tab to select interactive elements (input, link or buttons if available)
-* Tab to select the next Expander
+* `[Tab]` to select an Expander
+* `[Space]` or `[Enter]` to open/close the selected section
+* When open, `[Tab]` to select interactive elements (input, link or buttons if available)
+* `[Tab]` to select the next Expander
 
 - - -
 
