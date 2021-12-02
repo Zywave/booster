@@ -73,7 +73,7 @@ A Peek-a-boo Expander contains three different parts.
 
 1. **Title:** The text label that indicates the content that is contained within the section. 
 2. **Content:** The full length of the content is visible when expanded. When collapsed the content is truncated to just a few lines. 
-3. **Expander action:** A link to "See more" is below the truncated content when collapsed, and a link to "See less" is below the expanded content. 
+3. **Expander action:** A link button to "See more" is below the truncated content when collapsed, and a link button to "See less" is below the expanded content. 
 
 <docs-spacer size="small"></docs-spacer>
 
