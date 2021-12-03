@@ -1,77 +1,86 @@
 ---
+title: Checkboxes
+subtitle: ""
 api: https://cdn.zywave.com/@zywave/zui-checkbox@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-checkbox@next/demo/index.html
 mainComponentName: zui-checkbox
 includedElements: []
-title: Checkboxes
-subtitle: Selection controls that allow the user to make multiple selections from a list of options.
 ---
-
 ## What are checkboxes?
 
 Checkboxes are selection controls that allow the user to make multiple selections from a list of options. Unlike some other selection controls, checkboxes display all of the options, so the user has a chance to see all options before and while making their selections. They most commonly appear in forms.
 
 <hr>
 
-## When to use checkboxes
+## Usage
 
 A checkbox should be used when selecting zero, one, or more independent options from a list or to show a list of sub-selections. A standalone checkbox can also be used to select a single option in certain environments and situations.
 
-### Alternate considerations
-
-- Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
-- Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
-- Use a [radio button](/design-system/components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
-- Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
-
 <hr>
 
-## Style variations
+## Types
 
-### Standard checkbox
+![Image of a standard checkbox](/images/checkbox-styles.png)
 
-![Image of a standard checkbox](/images/components/checkboxes/Assets_03-20/standardcheck_small.svg)
+<br>
 
-Standard checkboxes are the most common. They allow the user to make selections and quickly move on to the next task.
+### Standard Checkbox
 
-- Use when the number of options is easy for the user to process, generally fewer than 10.
-- Unless you want to emphasize the selection, these are usually the checkboxes you should use.
+Standard checkboxes are the most common types of Checkboxes. They allow users to make selections and quickly move on to the next task.
 
-<docs-spacer size="small"></docs-spacer>
+* Use when the number of options is easy for the user to process, generally fewer than 10.
+* Checkboxes are small by nature, and they can be hard to click or tap. To help users make easier selections, make sure the clickable area includes both the checkbox and its label.
 
-### Gallery checkbox
+<br>
 
-![Image of a gallery checkbox](/images/components/checkboxes/Assets_03-20/gallerycheck_small.svg)
+### Gallery Checkbox
 
-Gallery checkboxes are more prominent than standard checkboxes. They often feature an icon and take up a great deal of space on the page. They are generally used when they control the only selection the user can make on that page.
+Gallery checkboxes are more prominent than standard checkboxes. They are generally used when they control the only selection the user can make on that page.
 
-- Because they're so large, they should generally be reserved for when that selection is the only one the user can make on that page.
-- Icons both emphasize the selection and reinforce the contrast between the options.
+* Since Gallery Checkboxes can be significantly larger in size than Standard Checkboxes, they should generally be reserved for when that selection is the only one the user can make on that page.
+* Spot illustrations are optional to use inside a Gallery Checkbox. They are used to both emphasize the selection and reinforce the contrast between the options.
 
 <hr>
 
 ## Anatomy
 
-![Image of all checkboxes](/images/components/checkboxes/Assets_03-20/checkbox_anatomy.svg)
+For detailed documentation on our checkbox anatomy, view the [checkbox design specs](https://xd.adobe.com/view/1e451acf-dca2-47ce-8bee-99ca93473313-4b16/grid).
 
-For detailed documentation on our checkbox anatomy, view the [ZUI checkbox design specs](https://xd.adobe.com/view/93be6c9d-e5f1-40af-7116-323e57943237-e58f/grid).
+![Image of Standard Checkbox](/images/anatomy-standard.png)
 
-### Standard checkbox
+### Standard Checkbox
 
-- Checkbox height and width will always be 24px
-- Clickable area of the checkbox will always be 36px, and include the label if applicable
-- System font, size 14px, regular
+The entire Checkbox can be interacted with to check or uncheck it.
 
-### Gallery checkbox
+1. **Checkbox**: a visual indicator for the option when it has been checked or unchecked
+2. **Label**: a text description of the option
+3. **Option**: the combination of a checkbox and a label
 
-- Checkbox height and width is determined by height and width of text
-- System font, size 14px, semibold
+![Image of Gallery Checkbox](/images/anatomy-gallery.png)
+
+### Gallery Checkbox
+
+The entire gallery Checkbox can be interacted with to check or uncheck it.
+
+1. **Checkbox**: a visual indicator for the option when it been checked or unchecked
+2. **Label**: a text description of the option
+3. **Spot illustration (optional)**: emphasizes the option and reinforces the contrast between different options
 
 <hr>
 
-## Checkbox states
+## States
 
-![Image of standard checkbox states](/images/components/checkboxes/Assets_03-20/checkbox_states_standard.svg)
+![Image of standard checkbox states](/images/standard-checkbox-states.png)
+
+Standard Checkbox states
+
+![Gallery Checkbox states](/images/gallery-checkbox-states-no-illustrations.png)
+
+Gallery Checkbox states
+
+![Gallery Checkbox states - with illustrations](/images/gallery-checkbox-states.png)
+
+Gallery Checkbox states - with illustrations
 
 ### Normal
 
@@ -91,31 +100,144 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 <hr>
 
-## Checkbox best practices
+## Best practices
+
+#### Be consistent when writing Checkbox labels
+
+* Make sure all Checkbox labels follow the same text format, such as sentence case, title case, etc.
+* Avoid ending Checkbox labels with a period (.)
+* Make sure all Checkbox labels follow the same pattern; which can be a sentence, a phrase, or a single word
 
 <docs-grid columns="2">
 
 <div>
 
-![Checkbox Label Do](/images/components/checkboxes/Assets_03-20/checklabel_do.svg)
+![Keep label text format consistent](/images/group-264508.png)
 
 <docs-do>
-  Checkboxes should always have a label.
+Keep label text format and pattern consistent
 </docs-do>
 
 </div>
 
 <div>
 
-![Checkbox Label Don't](/images/components/checkboxes/Assets_03-20/checklabel_dont.svg)
+![Avoid ending Checkbox labels with a period (.)](/images/2.png)
 
 <docs-do-not>
-  A checkbox without a label is unusable; the user will not know what selection they are making without text.
+Avoide having multiple formats such as different phrases, end in periods, and etc.
 </docs-do-not>
 
 </div>
 
 </docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+#### Use positive wording for Checkbox labels
+
+Checkboxes universally infer affirmation, not negation. When writing the Checkbox label, make sure to use positive and active wording so that it is clear to users what *will* happen if they click on the Checkbox. 
+
+<docs-grid columns="2">
+
+<div>
+
+![Use positive and active wording in Checkbox labels to indicate what will happen if checked.](/images/2-1.png)
+
+<docs-do>
+Use positive and active wording in Checkbox labels to indicate what will happen if checked.
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid negations in Checkbox labels, which means that the user would have to check the box in order for something not to happen.](/images/2-2.png)
+
+<docs-do-not>
+Avoid negations in Checkbox labels, which means that the user would have to check the box in order for something not to happen.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+#### Lay out Checkbox lists vertically
+
+It is recommended that check lists be displayed vertically with one checkbox per line to better distinguish each option so they are easier to scan and read. If you must use a horizontal layout, make sure to space items out abundantly so that it is easy for users to associate Checkboxes with the correct label. 
+
+<docs-grid columns="2">
+
+<div>
+
+![If you have to display Checkboxes horizontally, make sure to space each checkbox out appropriately so the checkbox associates with the related label](/images/3-1.png)
+
+<docs-do>
+If you have to display Checkboxes horizontally, make sure to space each checkbox out appropriately so the checkbox associates with the related label
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid placing Checkboxes too close to each other as it would create confusion on associate the right checkbox to the right label](/images/3-2.png)
+
+<docs-do-not>
+Avoid placing Checkboxes too close to each other as it would create confusion and not associate the right checkbox to the right label
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+#### Use a Tri-State Checkbox when a list is partially selected
+
+The indeterminate state is required to represent a partially checked parent Checkbox when some of its sub-options are checked.
+
+<docs-grid columns="2">
+
+<div>
+
+![Use a tri-state Checkbox when a list is partially selected](/images/4-1.png)
+
+<docs-do>
+Use a tri-state Checkbox when a list is partially selected
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid leaving the parent level Checkbox unchecked to avoid confusion](/images/4-2.png)
+
+<docs-do-not>
+ Avoid leaving the parent level Checkbox unchecked to avoid confusion
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+## Alternate considerations
+
+* Use a [dropdown multi-select](/design-system/components/dropdown-multi-selects/) if zero or more options can be selected and for lists larger than 10 items.
+* Use a [dropdown select](/design-system/components/dropdown-selects/) if only one option can be selected and for lists larger than 10 items.
+* Use a [radio button](/design-system/components/radio-buttons/) if only one option can be selected and for lists smaller than 10 items.
+* Use a [toggle](/design-system/components/toggles/) if the options are two opposing states such as a yes or no, on or off.
 
 <hr>
 
