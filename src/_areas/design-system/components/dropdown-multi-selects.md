@@ -30,7 +30,7 @@ The anatomy of a dropdown multi-select.
 4. **Option list:** The grouping of related input options.
 5. **Option:** A unique input option.
 6. **Option checkbox:** A selectable checkbox beside an option.
-7. **Scrollbar**: A bar used to scroll to view more options
+7. **Scrollbar**: A bar used to scroll to view more options.
 
 <br>
 
