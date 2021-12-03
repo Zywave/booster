@@ -24,7 +24,7 @@ The anatomy of a dropdown multi-select.
 
 ![Dropdown multi-select anatomy](/images/multi_select_anatomy.svg)
 
-1. **Input:** The form field where the user can select one or more options from a list
+1. **Select:** The form field where the user can select one or more options from a list
 2. **Selection tag**: Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle.
 3. **Chevron:** The chevron icon indicates there are options available in a dropdown list.
 4. **Option list:** The grouping of related input options.
