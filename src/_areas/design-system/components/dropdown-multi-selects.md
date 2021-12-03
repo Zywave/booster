@@ -60,7 +60,7 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/g
 
 #### Select states
 
-Dropdown multi-select can display the following states: unselected, hover, focused, active, selected focused, selected and disabled.
+Dropdown multi-selects can display the following states: unselected, hover, focus, active, and disabled.
 
 ![Dropdown multi-select states](/images/multiselect_states.svg)
 
