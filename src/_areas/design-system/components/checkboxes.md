@@ -24,12 +24,12 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 <br>
 
-### Standard Checkboxes
+### Standard Checkbox
 
 Standard checkboxes are the most common types of Checkboxes. They allow users to make selections and quickly move on to the next task.
 
 * Use when the number of options is easy for the user to process, generally fewer than 10.
-* Checkboxes are small by its nature, and they can be hard to click or tap. To help users make easier selections, make sure the clickable area includes both the checkbox and its label.
+* Checkboxes are small by nature, and they can be hard to click or tap. To help users make easier selections, make sure the clickable area includes both the checkbox and its label.
 
 <br>
 
@@ -44,7 +44,7 @@ Gallery checkboxes are more prominent than standard checkboxes. They are general
 
 ## Anatomy
 
-For detailed documentation on our checkbox anatomy, view the [ZUI checkbox design specs](https://xd.adobe.com/view/1e451acf-dca2-47ce-8bee-99ca93473313-4b16/grid).
+For detailed documentation on our checkbox anatomy, view the [checkbox design specs](https://xd.adobe.com/view/1e451acf-dca2-47ce-8bee-99ca93473313-4b16/grid).
 
 ![Image of Standard Checkbox](/images/anatomy-standard.png)
 
@@ -52,9 +52,9 @@ For detailed documentation on our checkbox anatomy, view the [ZUI checkbox desig
 
 The entire Checkbox can be interacted with to check or uncheck it.
 
-1. Checkbox: A visual indicator for the option when it been checked or unchecked
-2. Label: a text description of the option
-3. Option: the combination of a checkbox and a label
+1. **Checkbox**: a visual indicator for the option when it has been checked or unchecked
+2. **Label**: a text description of the option
+3. **Option**: the combination of a checkbox and a label
 
 ![Image of Gallery Checkbox](/images/anatomy-gallery.png)
 
@@ -62,9 +62,9 @@ The entire Checkbox can be interacted with to check or uncheck it.
 
 The entire gallery Checkbox can be interacted with to check or uncheck it.
 
-1. Checkbox: A visual indicator for the option when it been checked or unchecked
-2. Label: a text description of the option
-3. Spot illustration (optional): emphasizes the option and reinforces the contrast between different options
+1. **Checkbox**: a visual indicator for the option when it been checked or unchecked
+2. **Label**: a text description of the option
+3. **Spot illustration (optional)**: emphasizes the option and reinforces the contrast between different options
 
 <hr>
 
@@ -138,7 +138,7 @@ Avoide having multiple formats such as different phrases, end in periods, and et
 
 #### Use positive wording for Checkbox labels
 
-Checkboxes universally infer affirmation, not negation. When writting the Checkbox label, make sure to use positive and active wording so that it is clear to users what *will* happen if they click on the Checkbox. 
+Checkboxes universally infer affirmation, not negation. When writing the Checkbox label, make sure to use positive and active wording so that it is clear to users what *will* happen if they click on the Checkbox. 
 
 <docs-grid columns="2">
 
@@ -189,7 +189,7 @@ If you have to display Checkboxes horizontally, make sure to space each checkbox
 ![Avoid placing Checkboxes too close to each other as it would create confusion on associate the right checkbox to the right label](/images/3-2.png)
 
 <docs-do-not>
-Avoid placing Checkboxes too close to each other as it would create confusion on associate the right checkbox to the right label
+Avoid placing Checkboxes too close to each other as it would create confusion and not associate the right checkbox to the right label
 </docs-do-not>
 
 </div>
@@ -200,9 +200,9 @@ Avoid placing Checkboxes too close to each other as it would create confusion on
 
 </docs-spacer>
 
-#### Use Tri-State Checkbox when a list is partially selected
+#### Use a Tri-State Checkbox when a list is partially selected
 
-An indeterminate state is required when sub-options are grouped under a parent Checkbox. The indeterminate state represents a parent Checkbox that is partially checked due to some of its sub-options only being checked.
+The indeterminate state is required to represent a partially checked parent Checkbox when some of its sub-options are checked.
 
 <docs-grid columns="2">
 
