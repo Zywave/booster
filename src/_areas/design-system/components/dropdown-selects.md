@@ -34,7 +34,7 @@ The anatomy of a dropdown select.
 2. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
 3. **Option list:** The grouping of related input options.
 4. **Option:** A unique input option.
-5. **Scrollbar**: A bar used to scroll to view more options
+5. **Scrollbar**: A bar used to scroll to view more options.
 
 <br>
 
@@ -46,7 +46,7 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 #### Grouping
 
-* Titles can break up options into logical groups to help users scan the options more easily.
+* Grouping options with proper group labels can help users scan the list more easily.
 
 ![Dropdown select grouping](/images/select_grouping_specs.svg)
 
@@ -64,13 +64,13 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 #### Input states
 
-Dropdown select can display the following states: unselected, hover, focused, active, selected and disabled.
+Dropdown selects can display the following states: unselected, hover, focus, active, and disabled.
 
 ![Dropdown select states](/images/select_states.svg)
 
-#### Option list states
+#### Option states
 
-Dropdown select option list can display the following states: selected, hover and disabled.
+Within Dropdown select option lists, options can display the following states: selected, hover, and disabled.
 
 ![Dropdown select list states](/images/select_list_states.svg)
 
@@ -82,25 +82,25 @@ Sort the list in a logical order. For instance, put the most selected option(s) 
 
 #### Open / close
 
-* Normal behavior is to reveal the list down when placement of the select input is high enough within the viewport. When select input is lower on the screen the list will reveal up.
-* Dropdown chevron icon: Rotates 180 degrees clockwise when opened, when closed spins back 180 degrees counter clockwise, returning to the original position.
-* The dropdown will close automatically after making a selection.
+* Normal behavior is to reveal the option list below the select box when there is sufficient space within the viewport to display it entirely. When lower in the viewport, the option list should reveal above the select box.
+* Chevron behavior: When the option list is opened, the chevron rotates 180 degrees clockwise. When the option list is closed, the chevron spins back 180 degrees counter clockwise, returning to its original position.
+* The option list will close automatically after making a selection or when the user clicks outside of the Dropdown select component.
 
 #### Scrolling
 
-* If the options can be displayed within the viewport it is ideal to not have a scroll bar. Scroll bars should appear when options lists exceed the height of the screen but should not be taller than 300px.
-* Note options lists will appear below or above select inputs depending on where they sit within the viewport (see Open / close).
+* If all options can be displayed within the viewport, it is ideal to not have a scroll bar. Scroll bars should appear when option lists exceed the height of the screen, but should not be taller than 300px.
+* Note: option lists will appear below or above the select boxes depending on where they sit within the viewport. (See Open / close)
 
 #### Typeahead
 
 * Present in all dropdown selects, streamlines experience for users.
-* Typeahead is relevant only to options in the list, it will not return group names. Grouping headers are not seen when using typeahead.
+* Typeahead is relevant only to options in the list; it will not return group labels. Group labels are not seen when using typeahead.
 
 [See typeahead](/design-system/patterns/typeahead/)
 
 #### Defaulting a selection
 
-* A dropdown select shouldn't default a selected option. If you're confident users will likely choose an option you may consider defaulting to a selection.
+* A Dropdown select shouldn't default a selected option. Defaulting a selection only makes sense after a user's selection has been saved and they revisit to update their choice.
 
 - - -
 
