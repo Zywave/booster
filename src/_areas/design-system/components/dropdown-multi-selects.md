@@ -92,7 +92,7 @@ Sort the list in a logical order. For instance, alphabetical order or put the mo
 #### Typeahead
 
 * Present in all dropdown selects, streamlines experience for users.
-* Typeahead is relevant only to options in the list, it will not return group names. Grouping headers are not seen when using typeahead.
+* Typeahead is relevant only to options in the list; it will not return group labels. Group labels are not seen when using typeahead.
 
 [See typeahead](/design-system/patterns/typeahead/)
 
