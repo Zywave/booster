@@ -1,7 +1,6 @@
 ---
 title: Dropdown multi-select
-subtitle: Type of input field in which a user fills an input box with one or
-  many items from a list of acceptable inputs.
+subtitle: Type of form control where a user is presented with a list of options to choose one or many items from
 api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-select@next/demo/index.html
 mainComponentName: zui-select-dropdown
