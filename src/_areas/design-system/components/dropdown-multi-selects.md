@@ -109,10 +109,10 @@ Sort the list in a logical order. For instance, alphabetical order or put the mo
 
 #### Removing the selection
 
-* After a user has chosen an option it turns into a selection within the input. Users can remove a selection by using one of three methods.
-* Selections can be removed by clicking on the X icon within the selection.
-* Backspacing over a selection in the input removes it.
-* By deselecting the checkbox within an option list will also remove the selection.
+* After a user has chosen an option it appears as a selection within the select box. Users can remove a selection by using one of three methods:
+  * Selections can be removed by clicking on the X icon within the selection.
+  * Backspacing over a selection in the select box removes it.
+  * Deselecting the checkbox within the option list will also remove the selection.
 
 - - -
 
