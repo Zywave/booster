@@ -44,7 +44,7 @@ For more information, see [body copy](#body-copy).
 
 </GridCol>
 </Grid>
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 | Name               | Size(px) | Weight | Color        | Usage guidelines                                                                        |
 | :----------------- | :------- | :----- | :----------- | :-------------------------------------------------------------------------------------- |
@@ -71,7 +71,7 @@ We have 3 defined body copy sizes used throughout our applications. Typically, d
 
 </GridCol>
 </Grid>
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 | Name    | Size(px) | Weight | Color        | Usage guidelines |
 | :------ | :------- | :----- | :----------- | :--------------- |

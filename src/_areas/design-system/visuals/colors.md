@@ -1143,7 +1143,7 @@ The color blue is primarily used to guide the user throughout the UI. It is ofte
 </GridCol>
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Green
 
@@ -1346,7 +1346,7 @@ Green 500 will often appear in components such as notifiers, wells and dialogues
 </GridCol>
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Aqua
 
@@ -1542,7 +1542,7 @@ Often associated with feelings such as refreshing, energy, sophistication and cr
 </GridCol>
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Purple
 
@@ -1738,7 +1738,7 @@ Purple's primary placement in our products will be visited text links. However, 
 </GridCol>
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Rose
 
@@ -1934,7 +1934,7 @@ Often viewed as very feminine, pink can be used to add softness/playfulness to i
 </GridCol>
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Red
 
@@ -2134,7 +2134,7 @@ The meaning behind the color red should be highly considered when using it withi
 </GridCol>
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Orange
 
@@ -2330,7 +2330,7 @@ Orange radiates warmth and happiness. It is a very energizing color and it is of
 </GridCol>
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Yellow
 

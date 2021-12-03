@@ -102,4 +102,4 @@ The action text should not be overly specific or call out file details, such as 
 
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />

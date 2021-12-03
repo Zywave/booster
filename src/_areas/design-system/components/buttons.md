@@ -64,7 +64,7 @@ For detailed documentation on our button anatomy, view the [ZUI button design sp
 - Avoid using standard buttons within tables.
 - Avoid using more than 1 primary button on a page if possible.
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 **Secondary button**
 
@@ -73,7 +73,7 @@ For detailed documentation on our button anatomy, view the [ZUI button design sp
 - A secondary button is used to represent a secondary action on a page.
 - Secondary buttons can be used sparingly within tables.
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 **Link button**
 
@@ -91,7 +91,7 @@ Link buttons can also be used to represent a secondary action on a page. At firs
 - Icon buttons can appear in both primary, secondary and link button styles. Follow the guidelines for the button styles above to determine which one you should use.
 - Icons should be sized to 16x16px with 10px padding around the icon to create a perfect circle.
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 **Adding an icon to a button - when to use this option**
 
@@ -102,7 +102,7 @@ In some cases it makes sense to include an icon with your text in a button. This
 Icons should be sized to 16x16px and will always appear to the left of the text within the button. The margin between the icon and the text should be 10px.
 15px padding should remain on the left and right side of the button.
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 **Block-level buttons**
 
@@ -111,7 +111,7 @@ Icons should be sized to 16x16px and will always appear to the left of the text 
 Block-level buttons can be used to expand to the width of it's containing element. These should be used when the containing element doesn't span the full width of the page. Block-level buttons can be used to show more visual separation between elements or draw more attention to a smaller button that may otherwise be overlooked.
 The height should still remain 36px and font size should remain 14px.
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 **Loading button**  
 A loading button appears when the action does not take the user away from the current page, but the process that is kicked off prevents the user from taking additional action on the page.
@@ -119,7 +119,7 @@ Other actions that cannot be taken while the process is loading should become di
 
 _IN PROGESS New design/animation coming soon!_
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 **Text links**  
 Text links, unlike link buttons, will appear as underlined text with no padding.
@@ -155,13 +155,13 @@ Disabled buttons should only be used when an action can be taken within the curr
 We have added the CSS property pointer-events: none; to this button style that will further prevent users from clicking a disabled button.
 <br/>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Blue background button states
 
 ![blue background button states](/images/components/buttons/button-blue-bkg.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ### Dark mode button states
 

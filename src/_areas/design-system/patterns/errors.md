@@ -6,7 +6,7 @@ subtitle:
 
 Errors should always be prevented whenever possible to limit user frustration. When a user does encounter an error, the message should be concise and actionable to help them quickly solve the problem. Below are some of the common types of errors and how they are best presented to the user.
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ## Critical error preventing the user from continuing with their workflow
 
@@ -23,7 +23,7 @@ Errors should always be prevented whenever possible to limit user frustration. W
 
 - Details for each message type can be found in our [error messaging documentation](/design-system/voice-and-tone/error-messages/ "Documentation for different error messages")
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 ![Full page error example](/images/patterns/errors/full-page-error.svg)
 

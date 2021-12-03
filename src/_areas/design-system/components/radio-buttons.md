@@ -144,7 +144,7 @@ A single radio button should never be used alone.
 
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 <Grid>
 
@@ -170,7 +170,7 @@ A group of radio buttons should never be shown without a default selection.
 
 </Grid>
 
-<docs-spacer size="small"></docs-spacer>
+<Spacer size="small" />
 
 <Grid>
 
