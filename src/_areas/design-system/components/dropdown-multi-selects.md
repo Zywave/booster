@@ -103,7 +103,7 @@ Sort the list in a logical order. For instance, alphabetical order or put the mo
 
 #### Selection wrapping
 
-* When multiple options are selected in a multi-select list, selections will populate the input and eventually will have to wrap, in order to fit.
+* When options are selected from the Dropdown multi-select option list, selections will populate inside the select box. Multiple selections should wrap within the select box to fit all.
 
 ![Tags selection wrapping](/images/tag_specs.svg)
 
