@@ -98,7 +98,7 @@ Sort the list in a logical order. For instance, alphabetical order or put the mo
 
 #### Defaulting a selection
 
-* A dropdown select shouldn't default a selected option. If you're confident users will likely choose an option you may consider defaulting to a selection.
+* A Dropdown multi-select shouldn't default a selected option. Defaulting a selection only makes sense after a user's selection has been saved and they revisit to update their choice.
 * Sometimes choosing 'none' as an option is necessary, if none of the options are applicable to the user. None should appear at the top of the list.
 
 #### Selection wrapping
