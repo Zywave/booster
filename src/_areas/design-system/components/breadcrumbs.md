@@ -92,10 +92,10 @@ Breadcrumbs alignment:
 
 ## Best Practices
 
-### Page title length
+### Breadcrumb title length
 
 * We recommend keeping Breadcrumb titles to 30 characters or less, especially in longer trails, but leave the length up to the consumer
-* Page titles will truncate after 30 characters with an ellipsis at the end
+* Breadcrumb titles will truncate after 30 characters with an ellipsis at the end
 
 ![truncated title breadcrumb](/images/truncate.png)
 
@@ -105,7 +105,7 @@ Breadcrumbs alignment:
 
 ### Separators should mimic movement
 
-Use chevrons as separators between page/Breadcrumb titles. They not only help separate between different page/Breadcrumb titles, but also help indicate hierarchy.
+Use chevrons as separators between Breadcrumb titles. They not only help separate between different Breadcrumb titles, but also help indicate hierarchy.
 
 <docs-grid columns="2">
 
@@ -114,7 +114,7 @@ Use chevrons as separators between page/Breadcrumb titles. They not only help se
 ![Always use right arrows in breadcrumb trials](/images/1-1.png)
 
 <docs-do>
-Always use right arrows in breadcrumb trials.
+Always use right arrows in breadcrumb trails.
 </docs-do>
 
 </div>
@@ -143,10 +143,10 @@ When placing ellipses, always leave the first item visible and avoid using ellip
 
 <div>
 
-![Consider using ellipses from the second item. Always leave the first item so users can easier find where the structure starts](/images/2-1.png)
+![Consider using ellipses from the second item onwards. Always leave the first item visible so users can easily find where the structure starts.](/images/2-1.png)
 
 <docs-do>
-Consider using ellipses from the second item. Always leave the first item so users can easier find where the structure starts.
+Consider using ellipses from the second item onwards. Always leave the first item visible so users can easily find where the structure starts.
 </docs-do>
 
 </div>
