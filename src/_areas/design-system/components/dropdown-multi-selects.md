@@ -42,7 +42,7 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/g
 
 #### Grouping
 
-* Titles can break up options into logical groups to help users scan the options more easily.
+* Grouping options with proper group labels can help users scan the list more easily.
 
 ![Dropdown multi-select grouping](/images/multiselect_grouping_specs.svg)
 
