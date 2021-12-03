@@ -80,7 +80,7 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 #### Open / close
 
-* Normal behavior is to reveal the list down when placement of the select input is high enough within the viewport. When select input is lower on the screen the list will reveal up.
+* Normal behavior is to reveal the option list below the select box when there is sufficient space within the viewport to display it entirely. When lower in the viewport, the option list should reveal above the select box.
 * Dropdrown chevron icon: rotates 180 degrees clockwise when opened, when closed spins back 180 degrees counter clockwise, returning to the original position.
 * The dropdown will need to be closed manually after making selections.
 
