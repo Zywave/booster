@@ -17,13 +17,13 @@ ZUI exposes a `zui-app-styles` package which is a collection of style files cont
 
 To install `zui-app-styles` there are 2 main ways to add to a project, very similar to how ZUI components are added.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ** 1. Link to the `zui-app-styles` stylesheet via CDN **
 
 This stylesheet can be found in two packages: `zui-app-styles` and `zui-bundle`. Our recommendation is to point to either location, but unpin the version with `@latest` so you get the benefit of always linking to the latest version of `zui-app-styles`.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ** 1A. Link to `zui-bundle`'s stylesheet (recommended) **
 
@@ -35,7 +35,7 @@ This stylesheet can be found in two packages: `zui-app-styles` and `zui-bundle`.
 
 `zui-bundle.app.css` includes both `zui-base-styles` and `zui-app-styles` stylesheets. The benefit of including the `zui-base-styles` stylesheet, is when you use `zui-app-styles` it makes sure browsers render all elements consistently.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ** 1B. Link to `zui-app-styles` stylesheet directly **
 
@@ -45,7 +45,7 @@ This stylesheet can be found in two packages: `zui-app-styles` and `zui-bundle`.
 </head>
 ```
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ** 2. Add as a dependency to your project via NPM or Yarn **
 
@@ -61,7 +61,7 @@ Since most Zywave packages are private, include a `.yarnrc` or `.npmrc` file in 
 @zywave:registry=http://packages.zywave.com/npm/private-npm/
 ```
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 After that, you can now access all Zywave packages and specifically `zui-app-styles` for installation:
 
@@ -83,7 +83,7 @@ npm install @zywave/zui-app-styles@latest
 
 Stylesheets have a tendency to become excessive and brittle. Naming things is difficult. A class name is chosen but later its meaning can become irrelevant, and future developers aren't certain what styles can be safely removed. Utility classes offer flexibility with semantics, exceptionally useful when a layout signicantly changes, you're able to avoid renaming many classes. Conforming to a style library is also effecient for developers and projects.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 Below is an example of a before and after, to illustrate a common problem, and how `zui-app-styles` can fix this:
 
@@ -133,19 +133,19 @@ If applying more than 4 utility classes to an element, consider creating your ow
 
 The `zui-app-styles` package will be broken down with explanations of what each folder contains and the purpose of the contents within them.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### `/shared/` folder
 
 The `/shared/` folder exists as a hub to house reusable styles between component packages. Unless you're creating a component, you can ignore this.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### `/utility/` folder
 
 The `/utility/` folder houses different stylesheets based on the type of effects the styles apply. The naming attempts to organize and define the styles. We will provide a description for each stylesheet below.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 #### `.zui` class / `zui-all-reset.scss`
 
@@ -158,7 +158,7 @@ To use any and all ZUI utility classes, the CSS class ** `.zui` must be added **
 
 The `.zui` class prevents identical class names from colliding by unsetting all styles back to browser default. Take for instance `<div class="row">`: `zui-app-styles` defines a `.row` class and if another third-party stylesheet also has a `.row` class, those 2 class names can mix with unwanted side effects. `.zui` resets the element by removing all applied styles and then applies whatever ZUI utility classes on top of the now clean element.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 #### `compositon.scss`
 
@@ -246,7 +246,7 @@ The `.zui` class prevents identical class names from colliding by unsetting all 
   </div>
 </zui-expander>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 #### `elements.scss`
 
@@ -391,7 +391,7 @@ table.zui.table {
   </div>
 </zui-expander>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 #### `spatial.scss`
 
@@ -565,7 +565,7 @@ The margin and padding utility classes are based on what we refer to as 't-shirt
   </div>
 </zui-expander>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 #### `typography.scss`
 
@@ -674,7 +674,7 @@ This stylesheet houses all things related to font sizing, weights, truncation, t
   </div>
 </zui-expander>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 </TabPage>
 <TabPage>
