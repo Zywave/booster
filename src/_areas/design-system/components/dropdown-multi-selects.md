@@ -66,7 +66,7 @@ Dropdown multi-selects can display the following states: unselected, hover, focu
 
 <br>
 
-#### Option list states
+#### Option states
 
 Dropdown multi-select option list can display the following states: selected, hover and disabled.
 
