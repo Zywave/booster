@@ -76,7 +76,7 @@ Within Dropdown multi-select option lists, options can display the following sta
 
 ## Behavior
 
-Sort the list in a logical order. For instance, alphabetical order or put the most selected option(s) at the top.
+Sort the option list in a logical order. For instance, alphabetize or put the most selected option(s) at the top.
 
 #### Open / close
 
