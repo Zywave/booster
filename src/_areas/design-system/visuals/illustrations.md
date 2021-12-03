@@ -33,7 +33,7 @@ Our illustrations contain a single subject. Each design should have one focal po
 
 Our illustrations are relatable and add a human element to our otherwise very clean and professional UI. Characters in our illustrations add an element of fun and convey emotion.
 
-<Spacer />
+<docs-spacer></docs-spacer>
 
 <Tabs :tabs="['Hero illustrations', 'Spot illustrations']">
 <TabPage>

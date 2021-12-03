@@ -466,7 +466,7 @@ For most applications, our standard is to use a gray background. We use gray bec
 
 Use a white background when the content is mainly text based to enhance readability.
 
-<Spacer />
+<docs-spacer></docs-spacer>
 </TabPage>
 
 <TabPage>
@@ -675,7 +675,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 </Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Multi-step forms
 
@@ -697,7 +697,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 </Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Action buttons
 

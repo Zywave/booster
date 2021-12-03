@@ -96,19 +96,19 @@ Putting all the pieces together in the right order and layout is essential for a
 
 A multi-step form is a long form that is broken into multiple pieces. They're used to make long forms less intimidating. By allowing users to complete their information in smaller chunks, you create a positive user experience and increase the chance of form completion. Consider using a [step flow](/design-system/patterns/step-flow/) for multi-step forms.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Titling the form
 
 In most cases you'll want to give your form a clear title that helps users understand exactly what they should expect by filling out the form. 'Add an account' for example.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Labeling elements
 
 The label helps bring proper context to your inputs to let the user know what data to enter. Labels should be semi-bold and the same color as our default text (gray 600). Generally a single label element should be present for a single control.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 #### Label alignment
 
@@ -116,19 +116,19 @@ Top aligned labels are prefered for shorter forms. They are easier to read, requ
 
 ![Top Aligned Label](/images/patterns/forms/forms--label-top.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 Left aligned labels are preffered for long forms with many inputs. Right justifying the label text helps with its relationship to the input field and readability. Consider available space and number of fields when determining which label alignment to use.
 
 ![Left Aligned Label](/images/patterns/forms/forms--label-left.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 Left aligned labels should line up with the text of the element.
 
 ![Left Aligned Label](/images/patterns/forms/label--input-alignment.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Margins & gutters
 
@@ -151,13 +151,13 @@ When errors happen the form needs to make space for the proper validation indica
 2. **30px** margin between elements and notifications
 3. **30px** margin between notifications and actions
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 For left aligned labels, keep a consistent gutter between the label and the element. Shorter gutter distances make it easier for the user to use the form. Long labels that need to wrap should keep the defined form margin or gutter. We recommend 40px.
 
 ![Left Aligned Label](/images/patterns/forms/label--left-margin.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Grouping elements with cards
 
@@ -175,7 +175,7 @@ Forms typically have Primary and Cancel actions, but they could also have a seco
 
 ![contexutal help info icon](/images/patterns/forms/forms--actions-heirarchy.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 Sometimes having multiple buttons are necessary. A form may need Primary, Secondary and Cancel actions. In those cases line up the buttons based on their importance. Secondary actions, such as 'Save' are directly related to the form but should be treated as less important. 'Cancel' buttons should be treated as link buttons.
 ![contexutal help info icon](/images/patterns/forms/forms--actions-hierarchy-with-secondary-action.svg)

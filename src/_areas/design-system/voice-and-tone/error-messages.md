@@ -8,7 +8,7 @@ subtitle:
 
 There are a variety of standard error messages that a user might encounter within our products outside of validation errors. Each error should have a unique message that provides the user with a clear understanding of what caused the error and what their next steps might be. Depending on the scenario in which they encounter the error, this message could be presented using a few different delivery systems.
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ## 401 - Unauthorized
 
@@ -41,7 +41,7 @@ A user would encounter a 403 - forbidden error when they attempt to access a pag
 
 A user would encounter the 404 - not found error when attempting to access a source that has been deleted, moved, or the URL was incorrectly typed into the address bar. </br></br> There are two types of 404 - not found errors we have identified: page not found and resource not found.
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Page not found
 
@@ -78,7 +78,7 @@ The banner well error text and links are customizable by the consumer. The text 
 | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | A user selects a resource that was deleted. | The user encounters a 404 error banner well stating that the resource cannot be found. The user can either dismiss the error or select an available option such as a link to the Zywave Support site, contact a Zywave support specialist, or contact their administrator. |
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ![404 Banner](/images/voice-and-tone/messages/404_resourcenotfound_bannerwell.svg)
 <br><br>
@@ -97,7 +97,7 @@ Along with this information, if the resource has an ID number associated with it
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | A user enters or attempts to navigate to an invalid resource key. | The user encounters a 404 page stating that the resource cannot be found. The user can select an available option such as selecting a link to a similar resource or page in the product, contacting Zywave support, or contacting their administrator. |
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ![404 Full-page](/images/voice-and-tone/messages/404_resourcenotfound_pageillustration.svg)
 
@@ -125,7 +125,7 @@ Being that a 500 error is "server-side", the problem is most likely your problem
 
 - A coding error
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Implementation details
 
@@ -142,7 +142,7 @@ While we hope that the messaging and links provided will be enough to assist the
 | Web server is down or busy, causing all features to fail.     | The user must wait until the problem is resolved on the server-side. In the meantime, the user can try a few different things until the problem is fixed: <br><br>- Refresh the page <br><br>- Log out and log back in <br><br>- Clear cookies and cache |
 | Web server is down or busy, causing a single feature to fail. | The user must wait until the problem is resolved on the server-side. In the meantime, the user can try a few different things until the problem is fixed: <br><br>- Refresh the page <br><br>- Log out and log back in <br><br>- Clear cookies and cache |
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Standard text
 
@@ -150,13 +150,13 @@ Title: The server encountered an internal error
 
 Body: Try coming back later or refreshing the page. If you're still having issues, contact Zywave support.
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### All features error
 
 ![500 All features](/images/voice-and-tone/messages/500_internalservererror_fullpage.svg)
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Single feature error
 

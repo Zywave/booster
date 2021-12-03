@@ -84,7 +84,7 @@ It is recommended to try and avoid the need for horizontal scrolling on desktop 
 </GridCol>
 </Grid>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 When navigating to a page that contains tabs, the first available tab should be selected.
 
@@ -99,7 +99,7 @@ On click, the "burst" animation will appear from the position on the tab that th
 
 There are a variety of different ways tabs can appear based on the page layout you are using.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 **Full-width tabs, full width-content**
 
@@ -107,7 +107,7 @@ There are a variety of different ways tabs can appear based on the page layout y
 
 Both the tabs and the content stretch the full-width of the page. These tabs can be used on both page layouts with white or gray backgrounds. For more information on page width, [view the guidelines for content area](/design-system/components/shell?tab=usage)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 **Fixed width tabs, fixed width content**
 
@@ -115,7 +115,7 @@ Both the tabs and the content stretch the full-width of the page. These tabs can
 
 Both the tabs and content can adhere to a fixed-width page layout. These tabs can be used on both white or gray background layouts. For more information on fixed-width layouts [view the content area guidelines](/design-system/components/shell?tab=usage)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 **Gray background, tabs with card**
 
@@ -124,7 +124,7 @@ Both the tabs and content can adhere to a fixed-width page layout. These tabs ca
 On layouts that use a gray background, tabs can appear with a card. The tabs will be just above the card and the contents within the card are associated with the selected tab.  
 This should be used when the contents are text-based to enhance readability or to show separation between the items within the tabbed section and other elements on the page.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 **Gray background, tabs without card**
 
@@ -133,7 +133,7 @@ This should be used when the contents are text-based to enhance readability or t
 If the contents within the tabs do not contain large amounts of text and there are no other elements on the page not contained within the tabs, then use the gray background with no card.
 This will increase contrast so elements like input fields will stand out more against the background.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 **Full-width tabs, fixed width content**
 

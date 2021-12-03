@@ -1,6 +1,5 @@
 import { EventBus } from "../event-bus.js";
 import { slugify } from "../utils/component-docs-helpers.js";
-import { css as cssPrism } from "../prism/prism-css.js";
 import "../prism/prism.js";
 import "./clipboard-copy-icon.js";
 
@@ -75,17 +74,23 @@ const css = `
 customElements.define(
   "docs-demos",
   class DocsDemos extends HTMLElement {
-    demoUrl: string | null = null;
     demoList: string[] | null = null;
-    codeOnly: boolean = false;
     demoSections: NodeListOf<Element> | null = null;
-    componentName: string | null = null;
+
+    get componentName() {
+      return this.getAttribute("component");
+    }
+
+    get codeOnly() {
+      return this.hasAttribute("code-only");
+    }
+
+    get demoUrl() {
+      return this.getAttribute("demo-url");
+    }
 
     async connectedCallback() {
-      this.demoUrl = this.getAttribute("demo-url");
       const demoStr = await fetch(this.demoUrl).then((res) => res.text());
-
-      this.componentName = this.getAttribute("component");
       const componentSection = new RegExp(
         '(?=<section component="' + this.componentName + '")'
       ); // should match current component page's component attr
@@ -100,15 +105,13 @@ customElements.define(
         .split(componentSection)
         .slice(1);
 
-      this.codeOnly = this.hasAttribute("code-only");
-
-      this.render();
+      this.#render();
       const codeBlocks = this.querySelectorAll("code");
       codeBlocks.forEach((item) => window.Prism.highlightElement(item));
       EventBus.instance.dispatchMarkupLoaded();
     }
 
-    encodeHtml(str: string) {
+    #encodeHtml(str: string) {
       return str.replace(
         /[&<>'"]/g,
         (tag) =>
@@ -122,13 +125,13 @@ customElements.define(
       );
     }
 
-    getUrlNoHash() {
+    #getUrlNoHash() {
       return window.location.href.includes("#")
         ? window.location.href.split("#")[0]
         : window.location.href;
     }
 
-    async render() {
+    #render() {
       const demoSectionsHtml = Array.from(this.demoSections).map(
         (demo, index) => {
           const demoHeading = demo.hasAttribute("heading")
@@ -140,10 +143,10 @@ customElements.define(
 
           return `
             <div class="demo">
-              <h3 id="${demoHeadingSlug}">${demoHeading}<clipboard-copy-icon icon="link" clipboard="${this.getUrlNoHash()}#${demoHeadingSlug}"></clipboard-copy-icon></h3>
+              <h3 id="${demoHeadingSlug}">${demoHeading}<clipboard-copy-icon icon="link" clipboard="${this.#getUrlNoHash()}#${demoHeadingSlug}"></clipboard-copy-icon></h3>
               ${this.codeOnly || demoCodeOnly ? `` : `<div class="live-demo">${demo.innerHTML}</div>` }
               <div class="code-header">
-                <clipboard-copy-icon position="left" clipboard="${this.encodeHtml(
+                <clipboard-copy-icon position="left" clipboard="${this.#encodeHtml(
                   demo.innerHTML
                 )}"></clipboard-copy-icon>
               </div>
@@ -159,7 +162,7 @@ customElements.define(
         }
       );
       const templateStr = `
-        <style>${cssPrism} ${css}</style>
+        <style>${css}</style>
         ${demoSectionsHtml.join("")}
       `;
 

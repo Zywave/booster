@@ -86,7 +86,7 @@ Cards are a great tool for communicating quick stories. Like all stories, the ti
 - **Keep it short:** make it so user can scan the material.
 - **Keep it clever:** use words the peak the users interest and make it personal for them.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Headline alignment
 
@@ -97,13 +97,13 @@ Cards are a great tool for communicating quick stories. Like all stories, the ti
 
 ![Headline alignment](/images/patterns/cards/card--headline-alignment.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 Although our cards are designed to allow for wrapping headlines, best practice is to keep the headline short and snappy. Make sure to leave a minimum gutter of at least 50px between the headline and the action button.
 
 ![Headline long](/images/patterns/cards/card--headline-long.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Subheading
 
@@ -129,7 +129,7 @@ In many cases a card offers a entry point to for the user to find more informati
 - The type of action should determine placement. For example, actions in the footer typically take the user somewhere else.
 - Avoid adding too many call-to-action buttons or links. There should only be one primary call-to-action per card.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Header actions
 
@@ -137,19 +137,19 @@ Header actions typically affect the information within the card such as a Add, E
 
 ![Header actions](/images/patterns/cards/card--actions-header-secondary.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 Due to the limited space in the header for actions, using an icon button is acceptable; just make sure the icon is easily identifiable. If there is more than one action, consider using a button dropdown; unless both actions are of high importance.
 
 ![Header action icons](/images/patterns/cards/card--actions-header-icon.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 When a card is larger it is acceptable to have multiple actions within the header, just avoid too many call-to-action buttons or links and only one primary call to action per card. If there are more than two actions, use a [button dropdown](/design-system/components/button-dropdowns/).
 
 ![Header multiple actions](/images/patterns/cards/card--actions-multiple-actions.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Footer actions
 
@@ -161,13 +161,13 @@ Footer actions are typically directional, used for kicking off workflows or next
 
 ![Footer actions](/images/patterns/cards/card--actions-footer.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 Multiple actions in the footer is a limited accepted practice. It is best practice to only have one primary action per card. When there are more than one action, left align them.
 
 ![Footer multiple actions](/images/patterns/cards/card--actions-footer-multiple.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Clickable cards
 
@@ -179,7 +179,7 @@ In some cases the the entire card should act as a link and initiates a single ac
 
 ![Actions whole card](/images/patterns/cards/card--actions-whole.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Filtering and sorting
 
@@ -211,13 +211,13 @@ In many cases, tabs can take the place of the card headline.
 
 ![Cards with tabs](/images/patterns/cards/card--tabs.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 The body of a card should still follow the padding requirements of a card, and the first tab label should line up to that padding.
 
 ![Specs of cards with tabs](/images/patterns/cards/card--tab-specs.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 If a headline is necessary, line up the tabs within the card padding, but keep the separator running to the edges.
 
@@ -284,7 +284,7 @@ When on a mobile device (breakpoint ≤480px) the card's base padding changes to
 
 ![Cards - mobile padding](/images/patterns/cards/card--base-mobile.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 Because of the nature of card containers, they are ideal for flexible layouts. As the viewport gets smaller, cards should react appropriately to fit.
 
@@ -295,13 +295,13 @@ Because of the nature of card containers, they are ideal for flexible layouts. A
 
 ![Cards - responsive content margins](/images/patterns/cards/cards--responsive-contentmargin.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 With the card's left and right margin removed, the content within the card will now line up with other content on the page. Note: the content area padding is 10px at ≤480px.
 
 ![Cards - responsive content area](/images/patterns/cards/card--responsive-contentarea.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Header actions
 
@@ -340,19 +340,19 @@ What makes media cards unique include:
 4. **Subheading** (optional): Provides supporting content for the headline. A subheading should only be used if the user needs more detail to understand the feature within the card.
 5. **Footer actions** (optional): Typically initiates a workflow or takes the user to the next step.
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 The footer actions always align to the bottom-right corner of the media card.
 
 ![Cards - Media card action placement](/images/patterns/cards/mediacard--actionplacement.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 When the image does not take up the entire image section, line it up with the headline.
 
 ![Cards - Media card lineup](/images/patterns/cards/mediacard--lineup.svg)
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Media card sizing
 

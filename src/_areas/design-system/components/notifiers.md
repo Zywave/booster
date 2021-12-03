@@ -131,7 +131,7 @@ A notifier should not be used to give the user in-depth information that require
 
 </Grid>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 <Grid>
 
@@ -157,7 +157,7 @@ A notifier should not be used to alert the user that every action is successful,
 
 </Grid>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Actions
 
@@ -198,7 +198,7 @@ An action should not use a different color than the notifier.
 
 </Grid>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Multiple notifiers (WIP)
 

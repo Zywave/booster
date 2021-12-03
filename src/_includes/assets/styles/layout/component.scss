@@ -84,3 +84,13 @@ h2.component-subheader {
     background-color: var(--zui-yellow);
   }
 }
+
+.install-instructions {
+  [slot="content"] {
+    margin-left: rem(10);
+
+    & > div {
+      padding-top: rem(10);
+    }
+  }
+}

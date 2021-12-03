@@ -5,6 +5,7 @@
 // todo: decide if worth splitting .css files, to load only on specific pages, currently everything is lumped together and loaded as styles.css
 @import 'base/general.scss';
 @import 'base/typography.scss';
+@import 'base/code.scss';
 
 /* layout styles */
 @import 'layout/base.scss';

@@ -160,7 +160,7 @@ Well action buttons are styled similar to text links but are the same color as t
 
 </Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Multiple wells
 
@@ -186,7 +186,7 @@ Well action buttons are styled similar to text links but are the same color as t
 
 </Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Well actions (number of actions)
 
@@ -210,7 +210,7 @@ Avoid using more than one action.
 
 </Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Well action style
 
@@ -234,7 +234,7 @@ Avoid using the primary and secondary ZUI buttons as the action.
 
 </Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Labeling well actions
 
@@ -258,7 +258,7 @@ Avoid using a non-actionable label such as "Details."
 
 </Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Banner wells behavior
 
@@ -282,7 +282,7 @@ Avoid animating the banner well.
 
 </Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Positioning of wells
 

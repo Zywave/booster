@@ -3,6 +3,7 @@ const htmlmin = require("html-minifier");
 const componentTabHref = require("./src/_filters/componentTabHref");
 const htmlArray = require("./src/_filters/htmlArray");
 const fs = require("fs");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
 
@@ -113,6 +114,8 @@ module.exports = function(eleventyConfig) {
       }
     }
   });
+
+  eleventyConfig.addPlugin(syntaxHighlight);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
