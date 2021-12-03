@@ -82,7 +82,7 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 * Normal behavior is to reveal the option list below the select box when there is sufficient space within the viewport to display it entirely. When lower in the viewport, the option list should reveal above the select box.
 * Chevron behavior: When the option list is opened, the chevron rotates 180 degrees clockwise. When the option list is closed, the chevron spins back 180 degrees counter clockwise, returning to its original position.
-* The dropdown will need to be closed manually after making selections.
+* The option list will close automatically after making a selection or when the user clicks outside of the Dropdown multi-select component.
 
 #### Scrolling
 
