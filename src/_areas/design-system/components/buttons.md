@@ -39,7 +39,7 @@ See the [design specs](https://xd.adobe.com/view/d4670059-5de0-416c-b731-d180acd
 
 #### Primary Button
 
-A Primary Button is used for the most common, or most important action on the page. Avoid using more than one Primary Button on a page to help direct users to the main action. 
+A Primary Button is used for the most common, or most important, action on the page. Avoid using more than one Primary Button on a page to help direct users to the main action. 
 
 ![](/images/button-docs-primarybutton.png)
 
@@ -112,9 +112,9 @@ Pressed state occurs when a user clicks or taps the button, or hits enter on a k
 
 #### **Disabled**
 
-Disable state occurs when an action currently isn't available. Disabled buttons should only be used when an action can be taken within the current UI to enable the button. IF no action can be taken to enable the button, then the button should be hidden instead of disabled.
+Disable state occurs when an action currently isn't available. Disabled buttons should only be used when an action can be taken within the current UI to enable the button. If no action can be taken to enable the button, then the button should be hidden instead of disabled.
 
-Note:  We have added the CSS property pointer-events: none; to this button style that will further prevent users from clicking a disabled button.
+Note: We have added the CSS property `pointer-events: none;` to this button style that will further prevent users from clicking a disabled button.
 
 #### Blue background button states
 
@@ -147,4 +147,4 @@ Used in the Shell Action Bar. For more information, see [Shell documentation](ht
 * Use a Text Link for actions that are navigational and take the user to another place. 
 * Use a [Button Group](https://booster.zywave.dev/design-system/components/button-groups/?tab=usage) when 3 or more buttons are grouped together on a single line.
 * Use a [Button Dropdown](https://booster.zywave.dev/design-system/components/button-dropdowns/?tab=usage) to reveal a list of three or more actionable options.
-* Use a [Dropdown Select](https://booster.zywave.dev/design-system/components/dropdown-selects/?tab=usage)if the user is making a selection instead of executing an action.
+* Use a [Dropdown Select](https://booster.zywave.dev/design-system/components/dropdown-selects/?tab=usage) if the user is making a selection instead of executing an action.
