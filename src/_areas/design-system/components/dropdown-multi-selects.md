@@ -86,8 +86,8 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 #### Scrolling
 
-* If the options can be displayed within the viewport it is ideal to not have a scroll bar. Scroll bars should appear when an options list exceeds the height of the screen but should not be taller than 300px.
-* Note options lists will appear below or above select inputs depending on where they sit within the viewport (see Open / close).
+* If all options can be displayed within the viewport, it is ideal to not have a scroll bar. Scroll bars should appear when option lists exceed the height of the screen, but should not be taller than 300px.
+* Note: option lists will appear below or above the select boxes depending on where they sit within the viewport. (See Open / close)
 
 #### Typeahead
 
