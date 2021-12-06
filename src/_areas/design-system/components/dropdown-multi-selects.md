@@ -25,12 +25,12 @@ The anatomy of a dropdown multi-select.
 ![Dropdown multi-select anatomy](/images/multi_select_anatomy.svg)
 
 1. **Select:** The form field where the user can select one or more options from a list
-2. **Selection tag**: Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle.
-3. **Chevron:** The chevron icon indicates there are options available in a dropdown list.
-4. **Option list:** The grouping of related input options.
-5. **Option:** A unique input option.
-6. **Option checkbox:** A selectable checkbox beside an option.
-7. **Scrollbar**: A bar used to scroll to view more options.
+2. **Selection tag**: Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle
+3. **Chevron:** The chevron icon indicates there are options available in a dropdown list
+4. **Option list:** The grouping of related input options
+5. **Option:** A unique input option
+6. **Option checkbox:** A selectable checkbox beside an option
+7. **Scrollbar**: A bar used to scroll to view more options
 
 <br>
 
@@ -110,6 +110,7 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 #### Removing the selection
 
 * After a user has chosen an option it appears as a selection within the select box. Users can remove a selection by using one of three methods:
+
   * Selections can be removed by clicking on the X icon within the selection.
   * Backspacing over a selection in the select box removes it.
   * Deselecting the checkbox within the option list will also remove the selection.
@@ -156,8 +157,6 @@ Avoid using sentences or long phrases for label text.
 
 </docs-spacer>
 
-
-
 #### Required fields
 
 <docs-grid columns="2">
@@ -188,8 +187,6 @@ Avoid assuming the user knows which fields are required and which are optional.
 
 </docs-spacer>
 
-
-
 #### Validation
 
 <docs-grid columns="2">
@@ -219,8 +216,6 @@ Avoid not drawing attention to a dropdown select with a validation error.
 <docs-spacer>
 
 </docs-spacer>
-
-
 
 - - -
 
