@@ -56,7 +56,7 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 ## States
 
-#### Input states
+#### Select states
 
 Dropdown selects can display the following states: unselected, hover, focus, active, and disabled.
 
