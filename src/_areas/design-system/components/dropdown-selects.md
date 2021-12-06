@@ -12,7 +12,7 @@ includedElements:
 ---
 ## Usage
 
-Use a dropdown select to organize a list of options a user can select from.
+A form control used when there are more than 2 options and may require a user to select 1 option.
 
 ![Dropdown select usage](/images/select_usage.svg)
 
