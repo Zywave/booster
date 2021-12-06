@@ -10,12 +10,6 @@ includedElements:
   - zui-option
   - zui-option-group
 ---
-## What is a dropdown select?
-
-A dropdown select is a type of input field in which a user fills an input box with an item from a list of acceptable items. Dropdown selects allow only one option to be chosen.
-
-- - -
-
 ## Usage
 
 Use a dropdown select to organize a list of options a user can select from.
@@ -144,8 +138,6 @@ Avoid using sentences or long phrases for label text.
 
 </docs-spacer>
 
-
-
 #### Required fields
 
 <docs-grid columns="2">
@@ -175,8 +167,6 @@ Avoid assuming the user knows which fields are required and which are optional.
 <docs-spacer>
 
 </docs-spacer>
-
-
 
 #### Validation
 
