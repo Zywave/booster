@@ -24,11 +24,11 @@ The anatomy of a dropdown select.
 
 ![Dropdown select anatomy](/images/select_anatomy.svg)
 
-1. **Input:** The field designated for selecting an individual option from a grouping of related options.
-2. **Chevron:** The chevron arrow, within the input suggesting that there are items to select within a dropdown.
-3. **Option list:** The grouping of related input options.
-4. **Option:** A unique input option.
-5. **Scrollbar**: A bar used to scroll to view more options.
+1. **Select:** The form field where the user can select one option from a list
+2. **Chevron:** The chevron icon indicates there are options available in a dropdown list
+3. **Option list:** The grouping of related input options
+4. **Option:** A unique input option
+5. **Scrollbar**: A bar used to scroll to view more options
 
 <br>
 
