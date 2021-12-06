@@ -1,7 +1,7 @@
 ---
 title: Dropdown selects
-subtitle: Type of input field in which a user fills an input box with an item
-  from a list of acceptable items.
+subtitle: Type of form control where a user is presented with a list of options
+  to choose one items from.
 api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-select@next/demo/index.html
 mainComponentName: zui-select-dropdown
