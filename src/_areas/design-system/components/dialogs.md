@@ -1,122 +1,64 @@
 ---
+title: Dialogs
+subtitle: Display an important message or decision in it's own window in front
+  of the current page
 api: https://cdn.zywave.com/@zywave/zui-dialog@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-dialog@next/demo/index.html
 mainComponentName: zui-dialog
 includedElements: []
-title: Dialogs
-subtitle: Display a message or content on a layer above the current page.
 ---
+## Usage
 
-## Introduction
+A Dialog interrupts the current page to display an important message or decision in a window in front of all the other content on the page. This window disables all other functionality of the current page until a required action is taken or the Dialog is dismissed. 
 
-Dialogs are used to display a message or content on a layer above the current page. Content inside a dialog can vary greatly. Usually, a dialog is centered around a specific action that a user must take. Saving a setting or a permanent delete are examples of when dialogs are useful.
-
-Best practice is to avoid including forms within a dialog.
-
----
+- - -
 
 ## Anatomy
 
-<br>
+A Dialog is made up of 3 main areas and the dark overlay that covers the remainder of the page. 
 
-![Dialog Anatomy](/images/components/dialogs/dialog_Anatomy.svg)
+\[INSERT IMAGE]
 
-<br>
+1. **Title:** Ideally, the H1 title in a Dialog should not span more than one line. The title gives the user an understanding of the message or decision they are being presented with. 
+2. **Content area:** The detailed message is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.
+3. **Footer:** The footer is where all the actions are located within a Dialog.
 
-### Title
+* Primary actions are located on the far right
+* Secondary actions are to the left of the primary action
+* Tertiary actions are located on the far left 
 
-H1 title should not span more than 1 line.
-
-<br><br>
-
-### Conent area
-
-Content area should be a minimum of 120px tall.
-
-Content area width of 415 on SMALL dialogs, 615 on STANDARD dialogs, and 815 on LARGE dialogs.
-
-![Dialog Content Area](/images/components/dialogs/dialog_Minimum_Height.svg)
-
-<br><br>
-
-### Actions area
-
-1. **Primary action**  
-   Primary actions are right aligned at the bottom of the dialog 30px below the content area.  
-   The primary action should always appear on the far right.
-
-2. **Secondary actions**  
-   Secondary actions appear to the left of the primary action, 30px below the content area
-
-3. **Tertiary action**  
-   Tertiary actions or help text appear left aligned 30px below the content
-
-![Dialog Actions](/images/components/dialogs/dialog_Action_Areas.svg)
+4.  **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one way a user can dismiss a Dialog. 
 
 ---
 
-## Sizing and Spacing
+## Types and states
+There are 3 sizes of Dialogs, small, standard and large.
 
-<br>
+### Small Dialog
+Small Dialogs have a width of 475px. They are most commonly used to interrupt the user with a short confirmation message, such as a delete confirmation or warning of data loss if navigating away from a page. 
 
-**Typographic heirarchy**
+### Standard Dialog
+Standard Dialogs have a width of 675px. Standard Dialogs are used for messages that are longer in length, such as legal jargon. 
 
-Title should be H1.
-
-Contents should follow body copy guidelines.
-<br><br>
-
-### Padding
-
-- 36px padding around entire perimeter.
-- 15px padding between Title and main content area.
-- 30px padding between main content area and actions area.
-
-![Dialog Padding](/images/components/dialogs/dialog_Padding.svg)
-
-If the dialog is taller than the viewport, 36px padding will be applied between the dialog and the viewport. If the dialog is shorter than the viewport, then it will be centered vertically.  
-Dialogs will always be centered horizontally within the viewport.
+### Large Dialog
+A large Dialog has a width of 875px and is often reserved for when there is more functionality that needs to be contained within, such as a table. 
 
 ---
 
-## Variations
+## Behavior  
 
-### Small
+### Closing a Dialog
+There are two ways that a Dialog can be closed and the recommended option depends on the type of content contained within a Dialog. Most Dialogs will have more than one way to close them. 
 
-Commonly used to interrupt the user with messaging you need them to confirm, such as delete and loss of data if navigating to a different page.
+1. ** Clicking into the darkness:** This is standard functionality that is enabled automatically when using the Dialog component. This functionality should be disabled when a Dialog contains data entry so that accidental clicks do not result in data loss. 
 
-![Small dialog](/images/components/dialogs/dialog_Small.svg)
-<br><br>
+2. ** Clicking a button: ** The Dialog should close after clicking on the provided actions within the footer area. Even for short messages we recommend providing the user with a "Close" button. 
 
-### Standard
-
-Standard dialogs should be used for messages that are longer in length, such as legal jargon.
-
-![Standard dialog](/images/components/dialogs/dialog_Standard.svg)
-<br><br>
-
-### Large
-
-Use a large dialog when there is a more functionality, like a table.
-
-![Large dialog](/images/components/dialogs/dialog_Large.svg)
-
----
-
-## Interaction
-
-### Closing a dialog
-
-There are two ways that a dialog can be closed and the one that you choose depends on the type of content that it contains. Most dialogs will have more than one way to close them.
-
-1. **Clicking into the darkness** - Standard functionality for closing a dialog; this is best used when the user isn't filling out any data within the dialog. Since we prefer to avoid including forms within a dialog, this functionality will be very common and will be enabled automatically when using ZUI dialog. If your dialog includes data entry please make sure you disable this functionality.
-
-2. **Clicking a footer button** - A footer button should be provided that allows users to close the dialog, especially when clicking into the darkness has been disabled.  
-
-<br>
+<docs-spacer size="small"></docs-spacer>
 
 ### Scrolling
 
-Best practice is to avoid the need for a dialog to scroll. When scrolling is required, the entire dialog screen will scroll. Remember the to keep 36px padding between the viewport and the dialog when it first appears to the user.
 
-Background contents that are underneath the dark overlay will remain static while the dialog scrolls.
+## Best practices
+
+## Alternate considerations
