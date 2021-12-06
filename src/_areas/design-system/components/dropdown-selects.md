@@ -72,7 +72,7 @@ Within Dropdown select option lists, options can display the following states: s
 
 ## Behavior
 
-Sort the list in a logical order. For instance, put the most selected option(s) at the top. In many cases we recommend alphabetical order.
+Sort the option list in a logical order. For instance, alphabetize or put the most selected option(s) at the top.
 
 #### Open / close
 
