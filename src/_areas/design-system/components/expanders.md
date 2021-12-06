@@ -65,15 +65,16 @@ Standard Expanders consist of up to seven different parts.
 
 ### Peek-a-boo Expander
 
-A Peek-a-boo Expander contains three different parts.
+A Peek-a-boo Expander contains only two parts.
 
 ![Peek-a-boo expander anatomy](/images/peek-a-boo_expander_anatomy.svg)
 
 </br>
 
-1. **Title:** The text label that indicates the content that is contained within the section. 
-2. **Content:** The full length of the content is visible when expanded. When collapsed the content is truncated to just a few lines. 
-3. **Expander action:** A link button to "See more" is below the truncated content when collapsed, and a link button to "See less" is below the expanded content. 
+1.  **Expander action:** A link button to "See more" is below the truncated content when collapsed, and a link button to "See less" is below the expanded content. 
+2. **Hidden content:** The content that is hidden by default and shown after pressing the "See more" button.
+
+The first two lines of preview text and the title are not included in the component itself, but we highly recommend including them prior to the Peek-a-boo Expander to provide the user with context of what they will be viewing when they press "See more".
 
 <docs-spacer size="small"></docs-spacer>
 
