@@ -20,14 +20,23 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
 \[INSERT IMAGE]
 
 1. **Title:** Ideally, the H1 title in a Dialog should not span more than one line. The title gives the user an understanding of the message or decision they are being presented with. 
-2. **Content area:** The detailed message is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.
-3. **Footer:** The footer is where all the actions are located within a Dialog.
+2. **Content area:** The detailed message is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.  
+
+3. **Footer:** The footer is where all the actions are located within a Dialog. An option is available for the footer to remain sticky when the length of the Dialog exceeds the height of the viewport so that the available actions remain visible to the user at all times.
 
 * Primary actions are located on the far right
 * Secondary actions are to the left of the primary action
-* Tertiary actions are located on the far left 
+* Tertiary actions are located on the far left  
 
-4.  **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one way a user can dismiss a Dialog. 
+
+4.  **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
+
+---
+
+## Layout
+Dialogs should always be horizontally centered within the viewport.  
+
+When the Dialog is shorter than the viewport it should be centered vertically. In situations where the Dialog exceeds the height of the viewport, 36px padding should be applied between the Dialog and the top of the viewport when it first appears to the user. The entire Dialog then scrolls while the content underneath remains static.
 
 ---
 
