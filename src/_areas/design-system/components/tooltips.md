@@ -9,20 +9,15 @@ includedElements: []
 ---
 ## Usage
 
-* Tooltips are unobtrusive messages that provide the user with simple information when hovering over a page element.
-* Tooltips are anchored to the page element in which they are referencing.
+Tooltips are user-triggered messages that help provide additional information to the page element during the user's workflow. It is usually activated by a mouse-hover action or keyboard-hover action. 
+
+* Tooltips can be paired with any page element, such as icons, buttons, texts etc.
 * These messages should not be critical for the user to read and there should be no action included within them.
 * Tooltips trigger on hover and remain active until the user is no longer hovering over that page element. A 200ms dissolve transition fades tooltips on and off the page.
 
-## Usage
 
-* Use a tooltip to help users understand unknown or unfamiliar objects that are not described directly on the page.
-* To provide information to users when they need it, and to help free up screen space
-* Use a tooltip when a control does not have a text label to explain it.
 
 - - -
-
-
 
 ## Types
 
@@ -48,7 +43,22 @@ includedElements: []
 
 - - -
 
+## Behavior
+
+### Mouse-hover gesture
+
+
+
+### Keyboad-hover gesture
+
+When using a keyboard, users can \[tab] through page elements to select and complete actions. Users can view Tooltip messages when a page element is in its keyboard focus state. 
+
+- - -
+
 ## Best practices
+
+* Use a tooltip to help users understand unknown or unfamiliar objects that are not described directly on the page.
+* Use a tooltip when a control does not have a text label to explain it.
 
 ![Tooltip best practices](/images/components/tooltips/tooltips-bestpractice.svg)
 
