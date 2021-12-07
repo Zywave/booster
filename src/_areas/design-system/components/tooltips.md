@@ -7,7 +7,7 @@ demo: https://cdn.zywave.com/@zywave/zui-tooltip@next/demo/index.html
 mainComponentName: zui-tooltip
 includedElements: []
 ---
-## What are tooltips?
+## Usage
 
 * Tooltips are unobtrusive messages that provide the user with simple information when hovering over a page element.
 * Tooltips are anchored to the page element in which they are referencing.
