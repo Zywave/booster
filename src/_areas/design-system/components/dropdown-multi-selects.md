@@ -1,220 +1,226 @@
 ---
+title: Dropdown multi-select
+subtitle: Type of form control where a user is presented with a list of options
+  to choose one or many items from.
 api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-select@next/demo/index.html
 mainComponentName: zui-select-dropdown
-includedElements: ["zui-select-dropdown", "zui-option", "zui-option-group"]
-title: Dropdown multi-selects
-subtitle: Type of input field in which a user fills an input box with one or many items from a list of acceptable inputs.
+includedElements:
+  - zui-select-dropdown
+  - zui-option
+  - zui-option-group
 ---
+## Usage
 
-## What is a dropdown multi-select?
+A form control used when there are more than 2 options and may require a user to select more than 1 option.
 
-A dropdown multi-select is a type of input field in which a user fills an input box with one or many items from a list of acceptable inputs.
+![Dropdown multi-select usage](/images/multi_select_usage.svg)
 
----
-
-## When to use
-
-Appropriate for lists larger than 2 options that may require a user to select more than 1 option.
-
-### Alternate considerations
-
-- Use [checkboxes](/design-system/components/checkboxes/) for lists smaller than 3 items.
-- Use a [dropdown select](/design-system/components/dropdown-selects/) if users can only select 1 option.
-- Use a [multi-picker](/design-system/components/pickers/) when the user needs to search for specific items and select them from a list with more than 7 – 10 items.
-
----
+- - -
 
 ## Anatomy
 
-<Grid>
+The anatomy of a dropdown multi-select.
 
-<GridCol col="span-4">
+![Dropdown multi-select anatomy](/images/multi_select_anatomy.svg)
 
-### Label
+1. **Select:** The form field where the user can select one or more options from a list
+2. **Selection tag**: Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle
+3. **Chevron:** The chevron icon indicates there are options available in a dropdown list
+4. **Option list:** The grouping of related input options
+5. **Option:** A unique input option
+6. **Option checkbox:** A selectable checkbox beside an option
+7. **Scrollbar**: A bar used to scroll to view more options
 
-Text that defines what type of options are in the list.
+<br>
 
-[See labeling best practices](/design-system/patterns/forms/)
+See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid)[Design specs](https://xd.adobe.com/view/630718e2-ca07-4189-961b-2a655245666d-3654/grid) for detailed sizing and spacing information
 
-### Input
+- - -
 
-The field designated for selecting an individual option from a grouping of related options.
+## Types
 
-### Selection
+#### Grouping
 
-Once an option is chosen, it becomes a selection. Selections are visually defined by the encapsulation of the text in a gray rectangle.
+* Grouping options with proper group labels can help users scan the list more easily.
 
-### Dropdown chevron
+![Dropdown multi-select grouping](/images/multiselect_grouping_specs.svg)
 
-The chevron arrow, within the input suggesting that there are items to select within a dropdown.
+<br>
 
-### Selected option
+#### Icons
 
-An option that is visibly selected.
+* Use icons to distinguish between options.
 
-### Options list
+![Dropdown multi-select icons](/images/multiselect_icon_specs.svg)
 
-The grouping of related input options.
+- - -
 
-### Option
+## States
 
-A unique input option.
+#### Select states
 
-### Option checkbox
+Dropdown multi-selects can display the following states: unselected, hover, focus, active, and disabled.
 
-A selectable checkbox beside an option.
+![Dropdown multi-select states](/images/multiselect_states.svg)
 
-[See base design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/grid)
+<br>
 
-</GridCol>
+#### Option states
 
-<GridCol col="span-8">
+Within Dropdown multi-select option lists, options can display the following states: selected, hover, and disabled.
 
-![Anatomy of a dropdown multi-select](/images/components/dropdown-multi-select/multi_select_label.svg)
+![Dropdown multi-select list states](/images/multiselect_list_states.svg)
 
-The anatomy of a dropdown select.
-
-</GridCol>
-
-</Grid>
-
----
-
-## Sizing and Spacing
-
-Use the following links to find exact pixel specs for dropdowns multi-select.
-
-[Design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/grid)
-
----
-
-## Organizing the list
-
-Sort the list in a logical order. For instance, put the most selected option(s) at the top. In many cases we recommend alphabetical order.
-
-<Grid>
-
-<GridCol col="span-6">
-
-### Grouping
-
-![Spatial specs for options lists with grouping](/images/components/dropdown-multi-select/multiselect_grouping_specs.svg)
-
-- Sometimes you'll need to add grouping to a long list of options. Titles can break up options into groups to help users more easily locate them.
-
-[See grouping design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/c12aa28c-727d-406a-bd44-5bcec364f935/)
-
-</GridCol>
-
-<GridCol col="span-6">
-
-### Icons
-
-![Spatial specs for options lists with icons next to options](/images/components/dropdown-multi-select/multiselect_icon_specs.svg)
-
-- Use icons to distinguish between options.
-- Often icons are used when you have two different types of options in a list.
-
-[See icon design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/ccefcc03-0603-4624-94b5-8f40c1f6969a/)
-
-</GridCol>
-
-</Grid>
-
----
+- - -
 
 ## Behavior
 
-<Grid>
+Sort the option list in a logical order. For instance, alphabetize or put the most selected option(s) at the top.
 
-<GridCol col="span-6">
+#### Open / close
 
-### Open / close
+* Normal behavior is to reveal the option list below the select box when there is sufficient space within the viewport to display it entirely. When lower in the viewport, the option list should reveal above the select box.
+* Chevron behavior: When the option list is opened, the chevron rotates 180 degrees clockwise. When the option list is closed, the chevron spins back 180 degrees counter clockwise, returning to its original position.
+* The option list will close automatically after making a selection or when the user clicks outside of the Dropdown multi-select component.
 
-- Normal behavior is to reveal the list down when placement of the select input is high enough within the viewport. When select input is lower on the screen the list will reveal up.
-- Dropdrown chevron icon: rotates 180 degrees clockwise when opened, when closed spins back 180 degrees counter clockwise, returning to the original position.
+#### Scrolling
 
-</GridCol>
+* If all options can be displayed within the viewport, it is ideal to not have a scroll bar. Scroll bars should appear when option lists exceed the height of the screen, but should not be taller than 300px.
+* Note: option lists will appear below or above the select boxes depending on where they sit within the viewport. (See Open / close)
 
-<GridCol col="span-6">
+#### Typeahead
 
-### Scrolling
-
-- If the options can be displayed within the viewport it is ideal to not have a scroll bar. Scroll bars should appear when an options list exceeds the height of the screen but should not be taller than 300px.
-- Note options lists will appear below or above select inputs depending on where they sit within the viewport (see Open / close).
-
-</GridCol>
-
-<GridCol col="span-6">
-
-### Typeahead
-
-- Present in all dropdown selects, streamlines experience for users.
-- Typeahead is relevant only to options in the list, it will not return group names. Grouping headers are not seen when using typeahead.
+* Present in all dropdown selects, streamlines experience for users.
+* Typeahead is relevant only to options in the list; it will not return group labels. Group labels are not seen when using typeahead.
 
 [See typeahead](/design-system/patterns/typeahead/)
 
-</GridCol>
+#### Defaulting a selection
 
-<GridCol col="span-6">
+* A Dropdown multi-select shouldn't default a selected option. Defaulting a selection only makes sense after a user's selection has been saved and they revisit to update their choice.
+* Sometimes choosing "None" as an option is necessary if no options are applicable to the user when a Dropdown multi-select is required. "None" should appear at the top of the list.
 
-### Defaulting a selection
+#### Selection wrapping
 
-- A dropdown select shouldn't default a selected option. If you're confident users will likely choose an option you may consider defaulting to a selection.
-- Sometimes choosing 'none' as an option is necessary, if none of the options are applicable to the user. None should appear at the top of the list.
+* When options are selected from the Dropdown multi-select option list, selections will populate inside the select box. Multiple selections should wrap within the select box to fit all.
 
-</GridCol>
+![Tags selection wrapping](/images/tag_specs.svg)
 
-<GridCol col="span-6">
+#### Removing the selection
 
-### Input states
+* After a user has chosen an option it appears as a selection within the select box. Users can remove a selection by using one of three methods:
 
-![The various states of an input](/images/components/dropdown-multi-select/multiselect_states.svg)
+  * Selections can be removed by clicking on the X icon within the selection.
+  * Backspacing over a selection in the select box removes it.
+  * Deselecting the checkbox within the option list will also remove the selection.
 
-[See input states design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/7b6c4ddd-55fa-4521-8598-7e5b280b5aec/)
-
-</GridCol>
-
-<GridCol col="span-6">
-
-### Option list states
-
-![The various states of an option list](/images/components/dropdown-multi-select/multiselect_list_states.svg)
-
-[See option list states design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/c6b9b274-0fab-4b09-895a-28d141fe96ca/)
-
-</GridCol>
-
-<GridCol col="span-6">
-
-### Selection wrapping
-
-- When multiple options are selected in a multi-select list, selections will populate the input and eventually will have to wrap, in order to fit.
-
-[See selection wrapping design specs](https://xd.adobe.com/view/92759d6f-effe-410f-b096-7076edaecf0b-c726/screen/38048d13-2726-4db4-84aa-54048de9c1f1/)
-
-</GridCol>
-
-<GridCol col="span-6">
-
-![Removing a selection from an input](/images/components/dropdown-multi-select/tag_specs.svg)
-
-</GridCol>
-
-</Grid>
-
-### Removing the selection
-
-- After a user has chosen an option it turns into a selection within the input. Users can remove a selection by using one of three methods.
-- Selections can be removed by clicking on the X icon within the selection.
-- Backspacing over a selection in the input removes it.
-- By deselecting the checkbox within an option list will also remove the selection.
-
----
+- - -
 
 ## Responsiveness
 
-### Mobile
+#### Mobile
 
 Users on mobile and touch devices should not see our styling; instead the default styles native to the device should override ours, as these typically provide a better UX as they're designed for use on that particular device.
+
+- - -
+
+## Best practices
+
+#### Labeling
+
+<docs-grid columns="2">
+
+<div>
+
+![Labeling do](/images/multiselect_bestpractices-–-do.svg)
+
+<docs-do>
+Use clear and concise labeling. Label text is used to inform users as to what information is requested for a dropdown. 
+</docs-do>
+
+</div>
+
+<div>
+
+![Labeling don't](/images/multiselect_bestpractices-–-donot.svg)
+
+<docs-do-not>
+Avoid using sentences or long phrases for label text. 
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+#### Required fields
+
+<docs-grid columns="2">
+
+<div>
+
+![Required fields do](/images/multiselect_bestpractices-–-do-–-2.svg)
+
+<docs-do>
+Make it clear to the user which fields are required by using a red asterisk in the label.
+</docs-do>
+
+</div>
+
+<div>
+
+![Required fields don't](/images/multiselect_bestpractices-–-donot-–-2.svg)
+
+<docs-do-not>
+Avoid assuming the user knows which fields are required and which are optional.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+#### Validation
+
+<docs-grid columns="2">
+
+<div>
+
+![Validation do](/images/multiselect_bestpractices-–-do-–-3.svg)
+
+<docs-do>
+Indicate errors or invalid inputs with clear messages describing the validation error.
+</docs-do>
+
+</div>
+
+<div>
+
+![Validation don't](/images/multiselect_bestpractices-–-donot-–-3.svg)
+
+<docs-do-not>
+Avoid not drawing attention to a dropdown select with a validation error.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+- - -
+
+## Alternate considerations
+
+* Use [checkboxes](/design-system/components/checkboxes/) for lists smaller than 3 items.
+* Use a [dropdown select](/design-system/components/dropdown-selects/) if users can only select 1 option.
+* Use a [multi-picker](/design-system/components/pickers/) when the user needs to search for specific items and select them from a list with more than 7 – 10 items.
