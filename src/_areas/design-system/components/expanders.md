@@ -1,141 +1,197 @@
 ---
+title: Expanders
+subtitle: Expanders allow a user to expand or collapse a section of content
 api: https://cdn.zywave.com/@zywave/zui-expander@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-expander@next/demo/index.html
 mainComponentName: zui-expander
 includedElements: []
-title: Expanders
-subtitle: A useful pattern for progressive disclosure—highlighting important details of a section and revealing more details upon a tap or click.
 ---
-
 ## Usage
 
-An Expander (sometimes referred to as an Accordion) is a useful pattern for progressive disclosure&mdash;highlighting important details of a section and revealing more details upon a tap or click. The purpose of an Expander is to organize and manage an overabundance of content and allow users to get the big picture before focusing on details. They are composed of multiple sections that can reveal and hide the content contained within. A header title gives the user a sense of what content they are digging into without necessarily forcing the user to open the section. Because they conserve vertical space, expanders can be especially good for mobile.
+An Expander is a container used to organize an overabundance of content and conserve space on the page. Because Expanders can save a large amount of space, they can be extremely useful for mobile interfaces.
 
-<hr>
+Expanders can be used standalone or in a group to hide and reveal different sections of content, providing users with the bigger picture of the content on the page before diving into the details. Important information is shown initially and additional details are revealed upon interaction.  
 
-## Design specs
+![Standard Expander on a mobile device](/images/expander_usage_mobile.svg)
 
-[Click here for Expander design specs & guidelines](https://xd.adobe.com/view/d391f1e9-b657-47de-42a6-90e28fcaf4ce-a5a0/grid "Expander Design Specs"), where you will find the following:
+- - -
 
-- Sizing and spacing details
-- States and coloring
-- Typography guidelines and hierarchy
+## Types
 
-<hr>
+There are two types of Expanders — Standard and Peek-a-boo. 
 
-<div id="expander--anatomy"></div>
+![Types of expanders](/images/expander_types.svg)
+
+</br>
+
+### Standard Expanders
+
+Standard Expanders are best used:
+
+* when there is a need for multiple expanding sections on a page
+* the revealed content is lengthy or contains form fields
+* there is a need for an action within the Expander, such as "Save"
+
+<docs-spacer size= "small"></docs-spacer>
+
+### Peek-a-boo Expanders
+
+Peek-a-boo Expanders should be used:
+
+* standalone to hide and reveal a small amount of plain-text content
+* when the hidden content is supplementary to the main purpose of the page
+
+- - -
 
 ## Anatomy
 
-We use the following terminology to refer to the parts of an expander:
+### Standard Expander
 
-1. **Section:** consists of a header and a content area that makes up an Expander. All expanders (except for Peek-a-boos) consist of at least two sections.
-2. **Header:** contains a label and optional elements&mdash;such as an icon, an action, and/or content details&mdash;that gives the user the information they need to determine how and whether to expand a section.
-3. **Header title:** the name of an Expander section.
-4. **Header details:** read-only information visible in the header even when the section is collapsed.
-5. **Indicator Icon:** an icon appearing in the header that indicates the section can be expanded and collapsed.
-6. **Content area:** the area that appears when a section is expanded.
-7. **Action area:** If there is data in the content area that needs to be saved, this is a common place to put actions.
+Standard Expanders consist of up to seven different parts. 
 
-![Anatomy](/images/components/expanders/expander-anatomy.svg)
+![Standard Expander anatomy](/images/standard_expander_anatomy.svg)
 
-<hr>
+</br>
 
-## Expander options
+1. **Section:** Where both the header and content are contained.
+2. **Header area:** The area inside of a section that contains the section title, preview text and indicator icon. This header is a clickable area to expand and collapse the section. 
+3. **Title:** A text label that indicates what content is contained in the section.
+4. **Preview text (optional):**  An optional sample of the content contained in the section. Preview text can be useful to display settings that are applied in the content area. 
+5. **Indicator icon:** An icon located in the header area that indicates to the user when a section can be expanded or collapsed. 
+6. **Content area:** The area that appears when a section is expanded.
+7. **Action area (optional):** An optional area for consistent placement of actions inside of a section.
 
-<div id="expander--basic"></div>
+<docs-spacer size="small"></docs-spacer>
 
-### Basic Expander
+### Peek-a-boo Expander
 
-The Basic Expander is the most common type of Expander. It's typically used as a sub-navigation in the content area and helps organize complex content.
+A Peek-a-boo Expander contains only two parts.
 
-![Example of a collapsed Expander](/images/components/expanders/basic-expander--collapsed.svg)
-_example of a Basic Expander in a collapsed state_
+![Peek-a-boo expander anatomy](/images/peek-a-boo_expander_anatomy.svg)
 
-<br>
+</br>
 
-![Example of an expanded Expander](/images/components/expanders/basic-expander--expanded.svg)
-_example of a Basic Expander in an expanded state_
+1.  **Expander action:** A link button to "See more" is below the truncated content when collapsed, and a link button to "See less" is below the expanded content. 
+2. **Hidden content:** The content that is hidden by default and shown after pressing the "See more" button.
 
-<br>
+The first two lines of preview text and the title are not included in the component itself, but we highly recommend including them prior to the Peek-a-boo Expander to provide the user with context of what they will be viewing when they press "See more".
 
-![Example of a mobile Expander](/images/components/expanders/expander--mobile.svg)
+<docs-spacer size="small"></docs-spacer>
 
-_example of a basic Expander in a mobile responsive state_
+For a more detailed breakdown of the sizing and spacing, [view the design specs](https://xd.adobe.com/view/a6f89984-5337-4059-b732-a81634401e1d-f3ab/).
 
-<Spacer size="large" />
+- - -
 
-<div id="expander--header-details"></div>
+## States
 
-### Adding header details
+### Default
 
-In some cases it is helpful to give the user more information on what they will find in the section, beyond just the title.
+The default state is the collapsed view of an Expander. It is also the default state of the Expander when the user lands on the page. 
 
-![Example of an expanded Expander](/images/components/expanders/basic-expander--with-header-details-collapsed.svg)
-_example header details in a collapsed state_
+### Hover
 
-<br>
+The hover state for Standard Expanders occurs when the user hovers over a section with their mouse. See the Button guidelines for the hover state of the 'See more' action of a Peek-a-boo Expander.
 
-![Example of an expanded Expander](/images/components/expanders/basic-expander--with-header-details-expanded.svg)
-_example header details in an expanded state_
+### Focus
 
-<Spacer size="large" />
+Focus state appears when the Expander section is currently selected and awaiting action. This is most commonly seen when using a keyboard to navigate. See the Button guidelines for the focus state of the 'See more' action of a Peek-a-boo Expander
 
-<div id="expander--actions"></div>
+### Expanded
 
-### Adding actions
+The expanded state is seen after the user has interacted with the Expander to show more information. On a Standard Expander the section is expanded and the indicator icon is flipped to visualize that the section can now be collapsed. For the Peek-a-boo Expander the button text will now say "See less". 
 
-In some cases Expanders can be used to perform lightweight actions, such as updating an email address.
+![Standard Expander states](/images/standard_expander_states.svg)
 
-![Example of a expanded Expander](/images/components/expanders/basic-expander--actions.svg)
-_example of adding actions to an Expander_
+![Peek-a-boo Expander states](/images/peek-a-boo_expander_states-–-1.svg)
 
-<Spacer size="large" />
+- - -
 
-<div id="expander--peek-a-boo"></div>
+## Behavior
 
-### Peek-a-boo
+We recommend that all Expanders be in the default state when the user navigates to the page. This ensures that as many sections as possible are visible to the user immediately. 
 
-A Peek-a-boo Expander is a single-section Expander that hides some of its content to help make room in the UI.
+By default, all sections can be opened at the same time. If there are any sections that contain actions, then consider limiting the user to opening one section at a time to keep the user focused. 
 
-![Example of a collapsed Peek-a-boo Expander](/images/components/expanders/peek-a-boo--collapsed.svg)
-_example of a collapsed Peek-a-boo expander_
+### Keyboard navigation
 
-<br>
+* `[Tab]` to select an Expander
+* `[Space]` or `[Enter]` to open/close the selected section
+* When open, `[Tab]` to select interactive elements (input, link or buttons if available)
+* `[Tab]` to select the next Expander
 
-![Example of an expanded Peek-a-boo Expander](/images/components/expanders/peek-a-boo--expanded.svg)
-_example of an expanded Peek-a-boo expander_
-
-<hr>
-
-<div id="expander--best-practices"></div>
+- - -
 
 ## Best practices
 
-### Sections
+### Expanding sections
 
-- By default, all sections can be opened at the same time. If there are actions within the Expander, then limit opening one section at a time.
-- If opening a section makes the content longer than the viewport, do not auto-scroll to show that content. Auto scrolling will disorientate the user if they aren't expecting it, so leave the decision to scroll up to them.
-- Expanders generally work best when the user can focus on a single task, or a very small number of closely-related tasks. It is not good practice to nest a table, long forms, or tabs inside an Expander section.
+* If opening a section makes the content longer than the viewport, do not auto-scroll to show that content. Auto-scrolling can be disorienting, so is is best to leave the decision to scroll up to the user.
+* Expanders work best to focus the user on a single task, or a very small number of closely-related tasks. It is not good practice to nest tables, long forms, or tabs inside an Expander section.
+  <docs-spacer size= "small"></docs-spacer>
 
 ### Header information
 
-- The title should be descriptive and clearly suggest what the content will show when expanded.
-- It's important to consider plain, concise language when naming your section title. Long titles will truncate, but consider the length of your title and how it will look on mobile. If there are also header details, it is very important to keep your title short so there isn't too much text in the header, making everything hard to scan.
-- Add header details when the user needs some indication of what content is in the section.
-- When the section is in an expanded state, typically the header details should be removed and reiterated in the content area since all the relevant information the user needs is now visible.
+<docs-grid columns="2">
+
+  <div>
+
+![Header title example](/images/header_title_do.svg)
+
+ <docs-do>
+     Make titles descriptive but concise so that the user can easily scan the sections for what they are looking for and to avoid truncation whenever possible.
+</docs-do>
+  </div>
+  <div>
+   
+
+![Header title truncation](/images/header_title_do-not.svg)
+
+ <docs-do-not>
+     Make the titles long and harder to scan quickly. Try to avoid truncation whenever possible.
+</docs-do-not>
+  </div>
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
+
+<docs-grid columns="2">
+
+  <div>
+
+![Preview text is removed when expanded](/images/expanded_do.svg)
+
+ <docs-do>
+    Remove the preview text when a section is expanded.
+</docs-do>
+  </div>
+  <div>
+
+![Preview text remains when expanded](/images/expanded_do-not.svg)
+
+ <docs-do-not>
+     Allow the preview text to persist when expanded. This causes redundancy and confusion when editable fields are present.
+
+</docs-do-not>
+  </div>
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Adding actions
 
-- Actions in Expanders are best used for lightweight editing of an element, such as selecting a value for a setting.
-- If there are other actions on the page, make sure you only have one save button available to the user at one time to avoid confusion.
+Actions in Expanders are best used for lightweight editing, such as selecting a value for a setting.
 
-<hr>
+<docs-spacer size="small"></docs-spacer>
 
-<div id="expander--alternative-considerations"></div>
+![Page-level and Expander actions](/images/action_do-not.svg)
 
-## Alternative considerations
+<docs-do-not>
+Avoid using actions within the Expander that contradict any page-level actions. For example, you should not have a page-level save and a save button within an Expander. 
+</docs-do-not>  
 
-- Consider using **Cards** when you need to the ability to view and edit a group of information all at once. Show read only data on the card with an edit button that changes everything to be editable.
-- Consider using [**Tabs**](/design-system/components/tabs/) instead of Expanders when there is a lot of information in the content area of a section that would push other sections out of the user's viewport, or if there is a lot of complex information.
-- Consider using **Jump links** when it would be best to have all the content visible and the user just needs to jump to different sections on the page.
+- - -
+
+## Alternate considerations
+
+* Consider using [Cards](/design-system/components/cards/) when there is no real benefit to focusing the user on one section at a time.
+* Consider using [Tabs](/design-system/components/tabs/) when the length of the content area exceeds the average user's viewport height or when there are more than a handful of form fields.
