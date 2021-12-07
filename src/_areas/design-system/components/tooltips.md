@@ -14,13 +14,19 @@ includedElements: []
 * These messages should not be critical for the user to read and there should be no action included within them.
 * Tooltips trigger on hover and remain active until the user is no longer hovering over that page element. A 200ms dissolve transition fades tooltips on and off the page.
 
-- - -
-
 ## Usage
 
 * Use a tooltip to help users understand unknown or unfamiliar objects that are not described directly on the page.
 * To provide information to users when they need it, and to help free up screen space
 * Use a tooltip when a control does not have a text label to explain it.
+
+- - -
+
+
+
+## Types
+
+
 
 - - -
 
