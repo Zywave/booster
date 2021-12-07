@@ -49,11 +49,11 @@ With a text
 
 ### Mouse-hover gesture
 
-
+Show Tooltips when users hover mouse over the page element. When mouse moves away from the element, Tooltips dismiss. 
 
 ### Keyboad-hover gesture
 
-When using a keyboard, users can \[tab] through page elements to select and complete actions. Users can view Tooltip messages when a page element is in its keyboard focus state. 
+When using a keyboard, users can \[tab] through page elements to select and complete actions. Users can view Tooltip messages when a page element is in its keyboard focus state. When 
 
 - - -
 
@@ -61,7 +61,8 @@ When using a keyboard, users can \[tab] through page elements to select and comp
 
 * Use a tooltip to help users understand unknown or unfamiliar objects that are not described directly on the page.
 * Use a tooltip when a control does not have a text label to explain it.
-* Always make sure the arrow is pointing at the paired page element and is centered on the tooltip message
+* Always make sure that the Tooltip arrow is pointing at the paired page element and is centered on the tooltip message
+* Use colors on page elements to call out for attention
 
 ![Tooltip best practices](/images/components/tooltips/tooltips-bestpractice.svg)
 
