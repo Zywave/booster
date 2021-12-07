@@ -24,7 +24,7 @@ includedElements: []
 
 - - -
 
-## Tooltip anatomy
+## Anatomy
 
 ![Tooltip anatomy](/images/components/tooltips/tooltips-anatomy.svg)
 
