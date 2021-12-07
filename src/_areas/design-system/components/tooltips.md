@@ -1,7 +1,7 @@
 ---
 title: Tooltips
 subtitle: Unobtrusive messages that provide the user with simple information
-  when hovering over a page element.
+  when interacting with an interface element.
 api: https://cdn.zywave.com/@zywave/zui-tooltip@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-tooltip@next/demo/index.html
 mainComponentName: zui-tooltip
