@@ -21,7 +21,9 @@ Tooltips are user-triggered messages that help provide additional information to
 
 ## Types
 
+With an icon
 
+With a text 
 
 - - -
 
@@ -59,6 +61,7 @@ When using a keyboard, users can \[tab] through page elements to select and comp
 
 * Use a tooltip to help users understand unknown or unfamiliar objects that are not described directly on the page.
 * Use a tooltip when a control does not have a text label to explain it.
+* Always make sure the arrow is pointing at the paired page element and is centered on the tooltip message
 
 ![Tooltip best practices](/images/components/tooltips/tooltips-bestpractice.svg)
 
