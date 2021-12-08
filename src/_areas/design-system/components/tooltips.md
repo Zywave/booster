@@ -27,6 +27,8 @@ Hover over page elements
 
 ## Anatomy
 
+For a more detailed breakdown of spacing and sizing, view the design specs.
+
 ![Tooltip anatomy](/images/components/tooltips/tooltips-anatomy.svg)
 
 1. Body - Centered above page element
