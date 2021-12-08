@@ -20,9 +20,9 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
 \[INSERT IMAGE]
 
 1. **Title:** Ideally, the H1 title in a Dialog should not span more than one line. The title gives the user an understanding of the message or decision they are being presented with. 
-2. **Content area:** The detailed message is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.  
+2. **Content area:** More detailed information is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.  
 
-3. **Footer:** The footer is where all the actions are located within a Dialog. An option is available for the footer to remain sticky when the length of the Dialog exceeds the height of the viewport so that the available actions remain visible to the user at all times.
+3. **Footer:** The footer is where all the actions are located within a Dialog. Optionally, the footer may remain sticky when the length of the Dialog exceeds the height of the viewport so that the available actions remain visible to the user at all times. More information on sticky footers can be found in behavior and best practices.
 
 * Primary actions are located on the far right
 * Secondary actions are to the left of the primary action
@@ -65,9 +65,23 @@ There are two ways that a Dialog can be closed and the recommended option depend
 
 <docs-spacer size="small"></docs-spacer>
 
-### Scrolling
+### Scrolling  
+When the contents of a Dialog exceed the height of the viewport for the user, scrolling will be necessary. 
+* The entire dialog screen scrolls, not just the contents within. 
+* The background contents remain static as the Dialog scrolls.
+* 36px of padding should be applied to the top and bottom of the Dialog. 
 
+--- 
 
 ## Best practices
 
+* Avoid scrolling by keeping the messages brief and limiting the functionality within the Dialog. 
+* Implement a sticky footer area if scrolling is necessary and the user is not likely to need to scroll to view the actions. 
+* Avoid including forms in a Dialog
+* Keep titles short so that they do not wrap onto more than one line. 
+
+---
+
 ## Alternate considerations
+* Use a separate page with a focused state for forms
+* 
