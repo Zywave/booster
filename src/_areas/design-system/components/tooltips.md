@@ -120,7 +120,7 @@ Tooltip messages should not repeat what's already visiable on the screen.
 ![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
 
 <docs-do>
-Tooltips should be placed close to the related content
+Tooltips should be placed close to the related content. 
 </docs-do>
 
 </div>
@@ -143,12 +143,7 @@ Ensure Tooltips do not block related page content. This will disturb users' work
 
 ### Additional guidlines
 
-* Use a tooltip to help users understand unknown or unfamiliar objects that are not described directly on the page.
 * Use a tooltip when a UI element has little or no descriptive text label but uses may need a brief explaination to understand how to interact.
-* Always make sure that the Tooltip arrow is pointing at the paired page element and is centered on the tooltip message
+* Always make sure that the Tooltip arrow is pointing at the related page content and is centered on the tooltip message
 * Use colors on page elements to call out for attention
-
-![Tooltip best practices](/images/components/tooltips/tooltips-bestpractice.svg)
-
-* Tooltips should include short, descriptive text that is succinct enough to remain on one line.
-* In certain scenarios, this text may flow onto a second line within the tooltip. However, if the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.
+* Keep Tooltips short and concise. In certain scenarios, this text may flow onto a second line within the tooltip. However, if the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.
