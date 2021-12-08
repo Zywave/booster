@@ -37,32 +37,6 @@ Breadcrumbs give users context so they don't feel lost, even when they are deep 
 
 <hr>
 
-## Types/States
-
-### Default
-
-Default state is the shortest form of a Breadcrumb navigation. It contains the current page with one prior Breadcrumb.
-
-![Breadcrumbs - default](/images/default.png)
-
-<br>
-
-### Long Breadcrumb trail
-
-When there are 5 or more pages in a Breadcrumb trail, we recommend using an ellipsis to hide everything between the first page and the second to last page. Clicking the ellipsis will expand to reveal all the hidden Breadcrumbs.
-
-![Breadcrumbs - long](/images/long.png)
-
-<br>
-
-### Long Breadcrumb trail - expanded
-
-When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidden pages. When the Breadcrumbs are fully expanded, any overflow will wrap to a new line.
-
-![Breadcrumbs - long expanded](/images/long-–-expanded.png)
-
-<hr>
-
 ## Anatomy
 
 For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/a732e0cf-0523-44cb-9c64-cd8162785b7b-f261/grid)
@@ -206,3 +180,29 @@ Due to the smaller screen size and potential complexity of Breadcrumbs, a mobile
 ### Upon refreshing/re-navigating to the page, collapse long Breadcrumb trails
 
 After expanding a long Breadcrumb trail, refreshing the page will collapse the trail automatically.
+
+<br>
+
+### Single Breadcrumb
+
+Default state is the shortest form of a Breadcrumb navigation. It contains the current page with one prior Breadcrumb.
+
+![Breadcrumbs - default](/images/default.png)
+
+<br>
+
+### Long Breadcrumb trail
+
+When there are 5 or more pages in a Breadcrumb trail, we recommend using an ellipsis to hide everything between the first page and the second to last page. Clicking the ellipsis will expand to reveal all the hidden Breadcrumbs.
+
+![Breadcrumbs - long](/images/long.png)
+
+<br>
+
+### Long Breadcrumb trail - expanded
+
+When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidden pages. When the Breadcrumbs are fully expanded, any overflow will wrap to a new line.
+
+![Breadcrumbs - long expanded](/images/long-–-expanded.png)
+
+<hr>
