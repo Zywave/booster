@@ -31,10 +31,10 @@ Hover over page elements
 
 For a more detailed breakdown of spacing and sizing, view the design specs.
 
-![Tooltip anatomy](/images/components/tooltips/tooltips-anatomy.svg)
+![Image for Tooltip anatomy](/images/anatomy.png)
 
-1. Body - Centered above page element
-2. Text - Centered within Tooltip
+1. **Tooltip:** showing a brief and concise message to help understand the page element
+2. **Icon:** paired with Tooltips to indicate additional information is available on hover/focus state
 
 - - -
 
