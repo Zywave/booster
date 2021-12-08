@@ -58,7 +58,7 @@ When using a keyboard, users can \[tab] through page elements to select and comp
 ## Best practices
 
 * Use a tooltip to help users understand unknown or unfamiliar objects that are not described directly on the page.
-* Use a tooltip when a control does not have a text label to explain it.
+* Use a tooltip when a UI element has little or no descriptive text label but uses may need a brief explaination to understand how to interact.
 * Always make sure that the Tooltip arrow is pointing at the paired page element and is centered on the tooltip message
 * Use colors on page elements to call out for attention
 
