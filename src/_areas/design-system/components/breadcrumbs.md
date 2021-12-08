@@ -165,16 +165,6 @@ When in a long Breadcrumb trail, items that are closer to the current page hold 
 
 <hr>
 
-## Responsive Layout
-
-### Shorten Breadcrumbs to only show the last level on mobile
-
-Due to the smaller screen size and potential complexity of Breadcrumbs, a mobile Breadcrumb functions as an on-screen back button. This Breadcrumb is simplified to the last level before the current page with a chevron to the left.
-
-![Breadcrumbs - mobile layout](/images/moble.png)
-
-<hr>
-
 ## Behavior
 
 ### Upon refreshing/re-navigating to the page, collapse long Breadcrumb trails
@@ -204,5 +194,15 @@ When there are 5 or more pages in a Breadcrumb trail, we recommend using an elli
 When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidden pages. When the Breadcrumbs are fully expanded, any overflow will wrap to a new line.
 
 ![Breadcrumbs - long expanded](/images/long-–-expanded.png)
+
+<hr>
+
+## Responsive Layout
+
+### Shorten Breadcrumbs to only show the last level on mobile
+
+Due to the smaller screen size and potential complexity of Breadcrumbs, a mobile Breadcrumb functions as an on-screen back button. This Breadcrumb is simplified to the last level before the current page with a chevron to the left.
+
+![Breadcrumbs - mobile layout](/images/moble.png)
 
 <hr>
