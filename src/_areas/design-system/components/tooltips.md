@@ -120,7 +120,7 @@ Tooltip messages should not repeat what's already visiable on the screen.
 ![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
 
 <docs-do>
-Tooltips should be placed close to the related content. 
+Tooltips should be placed close to but not disrupting the related content. 
 </docs-do>
 
 </div>
