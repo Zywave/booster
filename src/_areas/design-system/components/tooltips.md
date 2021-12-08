@@ -19,9 +19,9 @@ Tooltips are user-triggered messages that help provide additional information to
 
 ## Types
 
-With an icon
+Paired ith an icon
 
-With a text 
+Hover over page elements
 
 - - -
 
@@ -56,6 +56,92 @@ When using a keyboard, users can \[tab] through page elements to select and comp
 - - -
 
 ## Best practices
+
+<docs-grid columns="2">
+
+<div>
+
+![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
+
+<docs-do>
+Keep Tooltip messages format text only.
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/2-2.png)
+
+<docs-do-not>
+Avoid placing actionable items on the Tooltip messages, such as buttons or link texts. Users will not be able to interact with these items because the message will disappear as users move the mouse away from the page elements.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+<docs-grid columns="2">
+
+<div>
+
+![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
+
+<docs-do>
+Tooltip messages must provide helpful information.
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/2-2.png)
+
+<docs-do-not>
+Tooltip messages should not repeat what's already visiable on the screen.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+<docs-grid columns="2">
+
+<div>
+
+![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
+
+<docs-do>
+Tooltips should be placed close to the related content
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/2-2.png)
+
+<docs-do-not>
+Ensure Tooltips do not block related page content. This will disturb users' workflow and cause repetitive actions (close Tooltips to view page element, hover and see Tooltips again, then close Tooltips and interact on the page).
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+### Additional guidlines
 
 * Use a tooltip to help users understand unknown or unfamiliar objects that are not described directly on the page.
 * Use a tooltip when a UI element has little or no descriptive text label but uses may need a brief explaination to understand how to interact.
