@@ -65,4 +65,4 @@ When using a keyboard, users can \[tab] through page elements to select and comp
 ![Tooltip best practices](/images/components/tooltips/tooltips-bestpractice.svg)
 
 * Tooltips should include short, descriptive text that is succinct enough to remain on one line.
-* In special cases, this text may flow onto a second line within the tooltip. However, if the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.
+* In certain scenarios, this text may flow onto a second line within the tooltip. However, if the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.
