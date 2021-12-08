@@ -1,7 +1,7 @@
 ---
 title: Tooltips
-subtitle: Unobtrusive messages that provide the user with simple information
-  when interacting with an interface element.
+subtitle: Unobtrusive messages that provide the user with supplementary
+  information when interacting with an interface element.
 api: https://cdn.zywave.com/@zywave/zui-tooltip@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-tooltip@next/demo/index.html
 mainComponentName: zui-tooltip
@@ -14,8 +14,6 @@ Tooltips are user-triggered messages that help provide additional information to
 * Tooltips can be paired with any page element, such as icons, buttons, texts etc.
 * These messages should not be critical for the user to read and there should be no action included within them.
 * Tooltips trigger on hover and remain active until the user is no longer hovering over that page element. A 200ms dissolve transition fades tooltips on and off the page.
-
-
 
 - - -
 
@@ -41,7 +39,7 @@ With a text
 ![Tooltip positioning](/images/components/tooltips/tooltips-positioning.svg)
 
 * The tooltip positioning will default to the top of whatever page element is being hovered.
-* Special use cases may arrive in which the bottom, right, and left tooltip positions may be used if there is not sufficient space to display the tooltip, such as a top bar tooltip.
+* Depends on the page element's location, Tooltip messages can be placed at either bottom, right, or left of the element if there is not sufficient space to display the tooltip, such as a top bar tooltip.
 
 - - -
 
