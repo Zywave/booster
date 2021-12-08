@@ -15,7 +15,7 @@ Tooltips are user-triggered messages that help provide additional information to
 * These messages should not be critical for the user to read and there should be no action included within them.
 * Tooltips trigger on hover and remain active until the user is no longer hovering over that page element. A 200ms dissolve transition fades tooltips on and off the page.
 
-![Tooltip anatomy](/images/usage.png)
+![Image for Tooltip usage](/images/usage.png)
 
 - - -
 
