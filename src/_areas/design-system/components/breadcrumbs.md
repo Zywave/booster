@@ -9,7 +9,7 @@ includedElements: []
 ---
 ## What are Breadcrumbs
 
-Breadcrumbs are a form of secondary navigation that helps users easily see and navigate through page hierarchies. The Breadcrumb links also allow users to backtrack through deep navigation as far as they need to.
+Breadcrumbs are a form of secondary navigation that helps users view and navigate efficiently through page hierarchies. The Breadcrumb links also allow users to backtrack through deep navigation as far as they need to.
 
 <hr>
 
@@ -25,13 +25,13 @@ Breadcrumbs give users context so they don't feel lost, even when they are deep 
 
 * When there are 2 or more pages in the hierarchy
 * When it's necessary to inform users of where they are
-* When users need a quick and easy way to navigate back to high-level pages
+* When users need a quick and efficient way to navigate back to high-level pages
 
 <br>
 
 ### Why do we use Breadcrumbs
 
-* Simple, efficient, easy navigation within the application
+* Quick, efficient, and straightforward navigation within the application
 * Fast navigation: one-click access to get to a higher-level page
 * Informs the user of their location in relation to other pages
 
@@ -117,10 +117,10 @@ When placing ellipses, always leave the first item visible and avoid using ellip
 
 <div>
 
-![Consider using ellipses from the second item onwards. Always leave the first item visible so users can easily find where the structure starts.](/images/2-1.png)
+![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
 
 <docs-do>
-Consider using ellipses from the second item onwards. Always leave the first item visible so users can easily find where the structure starts.
+Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.
 </docs-do>
 
 </div>
