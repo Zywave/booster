@@ -9,7 +9,7 @@ includedElements: []
 ---
 ## What are Breadcrumbs
 
-Breadcrumbs are a form of secondary navigation that helps users easily see and navigate through page hierarchies. The Breadcrumb links also allow users to backtrack through deep navigation as far as they need to.
+Breadcrumbs are a form of secondary navigation that helps users view and navigate efficiently through page hierarchies. The Breadcrumb links also allow users to backtrack through deep navigation as far as they need to.
 
 <hr>
 
@@ -25,13 +25,13 @@ Breadcrumbs give users context so they don't feel lost, even when they are deep 
 
 * When there are 2 or more pages in the hierarchy
 * When it's necessary to inform users of where they are
-* When users need a quick and easy way to navigate back to high-level pages
+* When users need a quick and efficient way to navigate back to high-level pages
 
 <br>
 
 ### Why do we use Breadcrumbs
 
-* Simple, efficient, easy navigation within the application
+* Quick, efficient, and straightforward navigation within the application
 * Fast navigation: one-click access to get to a higher-level page
 * Informs the user of their location in relation to other pages
 
@@ -64,58 +64,82 @@ Breadcrumbs alignment:
 
 <hr>
 
-## Types/States
-
-### Default
-
-Default state is the shortest form of a Breadcrumb navigation. It contains the current page with one prior Breadcrumb.
-
-![Breadcrumbs - default](/images/default.png)
-
-<br>
-
-### Long Breadcrumb trail
-
-When there are 5 or more pages in a Breadcrumb trail, we recommend using an ellipsis to hide everything between the first page and the second to last page. Clicking the ellipsis will expand to reveal all the hidden Breadcrumbs.
-
-![Breadcrumbs - long](/images/long.png)
-
-<br>
-
-### Long Breadcrumb trail - expanded
-
-When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidden pages. When the Breadcrumbs are fully expanded, any overflow will wrap to a new line.
-
-![Breadcrumbs - long expanded](/images/long-–-expanded.png)
-
-<hr>
-
 ## Best Practices
 
-### Page title length
+### Breadcrumb title length
 
 * We recommend keeping Breadcrumb titles to 30 characters or less, especially in longer trails, but leave the length up to the consumer
-* Page titles will truncate after 30 characters with an ellipsis at the end
+* Breadcrumb titles will truncate after 30 characters with an ellipsis at the end
 
 ![truncated title breadcrumb](/images/truncate.png)
 
-<br>
+<docs-spacer>
+
+</docs-spacer>
 
 ### Separators should mimic movement
 
-Use chevrons as separators between page/Breadcrumb titles. They not only help separate between different page/Breadcrumb titles, but also help indicate hierarchy.
+Use chevrons as separators between Breadcrumb titles. They not only help separate between different Breadcrumb titles, but also help indicate hierarchy.
 
-![Separators should mimic movement](/images/signs.png)
+<docs-grid columns="2">
 
-<br>
+<div>
+
+![Always use right arrows in breadcrumb trials](/images/1-1.png)
+
+<docs-do>
+Always use right arrows in breadcrumb trails.
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid using icons that are not right arrows, such as forward slash "/", dash "-", and etc.](/images/1-2.png)
+
+<docs-do-not>
+Avoid using icons that are not right arrows, such as forward slash "/", dash "-", and etc.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
 
 ### The first Breadcrumb should always be spelled out
 
 When placing ellipses, always leave the first item visible and avoid using ellipses at the beginning.
 
-![The first Breadcrumb should always be spelled out](/images/ellipses.png)
+<docs-grid columns="2">
 
-<br>
+<div>
+
+![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
+
+<docs-do>
+Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/2-2.png)
+
+<docs-do-not>
+Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
 
 ### **Breadcrumb width should not exceed 700px**
 
@@ -141,6 +165,38 @@ When in a long Breadcrumb trail, items that are closer to the current page hold 
 
 <hr>
 
+## Behavior
+
+### Upon refreshing/re-navigating to the page, collapse long Breadcrumb trails
+
+After expanding a long Breadcrumb trail, refreshing the page will collapse the trail automatically.
+
+<br>
+
+### Single Breadcrumb
+
+Default state is the shortest form of a Breadcrumb navigation. It contains the current page with one prior Breadcrumb.
+
+![Breadcrumbs - default](/images/default.png)
+
+<br>
+
+### Long Breadcrumb trail
+
+When there are 5 or more pages in a Breadcrumb trail, we recommend using an ellipsis to hide everything between the first page and the second to last page. Clicking the ellipsis will expand to reveal all the hidden Breadcrumbs.
+
+![Breadcrumbs - long](/images/long.png)
+
+<br>
+
+### Long Breadcrumb trail - expanded
+
+When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidden pages. When the Breadcrumbs are fully expanded, any overflow will wrap to a new line.
+
+![Breadcrumbs - long expanded](/images/long-–-expanded.png)
+
+<hr>
+
 ## Responsive Layout
 
 ### Shorten Breadcrumbs to only show the last level on mobile
@@ -150,9 +206,3 @@ Due to the smaller screen size and potential complexity of Breadcrumbs, a mobile
 ![Breadcrumbs - mobile layout](/images/moble.png)
 
 <hr>
-
-## Behavior
-
-### Upon refreshing/re-navigating to the page, collapse long Breadcrumb trails
-
-After expanding a long Breadcrumb trail, refreshing the page will collapse the trail automatically.
