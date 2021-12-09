@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Making ZUI more performant
 description: Reducing the bloat of ZUI to improve load times for your apps
-date: 2021-12-01T01:46:29.942Z
+date: 2021-12-10T01:46:29.942Z
 hideToc: false
 tags:
   - Engineering
