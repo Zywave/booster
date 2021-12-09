@@ -53,3 +53,5 @@ All other components (wells, notifiers, dialogs) are available à la carte, via 
 We believe this approach is a reasonable compromise behind the developer experience of simple installs and end-user experience with more performant page loads.
 
 We intend to monitor utilization, and if we see other ways to offer small bundles that satisfy common scenarios, we'll definitely address those.
+
+For more information, you can track our progress [here](https://gitlab.com/groups/zywave/devkit/-/epics/38).
