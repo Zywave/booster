@@ -30,7 +30,26 @@ Fast forward a little bit, and the browser landscape has changed significantly:
 ## The "bundle problem"
 The bundle has undoubtedly been a very successful addition to our toolkit. However, the unfortunate bit here is that all of the history has forced us to support an ever-growing, bloated bundle (as of this post, ~500kB) that might include code that a team doesn't need. Want just a button? Too bad, you get the whole kitchen sink!
 
+"Is 500kB really that bad?", you might ask.  
+
+Yes. That 500kB is required to completely load before your application can properly render, as ZUI contains a good portion of your application's render. As we fold all applications under the "One Zywave" umbrella, jarring load times as you go from one application to another to access different features really has a noticeable negative impact on your users. And ZUI doesn't want to be in the way at all.
+
 ## The "bundle solution"
 More bundles!
 
 But seriously, more, but smaller bundles.
+
+We intend to ship two "core" bundles:
+- Form controls
+  - These represent all of the ZUI components that likely will be used in the creation of a form (one of the most common page functions you'll see at Zywave). 
+  - This includes components like checkboxes, inputs, etc.
+- App components
+  - These represent all of the ZUI components that are required for [Zywave Shell](https://booster.zywave.dev/application-framework/components/shell/) to render
+  - This includes components like icons, shell, logo, etc.
+
+
+All other components (wells, notifiers, dialogs) are available à la carte, via a new components directory in the bundle package (e.g. zui-bundle/dist/components/dialog.js).
+
+We believe this approach is a reasonable compromise behind the developer experience of simple installs and end-user experience with more performant page loads.
+
+We intend to monitor utilization, and if we see other ways to offer small bundles that satisfy common scenarios, we'll definitely address those.
