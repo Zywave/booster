@@ -1,17 +1,15 @@
 ---
+title: Text inputs
+subtitle: A single-line box that the user can enter text into.
 api: https://cdn.zywave.com/@zywave/zui-input@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-input@next/demo/index.html
 mainComponentName: zui-input
-includedElements: ["zui-input"]
-title: Text inputs
-subtitle: A single-line box that the user can enter text into.
+includedElements:
+  - zui-input
 ---
-## General
-### See also
+## Usage
 
-[forms](/design-system/patterns/forms/)
-<br>
-<br>
+A form control used when there are more than 2 options and may require a user to select 1 option.
 
 ### Sizing & spacing
 
