@@ -9,7 +9,7 @@ includedElements:
 ---
 ## Usage
 
-A form control used when there are more than 2 options and may require a user to select 1 option.
+A form control allows the user to enter text into a UI.
 
 ### Sizing & spacing
 
