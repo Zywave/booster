@@ -31,9 +31,7 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 - - -
 
-## Types
-
-Use different states to help show the user how they can interact with Text Inputs.
+## States
 
 ### Normal
 
@@ -65,7 +63,10 @@ The input is not editable at this time. Read-only text fields should be used whe
 It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
 
 ![Read Only Text Input](/images/components/text-input/text-input--read-only.svg)
-<br>
+
+- - -
+
+## Types
 
 ### Success
 
