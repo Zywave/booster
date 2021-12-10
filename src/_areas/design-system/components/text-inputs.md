@@ -79,6 +79,18 @@ It may be frustrating or confusing to users when an input field is read-only. Yo
 
 ![Text input read only](/images/textinput_readonly.svg)
 
+#### Text Area
+
+A Text Area is a subset of the text input specifically used for entering multiple sentences of information because of this, the input size is larger (width and length) than a standard input area. Text areas can also use a scroll bar and expander tab in the bottom right corner, if necessary.
+
+![Text input text area](/images/textinput_textarea.svg)
+
+We recommend capping the max height of a text area so it doesn't grow too large for the UI it's in, then use a scrollbar for viewing text not within the viewing area. 150px is typically enough to get a good sense of the text within, but not blow out your screen.
+
+![Text input text area scroll](/images/textinput_textarea_scroll.svg)
+
+
+
 - - -
 
 ## Behavior
@@ -90,16 +102,6 @@ A loading icon appears on the right side of the input to indicate that something
 ![Text input loading](/images/textinput_loading.svg)
 
 <br>
-
-#### Text Area
-
-A Text Area is a subset of the text input specifically used for entering multiple sentences of information because of this, the input size is larger (width and length) than a standard input area. Text areas can also use a scroll bar and expander tab in the bottom right corner, if necessary.
-
-![Text input text area](/images/textinput_textarea.svg)
-
-We recommend capping the max height of a text area so it doesn't grow too large for the UI it's in, then use a scrollbar for viewing text not within the viewing area. 150px is typically enough to get a good sense of the text within, but not blow out your screen.
-
-![Text input text area scroll](/images/textinput_textarea_scroll.svg)
 
 <br>
 
