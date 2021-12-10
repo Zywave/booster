@@ -2,8 +2,8 @@
 title: Dropdown selects
 subtitle: Type of form control where a user is presented with a list of options
   to choose one items from.
-api: https://cdn.zywave.com/@zywave/zui-select@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-select@latest/docs/demo.html
+api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-select@next/demo/index.html
 mainComponentName: zui-select-dropdown
 includedElements:
   - zui-select-dropdown
@@ -28,7 +28,7 @@ The anatomy of a dropdown select.
 2. **Chevron:** The chevron icon indicates there are options available in a dropdown list
 3. **Option list:** The grouping of related input options
 4. **Option:** A unique input option
-5. **Scrollbar**: A bar used to scroll to view more options
+5. **Scrollbar**: A bar used to scroll to view more options 
 
 <br>
 
