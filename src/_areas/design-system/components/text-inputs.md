@@ -89,8 +89,6 @@ We recommend capping the max height of a text area so it doesn't grow too large 
 
 ![Text input text area scroll](/images/textinput_textarea_scroll.svg)
 
-
-
 - - -
 
 ## Behavior
@@ -103,39 +101,27 @@ A loading icon appears on the right side of the input to indicate that something
 
 <br>
 
-<br>
+- - -
 
-## Labels
+## Best practices
 
-The label elements helps bring proper context to your inputs to let the user know what data to enter.
-
-### Form labels
-
-Generally, a single label element should be present for a single control. For general form element labeling standards [see our forms labeling documentation.](/design-system/patterns/forms/)
-
-<br>
-<br>
-
-### Place holder text
+#### Place holder text
 
 Place holder text appears inside of the input field, prior to entering data into it, and disappears. It is always used in conjunction with labels, never instead of a label. It provides an example of what you should enter in that field, and the format of that information when appropriate. An example would be phone number: (555) 555-5555.
 
 ![Error Text Input](/images/components/text-input/text-input--placeholder-text.svg)
 <br>
-<br>
 
-### Input prefix
+#### Input prefix
 
 Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. An example would be a magnifying glass to show that the input field is a type-ahead search filter. These labels are typically an icon.
 
 ![Text Input Label Prefix](/images/components/text-input/text-input--label-prefix.svg)
 <br>
-<br>
 ![Text Input Label Prefix](/images/components/text-input/text-input--label-prefix-contained.svg)
 <br>
-<br>
 
-### Input suffix
+#### Input suffix
 
 Added to front of the input field to specify what should be entered, like a percentage symbol. To add more attention a container can be added to the styling. These labels are typically an icon.
 
@@ -143,11 +129,9 @@ Added to front of the input field to specify what should be entered, like a perc
 <br>
 <br>
 
-### Input prefix & suffix
+#### Input prefix & suffix
 
 ![Text Input Label Prefix](/images/components/text-input/text-input--label-prefix+suffix.svg)
-
-<hr>
 
 
 
