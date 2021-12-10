@@ -56,14 +56,6 @@ If the field is not made enabled when submitting, then the information shown in 
 ![Disabled Text Input](/images/components/text-input/text-input--disabled.svg)
 <br>
 
-### Read only
-
-The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
-
-It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
-
-![Read Only Text Input](/images/components/text-input/text-input--read-only.svg)
-
 - - -
 
 ## Types
@@ -81,6 +73,24 @@ Text Input is outlined in red. Error message with details on the error will appe
 
 ![Error Text Input](/images/components/text-input/text-input--error.svg)
 
+## Text inputs with actions
+
+On rare occasions, you can put the button next to the input, which is often seen in search. While there's nothing especially wrong with putting the button below the input, putting it next to it saves space and looks a bit neater. But, do not do this on standard forms that happen to have just 1 field. It's inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
+
+![Text Input Primary Action](/images/components/text-input/text-input--primary-action.svg)
+
+![Text Input Primary Action + Icon](/images/components/text-input/text-input--secondary-action.svg)
+
+![Text Input Secondary Action + Icon](/images/components/text-input/text-input--secondary-action-icon.svg)
+
+### Read only
+
+The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
+
+It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
+
+![Read Only Text Input](/images/components/text-input/text-input--read-only.svg)
+
 ### Sizing & spacing
 
 The length of the input should be as close to the intended length of content as possible. This also applies to other form controls of a similar shape, like drop-down selects and text areas.
@@ -89,11 +99,9 @@ The length of the input should be as close to the intended length of content as 
 
 [See design specs](https://xd.adobe.com/spec/4fa1ccc1-86e0-4fd1-47cb-666d634ce145-3990/grid)
 
-<hr>
+- - -
 
-### 
-<br>
-<br>
+## Behavior
 
 ### Loading
 
@@ -112,6 +120,8 @@ A Text Area is a subset of the text input specifically used for entering multipl
 We recommend capping the max height of a text area so it doesn't grow too large for the UI it's in, then use a scrollbar for viewing text not within the viewing area. 150px is typically enough to get a good sense of the text within, but not blow out your screen.
 
 ![Text area](/images/components/text-input/text-area--withscroll.svg)
+
+
 
 <hr>
 
@@ -159,12 +169,6 @@ Added to front of the input field to specify what should be entered, like a perc
 
 <hr>
 
-## Text inputs with actions
 
-On rare occasions, you can put the button next to the input, which is often seen in search. While there's nothing especially wrong with putting the button below the input, putting it next to it saves space and looks a bit neater. But, do not do this on standard forms that happen to have just 1 field. It's inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
-
-![Text Input Primary Action](/images/components/text-input/text-input--primary-action.svg)
-
-![Text Input Primary Action + Icon](/images/components/text-input/text-input--secondary-action.svg)
 
 ![Text Input Secondary Action + Icon](/images/components/text-input/text-input--secondary-action-icon.svg)
