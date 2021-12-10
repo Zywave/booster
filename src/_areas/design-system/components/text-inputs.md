@@ -21,9 +21,9 @@ The anatomy of a text input.
 
 ![Text input anatomy](/images/textinput_anatomy.svg)
 
-1. **Label:** The
-2. **Select:** The form field where the user can select one option from a list
-3. **Placeholder text:** The grouping of related input options
+1. **Label:** Text to inform users as to what information is requested
+2. **Input field:** The form field where the user can select one option from a list
+3. **Placeholder text** (optional): The grouping of related input options
 
 <br>
 
