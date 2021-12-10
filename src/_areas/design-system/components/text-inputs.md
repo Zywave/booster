@@ -22,12 +22,63 @@ The anatomy of a text input.
 ![Text input anatomy](/images/textinput_anatomy.svg)
 
 1. **Label:** Text to inform users as to what information is requested
-2. **Input container:** The form field where the user can input information
-3. **Placeholder text** (optional): Text that provides an example of what the user should enter into the input
+2. **Text input:** The form field where the user can input information
+3. **Placeholder text** (optional): Text that provides an example of what the user should enter into the text input
 
 <br>
 
 See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
+
+- - -
+
+## Types
+
+Use different states to help show the user how they can interact with Text Inputs.
+
+### Normal
+
+Text Input is blank with nothing entered, no non-standard colors.
+
+![Normal Text Input](/images/components/text-input/text-input--normal.svg)
+<br>
+
+### Focused
+
+The user has clicked into the input, it's outlined blue and the blinking text cursor appears.
+
+![Focused Text Input](/images/components/text-input/text-input--focused.svg)
+<br>
+
+### Disabled
+
+The input appears grayed out and cannot currently be filled out. Disabled fields should only be used if there is an action the user can take on the page that will enable the field. It may also be beneficial to provide the user with help to explain why the field is disabled.
+
+If the field is not made enabled when submitting, then the information shown in the disabled field should not be submitted with the rest of the fields on the page.
+
+![Disabled Text Input](/images/components/text-input/text-input--disabled.svg)
+<br>
+
+### Read only
+
+The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
+
+It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
+
+![Read Only Text Input](/images/components/text-input/text-input--read-only.svg)
+<br>
+
+### Success
+
+Text Input is outlined in green. Success message may appear nearby.
+
+![Success Text Input](/images/components/text-input/text-input--success.svg)
+<br>
+
+### Error
+
+Text Input is outlined in red. Error message with details on the error will appear nearby.
+
+![Error Text Input](/images/components/text-input/text-input--error.svg)
 
 ### Sizing & spacing
 
@@ -39,61 +90,7 @@ The length of the input should be as close to the intended length of content as 
 
 <hr>
 
-## Behavior
-
-Use different states to help show the user how they can interact with Text Inputs.
-<br>
-<br>
-
-### Normal
-
-Text Input is blank with nothing entered, no non-standard colors.
-
-![Normal Text Input](/images/components/text-input/text-input--normal.svg)
-<br>
-<br>
-
-### Focused
-
-The user has clicked into the input, it's outlined blue and the blinking text cursor appears.
-
-![Focused Text Input](/images/components/text-input/text-input--focused.svg)
-<br>
-<br>
-
-### Disabled
-
-The input appears grayed out and cannot currently be filled out. Disabled fields should only be used if there is an action the user can take on the page that will enable the field. It may also be beneficial to provide the user with help to explain why the field is disabled.
-
-If the field is not made enabled when submitting, then the information shown in the disabled field should not be submitted with the rest of the fields on the page.
-
-![Disabled Text Input](/images/components/text-input/text-input--disabled.svg)
-<br>
-<br>
-
-### Read only
-
-The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
-
-It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
-
-![Read Only Text Input](/images/components/text-input/text-input--read-only.svg)
-<br>
-<br>
-
-### Success
-
-Text Input is outlined in green. Success message may appear nearby.
-
-![Success Text Input](/images/components/text-input/text-input--success.svg)
-<br>
-<br>
-
-### Error
-
-Text Input is outlined in red. Error message with details on the error will appear nearby.
-
-![Error Text Input](/images/components/text-input/text-input--error.svg)
+### 
 <br>
 <br>
 
