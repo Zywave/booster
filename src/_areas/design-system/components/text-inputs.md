@@ -21,6 +21,14 @@ The anatomy of a text input.
 
 ![Text input anatomy](/images/textinput_anatomy.svg)
 
+1. **Label:** The
+2. **Select:** The form field where the user can select one option from a list
+3. **Placeholder text:** The grouping of related input options
+
+<br>
+
+See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
+
 ### Sizing & spacing
 
 The length of the input should be as close to the intended length of content as possible. This also applies to other form controls of a similar shape, like drop-down selects and text areas.
