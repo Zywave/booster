@@ -19,6 +19,8 @@ A form control allows the user to enter text into a UI. They typically appear in
 
 The anatomy of a text input.
 
+![Text input anatomy](/images/textinput_anatomy.svg)
+
 ### Sizing & spacing
 
 The length of the input should be as close to the intended length of content as possible. This also applies to other form controls of a similar shape, like drop-down selects and text areas.
