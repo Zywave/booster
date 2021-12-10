@@ -27,6 +27,12 @@ The anatomy of a text input.
 
 <br>
 
+#### Sizing & spacing
+
+The length of the input should be as close to the intended length of content as possible. This also applies to other form controls of a similar shape, like drop-down selects and text areas.
+
+![Text Input sizing and spacing](/images/textinput_sizingandspacing.svg)
+
 See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
 
 - - -
@@ -72,16 +78,6 @@ The input is not editable at this time. Read-only text fields should be used whe
 It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
 
 ![Text input read only](/images/textinput_readonly.svg)
-
-<br>
-
-### Sizing & spacing
-
-The length of the input should be as close to the intended length of content as possible. This also applies to other form controls of a similar shape, like drop-down selects and text areas.
-
-![Text Input Sizing](/images/components/text-input/text-input--sizing-spacing.svg)
-
-[See design specs](https://xd.adobe.com/spec/4fa1ccc1-86e0-4fd1-47cb-666d634ce145-3990/grid)
 
 - - -
 

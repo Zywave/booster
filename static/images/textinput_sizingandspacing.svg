@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="295" viewBox="0 0 1000 295">
+  <defs>
+    <clipPath id="clip-textinput_sizingandspacing">
+      <rect width="1000" height="295"/>
+    </clipPath>
+  </defs>
+  <g id="textinput_sizingandspacing" clip-path="url(#clip-textinput_sizingandspacing)">
+    <rect width="1000" height="295" fill="#f4f4f6"/>
+    <g id="Group_264373" data-name="Group 264373" transform="translate(-50)">
+      <g id="Input-Top" transform="translate(350 30)">
+        <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(0 23)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="400" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="399" height="41" rx="3.5" fill="none"/>
+        </g>
+        <text id="City" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">City</tspan></text>
+      </g>
+      <g id="Dropdown_Input_-_Unselected" data-name="Dropdown Input - Unselected" transform="translate(350 115)">
+        <g id="Group_14579" data-name="Group 14579">
+          <g id="Rectangle_288-2" data-name="Rectangle 288" transform="translate(0 23)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="300" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="Select_a_state" data-name="Select a state" transform="translate(15 50)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select a state</tspan></text>
+          <g id="Group_7793" data-name="Group 7793" transform="translate(-550 -1675)">
+            <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
+            <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(775 1707)" fill="#9494a4"/>
+          </g>
+        </g>
+        <text id="State" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">State</tspan></text>
+      </g>
+      <g id="Input-Top-2" data-name="Input-Top" transform="translate(350 200)">
+        <g id="Rectangle_288-3" data-name="Rectangle 288" transform="translate(0 23)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <rect width="125" height="42" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="124" height="41" rx="3.5" fill="none"/>
+        </g>
+        <text id="Zip" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Zip</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
