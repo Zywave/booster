@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="145" viewBox="0 0 485 145">
+  <defs>
+    <clipPath id="clip-textinput_error">
+      <rect width="485" height="145"/>
+    </clipPath>
+  </defs>
+  <g id="textinput_error" clip-path="url(#clip-textinput_error)">
+    <rect width="485" height="145" fill="#f4f4f6"/>
+    <g id="Input_Field" data-name="Input Field" transform="translate(93 30)">
+      <rect id="Rectangle_288" data-name="Rectangle 288" width="300" height="42" rx="4" transform="translate(0 23)" fill="#fff"/>
+      <path id="Rectangle_288_-_Outline" data-name="Rectangle 288 - Outline" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H296a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H296a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(0 23)" fill="#d93911"/>
+      <text id="_" data-name="**********" transform="translate(15 50)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">**********</tspan></text>
+      <text id="Password" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Password</tspan></text>
+      <text id="Password_is_not_valid._Please_try_again." data-name="Password is not valid. Please try again." transform="translate(0 82)" fill="#d93911" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Password is not valid. Please try again.</tspan></text>
+    </g>
+  </g>
+</svg>

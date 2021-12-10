@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="102" viewBox="0 0 1000 102">
+  <defs>
+    <clipPath id="clip-textinput_actions">
+      <rect width="1000" height="102"/>
+    </clipPath>
+  </defs>
+  <g id="textinput_actions" clip-path="url(#clip-textinput_actions)">
+    <rect width="1000" height="102" fill="#f4f4f6"/>
+    <g id="Search_Input" data-name="Search Input" transform="translate(670 30)">
+      <g id="Rectangle_298" data-name="Rectangle 298" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+      </g>
+      <text id="Copy" transform="translate(15 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Copy</tspan></text>
+      <path id="Rectangle_299" data-name="Rectangle 299" d="M0,0H69a3,3,0,0,1,3,3V37a3,3,0,0,1-3,3H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(227 1)" fill="#f4f4f6"/>
+      <rect id="Rectangle_300" data-name="Rectangle 300" width="1" height="40" transform="translate(226 1)" fill="#ebebeb"/>
+      <path id="Path_459" data-name="Path 459" d="M284.1,240h24v24h-24Z" transform="translate(-17 -231)" fill="none"/>
+      <rect id="Rectangle_243" data-name="Rectangle 243" width="24" height="24" transform="translate(267 9)" fill="none"/>
+      <text id="Copy-2" data-name="Copy" transform="translate(247 27)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Copy</tspan></text>
+    </g>
+    <g id="Search_Input-2" data-name="Search Input" transform="translate(350 30)">
+      <g id="Rectangle_298-2" data-name="Rectangle 298" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+      </g>
+      <text id="Search" transform="translate(15 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Search</tspan></text>
+      <path id="Rectangle_299-2" data-name="Rectangle 299" d="M0,0H38a3,3,0,0,1,3,3V37a3,3,0,0,1-3,3H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(258 1)" fill="#f4f4f6"/>
+      <rect id="Rectangle_300-2" data-name="Rectangle 300" width="1" height="40" transform="translate(258 1)" fill="#ebebeb"/>
+      <path id="Path_458" data-name="Path 458" d="M303.8,258.3l-5-5a6.354,6.354,0,0,0,1.1-4.9,6.471,6.471,0,0,0-5.6-5.3,6.53,6.53,0,0,0-2,12.9,6.914,6.914,0,0,0,4.9-1.1l5,5a1.088,1.088,0,0,0,1.5,0A1.222,1.222,0,0,0,303.8,258.3Zm-14.7-9.5a4.458,4.458,0,0,1,3.7-3.7,4.57,4.57,0,0,1,5.2,5.2,4.458,4.458,0,0,1-3.7,3.7A4.609,4.609,0,0,1,289.1,248.8Z" transform="translate(-17 -231.052)" fill="#4e92df"/>
+      <path id="Path_459-2" data-name="Path 459" d="M284.1,240h24v24h-24Z" transform="translate(-17 -231)" fill="none"/>
+      <rect id="Rectangle_243-2" data-name="Rectangle 243" width="24" height="24" transform="translate(267 9)" fill="none"/>
+    </g>
+    <g id="Search_Input-3" data-name="Search Input" transform="translate(30 30)">
+      <g id="Rectangle_298-3" data-name="Rectangle 298" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+      </g>
+      <text id="Copy-3" data-name="Copy" transform="translate(15 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Copy</tspan></text>
+      <path id="Rectangle_299-3" data-name="Rectangle 299" d="M0,0H79a3,3,0,0,1,3,3V37a3,3,0,0,1-3,3H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(217 1)" fill="#2777d3"/>
+      <rect id="Rectangle_300-3" data-name="Rectangle 300" width="1" height="40" transform="translate(217 1)" fill="#ebebeb"/>
+      <path id="Path_459-3" data-name="Path 459" d="M284.1,240h24v24h-24Z" transform="translate(-17 -231)" fill="none"/>
+      <text id="Search-2" data-name="Search" transform="translate(238 27)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Search</tspan></text>
+    </g>
+  </g>
+</svg>

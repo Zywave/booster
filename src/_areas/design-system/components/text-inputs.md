@@ -41,36 +41,39 @@ Text inputs can display the following states: unselected, hover, focus, entered
 
 ## Types
 
-### Success
+#### Success
 
 Text Input is outlined in green. Success message may appear nearby.
 
-![Success Text Input](/images/components/text-input/text-input--success.svg)
+![](/images/textinput_success.svg)
+
 <br>
 
-### Error
+#### Error
 
 Text Input is outlined in red. Error message with details on the error will appear nearby.
 
-![Error Text Input](/images/components/text-input/text-input--error.svg)
+![](/images/textinput_error.svg)
 
-## Text inputs with actions
+<br>
 
-On rare occasions, you can put the button next to the input, which is often seen in search. While there's nothing especially wrong with putting the button below the input, putting it next to it saves space and looks a bit neater. But, do not do this on standard forms that happen to have just 1 field. It's inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
+#### Text inputs with actions
 
-![Text Input Primary Action](/images/components/text-input/text-input--primary-action.svg)
+On rare occasions, you can put the button next to the input, which is often seen in search. While there's nothing especially wrong with putting the button below the input, putting it next to it saves space and looks cleaner. But, do not do this on standard forms that happen to have just 1 field. It's inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
 
-![Text Input Primary Action + Icon](/images/components/text-input/text-input--secondary-action.svg)
+![Text Input actions](/images/textinput_actions.svg)
 
-![Text Input Secondary Action + Icon](/images/components/text-input/text-input--secondary-action-icon.svg)
+<br>
 
-### Read only
+#### Read only
 
 The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
 
 It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
 
-![Read Only Text Input](/images/components/text-input/text-input--read-only.svg)
+![Text input read only](/images/textinput_readonly.svg)
+
+<br>
 
 ### Sizing & spacing
 
