@@ -33,28 +33,9 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 ## States
 
-### Normal
+Text inputs can display the following states: unselected, hover, focus, entered, and disabled.
 
-Text Input is blank with nothing entered, no non-standard colors.
-
-![Normal Text Input](/images/components/text-input/text-input--normal.svg)
-<br>
-
-### Focused
-
-The user has clicked into the input, it's outlined blue and the blinking text cursor appears.
-
-![Focused Text Input](/images/components/text-input/text-input--focused.svg)
-<br>
-
-### Disabled
-
-The input appears grayed out and cannot currently be filled out. Disabled fields should only be used if there is an action the user can take on the page that will enable the field. It may also be beneficial to provide the user with help to explain why the field is disabled.
-
-If the field is not made enabled when submitting, then the information shown in the disabled field should not be submitted with the rest of the fields on the page.
-
-![Disabled Text Input](/images/components/text-input/text-input--disabled.svg)
-<br>
+![Text input states](/images/textinput_states.svg)
 
 - - -
 
