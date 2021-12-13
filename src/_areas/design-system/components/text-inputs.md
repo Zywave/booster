@@ -63,14 +63,6 @@ Text Input is outlined in red. Error message with details on the error will appe
 
 <br>
 
-#### Text inputs with actions
-
-On rare occasions, you can put the button next to the input, which is often seen in search. While there's nothing especially wrong with putting the button below the input, putting it next to it saves space and looks cleaner. But, do not do this on standard forms that happen to have just 1 field. It's inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
-
-![Text Input actions](/images/textinput_actions.svg)
-
-<br>
-
 #### Read only
 
 The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
@@ -78,6 +70,8 @@ The input is not editable at this time. Read-only text fields should be used whe
 It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
 
 ![Text input read only](/images/textinput_readonly.svg)
+
+<br>
 
 #### Text Area
 
@@ -89,6 +83,39 @@ We recommend capping the max height of a text area so it doesn't grow too large 
 
 ![Text input text area scroll](/images/textinput_textarea_scroll.svg)
 
+<br>
+
+#### Text inputs with actions
+
+On rare occasions, you can put the button next to the input, which is often seen in search. While there's nothing especially wrong with putting the button below the input, putting it next to it saves space and looks cleaner. But, do not do this on standard forms that happen to have just 1 field. It's inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
+
+![Text Input actions](/images/textinput_actions.svg)
+
+<br>
+
+#### Input prefix
+
+Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. These labels are typically an icon.
+
+![Text Input input prefix](/images/textinput_input_prefix.svg)
+
+
+<br>
+
+#### Input suffix
+
+Added to back of the input field to specify what should be entered, like a percentage symbol. These labels are typically an icon.
+
+![Text Input input suffix](/images/textinput_input_suffix.svg)
+
+<br>
+
+#### Input prefix & suffix
+
+Added to front and back of the input field to specify what should be entered, like a dollar sign and a decimal number to represent a dollar amount.
+
+![Text Input input prefix and suffix](/images/textinput_input_prefixandsuffix.svg)
+
 - - -
 
 ## Behavior
@@ -98,8 +125,6 @@ We recommend capping the max height of a text area so it doesn't grow too large 
 A loading icon appears on the right side of the input to indicate that something is happening.
 
 ![Text input loading](/images/textinput_loading.svg)
-
-<br>
 
 - - -
 
@@ -165,31 +190,35 @@ Avoid repeating the same text used for the label as it is redundant information 
 
 </docs-spacer>
 
-Place holder text appears inside of the input field, prior to entering data into it, and disappears. It is always used in conjunction with labels, never instead of a label. It provides an example of what you should enter in that field, and the format of that information when appropriate. An example would be phone number: (555) 555-5555.
+#### Input length
 
-![Error Text Input](/images/components/text-input/text-input--placeholder-text.svg)
-<br>
+<docs-grid columns="2">
 
-#### Input prefix
+<div>
 
-Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. An example would be a magnifying glass to show that the input field is a type-ahead search filter. These labels are typically an icon.
+![Text input placeholder text do](/images/textinput_size_do.svg)
 
-![Text Input Label Prefix](/images/components/text-input/text-input--label-prefix.svg)
-<br>
-![Text Input Label Prefix](/images/components/text-input/text-input--label-prefix-contained.svg)
-<br>
+<docs-do>
+Use an input size that is properly proportional to the expected user input
+</docs-do>
 
-#### Input suffix
+</div>
 
-Added to front of the input field to specify what should be entered, like a percentage symbol. To add more attention a container can be added to the styling. These labels are typically an icon.
+<div>
 
-![Error Text Input](/images/components/text-input/text-input--label-suffix.svg)
-<br>
-<br>
+![Text input placeholder text don't](/images/textinput_size_dont.svg)
 
-#### Input prefix & suffix
+<docs-do-not>
+Avoid using an input size that hides information or allows for excessive white space.
+</docs-do-not>
 
-![Text Input Label Prefix](/images/components/text-input/text-input--label-prefix+suffix.svg)
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
 
 
 
