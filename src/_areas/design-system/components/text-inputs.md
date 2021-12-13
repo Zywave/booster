@@ -219,7 +219,3 @@ Avoid using an input size that hides information or allows for excessive white s
 <docs-spacer>
 
 </docs-spacer>
-
-
-
-![Text Input Secondary Action + Icon](/images/components/text-input/text-input--secondary-action-icon.svg)
