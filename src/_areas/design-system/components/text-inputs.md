@@ -105,6 +105,36 @@ A loading icon appears on the right side of the input to indicate that something
 
 ## Best practices
 
+#### Labeling
+
+<docs-grid columns="2">
+
+<div>
+
+![Text input labeling do](/images/textinput_labeling_do.svg)
+
+<docs-do>
+Use clear and concise labeling. Label text is used to inform users as to what information is requested for a text input. 
+</docs-do>
+
+</div>
+
+<div>
+
+![Labeling don't](/images/textinput_labeling_dont.svg)
+
+<docs-do-not>
+Avoid using sentences or long phrases for label text. 
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
 #### Place holder text
 
 <docs-grid columns="2">
