@@ -107,6 +107,34 @@ A loading icon appears on the right side of the input to indicate that something
 
 #### Place holder text
 
+<docs-grid columns="2">
+
+<div>
+
+![Text input placeholder text do](/images/textinput_placeholder_do.svg)
+
+<docs-do>
+Use placeholder text to inform users as to what information is requested for a dropdown. It provides an example of what you should enter in that field, and the format of that information when appropriate.
+</docs-do>
+
+</div>
+
+<div>
+
+![Text input placeholder text don't](/images/textinput_placeholder_dont.svg)
+
+<docs-do-not>
+Avoid repeating the same text used for the label as it is redundant information and does not inform the user of the format of information requested.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
 Place holder text appears inside of the input field, prior to entering data into it, and disappears. It is always used in conjunction with labels, never instead of a label. It provides an example of what you should enter in that field, and the format of that information when appropriate. An example would be phone number: (555) 555-5555.
 
 ![Error Text Input](/images/components/text-input/text-input--placeholder-text.svg)
