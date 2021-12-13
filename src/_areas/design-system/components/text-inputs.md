@@ -33,7 +33,7 @@ The length of the input should be as close to the intended length of content as 
 
 ![Text Input sizing and spacing](/images/textinput_sizingandspacing.svg)
 
-See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
+See the [Design specs](https://xd.adobe.com/view/4bf410a7-cbe1-4642-9756-529baa10276d-1ea7/grid) for detailed sizing and spacing information
 
 - - -
 
@@ -98,7 +98,6 @@ On rare occasions, you can put the button next to the input, which is often seen
 Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. These labels are typically an icon.
 
 ![Text Input input prefix](/images/textinput_input_prefix.svg)
-
 
 <br>
 
