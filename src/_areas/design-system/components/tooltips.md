@@ -114,7 +114,7 @@ Tooltip messages should not repeat what's already visiable on the screen.
 
 <div>
 
-![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
+![Tooltips should be placed close to but not disrupting the related content.](/images/do-–-2.svg)
 
 <docs-do>
 Tooltips should be placed close to but not disrupting the related content. 
@@ -124,7 +124,7 @@ Tooltips should be placed close to but not disrupting the related content.
 
 <div>
 
-![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/2-2.png)
+![Ensure Tooltips do not block related page content. This will disturb users' workflow and cause repetitive actions (close Tooltips to view page element, hover and see Tooltips again, then close Tooltips and interact on the page).](/images/don-t-–-2.svg)
 
 <docs-do-not>
 Ensure Tooltips do not block related page content. This will disturb users' workflow and cause repetitive actions (close Tooltips to view page element, hover and see Tooltips again, then close Tooltips and interact on the page).
