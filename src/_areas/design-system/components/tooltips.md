@@ -58,7 +58,7 @@ When using a keyboard, users can \[tab] through page elements to select and comp
 
 <div>
 
-![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/do.svg)
+![Keep Tooltips simple by only including texts.](/images/do.svg)
 
 <docs-do>
 Keep Tooltips simple by only including texts.
@@ -68,7 +68,7 @@ Keep Tooltips simple by only including texts.
 
 <div>
 
-![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/don-t.svg)
+![Avoid placing actionable items on the Tooltip messages, such as buttons or link texts. Users will not be able to interact with these items because the message will disappear as users move the mouse away from the page elements.](/images/don-t.svg)
 
 <docs-do-not>
 Avoid placing actionable items on the Tooltip messages, such as buttons or link texts. Users will not be able to interact with these items because the message will disappear as users move the mouse away from the page elements.
