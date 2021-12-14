@@ -19,6 +19,22 @@ Tooltips are user-triggered messages that help provide additional information to
 
 - - -
 
+## Types
+
+![Image for Tooltip anatomy](/images/tooltip-info.png)
+
+### Tooltip on icons
+
+Tooltip message is paired with a page element. Users can activate the Tooltip by hovering over the page element. Tooltip will dismiss when users hover away from the element.
+
+![Image for Tooltip anatomy](/images/tooltip-text.png)
+
+### Tooltip on text
+
+Tooltip message is paired with a text element. Users can activate the Tooltip by hovering over the related text. Tooltip will dismiss when users hover away from the text element.
+
+- - -
+
 ## Anatomy
 
 For a more detailed breakdown of spacing and sizing, view the design specs.
@@ -26,7 +42,7 @@ For a more detailed breakdown of spacing and sizing, view the design specs.
 ![Image for Tooltip anatomy](/images/anatomy.png)
 
 1. **Tooltip:** showing a brief and concise message to help understand the page element
-2. **Icon:** paired with Tooltips to indicate additional information is available on hover/focus state
+2. **Page element:** paired with Tooltips to indicate additional information is available on hover/focus state
 
 - - -
 
