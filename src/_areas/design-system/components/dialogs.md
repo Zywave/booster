@@ -92,7 +92,7 @@ There are two ways that a Dialog can be closed and the recommended option depend
 
 When the contents of a Dialog exceed the height of the viewport for the user, scrolling will be necessary. 
 
-* The entire dialog screen scrolls, not just the contents within. 
+* The entire Dialog screen scrolls, not just the contents within. 
 * The background contents remain static as the Dialog scrolls.
 * 36px of padding should be applied to the top and bottom of the Dialog. 
 
