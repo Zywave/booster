@@ -19,39 +19,24 @@ Tooltips are user-triggered messages that help provide additional information to
 
 - - -
 
-## Types
-
-![Image for Tooltip anatomy](/images/tooltip-info.svg)
-
-### Tooltip on icons
-
-Tooltip message is paired with a page element. Users can activate the Tooltip by hovering over the page element. Tooltip will dismiss when users hover away from the element.
-
-![Image for Tooltip anatomy](/images/tooltip-terminology.svg)
-
-### Tooltip on terminology
-
-Tooltip message is paired with a text element to help explain the terminology. Users can activate the Tooltip by hovering over the related text. Tooltip will dismiss when users hover away from the text element.
-
-- - -
-
 ## Anatomy
 
 For a more detailed breakdown of spacing and sizing, view the design specs.
 
 ![Image for Tooltip anatomy](/images/anatomy.svg)
 
-1. **Tooltip:** showing a brief and concise message to help understand the page element
+1. **Container:** the container of the Tooltip
 2. **Page element:** paired with Tooltips to indicate additional information is available on hover/focus state
+3. **label:** displays a brief message that helps user interact with the page element
+4. **Tip:** an arrow pointing from the Tooltip container to the related page element
 
 - - -
 
-## Positioning
+## Placement
+
+Depends on the page element's location, Tooltips can be placed at either top, bottom, right, or left of the related page element. 
 
 ![Tooltip positioning](/images/positioning.svg)
-
-* The tooltip positioning will default to the top of whatever page element is being hovered.
-* Depends on the page element's location, Tooltip messages can be placed at either bottom, right, or left of the element if there is not sufficient space to display the tooltip, such as a top bar tooltip.
 
 - - -
 
@@ -73,17 +58,17 @@ When using a keyboard, users can \[tab] through page elements to select and comp
 
 <div>
 
-![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
+![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/do.svg)
 
 <docs-do>
-Keep Tooltip messages format text only.
+Keep Tooltips simple by only including texts.
 </docs-do>
 
 </div>
 
 <div>
 
-![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/2-2.png)
+![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/don-t.svg)
 
 <docs-do-not>
 Avoid placing actionable items on the Tooltip messages, such as buttons or link texts. Users will not be able to interact with these items because the message will disappear as users move the mouse away from the page elements.
@@ -101,7 +86,7 @@ Avoid placing actionable items on the Tooltip messages, such as buttons or link 
 
 <div>
 
-![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
+![Tooltip messages must provide helpful information.](/images/do-–-1.svg)
 
 <docs-do>
 Tooltip messages must provide helpful information.
@@ -111,7 +96,7 @@ Tooltip messages must provide helpful information.
 
 <div>
 
-![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/2-2.png)
+![Tooltip messages should not repeat what's already visiable on the screen.](/images/don-t-–-1.svg)
 
 <docs-do-not>
 Tooltip messages should not repeat what's already visiable on the screen.
