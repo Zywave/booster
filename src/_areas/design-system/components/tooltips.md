@@ -29,9 +29,9 @@ Tooltip message is paired with a page element. Users can activate the Tooltip by
 
 ![Image for Tooltip anatomy](/images/tooltip-text.png)
 
-### Tooltip on text
+### Tooltip on terminology
 
-Tooltip message is paired with a text element. Users can activate the Tooltip by hovering over the related text. Tooltip will dismiss when users hover away from the text element.
+Tooltip message is paired with a text element to help explain the terminology. Users can activate the Tooltip by hovering over the related text. Tooltip will dismiss when users hover away from the text element.
 
 - - -
 
