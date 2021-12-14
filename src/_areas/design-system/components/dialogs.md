@@ -96,14 +96,18 @@ When the contents of a Dialog exceed the height of the viewport for the user, sc
 * The background contents remain static as the Dialog scrolls.
 * 36px of padding should be applied to the top and bottom of the Dialog. 
 
+![](/images/dialog_scrolling.svg)
+
 - - -
 
 ## Best practices
 
 * Avoid scrolling by keeping the messages brief and limiting the functionality within the Dialog. 
-* Implement a sticky footer area if scrolling is necessary and the user is not likely to need to scroll to view the actions. 
 * Avoid including forms in a Dialog
 * Keep titles short so that they do not wrap onto more than one line. 
+* Implement a sticky footer area if scrolling is necessary and the user is not likely to need to scroll to view the actions. 
+
+![Example of a sticky footer on a Dialog](/images/dialog_fixed-footer.svg)
 
 - - -
 
