@@ -15,19 +15,19 @@ Tooltips are user-triggered messages that help provide additional information to
 * These messages should not be critical for the user to read and there should be no action included within them.
 * Tooltips trigger on hover and remain active until the user is no longer hovering over that page element. A 200ms dissolve transition fades tooltips on and off the page.
 
-![Image for Tooltip usage](/images/usage.png)
+![Image for Tooltip usage](/images/usage.svg)
 
 - - -
 
 ## Types
 
-![Image for Tooltip anatomy](/images/tooltip-info.png)
+![Image for Tooltip anatomy](/images/tooltip-info.svg)
 
 ### Tooltip on icons
 
 Tooltip message is paired with a page element. Users can activate the Tooltip by hovering over the page element. Tooltip will dismiss when users hover away from the element.
 
-![Image for Tooltip anatomy](/images/tooltip-text.png)
+![Image for Tooltip anatomy](/images/tooltip-terminology.svg)
 
 ### Tooltip on terminology
 
@@ -39,7 +39,7 @@ Tooltip message is paired with a text element to help explain the terminology. U
 
 For a more detailed breakdown of spacing and sizing, view the design specs.
 
-![Image for Tooltip anatomy](/images/anatomy.png)
+![Image for Tooltip anatomy](/images/anatomy.svg)
 
 1. **Tooltip:** showing a brief and concise message to help understand the page element
 2. **Page element:** paired with Tooltips to indicate additional information is available on hover/focus state
@@ -48,7 +48,7 @@ For a more detailed breakdown of spacing and sizing, view the design specs.
 
 ## Positioning
 
-![Tooltip positioning](/images/components/tooltips/tooltips-positioning.svg)
+![Tooltip positioning](/images/positioning.svg)
 
 * The tooltip positioning will default to the top of whatever page element is being hovered.
 * Depends on the page element's location, Tooltip messages can be placed at either bottom, right, or left of the element if there is not sufficient space to display the tooltip, such as a top bar tooltip.
