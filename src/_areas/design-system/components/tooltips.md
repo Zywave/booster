@@ -19,14 +19,6 @@ Tooltips are user-triggered messages that help provide additional information to
 
 - - -
 
-## Types
-
-Paired ith an icon
-
-Hover over page elements
-
-- - -
-
 ## Anatomy
 
 For a more detailed breakdown of spacing and sizing, view the design specs.
