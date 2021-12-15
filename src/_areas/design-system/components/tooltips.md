@@ -13,7 +13,6 @@ Tooltips are user-triggered messages that help provide additional information to
 
 * Tooltips can be paired with any page element, such as icons, buttons, texts etc.
 * These messages should not be critical for the user to read and there should be no action included within them.
-* Tooltips trigger on hover and remain active until the user is no longer hovering over that page element. A 200ms dissolve transition fades tooltips on and off the page.
 
 ![Image for Tooltip usage](/images/usage.svg)
 
@@ -44,7 +43,7 @@ Depends on the page element's location, Tooltips can be placed at either top, bo
 
 ### Mouse-hover gesture
 
-Show Tooltips when users hover mouse over the page element. When mouse moves away from the element, Tooltips dismiss. 
+Tooltips trigger on hover and remain active until the user is no longer hovering over that page element. A 200ms dissolve transition fades tooltips on and off the page.
 
 ### Keyboad-hover gesture
 
