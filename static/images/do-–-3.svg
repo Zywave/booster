@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="176" viewBox="0 0 500 176">
+  <defs>
+    <filter id="Card" x="-4.5" y="26.5" width="509" height="155" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Do_3">
+      <rect width="500" height="176"/>
+    </clipPath>
+  </defs>
+  <g id="Do_3" data-name="Do – 3" clip-path="url(#clip-Do_3)">
+    <rect width="500" height="176" fill="#f4f4f6"/>
+    <g id="Group_268827" data-name="Group 268827" transform="translate(250 -22)">
+      <g id="Card-2" data-name="Card" transform="translate(-250 52)">
+        <g transform="matrix(1, 0, 0, 1, 0, -30)" filter="url(#Card)">
+          <rect id="Card-3" data-name="Card" width="500" height="146" rx="2" transform="translate(0 30)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="Smart_content" data-name="Smart content" transform="translate(-220 104)" fill="#31313a" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Smart content</tspan></text>
+      <text id="Add_this_content_to_the_Agency_content_section_of_the_Smart_Content_module_to_enable_easy_access_for_your_company_" data-name="Add this content to the Agency content section of the Smart Content module to enable easy access for your company?" transform="translate(-220 119)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Add this content to the </tspan><tspan y="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600">Agency content</tspan><tspan y="15" xml:space="preserve"> section of the Smart Content </tspan><tspan x="0" y="34">module to enable easy access for your company?</tspan></text>
+    </g>
+    <line id="Line_634" data-name="Line 634" x2="101" transform="translate(176.5 114)" fill="none" stroke="#2777d3" stroke-width="2" stroke-dasharray="2 1"/>
+    <g id="Tooltip" transform="translate(148 32)">
+      <g id="Group_264703" data-name="Group 264703" transform="translate(5.5 19)">
+        <g id="Group_264702" data-name="Group 264702" transform="translate(-5.5 -19)">
+          <rect id="Rectangle_3835" data-name="Rectangle 3835" width="158" height="55" rx="2" fill="#494955"/>
+          <text id="You_can_find_this_on_your_homepage" data-name="You can find this on
+your homepage" transform="translate(18 24)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">You can find this on</tspan><tspan x="0" y="19">your homepage</tspan></text>
+        </g>
+        <rect id="Rectangle_3836" data-name="Rectangle 3836" width="8.033" height="8.033" transform="translate(67.82 36) rotate(-45)" fill="#494955"/>
+      </g>
+    </g>
+  </g>
+</svg>
