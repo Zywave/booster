@@ -27,9 +27,9 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
 2. **Content area:** More detailed information is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.  
 3. **Footer:** The footer is where all the actions are located within a Dialog. Optionally, the footer may remain sticky when the length of the Dialog exceeds the height of the viewport so that the available actions remain visible to the user at all times. More information on scrolling and sticky footers can be found in behavior and best practices.
 
-* Primary actions are located on the far right
-* Secondary actions are to the left of the primary action
-* Tertiary actions are located on the far left  
+    * Primary actions are located on the far right
+    * Secondary actions are to the left of the primary action
+    * Tertiary actions are located on the far left  
 
 4. **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
 
