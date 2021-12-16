@@ -9,7 +9,7 @@ includedElements: []
 ---
 ## Usage
 
-A Dialog interrupts the current page to display an important message or decision in a window in front of all the other content on the page. This window disables all other functionality of the current page until a required action is taken or the Dialog is dismissed. 
+A Dialog interrupts the current page to display an important message or decision as a window above all content on the page. This window overlays all functionality on the page until a required action is taken or the Dialog is dismissed. 
 
 ![](/images/dialog_usage.svg)
 
