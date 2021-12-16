@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Introducing the Table web component
 description: zui-table enters the chat
-date: 2021-12-09T15:07:26.025Z
+date: 2021-12-16T15:00:26.025Z
 hideToc: false
 tags:
   - Web Components
@@ -13,10 +13,10 @@ After a few years of retreating into the darkness out of fear at the slightest w
 We punted on building our own Table component for so long because there are a lot of features we need and want to support. We have to make it worthwhile for consumers to *want* to use our component instead of a third-party's table or recreating their own from scratch. From years of implementing hundreds of native HTML and third-party tables in our Zywave applications, we identified several requirements:
 
 * **Searching:** refine data in a table to match certain keywords
-* **Filtering:** narrow results based on criteria(s)
+* **Filtering:** narrow results based on criteria
 * **Sorting:** sort a column in ascending or descending order
 * **Editable table cells:** allow values within cells to be modified
-* **Bulk actions:** apply mass changes to all or a difinite selection of table rows
+* **Bulk actions:** apply mass changes to multiple table rows
 * **Loading view:** visual indication that table and/or table data are loading
 * **No results view:** communicate to users when the table has no data or their search/filter yielded no results
 
@@ -126,4 +126,6 @@ Check out the [Table documentation](/design-system/components/tables/) for more 
 
 ## Second stage - what's next?
 
-Making Table mobile-friendly and responsive is currently in the works. Next up will be the ability to sort and filter data within Tables.
+Making Table mobile-friendly and responsive is currently in the works. This is a known difficulty when shipping your own table (where most teams don't ship any responsive design) so we believe this will be a huge draw to use our Table.
+
+Following that, we will be adding the ability to sort and filter data within Tables.
