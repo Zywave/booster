@@ -10,20 +10,23 @@ tags:
 ---
 After a few years of retreating into the darkness out of fear at the slightest whisper of the word "table," we finally mustered the courage to summon the legendary beast `<zui-table>`.
 
-We punted on building our own Table component for so long because there are a lot of features we need and want to support. We have to make it worthwhile for consumers to _want_ to use our component instead of a third-party's table or recreating their own from scratch. From years of implementing hundreds of native HTML and third-party tables in our Zywave applications, we identified several requirements:
-- **Searching:** refine data in a table to match certain keywords
-- **Filtering:** narrow results based on criteria(s)
-- **Sorting:** sort a column in ascending or descending order
-- **Editable table cells:** allow values within cells to be modified
-- **Bulk actions:** apply mass changes to all or a difinite selection of table rows
-- **Loading view:** visual indication that table and/or table data are loading
-- **No results view:** communicate to users when the table has no data or their search/filter yielded no results
+We punted on building our own Table component for so long because there are a lot of features we need and want to support. We have to make it worthwhile for consumers to *want* to use our component instead of a third-party's table or recreating their own from scratch. From years of implementing hundreds of native HTML and third-party tables in our Zywave applications, we identified several requirements:
+
+* **Searching:** refine data in a table to match certain keywords
+* **Filtering:** narrow results based on criteria(s)
+* **Sorting:** sort a column in ascending or descending order
+* **Editable table cells:** allow values within cells to be modified
+* **Bulk actions:** apply mass changes to all or a difinite selection of table rows
+* **Loading view:** visual indication that table and/or table data are loading
+* **No results view:** communicate to users when the table has no data or their search/filter yielded no results
 
 In order to get `<zui-table>` into the hands of consumers faster, we are releasing it in stages. The first stage introduces Table into our design system with basic features and styles.
 
 ## First stage - basic Table
 
-Below is an example of all the basic Table features you can use today. See the [Table demos](/design-system/components/tables/?tab=demos) for more detailed examples.
+Below is an example of all the basic Table features you can use today.
+
+![Basic Table component example showcasing data of plants growing schedule in zones 5 and 6.](/images/zui-table-basic.png "Basic Table component example showcasing data of plants growing schedule in zones 5 and 6.")
 
 ```html
 <zui-table banded>
@@ -100,6 +103,8 @@ Below is an example of all the basic Table features you can use today. See the [
   </zui-table-footer>
 </zui-table>
 ```
+
+See the [Table demos](/design-system/components/tables/?tab=demos) for more detailed examples.
 
 ### Table topbar
 
