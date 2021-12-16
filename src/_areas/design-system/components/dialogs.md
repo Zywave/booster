@@ -115,4 +115,4 @@ When the contents of a Dialog exceed the height of the viewport for the user, sc
 
 * Consider a separate page when the content begins to exceed the height of the viewport in order to avoid scrolling. 
 * Consider using a separate page with a focused state when there are form fields.
-* Consider a Popover or Well for shorter messages that do not interrupt the user's workflow.
+* Consider a [Popover](/design-system/components/popovers/) or [Well](/design-system/components/wells/) for shorter messages that do not interrupt the user's workflow.
