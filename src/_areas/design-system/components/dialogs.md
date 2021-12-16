@@ -1,7 +1,7 @@
 ---
 title: Dialogs
-subtitle: Display an important message or decision in it's own window in front
-  of the current page
+subtitle: Display an important message or decision in its own window in front of
+  the current page
 api: https://cdn.zywave.com/@zywave/zui-dialog@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-dialog@next/demo/index.html
 mainComponentName: zui-dialog
@@ -9,7 +9,7 @@ includedElements: []
 ---
 ## Usage
 
-A Dialog interrupts the current page to display an important message or decision as a window above all content on the page. This window overlays all functionality on the page until a required action is taken or the Dialog is dismissed. 
+A Dialog interrupts the current page to display an important message or decision in a window in front of all the other content on the page. This window disables all other functionality of the current page until a required action is taken or the Dialog is dismissed. 
 
 ![](/images/dialog_usage.svg)
 
@@ -24,12 +24,12 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
 </br> 
 
 1. **Title:** Ideally, the H1 title in a Dialog should not span more than one line. The title gives the user an understanding of the message or decision they are being presented with. 
-2. **Content area:** More detailed information is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different sizes of Dialogs.
+2. **Content area:** More detailed information is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.  
 3. **Footer:** The footer is where all the actions are located within a Dialog. Optionally, the footer may remain sticky when the length of the Dialog exceeds the height of the viewport so that the available actions remain visible to the user at all times. More information on scrolling and sticky footers can be found in behavior and best practices.
 
-    * Primary actions are located on the far right
-    * Secondary actions are to the left of the primary action
-    * Tertiary actions are located on the far left  
+* Primary actions are located on the far right
+* Secondary actions are to the left of the primary action
+* Tertiary actions are located on the far left  
 
 4. **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
 
@@ -47,7 +47,7 @@ When the Dialog is shorter than the viewport it should be centered vertically. I
 
 ## Types and states
 
-There are 3 sizes of Dialogs, small, standard and large.
+There are 3 sizes of Dialogs: small, standard and large.
 
 ### Small Dialog
 
@@ -63,8 +63,6 @@ Standard Dialogs have a width of 675px. Standard Dialogs are used for messages t
 
 ![Standard dialog example](/images/dialog_medium.svg)
 
-
-
 <docs-spacer size="small"></docs-spacer>
 
 ### Large Dialog
@@ -72,8 +70,6 @@ Standard Dialogs have a width of 675px. Standard Dialogs are used for messages t
 A large Dialog has a width of 875px and is often reserved for when there is more functionality that needs to be contained within, such as a table. 
 
 ![](/images/dialog_large.svg)
-
-
 
 - - -
 
@@ -115,4 +111,4 @@ When the contents of a Dialog exceed the height of the viewport for the user, sc
 
 * Consider a separate page when the content begins to exceed the height of the viewport in order to avoid scrolling. 
 * Consider using a separate page with a focused state when there are form fields.
-* Consider a [Popover](/design-system/components/popovers/) or [Well](/design-system/components/wells/) for shorter messages that do not interrupt the user's workflow.
+* Consider a Popover or Well for shorter messages that do not interrupt the user's workflow.
