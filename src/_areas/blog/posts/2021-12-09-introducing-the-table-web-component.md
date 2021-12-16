@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Introducing the Table web component
 description: zui-table enters the chat
-date: 2021-12-16T15:00:26.025Z
+date: 2021-12-09T15:00:26.025Z
 hideToc: false
 tags:
   - Web Components
