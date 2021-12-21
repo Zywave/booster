@@ -47,7 +47,7 @@ Tooltips trigger on hover and remain active until the user is no longer hovering
 
 ### Keyboad-hover gesture
 
-When using a keyboard, users can \[tab] through page elements to select and complete actions. Users can view Tooltip messages when a page element is in its keyboard focus state. When 
+When using a keyboard, users can \[tab] through page elements to select and complete actions. Tooltips appear when an element is in its keyboard focus state. 
 
 - - -
 
