@@ -21,7 +21,7 @@ Tooltips are user-triggered messages that help provide additional information to
 
 ## Anatomy
 
-For a more detailed breakdown of spacing and sizing, view the design specs.
+For a more detailed breakdown of spacing and sizing, view the [design specs](https://xd.adobe.com/view/60ad1798-1756-4ac9-b083-76c368b0cd13-35fe/).
 
 ![Image for Tooltip anatomy](/images/anatomy.svg)
 
