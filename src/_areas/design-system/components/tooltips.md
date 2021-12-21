@@ -48,7 +48,7 @@ Depending on the location, Tooltips can be placed at the top, bottom, right, or 
 
 Tooltips appear on hover and remain active until the user's cursor is no longer hovering over the associated page element. A 200ms fade transitions the visibility of Tooltips.
 
-### Keyboad-hover gesture
+### Keyboad focus
 
 When using a keyboard, users can use \[tab] key to go through and select page elements. Tooltips appear when an element is in its keyboard focus state. 
 
