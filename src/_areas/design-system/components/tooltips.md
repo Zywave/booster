@@ -27,7 +27,7 @@ For a more detailed breakdown of spacing and sizing, view the [design specs](ht
 
 1. **Container:** the container of the Tooltip
 2. **Page element:** paired with Tooltips to indicate additional information is available on hover/focus state
-3. **label:** displays a brief message that helps user interact with the page element
+3. **Label:** a brief message that provides additional information to users
 4. **Tip:** an arrow pointing from the Tooltip container to the related page element
 
 - - -

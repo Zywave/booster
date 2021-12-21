@@ -41,12 +41,12 @@
     <g id="Group_268796" data-name="Group 268796" transform="translate(321.17 -277.453)">
       <path id="Path_1-3" data-name="Path 1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(67.675 350.953)" fill="#17987c"/>
       <path id="Path_3-3" data-name="Path 3" d="M0,0H1V48.155H0Z" transform="translate(115.83 362.453) rotate(90)" fill="#17987c"/>
-      <text id="_4" data-name="4" transform="translate(75.675 367.953)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">4</tspan></text>
+      <text id="_2" data-name="2" transform="translate(75.675 367.953)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">2</tspan></text>
     </g>
     <g id="Group_268795" data-name="Group 268795" transform="translate(397.325 -232.453)">
       <path id="Path_1-4" data-name="Path 1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(55.675 350.953)" fill="#17987c"/>
       <path id="Path_3-4" data-name="Path 3" d="M0,0H1V29.63H0Z" transform="translate(68.175 351.768) rotate(180)" fill="#17987c"/>
-      <text id="_4-2" data-name="4" transform="translate(63.675 367.953)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">4</tspan></text>
+      <text id="_4" data-name="4" transform="translate(63.675 367.953)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">4</tspan></text>
     </g>
   </g>
 </svg>
