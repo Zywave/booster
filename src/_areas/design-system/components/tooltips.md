@@ -34,7 +34,9 @@ For a more detailed breakdown of spacing and sizing, view the [design specs](ht
 
 ## Placement
 
-Depends on the page element's location, Tooltips can be placed at either top, bottom, right, or left of the related page element. 
+Depending on the location, Tooltips can be placed at the top, bottom, right, or left of the related page element.
+
+
 
 ![Tooltip positioning](/images/positioning.svg)
 
