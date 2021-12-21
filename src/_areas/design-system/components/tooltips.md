@@ -77,7 +77,7 @@ Keep Tooltips simple by only including concise texts.
 ![Avoid placing actionable items in Tooltips, such as buttons and link texts. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.](/images/don-t.svg)
 
 <docs-do-not>
-Avoid placing actionable items in Tooltips, such as buttons and link texts. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.
+Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.
 </docs-do-not>
 
 </div>
