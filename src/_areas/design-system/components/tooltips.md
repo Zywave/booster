@@ -9,10 +9,11 @@ includedElements: []
 ---
 ## Usage
 
-Tooltips are user-triggered messages that help provide additional information to the page element during the user's workflow. It is usually activated by a mouse-hover action or keyboard-hover action. 
+Tooltips are user-triggered messages that help provide additional information to a page element. They are usually activated by a mouse hover, keyboard focus, or tap.
 
-* Tooltips can be paired with any page element, such as icons, buttons, texts etc.
-* These messages should not be critical for the user to read and there should be no action included within them.
+* Tooltips can be paired with any page element, such as icons, buttons, texts, etc.
+* Tooltip messages should not be critical for the user to read.
+* There should be no action included within tooltips.
 
 ![Image for Tooltip usage](/images/usage.svg)
 
@@ -47,7 +48,11 @@ Tooltips trigger on hover and remain active until the user is no longer hovering
 
 ### Keyboad-hover gesture
 
-When using a keyboard, users can \[tab] through page elements to select and complete actions. Tooltips appear when an element is in its keyboard focus state. 
+When using a keyboard, users can use \[tab] key to go through and select page elements. Tooltips appear when an element is in its keyboard focus state. 
+
+### Tap gesture
+
+For mobile devices such as cellphones and tablets, mouse-hover and keyboard focus states are not accessible for users. Tooltips are activated by tapping on the page element, and tap again to deactivate Tooltips.
 
 - - -
 
