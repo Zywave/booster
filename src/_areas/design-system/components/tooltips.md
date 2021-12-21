@@ -105,7 +105,11 @@ Tooltip messages must provide helpful information.
 ![Tooltip messages should not repeat what's already visiable on the screen.](/images/don-t-–-1.svg)
 
 <docs-do-not>
-Tooltip messages should not repeat what's already visiable on the screen.
+<!--StartFragment-->
+
+Tooltip messages should not repeat what's already visible on the screen.
+
+<!--EndFragment-->
 </docs-do-not>
 
 </div>
@@ -130,10 +134,10 @@ Tooltips should be placed close to related content without being disruptive.
 
 <div>
 
-![Ensure Tooltips do not block related page content. This will disturb users' workflow and cause repetitive actions (close Tooltips to view page element, hover and see Tooltips again, then close Tooltips and interact on the page).](/images/don-t-–-2.svg)
+![Ensure Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.](/images/don-t-–-2.svg)
 
 <docs-do-not>
-Ensure Tooltips do not block related page content. This will disturb users' workflow and cause repetitive actions (close Tooltips to view page element, hover and see Tooltips again, then close Tooltips and interact on the page).
+Ensure Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.
 </docs-do-not>
 
 </div>
