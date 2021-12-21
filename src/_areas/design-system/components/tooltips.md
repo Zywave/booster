@@ -44,9 +44,9 @@ Depending on the location, Tooltips can be placed at the top, bottom, right, or 
 
 ## Behavior
 
-### Mouse-hover gesture
+### Mouse hover action
 
-Tooltips trigger on hover and remain active until the user is no longer hovering over that page element. A 200ms dissolve transition fades tooltips on and off the page.
+Tooltips appear on hover and remain active until the user's cursor is no longer hovering over the associated page element. A 200ms fade transitions the visibility of Tooltips.
 
 ### Keyboad-hover gesture
 
