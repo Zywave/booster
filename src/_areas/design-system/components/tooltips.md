@@ -64,20 +64,20 @@ For mobile devices such as cellphones and tablets, mouse-hover and keyboard focu
 
 <div>
 
-![Keep Tooltips simple by only including texts.](/images/do.svg)
+![Keep Tooltips simple by only including concise texts.](/images/do.svg)
 
 <docs-do>
-Keep Tooltips simple by only including texts.
+Keep Tooltips simple by only including concise texts.
 </docs-do>
 
 </div>
 
 <div>
 
-![Avoid placing actionable items on the Tooltip messages, such as buttons or link texts. Users will not be able to interact with these items because the message will disappear as users move the mouse away from the page elements.](/images/don-t.svg)
+![Avoid placing actionable items in Tooltips, such as buttons and link texts. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.](/images/don-t.svg)
 
 <docs-do-not>
-Avoid placing actionable items on the Tooltip messages, such as buttons or link texts. Users will not be able to interact with these items because the message will disappear as users move the mouse away from the page elements.
+Avoid placing actionable items in Tooltips, such as buttons and link texts. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.
 </docs-do-not>
 
 </div>
