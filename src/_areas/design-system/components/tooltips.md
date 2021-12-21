@@ -120,10 +120,10 @@ Tooltip messages should not repeat what's already visiable on the screen.
 
 <div>
 
-![Tooltips should be placed close to but not disrupting the related content.](/images/do-–-2.svg)
+![Tooltips should be placed close to related content without being disruptive.](/images/do-–-2.svg)
 
 <docs-do>
-Tooltips should be placed close to but not disrupting the related content. 
+Tooltips should be placed close to related content without being disruptive.
 </docs-do>
 
 </div>
