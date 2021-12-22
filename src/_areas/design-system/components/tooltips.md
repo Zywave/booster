@@ -180,4 +180,4 @@ Avoid using icons to initiate Tooltips when the page element/text is not right n
 
 * Always make sure that the Tooltip arrow is pointing at the related page content and is centered on the tooltip message
 * Use colors on page elements to call out for attention
-* Keep Tooltips short and concise. In certain scenarios, this text may flow onto a second line within the tooltip. However, if the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.
+* Keep Tooltips brief and concise. In certain scenarios, this text may flow onto a second line within the Tooltip. If the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.
