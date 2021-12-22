@@ -1,7 +1,6 @@
 ---
 title: Tooltips
-subtitle: Unobtrusive messages that provide the user with supplementary
-  information when interacting with an interface element.
+subtitle: Unobtrusive messages that provide supplementary information
 api: https://cdn.zywave.com/@zywave/zui-tooltip@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-tooltip@next/demo/index.html
 mainComponentName: zui-tooltip
