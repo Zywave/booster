@@ -176,7 +176,7 @@ Avoid using icons to initiate Tooltips when the page element/text is not right n
 
 </docs-spacer>
 
-### Additional guidlines
+### Additional guidelines
 
 * Always make sure that the Tooltip arrow is pointing at the related page content and is centered on the tooltip message
 * Use colors on page elements to call out for attention
