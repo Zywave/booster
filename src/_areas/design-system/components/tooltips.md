@@ -10,7 +10,7 @@ includedElements: []
 
 Tooltips are user-triggered messages that help provide additional information to a page element. They are usually activated by a mouse hover, keyboard focus, or tap.
 
-* Tooltips can be paired with any page element, such as icons, buttons, texts, etc.
+* Tooltips can be paired with any page element, such as icons, buttons, text, etc.
 * Tooltip messages should not be critical for the user to read.
 * There should be no action included within tooltips.
 
