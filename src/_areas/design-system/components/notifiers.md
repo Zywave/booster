@@ -1,161 +1,165 @@
 ---
 title: Notifiers
-subtitle: An unobtrusive alert that provides simple feedback
+subtitle: An unobtrusive alert that provides feedback
 api: https://cdn.zywave.com/@zywave/zui-notifier@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-notifier@next/demo/index.html
 mainComponentName: zui-notifier
 includedElements: []
 ---
-
 ## Usage
 
-Notifiers are unobtrusive messages that provide the user with a simple feedback alert. Notifiers can be either Zywave system generated or user-initiated.
+Notifiers are unobtrusive alerts that provide a short feedback message. Notifiers can be either Zywave system generated or user-initiated.
 
-Notifiers should be used:
+Notifiers should be used to:
 
-- to give the user general information about the product or current process.
-- to alert the user and inform them that something happened in the system.
-- to inform the user of server-side issues or errors that are not at the fault of the user.
-- to provide a timely alert that does not interfere with the current actions of the user.
+* provide general information about the current process
+* alert and inform about something that happened in the system.
+* inform of server-side issues or errors
+* provide a timely alert that does not interfere with the current workflow
 
-For more information on when a notifier is the appropriate delivery component, see [messages](/design-system/voice-and-tone/messages/).
+For more information on when a Notifier is the appropriate delivery component, see [messages](/design-system/voice-and-tone/messages/).
 
----
+- - -
 
 ## Anatomy
 
 ![Notifier anatomy](/images/components/notifier/notifier_anatomy.svg)
 
-Notifiers consist of an opaque background, drop shadow, icon, text, and close button to dismiss the notifier.
+Notifiers consist of an opaque background, drop shadow, icon, text, and close button to dismiss the message.
 
-- **Top bar:** Defines the type of notifier by color: info (blue), success (green), error (red).
-- **Icon:** Defines the type of notifier by an icon: info, success, error.
-- **Header:** Briefly describes the message to the user. The header should be H3 and remain on one line, with a max-width of 50 characters without spaces.
-- **Body text:** Provides supporting content for the header. The body text should be kept simple and span no longer than 3 lines.
-- **Action (optional):** A single action typically associated with the message, such as 'View details.'
-- **Close:** A close button allows the user to dismiss the message.
+* **Top bar:** Defines the type of Notifier by color: info (blue), success (green), error (red).
+* **Icon:** Defines the type of Notifier by an icon: info, success, error.
+* **Header:** Briefly describes the message to the user. The header should be H3 and remain on one line, with a max-width of 50 characters without spaces.
+* **Body text:** Provides supporting content for the header. The body text should be kept straightforward and span no longer than 3 lines.
+* **Action (optional):** A single action typically associated with the message, such as 'View details.'
+* **Close:** A close button allows the user to dismiss the message.
 
-For detailed documentation on our notifier anatomy, view the [ZUI notifier design specs](https://xd.adobe.com/view/759fc73f-c8df-44b6-adb5-b600e2badaf3-20cc/grid/).
+For detailed documentation on our Notifier anatomy, view the [ZUI Notifier design specs](https://xd.adobe.com/view/759fc73f-c8df-44b6-adb5-b600e2badaf3-20cc/grid/).
 
----
+- - -
 
 ## Types
 
-We have three types of notifiers to help convey a message and each is color-coded with a unique icon. These features allow a user to know, at a glance, how important the message in that notifier is.
+The three types of available Notifier types are identified by the different colors and icons. These identifying features allow someone to know, at a glance, the type and importance of the message contained within.
 
-### Info notifier
+### Info Notifier
 
 ![Info notifier](/images/components/notifier/info_notifier.svg)
 
-Used to give the user general information about the product or current process.
+Used to provide general information about the product or current process.
 
-### Success notifier
+### Success Notifier
 
 ![Success notifier](/images/components/notifier/success_notifier.svg)
 
-Used to inform the user that an action or workflow has been completed successfully.
+Used to provide information that an action or workflow has been completed successfully.
 
-### Error notifier
+### Error Notifier
 
 ![Error notifier](/images/components/notifier/error_notifier.svg)
 
-Used to alert the user of server-side issues or errors that are not at the fault of the user.
+Used to alert the user of server-side issues or errors or that an error was encountered while performing an action or workflow.
 
----
-
-## Responsive layout (WIP)
-
-![Mobile notifier](/images/components/notifier/mobile-notifier.svg)
-
-While the behavior remains unchanged, the location of Notifiers is different on mobile devices with viewports smaller than 720px. The Notifiers on mobile devices should be pinned to the bottom of the screen instead of the top. This makes it easier for the user to dismiss the message or click the action contained within.
-
----
+- - -
 
 ## Behavior
 
 ### Positioning
 
-Notifiers are anchored to the top right of the viewport, above all content in z-space.
-
-For example, if the user is within a dialog and triggers a notifier, the notifier will appear in the top right of the viewport, above all content on the screen, including the dialog.
+Notifiers are anchored to the top right of the viewport, above all content in z-space including Dialogs.
 
 ![Notifier positioning](/images/components/notifier/notifier_placement.svg)
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Timing
 
-By default, notifiers will be on a timer and disappear on their own without interaction from the user. The notifier must also still include a close button in the upper right corner that will allow the user to manually dismiss the message.  When a notifier includes an action, timing should be disabled so that the user has a chance to click the action it contains.
+By default, Notifiers will be on a timer and disappear on their own without the need for interaction. The Notifier must also include a close button in the upper right corner that will allow manual dismissal of the message.  When a Notifier includes an action, timing should be disabled to prevent the message from disappearing before the action can be clicked or tapped. 
 
-A timer _should be_ used in cases where the notifier includes non-crucial information, for example:
+A timer ***should be*** used in cases where the Notifier includes non-crucial information, for example:
 
-- when there is general information about the product or current process, such as syncing that does not require the user to take action.
-- when there is an action or workflow that has been completed successfully, such as the user successfully adding an account.
+* when there is general information about the product or current process, such as syncing that does not require the user to take action.
+* when there is an action or workflow that has been completed successfully, such as the user successfully adding an account.
 
-A timer _should not be_ used in cases where the notifier includes an action or error, for example:
+A timer ***should not be*** used in cases where the Notifier includes an action or error, for example:
 
-- when there is an action that the user may choose to explore, such as viewing details on an imported file.
-- when a server-side issue or error that is not at the fault of the user has occurred, such as a lost connection.
+* when there is an action that the user may choose to explore, such as viewing details on an imported file.
+* when the Notifier contains an error message
 
-The default length of time a notifier will remain on the screen, after animating in, is 5 seconds. This time can be adjusted based on the length of the message. We recommend not reducing the time for shorter messages, but longer messages can be extended&mdash;an additional 1 second for every 120 characters is a good rule of thumb.
+The default length of time a Notifier will remain on the screen after is 5 seconds. This time can be adjusted based on the length of the message. We recommend not reducing the time for shorter messages, but longer messages can be extended  — an additional 1 second for every 120 characters is a good rule of thumb.
 
 ### Animation
 
 Notifiers slide up and fade in as they appear on the screen, and slide down and fade out when they disappear.
+<center>
 
 ![Notifier animation](/images/components/notifier/zui-notifier-animation-demo.gif)
 
----
+</center>
+
+- - -
+
+## Responsive layout
+
+![Mobile notifier](/images/components/notifier/mobile-notifier.svg)
+
+While the behavior remains unchanged, the location of Notifiers is different on mobile devices with viewports smaller than 720px. The Notifiers on mobile devices should be pinned to the bottom of the screen instead of the top. This makes it easier for the user to dismiss the message or click the action contained within.
+
+\[INSERT NOTE] The responsive behavior for Notifiers is not yet available in the toolkit.
+
+- - -
 
 ## Best practices
 
-<Grid>
 
-<GridCol col="span-6">
+<Docs-grid columns="2">
+<div>
 
 ![Notifier information do](/images/components/notifier/do_general.svg)
-
-<Do />
+<docs-do>
 
 Use a notifier to give the user general information, such as notifying the user of a document ready for review.
+</docs-do>
+</div>
 
-</GridCol>
-
-<GridCol col="span-6">
+<div>
 
 ![Notifier information do not](/images/components/notifier/donot_indepth.svg)
 
-<DoNot />
+
+<docs-do-not>
 
 A notifier should not be used to give the user in-depth information that requires more emphasis or to remain on the page, a well or dialog should be used in this case.
 
-</GridCol>
+</docs-do-not>
+</div>
+</docs-grid>
 
-</Grid>
 
-<Spacer size="small" />
+<Spacer size="large" />
 
-<Grid>
 
-<GridCol col="span-6">
+<docs-grid columns="2">
+<div>
 
 ![Notifier success do](/images/components/notifier/do_success.svg)
 
-<Do />
+<docs-do>
 
 Use a notifier to alert the user that their action was successful, such as informing the user that their import is complete.
+</docs-do>
+</div>
 
-</GridCol>
-
-<GridCol col="span-6">
+<div>
 
 ![Notifier success do not](/images/components/notifier/donot_overuse.svg)
 
-<DoNot />
+<docs-do-not>
 
 A notifier should not be used to alert the user that every action is successful, this should be used for larger actions such as import or the completion of a larger workflow.
-
-</GridCol>
-
-</Grid>
+</docs-do-not>
+</div>
+</docs-grid>
 
 <Spacer size="small" />
 
@@ -169,8 +173,8 @@ Actions should only be used when there is more information associated with the m
 
 Examples of when actions could be used:
 
-- in an informational notifier with a message about a new enhancement and a link to more information.
-- in a success notifier with a message that an import was successful and a link to view the import.
+* in an informational notifier with a message about a new enhancement and a link to more information.
+* in a success notifier with a message that an import was successful and a link to view the import.
 
 If the action must remain visible to the user or is critical for the user to take, a [well](/design-system/components/wells/) or [dialog](/design-system/components/dialogs/) may be the appropriate delivery component.
 
@@ -210,21 +214,21 @@ There should not be more than three notifiers on the screen at one time, one of 
 
 Multiple notifiers should be used sparingly and only seen in certain circumstances, for example:
 
-- multiple errors occurring on the same page.
-- multiple notifications appearing from the same workflow.
+* multiple errors occurring on the same page.
+* multiple notifications appearing from the same workflow.
 
----
+- - -
 
 ## Alternate considerations
 
 In the case of messaging:
 
-- A [well](/design-system/components/wells/) may be the appropriate component if the message needs moderate emphasis or an action should remain visible to the user without a timed dismissal.
-- A [dialog](/design-system/components/dialogs/) may be the appropriate component if the message needs high emphasis or a specific action the user must take.
+* A [well](/design-system/components/wells/) may be the appropriate component if the message needs moderate emphasis or an action should remain visible to the user without a timed dismissal.
+* A [dialog](/design-system/components/dialogs/) may be the appropriate component if the message needs high emphasis or a specific action the user must take.
 
 In the case of errors:
 
-- A [banner well](/design-system/voice-and-tone/error-messages/) may be the appropriate component when a feature or resource error occurs, such as a 404 resource not found error.
-- An [error page](/design-system/voice-and-tone/error-messages/) may be the appropriate component when a critical system error occurs, such as a 500 internal server error.
+* A [banner well](/design-system/voice-and-tone/error-messages/) may be the appropriate component when a feature or resource error occurs, such as a 404 resource not found error.
+* An [error page](/design-system/voice-and-tone/error-messages/) may be the appropriate component when a critical system error occurs, such as a 500 internal server error.
 
 For more information on when a notifier is the appropriate delivery component, see [messages](/design-system/voice-and-tone/messages/).
