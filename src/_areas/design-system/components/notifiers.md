@@ -1,6 +1,6 @@
 ---
 title: Notifiers
-subtitle: Unobtrusive alert that provides simple feedback
+subtitle: An unobtrusive alert that provides simple feedback
 api: https://cdn.zywave.com/@zywave/zui-notifier@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-notifier@next/demo/index.html
 mainComponentName: zui-notifier
