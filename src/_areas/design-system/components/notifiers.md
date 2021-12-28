@@ -10,6 +10,12 @@ includedElements: []
 
 Notifiers are unobtrusive alerts that provide a short feedback message. Notifiers can be either Zywave system generated or user-initiated.
 
+</br>
+
+![Example of a Notifier](/images/notifier-usage.svg)
+
+</br>
+
 Notifiers should be used to:
 
 * provide general information about the current process
@@ -23,7 +29,7 @@ For more information on when a Notifier is the appropriate delivery component, s
 
 ## Anatomy
 
-![Notifier anatomy](/images/components/notifier/notifier_anatomy.svg)
+![Notifier anatomy](/images/notifier-anatomy.svg)
 
 Notifiers consist of an opaque background, drop shadow, icon, text, and close button to dismiss the message.
 
@@ -42,21 +48,34 @@ For detailed documentation on our Notifier anatomy, view the [ZUI Notifier desig
 
 The three types of available Notifier types are identified by the different colors and icons. These identifying features allow someone to know, at a glance, the type and importance of the message contained within.
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Info Notifier
+
 Used to provide general information about the product or current process.
-![Info notifier](/images/components/notifier/info_notifier.svg)
+
+
+
+![Informative Notifier](/images/notifier-type-info.svg)
 
 <docs-spacer size="small"></docs-spacer>
 
 ### Success Notifier
+
 Used to provide information that an action or workflow has been completed successfully.
-![Success notifier](/images/components/notifier/success_notifier.svg)
+
+![Success Notifier](/images/notifier-type-success.svg)
+
+
 
 <docs-spacer size="small"></docs-spacer>
 
 ### Error Notifier
+
 Used to alert the user of server-side issues or errors or that an error was encountered while performing an action or workflow.
-![Error notifier](/images/components/notifier/error_notifier.svg)
+
+![Error Notifier](/images/notifier-type-error.svg)
+
 
 
 - - -
@@ -67,7 +86,7 @@ Used to alert the user of server-side issues or errors or that an error was enco
 
 Notifiers are anchored to the top right of the viewport above all other content in z-space, including Dialogs.
 
-![Notifier positioning](/images/components/notifier/notifier_placement.svg)
+![Notifier positioning](/images/notifier-positioning.svg)
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -90,6 +109,7 @@ The default length of time a Notifier will remain on the screen after animating 
 ### Animation
 
 Notifiers slide up and fade in as they appear on the screen, and slide down and fade out as they disappear.
+
 <center>
 
 ![Notifier animation](/images/components/notifier/zui-notifier-animation-demo.gif)
@@ -100,7 +120,7 @@ Notifiers slide up and fade in as they appear on the screen, and slide down and 
 
 ## Responsive layout
 
-![Mobile notifier](/images/components/notifier/mobile-notifier.svg)
+![Mobile notifier](/images/notifier-responsive.svg)
 
 While the behavior remains unchanged, the location of Notifiers is different on mobile devices with viewports smaller than 720px. The Notifiers on mobile devices should be pinned to the bottom of the screen to make it easier to dismiss while holding the device.
 
@@ -110,20 +130,21 @@ While the behavior remains unchanged, the location of Notifiers is different on 
 
 ## Best practices
 
-
 <Docs-grid columns="2">
 <div>
 
-![Notifier information do](/images/components/notifier/do_general.svg)
+![Keep Notifier information general](/images/do-notifier-action.svg)
+
+
 <docs-do>
 Use a Notifier to give the user general information, such as notifying the user of a document ready for review.
 </docs-do>
+
 </div>
 
 <div>
 
-![Notifier information do not](/images/components/notifier/donot_indepth.svg)
-
+![Do not include required actions](/images/donot-notifier-action.svg)
 
 <docs-do-not>
 
@@ -133,30 +154,30 @@ A Notifier should not be used to give the user in-depth information that require
 </div>
 </docs-grid>
 
-
 <docs-spacer size="small">
 </docs-spacer>
-
 
 <docs-grid columns="2">
 <div>
 
-![Notifier success do](/images/components/notifier/do_success.svg)
+![Success Notifier after workflow is complete](/images/do-notifier-frequency.svg)
 
 <docs-do>
 
 Use a Notifier to alert the user that their action was successful, such as informing the user that their import is complete.
 </docs-do>
+
 </div>
 
 <div>
 
-![Notifier success do not](/images/components/notifier/donot_overuse.svg)
+![Do not use a Notifier for every action on a page](/images/donot-notifier-frequency.svg)
 
 <docs-do-not>
 
 A Notifier should not be used to alert the user that every action is successful, this should be used for larger actions such as import or the completion of a larger workflow.
 </docs-do-not>
+
 </div>
 </docs-grid>
 
@@ -164,7 +185,7 @@ A Notifier should not be used to alert the user that every action is successful,
 
 ### Actions
 
-![Notifier actions](/images/components/notifier/notifier_action.svg)  
+![Notifier actions](/images/notifier-action.svg)
 
 Notifiers can include a single action associated with the message. Notifier actions are styled similar to text links, but are the same color as the Notifier top bar.
 
@@ -181,7 +202,7 @@ If the action must remain visible to is required, a [well](/design-system/compon
 <docs-grid columns="2">
 <div>
 
-![Notifier action do](/images/components/notifier/do_actioncolor.svg)
+![Notifier action is the same color as the top bar](/images/do-notifier-color.svg)
 
 <docs-do>
 Use the same action color as the Notifier color.
@@ -190,7 +211,7 @@ Use the same action color as the Notifier color.
 
 <div>
 
-![Notifier action do not](/images/components/notifier/donot_actioncolor.svg)
+![Notifier action is not the same blue as link colors](/images/donot-notifier-color.svg)
 
 <docs-do-not>
 An action should not use a different color than the Notifier.
@@ -212,6 +233,8 @@ Multiple Notifiers should be used sparingly and only be seen in certain circumst
 
 * multiple errors occurring on the same page.
 * multiple notifications appearing from the same workflow.
+
+\[INSERT NOTE] The ability to have more than 1 Notifier on a screen is not yet in the toolkit. 
 
 - - -
 
