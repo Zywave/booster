@@ -1,12 +1,12 @@
 ---
-hideToc: false
-demo: https://cdn.zywave.com/@zywave/zui-table@latest/demo/index.html
-entryPointURI: https://cdn.zywave.com/@zywave/zui-bundle@next/dist/components/table.js
 title: Tables
-subtitle: "Before: (╯°□°）╯︵ ┻━┻, After: (☞ﾟヮﾟ)☞"
+subtitle: ""
+hideToc: false
 api: https://cdn.zywave.com/@zywave/zui-table@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-table@latest/demo/index.html
 mainComponentName: zui-table
 includedElements: []
+entryPointURI: https://cdn.zywave.com/@zywave/zui-bundle@next/dist/components/table.js
 statusOverride: null
 ---
 ## Usage
