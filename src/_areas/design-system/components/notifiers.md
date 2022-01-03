@@ -56,7 +56,7 @@ Used to provide general information about the product or current process.
 
 
 
-![Informative Notifier](/images/notifier-type-info.svg)
+![Info Notifier](/images/notifier-type-info.svg)
 
 <docs-spacer size="small"></docs-spacer>
 
