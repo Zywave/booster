@@ -124,7 +124,9 @@ Notifiers slide up and fade in as they appear on the screen, and slide down and 
 
 While the behavior remains unchanged, the location of Notifiers is different on mobile devices with viewports smaller than 720px. The Notifiers on mobile devices should be pinned to the bottom of the screen to make it easier to dismiss while holding the device.
 
-\[INSERT NOTE] The responsive behavior for Notifiers is not yet available in the toolkit.
+<docs-note>
+    The responsive behavior for Notifiers is not yet available in the toolkit.
+</docs-note>
 
 - - -
 
