@@ -132,7 +132,7 @@ While the behavior remains unchanged, the location of Notifiers is different on 
 
 ## Best practices
 
-<Docs-grid columns="2">
+<docs-grid columns="2">
 <div>
 
 ![Keep Notifier information general](/images/do-notifier-action.svg)
