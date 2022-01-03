@@ -236,7 +236,9 @@ Multiple Notifiers should be used sparingly and only be seen in certain circumst
 * multiple errors occurring on the same page.
 * multiple notifications appearing from the same workflow.
 
-\[INSERT NOTE] The ability to have more than 1 Notifier on a screen is not yet in the toolkit. 
+<docs-note>
+The ability to have more than 1 Notifier on a screen is not yet in the toolkit. 
+</docs-note>
 
 - - -
 
