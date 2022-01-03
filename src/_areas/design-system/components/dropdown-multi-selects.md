@@ -103,10 +103,10 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 #### Selection wrapping and truncation
 
-* When options are selected from the Dropdown multi-select option list, selections will populate inside the select box. Multiple selections should wrap within the select box to fit all.  
+* When options are selected from the Dropdown multi-select option list, they will populate inside the select box as selection tags. Multiple selection tags should wrap within the select box to fit all.  
 ![Tags selection wrapping](/images/tag_specs.svg)
-* In extreme circumstances, truncation can be used to prevent the selection container from continually expanding. 
-  * We recommend displaying a maximum of 5 selection tags, and a sixth that summarizes how many other options are selected (e.g. "and 10 more").
+* In extreme circumstances, truncation can be used to prevent the select box from continually expanding. 
+  * We recommend displaying a maximum of 5 selection tags, and a sixth that summarizes how many other options are selected (e.g., "and 10 more").
   * The truncated selection tag must not have the ability to be deselected (in other words, no X icon).
 
 #### Removing the selection
@@ -119,15 +119,15 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 #### Select all
 
-In some situations, a "Select all" option is desirable (e.g. "Select all accounts" when sending an email or "Select all states" when managing prefrences). There are some alternate behaviors to consider; choose what is most appropriate for your use case:
-1. Select all to select all options present in the UI:
-    * If the Multi-select dropdown has a finite list of options (e.g. 50 states), the "Select all" option can simply select all of these known options, so that the user sees an individual selection tag for each option
+In some situations, a "Select all" option is desirable (e.g., "Select all accounts" when sending an email or "Select all states" when managing preferences). There are some alternate behaviors to consider; choose what is most appropriate for your use case:
+1. Select all to choose every option present in the UI:
+    * If the Dropdown multi-select has a finite list (e.g., 50 states), the "Select all" option can simply select everything, so that the user sees an individual selection tag for each in the select box.
     * A user can deselect options as normal. The "Select all" option is checked in the "Option list" as long as all other options are selected.
-    * For example: a user is presented with a Multi-select dropdown for the 50 states. They choose to "Select all". 50 selection tags are then displayed in the selection container.
-1. Select all to select all options present in a data store (e.g. many accounts):
-    * If the Multi-select dropdown is backed by an API to yield an unknown and potentially large quantity of options, the "Select all" option may need to be optimized to handle this load. In this situation, "Select all" may need to be preserved as a magic value, to be interpreted by the application in more robust ways.
-    * A user cannot deselect individual selections after they have indicated "Select all". They must explicitly deselect "Select all", which will require them to select the the individual options they want.
-    * For example: a user is presented with a UI to send an email to their clients. They choose "Select all" as recipients. An "All selected" selection tag is displayed in the selection container.
+    * For example: a user is presented with a Dropdown multi-select for 50 states. They choose to "Select all" and 50 selection tags are then displayed in the select box.
+1. Select all to choose every option present in a data store (e.g., many accounts):
+    * If the Dropdown multi-select is backed by an API to yield an unknown and potentially large quantity of options, the "Select all" option may need to be optimized to handle this load. In this situation, "Select all" may need to be preserved as a magic value, to be interpreted by the application in more robust ways.
+    * A user cannot deselect individual selections after they have chosen the "Select all" option. They must explicitly deselect "Select all", which will require them to select the individual options they want.
+    * For example: a user is presented with a UI to send an email to their clients. They choose "Select all" as recipients. An "All selected" selection tag is displayed in the select box.
 
 ---
 
