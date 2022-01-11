@@ -30,10 +30,10 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
    * Primary actions are located on the far right
    * Secondary actions are to the left of the primary action
    * Tertiary actions are located on the far left   
+<br>
+<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. </docs-note>
   </br>
 4. **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
-
-<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. </docs-note>
 
 - - -
 
