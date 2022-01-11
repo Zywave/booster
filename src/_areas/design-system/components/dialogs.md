@@ -109,7 +109,7 @@ When the contents of a Dialog exceed the height of the viewport for the user, sc
 
 <docs-spacer size="small"></docs-spacer>
 
-\[INSERT NOTE] - The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. 
+<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. </docs-note>
 
 - - -
 
