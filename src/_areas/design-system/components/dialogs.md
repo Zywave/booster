@@ -33,7 +33,7 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
   </br>
 4. **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
 
-\[INSERT NOTE] - The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. 
+<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. </docs-note>
 
 - - -
 
