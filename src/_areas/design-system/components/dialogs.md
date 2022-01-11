@@ -31,7 +31,7 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
    * Secondary actions are to the left of the primary action
    * Tertiary actions are located on the far left   
 <br>
-<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. </docs-note>
+<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/399).</docs-note>
   </br>
 4. **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
 
@@ -109,7 +109,7 @@ When the contents of a Dialog exceed the height of the viewport for the user, sc
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. </docs-note>
+<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/399).</docs-note>
 
 - - -
 
