@@ -113,6 +113,8 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
   * We recommend displaying a maximum of 5 selection tags, and a sixth that summarizes how many other options are selected (e.g., "and 10 more").
   * The truncated selection tag must not have the ability to be deselected (in other words, no X icon).
 
+![Dropdown multi-select selection truncation](/images/multiselect_selectiontruncation.svg)
+
 #### Removing the selection
 
 * After a user has chosen an option it appears as a selection within the select box. Users can remove a selection by using one of three methods:
