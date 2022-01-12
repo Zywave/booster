@@ -204,6 +204,5 @@ Avoid using Tooltips the same way as title attributes.
 
 ### Additional guidelines
 
-* Always make sure that the Tooltip arrow is pointing at the related page content and is centered on the tooltip message
-* Use colors on page elements to call out for attention
+* Always make sure that the Tooltip arrow is pointing at the associated page content and is vertically or horizontally centered based on the tooltip message
 * Keep Tooltips brief and concise. In certain scenarios, this text may flow onto a second line within the Tooltip. If the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.
