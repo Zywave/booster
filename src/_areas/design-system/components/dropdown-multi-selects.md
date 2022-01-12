@@ -17,7 +17,7 @@ A form control used when there are more than 2 options and may require a user to
 
 ![Dropdown multi-select usage](/images/multi_select_usage.svg)
 
----
+- - -
 
 ## Anatomy
 
@@ -37,7 +37,7 @@ The anatomy of a dropdown multi-select.
 
 See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid)[Design specs](https://xd.adobe.com/view/630718e2-ca07-4189-961b-2a655245666d-3654/grid) for detailed sizing and spacing information
 
----
+- - -
 
 ## Types
 
@@ -55,7 +55,7 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/g
 
 ![Dropdown multi-select icons](/images/multiselect_icon_specs.svg)
 
----
+- - -
 
 ## States
 
@@ -73,7 +73,7 @@ Within Dropdown multi-select option lists, options can display the following sta
 
 ![Dropdown multi-select list states](/images/multiselect_list_states.svg)
 
----
+- - -
 
 ## Behavior
 
@@ -104,9 +104,11 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 #### Selection wrapping and truncation
 
-* When options are selected from the Dropdown multi-select option list, they will populate inside the select box as selection tags. Multiple selection tags should wrap within the select box to fit all.  
-![Tags selection wrapping](/images/tag_specs.svg)
+* When options are selected from the Dropdown multi-select option list, they will populate inside the select box as selection tags. Multiple selection tags should wrap within the select box to fit all.
+
+  ![Dropdown multi-select selection wrapping](/images/multiselect_selectionwrapping.svg)
 * In extreme circumstances, truncation can be used to prevent the select box from continually expanding. 
+
   * We recommend displaying a maximum of 5 selection tags, and a sixth that summarizes how many other options are selected (e.g., "and 10 more").
   * The truncated selection tag must not have the ability to be deselected (in other words, no X icon).
 
@@ -121,16 +123,19 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 #### Select all
 
 In some situations, a "Select all" option is desirable (e.g., "Select all accounts" when sending an email or "Select all states" when managing preferences). There are some alternate behaviors to consider; choose what is most appropriate for your use case:
-1. Select all to choose every option present in the UI:
-    * If the Dropdown multi-select has a finite list (e.g., 50 states), the "Select all" option can simply select everything, so that the user sees an individual selection tag for each in the select box.
-    * A user can deselect options as normal. The "Select all" option is checked in the "Option list" as long as all other options are selected.
-    * For example: a user is presented with a Dropdown multi-select for 50 states. They choose to "Select all" and 50 selection tags are then displayed in the select box.
-1. Select all to choose every option present in a data store (e.g., many accounts):
-    * If the Dropdown multi-select is backed by an API to yield an unknown and potentially large quantity of options, the "Select all" option may need to be optimized to handle this load. In this situation, "Select all" may need to be preserved as a magic value, to be interpreted by the application in more robust ways.
-    * A user cannot deselect individual selections after they have chosen the "Select all" option. They must explicitly deselect "Select all", which will require them to select the individual options they want.
-    * For example: a user is presented with a UI to send an email to their clients. They choose "Select all" as recipients. An "All selected" selection tag is displayed in the select box.
 
----
+1. Select all to choose every option present in the UI:
+
+   * If the Dropdown multi-select has a finite list (e.g., 50 states), the "Select all" option can simply select everything, so that the user sees an individual selection tag for each in the select box.
+   * A user can deselect options as normal. The "Select all" option is checked in the "Option list" as long as all other options are selected.
+   * For example: a user is presented with a Dropdown multi-select for 50 states. They choose to "Select all" and 50 selection tags are then displayed in the select box.
+2. Select all to choose every option present in a data store (e.g., many accounts):
+
+   * If the Dropdown multi-select is backed by an API to yield an unknown and potentially large quantity of options, the "Select all" option may need to be optimized to handle this load. In this situation, "Select all" may need to be preserved as a magic value, to be interpreted by the application in more robust ways.
+   * A user cannot deselect individual selections after they have chosen the "Select all" option. They must explicitly deselect "Select all", which will require them to select the individual options they want.
+   * For example: a user is presented with a UI to send an email to their clients. They choose "Select all" as recipients. An "All selected" selection tag is displayed in the select box.
+
+- - -
 
 ## Responsiveness
 
@@ -138,7 +143,7 @@ In some situations, a "Select all" option is desirable (e.g., "Select all accoun
 
 Users on mobile and touch devices should not see our styling; instead the default styles native to the device should override ours, as these typically provide a better UX as they're designed for use on that particular device.
 
----
+- - -
 
 ## Best practices
 
@@ -232,7 +237,7 @@ Avoid not drawing attention to a dropdown select with a validation error.
 
 </docs-spacer>
 
----
+- - -
 
 ## Alternate considerations
 
