@@ -125,6 +125,8 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 In some situations, a "Select all" option is desirable (e.g., "Select all accounts" when sending an email or "Select all states" when managing preferences). There are some alternate behaviors to consider; choose what is most appropriate for your use case:
 
+![Dropdown multi-select select all](/images/multiselect_selectall.svg)
+
 1. Select all to choose every option present in the UI:
 
    * If the Dropdown multi-select has a finite list (e.g., 50 states), the "Select all" option can simply select everything, so that the user sees an individual selection tag for each in the select box.
