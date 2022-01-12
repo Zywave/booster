@@ -106,7 +106,8 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 * When options are selected from the Dropdown multi-select option list, they will populate inside the select box as selection tags. Multiple selection tags should wrap within the select box to fit all.
 
-  ![Dropdown multi-select selection wrapping](/images/multiselect_selectionwrapping.svg)
+![Dropdown multi-select selection wrapping](/images/multiselect_selectionwrapping.svg)
+
 * In extreme circumstances, truncation can be used to prevent the select box from continually expanding. 
 
   * We recommend displaying a maximum of 5 selection tags, and a sixth that summarizes how many other options are selected (e.g., "and 10 more").
