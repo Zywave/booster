@@ -104,7 +104,7 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 #### Selection wrapping and truncation
 
-* When options are selected from the Dropdown multi-select option list, they will populate inside the select box as selection tags. Multiple selection tags should wrap within the select box to fit all.
+* When options are selected from the option list, they will populate inside the select form field as select tags. Multiple select tags should wrap within the select form field to fit all.
 
 ![Dropdown multi-select selection wrapping](/images/multiselect_selectionwrapping.svg)
 
