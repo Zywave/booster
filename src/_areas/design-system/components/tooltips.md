@@ -181,7 +181,7 @@ Avoid using icons to initiate Tooltips when the page element/text is not right n
 ![Use broswers' native title attributes to represent advisory information related to the element](/images/do-–-5.svg)
 
 <docs-do>
-Use broswers' native title attributes to represent advisory information related to the element.
+Use broswers' native title attributes to represent advisory information related to the element. If there is no visible name for the element you can reference, use aria-label to provide the user with a recognizable accessible name.
 </docs-do>
 
 </div>
