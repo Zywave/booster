@@ -117,6 +117,10 @@
     border-left: 1px solid var(--zui-gray-100);
     text-transform: uppercase;
   }
+
+  table[class^='zui'] td.no-text-transform {
+    text-transform: unset;
+  }
   
   table[class^='zui'] td:first-child {
     border-left: 0;

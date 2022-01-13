@@ -108,7 +108,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#E5EFFA</td>
         <td class="hsl">(212, 69%, 94%)</td>
         <td class="rgb">(229, 239, 250)</td>
-        <td>--zui-blue-50</td>
+        <td class="no-text-transform">--zui-blue-50</td>
       </tr>
       <tr class="level-100">
         <td>100</td>
@@ -116,7 +116,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#D0E2F6</td>
         <td class="hsl">(212, 69%, 89%)</td>
         <td class="rgb">(208, 226, 246)</td>
-        <td>--zui-blue-100</td>
+        <td class="no-text-transform">--zui-blue-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -124,7 +124,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#A5C7EE</td>
         <td class="hsl">(212, 69%, 79%)</td>
         <td class="rgb">(165, 199, 238)</td>
-        <td>--zui-blue-200</td>
+        <td class="no-text-transform">--zui-blue-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -132,7 +132,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#79ACE6</td>
         <td class="hsl">(212, 69%, 69%)</td>
         <td class="rgb">(121, 172, 230)</td>
-        <td>--zui-blue-300</td>
+        <td class="no-text-transform">--zui-blue-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -140,7 +140,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#4E92DF</td>
         <td class="hsl">(212, 69%, 59%)</td>
         <td class="rgb">(78, 146, 223)</td>
-        <td>--zui-blue-400</td>
+        <td class="no-text-transform">--zui-blue-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -148,7 +148,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#2777D3</td>
         <td class="hsl">(212, 69%, 49%)</td>
         <td class="rgb">(39, 119, 211)</td>
-        <td>--zui-blue-500</td>
+        <td class="no-text-transform">--zui-blue-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -156,7 +156,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#1F5EA8</td>
         <td class="hsl">(212, 69%, 39%)</td>
         <td class="rgb">(31, 95, 168)</td>
-        <td>--zui-blue-600</td>
+        <td class="no-text-transform">--zui-blue-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -164,7 +164,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#17477D</td>
         <td class="hsl">(212, 69%, 29%)</td>
         <td class="rgb">(23, 71, 125)</td>
-        <td>--zui-blue-700</td>
+        <td class="no-text-transform">--zui-blue-700</td>
       </tr>
     </table>
 </GridCol>
@@ -190,7 +190,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#B8E2A6</td>
         <td class="hsl">(102, 51%, 77%)</td>
         <td class="rgb">(215, 239, 205)</td>
-        <td>--zui-green-100</td>
+        <td class="no-text-transform">--zui-green-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -198,7 +198,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#B8E2A6</td>
         <td class="hsl">(102, 51%, 77%)</td>
         <td class="rgb">(184, 226, 166)</td>
-        <td>--zui-green-200</td>
+        <td class="no-text-transform">--zui-green-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -206,7 +206,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#9AD680</td>
         <td class="hsl">(102, 51%, 67%)</td>
         <td class="rgb">(154, 214, 128)</td>
-        <td>--zui-green-300</td>
+        <td class="no-text-transform">--zui-green-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -214,7 +214,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#7BC959</td>
         <td class="hsl">(102, 51%, 57%)</td>
         <td class="rgb">(123, 201, 89)</td>
-        <td>--zui-green-400</td>
+        <td class="no-text-transform">--zui-green-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -222,7 +222,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#5FB53B</td>
         <td class="hsl">(102, 51%, 47%)</td>
         <td class="rgb">(95, 181, 59)</td>
-        <td>--zui-green-500</td>
+        <td class="no-text-transform">--zui-green-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -230,7 +230,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#4B8E2E</td>
         <td class="hsl">(102, 51%, 37%)</td>
         <td class="rgb">(75, 142, 46)</td>
-        <td>--zui-green-600</td>
+        <td class="no-text-transform">--zui-green-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -238,7 +238,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#376822</td>
         <td class="hsl">(102, 51%, 27%)</td>
         <td class="rgb">(55, 104, 34)</td>
-        <td>--zui-green-700</td>
+        <td class="no-text-transform">--zui-green-700</td>
       </tr>
     </table>
 </GridCol>
@@ -266,7 +266,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#C6F0EE</td>
         <td class="hsl">(167, 59%, 86%)</td>
         <td class="rgb">(198, 240, 238)</td>
-        <td>--zui-aqua-100</td>
+        <td class="no-text-transform">--zui-aqua-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -274,7 +274,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#9EE6E1</td>
         <td class="hsl">(167, 59%, 76%)</td>
         <td class="rgb">(158, 230, 225)</td>
-        <td>--zui-aqua-200</td>
+        <td class="no-text-transform">--zui-aqua-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -282,7 +282,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#75DBD5</td>
         <td class="hsl">(167, 59%, 66%)</td>
         <td class="rgb">(117, 219, 213)</td>
-        <td>--zui-aqua-300</td>
+        <td class="no-text-transform">--zui-aqua-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -290,7 +290,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#4DD1C8</td>
         <td class="hsl">(167, 59%, 56%)</td>
         <td class="rgb">(77, 209, 200)</td>
-        <td>--zui-aqua-400</td>
+        <td class="no-text-transform">--zui-aqua-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -298,7 +298,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#30BBB1</td>
         <td class="hsl">(167, 59%, 46%)</td>
         <td class="rgb">(48, 187,177)</td>
-        <td>--zui-aqua-500</td>
+        <td class="no-text-transform">--zui-aqua-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -306,7 +306,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#26928B</td>
         <td class="hsl">(167, 59%, 36%)</td>
         <td class="rgb">(38, 146, 139)</td>
-        <td>--zui-aqua-600</td>
+        <td class="no-text-transform">--zui-aqua-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -314,7 +314,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#1B6964</td>
         <td class="hsl">(167, 59%, 26%)</td>
         <td class="rgb">(27, 105, 100)</td>
-        <td>--zui-aqua-700</td>
+        <td class="no-text-transform">--zui-aqua-700</td>
       </tr>
     </table>
 </GridCol>
@@ -340,7 +340,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#E0D7EF</td>
         <td class="hsl">(263, 42%, 89%)</td>
         <td class="rgb">(224, 215, 239)</td>
-        <td>--zui-purple-100</td>
+        <td class="no-text-transform">--zui-purple-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -348,7 +348,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#C4B3E0</td>
         <td class="hsl">(263, 42%, 79%)</td>
         <td class="rgb">(196, 179, 224)</td>
-        <td>--zui-purple-200</td>
+        <td class="no-text-transform">--zui-purple-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -356,7 +356,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#A88FD1</td>
         <td class="hsl">(263, 42%, 69%)</td>
         <td class="rgb">(168, 143, 209)</td>
-        <td>--zui-purple-300</td>
+        <td class="no-text-transform">--zui-purple-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -364,7 +364,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#8C6BC2</td>
         <td class="hsl">(263, 42%, 59%)</td>
         <td class="rgb">(140, 107, 194)</td>
-        <td>--zui-purple-400</td>
+        <td class="no-text-transform">--zui-purple-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -372,7 +372,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#6F48B0</td>
         <td class="hsl">(263, 42%, 49%)</td>
         <td class="rgb">(113, 72, 177)</td>
-        <td>--zui-purple-500</td>
+        <td class="no-text-transform">--zui-purple-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -380,7 +380,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#5A3A8D</td>
         <td class="hsl">(263, 42%, 39%)</td>
         <td class="rgb">(90, 58, 141)</td>
-        <td>--zui-purple-600</td>
+        <td class="no-text-transform">--zui-purple-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -388,7 +388,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#432B69</td>
         <td class="hsl">(263, 42%, 29%)</td>
         <td class="rgb">(67, 43, 105)</td>
-        <td>--zui-purple-700</td>
+        <td class="no-text-transform">--zui-purple-700</td>
       </tr>
     </table>
 </GridCol>
@@ -416,7 +416,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#F3CEE5</td>
         <td class="hsl">(323, 60%, 88%)</td>
         <td class="rgb">(243, 206, 229)</td>
-        <td>--zui-rose-100</td>
+        <td class="no-text-transform">--zui-rose-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -424,7 +424,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#E9A5CF</td>
         <td class="hsl">(323, 60%, 78%)</td>
         <td class="rgb">(233, 165, 207)</td>
-        <td>--zui-rose-200</td>
+        <td class="no-text-transform">--zui-rose-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -432,7 +432,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#DE7CB9</td>
         <td class="hsl">(323, 60%, 68%)</td>
         <td class="rgb">(222, 124, 185)</td>
-        <td>--zui-rose-300</td>
+        <td class="no-text-transform">--zui-rose-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -440,7 +440,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#D454A3</td>
         <td class="hsl">(323, 60%, 58%)</td>
         <td class="rgb">(212, 84, 163)</td>
-        <td>--zui-rose-400</td>
+        <td class="no-text-transform">--zui-rose-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -448,7 +448,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#C6318C</td>
         <td class="hsl">(323, 60%, 48%)</td>
         <td class="rgb">(196, 49, 140)</td>
-        <td>--zui-rose-500</td>
+        <td class="no-text-transform">--zui-rose-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -456,7 +456,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#9B276E</td>
         <td class="hsl">(323, 60%, 38%)</td>
         <td class="rgb">(155, 39, 110)</td>
-        <td>--zui-rose-600</td>
+        <td class="no-text-transform">--zui-rose-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -464,7 +464,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#721D51</td>
         <td class="hsl">(323, 60%, 28%)</td>
         <td class="rgb">(114, 29, 81)</td>
-        <td>--zui-rose-700</td>
+        <td class="no-text-transform">--zui-rose-700</td>
       </tr>
     </table>
 </GridCol>
@@ -490,7 +490,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#FAC9BD</td>
         <td class="hsl">(12, 85%, 86%)</td>
         <td class="rgb">(250, 201, 189)</td>
-        <td>--zui-red-100</td>
+        <td class="no-text-transform">--zui-red-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -498,7 +498,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#F6A38E</td>
         <td class="hsl">(12, 85%, 76%)</td>
         <td class="rgb">(246, 163, 142)</td>
-        <td>--zui-red-200</td>
+        <td class="no-text-transform">--zui-red-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -506,7 +506,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#F27C5F</td>
         <td class="hsl">(12, 85%, 66%)</td>
         <td class="rgb">(242, 124, 95)</td>
-        <td>--zui-red-300</td>
+        <td class="no-text-transform">--zui-red-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -514,7 +514,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#EE562F</td>
         <td class="hsl">(12, 85%, 56%)</td>
         <td class="rgb">(238, 86, 47)</td>
-        <td>--zui-red-400</td>
+        <td class="no-text-transform">--zui-red-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -522,7 +522,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#D93911</td>
         <td class="hsl">(12, 85%, 46%)</td>
         <td class="rgb">(217, 57, 18)</td>
-        <td>--zui-red-500</td>
+        <td class="no-text-transform">--zui-red-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -530,7 +530,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#AA2D0E</td>
         <td class="hsl">(12, 85%, 36%)</td>
         <td class="rgb">(170, 45, 14)</td>
-        <td>--zui-red-600</td>
+        <td class="no-text-transform">--zui-red-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -538,7 +538,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#7B200A</td>
         <td class="hsl">(12, 85%, 26%)</td>
         <td class="rgb">(123, 32, 10)</td>
-        <td>--zui-red-700</td>
+        <td class="no-text-transform">--zui-red-700</td>
       </tr>
     </table>
 </GridCol>
@@ -566,7 +566,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#FDE5D3</td>
         <td class="hsl">(25, 90%, 91%)</td>
         <td class="rgb">(253, 229, 211)</td>
-        <td>--zui-orange-100</td>
+        <td class="no-text-transform">--zui-orange-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -574,7 +574,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#FAC7A3</td>
         <td class="hsl">(25, 90%, 81%)</td>
         <td class="rgb">(250, 199, 163)</td>
-        <td>--zui-orange-200</td>
+        <td class="no-text-transform">--zui-orange-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -582,7 +582,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#F8AA72</td>
         <td class="hsl">(25, 90%, 71%)</td>
         <td class="rgb">(248, 170, 114)</td>
-        <td>--zui-orange-300</td>
+        <td class="no-text-transform">--zui-orange-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -590,7 +590,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#F58D42</td>
         <td class="hsl">(25, 90%, 61%)</td>
         <td class="rgb">(245, 141, 66)</td>
-        <td>--zui-orange-400</td>
+        <td class="no-text-transform">--zui-orange-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -598,7 +598,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#F36F12</td>
         <td class="hsl">(25, 90%, 51%)</td>
         <td class="rgb">(243, 111, 18)</td>
-        <td>--zui-orange-500</td>
+        <td class="no-text-transform">--zui-orange-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -606,7 +606,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#C7590A</td>
         <td class="hsl">(25, 90%, 41%)</td>
         <td class="rgb">(199, 89, 10)</td>
-        <td>--zui-orange-600</td>
+        <td class="no-text-transform">--zui-orange-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -614,7 +614,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#964308</td>
         <td class="hsl">(25, 90%, 31%)</td>
         <td class="rgb">(150, 67, 8)</td>
-        <td>--zui-orange-700</td>
+        <td class="no-text-transform">--zui-orange-700</td>
       </tr>
     </table>
 </GridCol>
@@ -640,7 +640,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#FEF1D7</td>
         <td class="hsl">(40, 97%, 92%)</td>
         <td class="rgb">(254, 241, 215)</td>
-        <td>--zui-yellow-100</td>
+        <td class="no-text-transform">--zui-yellow-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -648,7 +648,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#FEE0A5</td>
         <td class="hsl">(40, 97%, 82%)</td>
         <td class="rgb">(254, 224, 165)</td>
-        <td>--zui-yellow-200</td>
+        <td class="no-text-transform">--zui-yellow-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -656,7 +656,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#FDCF72</td>
         <td class="hsl">(40, 97%, 72%)</td>
         <td class="rgb">(253, 207, 114)</td>
-        <td>--zui-yellow-300</td>
+        <td class="no-text-transform">--zui-yellow-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -664,7 +664,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#FCBD40</td>
         <td class="hsl">(40, 97%, 62%)</td>
         <td class="rgb">(252, 189, 64)</td>
-        <td>--zui-yellow-400</td>
+        <td class="no-text-transform">--zui-yellow-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -672,7 +672,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#FBAC0E</td>
         <td class="hsl">(40, 97%, 52%)</td>
         <td class="rgb">(251, 172, 14)</td>
-        <td>--zui-yellow-500</td>
+        <td class="no-text-transform">--zui-yellow-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -680,7 +680,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#D38E03</td>
         <td class="hsl">(40, 97%, 42%)</td>
         <td class="rgb">(211, 142, 3)</td>
-        <td>--zui-yellow-600</td>
+        <td class="no-text-transform">--zui-yellow-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -688,7 +688,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#A16C02</td>
         <td class="hsl">(40, 97%, 32%)</td>
         <td class="rgb">(161, 108, 2)</td>
-        <td>--zui-yellow-700</td>
+        <td class="no-text-transform">--zui-yellow-700</td>
       </tr>
     </table>
 </GridCol>
@@ -715,7 +715,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#F9F9FA</td>
         <td class="hsl">(240, 8%, 98%)</td>
         <td class="rgb">(249, 249, 250)</td>
-        <td>--zui-gray-25</td>
+        <td class="no-text-transform">--zui-gray-25</td>
       </tr>
       <tr class="level-50">
         <td>50</td>
@@ -723,7 +723,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#F4F4F6</td>
         <td class="hsl">(240, 8%, 96%)</td>
         <td class="rgb">(244, 244, 246)</td>
-        <td>--zui-gray-50</td>
+        <td class="no-text-transform">--zui-gray-50</td>
       </tr>
       <tr class="level-100">
         <td>100</td>
@@ -731,7 +731,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#E6E6EA</td>
         <td class="hsl">(240, 8%, 91%)</td>
         <td class="rgb">(230, 230, 234)</td>
-        <td>--zui-gray-100</td>
+        <td class="no-text-transform">--zui-gray-100</td>
       </tr>
       <tr class="level-200">
         <td>200</td>
@@ -739,7 +739,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#CBCBD2</td>
         <td class="hsl">(240, 8%, 81%)</td>
         <td class="rgb">(203, 203, 210)</td>
-        <td>--zui-gray-200</td>
+        <td class="no-text-transform">--zui-gray-200</td>
       </tr>
       <tr class="level-300">
         <td>300</td>
@@ -747,7 +747,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#AFAFBB</td>
         <td class="hsl">(240, 8%, 71%)</td>
         <td class="rgb">(175, 175, 187)</td>
-        <td>--zui-gray-300</td>
+        <td class="no-text-transform">--zui-gray-300</td>
       </tr>
       <tr class="level-400">
         <td>400</td>
@@ -755,7 +755,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#9494A4</td>
         <td class="hsl">(240, 8%, 61%)</td>
         <td class="rgb">(148, 148, 164)</td>
-        <td>--zui-gray-400</td>
+        <td class="no-text-transform">--zui-gray-400</td>
       </tr>
       <tr class="level-500">
         <td>500</td>
@@ -763,7 +763,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#78788C</td>
         <td class="hsl">(240, 8%, 51%)</td>
         <td class="rgb">(120, 120, 140)</td>
-        <td>--zui-gray-500</td>
+        <td class="no-text-transform">--zui-gray-500</td>
       </tr>
       <tr class="level-600">
         <td>600</td>
@@ -771,7 +771,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#606071</td>
         <td class="hsl">(240, 8%, 41%)</td>
         <td class="rgb">(96, 96, 113)</td>
-        <td>--zui-gray-600</td>
+        <td class="no-text-transform">--zui-gray-600</td>
       </tr>
       <tr class="level-700">
         <td>700</td>
@@ -779,7 +779,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#494955</td>
         <td class="hsl">(240, 8%, 31%)</td>
         <td class="rgb">(73, 73, 85)</td>
-        <td>--zui-gray-700</td>
+        <td class="no-text-transform">--zui-gray-700</td>
       </tr>
       <tr class="level-800">
         <td>800</td>
@@ -787,7 +787,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#31313A</td>
         <td class="hsl">(240, 8%, 21%)</td>
         <td class="rgb">(49, 49, 58)</td>
-        <td>--zui-gray-800</td>
+        <td class="no-text-transform">--zui-gray-800</td>
       </tr>
       <tr class="level-900">
         <td>900</td>
@@ -795,7 +795,7 @@ We have updated the color palette to use the HSL color system in order to mainta
         <td class="hex">#1A1A1E</td>
         <td class="hsl">(240, 8%, 11%)</td>
         <td class="rgb">(26, 26, 30)</td>
-        <td>--zui-gray-900</td>
+        <td class="no-text-transform">--zui-gray-900</td>
       </tr>
     </table>
 </GridCol>
