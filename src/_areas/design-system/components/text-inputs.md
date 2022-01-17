@@ -168,7 +168,7 @@ Avoid using sentences or long phrases for label text.
 ![Text input placeholder text do](/images/textinput_placeholder_do.svg)
 
 <docs-do>
-Use placeholder text to inform users as to what information is requested for a dropdown. It provides an example of what you should enter in that field, and the format of that information when appropriate.
+Supplement labels with placeholder text to further inform users of what information is being requested. For example, providing a telephone number format as placeholder text.
 </docs-do>
 
 </div>
