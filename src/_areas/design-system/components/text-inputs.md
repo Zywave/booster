@@ -189,7 +189,7 @@ Avoid repeating the label as placeholder text since it is redundant information 
 
 </docs-spacer>
 
-#### Input length
+#### Text Input length
 
 <docs-grid columns="2">
 
