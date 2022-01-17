@@ -47,19 +47,19 @@ Text inputs can display the following states: unselected, hover, focus, and dis
 
 ## Types
 
-#### Success
+#### Validation
 
-Text Input is outlined in green. Success message may appear nearby.
+A success text Input is outlined in green. Success message may appear nearby.
 
 ![](/images/textinput_success.svg)
 
 <br>
 
-#### Error
-
-Text Input is outlined in red. Error message with details on the error will appear nearby.
+An error text Input is outlined in red. Error message with details on the error will appear nearby.
 
 ![](/images/textinput_error.svg)
+
+For more information on validation, [see forms documentation on validation](https://booster.zywave.dev/design-system/patterns/forms/#validation).
 
 <br>
 
@@ -93,27 +93,27 @@ On rare occasions, you can put the button next to the input, which is often seen
 
 <br>
 
-#### Text input prefix
+#### Input prefix
 
-Added to the beginning of the input field to specify what should be entered, such as a dollar sign. To draw more attention, a container can be added to the styling. These labels are typically an icon.
+Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. These labels are typically an icon.
 
 ![Text Input input prefix](/images/textinput_input_prefix.svg)
 
 <br>
 
-#### Text input suffix
+#### Input suffix
 
-Added to the end of the input field to specify what should be entered, like a percentage symbol. These labels are typically an icon.
+Added to back of the input field to specify what should be entered, like a percentage symbol. These labels are typically an icon.
 
 ![Text Input input suffix](/images/textinput_input_suffix.svg)
 
 <br>
 
-#### Text input prefix & suffix
+#### Input prefix & suffix
 
-A text input can have both a prefix and suffix to specify what should be entered, such as a dollar sign and a decimal number to represent a dollar amount.
+Added to front and back of the input field to specify what should be entered, like a dollar sign and a decimal number to represent a dollar amount.
 
-![Text input prefix and suffix](/images/textinput_input_prefixandsuffix.svg)
+![Text Input input prefix and suffix](/images/textinput_input_prefixandsuffix.svg)
 
 - - -
 
@@ -138,7 +138,7 @@ A loading icon appears on the right side of the input to indicate that something
 ![Text input labeling do](/images/textinput_labeling_do.svg)
 
 <docs-do>
-Use clear and concise labels to inform users of what information is being requested. 
+Use clear and concise labeling. Label text is used to inform users as to what information is requested for a text input. 
 </docs-do>
 
 </div>
@@ -148,7 +148,7 @@ Use clear and concise labels to inform users of what information is being reques
 ![Labeling don't](/images/textinput_labeling_dont.svg)
 
 <docs-do-not>
-Avoid using sentences or long phrases for labels. 
+Avoid using sentences or long phrases for label text. 
 </docs-do-not>
 
 </div>
@@ -159,7 +159,7 @@ Avoid using sentences or long phrases for labels.
 
 </docs-spacer>
 
-#### Placeholder text
+#### Place holder text
 
 <docs-grid columns="2">
 
@@ -168,7 +168,7 @@ Avoid using sentences or long phrases for labels.
 ![Text input placeholder text do](/images/textinput_placeholder_do.svg)
 
 <docs-do>
-Supplement labels with placeholder text to further inform users of what information is being requested. For example, providing a telephone number format as placeholder text.
+Use placeholder text to inform users as to what information is requested for a dropdown. It provides an example of what you should enter in that field, and the format of that information when appropriate.
 </docs-do>
 
 </div>
@@ -178,7 +178,7 @@ Supplement labels with placeholder text to further inform users of what informat
 ![Text input placeholder text don't](/images/textinput_placeholder_dont.svg)
 
 <docs-do-not>
-Avoid repeating the label as placeholder text since it is redundant information and does not inform the user of the format of information requested.
+Avoid repeating the same text used for the label as it is redundant information and does not inform the user of the format of information requested.
 </docs-do-not>
 
 </div>
@@ -189,7 +189,7 @@ Avoid repeating the label as placeholder text since it is redundant information 
 
 </docs-spacer>
 
-#### Text Input length
+#### Input length
 
 <docs-grid columns="2">
 
@@ -198,7 +198,7 @@ Avoid repeating the label as placeholder text since it is redundant information 
 ![Text input placeholder text do](/images/textinput_size_do.svg)
 
 <docs-do>
-Set the Text Input length to the proper size of the expected user input.
+Use an input size that is properly proportional to the expected user input
 </docs-do>
 
 </div>
@@ -208,7 +208,7 @@ Set the Text Input length to the proper size of the expected user input.
 ![Text input placeholder text don't](/images/textinput_size_dont.svg)
 
 <docs-do-not>
-Avoid using a Text Input length that hides information or allows for excessive white space.
+Avoid using an input size that hides information or allows for excessive white space.
 </docs-do-not>
 
 </div>
