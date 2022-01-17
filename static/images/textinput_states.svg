@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="525" viewBox="0 0 1000 525">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="425" viewBox="0 0 1000 425">
   <defs>
     <clipPath id="clip-textinput_states">
-      <rect width="1000" height="525"/>
+      <rect width="1000" height="425"/>
     </clipPath>
   </defs>
   <g id="textinput_states" clip-path="url(#clip-textinput_states)">
-    <rect width="1000" height="525" fill="#f4f4f6"/>
+    <rect width="1000" height="425" fill="#f4f4f6"/>
     <g id="Group_15379" data-name="Group 15379" transform="translate(255 -37)">
       <g id="Input-Top" transform="translate(132 267)">
         <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(0 23)" fill="#fff" stroke="#4e92df" stroke-width="2">
@@ -35,10 +35,9 @@
         <text id="Label-3" data-name="Label" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Label</tspan></text>
       </g>
       <text id="flat_light" transform="translate(112 316)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-40.02" y="0">Focused</tspan></text>
-      <text id="flat_light-2" data-name="flat_light" transform="translate(112 512)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-42.002" y="0">Disabled</tspan></text>
+      <text id="flat_light-2" data-name="flat_light" transform="translate(112 412)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-42.002" y="0">Disabled</tspan></text>
       <text id="flat_light-3" data-name="flat_light" transform="translate(112 216)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-29.101" y="0">Hover</tspan></text>
       <text id="flat_light-4" data-name="flat_light" transform="translate(112 116)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-53.657" y="0">Unselected</tspan></text>
-      <text id="flat_light-5" data-name="flat_light" transform="translate(112 416)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-37.324" y="0">Entered</tspan></text>
       <g id="Group_15344" data-name="Group 15344" transform="translate(-11500 -802)">
         <g id="noun_Pointer_44803" transform="translate(11911 1005)">
           <g id="Group_15298" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
@@ -52,20 +51,12 @@
         </g>
       </g>
       <g id="Input-Top-4" data-name="Input-Top" transform="translate(132 367)">
-        <g id="Rectangle_288-4" data-name="Rectangle 288" transform="translate(0 23)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
-          <rect width="300" height="42" rx="4" stroke="none"/>
-          <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
-        </g>
-        <text id="Entered_text" data-name="Entered text" transform="translate(15 50)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Entered text</tspan></text>
-        <text id="Label-4" data-name="Label" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Label</tspan></text>
-      </g>
-      <g id="Input-Top-5" data-name="Input-Top" transform="translate(132 467)">
-        <g id="Rectangle_288-5" data-name="Rectangle 288" transform="translate(0 23)" fill="#e6e6ea" stroke="#cbcbd2" stroke-width="1">
+        <g id="Rectangle_288-4" data-name="Rectangle 288" transform="translate(0 23)" fill="#e6e6ea" stroke="#cbcbd2" stroke-width="1">
           <rect width="300" height="42" rx="4" stroke="none"/>
           <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
         </g>
         <text id="Hint_text-4" data-name="Hint text" transform="translate(15 50)" fill="#afafbb" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
-        <text id="Label-5" data-name="Label" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Label</tspan></text>
+        <text id="Label-4" data-name="Label" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Label</tspan></text>
       </g>
     </g>
   </g>

@@ -39,7 +39,7 @@ See the [Design specs](https://xd.adobe.com/view/4bf410a7-cbe1-4642-9756-529baa1
 
 ## States
 
-Text inputs can display the following states: unselected, hover, focus, and disabled.
+Text inputs can display the following states: unselected, hover, focus, entered, and disabled.
 
 ![Text input states](/images/textinput_states.svg)
 
