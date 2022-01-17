@@ -91,6 +91,10 @@ On rare occasions, you can put the button next to the input, which is often seen
 
 <br>
 
+For more information on Search, [see Search documentation](https://booster.zywave.dev/design-system/components/search/?tab=usage).
+
+<br>
+
 #### Input prefix
 
 Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. These labels are typically an icon.
