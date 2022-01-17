@@ -148,7 +148,7 @@ Use clear and concise labels to inform users of what information is being reques
 ![Labeling don't](/images/textinput_labeling_dont.svg)
 
 <docs-do-not>
-Avoid using sentences or long phrases for label text. 
+Avoid using sentences or long phrases for labels. 
 </docs-do-not>
 
 </div>
