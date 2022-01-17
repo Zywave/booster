@@ -178,7 +178,7 @@ Supplement labels with placeholder text to further inform users of what informat
 ![Text input placeholder text don't](/images/textinput_placeholder_dont.svg)
 
 <docs-do-not>
-Avoid repeating the same text used for the label as it is redundant information and does not inform the user of the format of information requested.
+Avoid repeating the label as placeholder text since it is redundant information and does not inform the user of the format of information requested.
 </docs-do-not>
 
 </div>
