@@ -159,7 +159,7 @@ Avoid using sentences or long phrases for labels.
 
 </docs-spacer>
 
-#### Place holder text
+#### Placeholder text
 
 <docs-grid columns="2">
 
