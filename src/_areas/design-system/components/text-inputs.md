@@ -95,7 +95,7 @@ On rare occasions, you can put the button next to the input, which is often seen
 
 #### Input prefix
 
-Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. These labels are typically an icon.
+Added to the beginning of the input field to specify what should be entered, such as a dollar sign. To draw more attention, a container can be added to the styling. These labels are typically an icon.
 
 ![Text Input input prefix](/images/textinput_input_prefix.svg)
 
