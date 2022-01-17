@@ -208,7 +208,7 @@ Set the Text Input length to the proper size of the expected user input.
 ![Text input placeholder text don't](/images/textinput_size_dont.svg)
 
 <docs-do-not>
-Avoid using an input size that hides information or allows for excessive white space.
+Avoid using a Text Input length that hides information or allows for excessive white space.
 </docs-do-not>
 
 </div>
