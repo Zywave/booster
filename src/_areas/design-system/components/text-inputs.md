@@ -93,7 +93,7 @@ On rare occasions, you can put the button next to the input, which is often seen
 
 <br>
 
-#### Input prefix
+#### Text input prefix
 
 Added to the beginning of the input field to specify what should be entered, such as a dollar sign. To draw more attention, a container can be added to the styling. These labels are typically an icon.
 
