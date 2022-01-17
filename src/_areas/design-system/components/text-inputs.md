@@ -109,11 +109,11 @@ Added to the end of the input field to specify what should be entered, like a pe
 
 <br>
 
-#### Input prefix & suffix
+#### Text input prefix & suffix
 
-Added to front and back of the input field to specify what should be entered, like a dollar sign and a decimal number to represent a dollar amount.
+A text input can have both a prefix and suffix to specify what should be entered, such as a dollar sign and a decimal number to represent a dollar amount.
 
-![Text Input input prefix and suffix](/images/textinput_input_prefixandsuffix.svg)
+![Text input prefix and suffix](/images/textinput_input_prefixandsuffix.svg)
 
 - - -
 
