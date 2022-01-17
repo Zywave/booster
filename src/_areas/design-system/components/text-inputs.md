@@ -138,7 +138,7 @@ A loading icon appears on the right side of the input to indicate that something
 ![Text input labeling do](/images/textinput_labeling_do.svg)
 
 <docs-do>
-Use clear and concise labeling. Label text is used to inform users as to what information is requested for a text input. 
+Use clear and concise labels to inform users of what information is being requested. 
 </docs-do>
 
 </div>
