@@ -103,7 +103,7 @@ Added to the beginning of the input field to specify what should be entered, suc
 
 #### Input suffix
 
-Added to back of the input field to specify what should be entered, like a percentage symbol. These labels are typically an icon.
+Added to the end of the input field to specify what should be entered, like a percentage symbol. These labels are typically an icon.
 
 ![Text Input input suffix](/images/textinput_input_suffix.svg)
 
