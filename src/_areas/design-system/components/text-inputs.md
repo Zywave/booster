@@ -101,7 +101,7 @@ Added to the beginning of the input field to specify what should be entered, suc
 
 <br>
 
-#### Input suffix
+#### Text input suffix
 
 Added to the end of the input field to specify what should be entered, like a percentage symbol. These labels are typically an icon.
 
