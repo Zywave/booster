@@ -45,7 +45,7 @@ Depending on the location, Tooltips can be placed at the top, bottom, right, or 
 
 Tooltips appear on hover and remain active until the user's cursor is no longer hovering over the associated page element. A 200ms fade transitions the visibility of Tooltips.
 
-### Keyboad focus
+### Keyboard focus
 
 When using a keyboard, users can use \[tab] key to go through and select page elements. Tooltips appear when an element is in its keyboard focus state. 
 
@@ -64,7 +64,7 @@ For mobile devices such as cellphones and tablets, mouse-hover and keyboard focu
 ![Keep Tooltips simple by only including concise texts.](/images/do.svg)
 
 <docs-do>
-Keep Tooltips simple by only including concise texts.
+Keep Tooltips simple by only including concise text.
 </docs-do>
 
 </div>
@@ -74,7 +74,7 @@ Keep Tooltips simple by only including concise texts.
 ![Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.](/images/don-t.svg)
 
 <docs-do-not>
-Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.
+Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as they move their cursors away from the page elements.
 </docs-do-not>
 
 </div>
@@ -135,7 +135,7 @@ Tooltips should be placed close to related content without being disruptive.
 ![Ensure Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.](/images/don-t-–-2.svg)
 
 <docs-do-not>
-Ensure Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.
+Ensure that Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.
 </docs-do-not>
 
 </div>
@@ -153,7 +153,7 @@ Ensure Tooltips do not block related page content. This will disrupt users' work
 ![Use a dotted blue underline as an alternative to trigger Tooltips on terminologies, or short phrases when additional explaination is needed.](/images/do-–-3.svg)
 
 <docs-do>
-Use a dotted blue underline as an alternative to trigger Tooltips on terminologies, or short phrases when additional explaination is needed.
+Use a dotted blue underline as an alternative to trigger Tooltips on terminologies or short phrases when additional explanation is needed.
 </docs-do>
 
 </div>
@@ -181,7 +181,7 @@ Avoid using icons to initiate Tooltips when the page element/text is not right n
 ![Use broswers' native title attributes to represent advisory information related to the element](/images/do-–-5.svg)
 
 <docs-do>
-Use broswers' native title attributes to represent advisory information related to the element. If there is no visible name for the element you can reference, use aria-label to provide the user with a recognizable accessible name.
+Use browsers' native title attributes to represent advisory information related to the element. If there is no visible name for the element you can reference, use aria-label to provide the user with a recognizable accessible name.
 </docs-do>
 
 </div>
