@@ -43,6 +43,14 @@ Text inputs can display the following states: unselected, hover, focus, and dis
 
 ![Text input states](/images/textinput_states.svg)
 
+<br>
+
+#### Read only
+
+The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
+
+It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
+
 - - -
 
 ## Types
@@ -60,16 +68,6 @@ An error text Input is outlined in red. Error message with details on the error 
 ![](/images/textinput_error.svg)
 
 For more information on validation, [see forms documentation on validation](https://booster.zywave.dev/design-system/patterns/forms/#validation).
-
-<br>
-
-#### Read only
-
-The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
-
-It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
-
-![Text input read only](/images/textinput_readonly.svg)
 
 <br>
 
