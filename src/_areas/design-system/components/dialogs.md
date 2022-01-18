@@ -11,7 +11,7 @@ includedElements: []
 
 A Dialog interrupts the current page to display an important message or decision in a window in front of all the other content on the page. This window disables all other functionality of the current page until a required action is taken or the Dialog is dismissed. 
 
-![](/images/dialog_usage.svg)
+![Example of a Dialog](/images/dialog_usage.svg)
 
 - - -
 
@@ -19,7 +19,7 @@ A Dialog interrupts the current page to display an important message or decision
 
 A Dialog is made up of 3 main areas and the dark overlay that covers the remainder of the page. 
 
-![](/images/dialog_anatomy.svg)
+![Dialog anatomy highlighting different areas of a Dialog](/images/dialog_anatomy.svg)
 
 </br> 
 
@@ -29,10 +29,10 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
 
    * Primary actions are located on the far right
    * Secondary actions are to the left of the primary action
-   * Tertiary actions are located on the far left   
-<br>
-<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/399).</docs-note>
-  </br>
+   * Tertiary actions are located on the far left\
+     <br>
+     <docs-note>The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/399).</docs-note>
+       </br>
 4. **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
 
 - - -
@@ -43,7 +43,7 @@ Dialogs should always be horizontally centered within the viewport.
 
 When the Dialog is shorter than the viewport it should be centered vertically. In situations where the Dialog exceeds the height of the viewport, 36px padding should be applied between the Dialog and the top of the viewport when it first appears to the user. The entire Dialog then scrolls while the content underneath remains static.
 
-![](/images/dialog_layout.svg)
+![A Dialog centered horizontally on the page with 36px of padding between it and the top of the page.](/images/dialog_layout.svg)
 
 - - -
 
@@ -71,7 +71,7 @@ Standard Dialogs have a width of 675px. Standard Dialogs are used for messages t
 
 A large Dialog has a width of 875px and is often reserved for when there is more functionality that needs to be contained within, such as a table. 
 
-![](/images/dialog_large.svg)
+![Large Dialog example](/images/dialog_large.svg)
 
 - - -
 
@@ -94,7 +94,7 @@ When the contents of a Dialog exceed the height of the viewport for the user, sc
 * The background contents remain static as the Dialog scrolls.
 * 36px of padding should be applied to the top and bottom of the Dialog. 
 
-![](/images/dialog_scrolling.svg)
+![A Dialog whose content exceeds the height of the viewport](/images/dialog_scrolling.svg)
 
 - - -
 
@@ -109,7 +109,7 @@ When the contents of a Dialog exceed the height of the viewport for the user, sc
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note style="margin-bottom: 0">The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/399).</docs-note>
+<docs-note>The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/399).</docs-note>
 
 - - -
 
