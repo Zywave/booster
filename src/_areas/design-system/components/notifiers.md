@@ -106,15 +106,17 @@ The timer ***should not be*** used in cases where the Notifier includes an actio
 
 The default length of time a Notifier will remain on the screen after animating in is 5 seconds. This time can be adjusted based on the length of the message. We recommend not reducing the time for shorter messages, but longer messages can be extended — an additional 1 second for every 120 characters is a good rule of thumb.
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Animation
 
 Notifiers slide up and fade in as they appear on the screen, and slide down and fade out as they disappear.
 
-<center>
+<docs-center>
 
 ![Notifier animation](/images/components/notifier/zui-notifier-animation-demo.gif)
 
-</center>
+</docs-center>
 
 - - -
 
@@ -124,9 +126,8 @@ Notifiers slide up and fade in as they appear on the screen, and slide down and 
 
 While the behavior remains unchanged, the location of Notifiers is different on mobile devices with viewports smaller than 720px. The Notifiers on mobile devices should be pinned to the bottom of the screen to make it easier to dismiss while holding the device.
 
-<docs-note>
-    The responsive behavior for Notifiers is not yet available in the toolkit.
-</docs-note>
+<docs-note>The responsive behavior for Notifiers is not yet available in the toolkit. You can track our progress 
+[here] (https://gitlab.com/zywave/devkit/zui/zui/-/issues/323).</docs-note>
 
 - - -
 
@@ -236,8 +237,7 @@ Multiple Notifiers should be used sparingly and only be seen in certain circumst
 * multiple errors occurring on the same page.
 * multiple notifications appearing from the same workflow.
 
-<docs-note>
-The ability to have more than 1 Notifier on a screen is not yet in the toolkit. 
+<docs-note> Support for displaying multiple Notifiers is not yet available. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/322).
 </docs-note>
 
 - - -
