@@ -119,16 +119,6 @@ Added to front and back of the input field to specify what should be entered, li
 
 - - -
 
-## Behavior
-
-#### Loading
-
-A loading icon appears on the right side of the input to indicate that something is happening.
-
-![Text input loading](/images/textinput_loading.svg)
-
-- - -
-
 ## Best practices
 
 #### Labeling
