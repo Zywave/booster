@@ -211,7 +211,9 @@ Avoid using an input size that hides information or allows for excessive white s
 
 ## Alternate considerations
 
-* Use a [dropdown select](https://booster.zywave.dev/design-system/components/dropdown-selects/) if users can only select 1 option.
-* Use a [dropdown multi-select](https://booster.zywave.dev/design-system/components/dropdown-multi-selects/) if two or more options can be selected - not necessarily required.
-* Use a [picker](https://booster.zywave.dev/design-system/components/pickers/) when the user needs to search for a specific item and select it from a list that is pageable.
-* Use a [multi-picker](https://booster.zywave.dev/design-system/components/pickers/) when the user needs to search for specific items and select them from a list with more than 7 – 10 items.
+* If the user should be presented with supported or known values to choose from, consider one of the following:
+
+  * [Dropdown select](https://booster.zywave.dev/design-system/components/dropdown-selects/)
+  * [Dropdown multi-select](https://booster.zywave.dev/design-system/components/dropdown-multi-selects/)
+  * [Picker](https://booster.zywave.dev/design-system/components/pickers/)
+  * [Multi-picker](https://booster.zywave.dev/design-system/components/pickers/)
