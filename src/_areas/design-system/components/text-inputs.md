@@ -9,7 +9,7 @@ includedElements:
 ---
 ## Usage
 
-A form control allows the user to enter text into a UI. They typically appear in forms.
+A Text Input is a form control that allows the user to enter text into a UI. They typically appear in forms.
 
 ![Text input usage](/images/textinput_usage.svg)
 
