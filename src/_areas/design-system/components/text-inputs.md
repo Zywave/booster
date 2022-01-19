@@ -29,7 +29,7 @@ A Text Input consists of three areas.
 
 #### Sizing & spacing
 
-The length of the input should be as close to the intended length of content as possible. This also applies to other form controls of a similar shape, like drop-down selects and text areas.
+The length of the input should be as close to the intended length of content as possible.
 
 ![Text Input sizing and spacing](/images/textinput_sizingandspacing.svg)
 
