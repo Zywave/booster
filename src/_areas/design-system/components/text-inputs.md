@@ -200,7 +200,7 @@ Use an input width that is proportional to the expected user input
 ![Text input placeholder text don't](/images/textinput_size_dont.svg)
 
 <docs-do-not>
-Avoid using an input size that hides information or allows for excessive white space.
+Avoid using an input width that will cut-off information or allows for excessive white space.
 </docs-do-not>
 
 </div>
