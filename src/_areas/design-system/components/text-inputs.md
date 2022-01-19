@@ -23,7 +23,7 @@ A Text Input consists of three areas.
 
 1. **Label:** Text to inform users as to what information is requested
 2. **Text input:** The form field where the user can input information
-3. **Placeholder text** (optional): Text that provides an example of what the user should enter into the Text Input
+3. **Placeholder text** (optional): Text that provides an example of what the user should enter into the Text Input. In many situations the placeholder can be left blank since the label indicates what information should be entered but it is useful when formatting of information is important.
 
 <br>
 
@@ -160,7 +160,8 @@ Avoid using sentences or long phrases for label text.
 ![Text input placeholder text do](/images/textinput_placeholder_do.svg)
 
 <docs-do>
-Use placeholder text to inform users as to what information is requested for a dropdown. It provides an example of what you should enter in that field, and the format of that information when appropriate.
+
+Use placeholder text when demonstrating format may be helpful
 </docs-do>
 
 </div>
