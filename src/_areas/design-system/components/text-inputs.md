@@ -211,7 +211,7 @@ Avoid using an input width that will cut-off information or allows for excessive
 
 ## Alternate considerations
 
-* If the user should be presented with supported or known values to choose from, consider one of the following:
+* If the user should be presented with a list of supported or known values to choose from, consider one of the following:
 
   * [Dropdown select](https://booster.zywave.dev/design-system/components/dropdown-selects/)
   * [Dropdown multi-select](https://booster.zywave.dev/design-system/components/dropdown-multi-selects/)
