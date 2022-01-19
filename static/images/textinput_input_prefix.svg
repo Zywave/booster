@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="102" viewBox="0 0 485 102">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="102" viewBox="0 0 1000 102">
   <defs>
     <clipPath id="clip-textinput_input_prefix">
-      <rect width="485" height="102"/>
+      <rect width="1000" height="102"/>
     </clipPath>
   </defs>
   <g id="textinput_input_prefix" clip-path="url(#clip-textinput_input_prefix)">
-    <rect width="485" height="102" fill="#f4f4f6"/>
-    <g id="Search_Input" data-name="Search Input" transform="translate(143 30)">
+    <rect width="1000" height="102" fill="#f4f4f6"/>
+    <g id="Search_Input" data-name="Search Input" transform="translate(400 30)">
       <g id="Rectangle_298" data-name="Rectangle 298" fill="#fff" stroke="#cbcbd2" stroke-width="1">
         <rect width="200" height="42" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="199" height="41" rx="3.5" fill="none"/>
