@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="221" viewBox="0 0 485 221">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="221" viewBox="0 0 1000 221">
   <defs>
     <clipPath id="clip-textinput_textarea_scroll">
-      <rect width="485" height="221"/>
+      <rect width="1000" height="221"/>
     </clipPath>
   </defs>
   <g id="textinput_textarea_scroll" clip-path="url(#clip-textinput_textarea_scroll)">
-    <rect width="485" height="221" fill="#f4f4f6"/>
-    <g id="Group_264374" data-name="Group 264374">
+    <rect width="1000" height="221" fill="#f4f4f6"/>
+    <g id="Group_264374" data-name="Group 264374" transform="translate(257)">
       <g id="Group_264360" data-name="Group 264360" transform="translate(-415 -67)">
         <rect id="Rectangle_288" data-name="Rectangle 288" width="300" height="138" rx="4" transform="translate(508 120)" fill="#fff"/>
         <path id="Rectangle_288_-_Outline" data-name="Rectangle 288 - Outline" d="M4,1A3,3,0,0,0,1,4V134a3,3,0,0,0,3,3H296a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H4M4,0H296a4,4,0,0,1,4,4V134a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(508 120)" fill="#cbcbd2"/>

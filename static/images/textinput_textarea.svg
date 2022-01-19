@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="167" viewBox="0 0 485 167">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="167" viewBox="0 0 1000 167">
   <defs>
     <clipPath id="clip-textinput_textarea">
-      <rect width="485" height="167"/>
+      <rect width="1000" height="167"/>
     </clipPath>
   </defs>
   <g id="textinput_textarea" clip-path="url(#clip-textinput_textarea)">
-    <rect width="485" height="167" fill="#f4f4f6"/>
-    <g id="Text_Area" data-name="Text Area" transform="translate(93 30)">
+    <rect width="1000" height="167" fill="#f4f4f6"/>
+    <g id="Text_Area" data-name="Text Area" transform="translate(350 30)">
       <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(0 23)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
         <rect width="300" height="84" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="299" height="83" rx="3.5" fill="none"/>
