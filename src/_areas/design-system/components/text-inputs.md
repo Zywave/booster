@@ -33,13 +33,13 @@ The length of the input should be as close to the intended length of content as 
 
 ![Text Input sizing and spacing](/images/textinput_sizingandspacing.svg)
 
-See the [Design specs](https://xd.adobe.com/view/4bf410a7-cbe1-4642-9756-529baa10276d-1ea7/grid) for detailed sizing and spacing information
+<docs-note>See the [Design specs](https://xd.adobe.com/view/4bf410a7-cbe1-4642-9756-529baa10276d-1ea7/grid) for detailed sizing and spacing information.</docs-note>
 
 - - -
 
 ## States
 
-Text inputs can display the following states: unselected, hover, focus, and disabled.
+Text Inputs can display the following states: unselected, hover, focus, and disabled.
 
 ![Text input states](/images/textinput_states.svg)
 
@@ -47,9 +47,9 @@ Text inputs can display the following states: unselected, hover, focus, and dis
 
 #### Read only
 
-The input is not editable at this time. Read-only text fields should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
+Read-only Text Inputs should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
 
-It may be frustrating or confusing to users when an input field is read-only. You may consider using a tool-tip that informs them where they may be able to go to change the information that appears in a read-only input.
+Read-only Text Inputs may cause frustration or confusion. You may consider using a [Tooltip](/design-system/components/tooltip) that informs them where they may be able to go to change the information that appears in the read-only Text Input.
 
 - - -
 
@@ -57,7 +57,7 @@ It may be frustrating or confusing to users when an input field is read-only. Yo
 
 #### Validation
 
-A success text Input is outlined in green. Success message may appear nearby.
+A success Text Input is outlined in green. A success message may appear below or next to the input.
 
 ![](/images/textinput_success.svg)
 
@@ -67,17 +67,17 @@ An error text Input is outlined in red. Error message with details on the error 
 
 ![](/images/textinput_error.svg)
 
-For more information on validation, [see forms documentation on validation](https://booster.zywave.dev/design-system/patterns/forms/#validation).
+<docs-note> For more information on validation, [see Forms documentation on validation](https://booster.zywave.dev/design-system/patterns/forms/#validation). </docs-note>
 
 <br>
 
 #### Text Area
 
-A Text Area is a subset of the text input specifically used for entering multiple sentences of information because of this, the input size is larger (width and length) than a standard input area. Text areas can also use a scroll bar and expander tab in the bottom right corner, if necessary.
+A Text Area is a subset of the Text Input specifically used for entering multiple lines of information. The input size is larger (width and length) than a standard Text Input. Text Areas can also include a scroll bar and expander tab in the bottom right corner, if necessary.
 
 ![Text input text area](/images/textinput_textarea.svg)
 
-We recommend capping the max height of a text area so it doesn't grow too large for the UI it's in, then use a scrollbar for viewing text not within the viewing area. 150px is typically enough to get a good sense of the text within, but not blow out your screen.
+We recommend capping the max-height of a Text Area so it doesn't use too much space within a UI. If it expands beyond the max-height, then a scroll bar can be used to view text that is not visible in the Text Area. We recommend starting with a max-height of 150px.  
 
 ![Text input text area scroll](/images/textinput_textarea_scroll.svg)
 
@@ -85,19 +85,19 @@ We recommend capping the max height of a text area so it doesn't grow too large 
 
 #### Text inputs with actions
 
-On rare occasions, you can put the button next to the input, which is often seen in search. While there's nothing especially wrong with putting the button below the input, putting it next to it saves space and looks cleaner. But, do not do this on standard forms that happen to have just 1 field. It's inconsistent and unconventional. The button should be labeled with text unless there is a very clear and deliberate icon that can be used.
+In rare occasions, a Button can be placed directly next to the Text Input, most commonly seen on search fields. The close proximity of this Button saves space in the UI and ties an action directly to a Text Input. The button should have a text label or use a very clear and deliberate icon. This button placement should be used rarely and should not be used for most single Text Inputs or on Forms. 
 
 ![Text Input actions](/images/textinput_actions.svg)
 
 <br>
 
-For more information on Search, [see Search documentation](https://booster.zywave.dev/design-system/components/search/?tab=usage).
+For more information on Search, [see the guidelines](https://booster.zywave.dev/design-system/components/search/?tab=usage).
 
 <br>
 
 #### Input prefix
 
-Added to front of the input field to specify what should be entered, like a dollar sign. To add more attention a container can be added to the styling. These labels are typically an icon.
+An input prefix can be added to front of the Text Input to specify what should be entered, such as a dollar sign. To add more attention a container can be added to the styling. These labels are typically an icon.
 
 ![Text Input input prefix](/images/textinput_input_prefix.svg)
 
@@ -105,7 +105,7 @@ Added to front of the input field to specify what should be entered, like a doll
 
 #### Input suffix
 
-Added to back of the input field to specify what should be entered, like a percentage symbol. These labels are typically an icon.
+An input suffix can be added to back of the Text Input to specify what should be entered, such as a percentage symbol. These labels are typically an icon.
 
 ![Text Input input suffix](/images/textinput_input_suffix.svg)
 
@@ -113,7 +113,7 @@ Added to back of the input field to specify what should be entered, like a perce
 
 #### Input prefix & suffix
 
-Added to front and back of the input field to specify what should be entered, like a dollar sign and a decimal number to represent a dollar amount.
+An input prefix and suffix can be added to front and back of the Text Input to specify what should be entered, such as a dollar sign and a decimal number to represent a dollar amount.
 
 ![Text Input input prefix and suffix](/images/textinput_input_prefixandsuffix.svg)
 
