@@ -190,7 +190,7 @@ Avoid repeating the same text used for the label as it is redundant information 
 ![Text input placeholder text do](/images/textinput_size_do.svg)
 
 <docs-do>
-Use an input size that is properly proportional to the expected user input
+Use an input width that is proportional to the expected user input
 </docs-do>
 
 </div>
