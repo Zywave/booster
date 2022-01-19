@@ -17,7 +17,7 @@ A Text Input is a form control that allows the user to enter text into a UI. The
 
 ## Anatomy
 
-The anatomy of a text input.
+A Text Input consists of three areas.
 
 ![Text input anatomy](/images/textinput_anatomy.svg)
 
