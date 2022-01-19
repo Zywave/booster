@@ -1,6 +1,6 @@
 ---
 title: Text inputs
-subtitle: A single-line box that the user can enter text into.
+subtitle: An input field in which a user can enter text.
 api: https://cdn.zywave.com/@zywave/zui-input@next/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-input@next/demo/index.html
 mainComponentName: zui-input
