@@ -23,7 +23,7 @@ A Text Input consists of three areas.
 
 1. **Label:** Text to inform users as to what information is requested
 2. **Text input:** The form field where the user can input information
-3. **Placeholder text** (optional): Text that provides an example of what the user should enter into the text input
+3. **Placeholder text** (optional): Text that provides an example of what the user should enter into the Text Input
 
 <br>
 
