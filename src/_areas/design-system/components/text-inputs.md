@@ -130,7 +130,7 @@ Added to front and back of the input field to specify what should be entered, li
 ![Text input labeling do](/images/textinput_labeling_do.svg)
 
 <docs-do>
-Use clear and concise labeling. Label text is used to inform users as to what information is requested for a text input. 
+Use clear and concise labels to inform users as to what information they should enter in a Text Input.
 </docs-do>
 
 </div>
