@@ -85,6 +85,6 @@ Additionally, we have worked to continue to improve our API documentation for ou
 
 ## Other updates
 
-* Zywave Shell had some work put in to improve its loading lifecycle. You now have more visibility into the state of Shell as it loads required and supplemental data and code. Take a look at [Zywave Shell's API documentation](https://booster.zywave.dev/application-framework/components/shell/?tab=api) for up-to-date information.
+* Zywave Shell had some work put in to improve its loading lifecycle. You now have more visibility into the state of Shell as it loads required and supplemental data and code. See [Zywave Shell's API documentation](https://booster.zywave.dev/application-framework/components/shell/?tab=api) for more information.
 * Fixed an issue where form controls with the same name could interfere incorrectly with form submission data (most noticeable in ZUI Checkbox).
 * Added the ability to override the colors and logo in Zywave Shell client-side.
