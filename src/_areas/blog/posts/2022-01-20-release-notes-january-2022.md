@@ -12,7 +12,7 @@ The first updates of the 2022 year are coming out on January 25th, and we've got
 
 ## ZUI Table is now mobile responsive
 
-Last month, [we released ZUI Table](/blog/posts/2021-12-09-introducing-the-table-web-component/). Now that we have an HTML design standardized, we're adding a commonly neglected feature of tables in our products: making them work on mobile. With no extra work from you, ZUI Tables in your app will "just work" on mobile!
+Last month, [we released ZUI Table](/blog/posts/2021-12-09-introducing-the-table-web-component/). Now that we have an HTML design standardized, we're adding a commonly neglected feature of tables in our products: making them work on mobile. With no extra work from you, ZUI Tables in your app will now look appropriate when rendered on at a mobile resolution.
 
 ![Table shrinking from desktop to mobile layout](/images/zui-table-mobile-example.gif)
 
@@ -56,7 +56,7 @@ Did you know that [browsers have a built-in dialog component](https://developer.
 
 We experimented with the native dialog and polyfill when implementing our feedback component in the Booster documentation site, and we're now ready to start experimenting with a new implementation of ZUI Dialog based on this native component.
 
-Our goal in this change is:
+Why are we changing ZUI Dialog? There are actually two reasons for us:
 
 1. ZUI Dialog is currently based on [Material Web's dialog](https://github.com/material-components/material-web/tree/master/packages/dialog), which unfortunately limits our ability to push our own design standards, like sticky footers.
 2. Having the 3rd-party dependency puts our library at risk with respect to dependency management and additionally bloats our code base more than we'd like. (We've encountered issues here in the past.)
