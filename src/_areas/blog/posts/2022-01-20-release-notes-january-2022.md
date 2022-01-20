@@ -38,9 +38,12 @@ With the "Select all" enhancement, we quickly realized the result list can get q
 So, you can now opt-in to limit the number of selection tags that are displayed in the result list.
 
 ```html
+<!-- 
+  For the purposes of the demo, maximum-results-display-count is set to 3. 
+  We don't recommend such a low number. -->
 <zui-select-dropdown 
   multiple
-  maximum-results-display-count="5" 
+  maximum-results-display-count="3" 
   truncated-result-message-format="{0} more">
   <!-- <zui-option> elements -->
 </zui-select-dropdown>
