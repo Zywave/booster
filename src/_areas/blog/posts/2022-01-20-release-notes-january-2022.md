@@ -20,11 +20,7 @@ Here's a quick example of table going from desktop to mobile layout:
 
 This feature has been commonly requested since the initial release of this component. With this update, you'll be able to utilize "Select all", and even have control on how that is reflected back to you.
 
-<docs-note>
-
-<strong>Reminder</strong>: ZUI doesn't provide text. You must supply text-related attributes/properties, like `select-all-option-label`.
-
-</docs-note>
+<docs-note><strong>Reminder</strong>: ZUI doesn't provide text. You must supply text-related attributes/properties, like `select-all-option-label`.</docs-note>
 
 ```html
 <zui-select-dropdown 
