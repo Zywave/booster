@@ -14,7 +14,7 @@ The first updates of the 2022 year are coming out, and we've got some pretty awe
 
 Last month, [we released ZUI Table](/blog/posts/2021-12-09-introducing-the-table-web-component/). Now that we have an HTML design standardized, we're adding a commonly neglected feature of tables in our products: making them work on mobile. With no extra work from you, ZUI Tables in your app will "just work" on mobile!
 
-![](/images/zui-table-mobile-example.gif)
+![Table shrinking from desktop to mobile layout](/images/zui-table-mobile-example.gif)
 
 ## ZUI Dropdown Multi-select enhancements
 
@@ -31,8 +31,6 @@ This feature has been commonly requested since the initial release of this compo
 </zui-select-dropdown>
 ```
 
-TODO INSERT GIF
-
 ### Truncated selection tags
 
 With the "Select all" enhancement, we quickly realized the result list can get quite large. This is currently an issue today, but we believe "Select all" will only exacerbate the issue.
@@ -48,7 +46,9 @@ So, you can now opt-in to limit the number of selection tags that are displayed 
 </zui-select-dropdown>
 ```
 
-TODO INSERT GIF
+Now, to see them both in action!
+
+![Select all demo video](/images/select-all-demo-release-notes.gif)
 
 ## ZUI Dialog goes native
 
