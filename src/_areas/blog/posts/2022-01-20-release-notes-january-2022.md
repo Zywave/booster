@@ -2,7 +2,7 @@
 layout: blog
 type: blogPost
 title: "Release Notes - January 2022 "
-description: Table gets mobile friendly, dialogs get native, and more!
+description: Table gets mobile friendly, select all coming to a dropdown near you, and more!
 date: 2022-01-20T15:29:36.680Z
 hideToc: false
 tags:
