@@ -8,9 +8,7 @@ hideToc: false
 tags:
   - Release Notes
 ---
-The first updates of the 2022 year are coming out, and we've got some pretty awesome features to go over!
-
-<docs-note>These updates will be available after January 25, 2022!</docs-note>
+The first updates of the 2022 year are coming out on January 25th, and we've got some pretty awesome features to go over!
 
 
 
