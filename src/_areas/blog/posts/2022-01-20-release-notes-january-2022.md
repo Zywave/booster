@@ -63,7 +63,7 @@ We experimented with the native dialog and polyfill when implementing our feedba
 Our goal in this change is:
 
 1. ZUI Dialog is currently based on [material web components' dialog](https://github.com/material-components/material-web/tree/master/packages/dialog), which unfortunately limits our ability to push our own design standards, like sticky footers.
-2. Having the 3rd party dependency puts our library at risk with respect to dependency management and additionally bloats our code base more than we'd like.
+2. Having the 3rd party dependency puts our library at risk with respect to dependency management and additionally bloats our code base more than we'd like. We've encountered issues here in the past.
 
 If you'd like to experiment with our implementation, and you currently use zui-bundle, you can do this via DevTools (will require a refresh):
 
@@ -76,3 +76,17 @@ window.zywave.zui.flags.enableDialogNative = false;
 ```
 
 We'd appreciate people trying this out and letting us know if their dialogs break in any way, as we intend to make this the default implementation as early as March 2022.
+
+## More documentation updates
+
+We've continued to enhance our current documentation, with several updates from the design team on dialogs, notifiers, text inputs, and more.
+
+Additionally, we have worked to continue to improve our API documentation for our components. You should notice that method documentation is improved with a "Signature" column, and a lot of missing API documentation has been added as well! Huge shout out to Dave Hudson for pushing this forward.
+
+## Other updates
+
+* Zywave Shell had some work put in to improve its loading lifecycle. You now have more visibility into the state of Shell as it loads required and supplemental data and code.
+
+  * Take a look at [Zywave Shell's API documentation](https://booster.zywave.dev/application-framework/components/shell/?tab=api) for up-to-date information.
+* Fixed an issue where form controls with the same name could interfere incorrectly with form submission data (most noticeable in ZUI Checkbox).
+* Added the ability to override the colors and logo in Zywave Shell client-side.
