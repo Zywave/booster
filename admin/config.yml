@@ -84,6 +84,7 @@ collections:
           - "Web Components"
           - "Web"
           - "Meta"
+          - "Release Notes"
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "design_system"
