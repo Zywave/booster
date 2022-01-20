@@ -77,7 +77,7 @@ We'd appreciate people trying this out and letting us know if their dialogs brea
 
 ## More documentation updates
 
-We've continued to enhance our current documentation, with several updates from the design team on dialogs, notifiers, text inputs, and more.
+We've continued to enhance our current documentation, with several usage updates to dialogs, notifiers, text inputs, and more.
 
 Additionally, we have worked to continue to improve our API documentation for our components. You should notice that method documentation is improved with a "Signature" column, and a lot of missing API documentation has been added as well! Huge shout out to Dave Hudson for pushing this forward.
 
