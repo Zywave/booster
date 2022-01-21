@@ -10,19 +10,15 @@ module.exports = function(eleventyConfig) {
   // Merge data instead of overriding
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
-
+  new Intl.DateTimeFormat('en-US',{month:'2-digit',day:'2-digit', year:'numeric'})
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
     const opts = {
       year: "numeric",
       month: "numeric",
-      day: "numeric",
-      hour: "numeric",
-      minute: "numeric",
-      second: "numeric",
-      hour12: true,
+      day: "numeric"
     };
-    return new Intl.DateTimeFormat("default", opts).format(dateObj);
+    return new Intl.DateTimeFormat("en-US", opts).format(dateObj);
   });
   // Date formatting (machine readable)
   eleventyConfig.addFilter("machineDate", dateObj => {
