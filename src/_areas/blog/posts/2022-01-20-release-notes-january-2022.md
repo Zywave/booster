@@ -62,7 +62,8 @@ We experimented with the native dialog and polyfill when implementing our feedba
 Why are we changing ZUI Dialog? There are actually two reasons for us:
 
 1. ZUI Dialog is currently based on [Material Web's dialog](https://github.com/material-components/material-web/tree/master/packages/dialog), which unfortunately limits our ability to push our own design standards, like sticky footers.
-2. Having the 3rd-party dependency puts our library at risk with respect to dependency management and additionally bloats our code base more than we'd like. (We've encountered issues here in the past.)
+2. Having the 3rd-party dependency puts our library at risk with respect to dependency management and additionally bloats our code base more than we'd like.
+    - When we ship the native dialog, we'll shave off 43kB from our bunlde (from 48kB to 5kB)!
 
 If you'd like to experiment with our implementation, and you currently use zui-bundle, you can do this via DevTools (will require a refresh):
 
