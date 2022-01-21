@@ -6,7 +6,7 @@ api: https://cdn.zywave.com/@zywave/zui-table@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-table@latest/demo/index.html
 mainComponentName: zui-table
 includedElements: []
-entryPointURI: https://cdn.zywave.com/@zywave/zui-bundle@next/dist/components/table.js
+entryPointURI: https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/components/table.js
 statusOverride: null
 ---
 ## Usage
