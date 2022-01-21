@@ -22,5 +22,10 @@ layout: no-nav-base
   <p>
     <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
   </p>
-  {{ content | safe }}
+  <div style="display: flex;" class="blog-content-wrapper">
+    <div id="content">
+    {{ content | safe }}
+    </div>
+    <quick-links class="quick-links-with-tabs-above" context="#content" headings="h2, h3, h4"></quick-links>
+  </div>
 </article>
