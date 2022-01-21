@@ -55,7 +55,7 @@ Now, to see them both in action!
 
 ## ZUI Dialog goes native
 
-Did you know that [browsers have a built-in dialog component](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)? While Chromium only has this component implemented and shipped currently, Firefox and Safari are on track to release their implementations this year. Conveniently, Chrome also provided [a nice dialog polyfill](https://github.com/GoogleChrome/dialog-polyfill).
+Did you know that [browsers have a built-in dialog component](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)? While Chromium only has this component implemented and shipped currently, [Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1733536) and [Safari](https://bugs.webkit.org/show_bug.cgi?id=231307) are on track to release their implementations this year. Conveniently, Chrome also provided [a nice dialog polyfill](https://github.com/GoogleChrome/dialog-polyfill).
 
 We experimented with the native dialog and polyfill when implementing our feedback component in the Booster documentation site, and we're now ready to start experimenting with a new implementation of ZUI Dialog based on this native component.
 
