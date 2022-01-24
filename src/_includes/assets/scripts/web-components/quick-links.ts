@@ -17,6 +17,12 @@ const css = `
         margin: 0 0 0 1.875rem; /* 30 / 16 */
       }
     }
+    
+    @media screen and (max-width: 45em) {
+      :host {
+        display: none;
+      }
+    }
   
     @media screen and (min-width: 64em) {
       :host {
