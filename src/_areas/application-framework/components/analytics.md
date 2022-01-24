@@ -8,7 +8,6 @@ mainComponentName: zywave-analytics
 includedElements:
   - zywave-analytics
 ---
-
 ## General
 
 Zywave currently uses three third-party tracking solutions to gather analytics from our applications: [Heap](https://heap.io/), [Appcues](https://www.appcues.com/), and [Google Analytics](https://analytics.google.com).
@@ -108,3 +107,10 @@ Any extra fields provided are entirely up to you. However, if you use the same A
 ### Third party IDs and testing
 
 No one tests in production! Be sure to use the proper ids when testing this in a test environment. Transform these ids with production ones when deploying to a production environment. We have a test instance of Appcues, and most Heap projects are segmented into environments for just this purpose.
+
+## Content Security Policy requirements
+
+The 3rd party analytics tools we use come with their own requirements. When using Content Security Policies (CSP), you will need to ensure you configure your policies to support these tools. Click the links below to find relevant documentation:
+
+1. [Heap](https://developers.heap.io/docs/web#content-security-policy-csp)
+2. [Appcues](https://docs.appcues.com/article/234-content-security-policies)
