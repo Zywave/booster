@@ -61,7 +61,7 @@ For mobile devices such as cellphones and tablets, mouse-hover and keyboard focu
 
 <div>
 
-![Keep Tooltips simple by only including concise texts.](/images/do.svg)
+![Keep Tooltips simple by only including concise texts.](/images/do-1.svg)
 
 <docs-do>
 Keep Tooltips simple by only including concise text.
@@ -71,7 +71,7 @@ Keep Tooltips simple by only including concise text.
 
 <div>
 
-![Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.](/images/don-t.svg)
+![Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.](/images/don-t-1.svg)
 
 <docs-do-not>
 Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as they move their cursors away from the page elements.
@@ -89,7 +89,7 @@ Avoid placing actionable items in Tooltips, such as buttons and text links. User
 
 <div>
 
-![Tooltip messages must provide helpful information.](/images/do-–-1.svg)
+![Tooltip messages must provide helpful information.](/images/do-–-2.svg)
 
 <docs-do>
 Tooltip messages must provide helpful information.
@@ -99,14 +99,11 @@ Tooltip messages must provide helpful information.
 
 <div>
 
-![Tooltip messages should not repeat what's already visiable on the screen.](/images/don-t-–-1.svg)
+![Tooltip messages should not repeat what's already visiable on the screen.](/images/don-t-–-2.svg)
 
 <docs-do-not>
-<!--StartFragment-->
 
 Tooltip messages should not repeat what's already visible on the screen.
-
-<!--EndFragment-->
 
 </docs-do-not>
 
@@ -122,7 +119,7 @@ Tooltip messages should not repeat what's already visible on the screen.
 
 <div>
 
-![Tooltips should be placed close to related content without being disruptive.](/images/do-–-2.svg)
+![Tooltips should be placed close to related content without being disruptive.](/images/do-–-3.svg)
 
 <docs-do>
 Tooltips should be placed close to related content without being disruptive.
@@ -132,7 +129,7 @@ Tooltips should be placed close to related content without being disruptive.
 
 <div>
 
-![Ensure Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.](/images/don-t-–-2.svg)
+![Ensure Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.](/images/don-t-–-3.svg)
 
 <docs-do-not>
 Ensure that Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.
@@ -150,7 +147,7 @@ Ensure that Tooltips do not block related page content. This will disrupt users'
 
 <div>
 
-![Use a dotted blue underline as an alternative to trigger Tooltips on terminologies, or short phrases when additional explaination is needed.](/images/do-–-3.svg)
+![Use a dotted blue underline as an alternative to trigger Tooltips on terminologies, or short phrases when additional explaination is needed.](/images/do-–-4.svg)
 
 <docs-do>
 Use a dotted blue underline as an alternative to trigger Tooltips on terminologies or short phrases when additional explanation is needed.
@@ -160,7 +157,7 @@ Use a dotted blue underline as an alternative to trigger Tooltips on terminologi
 
 <div>
 
-![Ensure Tooltips do not block related page content. This will disturb users' workflow and cause repetitive actions (close Tooltips to view page element, hover and see Tooltips again, then close Tooltips and interact on the page).](/images/do-–-4.svg)
+![Ensure Tooltips do not block related page content. This will disturb users' workflow and cause repetitive actions (close Tooltips to view page element, hover and see Tooltips again, then close Tooltips and interact on the page).](/images/don-t-–-4.svg)
 
 <docs-do-not>
 Avoid using icons to initiate Tooltips when the page element/text is not right next to it because this may confuse users on what this Tooltip is associated with.
@@ -188,7 +185,7 @@ Use browsers' native title attributes to represent advisory information related 
 
 <div>
 
-![Avoid using Tooltips the same way as title attributes](/images/don-t-–-6.svg)
+![Avoid using Tooltips the same way as title attributes](/images/don-t-–-5.svg)
 
 <docs-do-not>
 Avoid using Tooltips the same way as title attributes.
