@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="107" viewBox="0 0 1000 107">
+  <defs>
+    <clipPath id="clip-Tooltip_-_terminology">
+      <rect width="1000" height="107"/>
+    </clipPath>
+  </defs>
+  <g id="Tooltip_-_terminology" data-name="Tooltip - terminology" clip-path="url(#clip-Tooltip_-_terminology)">
+    <rect width="1000" height="107" fill="#f4f4f6"/>
+    <g id="Tooltip" transform="translate(482.435 35.5)">
+      <g id="Group_264703" data-name="Group 264703" transform="translate(5.36)">
+        <g id="Group_264702" data-name="Group 264702">
+          <rect id="Rectangle_3835" data-name="Rectangle 3835" width="111" height="36" rx="2" fill="#494955"/>
+          <text id="Tooltip_right" data-name="Tooltip right" transform="translate(18 24)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Tooltip right</tspan></text>
+        </g>
+        <rect id="Rectangle_3836" data-name="Rectangle 3836" width="8.033" height="8.033" transform="translate(-5.36 17.68) rotate(-45)" fill="#494955"/>
+      </g>
+    </g>
+    <g id="Group_268777" data-name="Group 268777" transform="translate(-109.795 -1)">
+      <text id="terminology" transform="translate(586 60)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-75.12" y="0">terminology</tspan></text>
+      <line id="Line_626" data-name="Line 626" x2="75.205" transform="translate(511.295 62)" fill="none" stroke="#2777d3" stroke-width="1" stroke-dasharray="2 1"/>
+    </g>
+  </g>
+</svg>

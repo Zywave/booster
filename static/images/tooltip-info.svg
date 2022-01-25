@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="107" viewBox="0 0 1000 107">
+  <defs>
+    <clipPath id="clip-Tooltip_-_info">
+      <rect width="1000" height="107"/>
+    </clipPath>
+  </defs>
+  <g id="Tooltip_-_info" data-name="Tooltip - info" clip-path="url(#clip-Tooltip_-_info)">
+    <rect width="1000" height="107" fill="#f4f4f6"/>
+    <g id="Group_268772" data-name="Group 268772" transform="translate(430.91 45.5)">
+      <g id="Group_11913" data-name="Group 11913">
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="8" cy="8" r="8" fill="#2777d3"/>
+      </g>
+      <path id="Path_6649" data-name="Path 6649" d="M153,30.41v-6.9a.192.192,0,0,1,.192-.192h1.272a.192.192,0,0,1,.192.192v6.9a.192.192,0,0,1-.192.192h-1.272A.192.192,0,0,1,153,30.41Zm.192-8.753h1.272a.192.192,0,0,0,.192-.192V20.192a.192.192,0,0,0-.192-.192h-1.272a.192.192,0,0,0-.192.192v1.272A.192.192,0,0,0,153.192,21.657Z" transform="translate(-145.711 -17.349)" fill="#fff"/>
+    </g>
+    <g id="Tooltip" transform="translate(452.73 35.5)">
+      <g id="Group_264703" data-name="Group 264703" transform="translate(5.36)">
+        <g id="Group_264702" data-name="Group 264702">
+          <rect id="Rectangle_3835" data-name="Rectangle 3835" width="111" height="36" rx="2" fill="#494955"/>
+          <text id="Tooltip_right" data-name="Tooltip right" transform="translate(18 24)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Tooltip right</tspan></text>
+        </g>
+        <rect id="Rectangle_3836" data-name="Rectangle 3836" width="8.033" height="8.033" transform="translate(-5.36 17.68) rotate(-45)" fill="#494955"/>
+      </g>
+    </g>
+  </g>
+</svg>
