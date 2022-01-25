@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="221" viewBox="0 0 1000 221">
+  <defs>
+    <clipPath id="clip-textinput_textarea_scroll">
+      <rect width="1000" height="221"/>
+    </clipPath>
+  </defs>
+  <g id="textinput_textarea_scroll" clip-path="url(#clip-textinput_textarea_scroll)">
+    <rect width="1000" height="221" fill="#f4f4f6"/>
+    <g id="Group_264374" data-name="Group 264374" transform="translate(257)">
+      <g id="Group_264360" data-name="Group 264360" transform="translate(-415 -67)">
+        <rect id="Rectangle_288" data-name="Rectangle 288" width="300" height="138" rx="4" transform="translate(508 120)" fill="#fff"/>
+        <path id="Rectangle_288_-_Outline" data-name="Rectangle 288 - Outline" d="M4,1A3,3,0,0,0,1,4V134a3,3,0,0,0,3,3H296a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H4M4,0H296a4,4,0,0,1,4,4V134a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(508 120)" fill="#cbcbd2"/>
+        <text id="Lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit._Curabitur_vestibulum_blandit_lacus_nec_placerat._Curabitur_id_orci_blandit_lacus_venenatis_lobortis_a_eget_augue._Vestibulum_enim_nisi_vestibulum_vitae_metus_ac_iaculis_egestas_justo._Maecenas_sit_" data-name="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum blandit lacus nec placerat. Curabitur id orci blandit lacus venenatis lobortis a eget augue. Vestibulum enim nisi, vestibulum vitae metus ac, iaculis egestas justo. Maecenas sit " transform="translate(523 132)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Lorem ipsum dolor sit amet, consectetur </tspan><tspan x="0" y="34">adipiscing elit. Curabitur vestibulum </tspan><tspan x="0" y="53">blandit lacus nec placerat. Curabitur id orci </tspan><tspan x="0" y="72">blandit lacus venenatis lobortis a eget </tspan><tspan x="0" y="91">augue. Vestibulum enim nisi, vestibulum </tspan><tspan x="0" y="110">vitae metus ac, iaculis egestas justo. </tspan></text>
+        <text id="Label" transform="translate(508 112)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Label</tspan></text>
+      </g>
+      <rect id="Rectangle_8158" data-name="Rectangle 8158" width="5" height="47" rx="2.5" transform="translate(383 58)" fill="#78788c"/>
+    </g>
+  </g>
+</svg>

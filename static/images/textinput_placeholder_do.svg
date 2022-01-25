@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="125" viewBox="0 0 485 125">
+  <defs>
+    <clipPath id="clip-textinput_placeholder_do">
+      <rect width="485" height="125"/>
+    </clipPath>
+  </defs>
+  <g id="textinput_placeholder_do" clip-path="url(#clip-textinput_placeholder_do)">
+    <rect width="485" height="125" fill="#f4f4f6"/>
+    <g id="Input-Top" transform="translate(168 30)">
+      <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(0 23)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="150" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="149" height="41" rx="3.5" fill="none"/>
+      </g>
+      <text id="_555_555-5555" data-name="(555) 555-5555" transform="translate(15 50)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">(555) 555-5555</tspan></text>
+      <text id="Phone_number" data-name="Phone number" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Phone number</tspan></text>
+    </g>
+  </g>
+</svg>

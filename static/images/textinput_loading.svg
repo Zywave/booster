@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="125" viewBox="0 0 485 125">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-textinput_loading">
+      <rect width="485" height="125"/>
+    </clipPath>
+  </defs>
+  <g id="textinput_loading" clip-path="url(#clip-textinput_loading)">
+    <rect width="485" height="125" fill="#f4f4f6"/>
+    <g id="Input-Top" transform="translate(93 30)">
+      <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(0 23)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+        <rect width="300" height="42" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="299" height="41" rx="3.5" fill="none"/>
+      </g>
+      <text id="Hint_text" data-name="Hint text" transform="translate(15 50)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
+      <text id="Label" transform="translate(0 15)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Label</tspan></text>
+      <g id="Progress_Wheel" data-name="Progress Wheel" transform="translate(270 33)" clip-path="url(#clip-path)">
+        <g id="Group_7426" data-name="Group 7426">
+          <path id="Path_5481" data-name="Path 5481" d="M156.5,125.1a10,10,0,1,1,10-10A10,10,0,0,1,156.5,125.1Zm0-17.12a7.12,7.12,0,1,0,7.12,7.12A7.136,7.136,0,0,0,156.5,107.98Z" transform="translate(-146.5 -105.1)" fill="#cbcbd2"/>
+          <path id="Path_5482" data-name="Path 5482" d="M150.36,112.947l-2.76-.88a10.015,10.015,0,0,1,12.56-6.48l-.88,2.76A7.078,7.078,0,0,0,150.36,112.947Z" transform="translate(-147.16 -105.107)" fill="#2777d3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
