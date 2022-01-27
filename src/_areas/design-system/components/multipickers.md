@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-multipicker@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-multipicker@next/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zui-multipicker@next/docs/index.html
 mainComponentName: zui-multipicker
 includedElements: []
 title: Multipickers

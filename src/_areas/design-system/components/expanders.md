@@ -2,7 +2,7 @@
 title: Expanders
 subtitle: Expanders allow a user to expand or collapse a section of content
 api: https://cdn.zywave.com/@zywave/zui-expander@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-expander@next/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zui-expander@next/docs/index.html
 mainComponentName: zui-expander
 includedElements: []
 ---

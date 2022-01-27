@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-logo@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-logo@next/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zui-logo@next/docs/index.html
 mainComponentName: zui-logo
 includedElements: []
 title: Logos

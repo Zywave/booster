@@ -2,7 +2,7 @@
 title: Checkboxes
 subtitle: ""
 api: https://cdn.zywave.com/@zywave/zui-checkbox@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-checkbox@next/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zui-checkbox@next/docs/index.html
 mainComponentName: zui-checkbox
 includedElements: []
 ---
