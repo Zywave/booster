@@ -2,8 +2,8 @@
 title: Breadcrumbs
 subtitle: ""
 hideToc: false
-api: https://cdn.zywave.com/@zywave/zui-breadcrumbs@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-breadcrumbs@next/docs/index.html
+api: https://cdn.zywave.com/@zywave/zui-breadcrumbs@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-breadcrumbs@latest/docs/index.html
 mainComponentName: zui-breadcrumbs
 includedElements: []
 ---

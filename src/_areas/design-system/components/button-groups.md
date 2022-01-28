@@ -1,8 +1,8 @@
 ---
 title: Button groups
 subtitle: A Button Group is 3 or more Buttons grouped together on a single line.
-api: https://cdn.zywave.com/@zywave/zui-button@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-button@next/docs/index.html
+api: https://cdn.zywave.com/@zywave/zui-button@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-button@latest/docs/index.html
 mainComponentName: zui-button-group
 includedElements:
   - zui-button-group

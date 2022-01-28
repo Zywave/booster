@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-pager@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-pager@next/docs/index.html
+api: https://cdn.zywave.com/@zywave/zui-pager@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-pager@latest/docs/index.html
 mainComponentName: zui-pager
 includedElements: []
 title: Pagers

@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-svg@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-svg@next/docs/index.html
+api: https://cdn.zywave.com/@zywave/zui-svg@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-svg@latest/docs/index.html
 mainComponentName: zui-svg
 includedElements: []
 title: SVG Utils

@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-button@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-button@next/docs/index.html
+api: https://cdn.zywave.com/@zywave/zui-button@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-button@latest/docs/index.html
 mainComponentName: zui-button
 includedElements: ["zui-button"]
 title: Buttons

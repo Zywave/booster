@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-progress@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-progress@next/docs/index.html
+api: https://cdn.zywave.com/@zywave/zui-progress@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-progress@latest/docs/index.html
 mainComponentName: zui-progress
 includedElements: []
 title: Progress bars

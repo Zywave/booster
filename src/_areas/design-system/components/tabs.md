@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-tabs@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-tabs@next/docs/index.html
+api: https://cdn.zywave.com/@zywave/zui-tabs@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-tabs@latest/docs/index.html
 mainComponentName: zui-tabs
 includedElements: []
 title: Tabs
