@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="423" viewBox="0 0 485 423">
+  <defs>
+    <filter id="Rectangle_4660" x="84" y="89" width="318" height="316" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-multiselect_selectall">
+      <rect width="485" height="423"/>
+    </clipPath>
+  </defs>
+  <g id="multiselect_selectall" clip-path="url(#clip-multiselect_selectall)">
+    <rect width="485" height="423" fill="#f4f4f6"/>
+    <g id="Group_15381" data-name="Group 15381" transform="translate(-35 -37)">
+      <g id="Group_14779" data-name="Group 14779" transform="translate(128 90)">
+        <rect id="Rectangle_288" data-name="Rectangle 288" width="300" height="42" rx="4" fill="#fff"/>
+        <path id="Rectangle_288_-_Outline" data-name="Rectangle 288 - Outline" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H296a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H296a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" fill="#4e92df"/>
+        <g id="Group_7793" data-name="Group 7793" transform="translate(266 9)">
+          <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+          <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(65 23.9) rotate(180)" fill="#9494a4"/>
+        </g>
+      </g>
+      <text id="State" transform="translate(128 82)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">State</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 35, 37)" filter="url(#Rectangle_4660)">
+        <rect id="Rectangle_4660-2" data-name="Rectangle 4660" width="300" height="298" rx="4" transform="translate(93 95)" fill="#fff"/>
+      </g>
+      <rect id="Rectangle_4665" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 137)" fill="#fff"/>
+      <text id="Select_all" data-name="Select all" transform="translate(173 159)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select all</tspan></text>
+      <rect id="Rectangle_4469" data-name="Rectangle 4469" width="24" height="24" transform="translate(138 143)" fill="none"/>
+      <path id="Path_5842" data-name="Path 5842" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 145)" fill="#9494a4"/>
+      <rect id="Rectangle_4665-2" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 173)" fill="#fff"/>
+      <text id="Alaska" transform="translate(173 195)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alaska</tspan></text>
+      <rect id="Rectangle_4469-2" data-name="Rectangle 4469" width="24" height="24" transform="translate(138 179)" fill="none"/>
+      <path id="Path_5842-2" data-name="Path 5842" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 181)" fill="#999"/>
+      <rect id="Rectangle_4665-3" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 209)" fill="#fff"/>
+      <text id="Alabama" transform="translate(173 231)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alabama</tspan></text>
+      <path id="Path_6473" data-name="Path 6473" d="M0,0H24V24H0Z" transform="translate(138 215)" fill="none"/>
+      <path id="Path_5842-3" data-name="Path 5842" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 217)" fill="#9494a4"/>
+      <rect id="Rectangle_4665-4" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 245)" fill="#fff"/>
+      <text id="Arizona" transform="translate(173 267)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Arizona</tspan></text>
+      <rect id="Rectangle_4469-3" data-name="Rectangle 4469" width="24" height="24" transform="translate(138 251)" fill="none"/>
+      <path id="Path_5842-4" data-name="Path 5842" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 253)" fill="#9494a4"/>
+      <rect id="Rectangle_4665-5" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 281)" fill="#fff"/>
+      <text id="California" transform="translate(173 303)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">California</tspan></text>
+      <rect id="Rectangle_4469-4" data-name="Rectangle 4469" width="24" height="24" transform="translate(138 287)" fill="none"/>
+      <path id="Path_5842-5" data-name="Path 5842" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 289)" fill="#9494a4"/>
+      <rect id="Rectangle_4665-6" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 317)" fill="#fff"/>
+      <text id="Colorado" transform="translate(173 339)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Colorado</tspan></text>
+      <rect id="Rectangle_4469-5" data-name="Rectangle 4469" width="24" height="24" transform="translate(138 323)" fill="none"/>
+      <path id="Path_5842-6" data-name="Path 5842" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 325)" fill="#9494a4"/>
+      <rect id="Rectangle_4665-7" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 353)" fill="#fff"/>
+      <text id="Connecticut" transform="translate(173 375)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Connecticut</tspan></text>
+      <rect id="Rectangle_4469-6" data-name="Rectangle 4469" width="24" height="24" transform="translate(138 359)" fill="none"/>
+      <path id="Path_5842-7" data-name="Path 5842" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 361)" fill="#9494a4"/>
+      <rect id="Rectangle_4665-8" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 389)" fill="#fff"/>
+      <text id="Delaware" transform="translate(173 411)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Delaware</tspan></text>
+      <rect id="Rectangle_4469-7" data-name="Rectangle 4469" width="24" height="24" transform="translate(138 395)" fill="none"/>
+      <path id="Path_5842-8" data-name="Path 5842" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 397)" fill="#9494a4"/>
+      <rect id="Rectangle_4677" data-name="Rectangle 4677" width="5" height="100" rx="2.5" transform="translate(418 137)" fill="#78788c"/>
+      <rect id="Rectangle_4754" data-name="Rectangle 4754" width="24" height="24" transform="translate(138 215)" fill="none"/>
+      <text id="Select_state_s_" data-name="Select state(s)" transform="translate(143 117)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select state(s)</tspan></text>
+      <path id="Path_10336" data-name="Path 10336" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" transform="translate(140 181)" fill="#9494a4"/>
+    </g>
+  </g>
+</svg>
