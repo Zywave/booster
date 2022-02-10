@@ -41,8 +41,6 @@ An icon can be added to assist the user in quickly identifying the action needed
 
 ![File Input icon](/images/file-input_icon.svg)
 
-
-
 - - -
 
 ## States
@@ -107,28 +105,29 @@ When using the drag and drop functionality of a File Input, the dropzone should 
 
 ## Best practices
 
-<Grid>
+<docs-grid columns="2">
+  <div>
 
-<GridCol col="span-6">
+![Do File Input action](/images/file-input_action-do.svg)
 
-![Single-file input action do](/images/components/file-input/singlefile_do_action.svg)
-
-<Do />
-
+ <docs-do>  
 The action text can be edited to better apply to the content being uploaded or verbiage on the page.
 
-</GridCol>
+</docs-do>
 
-<GridCol col="span-6">
+  </div>
+  <div>
 
-![Single-file input action do not](/images/components/file-input/singlefile_donot_action.svg)
+![Do not File Input action](/images/file-input_action-do-not.svg)
 
-<DoNot />
+   <docs-do-not>
 
 The action text should not be overly specific or call out file details, such as a Word or Excel file type. Details, such as file type and size, should be called out in description text or a tooltip.
 
-</GridCol>
+   </docs-do-not>
 
-</Grid>
+  </div>
+  
+</docs-grid>
 
-<Spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
