@@ -25,7 +25,7 @@ The File Input allows the user to select one or many files from the user's file 
 4. **Input text:** Placeholder text will instruct users to select file(s) or drop file(s) into the dropzone for upload. Once a file has been selected, the filename will appear.
 5. **Input field:** A clickable container that brings up the file explorer.  
 
-For detailed documentation on our File Input anatomy, view the [design specs](https://xd.adobe.com/view/f50eaaf7-355c-424d-93d1-59d91ca911a4-a05d/specs/).
+For detailed documentation on our File Input anatomy, view the [design specs](https://xd.adobe.com/view/c3866087-1ec9-47ff-bfa1-2e98a0b23b04-96d5/).
 
 - - -
 
