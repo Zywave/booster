@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-slider@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-slider@latest/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-slider@latest/docs/demo.html
 mainComponentName: zui-slider
 includedElements: []
 title: Sliders

@@ -2,7 +2,7 @@
 title: Tooltips
 subtitle: Unobtrusive messages that provide supplementary information
 api: https://cdn.zywave.com/@zywave/zui-tooltip@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-tooltip@latest/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-tooltip@latest/docs/demo.html
 mainComponentName: zui-tooltip
 includedElements: []
 ---

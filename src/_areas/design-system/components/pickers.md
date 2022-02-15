@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-picker@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-picker@latest/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-picker@latest/docs/demo.html
 mainComponentName: zui-picker
 includedElements: []
 title: Pickers

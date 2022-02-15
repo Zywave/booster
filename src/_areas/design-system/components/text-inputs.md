@@ -2,7 +2,7 @@
 title: Text inputs
 subtitle: An input field in which a user can enter text.
 api: https://cdn.zywave.com/@zywave/zui-input@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-input@latest/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-input@latest/docs/demo.html
 mainComponentName: zui-input
 includedElements:
   - zui-input

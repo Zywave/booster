@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-shell@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-shell@latest/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-shell@latest/docs/demo.html
 mainComponentName: zui-shell
 includedElements: []
 title: Shell

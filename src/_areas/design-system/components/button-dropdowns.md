@@ -2,7 +2,7 @@
 title: Button dropdowns
 subtitle: Buttons that reveal a list of three or more actionable options.
 api: https://cdn.zywave.com/@zywave/zui-button@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-button@latest/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-button@latest/docs/demo.html
 mainComponentName: zui-button-dropdown
 includedElements:
   - zui-button-dropdown
