@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-well@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-well@next/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-well@next/docs/demo.html
 mainComponentName: zui-well
 includedElements: []
 title: Wells

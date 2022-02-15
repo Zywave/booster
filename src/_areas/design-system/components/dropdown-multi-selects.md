@@ -3,12 +3,13 @@ title: Dropdown multi-select
 subtitle: Type of form control where a user is presented with a list of options
   to choose one or many items from.
 api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-select@next/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-select@next/docs/demo.html
 mainComponentName: zui-select-dropdown
 includedElements:
   - zui-select-dropdown
   - zui-option
   - zui-option-group
+statusOverride: null
 ---
 ## Usage
 
@@ -101,11 +102,18 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 * A Dropdown multi-select shouldn't default a selected option. Defaulting a selection only makes sense after a user's selection has been saved and they revisit to update their choice.
 * Sometimes choosing "None" as an option is necessary if no options are applicable to the user when a Dropdown multi-select is required. "None" should appear at the top of the list.
 
-#### Selection wrapping
+#### Selection wrapping and truncation
 
-* When options are selected from the Dropdown multi-select option list, selections will populate inside the select box. Multiple selections should wrap within the select box to fit all.
+* When options are selected from the option list, they will populate inside the select form field as select tags. Multiple select tags should wrap within the select form field to fit all.
 
-![Tags selection wrapping](/images/tag_specs.svg)
+![Dropdown multi-select selection wrapping](/images/multiselect_selectionwrapping.svg)
+
+* In extreme circumstances, truncation can be used to prevent the select box from continually expanding. 
+
+  * We recommend displaying a maximum of 5 selection tags, and a sixth that summarizes how many other options are selected (e.g., "and 10 more").
+  * The truncated selection tag must not have the ability to be deselected (in other words, no X icon).
+
+![Dropdown multi-select selection truncation](/images/multiselect_selectiontruncation.svg)
 
 #### Removing the selection
 
@@ -114,6 +122,23 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
   * Selections can be removed by clicking on the X icon within the selection.
   * Backspacing over a selection in the select box removes it.
   * Deselecting the checkbox within the option list will also remove the selection.
+
+#### Select all
+
+In some situations, a "Select all" option is desirable (e.g., "Select all accounts" when sending an email or "Select all states" when managing preferences). There are some alternate behaviors to consider; choose what is most appropriate for your use case:
+
+![Dropdown multi-select select all](/images/multiselect_selectall.svg)
+
+1. Select all to choose every option present in the UI:
+
+   * If the Dropdown multi-select has a finite list (e.g., 50 states), the "Select all" option can simply select everything, so that the user sees an individual selection tag for each in the select box.
+   * A user can deselect options as normal. The "Select all" option is checked in the "Option list" as long as all other options are selected.
+   * For example: a user is presented with a Dropdown multi-select for 50 states. They choose to "Select all" and 50 selection tags are then displayed in the select box.
+2. Select all to choose every option present in a data store (e.g., many accounts):
+
+   * If the Dropdown multi-select is backed by an API to yield an unknown and potentially large quantity of options, the "Select all" option may need to be optimized to handle this load. In this situation, "Select all" may need to be preserved as a magic value, to be interpreted by the application in more robust ways.
+   * A user cannot deselect individual selections after they have chosen the "Select all" option. They must explicitly deselect "Select all", which will require them to select the individual options they want.
+   * For example: a user is presented with a UI to send an email to their clients. They choose "Select all" as recipients. An "All selected" selection tag is displayed in the select box.
 
 - - -
 

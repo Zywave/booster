@@ -3,7 +3,7 @@ title: Analytics
 subtitle: Defines a configurable way to communicate with our centralized
   analytics tracking.
 api: https://cdn.zywave.com/@zywave/zywave-analytics@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zywave-analytics@next/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zywave-analytics@next/docs/demo.html
 mainComponentName: zywave-analytics
 includedElements:
   - zywave-analytics

@@ -2,7 +2,7 @@
 title: Radio buttons
 subtitle: ""
 api: https://cdn.zywave.com/@zywave/zui-radio@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-radio@next/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-radio@next/docs/demo.html
 mainComponentName: zui-radio
 includedElements: []
 ---

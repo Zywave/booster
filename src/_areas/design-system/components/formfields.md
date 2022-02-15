@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-formfield@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-formfield@next/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-formfield@next/docs/demo.html
 mainComponentName: zui-formfield
 includedElements: []
 title: Formfields

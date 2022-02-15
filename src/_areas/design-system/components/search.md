@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-search@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-search@next/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-search@next/docs/demo.html
 mainComponentName: zui-search
 includedElements: []
 title: Search
