@@ -8,26 +8,30 @@ includedElements: []
 ---
 ## Usage
 
-Wells are a mechanism for providing Zywave system-generated or user-initiated feedback.
+Wells are a component to provide Zywave system-generated or user-initiated feedback. Wells should be used when the message requires more attention than uncontained text while remaining within the context of a page. 
 
-Wells provide a container and give emphasis to text. They should be used to attract the users attention to a message, more than just uncontained text. They are typically always present but in rare cases can animate in.
+The Well color and icon add emphasis to the message while visually indicating the type of message contained within. Typically, Wells are present on page load, but in rare cases they may animate in to draw more attention to the message.
 
-For more information on when a well is the appropriate delivery system, see [messages.](/design-system/voice-and-tone/messages/)
+<docs-note>
 
-<hr>
+For more information on when a well is the appropriate delivery system, [see messages.](/design-system/voice-and-tone/messages/) 
+
+</docs-note>
+
+---
 
 ## Anatomy
 
 ![Anatomy](/images/components/well/well_anatomy.svg)
 
-We use the following terminology to refer to the parts of a well:
+A Well is broken up into six distinct parts:
 
-1. **Sidebar:** Defines the type of well by color: info (blue), warning (yellow), error (red).
-2. **Action (optional):** A single action typically associated with the message, such as "View details."
-3. **Icon:** Defines the type of well by an icon: info, warning, error.
-4. **Header (optional):** Briefly describes the message to the user. The header should be H3 and remain on one line, with a max-width of 65 characters without spaces.
-5. **Close:** Allows the user to close a dismissible well.
-6. **Body text:** Provides the main content for the well. The body text should be three lines or less, with a max-width of 65 characters per line without spaces.
+1. **Sidebar:** A block of color that defines the type of message contained within the Well. Blue for info, yellow for warning, and red for error.
+2. **Action (optional):** A single action associated with the contents of the message, such as "View document."
+3. **Icon:** A visual representation of the type of message contained within the Well- Info, warning, or error.
+4. **Header (optional):** An H3, one-line header that briefly describes the message in 65 characters or less. 
+5. **Close (optional):** For dismissible Wells, the X allows the user to close the message.
+6. **Body text:** The main message of the Well, spanning three lines or less with a max-width of 65 characters per line without spaces.
 
 For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/6f1e7711-b6ef-4f78-b179-700ddde71e4a-3a4d/).
 
@@ -35,13 +39,13 @@ For detailed documentation on our well anatomy, view the [ZUI well design specs]
 
 ## Types
 
-We differentiate wells by both color and icon. These features allow a user skimming the page to know, at a glance, the importance of the message. We have three types of wells which are each color-coded with a unique icon to help convey the criticality of the message within.
+The three main types of Wells can be identified by their color and icon. The type of Well also indicates the importance of the message it contains. Wells can also be broken up into default, dismissible and banner types.
 
 ### Info well
 
 ![Info well](/images/components/well/well_info.svg)
 
-Gives the user additional information or context that they might find useful.
+Info Wells are blue and contains an info icon. Info Wells provide additional information or context that a user might find helpful.
 
 <br>
 
@@ -49,7 +53,7 @@ Gives the user additional information or context that they might find useful.
 
 ![Warning well](/images/components/well/well_warning.svg)
 
-Informs the user of the potentially undesirable outcome of a future action.
+Warning Wells are yellow and contain an alert triangle icon. Warning Wells inform the user of potentially undesirable or destructive outcomes of an action, or that something has occurred that may negatively impact their experience.
 
 <br>
 
@@ -57,11 +61,8 @@ Informs the user of the potentially undesirable outcome of a future action.
 
 ![Error well](/images/components/well/well_error.svg)
 
-Tells the user that an attempted action or product feature has failed.
+Error Wells are red and contain an error icon. Error Wells tell the user that an attempted action or product feature has failed. 
 
-<br>
-
-For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/053e23bf-3a9c-4524-a302-25c2a431d5e3-506d/).
 
 ### Default well (static)
 
