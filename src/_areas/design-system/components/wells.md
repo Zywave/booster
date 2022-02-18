@@ -1,15 +1,14 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-well@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-well@latest/docs/demo.html
+title: Wells
+subtitle: ""
+api: https://cdn.zywave.com/@zywave/zui-well@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-well@next/demo/index.html
 mainComponentName: zui-well
 includedElements: []
-title: Wells
-subtitle: Messages that provide the user with feedback.
 ---
-
 ## Usage
 
-Wells are messages that provide the user with feedback. They can either be Zywave system-generated or user-initiated.
+Wells are a mechanism for providing Zywave system-generated or user-initiated feedback.
 
 Wells provide a container and give emphasis to text. They should be used to attract the users attention to a message, more than just uncontained text. They are typically always present but in rare cases can animate in.
 
@@ -63,7 +62,6 @@ Tells the user that an attempted action or product feature has failed.
 <br>
 
 For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/053e23bf-3a9c-4524-a302-25c2a431d5e3-506d/).
-
 
 ### Default well (static)
 
@@ -144,8 +142,8 @@ Well action buttons are styled similar to text links but are the same color as t
 
 <Do />
 
-- Use concise language and keep it to one paragraph.
-- Use 1-3 lines of text (just right).
+* Use concise language and keep it to one paragraph.
+* Use 1-3 lines of text (just right).
 
 </GridCol>
 
@@ -153,8 +151,8 @@ Well action buttons are styled similar to text links but are the same color as t
 
 <DoNot />
 
-- Avoid multi-paragraph wells.
-- Avoid using only 1-5 words (too short).
+* Avoid multi-paragraph wells.
+* Avoid using only 1-5 words (too short).
 
 </GridCol>
 
@@ -170,8 +168,8 @@ Well action buttons are styled similar to text links but are the same color as t
 
 <Do />
 
-- Use default wells that are the same length.
-- Use of a default well and a banner well on the same page is ok.
+* Use default wells that are the same length.
+* Use of a default well and a banner well on the same page is ok.
 
 </GridCol>
 
@@ -179,8 +177,8 @@ Well action buttons are styled similar to text links but are the same color as t
 
 <DoNot />
 
-- Avoid setting default wells at different lengths.
-- Avoid setting a banner well to the same width as a default well when both appear on the same page.
+* Avoid setting default wells at different lengths.
+* Avoid setting a banner well to the same width as a default well when both appear on the same page.
 
 </GridCol>
 
