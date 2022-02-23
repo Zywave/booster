@@ -20,15 +20,17 @@ Let's jump into some big changes coming to table this month!
 
 When we kicked off table, we had a number of features we believed would solve the majority of table use cases in Zywave today:
 
-* Search
-* Basic column layout
-* Empty results standard
-* Mobile layout
-* Sortable columns
+* Search 
+* Basic column layout 
+* Empty results 
+* Mobile layout 
+* Sortable columns 
 
-In December and January, we shipped all of those *except* sort. We're happy to say that with this release, we've added the sort feature to tables. To use this feature, you'll be responsible for marking your header row cells with a new `sortable` attribute. You can also control the initial sort direction with the new `order` attribute. 
+In December and January, we shipped all of those... except sort. 
 
-When applied, the cell will become clickable and render the sort direction to the end user. When the user interacts with the cell, we'll dispatch a new `sort` event.
+We're happy to say that with this release, we've added the sort feature to tables. To use this feature, you'll be responsible for marking your header row cells with a new `sortable` attribute. You can also control the initial sort direction with the new `sort` attribute. 
+
+When applied, the cell will become clickable and render the sort direction to the end user. When the user interacts with the cell, we'll dispatch a new `sort` event from table.
 
 <docs-note>
 <strong>Note:</strong> We only support a single column being sorted at any given moment. Multi-column support is something we may consider in the future.
@@ -64,4 +66,4 @@ We invested a good deal of time again this month on component API documentation,
 
 ## Bug fixes
 
-And, as always, we included a handful of bug fixes with this release. 
+And, as always, we included a handful of bug fixes with this release. For a full list of all changes included, [check out the milestone](https://gitlab.com/groups/zywave/devkit/-/milestones/20#tab-issues).
