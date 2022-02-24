@@ -139,7 +139,7 @@ Wells may include a single action associated with the message. These actions app
 
 <docs-spacer size="small"></docs-spacer>
 
-### Lines of text (default well)
+### Message length
 
 <docs-grid columns="2">
 <div>
