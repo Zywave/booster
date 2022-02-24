@@ -1,6 +1,6 @@
 ---
 api: https://cdn.zywave.com/@zywave/zui-input@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-input@next/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zui-input@next/docs/demo.html
 mainComponentName: zui-input-file
 includedElements: ["zui-input-file"]
 title: File inputs

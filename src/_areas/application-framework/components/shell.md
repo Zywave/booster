@@ -2,7 +2,7 @@
 title: Zywave Shell
 subtitle: Defines a Zywave-standard application for consistent design and navigation.
 api: https://cdn.zywave.com/@zywave/zywave-shell@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zywave-shell@next/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zywave-shell@next/docs/demo.html
 mainComponentName: zywave-shell
 includedElements:
   - zywave-shell

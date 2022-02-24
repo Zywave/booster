@@ -2,8 +2,8 @@
 title: Dropdown multi-select
 subtitle: Type of form control where a user is presented with a list of options
   to choose one or many items from.
-api: https://cdn.zywave.com/@zywave/zui-select@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-select@latest/demo/index.html
+api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-select@next/docs/demo.html
 mainComponentName: zui-select-dropdown
 includedElements:
   - zui-select-dropdown
