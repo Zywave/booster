@@ -12,13 +12,13 @@ We took the shortest month of the year to focus on some general issues in ZUI to
 
 ## Table improvements
 
-If you missed it, we launched the new ZUI Table component in our December 2021 release. We highly encourage you to use this new component if possible when building new tables, as we'll be continually improving the component over time.
+If you missed it, we launched the new ZUI Table component in our December 2021 release. We highly encourage you to use this new component, if possible, when building new tables as we'll be continually improving the component over time.
 
 Let's jump into some big changes coming to table this month!
 
 ### Sortable columns
 
-When we kicked off table, we had a number of features we believed would solve the majority of table use cases in Zywave today:
+When we kicked off table, we had a number of features we believed would solve the majority of table use-cases at Zywave today:
 
 * Search 
 * Basic column layout 
@@ -28,7 +28,7 @@ When we kicked off table, we had a number of features we believed would solve th
 
 In December and January, we shipped all of those... except sort. 
 
-We're happy to say that with this release, we've added the sort feature to tables. To use this feature, you'll be responsible for marking your header row cells with a new `sortable` attribute. You can also control the initial sort direction with the new `sort` attribute. 
+We're happy to say that with this release, we've added the sort feature to ZUI table. To use this feature, you'll be responsible for marking your header row cells with a new `sortable` attribute. You can also control the initial sort direction with the new `sort` attribute. 
 
 When applied, the cell will become clickable and render the sort direction to the end user. When the user interacts with the cell, we'll dispatch a new `sort` event from table.
 
@@ -38,7 +38,7 @@ When applied, the cell will become clickable and render the sort direction to th
 
 ### Mobile design fixes
 
-Last month, we brought you the first [batch of mobile table features](https://booster.zywave.dev/blog/posts/2022-01-20-release-notes-january-2022/#zui-table-is-now-mobile-responsive), something notably lacking from the Zywave ecosystem. However, we noticed some small issues with the table topbar component as we approached our release date that we wanted to circle back into addressing.
+Last month, we brought you the first [batch of mobile table features](https://booster.zywave.dev/blog/posts/2022-01-20-release-notes-january-2022/#zui-table-is-now-mobile-responsive), something notably lacking from the Zywave ecosystem. However, we noticed some small issues with the table topbar component as we approached our release date that we wanted to circle back to address.
 
 Take a look at the before and after below to get a feel for the change:
 
@@ -48,9 +48,9 @@ Take a look at the before and after below to get a feel for the change:
 
 ## Date input updates
 
-We've long had some design standards around how a date input component should be presented to an end user. Some curious engineers noticed that the ZUI Input element can be provided [any valid HTML Input type](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#input_types), and ZUI Input would work with that best it can. This included `date`. 
+We've long had some design standards around how a date input component should be presented to an end-user. Some curious engineers noticed that the ZUI Input element can be provided [any valid HTML Input type](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#input_types), and ZUI Input would work with that best it can. This included `date`. 
 
-While not officially supported before, we've now enhanced ZUI Input to present a date input with our calendar icon. Under the hood, this is still only a `<input type="date" />`. The underlying date picker component that displays is driven by the user agent, so there may be some inconsistencies noticed between a user of Chrome and another of Firefox. 
+Previously unofficially supported, we've now enhanced ZUI Input to present a date input with a calendar icon. Under the hood, this is still only a `<input type="date" />`. The underlying date picker component that displays is driven by the user agent, so there may be some inconsistencies noticed between a user of Chrome and another of Firefox. 
 
 We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#min) and [`max`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#max) attributes with this update.
 
