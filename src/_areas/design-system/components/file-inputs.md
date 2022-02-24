@@ -19,7 +19,7 @@ The File Input allows the user to select one or many files from the user's file 
 
 ![File Input anatomy](/images/file-input_anatomy.svg)
 
-1. **Button:** The shape that encloses the icon and action. When selected, the users default file explorer will open. 
+1. **Button:** The shape that encloses the icon and action. When selected, the user's default file explorer will open. 
 2. **Icon:** Gives more definition to the upload action. Can be used in place of the action text due to lack of space or on mobile. 
 3. **Action:** A single action associated with the File Input, such as 'Browse' or 'Upload content.'
 4. **Input text:** Placeholder text will instruct users to select file(s) or drop file(s) into the dropzone for upload. Once a file has been selected, the filename will appear.
