@@ -129,15 +129,6 @@ By default, Wells should be positioned at the top-left of the page or near the c
 
 ## Best-practices
 
-### Adding actions to Wells
-
-![Anatomy](/images/components/well/well_actionable.svg)  
-
-<br>
-
-Wells may include a single action associated with the message. These actions appear as text links that are the same color as the well sidebar. The action appears on their own line below the message.
-
-<docs-spacer size="small"></docs-spacer>
 
 ### Message length
 
