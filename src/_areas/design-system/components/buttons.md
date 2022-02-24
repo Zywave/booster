@@ -45,7 +45,7 @@ A Primary Button is used for the most common, or most important, action on the p
 
 A destructive Primary Button is used when the action being taken will cause permanent changes to the system, such as deleting data.
 
-![](/images/button-docs-destructiveprimary.png)
+![](/images/button-docs-destructiveprimary.svg)
 
 #### Secondary Button
 
@@ -53,11 +53,19 @@ A Secondary Button is used to represent a secondary action on a page. A page can
 
 ![](/images/button-docs-secondarybutton.png)
 
+A destructive Secondary Button is used when the action being taken will cause permanent changes to the system but is not the primary action on the page.
+
+![](/images/button-docs-destructivesecondary.svg)
+
 #### Link button
 
 A Link Button is used for a less important or uncommon action. At first glace these will look similar to a text link but the button shape will appear on hover/focus. The button shape will add extra padding around the text that isn't noticeable at first. Because of this, we recommend trying to avoid using Link Buttons when they are left-aligned.
 
 ![](/images/button-docs-linkbutton.png)
+
+A destructive Link Button is used when the action being taken will cause permanent changes to the system and is used in tables.
+
+![](/images/button-docs-destructivelink.svg)
 
 #### Icon Button
 
