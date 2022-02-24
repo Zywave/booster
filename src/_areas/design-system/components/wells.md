@@ -8,13 +8,13 @@ includedElements: []
 ---
 ## Usage
 
-Wells are a component to provide Zywave system-generated or user-initiated feedback. Wells should be used when the message requires more attention than uncontained text while remaining within the context of a page. 
+Wells are delivery mechanism for providing Zywave system-generated or user-initiated feedback. Wells should be used when the message requires more attention than uncontained text without shifting the focus away from the current page.
 
 The Well color and icon add emphasis to the message while visually indicating the type of message contained within. Typically, Wells are present on page load, but in rare cases they may animate in to draw more attention to the message.
 
 <docs-note>
 
-For more information on when a well is the appropriate delivery system, [see messages.](/design-system/voice-and-tone/messages/) 
+For more information on when a Well is the appropriate delivery system, [see messages.](/design-system/voice-and-tone/messages/)  
 
 </docs-note>
 
@@ -33,239 +33,238 @@ A Well is broken up into six distinct parts:
 5. **Close (optional):** For dismissible Wells, the X allows the user to close the message.
 6. **Body text:** The main message of the Well, spanning three lines or less with a max-width of 65 characters per line without spaces.
 
+<docs-note>
+
 For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/6f1e7711-b6ef-4f78-b179-700ddde71e4a-3a4d/).
+
+</docs-note>
 
 <hr>
 
 ## Types
 
-The three main types of Wells can be identified by their color and icon. The type of Well also indicates the importance of the message it contains. Wells can also be broken up into default, dismissible and banner types.
+Wells can contain three different types of messages signified by their color and icon. These visual differences also indicate the importance of the message to the user. Aside from the different messaging types, Wells can also be broken up into default, dismissible and banner types. 
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Info well
 
 ![Info well](/images/components/well/well_info.svg)
 
-Info Wells are blue and contains an info icon. Info Wells provide additional information or context that a user might find helpful.
+<br> 
 
-<br>
+Info Wells are blue and contain the zui-info icon. Info Wells provide additional information or context that a user might find helpful.
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Warning well
 
 ![Warning well](/images/components/well/well_warning.svg)
 
-Warning Wells are yellow and contain an alert triangle icon. Warning Wells inform the user of potentially undesirable or destructive outcomes of an action, or that something has occurred that may negatively impact their experience.
-
 <br>
+
+Warning Wells are yellow and contain the zui-warning icon. Warning Wells inform the user of potentially undesirable or destructive outcomes of an action, or that something has occurred that may have a negative impact on their experience.
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Error well
 
 ![Error well](/images/components/well/well_error.svg)
 
-Error Wells are red and contain an error icon. Error Wells tell the user that an attempted action or product feature has failed. 
+<br>
 
+Error Wells are red and contain the zui-error icon. Error Wells tell the user that an attempted action or product feature has failed. 
+
+<docs-spacer size="large"></docs-spacer>
 
 ### Default well (static)
 
-Default wells are best used when the message should be present, regardless of the user's actions.
+By default, Wells appear on page load and remain static on the page regardless of the actions a user takes. These default Wells are the most common type of Well used. 
 
-<br>
+<docs-spacer size="small"></docs-spacer>
 
 ### Dismissible well
 
 ![Anatomy](/images/components/well/well_dismissible.svg)
 
-Sometimes a well doesn't need to be present on the screen at all times. A dismissible well allows the user to close it. Our recommendation is to use dismissible wells for reminders and minimal-impacting messages that appear frequently, but do not impede the user's workflow.
-
-When a well is dismissed, we recommend the application remember the user's choice and not show the well again after a page refresh or the back button is pressed to get back to the previous page.
-
-The close icon button follows the same state rules as a button. For more information on these states, see [buttons](/design-system/components/buttons/).
-
 <br>
+
+On some occasions, a Well does not need to remain present on the screen at all times. Dismissable Wells should still appear on page-load, but the user has the ability to close the message. Dismissable Wells should be used for reminders, messages that have minimal impact, or messages that appear frequently but do not impede the user's workflow. 
+
+We recommend that the application remember when a Well is dismissed to prevent it from reappearing should the user refresh or return to the page using the back button.
+
+The close Button uses hover, focus and pressed states of icon link Buttons. For more information on these states see the [Buttons guidelines](/design-system/components/buttons/).
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Banner well
 
 ![Anatomy](/images/components/well/well_banner.svg)
-<small>An example where a banner well would be used is when an employee is reviewing forms before sending to an administrator.</small>
 
-A banner well spans across the entire width of the page. It can be used to deliver site-wide messages; messages that appear on more than one page; or messages that appear in a single workflow.
+<br>
 
-We recommend you always make banner wells static so they don't make the page content jump around.
+A banner Well spans the entire width of a page. Banner Wells are used to deliver site-wide messages, messages that appear across multiple pages within a workflow, or important messages that should be reviewed prior to taking action on the page. 
+
+A banner Well should always appear on page load and never animate in to prevent the contents of the page from shifting. 
 
 <hr>
 
 ## Behavior
 
-### Animated well
+### Well animation
 
 ![Anatomy](/images/components/well/zui-well-animation-final.gif)
 
-A well can be animated to call attention to it, but only after a user takes action to trigger its appearance. Our recommendation is to use animated wells sparingly and only when a message is triggered by the user.
-
-Note: animating a well will push content down on the page, causing a jarring user experience.
-
 <br>
+
+To call attention to a Well, it may be animated as it appears on the page. A Well should only be animated after the user takes an action to trigger its appearance. Because the animation will cause the Well to push content down on the page, it should be used sparingly. 
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Positioning
 
-By default, wells are always either anchored to the top-left of the page or near the content that it's associated with. Whereas, user-initiated wells should appear by the action that triggered it.
+By default, Wells should be positioned at the top-left of the page or near the content that it's associated with. However, if the Well is triggered by an action on the page, it should be closely associated with the action. 
 
-<br>
-
-### Multiple
-
-![Actionable well](/images/components/well/well_actionable.svg)
-
-Multiple wells should be used sparingly and only seen in certain circumstances. For example, a well appears on the screen and a user-initiated well is triggered.
-
-If there are multiple wells on a page, they should be the same width, with the exception of banner wells appearing with default wells.
-
-<hr>
+---
 
 ## Best-practices
 
-### Adding actions to wells
+### Adding actions to Wells
 
-![Anatomy](/images/components/well/well_actionable.svg)
-
-Wells can include a single action associated with the message. Actions in wells are styled like text links and are the same color as the well sidebar. This contrasts the action against the well message and calls additional attention to it.
-
-To not confuse users, we recommend calling out one action per well.
-
-Well action buttons are styled similar to text links but are the same color as the well sidebar. For more information on these states, see the [ZUI well design specs](https://xd.adobe.com/view/053e23bf-3a9c-4524-a302-25c2a431d5e3-506d/).
+![Anatomy](/images/components/well/well_actionable.svg)  
 
 <br>
 
+Wells may include a single action associated with the message. These actions appear as text links that are the same color as the well sidebar. The action appears on their own line below the message.
+
+<docs-spacer size="small"></docs-spacer>
+
 ### Lines of text (default well)
 
-<Grid>
+<docs-grid columns="2">
+<div>
 
-<GridCol col="span-6">
+INSERT IMAGE
 
-<Do />
+<docs-do>
 
-* Use concise language and keep it to one paragraph.
-* Use 1-3 lines of text (just right).
+Use concise language to keep Well messages between 1 and 3 lines.
 
-</GridCol>
+</docs-do>
+</div>
+<div>
 
-<GridCol col="span-6">
+INSERT IMAGE
 
-<DoNot />
+<docs-do-not>
 
-* Avoid multi-paragraph wells.
-* Avoid using only 1-5 words (too short).
+Do not use messages that span beyond 3 lines or are too short to provide proper context.
 
-</GridCol>
+</div>
+</docs-do-not>
+</docs-grid>
 
-</Grid>
-
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
 ### Multiple wells
+In some situations it may be necessary for more than one Well to appear on a page at one time. This would occur when a Well appears on page load, and another Well appears after a user completes an action on the page. 
 
-<Grid>
+<docs-grid columns="2">
+<div>
 
-<GridCol col="span-6">
+INSERT IMAGE
 
-<Do />
+<docs-do>
 
-* Use default wells that are the same length.
-* Use of a default well and a banner well on the same page is ok.
+Closely associate additional Wells on a page with the content that triggered them. 
 
-</GridCol>
+</docs-do>
+</div>
+<div>
 
-<GridCol col="span-6">
+INSERT IMAGE
 
-<DoNot />
+<docs-do-not>
 
-* Avoid setting default wells at different lengths.
-* Avoid setting a banner well to the same width as a default well when both appear on the same page.
+Do not display multiple Wells on page load. 
 
-</GridCol>
+</docs-do-not>
+</div>
+</docs-grid>
 
-</Grid>
 
-<spacer size="small" />
+<docs-spacer size="small"></docs-spacer>
 
-### Well actions (number of actions)
 
-<Grid>
+### Actions 
 
-<GridCol col="span-6">
+<docs-grid columns="2">
+<div>
 
-<Do />
+INSERT IMAGE
 
-Use one action.
+<docs-do>
 
-</GridCol>
+Include only one action within a Well. 
 
-<GridCol col="span-6">
+</docs-do>
+</div>
+<div>
 
-<DoNot />
+INSERT IMAGE
 
-Avoid using more than one action.
+<docs-do-not>
 
-</GridCol>
+Do not include more than 1 action within a Well. 
 
-</Grid>
+</docs-do-not>
+</div>
+<div>
 
-<spacer size="small" />
+INSERT IMAGE
 
-### Well action style
+<docs-do>
 
-<Grid>
+Use a text link that matches the color of the Well sidebar
 
-<GridCol col="span-6">
+</docs-do>
+</div>
+<div>
 
-<Do />
+INSERT IMAGE
 
-Match the text link action color to the well sidebar color.
+<docs-do-not>
 
-</GridCol>
+Do not use a Button as an action in a Well.
 
-<GridCol col="span-6">
+</docs-do-not>
+</div>
+<div>
 
-<DoNot />
+INSERT IMAGE
 
-Avoid using the primary and secondary ZUI buttons as the action.
+<docs-do>
 
-</GridCol>
+Use descriptive, actionable text for the action.
 
-</Grid>
+</docs-do>
+</div>
+<div>
 
-<spacer size="small" />
+INSERT IMAGE
 
-### Labeling well actions
+<docs-do-not>
 
-<Grid>
+Avoid using vague, non-actionable text such as "Details".
 
-<GridCol col="span-6">
+</docs-do-not>
+</div>
+</docs-grid>
 
-<Do />
-
-Use an actionable label such as "View details."
-
-</GridCol>
-
-<GridCol col="span-6">
-
-<DoNot />
-
-Avoid using a non-actionable label such as "Details."
-
-</GridCol>
-
-</Grid>
-
-<spacer size="small" />
 
 ### Banner wells behavior
 
-<Grid>
 
-<GridCol col="span-6">
-
-<Do />
 
 Use a static banner well.
 
