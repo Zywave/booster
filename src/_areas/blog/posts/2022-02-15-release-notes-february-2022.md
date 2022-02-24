@@ -18,6 +18,8 @@ Let's jump into some big changes coming to table this month!
 
 ### Sortable columns
 
+![](/images/zui-table-sortable-example.png)
+
 When we kicked off table, we had a number of features we believed would solve the majority of table use-cases at Zywave today:
 
 * Search 
@@ -36,9 +38,9 @@ When applied, the cell will become clickable and render the sort direction to th
 <strong>Note:</strong> We only support a single column being sorted at any given moment. Multi-column support is something we may consider in the future.
 </docs-note>
 
-### Mobile design fixes
+### Responsive design fixes
 
-Last month, we brought you the first [batch of mobile table features](https://booster.zywave.dev/blog/posts/2022-01-20-release-notes-january-2022/#zui-table-is-now-mobile-responsive), something notably lacking from the Zywave ecosystem. However, we noticed some small issues with the table topbar component as we approached our release date that we wanted to circle back to address.
+Last month, we brought you the first [batch of responsive table features](https://booster.zywave.dev/blog/posts/2022-01-20-release-notes-january-2022/#zui-table-is-now-mobile-responsive), something notably lacking from the Zywave ecosystem. However, we noticed some small issues with the table topbar component as we approached our release date that we wanted to circle back to address.
 
 Take a look at the before and after below to get a feel for the change:
 
@@ -46,7 +48,7 @@ Take a look at the before and after below to get a feel for the change:
 
 ![Animated example of a ZUI table shrinking to mobile width to showcase an unresponsive topbar where the elements collide.](/images/zui-table-topbar-unresponsive-example.gif)
 
-Notice how the search bar in the topbar is shrinks to obscure the placeholder text.
+Notice how the search bar in the topbar shrinks to obscure the placeholder text. That is undesirable.
 
 #### Responsive table topbar
 
