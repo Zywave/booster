@@ -21,9 +21,10 @@ The File Input allows the user to select one or many files from the user's file 
 
 1. **Button:** The shape that encloses the icon and action. When selected, the user's default file explorer will open. 
 2. **Icon:** Gives more definition to the upload action. Can be used in place of the label due to lack of space or on mobile. 
-3. **Action:** A single action associated with the File Input, such as 'Browse' or 'Upload content.'
-4. **Input text:** Placeholder text will instruct users to select file(s) or drop file(s) into the dropzone for upload. Once a file has been selected, the filename will appear.
-5. **Input field:** A clickable container that brings up the file explorer.  
+3. **Label:** A single action associated with the File Input, such as 'Browse' or 'Upload content.'
+4. **Input field:** The input field contains placeholder text that will instruct users to select file(s) or drop file(s) into the dropzone for upload. Once a file has been selected, the filename will appear.
+
+   The entire component is clickable and, when selected, the user's default file explorer will open.
 
 For detailed documentation on our File Input anatomy, view the [design specs](https://xd.adobe.com/view/c3866087-1ec9-47ff-bfa1-2e98a0b23b04-96d5/).
 
@@ -31,7 +32,7 @@ For detailed documentation on our File Input anatomy, view the [design specs](ht
 
 ## Types
 
-Currently, we have one type of File Input that allows the user to upload a single file through their file explorer or drag and drop. 
+Our File Input that allows the user to upload a single file through their file explorer or drag and drop. 
 
 ![File Input](/images/file-input_usage.svg)
 
@@ -123,6 +124,37 @@ The action text can be edited to better apply to the content being uploaded or v
    <docs-do-not>
 
 The action text should not be overly specific or call out file details, such as a Word or Excel file type. Details, such as file type and size, should be called out in description text or a tooltip.
+
+   </docs-do-not>
+
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
+
+<docs-grid columns="2">
+  <div>
+
+![Do File Input label](/images/file-input_form-do.svg)
+
+ <docs-do>  
+<!--StartFragment-->
+
+Group the File Input with related fields and include a label so users know what type of file is required.
+
+<!--EndFragment-->
+
+</docs-do>
+
+  </div>
+  <div>
+
+![Do not File Input label](/images/file-input_form-do-not.svg)
+
+   <docs-do-not>
+
+The File Input should not be grouped with unrelated fields without a label or descriptive action text. 
 
    </docs-do-not>
 

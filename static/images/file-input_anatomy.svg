@@ -20,11 +20,15 @@
     </g>
     <g id="Group_267441" data-name="Group 267441" transform="translate(93.066 -220)">
       <g id="Input-_no_label" data-name="Input- no label" transform="translate(369 250)">
-        <path id="Rectangle_288" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
-        <path id="Rectangle_288_-_Outline" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+        <g id="Rectangle_288" data-name="Rectangle 288" transform="translate(1)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+          <path d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" stroke="none"/>
+          <path d="M.5.5H171A3.5,3.5,0,0,1,174.5,4V38a3.5,3.5,0,0,1-3.5,3.5H.5a0,0,0,0,1,0,0V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+        </g>
       </g>
-      <path id="Path_8229" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
-      <path id="Path_8229_-_Outline" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+      <g id="Path_8229" data-name="Path 8229" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6">
+        <path d="M 53.56950759887695 41.5 L -44.5 41.5 L -44.5 0.5 L 53.56950759887695 0.5 C 55.18538665771484 0.5 56.5 2.070093393325806 56.5 4 L 56.5 38 C 56.5 39.92990493774414 55.18538665771484 41.5 53.56950759887695 41.5 Z" stroke="none"/>
+        <path d="M -44 1 L -44 41 L 53.56950759887695 41 C 54.9096794128418 41 56 39.65420150756836 56 38 L 56 4 C 56 2.345798492431641 54.9096794128418 1 53.56950759887695 1 L -44 1 M -45 0 L 53.56950759887695 0 C 55.46410751342773 0 57 1.790851593017578 57 4 L 57 38 C 57 40.20913314819336 55.46410751342773 42 53.56950759887695 42 L -45 42 L -45 0 Z" stroke="none" fill="#cbcbd2"/>
+      </g>
       <text id="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
       <g id="Group_267410" data-name="Group 267410" transform="translate(284 263)">
         <g id="Group_267409" data-name="Group 267409">
@@ -55,12 +59,7 @@
           <path id="Path_7-2" data-name="Path 7" d="M0,0H1V40.5H0Z" transform="translate(130 0.75)" fill="#17987c"/>
         </g>
       </g>
-      <text id="_5" data-name="5" transform="translate(694 56)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">5</tspan></text>
-    </g>
-    <g id="Group_267479" data-name="Group 267479" transform="translate(400 -323)">
-      <path id="Path_4-3" data-name="Path 4" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(84 405)" fill="#17987c"/>
-      <path id="Path_6-3" data-name="Path 6" d="M0,0H1V23H0Z" transform="translate(96 385)" fill="#17987c"/>
-      <text id="_4" data-name="4" transform="translate(92 422)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">4</tspan></text>
+      <text id="_4" data-name="4" transform="translate(694 56)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">4</tspan></text>
     </g>
   </g>
 </svg>
