@@ -12,11 +12,7 @@ Wells are delivery mechanism for providing Zywave system-generated or user-initi
 
 The Well color and icon add emphasis to the message while visually indicating the type of message contained within. Typically, Wells are present on page load, but in rare cases they may animate in to draw more attention to the message.
 
-<docs-note>
-
-For more information on when a Well is the appropriate delivery system, [see messages.](/design-system/voice-and-tone/messages/)  
-
-</docs-note>
+<docs-note>For more information on when a Well is the appropriate delivery system, [see messages.](/design-system/voice-and-tone/messages/)</docs-note>
 
 ---
 
@@ -33,11 +29,7 @@ A Well is broken up into six distinct parts:
 5. **Close (optional):** For dismissible Wells, the X allows the user to close the message.
 6. **Body text:** The main message of the Well, spanning three lines or less with a max-width of 65 characters per line without spaces.
 
-<docs-note>
-
-For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/6f1e7711-b6ef-4f78-b179-700ddde71e4a-3a4d/).
-
-</docs-note>
+<docs-note>For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/6f1e7711-b6ef-4f78-b179-700ddde71e4a-3a4d/).</docs-note>
 
 <hr>
 
@@ -246,51 +238,9 @@ INSERT IMAGE
 
 <docs-do-not>
 
-Avoid using vague, non-actionable text such as "Details".
+Do not use vague, non-actionable text such as "Details".
 
 </docs-do-not>
 </div>
 </docs-grid>
 
-
-### Banner wells behavior
-
-
-
-Use a static banner well.
-
-</GridCol>
-
-<GridCol col="span-6">
-
-<DoNot />
-
-Avoid animating the banner well.
-
-</GridCol>
-
-</Grid>
-
-<spacer size="small" />
-
-### Positioning of wells
-
-<Grid>
-
-<GridCol col="span-6">
-
-<Do />
-
-Default info wells appear before or after something.
-
-</GridCol>
-
-<GridCol col="span-6">
-
-<DoNot />
-
-Do not position a default info well at the very bottom of the page when its association is further up the page.
-
-</GridCol>
-
-</Grid>
