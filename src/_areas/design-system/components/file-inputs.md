@@ -88,14 +88,6 @@ This icon can be found in the [icon documentation](/design-system/components/ico
 
 ## Behavior
 
-### Form
-
-When the File Input is used in a form, it should be grouped with related fields and include a label so users know what type of file is required.
-
-For detailed documentation on our forms pattern, view the [forms documentation](/design-system/patterns/forms/).
-
-![File Input form](/images/file-input_form.svg)
-
 ### Drag and drop
 
 When using the drag and drop functionality of a File Input, the dropzone should be highlighted only when the user drags a file over the input. This will allow the user to differentiate between multiple inputs on a page and ensure that the correct file is being uploaded.
