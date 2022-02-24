@@ -58,9 +58,15 @@ Elements in the topbar now react according to the space available in the viewpor
 
 ## Date input updates
 
+![ZUI date input with a calendar icon.](/images/zui-input-date.png)
+
 We've long had some design standards around how a date input component should be presented to an end-user. Some curious engineers noticed that the ZUI Input element can be provided [any valid HTML Input type](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input#input_types), and ZUI Input would work with that best it can. This included `date`. 
 
-Previously unofficially supported, we've now enhanced ZUI Input to present a date input with a calendar icon. Under the hood, this is still only a `<input type="date" />`. The underlying date picker component that displays is driven by the user agent, so there may be some inconsistencies noticed between a user of Chrome and another of Firefox. 
+Previously unofficially supported, we've now enhanced ZUI Input to present a date input with a calendar icon. Under the hood, this is still only a `<input type="date" />`. The underlying date picker component that displays is driven by the user agent, so there may be some inconsistencies noticed between a user of Chrome and another of Firefox.
+
+![ZUI date input with Firefox's date picker component.](/images/zui-input-date-firefox.png)
+
+*Example of ZUI date input with Firefox's date picker component.*
 
 We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#min) and [`max`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#max) attributes with this update.
 
