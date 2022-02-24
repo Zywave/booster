@@ -42,9 +42,17 @@ Last month, we brought you the first [batch of mobile table features](https://bo
 
 Take a look at the before and after below to get a feel for the change:
 
-<!-- TODO BEFORE -->
+#### Unresponsive table topbar
 
-<!-- TODO AFTER -->
+![Animated example of a ZUI table shrinking to mobile width to showcase an unresponsive topbar where the elements collide.](/images/zui-table-topbar-unresponsive-example.gif)
+
+Notice how the search bar in the topbar is shrinks to obscure the placeholder text.
+
+#### Responsive table topbar
+
+![Animated example of a ZUI table shrinking to mobile width to showcase a responsive topbar where the elements react to the lack of space by stacking.](/images/zui-table-topbar-responsive-example.gif)
+
+Elements in the topbar now react according to the space available in the viewport.
 
 ## Date input updates
 
