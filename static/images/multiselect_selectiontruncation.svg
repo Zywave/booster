@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="182" viewBox="0 0 485 182">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="182" viewBox="0 0 1000 182">
   <defs>
     <clipPath id="clip-multiselect_selectiontruncation">
-      <rect width="485" height="182"/>
+      <rect width="1000" height="182"/>
     </clipPath>
   </defs>
   <g id="multiselect_selectiontruncation" clip-path="url(#clip-multiselect_selectiontruncation)">
-    <rect width="485" height="182" fill="#f4f4f6"/>
-    <g id="Group_15388" data-name="Group 15388" transform="translate(-39 -56)">
+    <rect width="1000" height="182" fill="#f4f4f6"/>
+    <g id="Group_15388" data-name="Group 15388" transform="translate(218 -56)">
       <rect id="Rectangle_4840" data-name="Rectangle 4840" width="300" height="100" rx="4" transform="translate(132 109)" fill="#fff"/>
       <path id="Rectangle_4840_-_Outline" data-name="Rectangle 4840 - Outline" d="M4,1A3,3,0,0,0,1,4V96a3,3,0,0,0,3,3H296a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H4M4,0H296a4,4,0,0,1,4,4V96a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(132 109)" fill="#cbcbd2"/>
       <text id="Recipients" transform="translate(132 101)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Recipients</tspan></text>
