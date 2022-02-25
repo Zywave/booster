@@ -54,6 +54,8 @@ Notice how the search bar in the topbar shrinks to obscure the placeholder text.
 
 Elements in the topbar now react according to the space available in the viewport.
 
+
+
 ## Date input updates
 
 ![ZUI date input with a calendar icon.](/images/zui-input-date.png)
@@ -77,6 +79,8 @@ We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/El
 ```
 <zui-input type="date" value="2022-02-24" min="2022-01-01" max="2022-12-31"></zui-input>
 ```
+
+
 
 ## Enhancements to ZUI buttons
 
@@ -156,15 +160,21 @@ Button types are mututally exclusive from each other, but they can be paired wit
 <zui-button type="link" danger>Delete</zui-button>
 ```
 
+
+
 ## Same old spinner design!
 
 You might be questioning why this is newsworthy. Well, we completely rewrote the ZUI Spinner element, to remove a dated legacy dependency.
 
 You shouldn't notice any UI change with this, however the bundle size did decrease around 15kB in file size. We now only have one more component remaining that continues to use Polymer: ZUI Tabs. Stay tuned for more on that effort in the future.
 
+
+
 ## Documentation updates
 
 We invested a good deal of time again this month on component API documentation, e.g. missing or confusing documentation, better typing information, etc. Be sure to check out our component documentation whenever you have questions about what a particular component can do/be configured to do!
+
+
 
 ## Bug fixes
 
