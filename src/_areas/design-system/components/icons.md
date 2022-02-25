@@ -1,8 +1,8 @@
 ---
 title: Icons
 subtitle: Visual representation of features and actions users can take.
-api: https://cdn.zywave.com/@zywave/zui-icons@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-icons@next/docs/demo.html
+api: https://cdn.zywave.com/@zywave/zui-icons@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-icons@latest/docs/demo.html
 mainComponentName: zui-icon
 includedElements: []
 ---

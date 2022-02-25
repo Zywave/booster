@@ -1,8 +1,8 @@
 ---
 title: Toggles
 subtitle: A page element used to enable or disable an associated setting or feature.
-api: https://cdn.zywave.com/@zywave/zui-toggle@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-toggle@next/docs/demo.html
+api: https://cdn.zywave.com/@zywave/zui-toggle@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-toggle@latest/docs/demo.html
 mainComponentName: zui-toggle
 includedElements: []
 ---

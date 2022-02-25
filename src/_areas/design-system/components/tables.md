@@ -3,7 +3,7 @@ title: Tables
 subtitle: ""
 hideToc: false
 api: https://cdn.zywave.com/@zywave/zui-table@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-table@latest/docs/index.html
+demo: https://cdn.zywave.com/@zywave/zui-table@latest/docs/demo.html
 mainComponentName: zui-table
 includedElements: []
 entryPointURI: https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/components/table.js
