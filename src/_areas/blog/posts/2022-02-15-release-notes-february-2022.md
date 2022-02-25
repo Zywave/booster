@@ -103,7 +103,7 @@ With this release, we are also introducing a new ZUI button style variation: blo
 
 <docs-spacer></docs-spacer>
 
-## Enhancement to ZUI button implementation and deprecated classes
+## Introducing ZUI button types and style variations
 
 Adding block buttons gave us the opportunity to improve implementing ZUI buttons. Previously, all button types and style variations were declared with the `class` attribute. This was confusing since some classes are mutually exclusive e.g., `<zui-button class="primary link">` is invalid.
 
