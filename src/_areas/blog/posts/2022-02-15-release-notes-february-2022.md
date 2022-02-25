@@ -63,6 +63,7 @@ Notice how the search bar in the topbar shrinks to obscure the placeholder text.
 Elements in the topbar now react according to the space available in the viewport.
 
 <docs-spacer></docs-spacer>
+
 ## Date input updates
 
 ![ZUI date input with a calendar icon.](/images/zui-input-date.png)
@@ -89,7 +90,7 @@ Previously unofficially supported, we've now enhanced ZUI Input to present a dat
 
 We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#min) and [`max`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#max) attributes with this update:
 
-```
+```html
 <zui-input type="date" value="2022-02-24" min="2022-01-01" max="2022-12-31"></zui-input>
 ```
 
