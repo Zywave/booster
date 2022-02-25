@@ -16,6 +16,8 @@ If you missed it, we launched the new ZUI Table component in our December 2021 r
 
 Let's jump into some big changes coming to table this month!
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Sortable columns
 
 ![](/images/zui-table-sortable-example.png)
@@ -36,11 +38,15 @@ When applied, the cell will become clickable and render the sort direction to th
 
 <docs-note><strong>Note:</strong> We only support a single column being sorted at any given moment. Multi-column support is something we may consider in the future.</docs-note>
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Responsive design fixes
 
 Last month, we brought you the first [batch of responsive table features](https://booster.zywave.dev/blog/posts/2022-01-20-release-notes-january-2022/#zui-table-is-now-mobile-responsive), something notably lacking from the Zywave ecosystem. However, we noticed some small issues with the table topbar component as we approached our release date that we wanted to circle back to address.
 
 Take a look at the before and after below to get a feel for the change:
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Unresponsive table topbar
 
@@ -48,14 +54,15 @@ Take a look at the before and after below to get a feel for the change:
 
 Notice how the search bar in the topbar shrinks to obscure the placeholder text. That is undesirable.
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Responsive table topbar
 
 ![Animated example of a ZUI table shrinking to mobile width to showcase a responsive topbar where the elements react to the lack of space by stacking.](/images/zui-table-topbar-responsive-example.gif)
 
 Elements in the topbar now react according to the space available in the viewport.
 
-
-
+<docs-spacer></docs-spacer>
 ## Date input updates
 
 ![ZUI date input with a calendar icon.](/images/zui-input-date.png)
@@ -67,6 +74,8 @@ Previously unofficially supported, we've now enhanced ZUI Input to present a dat
 ![ZUI date input with Chrome's built-in date picker component.](/images/zui-input-date-chrome.png)
 
 *Example of ZUI date picker with Chrome's built-in date picker component.*
+
+<docs-spacer size="small"></docs-spacer>
 
 ![ZUI date input with Firefox's built-in date picker component.](/images/zui-input-date-firefox.png)
 
@@ -80,7 +89,7 @@ We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/El
 <zui-input type="date" value="2022-02-24" min="2022-01-01" max="2022-12-31"></zui-input>
 ```
 
-
+<docs-spacer></docs-spacer>
 
 ## Enhancements to ZUI buttons
 
@@ -90,11 +99,15 @@ We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/El
 
 With this release, we are also introducing a new ZUI button style variation: block buttons `<zui-button block>`. This style allows buttons to span the entire width of its parent container. [Check out the design guidelines for more details on how to use block buttons.](https://booster.zywave.dev/design-system/components/buttons/?tab=usage)
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Improved implementation
 
 Adding block buttons gave us the opportunity to improve implementing ZUI buttons. Previously, all button types and style variations were declared with the `class` attribute. This was confusing since some classes are mutually exclusive e.g., `<zui-button class="primary link">` is invalid.
 
 To lessen confusion, we've categorized button types and styles as such:
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Button types
 
@@ -120,6 +133,8 @@ To lessen confusion, we've categorized button types and styles as such:
     <zui-table-cell><code>&lt;zui-button type="link"&gt;</code></zui-table-cell>
   </zui-table-row>
 </zui-table>
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Button style variations
 
@@ -152,6 +167,8 @@ To lessen confusion, we've categorized button types and styles as such:
   </zui-table-row>
 </zui-table>
 
+<docs-spacer size="small"></docs-spacer>
+
 Button types are mututally exclusive from each other, but they can be paired with one or more of the style variations. For example, a common button style we often find in tables within Zywave applications is:
 
 <zui-button type="link" danger>Delete</zui-button>
@@ -160,7 +177,7 @@ Button types are mututally exclusive from each other, but they can be paired wit
 <zui-button type="link" danger>Delete</zui-button>
 ```
 
-
+<docs-spacer></docs-spacer>
 
 ## Same old spinner design!
 
@@ -168,13 +185,13 @@ You might be questioning why this is newsworthy. Well, we completely rewrote the
 
 You shouldn't notice any UI change with this, however the bundle size did decrease around 15kB in file size. We now only have one more component remaining that continues to use Polymer: ZUI Tabs. Stay tuned for more on that effort in the future.
 
-
+<docs-spacer></docs-spacer>
 
 ## Documentation updates
 
 We invested a good deal of time again this month on component API documentation, e.g. missing or confusing documentation, better typing information, etc. Be sure to check out our component documentation whenever you have questions about what a particular component can do/be configured to do!
 
-
+<docs-spacer></docs-spacer>
 
 ## Bug fixes
 
