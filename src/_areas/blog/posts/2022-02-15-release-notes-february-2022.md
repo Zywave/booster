@@ -100,6 +100,8 @@ To lessen confusion, we've categorized button types and styles as such:
 | Secondary | `<zui-button class="secondary">` | `<zui-button type="secondary">` |
 | Link      | `<zui-button class="link">`      | `<zui-button type="link">`      |
 
+
+
 #### Button style variations
 
 | Style             | Deprecated                                                       | New implementation        |
@@ -118,6 +120,8 @@ Button types are mututally exclusive from each other, but they can be paired wit
 ```html
 <zui-button type="link" danger>Delete</zui-button>
 ```
+
+
 
 ## Same old spinner design!
 
