@@ -64,17 +64,29 @@ We've long had some design standards around how a date input component should be
 
 Previously unofficially supported, we've now enhanced ZUI Input to present a date input with a calendar icon. Under the hood, this is still only a `<input type="date" />`. The underlying date picker component that displays is driven by the user agent, so there may be some inconsistencies noticed between a user of Chrome and another of Firefox.
 
-![ZUI date input with Firefox's date picker component.](/images/zui-input-date-firefox.png)
+![ZUI date input with Chrome's built-in date picker component.](/images/zui-input-date-chrome.png)
 
-*Example of ZUI date input with Firefox's date picker component.*
+*Example of ZUI date picker with Chrome's built-in date picker component.*
 
-We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#min) and [`max`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#max) attributes with this update.
+![ZUI date input with Firefox's built-in date picker component.](/images/zui-input-date-firefox.png)
+
+*Example of ZUI date input with Firefox's built-in date picker component.*
+
+<docs-note>\
+At the time of this publishing, ZUI date input doesn't pop up the date picker component in Chrome and Edge unless you have Experimental Web Platform features enabled or use Chrome and Edge versions 99+.\
+</docs-note>
+
+We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#min) and [`max`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#max) attributes with this update:
+
+```
+<zui-input type="date" value="2022-02-24" min="2022-01-01" max="2022-12-31"></zui-input>
+```
 
 ## Same old spinner design!
 
 You might be questioning why this is newsworthy. Well, we completely rewrote the ZUI Spinner element, to remove a dated legacy dependency.
 
-You shouldn't notice any UI change with this, however the bundle size did drop around 15kB. We now only have one more component remaining that continues to use Polymer: ZUI Tabs. Stay tuned for more on that effort in the future.
+You shouldn't notice any UI change with this, however the bundle size did decrease around 15kB in file size. We now only have one more component remaining that continues to use Polymer: ZUI Tabs. Stay tuned for more on that effort in the future.
 
 ## Documentation updates
 
