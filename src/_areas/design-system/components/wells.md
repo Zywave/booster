@@ -23,11 +23,12 @@ The Well color and icon add emphasis to the message while visually indicating th
 A Well is broken up into six distinct parts:
 
 1. **Sidebar:** A block of color that defines the type of message contained within the Well. Blue for info, yellow for warning, and red for error.
-2. **Action (optional):** A single action associated with the contents of the message, such as "View document."
-3. **Icon:** A visual representation of the type of message contained within the Well- Info, warning, or error.
-4. **Header (optional):** An H3, one-line header that briefly describes the message in 65 characters or less. 
-5. **Close (optional):** For dismissible Wells, the X allows the user to close the message.
-6. **Body text:** The main message of the Well, spanning three lines or less with a max-width of 65 characters per line without spaces.
+2. **Icon:** A visual representation of the type of message contained within the Well- Info, warning, or error.  
+3. **Header (optional):** An H3, one-line header that briefly describes the message in 65 characters or less.
+4. **Action (optional):** A single action associated with the contents of the message, such as "View document."
+5. **Body text:** The main message of the Well, spanning three lines or less with a max-width of 65 characters per line without spaces.
+6. **Close (optional):** For dismissible Wells, the X allows the user to close the message. 
+
 
 <docs-note>For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/6f1e7711-b6ef-4f78-b179-700ddde71e4a-3a4d/).</docs-note>
 
