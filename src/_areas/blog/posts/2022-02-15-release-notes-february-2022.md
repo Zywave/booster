@@ -73,7 +73,7 @@ Previously unofficially supported, we've now enhanced ZUI Input to present a dat
 *Example of ZUI date input with Firefox's built-in date picker component.*
 
 <docs-note>\
-<strong>Note:</strong> At the time of this publishing, ZUI date input doesn't pop up the date picker component in Chrome and Edge unless you have Experimental Web Platform features enabled or use Chrome and Edge versions 99+.\
+<strong>Note:</strong> At the time of this publishing, the date picker component doesn't appear in Chrome and Edge unless you have Experimental Web Platform features enabled or use Chrome and Edge versions 99+.\
 </docs-note>
 
 We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#min) and [`max`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#max) attributes with this update:
