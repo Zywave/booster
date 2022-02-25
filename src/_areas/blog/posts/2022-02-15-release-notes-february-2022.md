@@ -113,7 +113,7 @@ To lessen confusion, we've categorized button types and styles as such:
 
 #### Button types
 
-<zui-table style="--zui-table-columns-template: 12ch 1fr 1fr;">
+<zui-table style="--zui-table-columns-template: 13ch 1fr 1fr;">
   <zui-table-row header>
     <zui-table-cell>Types</zui-table-cell>
     <zui-table-cell>Deprecated</zui-table-cell>
