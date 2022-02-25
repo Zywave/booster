@@ -70,12 +70,53 @@ Previously unofficially supported, we've now enhanced ZUI Input to present a dat
 
 *Example of ZUI date input with Firefox's built-in date picker component.*
 
-<docs-note><strong>Note:</strong> At the time of publishing, the date picker component doesn't appear in Chrome and Edge unless you have Experimental Web Platform features enabled or update to versions 99 or greater.</docs-note>
+<docs-note><strong>Note:</strong> At the time of publishing, the date picker component doesn't appear in Chrome and Edge unless you have Experimental Web Platform features enabled or update to version 99 or greater.</docs-note>
 
 We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#min) and [`max`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date#max) attributes with this update:
 
 ```
 <zui-input type="date" value="2022-02-24" min="2022-01-01" max="2022-12-31"></zui-input>
+```
+
+## Enhancements to ZUI buttons
+
+### Block buttons
+
+![Example of ZUI block buttons.](/images/zui-button-block-example.png)
+
+With this release, we are also introducing a new ZUI button style variation: block buttons `<zui-button block>`. This style allows buttons to span the entire width of its parent container. [Check out the design guidelines for more details on how to use block buttons.](https://booster.zywave.dev/design-system/components/buttons/?tab=usage)
+
+### Improved implementation
+
+Adding block buttons gave us the opportunity to improve implementing ZUI buttons. Previously, all button types and style variations were declared with the `class` attribute. This was confusing since some classes are mutually exclusive e.g., `<zui-button class="primary link">` is invalid.
+
+To lessen confusion, we've categorized button types and styles as such:
+
+#### Button types
+
+| Types     | Deprecated                       | New implementation              |
+| --------- | -------------------------------- | ------------------------------- |
+| Primary   | `<zui-button class="primary">`   | `<zui-button type="primary">`   |
+| Secondary | `<zui-button class="secondary">` | `<zui-button type="secondary">` |
+| Link      | `<zui-button class="link">`      | `<zui-button type="link">`      |
+
+##### Button style variations
+
+| Style             | Deprecated                                                       | New implementation        |
+| ----------------- | ---------------------------------------------------------------- | ------------------------- |
+| Danger            | `<zui-button class="danger">`                                    | `<zui-button danger>`     |
+| Icon-only         | `<zui-button class="icon">` and `<zui-button class="icon-only">` | `<zui-button icon>`       |
+| Icon on the right | `<zui-button class="icon-right">`                                | `<zui-button icon-right>` |
+| Block             |                                                                  | `<zui-button block>`      |
+
+
+
+Button types are mututally exclusive from each other, but they can be paired with one or more of the style variations. For example, a common button style we often find in tables within Zywave applications is:
+
+<zui-button type="link" danger>Delete</zui-button>
+
+```html
+<zui-button type="link" danger>Delete</zui-button>
 ```
 
 ## Same old spinner design!
