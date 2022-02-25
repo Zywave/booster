@@ -91,17 +91,15 @@ We also support the [`min`](https://developer.mozilla.org/en-US/docs/Web/HTML/El
 
 <docs-spacer></docs-spacer>
 
-## Enhancements to ZUI buttons
-
-### Block buttons
+## Block ZUI buttons
 
 ![Example of ZUI block buttons.](/images/zui-button-block-example.png)
 
 With this release, we are also introducing a new ZUI button style variation: block buttons `<zui-button block>`. This style allows buttons to span the entire width of its parent container. [Check out the design guidelines for more details on how to use block buttons.](https://booster.zywave.dev/design-system/components/buttons/?tab=usage)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
-### Improved implementation
+## Enhancement to ZUI button implementation and deprecated classes
 
 Adding block buttons gave us the opportunity to improve implementing ZUI buttons. Previously, all button types and style variations were declared with the `class` attribute. This was confusing since some classes are mutually exclusive e.g., `<zui-button class="primary link">` is invalid.
 
