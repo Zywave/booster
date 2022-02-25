@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Release Notes - February 2022
 description: Date inputs, table improvements, no spinner design changes, and bug fixes!
-date: 2022-02-15T17:55:56.739Z
+date: 2022-02-24T20:00:56.739Z
 hideToc: false
 tags:
   - Release Notes
