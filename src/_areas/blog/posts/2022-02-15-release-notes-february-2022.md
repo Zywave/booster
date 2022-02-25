@@ -94,24 +94,59 @@ To lessen confusion, we've categorized button types and styles as such:
 
 #### Button types
 
-| Types     | Deprecated                       | New implementation              |
-| --------- | -------------------------------- | ------------------------------- |
-| Primary   | `<zui-button class="primary">`   | `<zui-button type="primary">`   |
-| Secondary | `<zui-button class="secondary">` | `<zui-button type="secondary">` |
-| Link      | `<zui-button class="link">`      | `<zui-button type="link">`      |
-
-
+<zui-table>
+  <zui-table-row header>
+    <zui-table-cell>Types</zui-table-cell>
+    <zui-table-cell>Deprecated</zui-table-cell>
+    <zui-table-cell>New implementation</zui-table-cell>
+  </zui-table-row>
+  <zui-table-row>
+    <zui-table-cell>Primary</zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button class="primary"&gt;</code></zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button type="primary"&gt;</code></zui-table-cell>
+  </zui-table-row>
+  <zui-table-row>
+    <zui-table-cell>Secondary</zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button class="secondary"&gt;</code></zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button type="secondary"&gt;</code></zui-table-cell>
+  </zui-table-row>
+  <zui-table-row>
+    <zui-table-cell>Link</zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button class="link"&gt;</code></zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button type="link"&gt;</code></zui-table-cell>
+  </zui-table-row>
+</zui-table>
 
 #### Button style variations
 
-| Style             | Deprecated                                                       | New implementation        |
-| ----------------- | ---------------------------------------------------------------- | ------------------------- |
-| Danger            | `<zui-button class="danger">`                                    | `<zui-button danger>`     |
-| Icon-only         | `<zui-button class="icon">` and `<zui-button class="icon-only">` | `<zui-button icon>`       |
-| Icon on the right | `<zui-button class="icon-right">`                                | `<zui-button icon-right>` |
-| Block             |                                                                  | `<zui-button block>`      |
-
-
+<zui-table>
+  <zui-table-row header>
+    <zui-table-cell>Style</zui-table-cell>
+    <zui-table-cell>Deprecated</zui-table-cell>
+    <zui-table-cell>New implementation</zui-table-cell>
+  </zui-table-row>
+  <zui-table-row>
+    <zui-table-cell>Danger</zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button class="danger"&gt;</code></zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button danger&gt;</code></zui-table-cell>
+  </zui-table-row>
+  <zui-table-row>
+    <zui-table-cell>Icon-only</zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button class="icon"&gt;</code> and <code>&lt;zui-button class="icon-only"&gt;</code>
+    </zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button icon&gt;</code></zui-table-cell>
+  </zui-table-row>
+  <zui-table-row>
+    <zui-table-cell>Icon on the right</zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button class="icon-right"&gt;</code></zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button icon-right&gt;</code></zui-table-cell>
+  </zui-table-row>
+  <zui-table-row>
+    <zui-table-cell>Block</zui-table-cell>
+    <zui-table-cell></zui-table-cell>
+    <zui-table-cell><code>&lt;zui-button block&gt;</code></zui-table-cell>
+  </zui-table-row>
+</zui-table>
 
 Button types are mututally exclusive from each other, but they can be paired with one or more of the style variations. For example, a common button style we often find in tables within Zywave applications is:
 
@@ -120,8 +155,6 @@ Button types are mututally exclusive from each other, but they can be paired wit
 ```html
 <zui-button type="link" danger>Delete</zui-button>
 ```
-
-
 
 ## Same old spinner design!
 
