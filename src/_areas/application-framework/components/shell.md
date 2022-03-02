@@ -13,11 +13,11 @@ Zywave Shell enables applications to have a rich, consistent experience across a
 
 Bring your application's contents, and let Zywave Shell do the rest!
 
-## Required scopes
-
-To utilize this component, applications must have the \`api.shell\` scope.
-
-**Note:** This is not applicable when used with the [Zywave API Proxy](/application-framework/components/api-proxy/?tab=usage).
+## Prerequisites
+* An application MUST be authenticated with Zywave Auth (e.g. https://auth.zywave.com)
+  * If your application cannot/does not use Zywave Auth, then [ZUI Shell](https://booster.zywave.dev/design-system/components/shell/) is right for you.
+* The following scopes are required (if not using [Zywave API Proxy Element](/application-framework/components/api-proxy/?tab=usage)):
+  * `api.shell`
 
 ## Built-in functionality
 
