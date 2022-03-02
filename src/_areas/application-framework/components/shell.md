@@ -15,7 +15,7 @@ Bring your application's contents, and let Zywave Shell do the rest!
 
 ## Prerequisites
 * An application MUST be authenticated with Zywave Auth (e.g. <https://auth.zywave.com>)
-  * If your application cannot/does not use Zywave Auth, then [ZUI Shell](https://booster.zywave.dev/design-system/components/shell/) is right for you.
+  * If your application cannot/does not use Zywave Auth, then [ZUI Shell](/design-system/components/shell/) is right for you.
 * The following scopes are required (if not using [Zywave API Proxy Element](/application-framework/components/api-proxy/?tab=usage)):
   * `api.shell`
 
