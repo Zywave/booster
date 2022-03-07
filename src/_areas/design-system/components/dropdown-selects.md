@@ -3,7 +3,7 @@ title: Dropdown selects
 subtitle: Type of form control where a user is presented with a list of options
   to choose one items from.
 api: https://cdn.zywave.com/@zywave/zui-select@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-select@next/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zui-select@next/docs/demo.html
 mainComponentName: zui-select-dropdown
 includedElements:
   - zui-select-dropdown
