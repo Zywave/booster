@@ -6,6 +6,10 @@ demo: https://cdn.zywave.com/@zywave/zui-well@next/demo/index.html
 mainComponentName: zui-well
 includedElements: []
 ---
+![Well usage](/images/well_usage-–-1.svg)
+
+<docs-spacer size="small"><docs-spacer>
+
 ## Usage
 
 Wells are delivery mechanism for providing Zywave system-generated or user-initiated feedback. Wells should be used when the message requires more attention than uncontained text without shifting the focus away from the current page.
@@ -14,11 +18,11 @@ The Well color and icon add emphasis to the message while visually indicating th
 
 <docs-note>For more information on when a Well is the appropriate delivery system, [see messages.](/design-system/voice-and-tone/messages/)</docs-note>
 
----
+- - -
 
 ## Anatomy
 
-![Anatomy](/images/components/well/well_anatomy.svg)
+![An image of a Well with numbers pointing to the different parts that make up a Well](/images/well_anatomy-–-1.svg)
 
 A Well is broken up into six distinct parts:
 
@@ -28,7 +32,6 @@ A Well is broken up into six distinct parts:
 4. **Action (optional):** A single action associated with the contents of the message, such as "View document."
 5. **Body text:** The main message of the Well, spanning three lines or less with a max-width of 65 characters per line without spaces.
 6. **Close (optional):** For dismissible Wells, the X allows the user to close the message. 
-
 
 <docs-note>For detailed documentation on our well anatomy, view the [ZUI well design specs](https://xd.adobe.com/view/6f1e7711-b6ef-4f78-b179-700ddde71e4a-3a4d/).</docs-note>
 
@@ -42,7 +45,7 @@ Wells can contain three different types of messages signified by their color and
 
 ### Info well
 
-![Info well](/images/components/well/well_info.svg)
+![Info well](/images/info_well-–-1.svg)
 
 <br> 
 
@@ -52,7 +55,7 @@ Info Wells are blue and contain the zui-info icon. Info Wells provide additional
 
 ### Warning well
 
-![Warning well](/images/components/well/well_warning.svg)
+![Warning well](/images/warning_well-–-1.svg)
 
 <br>
 
@@ -62,7 +65,7 @@ Warning Wells are yellow and contain the zui-warning icon. Warning Wells inform 
 
 ### Error well
 
-![Error well](/images/components/well/well_error.svg)
+![Error well](/images/error_well-–-1.svg)
 
 <br>
 
@@ -78,7 +81,7 @@ By default, Wells appear on page load and remain static on the page regardless o
 
 ### Dismissible well
 
-![Anatomy](/images/components/well/well_dismissible.svg)
+![Anatomy](/images/dismissible_well-–-1.svg)
 
 <br>
 
@@ -92,7 +95,7 @@ The close Button uses hover, focus and pressed states of icon link Buttons. For 
 
 ### Banner well
 
-![Anatomy](/images/components/well/well_banner.svg)
+![Full-width banner Well](/images/banner_well-–-1.svg)
 
 <br>
 
@@ -118,17 +121,16 @@ To call attention to a Well, it may be animated as it appears on the page. A Wel
 
 By default, Wells should be positioned at the top-left of the page or near the content that it's associated with. However, if the Well is triggered by an action on the page, it should be closely associated with the action. 
 
----
+- - -
 
 ## Best-practices
-
 
 ### Message length
 
 <docs-grid columns="2">
 <div>
 
-INSERT IMAGE
+![Info Well with a message that spans two lines](/images/message-length_do-–-1.svg)
 
 <docs-do>
 
@@ -138,7 +140,7 @@ Use concise language to keep Well messages between 1 and 3 lines.
 </div>
 <div>
 
-INSERT IMAGE
+![Warning Well with a very short and vague message.](/images/message-length_do-not-–-1.svg)
 
 <docs-do-not>
 
@@ -151,12 +153,13 @@ Do not use messages that span beyond 3 lines or are too short to provide proper 
 <docs-spacer size="small"></docs-spacer>
 
 ### Multiple wells
+
 In some situations it may be necessary for more than one Well to appear on a page at one time. This would occur when a Well appears on page load, and another Well appears after a user completes an action on the page. 
 
 <docs-grid columns="2">
 <div>
 
-INSERT IMAGE
+![An error Well placed above buttons that triggered it](/images/multiple_do-–-1.svg)
 
 <docs-do>
 
@@ -166,7 +169,7 @@ Closely associate additional Wells on a page with the content that triggered the
 </div>
 <div>
 
-INSERT IMAGE
+![Two Wells stacked on top of each other](/images/multiple_do-not-–-1.svg)
 
 <docs-do-not>
 
@@ -176,16 +179,14 @@ Do not display multiple Wells on page load.
 </div>
 </docs-grid>
 
-
 <docs-spacer size="small"></docs-spacer>
 
-
-### Actions 
+### Actions
 
 <docs-grid columns="2">
 <div>
 
-INSERT IMAGE
+![An info Well with one action](/images/action_amount_do-–-1.svg)
 
 <docs-do>
 
@@ -195,7 +196,7 @@ Include only one action within a Well.
 </div>
 <div>
 
-INSERT IMAGE
+![An action Well with more than one action](/images/action_amount_do-not-–-1.svg)
 
 <docs-do-not>
 
@@ -205,7 +206,7 @@ Do not include more than 1 action within a Well.
 </div>
 <div>
 
-INSERT IMAGE
+![A Well with the action color matching the color of the Well](/images/action_color_do-–-1.svg)
 
 <docs-do>
 
@@ -215,7 +216,7 @@ Use a text link that matches the color of the Well sidebar
 </div>
 <div>
 
-INSERT IMAGE
+![A Well with an action that is a different color than the color of the Well](/images/action_color_do-not-–-1.svg)
 
 <docs-do-not>
 
@@ -225,7 +226,7 @@ Do not use a Button as an action in a Well.
 </div>
 <div>
 
-INSERT IMAGE
+![A Well containing a descriptive action](/images/action__do-–-1.svg)
 
 <docs-do>
 
@@ -235,7 +236,7 @@ Use descriptive, actionable text for the action.
 </div>
 <div>
 
-INSERT IMAGE
+![A Well containing a vague action](/images/action_do-not-–-1.svg)
 
 <docs-do-not>
 
@@ -244,4 +245,3 @@ Do not use vague, non-actionable text such as "Details".
 </docs-do-not>
 </div>
 </docs-grid>
-
