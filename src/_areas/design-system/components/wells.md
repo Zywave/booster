@@ -109,7 +109,7 @@ A banner Well should always appear on page load and never animate in to prevent 
 
 ### Well animation
 
-![Anatomy](/images/components/well/zui-well-animation-final.gif)
+![Anatomy](/images/well-animation-loop.gif)
 
 <br>
 
