@@ -36,7 +36,7 @@ We've long had a grab bag of properties on the Zywave Analytics component for co
 Now, with `analytics-user-properties`, apps will be able to extend the user identifying data that gets sent to analytics trackers. 
 
 <docs-note>
-Be sure to follow our <a href="/application-framework/components/analytics/?tab=usage#user-properties">best practices</a> when using `analytics-user-properties`.
+Be sure to follow our <a href="/application-framework/components/analytics/?tab=usage#user-properties">best practices</a> when using <code>analytics-user-properties</code>.
 </docs-note>
 
 
@@ -67,7 +67,7 @@ input.addEventListener("change", event => {
 We plan to introduce some updates over the next few months to this component, such as multiple file support, which means we'll need to make some changes. Going forward, the following is expected (and anyone relying on the deprecated behavior will need to update):
 ```js
 input.addEventListener("change", event => {
-  const file = event.details.file[0]; // this is assuming a single file input!
+  const file = event.details.files[0]; // this is assuming a single file input!
   // do stuff with the file
 });
 ```
