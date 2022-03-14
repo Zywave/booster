@@ -20,12 +20,6 @@ With this work, we've shaved off 43kB the bundle out of the gate, added some muc
 
 Thank you to all who helped us with testing dialog while it was behind a flag!
 
-## We're (starting to) watch you!
-
-One thing that's been lacking from our front end components has been how little we know about how they are used (or if they are used at all). Over time, we'll be working to sprinkle in some minor analytics and utilization tracking (while keeping a close eye on impact to performance). 
-
-To start this off, we're monitoring utilization of the [Zywave Shell component](/application-framework/components/shell/?tab=usage) in our standard tracking process. This will have no impact on you, but will greatly help us in evaluating if we are succeeding in bringing more consistency to our users.
-
 ## Custom analytics hooks
 
 We have some minor enhancements to our [Zywave Analytics component](/application-framework/components/analytics/?tab=usage) to hopefully help you measure your own metrics!
@@ -47,18 +41,26 @@ While we do track a lot of activity with the usage of `<zywave-analytics>`, ther
 Now, with the `track()` method exposed on the Zywave Analytics component (and surfaced via Zywave Shell), you can handle these situations where needed:
 
 ```js
-document.querySelector("zywave-analytics").track("bananas", { areRipe: true, brand: "Chiquita" });
+analyticsEl.track("bananas", { areRipe: true, brand: "Chiquita" });
 ```
 
-## Deprecations / Breaking changes
+## We're watching you!
 
-A new addition to our release notes, this release does add one deprecation:
+One thing that's been lacking from our front end components has been how little we know about how they are used (or if they are used at all). Over time, we'll be working to sprinkle in some minor analytics and utilization tracking (while keeping a close eye on impact to performance). 
+
+To start this off, we're monitoring utilization of the [Zywave Shell component](/application-framework/components/shell/?tab=usage) in our standard tracking process. This will have no impact on you, but will greatly help us in evaluating if we are succeeding in bringing more consistency to our users.
+
+## Deprecations and breaking changes
+
+A new addition to our release notes, we're hoping to be more transparent when it comes to potentially breaking changes and communicating deprecations.
+
+This release does add one deprecation:
 
 ### ZUI File Input
 **Summary**: The change event of `<zui-input-file>` currently has the uploaded file directly available via the `details` property:
 
 ```js
-input.addEventListener("change", event => {
+inputEl.addEventListener("change", event => {
   const file = event.details;
   // do stuff with the file
 });
@@ -66,11 +68,13 @@ input.addEventListener("change", event => {
 
 We plan to introduce some updates over the next few months to this component, such as multiple file support, which means we'll need to make some changes. Going forward, the following is expected (and anyone relying on the deprecated behavior will need to update):
 ```js
-input.addEventListener("change", event => {
+inputEl.addEventListener("change", event => {
   const file = event.details.files[0]; // this is assuming a single file input!
   // do stuff with the file
 });
 ```
+
+This release will NOT be breaking the current behavior, but we expect to remove this backwards compatibility later this year.
 
 
 
