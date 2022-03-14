@@ -88,7 +88,7 @@ We'll go over what the attribute identity is in the next step.
 
 The last thing you need to supply is a unique global identifier to the `identity` attribute in `<zywave-analytics>`. With the way the third-party scripts work, we need an identifier to help track a given individual across multiple sessions and devices. `identity` should be a guaranteed unique global identifier from your system. For Zywave, we use a combination of `profileTypeCode` and `profileId`, separated by a tilde (e.g., `identity="B~1234"`).
 
-# Best practices
+## Best practices
 
 ### Identity
 
