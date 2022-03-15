@@ -16,13 +16,13 @@ Let's dive right in!
 
 [Back in January](/blog/posts/2022-01-20-release-notes-january-2022/#zui-dialog-goes-native), we released a version of ZUI Dialog based on the [native HTML Dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) behind a flag. This month, [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/98#html) and [Safari](https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/#html) shipped their implementations. Now that dialog has shipped in all supported browsers, we're happy to annouce that we are enabling our new implementation by default!
 
-With this work, we've shaved off 43kB the bundle out of the gate, added some much needed design love (skinny scrollbars 😍) and have unblocked implementing [sticky footers](https://gitlab.com/zywave/devkit/web-sdk/zui/-/issues/399).
+With this work, we've shaved 43kB off the bundle out of the gate, added some much needed design love (skinny scrollbars 😍) and have unblocked implementing [sticky footers](https://gitlab.com/zywave/devkit/web-sdk/zui/-/issues/399).
 
 Thank you to all who helped us with testing dialog while it was behind a flag!
 
 ## Custom analytics hooks
 
-We have some minor enhancements to our [Zywave Analytics component](/application-framework/components/analytics/?tab=usage) to hopefully help you measure your own metrics!
+We have some minor enhancements to our [Zywave Analytics component](/application-framework/components/analytics/?tab=usage) to enable you to measure your own metrics!
 
 ### Shell + `analytics-user-properties`
 We've long had a grab bag of properties on the Zywave Analytics component for consumers to use as they saw fit, but this was an issue when using Zywave Shell as one of Shell's features is that it injects `<zywave-analytics>` for you. Because this work was hidden away, consumers couldn't provide their own additional metadata about a user.
