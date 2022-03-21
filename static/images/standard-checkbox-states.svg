@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="306" viewBox="0 0 1000 306">
+  <defs>
+    <clipPath id="clip-Standard_Checkbox_states">
+      <rect width="1000" height="306"/>
+    </clipPath>
+  </defs>
+  <g id="Standard_Checkbox_states" data-name="Standard Checkbox states" clip-path="url(#clip-Standard_Checkbox_states)">
+    <rect width="1000" height="306" fill="#f4f4f6"/>
+    <text id="Label" transform="translate(467 189)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-2" data-name="Label" transform="translate(603 189)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-3" data-name="Label" transform="translate(745 189)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-4" data-name="Label" transform="translate(467 270)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-5" data-name="Label" transform="translate(603 270)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-6" data-name="Label" transform="translate(745 270)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <g id="Checkbox_-_selected" data-name="Checkbox - selected" transform="translate(433 171)">
+      <path id="Path_5845" data-name="Path 5845" d="M46.2,0h-18a2.971,2.971,0,0,0-3,3V21a2.971,2.971,0,0,0,3,3h18a2.971,2.971,0,0,0,3-3V3A2.971,2.971,0,0,0,46.2,0ZM44.64,8.52l-8.76,8.76a1.16,1.16,0,0,1-1.68,0l-4.32-4.32a1.188,1.188,0,0,1,1.68-1.68l3.48,3.48,7.92-7.92a1.16,1.16,0,0,1,1.68,0A1.442,1.442,0,0,1,44.64,8.52Z" transform="translate(-25.2)" fill="#4e92df"/>
+    </g>
+    <g id="Checkbox_-_selected-2" data-name="Checkbox - selected" transform="translate(567 169)">
+      <path id="Path_5845-2" data-name="Path 5845" d="M46.2,0h-18a2.971,2.971,0,0,0-3,3V21a2.971,2.971,0,0,0,3,3h18a2.971,2.971,0,0,0,3-3V3A2.971,2.971,0,0,0,46.2,0ZM44.64,8.52l-8.76,8.76a1.16,1.16,0,0,1-1.68,0l-4.32-4.32a1.188,1.188,0,0,1,1.68-1.68l3.48,3.48,7.92-7.92a1.16,1.16,0,0,1,1.68,0A1.442,1.442,0,0,1,44.64,8.52Z" transform="translate(-23.2 2)" fill="#2777d3"/>
+      <g id="Rectangle_10033" data-name="Rectangle 10033" fill="none" stroke="#2777d3" stroke-width="1">
+        <rect width="28" height="28" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="27" height="27" rx="4.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Checkbox_-_selected-3" data-name="Checkbox - selected" transform="translate(711 171)">
+      <path id="Path_5845-3" data-name="Path 5845" d="M46.2,0h-18a2.971,2.971,0,0,0-3,3V21a2.971,2.971,0,0,0,3,3h18a2.971,2.971,0,0,0,3-3V3A2.971,2.971,0,0,0,46.2,0ZM44.64,8.52l-8.76,8.76a1.16,1.16,0,0,1-1.68,0l-4.32-4.32a1.188,1.188,0,0,1,1.68-1.68l3.48,3.48,7.92-7.92a1.16,1.16,0,0,1,1.68,0A1.442,1.442,0,0,1,44.64,8.52Z" transform="translate(-25.2)" fill="#e6e6ea"/>
+    </g>
+    <g id="Group_264179" data-name="Group 264179" transform="translate(-11469.242 -822)">
+      <g id="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="noun_Pointer_44803-2" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298-2" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321-2" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+        </g>
+      </g>
+    </g>
+    <text id="flat_light" transform="translate(341.5 45)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-23.058" y="0">Normal</tspan></text>
+    <text id="flat_light-2" data-name="flat_light" transform="translate(474.5 45)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-18.519" y="0">Hover</tspan></text>
+    <text id="flat_light-3" data-name="flat_light" transform="translate(608.5 45)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-25.467" y="0">Focused</tspan></text>
+    <text id="flat_light-4" data-name="flat_light" transform="translate(742.5 45)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-26.729" y="0">Disabled</tspan></text>
+    <text id="flat_light-5" data-name="flat_light" transform="translate(277.5 112)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-67.888" y="0">Deselected</tspan></text>
+    <text id="flat_light-6" data-name="flat_light" transform="translate(277.5 190)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-52.247" y="0">Selected</tspan></text>
+    <text id="flat_light-7" data-name="flat_light" transform="translate(277.5 268)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-50.894" y="0">Tri-State</tspan></text>
+    <g id="Component_27_6" data-name="Component 27 – 6" transform="translate(306 252)">
+      <path id="Subtraction_10" data-name="Subtraction 10" d="M-2398-1078h-18a2.968,2.968,0,0,1-3-3v-18a2.968,2.968,0,0,1,3-3h18a2.968,2.968,0,0,1,3,3v18A2.968,2.968,0,0,1-2398-1078Zm-15.75-13a1.251,1.251,0,0,0-1.25,1.25,1.251,1.251,0,0,0,1.25,1.25h13.5a1.252,1.252,0,0,0,1.25-1.25,1.252,1.252,0,0,0-1.25-1.25Z" transform="translate(2419 1102)" fill="#2777d3"/>
+    </g>
+    <g id="Checked" transform="translate(306 171)">
+      <path id="Path_5845-4" data-name="Path 5845" d="M46.2,0h-18a2.971,2.971,0,0,0-3,3V21a2.971,2.971,0,0,0,3,3h18a2.971,2.971,0,0,0,3-3V3A2.971,2.971,0,0,0,46.2,0ZM44.64,8.52l-8.76,8.76a1.16,1.16,0,0,1-1.68,0l-4.32-4.32a1.188,1.188,0,0,1,1.68-1.68l3.48,3.48,7.92-7.92a1.16,1.16,0,0,1,1.68,0A1.442,1.442,0,0,1,44.64,8.52Z" transform="translate(-25.2)" fill="#2777d3"/>
+    </g>
+    <text id="Label-7" data-name="Label" transform="translate(342 189)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-8" data-name="Label" transform="translate(342 270)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-9" data-name="Label" transform="translate(340 111)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-10" data-name="Label" transform="translate(467 111)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-11" data-name="Label" transform="translate(602 111)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-12" data-name="Label" transform="translate(744 111)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <g id="Component_26_6" data-name="Component 26 – 6" transform="translate(308 95)">
+      <g id="Rectangle_10027" data-name="Rectangle 10027" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <rect width="20" height="20" rx="1" stroke="none"/>
+        <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
+      </g>
+    </g>
+    <g id="Checkbox_-_Tri-State" data-name="Checkbox - Tri-State" transform="translate(433 252)">
+      <path id="Subtraction_10-2" data-name="Subtraction 10" d="M-2398-1078h-18a2.968,2.968,0,0,1-3-3v-18a2.968,2.968,0,0,1,3-3h18a2.968,2.968,0,0,1,3,3v18A2.968,2.968,0,0,1-2398-1078Zm-15.75-13a1.251,1.251,0,0,0-1.25,1.25,1.251,1.251,0,0,0,1.25,1.25h13.5a1.252,1.252,0,0,0,1.25-1.25,1.252,1.252,0,0,0-1.25-1.25Z" transform="translate(2419 1102)" fill="#4e92df"/>
+    </g>
+    <g id="Checkbox_-_Tri-State-2" data-name="Checkbox - Tri-State" transform="translate(567 250)">
+      <g id="Rectangle_10034" data-name="Rectangle 10034" fill="none" stroke="#2777d3" stroke-width="1">
+        <rect width="28" height="28" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="27" height="27" rx="4.5" fill="none"/>
+      </g>
+      <path id="Subtraction_10-3" data-name="Subtraction 10" d="M-2398-1078h-18a2.968,2.968,0,0,1-3-3v-18a2.968,2.968,0,0,1,3-3h18a2.968,2.968,0,0,1,3,3v18A2.968,2.968,0,0,1-2398-1078Zm-15.75-13a1.251,1.251,0,0,0-1.25,1.25,1.251,1.251,0,0,0,1.25,1.25h13.5a1.252,1.252,0,0,0,1.25-1.25,1.252,1.252,0,0,0-1.25-1.25Z" transform="translate(2421 1104)" fill="#2777d3"/>
+    </g>
+    <g id="Checkbox_-_Tri-State-3" data-name="Checkbox - Tri-State" transform="translate(711 252)">
+      <path id="Subtraction_10-4" data-name="Subtraction 10" d="M-2398-1078h-18a2.968,2.968,0,0,1-3-3v-18a2.968,2.968,0,0,1,3-3h18a2.968,2.968,0,0,1,3,3v18A2.968,2.968,0,0,1-2398-1078Zm-15.75-13a1.251,1.251,0,0,0-1.25,1.25,1.251,1.251,0,0,0,1.25,1.25h13.5a1.252,1.252,0,0,0,1.25-1.25,1.252,1.252,0,0,0-1.25-1.25Z" transform="translate(2419 1102)" fill="#e6e6ea"/>
+    </g>
+    <g id="Checkbox_-_deselected" data-name="Checkbox - deselected" transform="translate(566 91)">
+      <g id="Rectangle_10032" data-name="Rectangle 10032" fill="none" stroke="#2777d3" stroke-width="1">
+        <rect width="28" height="28" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="27" height="27" rx="4.5" fill="none"/>
+      </g>
+      <g id="Rectangle_10027-2" data-name="Rectangle 10027" transform="translate(4 4)" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <rect width="20" height="20" rx="1" stroke="none"/>
+        <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
+      </g>
+    </g>
+    <g id="Checkbox_-_deselected-2" data-name="Checkbox - deselected" transform="translate(712 95)">
+      <g id="Rectangle_10027-3" data-name="Rectangle 10027" fill="#fff" stroke="#e6e6ea" stroke-width="2">
+        <rect width="20" height="20" rx="1" stroke="none"/>
+        <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
+      </g>
+    </g>
+    <g id="Checkbox_-_deselected-3" data-name="Checkbox - deselected" transform="translate(435 95)">
+      <g id="Rectangle_10027-4" data-name="Rectangle 10027" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <rect width="20" height="20" rx="1" stroke="none"/>
+        <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_264180" data-name="Group 264180" transform="translate(-11469.242 -901.81)">
+      <g id="noun_Pointer_44803-3" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298-3" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321-3" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="noun_Pointer_44803-4" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298-4" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321-4" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_264178" data-name="Group 264178" transform="translate(-11469.242 -741.5)">
+      <g id="noun_Pointer_44803-5" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298-5" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321-5" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="noun_Pointer_44803-6" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298-6" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321-6" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -20,7 +20,7 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 ## Types
 
-![Image of a standard checkbox](/images/checkbox-styles.png)
+![Checkbox types](/images/checkbox-types.svg)
 
 <br>
 
@@ -46,7 +46,7 @@ Gallery checkboxes are more prominent than standard checkboxes. They are general
 
 For detailed documentation on our checkbox anatomy, view the [checkbox design specs](https://xd.adobe.com/view/1e451acf-dca2-47ce-8bee-99ca93473313-4b16/grid).
 
-![Image of Standard Checkbox](/images/anatomy-standard.png)
+![Standard Checkbox anatomy](/images/anatomy-standard.svg)
 
 ### Standard Checkbox
 
@@ -56,7 +56,7 @@ The entire Checkbox can be interacted with to check or uncheck it.
 2. **Label**: a text description of the option
 3. **Option**: the combination of a checkbox and a label
 
-![Image of Gallery Checkbox](/images/anatomy-gallery.png)
+![Gallery Checkbox anatomy](/images/anatomy-gallery.png)
 
 ### Gallery Checkbox
 
@@ -70,11 +70,11 @@ The entire gallery Checkbox can be interacted with to check or uncheck it.
 
 ## States
 
-![Image of standard checkbox states](/images/standard-checkbox-states.png)
+![Image of standard checkbox states](/images/standard-checkbox-states.svg)
 
 Standard Checkbox states
 
-![Gallery Checkbox states](/images/gallery-checkbox-states-no-illustrations.png)
+![Gallery Checkbox states - no illustrations](/images/gallery-checkbox-states-no-illustrations.svg)
 
 Gallery Checkbox states
 
@@ -112,7 +112,7 @@ Disabled state occurs when an action currently isn't available. Disabled checkbo
 
 <div>
 
-![Keep label text format consistent](/images/group-264508.png)
+![Keep label text format consistent](/images/do1.svg)
 
 <docs-do>
 Keep label text format and pattern consistent
@@ -122,7 +122,7 @@ Keep label text format and pattern consistent
 
 <div>
 
-![Avoid ending Checkbox labels with a period (.)](/images/2.png)
+![Avoid ending Checkbox labels with a period (.)](/images/don-t1.svg)
 
 <docs-do-not>
 Avoide having multiple formats such as different phrases, end in periods, and etc.
@@ -144,7 +144,7 @@ Checkboxes universally infer affirmation, not negation. When writing the Checkb
 
 <div>
 
-![Use positive and active wording in Checkbox labels to indicate what will happen if checked.](/images/2-1.png)
+![Use positive and active wording in Checkbox labels to indicate what will happen if checked.](/images/do2.svg)
 
 <docs-do>
 Use positive and active wording in Checkbox labels to indicate what will happen if checked.
@@ -154,7 +154,7 @@ Use positive and active wording in Checkbox labels to indicate what will happen 
 
 <div>
 
-![Avoid negations in Checkbox labels, which means that the user would have to check the box in order for something not to happen.](/images/2-2.png)
+![Avoid negations in Checkbox labels, which means that the user would have to check the box in order for something not to happen.](/images/don-t2.svg)
 
 <docs-do-not>
 Avoid negations in Checkbox labels, which means that the user would have to check the box in order for something not to happen.
@@ -176,7 +176,7 @@ It is recommended that check lists be displayed vertically with one checkbox per
 
 <div>
 
-![If you have to display Checkboxes horizontally, make sure to space each checkbox out appropriately so the checkbox associates with the related label](/images/3-1.png)
+![If you have to display Checkboxes horizontally, make sure to space each checkbox out appropriately so the checkbox associates with the related label](/images/do3.svg)
 
 <docs-do>
 If you have to display Checkboxes horizontally, make sure to space each checkbox out appropriately so the checkbox associates with the related label
@@ -186,7 +186,7 @@ If you have to display Checkboxes horizontally, make sure to space each checkbox
 
 <div>
 
-![Avoid placing Checkboxes too close to each other as it would create confusion on associate the right checkbox to the right label](/images/3-2.png)
+![Avoid placing Checkboxes too close to each other as it would create confusion on associate the right checkbox to the right label](/images/don-t3.svg)
 
 <docs-do-not>
 Avoid placing Checkboxes too close to each other as it would create confusion and not associate the right checkbox to the right label
@@ -208,7 +208,7 @@ The indeterminate state is required to represent a partially checked parent Chec
 
 <div>
 
-![Use a tri-state Checkbox when a list is partially selected](/images/4-1.png)
+![Use a tri-state Checkbox when a list is partially selected](/images/do4.svg)
 
 <docs-do>
 Use a tri-state Checkbox when a list is partially selected
@@ -218,7 +218,7 @@ Use a tri-state Checkbox when a list is partially selected
 
 <div>
 
-![Avoid leaving the parent level Checkbox unchecked to avoid confusion](/images/4-2.png)
+![Avoid leaving the parent level Checkbox unchecked to avoid confusion](/images/don-t4.svg)
 
 <docs-do-not>
  Avoid leaving the parent level Checkbox unchecked to avoid confusion
