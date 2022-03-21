@@ -20,7 +20,7 @@ A checkbox should be used when selecting zero, one, or more independent options 
 
 ## Types
 
-![Checkbox types](/images/checkbox-types.svg)
+![Checkbox types](/images/checkbox-types.png)
 
 <br>
 
