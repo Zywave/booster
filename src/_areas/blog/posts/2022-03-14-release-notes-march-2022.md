@@ -25,6 +25,7 @@ Thank you to all who helped us with testing dialog while it was behind a flag!
 We have some minor enhancements to our [Zywave Analytics component](/application-framework/components/analytics/?tab=usage) to enable you to measure your own metrics!
 
 ### Shell + `analytics-user-properties`
+
 We've long had a grab bag of properties on the Zywave Analytics component for consumers to use as they saw fit, but this was an issue when using Zywave Shell as one of Shell's features is that it injects `<zywave-analytics>` for you. Because this work was hidden away, consumers couldn't provide their own additional metadata about a user.
 
 Now, with `analytics-user-properties`, apps will be able to extend the user identifying data that gets sent to analytics trackers. 
@@ -33,14 +34,13 @@ Now, with `analytics-user-properties`, apps will be able to extend the user iden
 Be sure to follow our <a href="/application-framework/components/analytics/?tab=usage#user-properties">best practices</a> when using <code>analytics-user-properties</code>.
 </docs-note>
 
-
 ### Custom tracking with the `track()` method
 
 While we do track a lot of activity with the usage of `<zywave-analytics>`, there are some situations where your app might want to track something explicit. 
 
 Now, with the `track()` method exposed on the Zywave Analytics component (and surfaced via Zywave Shell), you can handle these situations where needed:
 
-```js
+```javascript
 analyticsEl.track("bananas", { areRipe: true, brand: "Chiquita" });
 ```
 
@@ -57,9 +57,10 @@ A new addition to our release notes, we're hoping to be more transparent when it
 This release does add one deprecation:
 
 ### ZUI File Input
+
 **Summary**: The change event of `<zui-input-file>` currently has the uploaded file directly available via the `details` property:
 
-```js
+```javascript
 inputEl.addEventListener("change", event => {
   const file = event.details;
   // do stuff with the file
@@ -67,7 +68,8 @@ inputEl.addEventListener("change", event => {
 ```
 
 We plan to introduce some updates over the next few months to this component, such as multiple file support, which means we'll need to make some changes. Going forward, the following is expected (and anyone relying on the deprecated behavior will need to update):
-```js
+
+```javascript
 inputEl.addEventListener("change", event => {
   const file = event.details.files[0]; // this is assuming a single file input!
   // do stuff with the file
@@ -75,6 +77,3 @@ inputEl.addEventListener("change", event => {
 ```
 
 This release will NOT be breaking the current behavior, but we expect to remove this backwards compatibility later this year.
-
-
-
