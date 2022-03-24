@@ -102,5 +102,5 @@ This release will NOT be breaking the current behavior, but we expect to remove 
 
 <docs-spacer size="small"></docs-spacer>
 
-## Other changes
+## Full changelog
 For a full look into all changes included with this release, [click here](https://gitlab.com/groups/zywave/devkit/-/milestones/21).
