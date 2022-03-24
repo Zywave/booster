@@ -12,6 +12,8 @@ We're rounding out the first quarter of 2022 with more focus on stability update
 
 Let's dive right in!
 
+<docs-spacer></docs-spacer>
+
 ## Native dialog shipped
 
 [Back in January](/blog/posts/2022-01-20-release-notes-january-2022/#zui-dialog-goes-native), we released a version of ZUI Dialog based on the [native HTML Dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) behind a flag. This month, [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/98#html) and [Safari](https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/#html) shipped their implementations. Now that dialog has shipped in all supported browsers, we're happy to announce that we are enabling our new implementation by default!
@@ -79,6 +81,8 @@ inputEl.addEventListener("change", event => {
 });
 ```
 
+<docs-spacer size="small"></docs-spacer>
+
 We plan to introduce some updates to this component, including multiple file support, which means we'll need to make some changes. Going forward, the following is expected (and anyone relying on the deprecated behavior will need to update):
 
 ```javascript
@@ -87,5 +91,7 @@ inputEl.addEventListener("change", event => {
   // do stuff with the file
 });
 ```
+
+<docs-spacer size="small"></docs-spacer>
 
 This release will NOT be breaking the current behavior, but we expect to remove this backwards compatibility later this year.
