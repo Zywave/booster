@@ -99,3 +99,8 @@ inputEl.addEventListener("change", event => {
 <docs-spacer size="small"></docs-spacer>
 
 This release will NOT be breaking the current behavior, but we expect to remove this backwards compatibility later this year.
+
+<docs-spacer size="small"></docs-spacer>
+
+## Other changes
+For a full look into all changes included with this release, [click here](https://gitlab.com/groups/zywave/devkit/-/milestones/21).
