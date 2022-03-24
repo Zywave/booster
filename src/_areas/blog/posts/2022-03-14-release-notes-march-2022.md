@@ -67,7 +67,7 @@ inputEl.addEventListener("change", event => {
 });
 ```
 
-We plan to introduce some updates over the next few months to this component, such as multiple file support, which means we'll need to make some changes. Going forward, the following is expected (and anyone relying on the deprecated behavior will need to update):
+We plan to introduce some updates over the next few months to this component, including multiple file support, which means we'll need to make some changes. Going forward, the following is expected (and anyone relying on the deprecated behavior will need to update):
 
 ```javascript
 inputEl.addEventListener("change", event => {
