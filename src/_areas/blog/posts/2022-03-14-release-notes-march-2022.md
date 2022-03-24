@@ -16,6 +16,8 @@ Let's dive right in!
 
 ## Native dialog shipped
 
+![Image example of a ZUI dialog that is actually a native HTML dialog under the covers](/images/zui-dialog-native.png)
+
 [Back in January](/blog/posts/2022-01-20-release-notes-january-2022/#zui-dialog-goes-native), we released a version of ZUI Dialog based on the [native HTML Dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog) behind a flag. This month, [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/98#html) and [Safari](https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/#html) shipped their implementations. Now that dialog has shipped in all supported browsers, we're happy to announce that we are enabling our new implementation by default!
 
 With this work, we've shaved 43kB off the bundle out of the gate, added some much needed design love (skinny scrollbars 😍), and have unblocked implementing [sticky footers](https://gitlab.com/zywave/devkit/web-sdk/zui/-/issues/399).
