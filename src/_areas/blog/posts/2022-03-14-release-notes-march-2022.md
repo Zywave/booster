@@ -58,6 +58,8 @@ analyticsEl.track("bananas", { areRipe: true, brand: "Chiquita" });
 
 ## We're watching you!
 
+![Chart of Zywave Shell utilization in the span of 1 week](/images/zywave-shell-utilization.png)
+
 One thing that's been lacking from our front end components has been how little we know about how they are used (or if they are used at all). Over time, we'll be working to sprinkle in some minor analytics and utilization tracking (while keeping a close eye on impact to performance). 
 
 To start this off, we're monitoring utilization of the [Zywave Shell component](/application-framework/components/shell/?tab=usage) in our standard tracking process. This will have no impact on you, but will greatly help us in evaluating if we are succeeding in bringing more consistency to our users.
