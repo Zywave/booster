@@ -38,10 +38,34 @@ Cards are a very common component for holding empty states. Use a hero or spot i
 
 For detailed documentation on Cards, [view the Card design specs.](https://booster.zywave.dev/design-system/components/cards/ "https\://booster.zywave.dev/design-system/components/cards/")
 
-##### Small card
+**Small card**
 
 ![Empty state small space centered](/images/emptystate_smallspace_centered.svg)
 
 **Large card**
 
-![Empty state large space card](/images/emptystate_largespace_card.svg)
+![Empty state small space large card](/images/emptystate_largespace_card.svg)
+
+#### Large spaces
+
+When the empty state is not confined to a card or smaller area, it may be helpful to the user to make use of the entire space for an empty state. If an illustration is needed for an empty state in a large space, a hero illustration is better suited due to its larger size.
+
+**Centered**
+
+![Empty state large space centered](/images/emptystate_largespace_centered.svg)
+
+**Text-heavy**
+
+![Empty state large space text](/images/emptystate_largespace_text.svg)
+
+#### Tables
+
+Empty states help guide a user when interacting with an empty table and help them accomplish their next course of action. A title and body text is required within an empty state in a Table.
+
+For detailed documentation on Cards, [view the design specs tables](https://booster.zywave.dev/design-system/components/tables/?tab=usage "https\://booster.zywave.dev/design-system/components/tables/?tab=usage")
+
+![](/images/emptystate_table.svg)
+
+- - -
+
+## When to use
