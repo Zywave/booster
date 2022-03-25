@@ -42,6 +42,6 @@ For detailed documentation on Cards, [view the Card design specs.](https://boost
 
 ![Empty state small space centered](/images/emptystate_smallspace_centered.svg)
 
-##### Large card
+**Large card**
 
 ![Empty state large space card](/images/emptystate_largespace_card.svg)
