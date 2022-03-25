@@ -70,7 +70,7 @@ For detailed documentation on Cards, [view the design specs tables](https://boos
 
 ## When to use
 
-\[Insert table here]
+
 
 - - -
 
