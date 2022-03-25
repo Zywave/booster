@@ -38,4 +38,10 @@ Cards are a very common component for holding empty states. Use a hero or spot i
 
 For detailed documentation on Cards, [view the Card design specs.](https://booster.zywave.dev/design-system/components/cards/ "https\://booster.zywave.dev/design-system/components/cards/")
 
-#### Small card
+##### Small card
+
+![Empty state small space centered](/images/emptystate_smallspace_centered.svg)
+
+##### Large card
+
+![Empty state large space card](/images/emptystate_largespace_card.svg)
