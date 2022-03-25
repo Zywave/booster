@@ -25,3 +25,17 @@ They are most commonly seen the first time a user interacts with a product or pa
 4. **Action (optional):** An action associated with the message. This action should be the next step the user will take on the page or in the workflow that presented the empty state.
 
 For detailed documentation on our Empty states anatomy, view the design specs \[insert design specs link].
+
+- - -
+
+## Layout & structure
+
+The layout and structure of any empty state is determined by application and component context.
+
+#### Cards
+
+Cards are a very common component for holding empty states. Use a hero or spot illustration based on your use case. For detailed documentation on Illustrations, [view the Illustration design specs.](https://booster.zywave.dev/design-system/visuals/illustrations/ "https\://booster.zywave.dev/design-system/visuals/illustrations/")
+
+For detailed documentation on Cards, [view the Card design specs.](https://booster.zywave.dev/design-system/components/cards/ "https\://booster.zywave.dev/design-system/components/cards/")
+
+#### Small card
