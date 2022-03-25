@@ -97,3 +97,35 @@ It is recommended that a title, body text, and action all be used when a First u
 **Responsive**
 
 ![First use mobile](/images/firstuse_mobile.svg)
+
+**No results / data**
+
+This Empty state surfaces where data would appear, but no data is available at the moment, or no results are returned for the specific query. A clear and concise title is used to point out the reason why no results/data are shown and body text is used under the title to provide more context. Depending on the scenarios, it may be recommended to have a secondary call to action button to provide users with a clear next step.
+
+![No results / data](/images/noresults.svg)
+
+A use case for this Empty state would be when an image preview is unavailable for the user, such as on a Content details page for an imported piece of content.
+
+![Image placeholder](/images/imageplaceholder.svg)
+
+**Responsive**
+
+![No results mobile](/images/noresults_mobile.svg)
+
+![Image placeholder mobile](/images/imageplaceholder_mobile.svg)
+
+**User cleared**
+
+This Empty state appears when the user has cleared all data on a page, such as an alerts inbox. For this Empty state, body text should be used to explain to the user why no data is being shown. An illustration, title, and action are all optional depending on the space and workflow.
+
+![User cleared](/images/usercleared.svg)
+
+**Responsive**
+
+![User cleared mobile](/images/usercleared_mobile.svg)
+
+- - -
+
+## Alternative considerations
+
+* Use *Error patterns* if TBD
