@@ -89,3 +89,11 @@ It is recommended that an illustration, title, body text, and action all be used
 **First use in a table**
 
 It is recommended that a title, body text, and action all be used when a First use empty state is used within a table. Give clear and concise guidance within the body text to help the user navigate to an action to get started.
+
+![First use table](/images/firstuse_table.svg)
+
+![First use table with cards](/images/firstuse_table2.svg)
+
+**Responsive**
+
+![First use mobile](/images/firstuse_mobile.svg)
