@@ -69,3 +69,23 @@ For detailed documentation on Cards, [view the design specs tables](https://boos
 - - -
 
 ## When to use
+
+\[Insert table here]
+
+- - -
+
+## Types
+
+#### First use
+
+This Empty state appears when a user is entering a product for the first time and has no data shown. Body text should be used to explain to the user where and how to initiate the workflow. An illustration, title, and action are all optional depending on the space and workflow.
+
+**First use in a full-page**
+
+It is recommended that an illustration, title, body text, and action all be used when a *first use* empty state is used in a full page. This will give the user the most guidance and delight when entering a new product.
+
+![First use full page](/images/firstuse_centered.svg)
+
+**First use in a table**
+
+It is recommended that a title, body text, and action all be used when a First use empty state is used within a table. Give clear and concise guidance within the body text to help the user navigate to an action to get started.
