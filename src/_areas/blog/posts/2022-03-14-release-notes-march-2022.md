@@ -76,7 +76,7 @@ This release does add one deprecation:
 
 ### ZUI File Input
 
-**Summary**: The change event of `<zui-input-file>` currently has the uploaded file directly available via the `details` property:
+**Summary**: The `change` event of `<zui-input-file>` currently has the uploaded file directly available via the `detail` property:
 
 ```javascript
 inputEl.addEventListener("change", event => {
