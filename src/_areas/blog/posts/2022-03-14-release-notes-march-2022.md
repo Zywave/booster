@@ -80,7 +80,7 @@ This release does add one deprecation:
 
 ```javascript
 inputEl.addEventListener("change", event => {
-  const file = event.details;
+  const file = event.detail;
   // do stuff with the file
 });
 ```
@@ -91,7 +91,7 @@ We plan to introduce some updates to this component, including multiple file sup
 
 ```javascript
 inputEl.addEventListener("change", event => {
-  const file = event.details.files[0]; // this is assuming a single file input!
+  const file = event.detail.files[0]; // this is assuming a single file input!
   // do stuff with the file
 });
 ```
@@ -103,4 +103,5 @@ This release will NOT be breaking the current behavior, but we expect to remove 
 <docs-spacer size="small"></docs-spacer>
 
 ## Full changelog
+
 For a full look into all changes included with this release, [click here](https://gitlab.com/groups/zywave/devkit/-/milestones/21).
