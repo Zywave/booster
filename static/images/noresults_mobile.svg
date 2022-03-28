@@ -114,7 +114,9 @@
         <path id="Path_101637" data-name="Path 101637" d="M123.91,103.69h-.34L118,98.06a.2.2,0,0,1,0-.31h0L119.41,96h.34l3.93,3.94,10-10H134l1.57,1.57a.22.22,0,0,1,0,.32h0Z" fill="#fff"/>
       </g>
     </g>
-    <text id="There_are_no_alternative_plans_available_to_apply_contribution_strategy._Please_select_alternative_plan_options_to_see_cost_breakdown." data-name="There are no alternative plans available to apply contribution strategy. Please select alternative plan options to see cost breakdown." transform="translate(63 779)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-147.403" y="15">There are no alternative plans available to apply </tspan><tspan x="-156.71" y="34">contribution strategy. Please select alternative plan </tspan><tspan x="-96.441" y="53">options to see cost breakdown.</tspan></text>
+    <text id="There_are_no_alternative_plans_available_to_apply_contribution_strategy._Please_select_alternative_plan_options_to_see_cost_breakdown." data-name="There are no alternative plans available to apply 
+contribution strategy. Please select alternative plan 
+options to see cost breakdown." transform="translate(240.5 794)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-149.321" y="0">There are no alternative plans available to apply </tspan><tspan x="-158.628" y="19">contribution strategy. Please select alternative plan </tspan><tspan x="-96.441" y="38">options to see cost breakdown.</tspan></text>
     <g id="Secondary_Button" data-name="Secondary Button" transform="translate(152 856)">
       <g id="Rectangle_3991" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
         <rect width="176" height="36" rx="18" stroke="none"/>
