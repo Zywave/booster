@@ -67,7 +67,7 @@
         <line id="Line_144" data-name="Line 144" x2="61" transform="translate(49.82 58.3)" fill="none" stroke="#9191a1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         <line id="Line_145" data-name="Line 145" x2="61" transform="translate(49.82 68.73)" fill="none" stroke="#9191a1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
         <g id="Group_269953" data-name="Group 269953">
-          <circle id="Ellipse_2201" data-name="Ellipse 2201" cx="22.61" cy="22.61" r="22.61" transform="translate(103.979 74.211)" fill="#3c75b9"/>
+          <path id="Path_101909" data-name="Path 101909" d="M22.61,0A22.61,22.61,0,1,1,0,22.61,22.61,22.61,0,0,1,22.61,0Z" transform="translate(103.979 74.211)" fill="#3c75b9"/>
           <path id="Path_101882" data-name="Path 101882" d="M148.72,101.52,104.09,95a22.6,22.6,0,1,1,44.63,6.48Z" fill="#fff" opacity="0.2"/>
           <path id="Path_101883" data-name="Path 101883" d="M144.89,86.13a21.2,21.2,0,1,1-29-7.61,21.2,21.2,0,0,1,29,7.61m1.21-.71a16.522,16.522,0,1,0,.01,0Z" opacity="0.2"/>
           <path id="Path_101884" data-name="Path 101884" d="M141.29,88.23a17,17,0,1,1-10.377-7.889A17,17,0,0,1,141.29,88.23m1.21-.71a18.43,18.43,0,1,0-6.61,25.22A18.43,18.43,0,0,0,142.5,87.52Z" opacity="0.2"/>
