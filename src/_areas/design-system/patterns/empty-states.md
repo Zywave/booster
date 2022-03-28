@@ -24,7 +24,7 @@ They are most commonly seen the first time a user interacts with a product or pa
 3. **Body:** The body provides supporting content for the title and gives guidance to the user on what next steps to take. The body text should be kept straightforward and span no longer than three lines.
 4. **Action (optional):** An action associated with the message. This action should be the next step the user will take on the page or in the workflow that presented the empty state.
 
-For detailed documentation on our Empty states anatomy, view the design specs \[insert design specs link].
+For detailed documentation on our Empty states anatomy, view the [design specs](https://xd.adobe.com/view/5e09fa17-96a4-4d37-9a20-669a0766e386-0b5a/).
 
 - - -
 
