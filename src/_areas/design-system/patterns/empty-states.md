@@ -72,24 +72,26 @@ For detailed documentation on Cards, [view the design specs tables](https://boos
 
 <table class="zui table">
 
-<tr>\
-<th>Type</th>\
-<th>Use case</th>\
-<th>Goal</th>\
-</tr>\
-<tr>\
-<td>First use</td>\
+<thead>
+<th>Type</th>
+<th>Use case</th>
+<th>Goal</th>
+</thead>
+<tbody>
+
+<tr>
+<td>First use</td>
 <td>Occurs in a new product when the user has not started a workflow. For example:<br>
 
 <li>when starting a new project</li>
 
 <li>user's first time entering a product</li>
 
-</td>\
-<td>Explain to the user where and how to get started within the new product</td>\
-</tr>\
-<tr>\
-<td>No results / data</td>\
+</td>
+<td>Explain to the user where and how to get started within the new product</td>
+</tr>
+<tr>
+<td>No results data</td>
 <td>Occurs when the user has successfuly completed an action or query but no results or data is returned: For example:<br>
 
 <li>no data to show within the component or application</li>
@@ -98,21 +100,23 @@ For detailed documentation on Cards, [view the design specs tables](https://boos
 
 <li>image preview is unavailable</li>
 
-</td>\
-<td>User understands empty state and is enabled to add data or correct query</td>\
+</td>
+<td>User understands empty state and is enabled to add data or correct query</td>
 </tr>
 
-<tr>\
-<td>User cleared</td>\
+<tr>
+<td>User cleared</td>
 <td>Occurs when the user has cleared all data on the page. For example:<br>
 
 <li>user has deleted all notifications in an inbox</li>
 
 <li>user has cleared all results in a table</li>
 
-</td>\
-<td>Explain to the user why no data is being shown in an inbox or table</td>\
+</td>
+<td>Explain to the user why no data is being shown in an inbox or table</td>
 </tr>
+
+</tbody>
 
 </table>
 
