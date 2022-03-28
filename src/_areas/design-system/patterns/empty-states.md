@@ -70,8 +70,6 @@ For detailed documentation on Cards, [view the design specs tables](https://boos
 
 ## When to use
 
-
-
 - - -
 
 ## Types
@@ -102,7 +100,7 @@ It is recommended that a title, body text, and action all be used when a First u
 
 This Empty state surfaces where data would appear, but no data is available at the moment, or no results are returned for the specific query. A clear and concise title is used to point out the reason why no results/data are shown and body text is used under the title to provide more context. Depending on the scenarios, it may be recommended to have a secondary call to action button to provide users with a clear next step.
 
-![No results / data](/images/noresults.svg)
+![Example of no results empty state illustration ](/images/noresults.svg)
 
 A use case for this Empty state would be when an image preview is unavailable for the user, such as on a Content details page for an imported piece of content.
 
@@ -110,7 +108,7 @@ A use case for this Empty state would be when an image preview is unavailable fo
 
 **Responsive**
 
-![No results mobile](/images/noresults_mobile.svg)
+![Example of no results empty state on mobile](/images/noresults_mobile.svg)
 
 ![Image placeholder mobile](/images/imageplaceholder_mobile.svg)
 
