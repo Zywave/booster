@@ -4,6 +4,8 @@ title: Colors
 subtitle:
 ---
 
+<link rel="stylesheet" href="/css/pages/colors.css">
+
 ## Color palette goals
 
 - Create a cohesive look across the entire suite of products

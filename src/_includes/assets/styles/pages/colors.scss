@@ -1,3 +1,5 @@
+@use '../utils/_functions.scss' as *;
+
 /* stylelint-disable */
 :root {
     --zui-shell-primary-theme: var(--zui-green);
