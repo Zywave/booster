@@ -1,6 +1,7 @@
 ---
 title: File inputs
-subtitle: ""
+subtitle: Allows the user to select one or many files from the user's file
+  system and upload to the application.
 api: https://cdn.zywave.com/@zywave/zui-input@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-input@latest/demo/index.html
 mainComponentName: zui-input-file
