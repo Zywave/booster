@@ -62,7 +62,7 @@ A Link Button is used for a less important or uncommon action. At first glace t
 
 ![](/images/button-docs-linkbutton.png)
 
-A destructive Link Button is used when the action being taken will cause permanent changes to the system and is used in tables.
+A destructive Link Button is used when the action being taken will cause permanent changes to the system and is commonly used in tables.
 
 ![](/images/button-docs-destructivelink.svg)
 
@@ -79,7 +79,7 @@ In some cases, it makes sense to include an icon with your button label. This sh
 
 #### Button Dropdown
 
-A Button Dropdown shows all the available actions when clicked. They are found most often in tables, where there is limited space.  For more information, see [Button Dropdowns](https://booster.zywave.dev/design-system/components/button-dropdowns/?tab=usage). 
+A Button Dropdown shows all the available actions when clicked. They are found most often in tables, where there is limited space.  For more information, see [Button Dropdowns](/design-system/components/button-dropdowns/?tab=usage). 
 
 ![](/images/button-docs-overflowicon.png)
 
@@ -121,11 +121,11 @@ Pressed state occurs when a user clicks or taps the button, or hits enter on a k
 
 Disable state occurs when an action currently isn't available. Disabled buttons should only be used when an action can be taken within the current UI to enable the button. If no action can be taken to enable the button, then the button should be hidden instead of disabled.
 
-Note: We have added the CSS property `pointer-events: none;` to this button style that will further prevent users from clicking a disabled button.
+<docs-note>Note: We have added the CSS property `pointer-events: none;` to this button style that will further prevent users from clicking a disabled button.</docs-note>
 
 #### Blue background button states
 
-Used in the Shell Action Bar. For more information, see [Shell documentation](https://booster.zywave.dev/design-system/components/shell/?tab=usage).
+Used in the Shell Action Bar. For more information, see [Shell documentation](/design-system/components/shell/?tab=usage).
 
 ![](/images/button-docs-states-bluebg.png)
 
@@ -140,7 +140,7 @@ Used in the Shell Action Bar. For more information, see [Shell documentation](ht
 #### Button labeling
 
 * You can add a label, icon, or both to a button.
-* Be straightforward, use labels that describe what actually happens when people use the button. 
+* Be straightforward; use labels that describe what actually happens when people use the button. 
 * Use sentence casing. 
 * Don’t use punctuation.
 * Start label with a verb.
@@ -152,6 +152,6 @@ Used in the Shell Action Bar. For more information, see [Shell documentation](ht
 ## Alternate considerations
 
 * Use a Text Link for actions that are navigational and take the user to another place. 
-* Use a [Button Group](https://booster.zywave.dev/design-system/components/button-groups/?tab=usage) when 3 or more buttons are grouped together on a single line.
-* Use a [Button Dropdown](https://booster.zywave.dev/design-system/components/button-dropdowns/?tab=usage) to reveal a list of three or more actionable options.
-* Use a [Dropdown Select](https://booster.zywave.dev/design-system/components/dropdown-selects/?tab=usage) if the user is making a selection instead of executing an action.
+* Use a [Button Group](/design-system/components/button-groups/?tab=usage) when 3 or more buttons are grouped together on a single line.
+* Use a [Button Dropdown](/design-system/components/button-dropdowns/?tab=usage) to reveal a list of three or more actionable options.
+* Use a [Dropdown Select](/design-system/components/dropdown-selects/?tab=usage) if the user is making a selection instead of executing an action.
