@@ -12,7 +12,7 @@ includedElements: []
 
 ## Usage
 
-Wells are delivery mechanism for providing Zywave system-generated or user-initiated feedback. Wells should be used when the message requires more attention than uncontained text without shifting the focus away from the current page.
+Wells are delivery mechanisms for providing Zywave system-generated or user-initiated feedback. Wells should be used when the message requires more attention than uncontained text without shifting the focus away from the current page.
 
 The Well color and icon add emphasis to the message while visually indicating the type of message contained within. Typically, Wells are present on page load, but in rare cases they may animate in to draw more attention to the message.
 
@@ -22,12 +22,12 @@ The Well color and icon add emphasis to the message while visually indicating th
 
 ## Anatomy
 
-![An image of a Well with numbers pointing to the different parts that make up a Well](/images/well_anatomy-–-1.svg)
+![An image of a Well with numbers pointing to the different parts that make up its anatomy](/images/well_anatomy-–-1.svg)
 
 A Well is broken up into six distinct parts:
 
 1. **Sidebar:** A block of color that defines the type of message contained within the Well. Blue for info, yellow for warning, and red for error.
-2. **Icon:** A visual representation of the type of message contained within the Well- Info, warning, or error.  
+2. **Icon:** A visual representation of the type of message contained within the Well⁠—info, warning, or error.  
 3. **Header (optional):** An H3, one-line header that briefly describes the message in 65 characters or less.
 4. **Action (optional):** A single action associated with the contents of the message, such as "View document."
 5. **Body text:** The main message of the Well, spanning three lines or less with a max-width of 65 characters per line without spaces.
@@ -49,7 +49,7 @@ Wells can contain three different types of messages signified by their color and
 
 <br> 
 
-Info Wells are blue and contain the zui-info icon. Info Wells provide additional information or context that a user might find helpful.
+Info Wells are blue and contain the `zui-info` icon. Info Wells provide additional information or context that a user might find helpful.
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -59,7 +59,7 @@ Info Wells are blue and contain the zui-info icon. Info Wells provide additional
 
 <br>
 
-Warning Wells are yellow and contain the zui-warning icon. Warning Wells inform the user of potentially undesirable or destructive outcomes of an action, or that something has occurred that may have a negative impact on their experience.
+Warning Wells are yellow and contain the `zui-warning` icon. Warning Wells inform the user of potentially undesirable or destructive outcomes of an action, or that something has occurred that may have a negative impact on their experience.
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -69,27 +69,27 @@ Warning Wells are yellow and contain the zui-warning icon. Warning Wells inform 
 
 <br>
 
-Error Wells are red and contain the zui-error icon. Error Wells tell the user that an attempted action or product feature has failed. 
+Error Wells are red and contain the `zui-error` icon. Error Wells tell the user that an attempted action or product feature has failed. 
 
 <docs-spacer size="large"></docs-spacer>
 
-### Default well (static)
+### Default Well (static)
 
-By default, Wells appear on page load and remain static on the page regardless of the actions a user takes. These default Wells are the most common type of Well used. 
+By default, Wells appear on page load and remain static on the page regardless of the actions a user takes. These default Wells are the most common type of Wells used. 
 
 <docs-spacer size="small"></docs-spacer>
 
-### Dismissible well
+### Dismissible Well
 
-![Anatomy](/images/dismissible_well-–-1.svg)
+![Dismissible info Well](/images/dismissible_well-–-1.svg)
 
 <br>
 
-On some occasions, a Well does not need to remain present on the screen at all times. Dismissable Wells should still appear on page-load, but the user has the ability to close the message. Dismissable Wells should be used for reminders, messages that have minimal impact, or messages that appear frequently but do not impede the user's workflow. 
+On some occasions, a Well does not need to remain present on the screen at all times. Dismissible Wells should still appear on page-load, but the user has the ability to close the message. Dismissible Wells should be used for reminders, messages that have minimal impact, or messages that appear frequently but do not impede the user's workflow. 
 
 We recommend that the application remember when a Well is dismissed to prevent it from reappearing should the user refresh or return to the page using the back button.
 
-The close Button uses hover, focus and pressed states of icon link Buttons. For more information on these states see the [Buttons guidelines](/design-system/components/buttons/).
+The close Button uses hover, focus and pressed states of Icon Link Buttons. For more information on these states see the [Buttons guidelines](/design-system/components/buttons/).
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -109,7 +109,7 @@ A banner Well should always appear on page load and never animate in to prevent 
 
 ### Well animation
 
-![Anatomy](/images/well-animation-loop.gif)
+![Animated GIF of an Error Well appearing](/images/well-animation-loop.gif)
 
 <br>
 
