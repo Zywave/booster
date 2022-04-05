@@ -1,11 +1,10 @@
 ---
 title: File inputs
 subtitle: ""
-api: https://cdn.zywave.com/@zywave/zui-input@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-input@next/demo/index.html
+api: https://cdn.zywave.com/@zywave/zui-input@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-input@latest/demo/index.html
 mainComponentName: zui-input-file
-includedElements:
-  - zui-input-file
+includedElements: []
 ---
 ## Usage
 
