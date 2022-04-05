@@ -6,6 +6,7 @@ navHidden: true
 pageType: home
 subtitle: " "
 ---
+<link rel="stylesheet" href="/css/pages/home.css">
 <main>
     <header class="home-nav">
         <div class="home-nav-content">

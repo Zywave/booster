@@ -1,3 +1,5 @@
+@use '../utils/_functions.scss' as *;
+
 .blog-posts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

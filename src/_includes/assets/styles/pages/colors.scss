@@ -1,3 +1,5 @@
+@use '../utils/_functions.scss' as *;
+
 /* stylelint-disable */
 :root {
     --zui-shell-primary-theme: var(--zui-green);
@@ -85,13 +87,13 @@
   }
   
   /* Expanded color palette */
-  table[class^='zui'],
-  table[class^='zui'] td {
+  table[class^='zui-'],
+  table[class^='zui-'] td {
     border: 0;
     box-shadow: none;
   }
   
-  table[class^='zui'] td {
+  table[class^='zui-'] td {
     padding: rem(8);
   }
   
@@ -113,20 +115,20 @@
     margin-bottom: 0;
   }
   
-  table[class^='zui'] td {
+  table[class^='zui-'] td {
     border-left: 1px solid var(--zui-gray-100);
     text-transform: uppercase;
   }
 
-  table[class^='zui'] td.no-text-transform {
+  table[class^='zui-'] td.no-text-transform {
     text-transform: unset;
   }
   
-  table[class^='zui'] td:first-child {
+  table[class^='zui-'] td:first-child {
     border-left: 0;
   }
   
-  table[class^='zui'] td.color {
+  table[class^='zui-'] td.color {
     width: rem(100);
   }
   
