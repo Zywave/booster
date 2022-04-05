@@ -2,8 +2,8 @@
 title: Analytics
 subtitle: Defines a configurable way to communicate with our centralized
   analytics tracking.
-api: https://cdn.zywave.com/@zywave/zywave-analytics@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zywave-analytics@next/docs/demo.html
+api: https://cdn.zywave.com/@zywave/zywave-analytics@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zywave-analytics@latest/docs/demo.html
 mainComponentName: zywave-analytics
 includedElements:
   - zywave-analytics
@@ -88,7 +88,7 @@ We'll go over what the attribute identity is in the next step.
 
 The last thing you need to supply is a unique global identifier to the `identity` attribute in `<zywave-analytics>`. With the way the third-party scripts work, we need an identifier to help track a given individual across multiple sessions and devices. `identity` should be a guaranteed unique global identifier from your system. For Zywave, we use a combination of `profileTypeCode` and `profileId`, separated by a tilde (e.g., `identity="B~1234"`).
 
-# Best practices
+## Best practices
 
 ### Identity
 

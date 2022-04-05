@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-spinner@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-spinner@next/docs/demo.html
+api: https://cdn.zywave.com/@zywave/zui-spinner@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-spinner@latest/docs/demo.html
 mainComponentName: zui-spinner
 includedElements: []
 title: Spinners

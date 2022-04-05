@@ -6,6 +6,7 @@ navHidden: true
 pageType: home
 subtitle: " "
 ---
+<link rel="stylesheet" href="/css/pages/home.css">
 <main>
     <header class="home-nav">
         <div class="home-nav-content">
@@ -19,7 +20,6 @@ subtitle: " "
                     <li><a target="_blank" href="https://thenewz.zywave.com/wp-content/uploads/2020/08/Zywave-Brand-Guide.pdf">Branding</a></li>
                 </ul>
             </nav>
-            <div class="login"><a href="/admin">Log in</a></div>
         </div>
     </header>
     <div class="home-header">

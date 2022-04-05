@@ -2,8 +2,8 @@
 title: Dialogs
 subtitle: Display an important message or decision in its own window in front of
   the current page
-api: https://cdn.zywave.com/@zywave/zui-dialog@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-dialog@next/docs/demo.html
+api: https://cdn.zywave.com/@zywave/zui-dialog@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-dialog@latest/docs/demo.html
 mainComponentName: zui-dialog
 includedElements: []
 ---

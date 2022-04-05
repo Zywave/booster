@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="423" viewBox="0 0 485 423">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="423" viewBox="0 0 1000 423">
   <defs>
-    <filter id="Rectangle_4660" x="84" y="89" width="318" height="316" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_4660" x="341" y="89" width="318" height="316" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,12 +8,12 @@
       <feComposite in="SourceGraphic"/>
     </filter>
     <clipPath id="clip-multiselect_selectall">
-      <rect width="485" height="423"/>
+      <rect width="1000" height="423"/>
     </clipPath>
   </defs>
   <g id="multiselect_selectall" clip-path="url(#clip-multiselect_selectall)">
-    <rect width="485" height="423" fill="#f4f4f6"/>
-    <g id="Group_15381" data-name="Group 15381" transform="translate(-35 -37)">
+    <rect width="1000" height="423" fill="#f4f4f6"/>
+    <g id="Group_15381" data-name="Group 15381" transform="translate(222 -37)">
       <g id="Group_14779" data-name="Group 14779" transform="translate(128 90)">
         <rect id="Rectangle_288" data-name="Rectangle 288" width="300" height="42" rx="4" fill="#fff"/>
         <path id="Rectangle_288_-_Outline" data-name="Rectangle 288 - Outline" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H296a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H296a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" fill="#4e92df"/>
@@ -23,8 +23,8 @@
         </g>
       </g>
       <text id="State" transform="translate(128 82)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">State</tspan></text>
-      <g transform="matrix(1, 0, 0, 1, 35, 37)" filter="url(#Rectangle_4660)">
-        <rect id="Rectangle_4660-2" data-name="Rectangle 4660" width="300" height="298" rx="4" transform="translate(93 95)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, -222, 37)" filter="url(#Rectangle_4660)">
+        <rect id="Rectangle_4660-2" data-name="Rectangle 4660" width="300" height="298" rx="4" transform="translate(350 95)" fill="#fff"/>
       </g>
       <rect id="Rectangle_4665" data-name="Rectangle 4665" width="285" height="36" transform="translate(128 137)" fill="#fff"/>
       <text id="Select_all" data-name="Select all" transform="translate(173 159)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select all</tspan></text>

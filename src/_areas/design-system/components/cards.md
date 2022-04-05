@@ -1,6 +1,6 @@
 ---
-api: https://cdn.zywave.com/@zywave/zui-card@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-card@next/docs/demo.html
+api: https://cdn.zywave.com/@zywave/zui-card@latest/dist/custom-elements.json
+demo: https://cdn.zywave.com/@zywave/zui-card@latest/docs/demo.html
 mainComponentName: zui-card
 includedElements: []
 title: Cards

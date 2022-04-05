@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="423" viewBox="0 0 485 423">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="423" viewBox="0 0 1000 423">
   <defs>
-    <filter id="Rectangle_4704" x="84" y="89" width="318" height="316" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_4704" x="341" y="89" width="318" height="316" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,14 +8,14 @@
       <feComposite in="SourceGraphic"/>
     </filter>
     <clipPath id="clip-multiselect_icon_specs">
-      <rect width="485" height="423"/>
+      <rect width="1000" height="423"/>
     </clipPath>
   </defs>
   <g id="multiselect_icon_specs" clip-path="url(#clip-multiselect_icon_specs)">
-    <rect width="485" height="423" fill="#f4f4f6"/>
-    <g id="Group_15385" data-name="Group 15385" transform="translate(-39 -37)">
-      <g transform="matrix(1, 0, 0, 1, 39, 37)" filter="url(#Rectangle_4704)">
-        <rect id="Rectangle_4704-2" data-name="Rectangle 4704" width="300" height="298" rx="4" transform="translate(93 95)" fill="#fff"/>
+    <rect width="1000" height="423" fill="#f4f4f6"/>
+    <g id="Group_15385" data-name="Group 15385" transform="translate(218 -37)">
+      <g transform="matrix(1, 0, 0, 1, -218, 37)" filter="url(#Rectangle_4704)">
+        <rect id="Rectangle_4704-2" data-name="Rectangle 4704" width="300" height="298" rx="4" transform="translate(350 95)" fill="#fff"/>
       </g>
       <g id="Group_15365" data-name="Group 15365" transform="translate(179.996 182.303)">
         <g id="Group_15359" data-name="Group 15359" transform="translate(0.004 0)">
