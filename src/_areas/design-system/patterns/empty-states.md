@@ -82,11 +82,10 @@ For detailed documentation on Tables, \[view the Table design specs](/design-sys
 <tr>
 <td>First use</td>
 <td>Occurs in a new product when the user has not started a workflow. For example:<br>
-
+<ul>
 <li>when starting a new project</li>
-
 <li>user's first time entering a product</li>
-
+</ul>
 </td>
 <td>Explain to the user where and how to get started within the new product</td>
 </tr>
