@@ -36,7 +36,7 @@ The layout and structure of any empty state is determined by application and com
 
 Cards are a very common component for holding empty states. Use a hero or spot illustration based on your use case. For detailed documentation on Illustrations, [view the Illustration design specs.](design-system/visuals/illustrations/ "/design-system/visuals/illustrations/")
 
-For detailed documentation on Cards, [view the Card design specs.](https://booster.zywave.dev/design-system/components/cards/ "https\://booster.zywave.dev/design-system/components/cards/")
+For detailed documentation on Cards, [view the Card design specs.](/design-system/components/cards/ "/design-system/components/cards/")
 
 **Small card**
 
