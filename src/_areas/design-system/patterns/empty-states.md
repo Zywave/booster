@@ -62,7 +62,7 @@ When the empty state is not confined to a card or smaller area, it may be helpfu
 
 Empty states help guide a user when interacting with an empty table and help them accomplish their next course of action. A title and body text is required within an empty state in a Table.
 
-For detailed documentation on Cards, [view the design specs tables](https://booster.zywave.dev/design-system/components/tables/?tab=usage "https\://booster.zywave.dev/design-system/components/tables/?tab=usage")
+For detailed documentation on Tables, \[view the Table design specs](/design-system/components/tables/?tab=usage "/design-system/components/tables/?tab=usage")
 
 ![](/images/emptystate_table.svg)
 
