@@ -91,7 +91,7 @@ For detailed documentation on Tables, \[view the Table design specs](/design-sys
 </tr>
 <tr>
 <td>No results data</td>
-<td>Occurs when the user has successfuly completed an action or query but no results or data is returned: For example:<br>
+<td>Occurs when the user has successfuly completed an action or query but no results or data is returned. For example:<br>
 
 <li>no data to show within the component or application</li>
 
