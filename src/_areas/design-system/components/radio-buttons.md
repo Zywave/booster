@@ -58,7 +58,7 @@ Gallery Radio Buttons are more prominent than both standard and inline Radio But
 
 For a more detailed breakdown of spacing and sizing, *[view the design specs.](https://xd.adobe.com/view/8eb4bcb4-1a69-4f34-ad25-b9171d366435-dbe7/grid)*
 
-![Standard radio button](/images/standardradio.png)
+![Standard radio button](/images/anatomy-standardradio.svg)
 
 ### Standard Radio Button
 
@@ -68,7 +68,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 <br>
 
-![Inline radio button](/images/inlineradio.png)
+![Inline radio button](/images/anatomy-inlineradio.svg)
 
 ### Inline Radio Button
 
@@ -78,7 +78,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 <br>
 
-![Gallery radio button](/images/anatomy-gallery.png)
+![Gallery radio button](/images/anatomy-galleryradio.svg)
 
 ### Gallery Radio Button
 
