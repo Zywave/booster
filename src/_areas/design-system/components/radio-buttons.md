@@ -90,19 +90,19 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 ## States
 
-![standard radio buttons states](/images/radio_states_standard.png)
+![standard radio buttons states](/images/radio_states_standard.svg)
 
 Standard Radio Button states
 
-![inline radio buttons states](/images/inlineradio_states.png)
+![inline radio buttons states](/images/inlineradio_states.svg)
 
 Inline Radio Button states
 
-![Gallery Radio Buttons states](/images/galleryradio_states-–-no-illustrations.png)
+![Gallery Radio Buttons states](/images/gallery-radio-button-states-no-illustrations.svg)
 
 Gallery Radio Button states
 
-![Gallery Radio Buttons states - with illustrations](/images/galleryradio_states.png)
+![Gallery Radio Buttons states - with illustrations](/images/gallery-radio-button-states.svg)
 
 Gallery Radio Button states - with illustrations
 
