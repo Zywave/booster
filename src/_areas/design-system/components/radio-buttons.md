@@ -132,7 +132,7 @@ Disabled state occurs when an action currently isn’t available. Disabled Radio
 
 <div>
 
-![Radio Buttons should be used when a user must select one option from a list of 2-10 options.](/images/components/radio-buttons/Assets_02-20/radiogroup_do_outline.svg)
+![Radio Buttons should be used when a user must select one option from a list of 2-10 options.](/images/do1.svg)
 
 <docs-do>  
 Radio Buttons should be used when a user must select one option from a list of 2-10 options.
@@ -143,7 +143,7 @@ Radio Buttons should be used when a user must select one option from a list of 2
 
 <div>
 
-![Do not use a Radio Button when there is only one option available to the user.](/images/components/radio-buttons/Assets_02-20/radiogroup_dont_outline.svg)
+![Do not use a Radio Button when there is only one option available to the user.](/images/don-t1.svg)
 
 <docs-do-not>
 

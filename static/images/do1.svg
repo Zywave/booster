@@ -1,0 +1,20 @@
+<svg id="Do1" xmlns="http://www.w3.org/2000/svg" width="495" height="283" viewBox="0 0 495 283">
+  <rect id="Rectangle_9977" data-name="Rectangle 9977" width="495" height="283" fill="#f4f4f6"/>
+  <g id="Group_264526" data-name="Group 264526" transform="translate(116 5)">
+    <text id="Label" transform="translate(131 163)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-2" data-name="Label" transform="translate(131 121)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <g id="Radio_-_deselected" data-name="Radio - deselected" transform="translate(99 106)">
+      <g id="Ellipse_8" data-name="Ellipse 8" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+    </g>
+    <g id="Radio_-_selected" data-name="Radio - selected" transform="translate(99 148)">
+      <g id="Ellipse_9" data-name="Ellipse 9" fill="#fff" stroke="#2777d3" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="8" cy="8" r="8" transform="translate(2 2)" fill="#2777d3"/>
+    </g>
+  </g>
+</svg>
