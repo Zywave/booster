@@ -26,7 +26,7 @@ Use a radio button when the user must select a single option from a list of mutu
 
 ## Types
 
-![Types of radio buttons](/images/type.png)
+![Types of radio buttons](/images/type.svg)
 
 <br>
 
