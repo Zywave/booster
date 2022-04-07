@@ -161,7 +161,7 @@ Do not use a Radio Button when there is only one option available to the user.
 
 <div>
 
-![A radio group should always have at least one radio button selected by default.](/images/components/radio-buttons/Assets_02-20/radioselection_do_outline.svg)
+![A radio group should always have at least one radio button selected by default.](/images/do-2.svg)
 
 <docs-do>  
 
@@ -173,7 +173,7 @@ A radio group should always have at least one radio button selected by default.
 
 <div>
 
-![A radio group should never be shown without a default selection.](/images/components/radio-buttons/Assets_02-20/radioselection_dont_outline.svg)
+![A radio group should never be shown without a default selection.](/images/don-t-2.svg)
 
 <docs-do-not>
 
@@ -191,7 +191,7 @@ A radio group should never be shown without a default selection.
 
 <div>
 
-![Radio Buttons should always have a label.](/images/components/radio-buttons/Assets_02-20/radiolabel_do_outline.svg)
+![Radio Buttons should always have a label.](/images/do-3.svg)
 
 <docs-do>  
 
@@ -203,7 +203,7 @@ Radio Buttons should always have a label.
 
 <div>
 
-![A Radio Button without a label is unusable; users would have a hard time knowing what selection they are making without context.](/images/components/radio-buttons/Assets_02-20/radiolabel_dont_outline.svg)
+![A Radio Button without a label is unusable; users would have a hard time knowing what selection they are making without context.](/images/don-t-3.svg)
 
 <docs-do-not>
 
