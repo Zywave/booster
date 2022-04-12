@@ -8,10 +8,10 @@
     <rect width="1000" height="306" fill="#f4f4f6"/>
     <text id="Label" transform="translate(467 189)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
     <text id="Label-2" data-name="Label" transform="translate(603 189)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
-    <text id="Label-3" data-name="Label" transform="translate(745 189)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-3" data-name="Label" transform="translate(745 189)" fill="#afafbb" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
     <text id="Label-4" data-name="Label" transform="translate(467 270)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
     <text id="Label-5" data-name="Label" transform="translate(603 270)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
-    <text id="Label-6" data-name="Label" transform="translate(745 270)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-6" data-name="Label" transform="translate(745 270)" fill="#afafbb" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
     <g id="Checkbox_-_selected" data-name="Checkbox - selected" transform="translate(433 171)">
       <path id="Path_5845" data-name="Path 5845" d="M46.2,0h-18a2.971,2.971,0,0,0-3,3V21a2.971,2.971,0,0,0,3,3h18a2.971,2.971,0,0,0,3-3V3A2.971,2.971,0,0,0,46.2,0ZM44.64,8.52l-8.76,8.76a1.16,1.16,0,0,1-1.68,0l-4.32-4.32a1.188,1.188,0,0,1,1.68-1.68l3.48,3.48,7.92-7.92a1.16,1.16,0,0,1,1.68,0A1.442,1.442,0,0,1,44.64,8.52Z" transform="translate(-25.2)" fill="#4e92df"/>
     </g>
@@ -55,7 +55,7 @@
     <text id="Label-9" data-name="Label" transform="translate(340 111)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
     <text id="Label-10" data-name="Label" transform="translate(467 111)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
     <text id="Label-11" data-name="Label" transform="translate(602 111)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
-    <text id="Label-12" data-name="Label" transform="translate(744 111)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-12" data-name="Label" transform="translate(744 111)" fill="#afafbb" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
     <g id="Component_26_6" data-name="Component 26 – 6" transform="translate(308 95)">
       <g id="Rectangle_10027" data-name="Rectangle 10027" fill="#fff" stroke="#9494a4" stroke-width="2">
         <rect width="20" height="20" rx="1" stroke="none"/>
@@ -92,7 +92,7 @@
       </g>
     </g>
     <g id="Checkbox_-_deselected-3" data-name="Checkbox - deselected" transform="translate(435 95)">
-      <g id="Rectangle_10027-4" data-name="Rectangle 10027" fill="#fff" stroke="#9494a4" stroke-width="2">
+      <g id="Rectangle_10027-4" data-name="Rectangle 10027" fill="#fff" stroke="#606071" stroke-width="2">
         <rect width="20" height="20" rx="1" stroke="none"/>
         <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
       </g>
