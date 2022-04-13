@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="97" viewBox="0 0 1000 97">
+  <defs>
+    <clipPath id="clip-button-docs--destructivesecondary">
+      <rect width="1000" height="97"/>
+    </clipPath>
+  </defs>
+  <g id="button-docs--destructivesecondary" clip-path="url(#clip-button-docs--destructivesecondary)">
+    <rect width="1000" height="97" fill="#f4f4f6"/>
+    <g id="Secondary_Button_-_Normal" data-name="Secondary Button - Normal" transform="translate(463 30.5)">
+      <g id="Rectangle_3991" data-name="Rectangle 3991" fill="none" stroke="#cbcbd2" stroke-width="1">
+        <rect width="72.93" height="36" rx="18" stroke="none"/>
+        <rect x="0.5" y="0.5" width="71.93" height="35" rx="17.5" fill="none"/>
+      </g>
+      <text id="Delete" transform="translate(16 23)" fill="#d93911" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Delete</tspan></text>
+    </g>
+  </g>
+</svg>
