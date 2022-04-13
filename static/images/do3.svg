@@ -1,0 +1,27 @@
+<svg id="Do3" xmlns="http://www.w3.org/2000/svg" width="495" height="283" viewBox="0 0 495 283">
+  <rect id="Rectangle_9977" data-name="Rectangle 9977" width="495" height="283" fill="#f4f4f6"/>
+  <g id="Group_264527" data-name="Group 264527" transform="translate(1)">
+    <text id="Dental" transform="translate(248 148)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dental</tspan></text>
+    <g id="Checked" transform="translate(214 130)">
+      <path id="Path_5845" data-name="Path 5845" d="M46.2,0h-18a2.971,2.971,0,0,0-3,3V21a2.971,2.971,0,0,0,3,3h18a2.971,2.971,0,0,0,3-3V3A2.971,2.971,0,0,0,46.2,0ZM44.64,8.52l-8.76,8.76a1.16,1.16,0,0,1-1.68,0l-4.32-4.32a1.188,1.188,0,0,1,1.68-1.68l3.48,3.48,7.92-7.92a1.16,1.16,0,0,1,1.68,0A1.442,1.442,0,0,1,44.64,8.52Z" transform="translate(-25.2)" fill="#2777d3"/>
+    </g>
+  </g>
+  <g id="Group_264528" data-name="Group 264528" transform="translate(-3)">
+    <text id="Medical" transform="translate(139 147)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Medical</tspan></text>
+    <g id="Component_26_14" data-name="Component 26 – 14" transform="translate(107 132)">
+      <g id="Rectangle_10027" data-name="Rectangle 10027" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <rect width="20" height="20" rx="1" stroke="none"/>
+        <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_264526" data-name="Group 264526" transform="translate(3)">
+    <text id="Vision" transform="translate(348 147)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Vision</tspan></text>
+    <g id="Component_26_15" data-name="Component 26 – 15" transform="translate(316 132)">
+      <g id="Rectangle_10027-2" data-name="Rectangle 10027" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <rect width="20" height="20" rx="1" stroke="none"/>
+        <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
