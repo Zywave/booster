@@ -70,53 +70,45 @@ For detailed documentation on Tables, \[view the Table design specs](/design-sys
 
 ## When to use
 
-<table class="zui table">
-
-<thead>
-<th>Type</th>
-<th>Use case</th>
-<th>Goal</th>
-</thead>
-<tbody>
-
-<tr>
-<td>First use</td>
-<td>Occurs in a new product when the user has not started a workflow. For example:<br>
-<ul>
-<li>when starting a new project</li>
-<li>user's first time entering a product</li>
-</ul>
-</td>
-<td>Explain to the user where and how to get started within the new product</td>
-</tr>
-<tr>
-<td>No results data</td>
-<td>Occurs when the user has successfuly completed an action or query but no results or data is returned. For example:<br>
-
-<li>no data to show within the component or application</li>
-
-<li>no results from search query</li>
-
-<li>image preview is unavailable</li>
-
-</td>
-<td>User understands empty state and is enabled to add data or correct query</td>
-</tr>
-
-<tr>
-<td>User cleared</td>
-<td>Occurs when the user has cleared all data on the page. For example:<br>
-
-<li>user has deleted all notifications in an inbox</li>
-
-<li>user has cleared all results in a table</li>
-
-</td>
-<td>Explain to the user why no data is being shown in an inbox or table</td>
-</tr>
-
-</tbody>
-
+<table>
+  <thead>
+    <th>Type</th>
+    <th>Use case</th>
+    <th>Goal</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First use</td>
+      <td>Occurs in a new product when the user has not started a workflow. For example:<br>
+        <ul>
+        <li>when starting a new project</li>
+        <li>user's first time entering a product</li>
+        </ul>
+      </td>
+      <td>Explain to the user where and how to get started within the new product</td>
+    </tr>
+    <tr>
+      <td>No results data</td>
+      <td>Occurs when the user has successfuly completed an action or query but no results or data is returned. For example:
+        <ul>
+        <li>no data to show within the component or application</li>
+        <li>no results from search query</li>
+        <li>image preview is unavailable</li>
+        </ul>
+      </td>
+      <td>User understands empty state and is enabled to add data or correct query</td>
+    </tr>
+    <tr>
+      <td>User cleared</td>
+      <td>Occurs when the user has cleared all data on the page. For example:
+        <ul>
+          <li>user has deleted all notifications in an inbox</li>
+          <li>user has cleared all results in a table</li>
+        </ul>
+      </td>
+      <td>Explain to the user why no data is being shown in an inbox or table</td>
+    </tr>
+  </tbody>
 </table>
 
 - - -
