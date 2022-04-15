@@ -51,15 +51,15 @@
     text-align: right;
   }
   
-  .primary-branding-colors .levels .zui-blue {
+  .primary-branding-colors .levels .color-palette.blue {
     display: flex;
   }
   
-  .primary-branding-colors .levels .zui-blue > div {
+  .primary-branding-colors .levels .color-palette.blue > div {
     flex: 1;
   }
   
-  .primary-branding-colors .levels .zui-blue > div > .color {
+  .primary-branding-colors .levels .color-palette.blue > div > .color {
     width: 100%;
     height: rem(80);
   }
@@ -87,14 +87,26 @@
   }
   
   /* Expanded color palette */
-  table[class^='zui-'],
-  table[class^='zui-'] td {
-    border: 0;
-    box-shadow: none;
-  }
-  
-  table[class^='zui-'] td {
-    padding: rem(8);
+
+  .color-palette {
+    td {
+      border-left: 1px solid var(--zui-gray-100);
+      text-transform: uppercase;
+      padding: rem(8);
+
+      &:first-child {
+        width: 5ch;
+        border-left: 0;
+      }
+      
+      &.no-text-transform {
+        text-transform: unset;
+      }
+
+      &.color {
+        width: rem(100);
+      }
+    }
   }
   
   .level-500 {
@@ -115,301 +127,284 @@
     margin-bottom: 0;
   }
   
-  table[class^='zui-'] td {
-    border-left: 1px solid var(--zui-gray-100);
-    text-transform: uppercase;
-  }
-
-  table[class^='zui-'] td.no-text-transform {
-    text-transform: unset;
-  }
-  
-  table[class^='zui-'] td:first-child {
-    border-left: 0;
-  }
-  
-  table[class^='zui-'] td.color {
-    width: rem(100);
-  }
-  
   /* ZUI Blue */
-  .zui-blue .level-50 .color {
+  .color-palette.blue .level-50 .color {
     background: var(--zui-blue-50);
   }
   
-  .zui-blue .level-100 .color {
+  .color-palette.blue .level-100 .color {
     background: var(--zui-blue-100);
   }
   
-  .zui-blue .level-200 .color {
+  .color-palette.blue .level-200 .color {
     background: var(--zui-blue-200);
   }
   
-  .zui-blue .level-300 .color {
+  .color-palette.blue .level-300 .color {
     background: var(--zui-blue-300);
   }
   
-  .zui-blue .level-400 .color {
+  .color-palette.blue .level-400 .color {
     background: var(--zui-blue-400);
   }
   
-  .zui-blue .level-500 .color {
+  .color-palette.blue .level-500 .color {
     background: var(--zui-blue-500);
   }
   
-  .zui-blue .level-600 .color {
+  .color-palette.blue .level-600 .color {
     background: var(--zui-blue-600);
   }
   
-  .zui-blue .level-700 .color {
+  .color-palette.blue .level-700 .color {
     background: var(--zui-blue-700);
   }
   
   /* ZUI Green */
-  .zui-green .level-100 .color {
+  .color-palette.green .level-100 .color {
     background: var(--zui-green-100);
   }
   
-  .zui-green .level-200 .color {
+  .color-palette.green .level-200 .color {
     background: var(--zui-green-200);
   }
   
-  .zui-green .level-300 .color {
+  .color-palette.green .level-300 .color {
     background: var(--zui-green-300);
   }
   
-  .zui-green .level-400 .color {
+  .color-palette.green .level-400 .color {
     background: var(--zui-green-400);
   }
   
-  .zui-green .level-500 .color {
+  .color-palette.green .level-500 .color {
     background: var(--zui-green-500);
   }
   
-  .zui-green .level-600 .color {
+  .color-palette.green .level-600 .color {
     background: var(--zui-green-600);
   }
   
-  .zui-green .level-700 .color {
+  .color-palette.green .level-700 .color {
     background: var(--zui-green-700);
   }
   
   /* ZUI Aqua */
-  .zui-aqua .level-100 .color {
+  .color-palette.aqua .level-100 .color {
     background: var(--zui-aqua-100);
   }
   
-  .zui-aqua .level-200 .color {
+  .color-palette.aqua .level-200 .color {
     background: var(--zui-aqua-200);
   }
   
-  .zui-aqua .level-300 .color {
+  .color-palette.aqua .level-300 .color {
     background: var(--zui-aqua-300);
   }
   
-  .zui-aqua .level-400 .color {
+  .color-palette.aqua .level-400 .color {
     background: var(--zui-aqua-400);
   }
   
-  .zui-aqua .level-500 .color {
+  .color-palette.aqua .level-500 .color {
     background: var(--zui-aqua-500);
   }
   
-  .zui-aqua .level-600 .color {
+  .color-palette.aqua .level-600 .color {
     background: var(--zui-aqua-600);
   }
   
-  .zui-aqua .level-700 .color {
+  .color-palette.aqua .level-700 .color {
     background: var(--zui-aqua-700);
   }
   
   /* ZUI Purple */
-  .zui-purple .level-100 .color {
+  .color-palette.purple .level-100 .color {
     background: var(--zui-purple-100);
   }
   
-  .zui-purple .level-200 .color {
+  .color-palette.purple .level-200 .color {
     background: var(--zui-purple-200);
   }
   
-  .zui-purple .level-300 .color {
+  .color-palette.purple .level-300 .color {
     background: var(--zui-purple-300);
   }
   
-  .zui-purple .level-400 .color {
+  .color-palette.purple .level-400 .color {
     background: var(--zui-purple-400);
   }
   
-  .zui-purple .level-500 .color {
+  .color-palette.purple .level-500 .color {
     background: var(--zui-purple-500);
   }
   
-  .zui-purple .level-600 .color {
+  .color-palette.purple .level-600 .color {
     background: var(--zui-purple-600);
   }
   
-  .zui-purple .level-700 .color {
+  .color-palette.purple .level-700 .color {
     background: var(--zui-purple-700);
   }
   
   /* ZUI Rose */
-  .zui-rose .level-100 .color {
+  .color-palette.rose .level-100 .color {
     background: var(--zui-rose-100);
   }
   
-  .zui-rose .level-200 .color {
+  .color-palette.rose .level-200 .color {
     background: var(--zui-rose-200);
   }
   
-  .zui-rose .level-300 .color {
+  .color-palette.rose .level-300 .color {
     background: var(--zui-rose-300);
   }
   
-  .zui-rose .level-400 .color {
+  .color-palette.rose .level-400 .color {
     background: var(--zui-rose-400);
   }
   
-  .zui-rose .level-500 .color {
+  .color-palette.rose .level-500 .color {
     background: var(--zui-rose-500);
   }
   
-  .zui-rose .level-600 .color {
+  .color-palette.rose .level-600 .color {
     background: var(--zui-rose-600);
   }
   
-  .zui-rose .level-700 .color {
+  .color-palette.rose .level-700 .color {
     background: var(--zui-rose-700);
   }
   
   /* ZUI Red */
-  .zui-red .level-100 .color {
+  .color-palette.red .level-100 .color {
     background: var(--zui-red-100);
   }
   
-  .zui-red .level-200 .color {
+  .color-palette.red .level-200 .color {
     background: var(--zui-red-200);
   }
   
-  .zui-red .level-300 .color {
+  .color-palette.red .level-300 .color {
     background: var(--zui-red-300);
   }
   
-  .zui-red .level-400 .color {
+  .color-palette.red .level-400 .color {
     background: var(--zui-red-400);
   }
   
-  .zui-red .level-500 .color {
+  .color-palette.red .level-500 .color {
     background: var(--zui-red-500);
   }
   
-  .zui-red .level-600 .color {
+  .color-palette.red .level-600 .color {
     background: var(--zui-red-600);
   }
   
-  .zui-red .level-700 .color {
+  .color-palette.red .level-700 .color {
     background: var(--zui-red-700);
   }
   
   /* ZUI Orange */
-  .zui-orange .level-100 .color {
+  .color-palette.orange .level-100 .color {
     background: var(--zui-orange-100);
   }
   
-  .zui-orange .level-200 .color {
+  .color-palette.orange .level-200 .color {
     background: var(--zui-orange-200);
   }
   
-  .zui-orange .level-300 .color {
+  .color-palette.orange .level-300 .color {
     background: var(--zui-orange-300);
   }
   
-  .zui-orange .level-400 .color {
+  .color-palette.orange .level-400 .color {
     background: var(--zui-orange-400);
   }
   
-  .zui-orange .level-500 .color {
+  .color-palette.orange .level-500 .color {
     background: var(--zui-orange-500);
   }
   
-  .zui-orange .level-600 .color {
+  .color-palette.orange .level-600 .color {
     background: var(--zui-orange-600);
   }
   
-  .zui-orange .level-700 .color {
+  .color-palette.orange .level-700 .color {
     background: var(--zui-orange-700);
   }
   
   /* ZUI Yellow */
-  .zui-yellow .level-100 .color {
+  .color-palette.yellow .level-100 .color {
     background: var(--zui-yellow-100);
   }
   
-  .zui-yellow .level-200 .color {
+  .color-palette.yellow .level-200 .color {
     background: var(--zui-yellow-200);
   }
   
-  .zui-yellow .level-300 .color {
+  .color-palette.yellow .level-300 .color {
     background: var(--zui-yellow-300);
   }
   
-  .zui-yellow .level-400 .color {
+  .color-palette.yellow .level-400 .color {
     background: var(--zui-yellow-400);
   }
   
-  .zui-yellow .level-500 .color {
+  .color-palette.yellow .level-500 .color {
     background: var(--zui-yellow-500);
   }
   
-  .zui-yellow .level-600 .color {
+  .color-palette.yellow .level-600 .color {
     background: var(--zui-yellow-600);
   }
   
-  .zui-yellow .level-700 .color {
+  .color-palette.yellow .level-700 .color {
     background: var(--zui-yellow-700);
   }
   
   /* ZUI Gray */
-  .zui-gray .level-25 .color {
+  .color-palette.gray .level-25 .color {
     background: var(--zui-gray-25);
   }
   
-  .zui-gray .level-50 .color {
+  .color-palette.gray .level-50 .color {
     background: var(--zui-gray-50);
   }
   
-  .zui-gray .level-100 .color {
+  .color-palette.gray .level-100 .color {
     background: var(--zui-gray-100);
   }
   
-  .zui-gray .level-200 .color {
+  .color-palette.gray .level-200 .color {
     background: var(--zui-gray-200);
   }
   
-  .zui-gray .level-300 .color {
+  .color-palette.gray .level-300 .color {
     background: var(--zui-gray-300);
   }
   
-  .zui-gray .level-400 .color {
+  .color-palette.gray .level-400 .color {
     background: var(--zui-gray-400);
   }
   
-  .zui-gray .level-500 .color {
+  .color-palette.gray .level-500 .color {
     background: var(--zui-gray-500);
   }
   
-  .zui-gray .level-600 .color {
+  .color-palette.gray .level-600 .color {
     background: var(--zui-gray-600);
   }
   
-  .zui-gray .level-700 .color {
+  .color-palette.gray .level-700 .color {
     background: var(--zui-gray-700);
   }
   
-  .zui-gray .level-800 .color {
+  .color-palette.gray .level-800 .color {
     background: var(--zui-gray-800);
   }
   
-  .zui-gray .level-900 .color {
+  .color-palette.gray .level-900 .color {
     background: var(--zui-gray-900);
   }
   
@@ -470,239 +465,276 @@
     font-weight: 600;
   }
   
-  .zui-zywave .color {
+  .color-palette.zywave .color {
     background: var(--zui-zywave);
   }
   
-  .zui-blue-50 .color {
+  .color-palette.blue-50 .color {
     background: var(--zui-blue-50);
   }
   
-  .zui-blue-100 .color {
+  .color-palette.blue-100 .color {
     background: var(--zui-blue-100);
   }
   
-  .zui-blue-200 .color {
+  .color-palette.blue-200 .color {
     background: var(--zui-blue-200);
   }
   
-  .zui-blue-300 .color {
+  .color-palette.blue-300 .color {
     background: var(--zui-blue-300);
   }
   
-  .zui-blue-400 .color {
+  .color-palette.blue-400 .color {
     background: var(--zui-blue-400);
   }
   
-  .zui-blue-500 .color {
+  .color-palette.blue-500 .color {
     background: var(--zui-blue-500);
   }
   
-  .zui-blue-600 .color {
+  .color-palette.blue-600 .color {
     background: var(--zui-blue-600);
   }
   
-  .zui-blue-700 .color {
+  .color-palette.blue-700 .color {
     background: var(--zui-blue-700);
   }
   
-  .zui-green-100 .color {
+  .color-palette.green-100 .color {
     background: var(--zui-green-100);
   }
   
-  .zui-green-200 .color {
+  .color-palette.green-200 .color {
     background: var(--zui-green-200);
   }
   
-  .zui-green-300 .color {
+  .color-palette.green-300 .color {
     background: var(--zui-green-300);
   }
   
-  .zui-green-400 .color {
+  .color-palette.green-400 .color {
     background: var(--zui-green-400);
   }
   
-  .zui-green-500 .color {
+  .color-palette.green-500 .color {
     background: var(--zui-green-500);
   }
   
-  .zui-green-600 .color {
+  .color-palette.green-600 .color {
     background: var(--zui-green-600);
   }
   
-  .zui-green-700 .color {
+  .color-palette.green-700 .color {
     background: var(--zui-green-700);
   }
   
-  .zui-aqua-100 .color {
+  .color-palette.aqua-100 .color {
     background: var(--zui-aqua-100);
   }
   
-  .zui-aqua-200 .color {
+  .color-palette.aqua-200 .color {
     background: var(--zui-aqua-200);
   }
   
-  .zui-aqua-300 .color {
+  .color-palette.aqua-300 .color {
     background: var(--zui-aqua-100);
   }
   
-  .zui-aqua-100 .color {
+  .color-palette.aqua-100 .color {
     background: var(--zui-aqua-300);
   }
   
-  .zui-aqua-400 .color {
+  .color-palette.aqua-400 .color {
     background: var(--zui-aqua-400);
   }
   
-  .zui-aqua-500 .color {
+  .color-palette.aqua-500 .color {
     background: var(--zui-aqua-500);
   }
   
-  .zui-aqua-600 .color {
+  .color-palette.aqua-600 .color {
     background: var(--zui-aqua-600);
   }
   
-  .zui-aqua-700 .color {
+  .color-palette.aqua-700 .color {
     background: var(--zui-aqua-700);
   }
   
-  .zui-purple-100 .color {
+  .color-palette.purple-100 .color {
     background: var(--zui-purple-100);
   }
   
-  .zui-purple-200 .color {
+  .color-palette.purple-200 .color {
     background: var(--zui-purple-200);
   }
   
-  .zui-purple-300 .color {
+  .color-palette.purple-300 .color {
     background: var(--zui-purple-300);
   }
   
-  .zui-purple-400 .color {
+  .color-palette.purple-400 .color {
     background: var(--zui-purple-400);
   }
   
-  .zui-purple-500 .color {
+  .color-palette.purple-500 .color {
     background: var(--zui-purple-500);
   }
   
-  .zui-purple-600 .color {
+  .color-palette.purple-600 .color {
     background: var(--zui-purple-600);
   }
   
-  .zui-purple-700 .color {
+  .color-palette.purple-700 .color {
     background: var(--zui-purple-700);
   }
   
-  .zui-rose-100 .color {
+  .color-palette.rose-100 .color {
     background: var(--zui-rose-100);
   }
   
-  .zui-rose-200 .color {
+  .color-palette.rose-200 .color {
     background: var(--zui-rose-200);
   }
   
-  .zui-rose-300 .color {
+  .color-palette.rose-300 .color {
     background: var(--zui-rose-300);
   }
   
-  .zui-rose-400 .color {
+  .color-palette.rose-400 .color {
     background: var(--zui-rose-400);
   }
   
-  .zui-rose-500 .color {
+  .color-palette.rose-500 .color {
     background: var(--zui-rose-500);
   }
   
-  .zui-rose-600 .color {
+  .color-palette.rose-600 .color {
     background: var(--zui-rose-600);
   }
   
-  .zui-rose-700 .color {
+  .color-palette.rose-700 .color {
     background: var(--zui-rose-700);
   }
   
-  .zui-red-100 .color {
+  .color-palette.red-100 .color {
     background: var(--zui-red-100);
   }
   
-  .zui-red-200 .color {
+  .color-palette.red-200 .color {
     background: var(--zui-red-200);
   }
   
-  .zui-red-300 .color {
+  .color-palette.red-300 .color {
     background: var(--zui-red-300);
   }
   
-  .zui-red-400 .color {
+  .color-palette.red-400 .color {
     background: var(--zui-red-400);
   }
   
-  .zui-red-500 .color {
+  .color-palette.red-500 .color {
     background: var(--zui-red-500);
   }
   
-  .zui-red-600 .color {
+  .color-palette.red-600 .color {
     background: var(--zui-red-600);
   }
   
-  .zui-red-700 .color {
+  .color-palette.red-700 .color {
     background: var(--zui-red-700);
   }
   
-  .zui-orange-100 .color {
+  .color-palette.orange-100 .color {
     background: var(--zui-orange-100);
   }
   
-  .zui-orange-200 .color {
+  .color-palette.orange-200 .color {
     background: var(--zui-orange-200);
   }
   
-  .zui-orange-300 .color {
+  .color-palette.orange-300 .color {
     background: var(--zui-orange-300);
   }
   
-  .zui-orange-400 .color {
+  .color-palette.orange-400 .color {
     background: var(--zui-orange-400);
   }
   
-  .zui-orange-500 .color {
+  .color-palette.orange-500 .color {
     background: var(--zui-orange-500);
   }
   
-  .zui-orange-600 .color {
+  .color-palette.orange-600 .color {
     background: var(--zui-orange-600);
   }
   
-  .zui-orange-700 .color {
+  .color-palette.orange-700 .color {
     background: var(--zui-orange-700);
   }
   
-  .zui-yellow-100 .color {
+  .color-palette.yellow-100 .color {
     background: var(--zui-yellow-100);
   }
   
-  .zui-yellow-200 .color {
+  .color-palette.yellow-200 .color {
     background: var(--zui-yellow-200);
   }
   
-  .zui-yellow-300 .color {
+  .color-palette.yellow-300 .color {
     background: var(--zui-yellow-300);
   }
   
-  .zui-yellow-400 .color {
+  .color-palette.yellow-400 .color {
     background: var(--zui-yellow-400);
   }
   
-  .zui-yellow-500 .color {
+  .color-palette.yellow-500 .color {
     background: var(--zui-yellow-500);
   }
   
-  .zui-yellow-600 .color {
+  .color-palette.yellow-600 .color {
     background: var(--zui-yellow-600);
   }
   
-  .zui-yellow-700 .color {
+  .color-palette.yellow-700 .color {
     background: var(--zui-yellow-700);
   }
   
+  /* Color meanings */
+  .color-meanings-table {
+    table-layout: auto;
+
+    .color {
+      width: 100px;
+      height: 100px;
+
+      &.red {
+        background-color: var(--zui-red-500);
+      }
+
+      &.green {
+        background-color: var(--zui-green);
+      }
+
+      &.yellow {
+        background-color: var(--zui-yellow-500);
+      }
+
+      &.blue {
+        background-color: var(--zui-blue-500);
+      }
+
+      &.gray {
+        background-color: var(--zui-gray-200);
+      }
+
+      &.purple {
+        background-color: var(--zui-purple-500);
+      }
+    }
+
+    td:nth-child(2) {
+      width: 10ch;
+    }
+  }
