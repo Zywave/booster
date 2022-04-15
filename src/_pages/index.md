@@ -55,7 +55,7 @@ subtitle: " "
         <div class="card secondary">
             <h2>Glossary </h2>
             <p>A constellation of all of our patterns, components and key terms.</p>
-            <a href="{{ '/coming-soon/' | url }}">View our glossary ➔</a>
+            <a href="{{ '#' | url }}">View our glossary ➔</a>
         </div>
         <div class="card secondary">
             <h2>Branding </h2>
