@@ -52,6 +52,7 @@ Zywave Shell is part of the Booster Application Framework and consists of API-dr
 
 If your applications meets the requirements to use Zywave Shell, these are the built-in features they will receive:
 
+- Auto-generated ZUI Shell
 - Consistent cross-suite navigation
 - Topbar branding
 - User information retrieval and display
