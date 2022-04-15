@@ -5,7 +5,7 @@ title: Getting started
 
 ## Using the Booster Development Network components
 
-You may follow the design standards and UI/UX best practices on this documentation site when building your applications. Design specs are included for most of our components if you'd like to create them from scratch, but we highly recommend using our custom elements because you will get continual enhancements without having to make changes on your end. We aim to simplify and streamline the process of building UIs by offering framework-agnostic custom elements that we ensure will follow Zywave's design standards, including mobile responsiveness. These custom elements are part of two major sections that make up the Booster Development Network: design system and application framework.
+You may follow the design standards and UI/UX best practices in this documentation site when building your applications. Design specs are included for most of our components if you'd like to create them from scratch, but we highly recommend using our custom elements because you will get continual enhancements without having to make changes on your end. We aim to simplify and streamline the process of building UIs by offering framework-agnostic custom elements that we ensure will follow Zywave's design standards, including mobile responsiveness. These custom elements are part of two major sections that make up the Booster Development Network: design system and application framework.
 
 <docs-spacer></docs-spacer>
 
@@ -19,7 +19,7 @@ If you're looking for design guidance or components to build your user interface
 
 ## Booster Application Framework
 
-Looking to integrate your applications into the Zywave suite? The Booster Application Framework provides a collection of API-driven components and tools to help you quickly build Zywave-integrated applications. It greatly reduces the time to build applications by making your applications look and feel like "one Zywave" application. One caveat with using these components is your applications must support Zywave Auth.
+Looking to integrate your applications into the Zywave suite? The Booster Application Framework provides a collection of API-driven components and tools to help you quickly build Zywave-integrated applications. It greatly reduces the time to build applications by making your applications look and feel like "one Zywave" application. One caveat with using these components is your applications **must support Zywave Auth**.
 
 [Learn how to install our application framework components into your application!](/application-framework/developers/installation/)
 
@@ -77,7 +77,7 @@ Both may appear the same visually because Zywave Shell actually auto-generates Z
 
 ### Why use Zywave Shell?
 
-Zywave Shell takes most of the configuration and decision-making out of your hands by preconfiguring many features:
+Zywave Shell takes most of the configuration and decision-making out of your hands by preconfiguring many features compared to ZUI Shell:
 
 | ZUI Shell | Zywave Shell | Similarities |
 | -- | -- | -- |
