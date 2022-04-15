@@ -58,7 +58,7 @@ If your applications meets the requirements to use Zywave Shell, these are the b
 - Pre-configured analytics
 - Consistent footer
 
-[Learn more about Zywave Shell.](https://booster.zywave.dev/application-framework/components/shell/?tab=usage)
+[Learn more about Zywave Shell.](/application-framework/components/shell/?tab=usage)
 
 <docs-spacer size="small"></docs-spacer>
 
