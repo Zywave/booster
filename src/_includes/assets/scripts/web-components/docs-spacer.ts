@@ -26,7 +26,7 @@ const css = `
     }
 
     .spacer.small {
-      height: 2.8125re,; /* 45 / 16 */
+      height: 2.8125rem; /* 45 / 16 */
     }
   }
 `;
