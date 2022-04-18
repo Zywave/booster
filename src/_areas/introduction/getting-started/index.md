@@ -21,6 +21,6 @@ If you're looking for design guidance or components to build your user interface
 
 ## Booster Application Framework
 
-Looking to integrate your applications into the Zywave suite? The Booster Application Framework provides a collection of API-driven components and tools to help you quickly build Zywave-integrated applications. It greatly reduces the time to build applications by making your applications look and feel like "one Zywave" application. One caveat with using these components is your applications **must support Zywave Auth**.
+Looking to integrate your applications into the Zywave suite? The Booster Application Framework provides a collection of API-driven components and tools to help you quickly build Zywave-integrated applications. It greatly reduces the time to build applications by making your applications look and feel like "one Zywave" application. One catch to using these components is your applications **must support Zywave Auth**.
 
 [Learn more about the application framework.](/application-framework/about/)

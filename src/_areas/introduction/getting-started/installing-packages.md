@@ -5,13 +5,11 @@ title: Installing packages
 
 Part of making utilization of Booster components effortless is packaging our components into two bundles that you can quickly embed in your application. The recommended way to use our components is to embed the bundles via the Zywave CDN, but you can also install them via Yarn or NPM for a more à la carte experience.
 
-When embedding via a CDN, these bundles are delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), and only work in modern browsers.
-
 Another advantage to loading these bundles via a CDN that can resolve npm tags is it allows us to push fixes/enhancements to your application without any deployment on your end.
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note>All bundles are distributed as standard ES modules. You must deliver or package these accordingly.</docs-note>
+<docs-note>All bundles are distributed as standard [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and only work in modern browsers. You must deliver or package these accordingly.</docs-note>
 
 <docs-spacer></docs-spacer>
 
@@ -34,7 +32,7 @@ Gain access to the Booster Design System&mdash;commonly known as the Zywave User
 
 ### Required files
 There are **three required files** in order for the Booster Design System bundle to work properly in every application:
-1. `zui-bundle.fouc.css` - required for a smooth transition while all the scripts on the page loads, especially for Internet Explorer 11
+1. `zui-bundle.fouc.css` - required for a smooth transition while all the scripts on the page loads, especially for non-SPAs
 1. `zui-bundle.app.css` - required for resetting styles for all base elements in your application
 1. `bundle.js`* - required to load **most** ZUI components** properly
 
@@ -46,8 +44,8 @@ There are **three required files** in order for the Booster Design System bundle
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note>* The `bundle.js` file is delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, e.g. `<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>`.<br>
-** There are some exceptions to what components are part of the ZUI bundle. For example, `<zui-table>` must be embedded separately. [Learn more by visiting the Tables documentation.](/design-system/components/tables/)</docs-note>
+<docs-note><strong>*</strong> The `bundle.js` file is delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, e.g. `<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>`.
+<strong>**</strong> There are some exceptions to what components are part of the ZUI bundle. For example, `<zui-table>` must be embedded separately. [Learn more by visiting the Tables documentation.](/design-system/components/tables/)</docs-note>
 
 <docs-spacer size="small"></docs-spacer>
 

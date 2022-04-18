@@ -24,7 +24,7 @@ However, the most common (and recommended) way to install the toolkit is via a C
 ### Required files
 
 There are **four required files** in order for the Booster Application Framework bundle to work propertly in every application:
-1. `zui-bundle.fouc.css` - required for a smooth transition while all the scripts on the page loads, especially for Internet Explorer 11
+1. `zui-bundle.fouc.css` - required for a smooth transition while all the scripts on the page loads, especially for non-SPAs
 1. `zui-bundle.app.css` - required for resetting styles for all base elements in your application
 1. zui-bundle's `bundle.js`* - required to load **most** ZUI components properly
 1. zywave-api-toolkit-bundle's `bundle.js`* - required to load **all** ZAPI components properly
@@ -35,8 +35,8 @@ There are **four required files** in order for the Booster Application Framework
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note>* Both `bundle.js` files are delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, e.g. `<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>`<br>
-** There are some exceptions to what components are part of the ZUI bundle. For example, `<zui-table>` must be embedded separately. [Learn more by visiting the Tables documentation.](/design-system/components/tables/)</docs-note>
+<docs-note><strong>*</strong> The `bundle.js` file is delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, e.g. `<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>`.
+<strong>**</strong> There are some exceptions to what components are part of the ZUI bundle. For example, `<zui-table>` must be embedded separately. [Learn more by visiting the Tables documentation.](/design-system/components/tables/)</docs-note>
 
 <docs-spacer size="small"></docs-spacer>
 
