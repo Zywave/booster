@@ -1,0 +1,41 @@
+@layer defaults {
+  table {
+    table-layout: fixed;
+    width: 100%;
+    max-width: rem(960);
+    border-collapse: collapse;
+    border-spacing: 0;
+  
+    thead {
+      border-bottom: 1px solid var(--docs-gray-color);
+    }
+
+    th {
+      text-align: left;
+      padding: rem(8.5) rem(20);
+    }
+
+    tr {
+      border-bottom: 1px solid hsla(var(--docs-gray-color-h), var(--docs-gray-color-s), var(--docs-gray-color-l), 0.3);
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+
+    td {
+      vertical-align: top;
+      padding: rem(13) rem(20);
+    }
+
+    th, td {
+      &:first-child {
+        padding-left: 0;
+      }
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }  
+}

@@ -13,7 +13,7 @@ subtitle: " "
             <div class="logo"><img src="/images/home/zywave-logo.svg" /></div>
             <nav>
                 <ul>
-                    <li><a href="{{ '/getting-started/' | url }}">Getting started</a></li>
+                    <li><a href="{{ '/introduction/about/' | url }}">Introduction</a></li>
                     <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
                     <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
                     <li><a href="{{ '/blog/' | url }}">Blog</a></li>
@@ -55,7 +55,7 @@ subtitle: " "
         <div class="card secondary">
             <h2>Glossary </h2>
             <p>A constellation of all of our patterns, components and key terms.</p>
-            <a href="{{ '/coming-soon/' | url }}">View our glossary ➔</a>
+            <a href="{{ '#' | url }}">View our glossary ➔</a>
         </div>
         <div class="card secondary">
             <h2>Branding </h2>

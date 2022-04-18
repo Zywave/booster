@@ -1,29 +1,25 @@
 ---
 layout: documentation
-title: Getting Started
-subtitle: This page is still a work in progress.
+title: Contribute to the documentation
 ---
-## Booster Development Network
 
-What we'd like to share in this section is an in-depth explanation of what the Booster Development Network is and if it's the right fit for your project(s).
+This guide is to empower our community to contribute to the docs with recommendations, rules, and helpful resources.
 
-- - -
+<docs-spacer></docs-spacer>
 
-## Contribute to the docs
-
-This guide is to empower our community to contribute to the docs with some recommendations, rules, and helpful resources.
-
-### Format docs with custom elements
+## Format docs with custom elements
 
 To maintain consistency, we've created custom elements for patterns that are commonly used throughout the docs.
 
-#### Do and do not
+<docs-spacer size="small"></docs-spacer>
+
+### Do and do not
 
 Best practices for using components are often called out with examples in two categories: do and do not. Use these custom elements to help convey good and bad practices when writing documentation.
 
 <docs-spacer size="small"></docs-spacer>
 
-##### Do
+#### Do
 
 Calls out examples of good practices.
 
@@ -44,7 +40,7 @@ You can provide your own HTML markup in here, such as an unordered list, if you 
 
 <docs-spacer size="small"></docs-spacer>
 
-##### Do not
+#### Do not
 
 Calls out examples of bad practices.
 
@@ -72,11 +68,13 @@ You can provide your own HTML markup in here, such as an unordered list, if you 
 
 ---
 
-#### Spacers
+### Spacers
 
-To help with spacing consistency between content, we have two spacer sizes.
+To help with spacing consistency between content, we have two spacer sizes: regular and small.
 
-##### Regular spacer
+<docs-spacer size="small"></docs-spacer>
+
+#### Regular spacer
 
 The regular spacer provides a substantial amount of space between sections.
 
@@ -98,7 +96,7 @@ I am section B and want some space from section A.
 
 <docs-spacer size="small"></docs-spacer>
 
-##### Small spacer
+#### Small spacer
 
 If you want a smaller spacer, you can set this by adding the attribute `size="small"` to `<docs-spacer>`.
 
@@ -120,7 +118,7 @@ I am section B and I want a small amount of space from section B.
 
 ---
 
-#### Grid system
+### Grid system
 
 To make writing documentation in Markdown and HTML as simple as possible, we've chosen to simplify the grid system down to a single row where you can set the number of columns you want in your "grid."
 
