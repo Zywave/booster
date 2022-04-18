@@ -20,5 +20,8 @@
 @import 'components/top-nav.scss';
 @import 'components/top-nav-lite.scss';
 
+/* FOUC styles for web components */
+@import 'components/docs-fouc.scss';
+
 /* helper class styles */
 @import 'utils/helpers.scss';
