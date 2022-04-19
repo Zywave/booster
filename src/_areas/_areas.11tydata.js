@@ -65,30 +65,36 @@ function parseMetadata(dataOrFilePath) {
   }
 }
 
+function* getFiles(dir) {
+  const dirents = fs.readdirSync(dir, { withFileTypes: true });
+  for (const dirent of dirents) {
+    const res = path.resolve(dir, dirent.name);
+    if (dirent.isDirectory()) {
+      yield* getFiles(res);
+    } else {
+      yield { file: dirent, directory: path.dirname(res) };
+    }
+  }
+}
+
 /**
  *
  * @param {fs.Dirent} dir
  * @returns
  */
 function findFirstFile(dir) {
-  const directoryContents = fs.readdirSync(dir, { withFileTypes: true });
-  let firstFile = directoryContents.find(x => x.isFile());
-  let directory = dir;
-  if (!firstFile) {
-    // we try once more to find an index file in a child directory, otherwise we fail
-    for (const childDir of directoryContents) {
-      const childDirContents = fs.readdirSync(path.join(dir, childDir.name), { withFileTypes: true });
-      firstFile = childDirContents.find(p => p.isFile());
-      directory = path.join(dir, childDir.name);
-      if (firstFile) {
-        break;
-      }
+  let f, d;
+  for (const { file, directory } of getFiles(dir)) {
+    if (file) {
+      f = file;
+      d = directory;
+      break;
     }
   }
 
   return {
-    file: firstFile,
-    directory,
+    file: f,
+    directory: d,
   };
 }
 
@@ -129,26 +135,40 @@ module.exports = {
     navItems: data => {
       // TODO: allow overriding of nav item order
       if (data.page?.inputPath?.length) {
-        let dirname = path.join(path.dirname(data.page?.inputPath));
-        if (data.page?.inputPath.endsWith("index.md")) {
-          dirname = path.join(dirname, "..");
-        }
-        
-        return fs.readdirSync(dirname, { withFileTypes: true })
-          .filter(dirEnt => dirEnt.isDirectory() || dirEnt.name.endsWith('.html') || dirEnt.name.endsWith('.md'))
-          .map(file => {
-            const fileFullPath = path.join(dirname, file.name);
+        const dirname = path.join(path.dirname(data.page?.inputPath));
 
+        // we need to find stupid folder/index files
+        const contents = fs.readdirSync(dirname, { withFileTypes: true })
+          .map(x => { return { dirent: x, fullPath: path.join(dirname, x.name) }; });
+
+        const parentDir = path.join(dirname, "..");
+        if (data.page.inputPath.endsWith("index.md") && !parentDir.endsWith("_areas")) {
+          for (const dirent of fs.readdirSync(parentDir, { withFileTypes: true }).filter(x => x.isDirectory())) {
+            const indexFilename = path.join(parentDir, dirent.name, "index.md");
+            if (fs.existsSync(indexFilename) && indexFilename !== path.join(".", data.page.inputPath)) {
+              const indexFile = fs
+                .readdirSync(path.dirname(indexFilename), { withFileTypes: true })
+                .find(x => x.isFile() && x.name === "index.md");
+              contents.push({
+                dirent: indexFile,
+                fullPath: indexFilename,
+              });
+            }
+          }
+        }
+
+        return contents
+          .filter(( { dirent, _ }) => dirent.isDirectory() || dirent.name.endsWith('.html') || dirent.name.endsWith('.md'))
+          .map(({ dirent, fullPath: fileFullPath }) => {
             // get the file name without the extension only
-            const fileName = path.parse(file.name).name;
+            const fileName = path.parse(dirent.name).name;
 
             // create the file URL
             let fileUrl = buildPermalink(fileFullPath.replace(/\\/g, '/'));
             //check if current entry is a directory
-            if (file.isDirectory()) {
+            if (dirent.isDirectory()) {
               const result = findFirstFile(fileFullPath);
-              firstParentDirsFile = result.file;
-              fileUrl = buildPermalink(path.join(result.directory, firstParentDirsFile.name)).replace(/\\/g, '/');
+              fileUrl = buildPermalink(path.join(result.directory, result.file.name)).replace(/\\/g, '/');
             }
             fileUrl = fileUrl.startsWith(`/`) ? `` : `/${fileUrl}`;
 
@@ -161,11 +181,19 @@ module.exports = {
             }
 
             let name = fileName;
-            if (!file.isDirectory()) {
+            if (name === 'index') {
+              name = path.basename(path.dirname(fileFullPath));
+            }
+
+            let order = 0;
+            if (!dirent.isDirectory()) {
               const fileContents = fs.readFileSync(fileFullPath, 'utf8');
               const frontmatter = fm(fileContents);
               if (frontmatter.attributes?.title || frontmatter.attributes?.navTitle) {
                 name = frontmatter.attributes.navTitle ?? frontmatter.attributes.title;
+              }
+              if (frontmatter.attributes?.order) {
+                order = frontmatter.attributes.order;
               }
             }
 
@@ -174,8 +202,15 @@ module.exports = {
               name,
               isCurrent: checkCurrentStatus,
               currentPath: currentPagePath,
-              currentFile: currentFileUrl
+              currentFile: currentFileUrl,
+              order,
             };
+          }).sort((a, b) => {
+            if (a.order || b.order) {
+              return b.order - a.order;
+            } else {
+              return a.name.localeCompare(b.name);
+            }
           });
       }
     }

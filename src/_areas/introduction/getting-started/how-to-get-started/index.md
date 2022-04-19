@@ -1,6 +1,7 @@
 ---
 layout: documentation
 title: How to get started
+order: 1
 ---
 
 There are several ways to use The Booster Development Network resources:
