@@ -1,6 +1,7 @@
 ---
 layout: documentation
 title: Contribute to the documentation
+navTitle: Documentation
 ---
 
 This guide is to empower our community to contribute to the docs with recommendations, rules, and helpful resources.
