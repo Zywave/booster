@@ -2,6 +2,7 @@
 layout: documentation
 title: About Booster's Application Framework
 hideToc: false
+navTitle: About
 ---
 ## What is it and what does it do?
 

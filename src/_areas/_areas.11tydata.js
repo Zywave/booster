@@ -1,5 +1,6 @@
 const fs = require("fs");
 const path = require("path");
+const fm = require('front-matter')
 
 function buildPermalink(filePath, system) {
   if (!filePath) {
@@ -48,7 +49,11 @@ function parseMetadata(dataOrFilePath) {
       const rightPart = parts[1];
       const splitOnSlash = rightPart.split("/");
       system = splitOnSlash[0];
-      parent = splitOnSlash[splitOnSlash.length - 2] ?? system;
+      let parentDirCount = 2;
+      if (filePath.endsWith("index.md")) {
+        parentDirCount = 3;
+      }
+      parent = splitOnSlash[splitOnSlash.length - parentDirCount] ?? system;
     }
     permalink = buildPermalink(filePath, system);
   }
@@ -58,6 +63,33 @@ function parseMetadata(dataOrFilePath) {
     system,
     permalink,
   }
+}
+
+/**
+ *
+ * @param {fs.Dirent} dir
+ * @returns
+ */
+function findFirstFile(dir) {
+  const directoryContents = fs.readdirSync(dir, { withFileTypes: true });
+  let firstFile = directoryContents.find(x => x.isFile());
+  let directory = dir;
+  if (!firstFile) {
+    // we try once more to find an index file in a child directory, otherwise we fail
+    for (const childDir of directoryContents) {
+      const childDirContents = fs.readdirSync(path.join(dir, childDir.name), { withFileTypes: true });
+      firstFile = childDirContents.find(p => p.isFile());
+      directory = path.join(dir, childDir.name);
+      if (firstFile) {
+        break;
+      }
+    }
+  }
+
+  return {
+    file: firstFile,
+    directory,
+  };
 }
 
 module.exports = {
@@ -81,20 +113,26 @@ module.exports = {
     parentPermalink: data => {
       let permalink;
       if (data.page?.inputPath?.length) {
-        const dirname = path.join(path.dirname(data.page?.inputPath), "../");
+        let dirname = path.join(path.dirname(data.page.inputPath), "../");
+        if (data.page.inputPath.endsWith("index.md")) {
+          dirname = path.join(dirname, "../");
+        }
         const files = fs.readdirSync(dirname, { withFileTypes: true });
         const firstFile = files.find(x => x.isFile());
         if (firstFile) {
           permalink = buildPermalink(path.join(dirname, firstFile.name)).replace(/\\/g, '/');
+          permalink = permalink.startsWith(`/`) ? `` : `/${permalink}`;
         }
       }
-      permalink = permalink.startsWith(`/`) ? `` : `/${permalink}`;
       return permalink;
     },
     navItems: data => {
       // TODO: allow overriding of nav item order
       if (data.page?.inputPath?.length) {
-        const dirname = path.join(path.dirname(data.page?.inputPath));
+        let dirname = path.join(path.dirname(data.page?.inputPath));
+        if (data.page?.inputPath.endsWith("index.md")) {
+          dirname = path.join(dirname, "..");
+        }
         
         return fs.readdirSync(dirname, { withFileTypes: true })
           .filter(dirEnt => dirEnt.isDirectory() || dirEnt.name.endsWith('.html') || dirEnt.name.endsWith('.md'))
@@ -108,9 +146,9 @@ module.exports = {
             let fileUrl = buildPermalink(fileFullPath.replace(/\\/g, '/'));
             //check if current entry is a directory
             if (file.isDirectory()) {
-              const parentDirs = fs.readdirSync(fileFullPath, { withFileTypes: true });
-              const firstParentDirsFile = parentDirs.find(p => p.isFile());
-              fileUrl = buildPermalink(path.join(dirname, file.name, firstParentDirsFile.name)).replace(/\\/g, '/');
+              const result = findFirstFile(fileFullPath);
+              firstParentDirsFile = result.file;
+              fileUrl = buildPermalink(path.join(result.directory, firstParentDirsFile.name)).replace(/\\/g, '/');
             }
             fileUrl = fileUrl.startsWith(`/`) ? `` : `/${fileUrl}`;
 
@@ -122,9 +160,18 @@ module.exports = {
               checkCurrentStatus = true;
             }
 
+            let name = fileName;
+            if (!file.isDirectory()) {
+              const fileContents = fs.readFileSync(fileFullPath, 'utf8');
+              const frontmatter = fm(fileContents);
+              if (frontmatter.attributes?.title || frontmatter.attributes?.navTitle) {
+                name = frontmatter.attributes.navTitle ?? frontmatter.attributes.title;
+              }
+            }
+
             return {
               url: fileUrl,
-              name: fileName,
+              name,
               isCurrent: checkCurrentStatus,
               currentPath: currentPagePath,
               currentFile: currentFileUrl

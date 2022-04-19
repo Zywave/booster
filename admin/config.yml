@@ -21,6 +21,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
 
   - name: "application_framework_components"
     label: "Application framework / Components"
@@ -37,6 +38,7 @@ collections:
       - { label: "Main component name", name: "mainComponentName", widget: "string", required: false }
       - { label: "Included elements", name: "includedElements", widget: "list", default: [] }
       - { label: "Entry point URI", name: "entryPointURI", widget: "string", required: false }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
       - label: "Status override"
         name: "statusOverride"
         widget: "select"
@@ -58,6 +60,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
 
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
@@ -98,6 +101,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
 
   - name: "design_system_components"
     label: "Design system / Components"
@@ -114,6 +118,7 @@ collections:
       - { label: "Main component name", name: "mainComponentName", widget: "string", required: false }
       - { label: "Included elements", name: "includedElements", widget: "list", default: []}
       - { label: "Entry point URI", name: "entryPointURI", widget: "string", required: false }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
       - label: "Status override"
         name: "statusOverride"
         widget: "select"
@@ -135,6 +140,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
 
   - name: "design_system_patterns"
     label: "Design system / Patterns"
@@ -147,6 +153,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
 
   - name: "design_system_visuals"
     label: "Design system / Visuals"
@@ -159,6 +166,7 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
 
   - name: "design_system_voice-and-tone"
     label: "Design system / Voice and Tone"
@@ -171,9 +179,24 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
       - { label: "Exclude Table of Contents", name: "hideToc", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
-      
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
+
+  - name: "introduction"
+    label: "Introduction"
+    folder: "src/_areas/introduction"
+    create: true
+    nested:
+      depth: 10
+      summary: "{{title}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+
   - name: "pages"
-    label: "Pages"
+    label: "Misc. Pages"
     label_singular: "page"
     folder: "src/_pages"
     create: true
