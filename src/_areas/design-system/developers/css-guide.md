@@ -704,7 +704,7 @@ There are 6 breakpoints available. The breakpoints are not named after devices b
 
 <zui-well type="info" static>
 
-Did you know we provide SCSS variables for these breakpoints in the [ZUI Toolkit](https://gitlab.zywave.com/zui/zui)?
+Did you know we provide SCSS variables for these breakpoints in the [ZUI Toolkit](https://gitlab.com/zywave/devkit/web-sdk/zui)?
 
 </zui-well>
 
@@ -718,7 +718,7 @@ During our research, we found that pixels, which are an absolute unit, do not sc
 
 ## Font sizes
 
-With ZUI 4, all applications should set their root font size to `100%`, which usually equates to `16px` and is the default browser font size. Then, set your body font size in `rem`. This helps with accessibility, zooming, and different pixel densities.
+With ZUI, all applications should set their root font size to `100%`, which usually equates to `16px` and is the default browser font size. Then, set your body font size in `rem`. This helps with accessibility, zooming, and different pixel densities.
 
 ```css
 html {
