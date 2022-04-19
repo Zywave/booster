@@ -1,6 +1,7 @@
 ---
 layout: documentation
 title: About Booster Development Network
+navTitle: About
 ---
 
 The Booster Development Network is the documentation hub for design and development tools, such as Zywave's design system and application framework.
