@@ -2,7 +2,7 @@
 title: Buttons
 subtitle: Create clickable buttons.
 api: https://cdn.zywave.com/@zywave/zui-button@latest/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-button@latest/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zui-button@latest/docs/demo.html
 mainComponentName: zui-button
 includedElements: []
 ---
