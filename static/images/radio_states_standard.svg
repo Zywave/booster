@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="228" viewBox="0 0 840 228">
+  <defs>
+    <clipPath id="clip-radio_states_standard">
+      <rect width="840" height="228"/>
+    </clipPath>
+  </defs>
+  <g id="radio_states_standard" clip-path="url(#clip-radio_states_standard)">
+    <rect width="840" height="228" fill="#f9f9fa"/>
+    <g id="Radio_-_selected" data-name="Radio - selected" transform="translate(369 168)">
+      <g id="Ellipse_9" data-name="Ellipse 9" fill="#fff" stroke="#4e92df" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="8" cy="8" r="8" transform="translate(2 2)" fill="#4e92df"/>
+    </g>
+    <text id="Label" transform="translate(401 183)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-2" data-name="Label" transform="translate(401 105)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <g id="Group_264179" data-name="Group 264179" transform="translate(-11533.734 -830)">
+      <g id="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="noun_Pointer_44803-2" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298-2" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321-2" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+        </g>
+      </g>
+    </g>
+    <text id="Label-3" data-name="Label" transform="translate(266 105)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-4" data-name="Label" transform="translate(536 102)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-5" data-name="Label" transform="translate(669 102)" fill="#afafbb" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-6" data-name="Label" transform="translate(266 183)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-7" data-name="Label" transform="translate(536 183)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-8" data-name="Label" transform="translate(669 183)" fill="#afafbb" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="flat_light" transform="translate(184 105)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-67.888" y="0">Deselected</tspan></text>
+    <text id="flat_light-2" data-name="flat_light" transform="translate(184 183)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-52.247" y="0">Selected</tspan></text>
+    <text id="flat_light-3" data-name="flat_light" transform="translate(265 38)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-23.058" y="0">Normal</tspan></text>
+    <text id="flat_light-4" data-name="flat_light" transform="translate(398 38)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-18.519" y="0">Hover</tspan></text>
+    <text id="flat_light-5" data-name="flat_light" transform="translate(532 38)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-25.467" y="0">Focused</tspan></text>
+    <text id="flat_light-6" data-name="flat_light" transform="translate(666 38)" fill="#17987c" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-26.729" y="0">Disabled</tspan></text>
+    <g id="Radio_-_deselected" data-name="Radio - deselected" transform="translate(637 87)">
+      <g id="Ellipse_8" data-name="Ellipse 8" fill="#fff" stroke="#e6e6ea" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+    </g>
+    <g id="Radio_-_deselected-2" data-name="Radio - deselected" transform="translate(500 83)">
+      <g id="Rectangle_8140" data-name="Rectangle 8140" fill="none" stroke="#2777d3" stroke-width="1">
+        <rect width="28" height="28" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="27" height="27" rx="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_8-2" data-name="Ellipse 8" transform="translate(4 4)" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+    </g>
+    <g id="Radio_-_deselected-3" data-name="Radio - deselected" transform="translate(369 91)">
+      <g id="Ellipse_8-3" data-name="Ellipse 8" fill="#fff" stroke="#606071" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+    </g>
+    <g id="Radio_-_deselected-4" data-name="Radio - deselected" transform="translate(234 90)">
+      <g id="Ellipse_8-4" data-name="Ellipse 8" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+    </g>
+    <g id="Radio_-_selected-2" data-name="Radio - selected" transform="translate(637 168)">
+      <g id="Ellipse_9-2" data-name="Ellipse 9" fill="#fff" stroke="#d0e2f6" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+      <circle id="Ellipse_10-2" data-name="Ellipse 10" cx="8" cy="8" r="8" transform="translate(2 2)" fill="#d0e2f6"/>
+    </g>
+    <g id="Radio_-_selected-3" data-name="Radio - selected" transform="translate(500 164)">
+      <g id="Rectangle_10027" data-name="Rectangle 10027" fill="none" stroke="#2777d3" stroke-width="1">
+        <rect width="28" height="28" rx="5" stroke="none"/>
+        <rect x="0.5" y="0.5" width="27" height="27" rx="4.5" fill="none"/>
+      </g>
+      <g id="Ellipse_9-3" data-name="Ellipse 9" transform="translate(4 4)" fill="#fff" stroke="#2777d3" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+      <circle id="Ellipse_10-3" data-name="Ellipse 10" cx="8" cy="8" r="8" transform="translate(6 6)" fill="#2777d3"/>
+    </g>
+    <g id="Radio_-_selected-4" data-name="Radio - selected" transform="translate(234 167)">
+      <g id="Ellipse_9-4" data-name="Ellipse 9" fill="#fff" stroke="#2777d3" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+      <circle id="Ellipse_10-4" data-name="Ellipse 10" cx="8" cy="8" r="8" transform="translate(2 2)" fill="#2777d3"/>
+    </g>
+    <g id="Group_264180" data-name="Group 264180" transform="translate(-11533.734 -908)">
+      <g id="noun_Pointer_44803-3" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298-3" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321-3" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="noun_Pointer_44803-4" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+        <g id="Group_15298-4" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+          <path id="Path_10321-4" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

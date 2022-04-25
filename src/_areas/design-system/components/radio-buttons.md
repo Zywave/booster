@@ -26,7 +26,7 @@ Use a radio button when the user must select a single option from a list of mutu
 
 ## Types
 
-![Types of radio buttons](/images/type.png)
+![Types of radio buttons](/images/type.svg)
 
 <br>
 
@@ -58,7 +58,7 @@ Gallery Radio Buttons are more prominent than both standard and inline Radio But
 
 For a more detailed breakdown of spacing and sizing, *[view the design specs.](https://xd.adobe.com/view/8eb4bcb4-1a69-4f34-ad25-b9171d366435-dbe7/grid)*
 
-![Standard radio button](/images/standardradio.png)
+![Standard radio button](/images/anatomy-standardradio.svg)
 
 ### Standard Radio Button
 
@@ -68,7 +68,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 <br>
 
-![Inline radio button](/images/inlineradio.png)
+![Inline radio button](/images/anatomy-inlineradio.svg)
 
 ### Inline Radio Button
 
@@ -78,7 +78,7 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 <br>
 
-![Gallery radio button](/images/anatomy-gallery.png)
+![Gallery radio button](/images/anatomy-galleryradio.svg)
 
 ### Gallery Radio Button
 
@@ -90,19 +90,19 @@ For a more detailed breakdown of spacing and sizing, *[view the design specs.](
 
 ## States
 
-![standard radio buttons states](/images/radio_states_standard.png)
+![standard radio buttons states](/images/radio_states_standard.svg)
 
 Standard Radio Button states
 
-![inline radio buttons states](/images/inlineradio_states.png)
+![inline radio buttons states](/images/inlineradio_states.svg)
 
 Inline Radio Button states
 
-![Gallery Radio Buttons states](/images/galleryradio_states-–-no-illustrations.png)
+![Gallery Radio Buttons states](/images/gallery-radio-button-states-no-illustrations.svg)
 
 Gallery Radio Button states
 
-![Gallery Radio Buttons states - with illustrations](/images/galleryradio_states.png)
+![Gallery Radio Buttons states - with illustrations](/images/gallery-radio-button-states.svg)
 
 Gallery Radio Button states - with illustrations
 
@@ -132,7 +132,7 @@ Disabled state occurs when an action currently isn’t available. Disabled Radio
 
 <div>
 
-![Radio Buttons should be used when a user must select one option from a list of 2-10 options.](/images/components/radio-buttons/Assets_02-20/radiogroup_do_outline.svg)
+![Radio Buttons should be used when a user must select one option from a list of 2-10 options.](/images/do1.svg)
 
 <docs-do>  
 Radio Buttons should be used when a user must select one option from a list of 2-10 options.
@@ -143,7 +143,7 @@ Radio Buttons should be used when a user must select one option from a list of 2
 
 <div>
 
-![Do not use a Radio Button when there is only one option available to the user.](/images/components/radio-buttons/Assets_02-20/radiogroup_dont_outline.svg)
+![Do not use a Radio Button when there is only one option available to the user.](/images/don-t1.svg)
 
 <docs-do-not>
 
@@ -161,7 +161,7 @@ Do not use a Radio Button when there is only one option available to the user.
 
 <div>
 
-![A radio group should always have at least one radio button selected by default.](/images/components/radio-buttons/Assets_02-20/radioselection_do_outline.svg)
+![A radio group should always have at least one radio button selected by default.](/images/do-2.svg)
 
 <docs-do>  
 
@@ -173,7 +173,7 @@ A radio group should always have at least one radio button selected by default.
 
 <div>
 
-![A radio group should never be shown without a default selection.](/images/components/radio-buttons/Assets_02-20/radioselection_dont_outline.svg)
+![A radio group should never be shown without a default selection.](/images/don-t-2.svg)
 
 <docs-do-not>
 
@@ -191,7 +191,7 @@ A radio group should never be shown without a default selection.
 
 <div>
 
-![Radio Buttons should always have a label.](/images/components/radio-buttons/Assets_02-20/radiolabel_do_outline.svg)
+![Radio Buttons should always have a label.](/images/do-3.svg)
 
 <docs-do>  
 
@@ -203,7 +203,7 @@ Radio Buttons should always have a label.
 
 <div>
 
-![A Radio Button without a label is unusable; users would have a hard time knowing what selection they are making without context.](/images/components/radio-buttons/Assets_02-20/radiolabel_dont_outline.svg)
+![A Radio Button without a label is unusable; users would have a hard time knowing what selection they are making without context.](/images/don-t-3.svg)
 
 <docs-do-not>
 

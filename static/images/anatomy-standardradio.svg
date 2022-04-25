@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="134" viewBox="0 0 1000 134">
+  <defs>
+    <clipPath id="clip-Anatomy_-_StandardRadio">
+      <rect width="1000" height="134"/>
+    </clipPath>
+  </defs>
+  <g id="Anatomy_-_StandardRadio" data-name="Anatomy - StandardRadio" clip-path="url(#clip-Anatomy_-_StandardRadio)">
+    <rect width="1000" height="134" fill="#f4f4f6"/>
+    <g id="Group_264477" data-name="Group 264477" transform="translate(438 -248.5)">
+      <path id="Path_1" data-name="Path 1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(112 278.5)" fill="#17987c"/>
+      <path id="Path_3" data-name="Path 3" d="M0,0H1V33.5H0Z" transform="translate(124 287)" fill="#17987c"/>
+      <text id="_2" data-name="2" transform="translate(120 295.5)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g id="Group_264479" data-name="Group 264479" transform="translate(477 -248.5)">
+      <path id="Path_1-2" data-name="Path 1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(112 278.5)" fill="#17987c"/>
+      <path id="Path_3-2" data-name="Path 3" d="M0,0H1V33.5H0Z" transform="translate(124 287)" fill="#17987c"/>
+      <text id="_3" data-name="3" transform="translate(120 295.5)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">3</tspan></text>
+    </g>
+    <g id="Group_264478" data-name="Group 264478" transform="translate(328.74 -341)">
+      <path id="Path_1-3" data-name="Path 1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(79.958 371)" fill="#17987c"/>
+      <path id="Path_3-3" data-name="Path 3" d="M0,0H1V39H0Z" transform="translate(91.458 371)" fill="#17987c"/>
+      <g id="Group_5" data-name="Group 5" transform="translate(474.416 280) rotate(90)">
+        <g id="Group_6" data-name="Group 6" transform="translate(0 351)">
+          <path id="Path_8" data-name="Path 8" d="M0,0H1V5H0Z" transform="translate(128 1) rotate(-90)" fill="#17987c"/>
+          <path id="Path_9" data-name="Path 9" d="M0,0H1V5H0Z" transform="translate(128 62.916) rotate(-90)" fill="#17987c"/>
+          <path id="Path_7" data-name="Path 7" d="M0,0H1V61.416H0Z" transform="translate(130 0.75)" fill="#17987c"/>
+        </g>
+      </g>
+      <text id="_1" data-name="1" transform="translate(88.958 388)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <text id="Label" transform="translate(584 97)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <text id="Label-2" data-name="Label" transform="translate(423 97)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Label</tspan></text>
+    <g id="Radio_-_deselected" data-name="Radio - deselected" transform="translate(391 82)">
+      <g id="Ellipse_8" data-name="Ellipse 8" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+    </g>
+    <g id="Radio_-_selected" data-name="Radio - selected" transform="translate(552 82)">
+      <g id="Ellipse_9" data-name="Ellipse 9" fill="#fff" stroke="#2777d3" stroke-width="2">
+        <circle cx="10" cy="10" r="10" stroke="none"/>
+        <circle cx="10" cy="10" r="11" fill="none"/>
+      </g>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="8" cy="8" r="8" transform="translate(2 2)" fill="#2777d3"/>
+    </g>
+  </g>
+</svg>
