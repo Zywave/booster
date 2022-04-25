@@ -1,3 +1,5 @@
+@layer defaults;
+
 @import 'utils/_functions.scss';
 @import 'utils/_variables.scss';
 
@@ -14,8 +16,12 @@
 @import 'components/code-prismjs.scss';
 @import 'components/quick-links.scss';
 @import 'components/side-nav.scss';
+@import 'components/table.scss';
 @import 'components/top-nav.scss';
 @import 'components/top-nav-lite.scss';
+
+/* FOUC styles for web components */
+@import 'components/docs-fouc.scss';
 
 /* helper class styles */
 @import 'utils/helpers.scss';

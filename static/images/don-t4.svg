@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="283" viewBox="0 0 495 283">
+  <g id="Don_t4" data-name="Don&apos;t4" transform="translate(-505)">
+    <rect id="Rectangle_9978" data-name="Rectangle 9978" width="495" height="283" transform="translate(505)" fill="#f4f4f6"/>
+    <text id="Lines_of_coverage" data-name="Lines of coverage" transform="translate(715 104)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Lines of coverage</tspan></text>
+    <text id="Vision" transform="translate(739 190)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Vision</tspan></text>
+    <text id="Dental" transform="translate(739 148)" fill="#1a1a1e" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dental</tspan></text>
+    <g id="Checked" transform="translate(705 131)">
+      <path id="Path_5845" data-name="Path 5845" d="M46.2,0h-18a2.971,2.971,0,0,0-3,3V21a2.971,2.971,0,0,0,3,3h18a2.971,2.971,0,0,0,3-3V3A2.971,2.971,0,0,0,46.2,0ZM44.64,8.52l-8.76,8.76a1.16,1.16,0,0,1-1.68,0l-4.32-4.32a1.188,1.188,0,0,1,1.68-1.68l3.48,3.48,7.92-7.92a1.16,1.16,0,0,1,1.68,0A1.442,1.442,0,0,1,44.64,8.52Z" transform="translate(-25.2)" fill="#2777d3"/>
+    </g>
+    <g id="Component_26_19" data-name="Component 26 – 19" transform="translate(707 175)">
+      <g id="Rectangle_10027" data-name="Rectangle 10027" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <rect width="20" height="20" rx="1" stroke="none"/>
+        <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
+      </g>
+    </g>
+    <g id="Component_26_20" data-name="Component 26 – 20" transform="translate(683 89)">
+      <g id="Rectangle_10027-2" data-name="Rectangle 10027" fill="#fff" stroke="#9494a4" stroke-width="2">
+        <rect width="20" height="20" rx="1" stroke="none"/>
+        <rect x="-1" y="-1" width="22" height="22" rx="2" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

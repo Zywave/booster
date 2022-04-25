@@ -1,6 +1,7 @@
 ---
 layout: documentation
 title: About Booster's Design System
+navTitle: About
 ---
 ## What is it and what does it do?
 

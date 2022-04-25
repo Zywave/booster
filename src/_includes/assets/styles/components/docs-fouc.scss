@@ -1,0 +1,142 @@
+/* Do and do not */
+docs-do,
+docs-do-not {
+  @include undefined-element {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &::before {
+      display: flex;
+      width: 100%;
+      padding: rem(10) 0;
+      font-size: rem(14);
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}
+
+docs-do {
+  @include undefined-element {
+    &::before {
+      content: 'Do';
+      color: var(--zui-green-400);
+      border-top: rem(12) solid var(--zui-green-400);
+    }
+  }
+}
+
+docs-do-not {
+  @include undefined-element {
+    &::before {
+      content: 'Do not';
+      color: var(--zui-red-400);
+      border-top: rem(12) solid var(--zui-red-400);
+    }
+  }
+}
+
+
+
+/* Spacers */
+docs-spacer {
+  @include undefined-element {
+    display: block;
+    width: 100%;
+    height: rem(30);
+    transition: height 100ms ease-in-out;
+
+    @media (min-width: 60em) { /* 960 / 16 */
+      height: rem(60);
+    }
+  
+    @media (min-width: 64em) { /* 1024 / 16 */
+      height: rem(90);
+    }
+  }
+}
+
+docs-spacer[size="small"] {
+  @include undefined-element {
+    height: rem(15);
+
+    @media (min-width: 60em) { /* 960 / 16 */
+      height: rem(20);
+    }
+  
+    @media (min-width: 64em) { /* 1024 / 16 */
+      height: rem(45);
+    }
+  }
+}
+
+
+
+/* Note */
+docs-note {
+  @include undefined-element {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1.25rem 1.875rem;
+    background-color: hsl(167deg 74% 34% / 20%);
+    color: #505A61;
+    border-radius: 5px;
+
+    a {
+      color: #17987C;
+    }
+  }
+}
+
+
+
+/* Grid system */
+/* Doesn't work for columns greater than 2... */
+docs-grid {
+  @include undefined-element {
+    display: grid;
+    grid-template-columns: repeat(var(--docs-grid-columns), 1fr);
+    grid-gap: rem(20);
+    width: 100%;
+    margin: 0 auto;
+    transition: grid-gap 100ms ease-in-out, grid-template-columns 100ms ease-in-out;
+    
+    @media (min-width: 60em) { /* 960 / 16 */
+      grid-template-columns: repeat(var(--docs-grid-columns, 2), 1fr);
+      grid-gap: rem(40);
+    }
+  }
+}
+
+/* Quick links */
+
+quick-links {
+  @include undefined-element {
+    order: 1;
+    position: sticky;
+    right: 0;
+    top: 5rem;
+    flex-shrink: 0;
+    margin: 0 0 0 rem(20);
+    width: 200px;
+    border-left: 1px solid var(--zui-gray-200);
+    transition: margin 100ms ease-in-out;
+
+    @media screen and (min-width: 64em) {
+      margin: 0 0 0 rem(30);
+    }
+    
+    @media screen and (max-width: 45em) {
+      display: none;
+    }
+
+    @media screen and (min-width: 64em) {
+      margin: 0 0 0 rem(40);
+    }
+
+    @media screen and (min-width: 80em) {
+      margin: 0 0 0 rem(50);
+    }
+  }
+}

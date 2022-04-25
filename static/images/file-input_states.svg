@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="517" viewBox="0 0 1000 517">
+  <defs>
+    <clipPath id="clip-file-input_states">
+      <rect width="1000" height="517"/>
+    </clipPath>
+  </defs>
+  <g id="file-input_states" clip-path="url(#clip-file-input_states)">
+    <rect width="1000" height="517" fill="#f4f4f6"/>
+    <g id="Group_267423" data-name="Group 267423" transform="translate(286.066 -185)">
+      <g id="Input-_no_label" data-name="Input- no label" transform="translate(369 250)">
+        <path id="Rectangle_288" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
+        <path id="Rectangle_288_-_Outline" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+      </g>
+      <path id="Path_8229" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+      <path id="Path_8229_-_Outline" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+      <text id="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+      <g id="Group_267410" data-name="Group 267410" transform="translate(284 263)">
+        <g id="Group_267409" data-name="Group 267409">
+          <path id="Path_101926" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+          <rect id="Rectangle_10371" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+        </g>
+        <rect id="Rectangle_10372" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+      </g>
+      <text id="filename.pdf" transform="translate(384.934 277)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">filename.pdf</tspan></text>
+    </g>
+    <g id="Group_267441" data-name="Group 267441" transform="translate(-19.934 -185)">
+      <g id="Input-_no_label-2" data-name="Input- no label" transform="translate(369 250)">
+        <path id="Rectangle_288-2" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
+        <path id="Rectangle_288_-_Outline-2" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+      </g>
+      <path id="Path_8229-2" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+      <path id="Path_8229_-_Outline-2" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+      <text id="Browse-2" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+      <g id="Group_267410-2" data-name="Group 267410" transform="translate(284 263)">
+        <g id="Group_267409-2" data-name="Group 267409">
+          <path id="Path_101926-2" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+          <rect id="Rectangle_10371-2" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+        </g>
+        <rect id="Rectangle_10372-2" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+      </g>
+      <text id="Select_or_drag_files_here" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+      <text id="Select_or_drag_files_here-2" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+      <text id="Select_or_drag_files_here-3" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+      <text id="Select_or_drag_files_here-4" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+      <text id="Select_or_drag_files_here-5" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+      <text id="Select_or_drag_files_here-6" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+      <text id="Select_or_drag_files_here-7" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+      <text id="Select_or_drag_files_here-8" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+    </g>
+    <g id="Group_267435" data-name="Group 267435" transform="translate(287.066 -41)">
+      <path id="Path_8229-3" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+      <path id="Path_8229_-_Outline-3" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+      <g id="Input-_no_label-3" data-name="Input- no label" transform="translate(368 250)">
+        <path id="Rectangle_288-3" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
+        <path id="Rectangle_288_-_Outline-3" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+        <path id="Rectangle_10373" data-name="Rectangle 10373" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H271a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H271a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-99)" fill="#4e92df"/>
+      </g>
+      <text id="Browse-3" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+      <g id="Group_267410-3" data-name="Group 267410" transform="translate(284 263)">
+        <g id="Group_267409-3" data-name="Group 267409">
+          <path id="Path_101926-3" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+          <rect id="Rectangle_10371-3" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+        </g>
+        <rect id="Rectangle_10372-3" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+      </g>
+      <text id="filename.pdf-2" data-name="filename.pdf" transform="translate(384.934 277)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">filename.pdf</tspan></text>
+    </g>
+    <g id="Group_267439" data-name="Group 267439" transform="translate(-18.934 -41)">
+      <path id="Path_8229-4" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+      <path id="Path_8229_-_Outline-4" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+      <g id="Input-_no_label-4" data-name="Input- no label" transform="translate(368 250)">
+        <path id="Rectangle_288-4" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
+        <path id="Rectangle_288_-_Outline-4" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+        <path id="Rectangle_10373-2" data-name="Rectangle 10373" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H271a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H271a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-99)" fill="#4e92df"/>
+      </g>
+      <text id="Browse-4" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+      <g id="Group_267410-4" data-name="Group 267410" transform="translate(284 263)">
+        <g id="Group_267409-4" data-name="Group 267409">
+          <path id="Path_101926-4" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+          <rect id="Rectangle_10371-4" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+        </g>
+        <rect id="Rectangle_10372-4" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+      </g>
+      <text id="Select_or_drag_files_here-9" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+    </g>
+    <g id="Group_267420" data-name="Group 267420" transform="translate(286.066 103)">
+      <g id="Input-_no_label-5" data-name="Input- no label" transform="translate(369 250)">
+        <path id="Rectangle_288-5" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#e6e6ea"/>
+        <path id="Rectangle_288_-_Outline-5" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+      </g>
+      <path id="Path_8229-5" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+      <path id="Path_8229_-_Outline-5" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+      <text id="Browse-5" data-name="Browse" transform="translate(333 277)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+      <g id="Group_267410-5" data-name="Group 267410" transform="translate(284 263)">
+        <g id="Group_267409-5" data-name="Group 267409">
+          <path id="Path_101926-5" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#afafbb"/>
+          <rect id="Rectangle_10371-5" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#afafbb"/>
+        </g>
+        <rect id="Rectangle_10372-5" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+      </g>
+      <text id="filename.pdf-3" data-name="filename.pdf" transform="translate(384.934 277)" fill="#afafbb" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">filename.pdf</tspan></text>
+    </g>
+    <g id="Group_267438" data-name="Group 267438" transform="translate(-19.934 103)">
+      <g id="Input-_no_label-6" data-name="Input- no label" transform="translate(369 250)">
+        <path id="Rectangle_288-6" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#e6e6ea"/>
+        <path id="Rectangle_288_-_Outline-6" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+      </g>
+      <path id="Path_8229-6" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+      <path id="Path_8229_-_Outline-6" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+      <text id="Browse-6" data-name="Browse" transform="translate(333 277)" fill="#afafbb" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+      <g id="Group_267410-6" data-name="Group 267410" transform="translate(284 263)">
+        <g id="Group_267409-6" data-name="Group 267409">
+          <path id="Path_101926-6" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#afafbb"/>
+          <rect id="Rectangle_10371-6" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#afafbb"/>
+        </g>
+        <rect id="Rectangle_10372-6" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+      </g>
+      <text id="Select_or_drag_files_here-10" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#afafbb" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+    </g>
+    <g id="Group_267436" data-name="Group 267436" transform="translate(287 -33)">
+      <g id="Group_267418" data-name="Group 267418" transform="translate(0.066 208)">
+        <path id="Path_8229-7" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+        <path id="Path_8229_-_Outline-7" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+        <g id="Input-_no_label-7" data-name="Input- no label" transform="translate(369 250)">
+          <path id="Rectangle_288-7" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#fff"/>
+          <path id="Rectangle_288_-_Outline-7" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" fill="#cbcbd2"/>
+          <path id="Rectangle_10374" data-name="Rectangle 10374" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H271a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H271a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-100)" fill="#d93911"/>
+        </g>
+        <text id="Browse-7" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+        <g id="Group_267410-7" data-name="Group 267410" transform="translate(284 263)">
+          <g id="Group_267409-7" data-name="Group 267409">
+            <path id="Path_101926-7" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+            <rect id="Rectangle_10371-7" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+          </g>
+          <rect id="Rectangle_10372-7" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+        </g>
+      </g>
+      <text id="_Files_must_be_less_than_50MB." data-name=" Files must be less than 50MB." transform="translate(269 517)" fill="#d93911" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve"> Files must be less than 50MB.</tspan></text>
+      <text id="filename.pdf-4" data-name="filename.pdf" transform="translate(385 485)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">filename.pdf</tspan></text>
+    </g>
+    <g id="Group_267437" data-name="Group 267437" transform="translate(-19 -33)">
+      <g id="Group_267418-2" data-name="Group 267418" transform="translate(0.066 208)">
+        <path id="Path_8229-8" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+        <path id="Path_8229_-_Outline-8" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+        <g id="Input-_no_label-8" data-name="Input- no label" transform="translate(369 250)">
+          <path id="Rectangle_288-8" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" fill="#fff"/>
+          <path id="Rectangle_288_-_Outline-8" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" fill="#cbcbd2"/>
+          <path id="Rectangle_10374-2" data-name="Rectangle 10374" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H271a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H271a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-100)" fill="#d93911"/>
+        </g>
+        <text id="Browse-8" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+        <g id="Group_267410-8" data-name="Group 267410" transform="translate(284 263)">
+          <g id="Group_267409-8" data-name="Group 267409">
+            <path id="Path_101926-8" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+            <rect id="Rectangle_10371-8" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+          </g>
+          <rect id="Rectangle_10372-8" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+        </g>
+      </g>
+      <text id="A_file_must_be_selected." data-name="A file must be selected." transform="translate(269 517)" fill="#d93911" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">A file must be selected.</tspan></text>
+      <text id="Select_or_drag_files_here-11" data-name="Select or drag files here" transform="translate(385 485)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+    </g>
+    <g id="Group_267448" data-name="Group 267448" transform="translate(43 -6)">
+      <g id="Group_267440" data-name="Group 267440" transform="translate(-348 -159)">
+        <g id="Group_267422" data-name="Group 267422" transform="translate(285.066 52)">
+          <g id="Input-_no_label-9" data-name="Input- no label" transform="translate(369 250)">
+            <path id="Rectangle_288-9" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
+            <path id="Rectangle_288_-_Outline-9" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+          </g>
+          <path id="Path_8229-9" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+          <path id="Path_8229_-_Outline-9" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+          <text id="Browse-9" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+          <g id="Group_267410-9" data-name="Group 267410" transform="translate(284 263)">
+            <g id="Group_267409-9" data-name="Group 267409">
+              <path id="Path_101926-9" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+              <rect id="Rectangle_10371-9" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+            </g>
+            <rect id="Rectangle_10372-9" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+          </g>
+          <text id="Select_or_drag_files_here-12" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+        </g>
+        <g id="Group_15324" data-name="Group 15324" transform="translate(-11107 -694)">
+          <g id="noun_Pointer_44803" transform="translate(11911 1005)">
+            <g id="Group_15298" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+              <path id="Path_10321" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="noun_Pointer_44803-2" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+            <g id="Group_15298-2" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+              <path id="Path_10321-2" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Rectangle_10376" data-name="Rectangle 10376" d="M4,1A3,3,0,0,0,1,4V38a3,3,0,0,0,3,3H272a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H4M4,0H272a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(206.066 143)" fill="#9494a4"/>
+    </g>
+    <g id="Group_267447" data-name="Group 267447" transform="translate(40 -6)">
+      <g id="Group_267428" data-name="Group 267428" transform="translate(-39 -159)">
+        <g id="Group_267422-2" data-name="Group 267422" transform="translate(285.066 52)">
+          <g id="Input-_no_label-10" data-name="Input- no label" transform="translate(369 250)">
+            <path id="Rectangle_288-10" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
+            <path id="Rectangle_288_-_Outline-10" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+          </g>
+          <path id="Path_8229-10" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+          <path id="Path_8229_-_Outline-10" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+          <text id="Browse-10" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+          <g id="Group_267410-10" data-name="Group 267410" transform="translate(284 263)">
+            <g id="Group_267409-10" data-name="Group 267409">
+              <path id="Path_101926-10" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+              <rect id="Rectangle_10371-10" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+            </g>
+            <rect id="Rectangle_10372-10" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+          </g>
+          <text id="filename.pdf-5" data-name="filename.pdf" transform="translate(384.934 277)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">filename.pdf</tspan></text>
+        </g>
+        <g id="Group_15324-2" data-name="Group 15324" transform="translate(-11112 -694)">
+          <g id="noun_Pointer_44803-3" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+            <g id="Group_15298-3" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+              <path id="Path_10321-3" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="noun_Pointer_44803-4" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+            <g id="Group_15298-4" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+              <path id="Path_10321-4" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Rectangle_10377" data-name="Rectangle 10377" d="M4,1A3,3,0,0,0,1,4V38a3,3,0,0,0,3,3H272a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H4M4,0H272a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(515.066 143)" fill="#9494a4"/>
+    </g>
+    <g id="Group_267467" data-name="Group 267467" transform="translate(44 -6)">
+      <g id="Group_267455" data-name="Group 267455" transform="translate(-62.934 37)">
+        <path id="Path_8229-11" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+        <path id="Path_8229_-_Outline-11" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+        <g id="Input-_no_label-11" data-name="Input- no label" transform="translate(368 250)">
+          <path id="Rectangle_288-11" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
+          <path id="Rectangle_288_-_Outline-11" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+          <path id="Rectangle_10373-3" data-name="Rectangle 10373" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H271a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H271a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-99)" fill="#4e92df"/>
+        </g>
+        <text id="Browse-11" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+        <g id="Group_267410-11" data-name="Group 267410" transform="translate(284 263)">
+          <g id="Group_267409-11" data-name="Group 267409">
+            <path id="Path_101926-11" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+            <rect id="Rectangle_10371-11" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+          </g>
+          <rect id="Rectangle_10372-11" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+        </g>
+        <text id="Select_or_drag_files_here-13" data-name="Select or drag files here" transform="translate(384.934 277)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select or drag files here</tspan></text>
+      </g>
+      <g id="Group_267464" data-name="Group 267464">
+        <g id="Group_267456" data-name="Group 267456" transform="translate(-11456 -709)">
+          <g id="noun_Pointer_44803-5" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+            <g id="Group_15298-5" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+              <path id="Path_10321-5" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="noun_Pointer_44803-6" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+            <g id="Group_15298-6" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+              <path id="Path_10321-6" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+            </g>
+          </g>
+        </g>
+        <path id="Rectangle_10394" data-name="Rectangle 10394" d="M0,0H8a4,4,0,0,1,4,4V14a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(465 311)" fill="#fff"/>
+        <g id="Doc" transform="translate(471 318.002)">
+          <g id="Doc-2" data-name="Doc" transform="translate(-8 -8.002)">
+            <g id="Group_267457" data-name="Group 267457">
+              <path id="Path_101935" data-name="Path 101935" d="M14.3,2.7,11.6.1H2.3a.7.7,0,0,0-.7.7v15A.4.4,0,0,0,2,16H14a.4.4,0,0,0,.4-.4V2.9ZM11.6,1.6l1.2,1.2H11.6Zm1.6,13.2H2.9V1.2h7.5V4h2.8Z" fill="#2f2f2f"/>
+              <rect id="Rectangle_10379" data-name="Rectangle 10379" width="7.1" height="1.2" rx="0.2" transform="translate(4.4 6)" fill="#2f2f2f"/>
+              <rect id="Rectangle_10380" data-name="Rectangle 10380" width="7.1" height="1.2" rx="0.2" transform="translate(4.4 8.4)" fill="#2f2f2f"/>
+              <rect id="Rectangle_10381" data-name="Rectangle 10381" width="5.1" height="1.2" rx="0.2" transform="translate(4.4 10.7)" fill="#2f2f2f"/>
+            </g>
+            <rect id="Rectangle_10382" data-name="Rectangle 10382" width="16" height="16" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_267466" data-name="Group 267466" transform="translate(41 -6)">
+      <g id="Group_267454" data-name="Group 267454" transform="translate(246.066 37)">
+        <path id="Path_8229-12" data-name="Path 8229" d="M-45,0H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#f4f4f6"/>
+        <path id="Path_8229_-_Outline-12" data-name="Path 8229 - Outline" d="M-44,1V41H53.57A2.764,2.764,0,0,0,56,38V4a2.764,2.764,0,0,0-2.43-3H-44m-1-1H53.57A3.748,3.748,0,0,1,57,4V38a3.748,3.748,0,0,1-3.43,4H-45Z" transform="translate(325.934 292) rotate(180)" fill="#cbcbd2"/>
+        <g id="Input-_no_label-12" data-name="Input- no label" transform="translate(368 250)">
+          <path id="Rectangle_288-12" data-name="Rectangle 288" d="M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1)" fill="#fff"/>
+          <path id="Rectangle_288_-_Outline-12" data-name="Rectangle 288 - Outline" d="M1,1V41H171a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3H1M0,0H171a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H0Z" transform="translate(1)" fill="#cbcbd2"/>
+          <path id="Rectangle_10373-4" data-name="Rectangle 10373" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H271a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H271a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(-99)" fill="#4e92df"/>
+        </g>
+        <text id="Browse-12" data-name="Browse" transform="translate(333 277)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-22.969" y="0">Browse</tspan></text>
+        <g id="Group_267410-12" data-name="Group 267410" transform="translate(284 263)">
+          <g id="Group_267409-12" data-name="Group 267409">
+            <path id="Path_101926-12" data-name="Path 101926" d="M8.2,4.1H7.8L4.3,7.8a.2.2,0,0,0,0,.3l.9,1h.3L7.1,7.5v8.3a.2.2,0,0,0,.2.2H8.7a.2.2,0,0,0,.2-.2V7.5l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" fill="#2777d3"/>
+            <rect id="Rectangle_10371-12" data-name="Rectangle 10371" width="16" height="2" rx="0.5" transform="translate(16 2) rotate(180)" fill="#2777d3"/>
+          </g>
+          <rect id="Rectangle_10372-12" data-name="Rectangle 10372" width="16" height="16" transform="translate(16 16) rotate(180)" fill="none"/>
+        </g>
+        <text id="filename.pdf-6" data-name="filename.pdf" transform="translate(384.934 277)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">filename.pdf</tspan></text>
+      </g>
+      <g id="Group_267465" data-name="Group 267465" transform="translate(309)">
+        <g id="Group_267456-2" data-name="Group 267456" transform="translate(-11456 -709)">
+          <g id="noun_Pointer_44803-7" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+            <g id="Group_15298-7" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+              <path id="Path_10321-7" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Z" transform="translate(-18.501 -3.415)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="noun_Pointer_44803-8" data-name="noun_Pointer_44803" transform="translate(11911 1005)">
+            <g id="Group_15298-8" data-name="Group 15298" transform="translate(0 0)" opacity="0.9">
+              <path id="Path_10321-8" data-name="Path 10321" d="M26.5,27.034a8.04,8.04,0,0,1-7.962-7.224.347.347,0,0,1-.037-.156V14.783a1.94,1.94,0,0,1,1.9-1.97,1.854,1.854,0,0,1,1.143.395V5.385a1.906,1.906,0,1,1,3.81,0v5.468a1.854,1.854,0,0,1,1.143-.395,1.91,1.91,0,0,1,1.775,1.257,1.863,1.863,0,0,1,1.272-.5,1.919,1.919,0,0,1,1.837,1.449,1.86,1.86,0,0,1,1.211-.45,1.94,1.94,0,0,1,1.9,1.97v5.031a.375.375,0,0,1,0,.051A8.045,8.045,0,0,1,26.5,27.034Zm-7.238-7.51a.339.339,0,0,1,.024.1,7.238,7.238,0,0,0,14.45-.424q0-.016,0-.033V14.178a1.145,1.145,0,1,0-2.286,0,.381.381,0,0,1-.762,0v-1a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0v-.752a1.145,1.145,0,1,0-2.286,0,.381.381,0,1,1-.762,0V5.385a1.145,1.145,0,1,0-2.286,0V18.21a.381.381,0,1,1-.762,0V14.783a1.145,1.145,0,1,0-2.286,0v4.741Z" transform="translate(-18.501 -3.415)"/>
+            </g>
+          </g>
+        </g>
+        <path id="Rectangle_10394-2" data-name="Rectangle 10394" d="M0,0H8a4,4,0,0,1,4,4V14a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(465 311)" fill="#fff"/>
+        <g id="Doc-3" data-name="Doc" transform="translate(471 318.002)">
+          <g id="Doc-4" data-name="Doc" transform="translate(-8 -8.002)">
+            <g id="Group_267457-2" data-name="Group 267457">
+              <path id="Path_101935-2" data-name="Path 101935" d="M14.3,2.7,11.6.1H2.3a.7.7,0,0,0-.7.7v15A.4.4,0,0,0,2,16H14a.4.4,0,0,0,.4-.4V2.9ZM11.6,1.6l1.2,1.2H11.6Zm1.6,13.2H2.9V1.2h7.5V4h2.8Z" fill="#2f2f2f"/>
+              <rect id="Rectangle_10379-2" data-name="Rectangle 10379" width="7.1" height="1.2" rx="0.2" transform="translate(4.4 6)" fill="#2f2f2f"/>
+              <rect id="Rectangle_10380-2" data-name="Rectangle 10380" width="7.1" height="1.2" rx="0.2" transform="translate(4.4 8.4)" fill="#2f2f2f"/>
+              <rect id="Rectangle_10381-2" data-name="Rectangle 10381" width="5.1" height="1.2" rx="0.2" transform="translate(4.4 10.7)" fill="#2f2f2f"/>
+            </g>
+            <rect id="Rectangle_10382-2" data-name="Rectangle 10382" width="16" height="16" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="Normal" transform="translate(174 91)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Normal</tspan></text>
+    <text id="Hover" transform="translate(181 163)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hover</tspan></text>
+    <text id="Pressed" transform="translate(173 235)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Pressed</tspan></text>
+    <text id="Drag" transform="translate(186 307)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Drag</tspan></text>
+    <text id="Disabled" transform="translate(168 379)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Disabled</tspan></text>
+    <text id="Error" transform="translate(187 451)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Error</tspan></text>
+    <text id="Unfilled" transform="translate(369 42)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Unfilled</tspan></text>
+    <text id="Filled" transform="translate(680 42)" fill="#17987c" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Filled</tspan></text>
+  </g>
+</svg>

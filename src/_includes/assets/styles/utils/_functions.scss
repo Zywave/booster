@@ -3,3 +3,17 @@
 @function rem($value) {
   @return 0.625 * math.div($value, 10) * 1rem;
 }
+
+@mixin undefined-element {
+  @at-root {
+    &:not(:defined) {
+      @content;
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: inherit;
+      }
+    }
+  }
+}

@@ -41,10 +41,6 @@ Our users, and who they are, is immensely important for us to understand. Equall
 
 Getting this right is difficult. Thankfully, Zywave Shell will retrieve all of the appropriate information about a user (such as name, tenancy information, and notifications) and present it clearly and consistently.
 
-### Support chat
-
-As our company continues to grow, so does the amount of support we offer to our users. We provide [Live Chat](/application-framework/components/livechat/) support in our applications when applicable and make it available in a consistent location, but only through the use of Zywave Shell.
-
 ### Analytics baked in
 
 Zywave uses a few third-party services to analyze how our users interact with our offerings. This information is immensely important to us so we can provide the best experience possible. Zywave Shell will ensure the proper analytics scripts are loaded and configured correctly.

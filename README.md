@@ -1,11 +1,11 @@
-# Eleventy Documentation Site Builder
+# Booster Documentation Site
 
 ## Website link
 [https://booster.zywave.dev](http://booster.zywave.dev)
 
 ## What is it?
 
-A static site builder to produce a combined documentation site for [ZUI](https://gitlab.zywave.com/devkit/zui/zui) and [ZAPI](https://gitlab.zywave.com/devkit/zui/zywave-api-toolkit) projects. It was conceived to separate documentation from the toolkit projects to keep things lean and organized. 
+A static site builder to produce a combined documentation site for [ZUI](https://gitlab.com/zywave/devkit/web-sdk/zui) and [ZAPI](https://gitlab.com/zywave/devkit/web-sdk/zywave-api-toolkit) projects. It was conceived to separate documentation from the toolkit projects to keep things lean and organized.
 
 The main tooling behind the static site generator is Eleventy, sometimes written as 11ty. 11ty takes in templates, data (.json, .md, .html etc.) and assets, then outputs lightweight performant static HTML pages. For more info see [Eleventy](https://www.11ty.io/).
 
