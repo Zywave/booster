@@ -14,6 +14,8 @@ There are three goodies in this release for you, however, so we'll start with th
 
 ## ZUI's newest addition, ZUI Tag!
 
+![examples of zui-tag](/images/tags-example.png)
+
 ## Dialog's footer gets sticky
 
 ## Enforcing consistent form label layout
