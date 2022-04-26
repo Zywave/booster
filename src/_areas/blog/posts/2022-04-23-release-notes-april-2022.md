@@ -63,7 +63,7 @@ TODO @hudson
 
 Continuing on our objective to gain insights to what components are being utilized, we are now beginning to track the utilization of all ZUI and ZAPI components. 
 
-For applications that use `<zywave-analytics>`, we will be sending information to Heap tracking number of instances of our components on each page. This will be controlled via a feature flag, as we intend to only roll this out to a subset of users initially.  
+For applications that use `<zywave-analytics>`, we will be sending information to Heap tracking number of instances of our components on each page. This will be controlled via a feature flag, as we intend to only roll this out to a subset of users initially. We additionally will only be tracking this data on devices that are connected to WiFi or Ethernet and have not indicated via their device settings to reduce data usage, as we do not want to incur penalties on our users.
 
 ## Monitoring to improve bundle performance
 
