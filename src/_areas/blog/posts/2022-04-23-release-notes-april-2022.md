@@ -49,6 +49,8 @@ TODO @schmirler
 
 </details>
 
+<docs-spacer size="small"></docs-spacer>
+
 ## Dialog's footer gets sticky
 
 TODO @xiong
@@ -59,8 +61,10 @@ TODO @hudson
 
 ## Tracking utilization
 
-TODO @pobrien
+Continuing on our objective to gain insights to what components are being utilized, we are now beginning to track the utilization of all ZUI and ZAPI components. 
 
-## Monitoring and improving performance
+For applications that use `<zywave-analytics>`, we will be sending information to Heap tracking number of instances of our components on each page. This will be controlled via a feature flag, as we intend to only roll this out to a subset of users initially.  
+
+## Monitoring to improve bundle performance
 
 TODO @hudson
