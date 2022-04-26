@@ -14,9 +14,11 @@ There are three goodies in this release for you, however, so we'll start with th
 
 ## ZUI's newest addition, ZUI Tag!
 
+TODO @schmirler
+
 ![examples of zui-tag](/images/tags-example.png)
 
- <details><summary>Expand to view code</summary>
+ <details><summary>Get the code</summary>
 
 ```html
 <div class="container">
@@ -44,12 +46,21 @@ There are three goodies in this release for you, however, so we'll start with th
   }
 </style>
 ```
+
 </details>
 
 ## Dialog's footer gets sticky
 
+TODO @xiong
+
 ## Enforcing consistent form label layout
+
+TODO @hudson
 
 ## Tracking utilization
 
+TODO @pobrien
+
 ## Monitoring and improving performance
+
+TODO @hudson
