@@ -16,6 +16,36 @@ There are three goodies in this release for you, however, so we'll start with th
 
 ![examples of zui-tag](/images/tags-example.png)
 
+ <details><summary>Expand to view code</summary>
+
+```html
+<div class="container">
+  <zui-tag color="red">apples</zui-tag>
+  <zui-tag color="yellow">bananas</zui-tag>
+  <zui-tag color="green">pears</zui-tag>
+  <zui-tag color="blue">blueberries</zui-tag>
+  <zui-tag color="aqua">some undiscovered aqua fruits</zui-tag>
+  <zui-tag color="purple">grapes</zui-tag>
+  <zui-tag color="rose">lychees</zui-tag>
+  <zui-tag color="orange">oranges</zui-tag>
+  <zui-tag color="gray">inedible garbage</zui-tag>
+</div>
+<style>
+  .container {
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  zui-tag {
+    display: inline-block;
+  }
+</style>
+```
+</details>
+
 ## Dialog's footer gets sticky
 
 ## Enforcing consistent form label layout
