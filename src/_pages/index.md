@@ -22,50 +22,51 @@ subtitle: " "
             </nav>
         </div>
     </header>
-    <div class="home-header">
-        <div class="home-header-content">
-            <img src="/images/home/rocket.svg" />
-            <div class="heading">
-                <h1>
-                    <span>Booster</span>
-                    <span class="smaller">development network</span>
-                </h1>
-                <h3>Our development network powers and guides our products into orbit.</h3>
-            </div>
-            <div id="search-home"></div>
-        </div>
-    </div>
-    <div class="home-content">
-        <div class="card primary design-system">
-            <img src="/images/home/design-system.svg" />
-            <div class="text">
+    <!-- <div class="home-introduction">
+        <h1>Boldly build what no team has built before.</h1>
+    </div> -->
+    <div class="home-categories">
+        <section class="home-categories-width">
+            <div class="home-category-text">
                 <h2>Design system</h2>
-                <p>Components, patterns and other visual elements that create the Zywave user experience.</p>
-                <a href="{{ '/design-system/about/' | url }}">Explore our design system ➔</a>
+                <p>Stellar components, patterns and other visual elements that comprise the Zywave user experience.</p>
+                <a href="{{ '/design-system/about/' | url }}">Learn more about our design system</a>
+            </div>
+            <a class="home-category-tile" href="#">
+                <h3>Components</h3>
+                <p>The building blocks of the Zywave universe.</p>
+                <p>View components</p>
+            </a>
+            <a class="home-category-tile" href="#">
+                <h3>Patterns</h3>
+                <p>Reusable design solutions to commonly-occurring software design challenges.</p>
+                <p>View patterns</p>
+            </a>
+            <a class="home-category-tile" href="#">
+                <h3>Visuals</h3>
+                <p>Color palettes, iconography, illustration styles, and typographical standards.</p>
+                <p>Learn more about visuals</p>
+            </a>
+        </section>
+    </div> 
+    <section class="home-value">
+        <div class="home-value-width">
+            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+            <div class="home-value-text">
+                <h3>platform unity</h3>
+                <h2>One unified design language</h2>
+                <p>Booster's design system helps you build toward your team's shared vision with ease as you continue shooting for the stars.</p>
             </div>
         </div>
-        <div class="card primary application-framework">
-            <img src="/images/home/application-framework.svg" />
-            <div class="text">
-                <h2>Application framework</h2>
-                <p>A collection of API-driven components and tools to quickly build a Zywave-integrated application.</p>
-                <a href="{{ '/application-framework/about/' | url }}">Explore our application framework ➔</a>
+    </section>
+    <section class="home-value">
+        <div class="home-value-width">
+            <div class="home-value-text">
+                <h3>consistency is key</h3>
+                <h2>One brand voice</h2>
+                <p>Booster's design system helps you build toward your team's shared vision with ease as you continue shooting for the stars.</p>
             </div>
+            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
         </div>
-        <div class="card secondary">
-            <h2>Glossary </h2>
-            <p>A constellation of all of our patterns, components and key terms.</p>
-            <a href="{{ '/introduction/glossary/index/' | url }}">View our glossary ➔</a>
-        </div>
-        <div class="card secondary">
-            <h2>Branding </h2>
-            <p>Our mission, values and identity that sets us apart from the rest of the universe.</p>
-            <a target="_blank" href="https://thenewz.zywave.com/wp-content/uploads/2020/08/Zywave-Brand-Guide.pdf">View our branding standards ➔</a>
-        </div>
-        <div class="card secondary">
-            <h2>Blog</h2>
-            <p>Stay up to date on current events, topics and articles in our galaxy.</p>
-            <a href="{{ '/blog/' | url }}">View our blog ➔</a>
-        </div>
-    </div>
+    </section>
 </main>
