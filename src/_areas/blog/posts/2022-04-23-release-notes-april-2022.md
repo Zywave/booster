@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Release Notes - April 2022
 description: Data is king, baby!
-date: 2022-04-23T17:37:59.464Z
+date: 2022-05-03T17:37:59.464Z
 hideToc: false
 tags:
   - Release Notes
@@ -18,7 +18,7 @@ TODO @schmirler
 
 ![examples of zui-tag](/images/tags-example.png)
 
- <details><summary>Get the code</summary>
+<details><summary>Get the code</summary>
 
 ```html
 <div class="container">
