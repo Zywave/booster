@@ -24,16 +24,12 @@ A Dialog is made up of 3 main areas and the dark overlay that covers the remaind
 </br> 
 
 1. **Title:** Ideally, the H1 title in a Dialog should not span more than one line. The title gives the user an understanding of the message or decision they are being presented with. 
-2. **Content area:** More detailed information is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.  
-3. **Footer:** The footer is where all the actions are located within a Dialog. Optionally, the footer may remain sticky when the length of the Dialog exceeds the height of the viewport so that the available actions remain visible to the user at all times. More information on scrolling and sticky footers can be found in behavior and best practices.
-
+1. **Content area:** More detailed information is contained within the content section of a Dialog. This section is a minimum of 120px tall and has varying widths for the different types of Dialogs.  
+1. **Footer:** The footer is where all the actions are located within a Dialog. It will be stickied when the contents of the Dialog exceeds the height of the viewport so that the available actions remain visible to the user at all times. More information on scrolling and sticky footers can be found in the [behavior](/design-system/components/dialogs/?tab=usage#scrolling) and [best practices](/design-system/components/dialogs/?tab=usage#best-practices) sections.
    * Primary actions are located on the far right
    * Secondary actions are to the left of the primary action
-   * Tertiary actions are located on the far left\
-     <br>
-     <docs-note>The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/399).</docs-note>
-       </br>
-4. **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
+   * Tertiary actions are located on the far left
+1. **Overlay:** The dark overlay covers the remainder of the page. Clicking into the darkness is one of the ways a user can dismiss a Dialog. 
 
 - - -
 
@@ -88,13 +84,14 @@ There are two ways that a Dialog can be closed and the recommended option depend
 
 ### Scrolling
 
-When the contents of a Dialog exceed the height of the viewport for the user, scrolling will be necessary. 
+When the contents of a Dialog exceed the height of the viewport for the user, scrolling within the Dialog becomes available. 
 
-* The entire Dialog screen scrolls, not just the contents within. 
+* The contents within the Dialog scrolls, with the exception of the footer.
+* The Dialog footer will be stickied to the bottom of the Dialog to always remain visible on the screen.
 * The background contents remain static as the Dialog scrolls.
 * 36px of padding should be applied to the top and bottom of the Dialog. 
 
-![A Dialog whose content exceeds the height of the viewport](/images/dialog_scrolling.svg)
+![Example of a sticky footer on a Dialog](/images/dialog_fixed-footer.svg)
 
 - - -
 
@@ -103,13 +100,8 @@ When the contents of a Dialog exceed the height of the viewport for the user, sc
 * Avoid scrolling by keeping the messages brief and limiting the functionality within the Dialog. 
 * Avoid including forms in a Dialog
 * Keep titles short so that they do not wrap onto more than one line. 
-* Implement a sticky footer area if scrolling is necessary and the user is not likely to need to scroll to view the actions. 
 
-![Example of a sticky footer on a Dialog](/images/dialog_fixed-footer.svg)
 
-<docs-spacer size="small"></docs-spacer>
-
-<docs-note>The option for the footer to remain sticky has yet to be added to the Dialog in the toolkit. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/399).</docs-note>
 
 - - -
 
