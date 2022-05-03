@@ -16,7 +16,7 @@ There are three goodies in this release for you, so we'll start with those.
 
 ## ZUI's newest addition, ZUI Tag!
 
-A couple years ago, we decided to leave it up to engineers to follow design specs and code their own tags within their apps because it's just a DIV with some colors. Today, we have several apps that have their own custom tags but when looked at all together, each app's tags are slightly different from each other. With the increased usage of tags, this was the opportune time to create a custom web component to ensure consistency across all apps.
+A couple years ago, we decided to leave it up to engineers to follow design specs and code their own tags within their apps because it's "just a DIV with some colors". However, today we have several apps that have their own custom tags that are all slightly different from each other. With the increased usage of tags, this was the opportune time to create a custom web component to ensure consistency across all apps.
 
 We have 9 tag colors, based on our Zywave color palette:
 
@@ -55,7 +55,7 @@ We have 9 tag colors, based on our Zywave color palette:
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note>Documentation for how to use these tags, such as when to use certain tag colors, is still in the works. Stay tuned for that!</docs-note>
+<docs-note>Documentation for how to use these tags, such as when to use certain tag colors, is [still in the works](/design-system/components/tags/). We'll be updating this page with more in the days to come.</docs-note>
 
 <docs-spacer></docs-spacer>
 
@@ -79,10 +79,15 @@ One of the primary goals of `<zui-formfield>` is to ensure all form labels are c
 
 Continuing on our objective to gain insights to what components are being utilized, we are now beginning to track the utilization of all ZUI and ZAPI components. 
 
-For applications that use `<zywave-analytics>`, we will be sending information to Heap tracking number of instances of our components on each page. This will be controlled via a feature flag, as we intend to only roll this out to a subset of users initially. We additionally will only be tracking this data on devices that are connected to WiFi or Ethernet and have not indicated via their device settings to reduce data usage, as we do not want to incur penalties on our users. If you're curious how we are accomplishing this, check out the *somewhat* unstable [Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API).
-
+For applications that use `<zywave-analytics>`, we will be sending information to Heap tracking number of instances of our components on each page. We'll be using some control mechanisms to make sure we aren't too chatty and getting in the way of critical performance, and won't grab any analytics at all if on worse connection types, where a user might be using mobile data.
 <docs-spacer></docs-spacer>
 
 ## Monitoring to improve bundle performance
 
-TODO @hudson
+A goal of ours in the recent months has been to try to reduce the footprint ZUI has on the initial load times of Zywave's applications. Given that ZUI is a critical component of most features, it's unfair of us to be taking up as much bandwidth as we currently are with our standard bundle. As we work to decrease this footprint, we realized we needed some monitoring in place to see just how much we're effecting change in our bundle.
+
+To start, our merge requests have been configured to present the difference in bundle size between the target branch and the source branch. We'll likely continue to enhance this, and have some follow up blogs posts in the future to share what we do as we believe others should do this as well.
+
+## Full changelog
+
+As always, if you want to see all of the activity that went into this release, feel free to [check out the milestone in GitLab](https://gitlab.com/groups/zywave/devkit/-/milestones/22#tab-issues)
