@@ -71,7 +71,7 @@ There are no changes that consumers of this Dialog component need to make. Win!
 
 ## Enforcing consistent form label layout
 
-TODO @hudson
+One of the primary goals of `<zui-formfield>` is to ensure all form labels are consistently placed. During an assessment of form consistency across our apps, we found that a majority of them have been implementing forms with the labels stacked above form fields. We reassessed our
 
 <docs-spacer></docs-spacer>
 
