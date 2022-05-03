@@ -8,13 +8,13 @@ hideToc: false
 tags:
   - Release Notes
 ---
-This month's release is a unique one, in that it mostly is focused around enabling, well, us! We know, a bit selfish, but we hope that this will enable us in future releases to prioritize work that improves your apps, whether by removing unused components or for finding opportunities to improve your workflows.
+This month's release is a unique one in that it's mostly focused around enabling...well, us! We know, a bit selfish, but this will enable us in future releases to prioritize work that will improve your apps; whether by removing unused components or finding opportunities to improve your workflows.
 
-There are three goodies in this release for you, however, so we'll start with those.
+There are three goodies in this release for you, so we'll start with those.
 
 ## ZUI's newest addition, ZUI Tag!
 
-TODO @schmirler
+A couple years ago, we decided to leave it up to developers to follow design specs and code their own tags within their apps because it's just a DIV with some colors. Today, we have several apps that have their own custom tags but when looked at all together, each app's tags were slightly different from each other. With the increased usage of tags, this was the opportune time to 
 
 ![examples of zui-tag](/images/tags-example.png)
 
