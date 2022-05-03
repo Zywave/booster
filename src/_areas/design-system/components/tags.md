@@ -9,12 +9,6 @@ includedElements:
   - zui-tag
 statusOverride: unstable
 ---
-## Usage
-
-## Anatomy
-
-
-
-## Synonyms
-- Pills
-- Lozenges
+<docs-note>
+This component is a new entry into the Booster lineup, and its documentation is still being drafted. Hang tight!
+</docs-note>
