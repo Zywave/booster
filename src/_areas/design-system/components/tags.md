@@ -3,7 +3,7 @@ title: Tags
 subtitle: ""
 hideToc: false
 api: https://cdn.zywave.com/@zywave/zui-tag@next/dist/custom-elements.json
-demo: https://cdn.zywave.com/@zywave/zui-tag@next/demo/index.html
+demo: https://cdn.zywave.com/@zywave/zui-tag@next/docs/demo.html
 mainComponentName: zui-tag
 includedElements:
   - zui-tag
