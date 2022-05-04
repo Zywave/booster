@@ -89,9 +89,15 @@ For applications that use `<zywave-analytics>`, we will be sending information t
 
 ## Monitoring to improve bundle performance
 
-A goal of ours in the recent months has been to try to reduce the footprint ZUI has on the initial load times of Zywave's applications. Given that ZUI is a critical component of most features, it's unfair for us to take up as much bandwidth as we currently are with our standard bundle. As we work to decrease this footprint, we realized we needed some monitoring in place to see just how much we're affecting change in our bundle.
+A goal of ours in the recent months has been to attempt reducing the footprint ZUI has on the initial load times of Zywave's applications. Given that ZUI is a critical component of most features, it's unfair for us to take up as much bandwidth as we currently are with our standard bundle. As we work to decrease this footprint, we realized we needed some monitoring in place to see just how much we're affecting change in our bundle.
 
 To start, our merge requests have been configured to present the difference in bundle size between the target branch and the source branch. We'll likely continue to enhance this and have some follow up blog posts in the future to share what we do as we believe others should do this as well.
+
+![Example of metrics reports on GitLab merge requests](/images/zui-gitlab-metrics.png)
+
+In addition to the metrics report, we also included the Rollup Plugin Visualizer to see which components are taking up the most space in our monorepo.
+
+![Metrics visualizer of ZUI monorepo](/images/zui-metrics-visualizer.png)
 
 <docs-spacer></docs-spacer>
 
