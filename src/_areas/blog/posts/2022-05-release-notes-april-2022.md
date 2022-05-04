@@ -95,7 +95,7 @@ To start, our merge requests have been configured to present the difference in b
 
 ![Example of metrics reports on GitLab merge requests](/images/zui-gitlab-metrics.png)
 
-In addition to the metrics report, we also included the Rollup Plugin Visualizer to see which modules are taking up the most space in our monorepo. This will give us a better idea of what to improve in order to minimize our bundle's footprint.
+In addition to the metrics report, we also included a visualizer to see which modules are taking up the most space in our monorepo. This will give us a better idea of what to improve in order to minimize our bundle's footprint.
 
 ![Metrics visualizer of ZUI monorepo](/images/zui-metrics-visualizer.png)
 
