@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="408" viewBox="0 0 1000 408">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10758" data-name="Rectangle 10758" width="940" height="348" transform="translate(30 30)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Rectangle_3801" x="26.5" y="159.5" width="1008" height="262" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-2">
+      <rect width="970" height="197" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="149" height="163" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="95" height="166" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Example_-_Tags_in_table">
+      <rect width="1000" height="408"/>
+    </clipPath>
+  </defs>
+  <g id="Example_-_Tags_in_table" data-name="Example - Tags in table" clip-path="url(#clip-Example_-_Tags_in_table)">
+    <rect width="1000" height="408" fill="#f4f4f6"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+      <g id="Group_268804" data-name="Group 268804" transform="translate(1)">
+        <text id="Stewardship_report_subscription_manager" data-name="Stewardship report subscription manager" transform="translate(30 58)" fill="#31313a" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Stewardship report subscription manager</tspan></text>
+        <text id="Add_and_manage_subscriptions_for_the_annual_stewardship_report." data-name="Add and manage subscriptions for the annual stewardship report." transform="translate(30 75)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Add and manage subscriptions for the annual stewardship report.</tspan></text>
+        <g id="Link_Button" data-name="Link Button" transform="translate(761 114)">
+          <g id="Group_264143" data-name="Group 264143">
+            <rect id="Rectangle_6075" data-name="Rectangle 6075" width="188" height="36" rx="18" fill="rgba(255,255,255,0)"/>
+            <text id="Manage_all_subscriptions" data-name="Manage all subscriptions" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Manage all subscriptions</tspan></text>
+          </g>
+        </g>
+        <g id="Table_with_checks" data-name="Table with checks" transform="translate(30 163)">
+          <g transform="matrix(1, 0, 0, 1, -31, -163)" filter="url(#Rectangle_3801)">
+            <rect id="Rectangle_3801-2" data-name="Rectangle 3801" width="999" height="253" rx="2" transform="translate(31 163)" fill="#fff"/>
+          </g>
+          <path id="Rectangle_3802" data-name="Rectangle 3802" d="M2,0H997a2,2,0,0,1,2,2V56a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" fill="#f9f9fa"/>
+          <text id="Account_name" data-name="Account name" transform="translate(101 34)" fill="#3d3d3d" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Account name</tspan></text>
+          <text id="Status" transform="translate(452 34)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Status</tspan></text>
+          <rect id="Rectangle_3807" data-name="Rectangle 3807" width="1" height="196" transform="translate(431 57)" fill="#cbcbd2"/>
+          <rect id="Rectangle_6831" data-name="Rectangle 6831" width="1" height="196" transform="translate(50 56)" fill="#cbcbd2"/>
+          <rect id="Rectangle_3808" data-name="Rectangle 3808" width="1" height="196" transform="translate(589 57)" fill="#cbcbd2"/>
+          <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(0 56)" clip-path="url(#clip-path-2)">
+            <g transform="translate(-47 -119)">
+              <rect id="Rectangle_3803" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(774 -119)">
+              <rect id="Rectangle_3803-2" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(-47 -70)">
+              <rect id="Rectangle_3803-3" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(774 -70)">
+              <rect id="Rectangle_3803-4" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(-47 -21)">
+              <rect id="Rectangle_3803-5" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(774 -21)">
+              <rect id="Rectangle_3803-6" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(-47 28)">
+              <rect id="Rectangle_3803-7" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(774 28)">
+              <rect id="Rectangle_3803-8" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(-47 77)">
+              <rect id="Rectangle_3803-9" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+            <g transform="translate(774 77)">
+              <rect id="Rectangle_3803-10" data-name="Rectangle 3803" width="821" height="1" transform="translate(47 119)" fill="#cbcbd2"/>
+            </g>
+          </g>
+          <text id="Next_send_date" data-name="Next send date" transform="translate(610 36)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Next send date</tspan></text>
+          <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(71 71)" clip-path="url(#clip-path-3)">
+            <g transform="translate(-207 -134)">
+              <text id="ABC_Incorporated" data-name="ABC Incorporated" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">ABC Incorporated</tspan></text>
+            </g>
+            <g transform="translate(-207 -85)">
+              <text id="Better_Accounts_Today" data-name="Better Accounts Today" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Better Accounts Today</tspan></text>
+            </g>
+            <g transform="translate(-207 -36)">
+              <text id="Company_USA" data-name="Company USA" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Company USA</tspan></text>
+            </g>
+            <g transform="translate(-207 13)">
+              <text id="Dennis_the_Menace_Ltd." data-name="Dennis the Menace Ltd." transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Dennis the Menace Ltd.</tspan></text>
+            </g>
+          </g>
+          <g id="Repeat_Grid_4" data-name="Repeat Grid 4" transform="translate(610 71)" clip-path="url(#clip-path-4)">
+            <g transform="translate(-207 -134)">
+              <text id="_4_16_2023" data-name="4/16/2023" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">4/16/2023</tspan></text>
+            </g>
+            <g transform="translate(-207 -84)">
+              <text id="_4_16_2023-2" data-name="4/16/2023" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">4/16/2023</tspan></text>
+            </g>
+            <g transform="translate(-207 -34)">
+              <text id="_-" data-name="-" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">-</tspan></text>
+            </g>
+            <g transform="translate(-207 16)">
+              <text id="_--2" data-name="-" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">-</tspan></text>
+            </g>
+          </g>
+          <g id="Unchecked" transform="translate(15 71)">
+            <path id="Unchecked-2" data-name="Unchecked" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" fill="#9494a4"/>
+          </g>
+          <g id="Unchecked-3" data-name="Unchecked" transform="translate(15 168)">
+            <path id="Unchecked-4" data-name="Unchecked" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" fill="#9494a4"/>
+          </g>
+          <g id="Unchecked-5" data-name="Unchecked" transform="translate(15 120)">
+            <path id="Unchecked-6" data-name="Unchecked" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" fill="#9494a4"/>
+          </g>
+          <g id="Sort" transform="translate(71 18.5)">
+            <g id="Group_13118" data-name="Group 13118" transform="translate(0 0)">
+              <rect id="Rectangle_6828" data-name="Rectangle 6828" width="19.896" height="19.896" transform="translate(0 0.029)" fill="none"/>
+              <g id="Group_13117" data-name="Group 13117" transform="translate(3.701)">
+                <path id="Path_8841" data-name="Path 8841" d="M6.069,7.952a.332.332,0,0,0,.5,0l4.145-4.145,4.145,4.145a.332.332,0,0,0,.5,0L16.846,6.46a.332.332,0,0,0,0-.5L10.96.077a.332.332,0,0,0-.5,0L4.577,6.046a.332.332,0,0,0,0,.5Z" transform="translate(-4.465 0.035)" fill="#24252c"/>
+                <path id="Path_8842" data-name="Path 8842" d="M15.354,14.377a.332.332,0,0,0-.5,0l-4.145,4.145L6.566,14.377a.332.332,0,0,0-.5,0L4.577,15.869a.332.332,0,0,0,0,.5l5.886,5.886a.332.332,0,0,0,.5,0l5.886-5.886a.332.332,0,0,0,0-.5Z" transform="translate(-4.465 -2.41)" fill="#24252c"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_268803" data-name="Group 268803" transform="translate(452 70.5)">
+            <g id="Group_268800" data-name="Group 268800">
+              <rect id="Rectangle_9728" data-name="Rectangle 9728" width="81" height="20" rx="2" fill="#d7efcd"/>
+              <text id="SUBSCRIBED" transform="translate(8 14)" fill="#376822" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">SUBSCRIBED</tspan></text>
+            </g>
+            <g id="Group_268801" data-name="Group 268801" transform="translate(0 50)">
+              <rect id="Rectangle_9728-2" data-name="Rectangle 9728" width="81" height="20" rx="2" fill="#d7efcd"/>
+              <text id="SUBSCRIBED-2" data-name="SUBSCRIBED" transform="translate(8 14)" fill="#376822" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">SUBSCRIBED</tspan></text>
+            </g>
+            <g id="Group_268802" data-name="Group 268802" transform="translate(0 99)">
+              <rect id="Rectangle_9728-3" data-name="Rectangle 9728" width="107" height="20" rx="2" fill="#e6e6ea"/>
+              <text id="NOT_SUBSCRIBED" data-name="NOT SUBSCRIBED" transform="translate(8 14)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.1em"><tspan x="0" y="0">NOT SUBSCRIBED</tspan></text>
+            </g>
+          </g>
+          <rect id="Rectangle_10759" data-name="Rectangle 10759" width="1" height="196" transform="translate(726 57)" fill="#cbcbd2"/>
+          <text id="Last_send_date" data-name="Last send date" transform="translate(747 36)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Last send date</tspan></text>
+          <g id="Repeat_Grid_125" data-name="Repeat Grid 125" transform="translate(747 71)" clip-path="url(#clip-path-4)">
+            <g transform="translate(-207 -134)">
+              <text id="_4_16_2022" data-name="4/16/2022" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">4/16/2022</tspan></text>
+            </g>
+            <g transform="translate(-207 -84)">
+              <text id="N_A" data-name="N/A" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">N/A</tspan></text>
+            </g>
+            <g transform="translate(-207 -34)">
+              <text id="_--3" data-name="-" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">-</tspan></text>
+            </g>
+            <g transform="translate(-207 16)">
+              <text id="_--4" data-name="-" transform="translate(207 149)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">-</tspan></text>
+            </g>
+          </g>
+          <g id="Unchecked-7" data-name="Unchecked" transform="translate(15 218)">
+            <path id="Unchecked-8" data-name="Unchecked" d="M17.5,2a.472.472,0,0,1,.5.5v15a.472.472,0,0,1-.5.5H2.5a.472.472,0,0,1-.5-.5V2.5A.472.472,0,0,1,2.5,2h15m0-2H2.5A2.476,2.476,0,0,0,0,2.5v15A2.476,2.476,0,0,0,2.5,20h15A2.476,2.476,0,0,0,20,17.5V2.5A2.476,2.476,0,0,0,17.5,0Z" fill="#9494a4"/>
+          </g>
+          <rect id="Rectangle_10760" data-name="Rectangle 10760" width="0.5" height="196" transform="translate(858 57)" fill="#cbcbd2"/>
+          <g id="Icon_Link_-_Normal" data-name="Icon Link - Normal" transform="translate(880.5 62.5)">
+            <g id="Group_264647" data-name="Group 264647">
+              <rect id="Rectangle_5240" data-name="Rectangle 5240" width="36" height="36" rx="18" fill="none"/>
+              <g id="Edit" transform="translate(18 18)">
+                <g id="Edit-2" data-name="Edit" transform="translate(-8 -8)">
+                  <path id="Path_101495" data-name="Path 101495" d="M14.4,5.8c.7-.8,1.7-1.9.3-3.3s-2.6-2.7-4.5-.9L2.3,9.5a3.1,3.1,0,0,0-.8,1.7L.6,14.8a.5.5,0,0,0,.6.6l4.1-1a2.7,2.7,0,0,0,1.3-.7ZM12.8,2c1.1,1.2,2.4,1.7.9,3.1L10.9,2.3C11.4,1.9,11.9,1.1,12.8,2ZM1.9,13.5,2.3,12,4,13.7C3.4,13.8,1.8,14.6,1.9,13.5Zm3-.3L2.8,11.1a.5.5,0,0,1,0-.7L10.2,3h.1L13,5.7v.1L5.6,13.2A.5.5,0,0,1,4.9,13.2Zm-.4-1.8a.5.5,0,0,0,.7,0l5.6-5.6a.5.5,0,0,0-.7-.7L4.6,10.7a.5.5,0,0,0,0,.7Z" fill="#2777d3"/>
+                  <rect id="Rectangle_10024" data-name="Rectangle 10024" width="16" height="16" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Icon_Link_-_Normal-2" data-name="Icon Link - Normal" transform="translate(880.5 112)">
+            <g id="Group_264647-2" data-name="Group 264647">
+              <rect id="Rectangle_5240-2" data-name="Rectangle 5240" width="36" height="36" rx="18" fill="none"/>
+              <g id="Edit-3" data-name="Edit" transform="translate(18 18)">
+                <g id="Edit-4" data-name="Edit" transform="translate(-8 -8)">
+                  <path id="Path_101495-2" data-name="Path 101495" d="M14.4,5.8c.7-.8,1.7-1.9.3-3.3s-2.6-2.7-4.5-.9L2.3,9.5a3.1,3.1,0,0,0-.8,1.7L.6,14.8a.5.5,0,0,0,.6.6l4.1-1a2.7,2.7,0,0,0,1.3-.7ZM12.8,2c1.1,1.2,2.4,1.7.9,3.1L10.9,2.3C11.4,1.9,11.9,1.1,12.8,2ZM1.9,13.5,2.3,12,4,13.7C3.4,13.8,1.8,14.6,1.9,13.5Zm3-.3L2.8,11.1a.5.5,0,0,1,0-.7L10.2,3h.1L13,5.7v.1L5.6,13.2A.5.5,0,0,1,4.9,13.2Zm-.4-1.8a.5.5,0,0,0,.7,0l5.6-5.6a.5.5,0,0,0-.7-.7L4.6,10.7a.5.5,0,0,0,0,.7Z" fill="#2777d3"/>
+                  <rect id="Rectangle_10024-2" data-name="Rectangle 10024" width="16" height="16" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="Icon_Link_-_Normal-3" data-name="Icon Link - Normal" transform="translate(880.5 161.5)">
+            <g id="Group_264647-3" data-name="Group 264647">
+              <rect id="Rectangle_5240-3" data-name="Rectangle 5240" width="36" height="36" rx="18" fill="none"/>
+              <g id="Edit-5" data-name="Edit" transform="translate(18 18)">
+                <g id="Edit-6" data-name="Edit" transform="translate(-8 -8)">
+                  <path id="Path_101495-3" data-name="Path 101495" d="M14.4,5.8c.7-.8,1.7-1.9.3-3.3s-2.6-2.7-4.5-.9L2.3,9.5a3.1,3.1,0,0,0-.8,1.7L.6,14.8a.5.5,0,0,0,.6.6l4.1-1a2.7,2.7,0,0,0,1.3-.7ZM12.8,2c1.1,1.2,2.4,1.7.9,3.1L10.9,2.3C11.4,1.9,11.9,1.1,12.8,2ZM1.9,13.5,2.3,12,4,13.7C3.4,13.8,1.8,14.6,1.9,13.5Zm3-.3L2.8,11.1a.5.5,0,0,1,0-.7L10.2,3h.1L13,5.7v.1L5.6,13.2A.5.5,0,0,1,4.9,13.2Zm-.4-1.8a.5.5,0,0,0,.7,0l5.6-5.6a.5.5,0,0,0-.7-.7L4.6,10.7a.5.5,0,0,0,0,.7Z" fill="#2777d3"/>
+                  <rect id="Rectangle_10024-3" data-name="Rectangle 10024" width="16" height="16" fill="none"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
