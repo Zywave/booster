@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Contribute to the documentation
+title: Contribute to documentation
 navTitle: Documentation
 ---
 
