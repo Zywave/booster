@@ -36,4 +36,4 @@ Commonly referred as Zywave API Toolkit (ZAPI), the application framework has a 
 ## Which one do I use?
 While any project can use the Booster Design System, there are requirements that need to be met in order to use the Booster Application System.
 
-[To find out which one is best for your project, check out Getting Started.](/introduction/getting-started/)
+[To find out which one is best for your project, check out Getting Started.](/introduction/getting-started/how-to-get-started/)

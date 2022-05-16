@@ -28,6 +28,7 @@ function buildPermalink(filePath, system) {
     }
   }
 
+  permalink = permalink.replace(/(\\|\/)index\//, "/");
   return permalink;
 }
 
@@ -175,8 +176,9 @@ module.exports = {
             // check if current page
             let checkCurrentStatus = false;
             const currentPagePath = data.page?.inputPath?.split('/_areas/')[1].replace('.md', '/');
+            const currentPagePathSansIndex = currentPagePath.replace(/(\/|\\)index\//, '/');
             const currentFileUrl = buildPermalink(fileFullPath).replace(/\\/g, '/');
-            if (currentPagePath == currentFileUrl) {
+            if (currentPagePathSansIndex == currentFileUrl) {
               checkCurrentStatus = true;
             }
 
