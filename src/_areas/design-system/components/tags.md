@@ -81,7 +81,7 @@ Make the tag text as concise as possible while ensuring that users can still cle
 
 <docs-do-not>
 
-Use text labels that are more than 15 characters or that contain more than two words
+Use text labels that are more than 15 characters or that contain more than two words.
 
 </docs-do-not>
 
@@ -99,7 +99,7 @@ Try to use tag colors that make sense given the subtext/connotations of terms us
 
 <docs-do-not>
 
-Use more than six tags together at a time
+Use more than six tags together at a time.
 
 </docs-do-not>
 
