@@ -25,7 +25,7 @@ They are often seen in the context of lists and tables in order to highlight cer
 
 ## **Anatomy**
 
-For a more detailed breakdown of spacing and sizing, view the **design specs [*link needed*]**.
+For a more detailed breakdown of spacing and sizing, view the **[design specs](https://xd.adobe.com/view/7b1e5072-d6da-4b62-bf9f-6685601fe004-2e4d/)**.
 
 ### Tag
 
