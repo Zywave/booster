@@ -14,6 +14,8 @@ tags:
 
 ## Improved component utilization tracking
 
+![Footprints in the snow](/images/footprint-in-snow2.jpg)
+
 Shell API was enhanced to allow for Heap analytics tracking of component utilization for specific users and domains that were not supported. Previously ZUI/ZAPI component instances weren't able to track for users who were either:
 
 1. not logged in using Zywave's authentication
