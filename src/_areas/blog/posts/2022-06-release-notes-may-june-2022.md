@@ -95,19 +95,13 @@ Zywave's stance on support for Safari is a bit of a gray area but this sprint we
 
 <docs-spacer></docs-spacer>
 
-## `zywave-shell app-name enhancement`
+## `Removing app-name from Zywave Shell when not overriding side nav`
 
-Now `zywave-shell` if it isn't given an `app-name` value it will not render this piece, effectively making the "app bar" colorized portion of `zui-shell-topbar` a thin stripe. However, when an `app-name` value is provided the "app bar" will grow in height to accommodate the text.
+The `app-name` attribute for Shell has been a feature for quite some time; however, as we converge many applications into a universal experience, we no longer need to render the "application name".
 
-**App bar with no `app-name`:**
+For users of Zywave Shell that do not override the side nav, the `app-name` attribute will now be ignored, and the slim blue trim bar will be the result.
 
-![zywave-shell with no app-name value](/images/zywave-shell-no-app-name.jpg)
-
-<docs-spacer></docs-spacer>
-
-**App bar with an `app-name`:**
-
-![zywave-shell with app-name value set](/images/zywave-shell-w-app-name.jpg)
+![zywave-shell with ignored app-name value](/images/zywave-shell-no-app-name.jpg)
 
 <docs-spacer></docs-spacer>
 
