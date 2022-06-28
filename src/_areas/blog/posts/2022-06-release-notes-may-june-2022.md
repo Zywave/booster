@@ -95,9 +95,9 @@ Zywave's stance on support for Safari is a bit of a gray area but this sprint we
 
 <docs-spacer></docs-spacer>
 
-## `Zywave-shell app-name enhancement`
+## `zywave-shell app-name enhancement`
 
-Now `zywave-shell` if it isn't given an `app-name` value it will not render this piece, effectively making the "app bar" colorized portion of `zui-shell-topbar` a thin stripe. However, when an `app-name` value is provided the "app bar" will grow in size to accommodate the text.
+Now `zywave-shell` if it isn't given an `app-name` value it will not render this piece, effectively making the "app bar" colorized portion of `zui-shell-topbar` a thin stripe. However, when an `app-name` value is provided the "app bar" will grow in height to accommodate the text.
 
 **App bar with no `app-name`:**
 
