@@ -29,7 +29,7 @@ With this release we are now able to collect data from these contexts with apps 
 
 ![An empty room](/images/empty-room.jpg)
 
-A new method allows consumers to clear their selected options in dropdowns:
+A new method allows consumers to clear their users selected options in dropdowns:
 
 ```typescript
 const ZuiSelectDropdown = document.querySelector('zui-select-dropdown');
@@ -48,6 +48,14 @@ Efforts this sprint were made to:
 
 1. rewrite `zui-tabs` independent of any third party library, looking to pre-release this in early July to allow ample testing time
 2. conversations and plans were made with teams consuming `zui-pages`, to refactor codebases to sever ties with this component; the updates are quite easy and painless
+
+<docs-spacer></docs-spacer>
+
+## More ZUI form controls
+
+Say hello to the ZUI toolkit's latest component: `zui-textarea`. The choice to create this component versus enhancing our existing input component to handle `zui-input type="textarea"` was driven by how browsers define these elements, i.e. `textarea` and `input` respectively. This component is to be used for multi-line text entries.
+
+![zui-textarea demo example](/images/zui-textarea.jpg)
 
 <docs-spacer></docs-spacer>
 
