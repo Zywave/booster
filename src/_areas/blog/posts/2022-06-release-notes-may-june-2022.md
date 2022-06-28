@@ -25,7 +25,22 @@ With this release we are now able to collect data from these contexts with apps 
 
 <docs-spacer></docs-spacer>
 
-## Polymer's bags are packed
+## Now you can programatically clear options in `zui-select-dropdown`'s
+
+![An empty room](/images/empty-room.jpg)
+
+A new method allows consumers to clear their selected options in dropdowns:
+
+```typescript
+const ZuiSelectDropdown = document.querySelector('zui-select-dropdown');
+ZuiSelectDropdown.clear();
+```
+
+<docs-spacer></docs-spacer>
+
+## Polymer's bags are packed, departing soon
+
+![Luggage at the airport](/images/airport-luggage.jpg)
 
 Next release will hopefully be the farewell to ZUI's current dependency on Polymer. It is a heavy weight for what it currently provides.
 
