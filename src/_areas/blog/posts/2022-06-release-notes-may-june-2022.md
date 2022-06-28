@@ -25,7 +25,7 @@ With this release we are now able to collect data from these contexts with apps 
 
 <docs-spacer></docs-spacer>
 
-## Now you can programatically clear options in `zui-select-dropdown`'s
+## Now you can programmatically clear options in `zui-select-dropdown`'s
 
 ![An empty room](/images/empty-room.jpg)
 
@@ -56,6 +56,58 @@ Efforts this sprint were made to:
 Say hello to the ZUI toolkit's latest component: `zui-textarea`. The choice to create this component versus enhancing our existing input component to handle `zui-input type="textarea"` was driven by how browsers define these elements, i.e. `textarea` and `input` respectively. This component is to be used for multi-line text entries.
 
 ![zui-textarea demo example](/images/zui-textarea.jpg)
+
+<docs-spacer></docs-spacer>
+
+## Shelling out more code examples
+
+To better assist consumers of `zui-shell`, we've hashed out several more robust code examples to help people relying on Booster to get the most out of ZUI! The updated demo's include more thoroughly setup samples with a strong consideration for all the sub components and variants that exist to customize the look, feel and function of shell.
+
+Check out the:  [](https://booster.zywave.dev/design-system/components/shell/?tab=demos)<a href="<https://booster.zywave.dev/design-system/components/shell/?tab=demos>">updated Shell demos tab</a>
+
+<docs-spacer></docs-spacer>
+
+## Going on Safari with `zui-dialog`
+
+Zywave's stance on support for Safari is a bit of a gray area but this sprint we've worked to fix some presentational bugs with `zui-dialog` in Safari:
+
+1. it was not horizontally centering dialogs, some small visual enhancements were made to *better* the look in Safari although it still isn't perfect
+
+2. in Safari 14 or <, the backdrop color wasn't applying correctly
+
+**Pre update ugliness:**
+
+![Ugly Safari zui-dialog pre fix](/images/dialog-safari-broken.jpg)
+
+<docs-spacer></docs-spacer>
+
+**Post updated enhanced beauty:**
+
+*Mobile fixed*
+
+![Safari zui-dialog mobile beautified](/images/dialog-safari-mobile.png)
+
+
+
+*Desktop fixed*
+
+![Safari zui-dialog desktop beautified](/images/dialog-safari-desktop.jpg)
+
+<docs-spacer></docs-spacer>
+
+## `Zywave-shell app-name enhancement`
+
+Now `zywave-shell` if it isn't given an `app-name` value it will not render this piece, effectively making the "app bar" colorized portion of `zui-shell-topbar` a thin stripe. However, when an `app-name` value is provided the "app bar" will grow in size to accommodate the text.
+
+**App bar with no `app-name`:**
+
+![zywave-shell with no app-name value](/images/zywave-shell-no-app-name.jpg)
+
+<docs-spacer></docs-spacer>
+
+**App bar with an `app-name`:**
+
+![zywave-shell with app-name value set](/images/zywave-shell-w-app-name.jpg)
 
 <docs-spacer></docs-spacer>
 
