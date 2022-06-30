@@ -2,13 +2,13 @@
 layout: blog
 type: blogPost
 title: Release Notes - May / June 2022
-description: "!!! ADD A DESCRIPTION L8R"
+description: Small and varied changes
 date: 2022-06-30T01:00:00.000Z
 hideToc: false
 tags:
   - Release Notes
 ---
-!!! Add intro paragraph here...
+No drastic changes on the ZUI/ZAPI toolkit front this release but what we did update is documented below, enjoy!
 
 <docs-spacer></docs-spacer>
 
@@ -63,7 +63,7 @@ Say hello to the ZUI toolkit's latest component: `zui-textarea`. The choice to c
 
 To better assist consumers of `zui-shell`, we've hashed out several more robust code examples to help people relying on Booster to get the most out of ZUI! The updated demo's include more thoroughly setup samples with a strong consideration for all the sub components and variants that exist to customize the look, feel and function of shell.
 
-Check out the:  [](https://booster.zywave.dev/design-system/components/shell/?tab=demos)<a href="<https://booster.zywave.dev/design-system/components/shell/?tab=demos>">updated Shell demos tab</a>
+Check out the:  [](https://booster.zywave.dev/design-system/components/shell/?tab=demos)<a href="https://booster.zywave.dev/design-system/components/shell/?tab=demos">updated Shell demos tab</a>
 
 <docs-spacer></docs-spacer>
 
@@ -72,7 +72,6 @@ Check out the:  [](https://booster.zywave.dev/design-system/components/shell/?ta
 Zywave's stance on support for Safari is a bit of a gray area but this sprint we've worked to fix some presentational bugs with `zui-dialog` in Safari:
 
 1. it was not horizontally centering dialogs, some small visual enhancements were made to *better* the look in Safari although it still isn't perfect
-
 2. in Safari 14 or <, the backdrop color wasn't applying correctly
 
 **Pre update ugliness:**
@@ -86,8 +85,6 @@ Zywave's stance on support for Safari is a bit of a gray area but this sprint we
 *Mobile fixed*
 
 ![Safari zui-dialog mobile beautified](/images/dialog-safari-mobile.png)
-
-
 
 *Desktop fixed*
 
