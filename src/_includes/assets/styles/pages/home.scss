@@ -127,7 +127,7 @@
         filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
         filter: drop-shadow(11px 5px 4px rgba(0, 0, 0, 0.4));
         transform-origin: top right;
-        transition: filter 1s ease-out, transform 1s ease-out;
+        transition: filter 1s ease-out, transform 0.8s ease-out;
 
         #flare {
           transition: filter 1s ease-out;
@@ -137,7 +137,7 @@
       &:hover {
         svg {
           filter: blur(2px) contrast(500%);
-          transform: scale(0.8);
+          transform: scale(0.8) translate(20%, -20%) rotate(15deg);
 
           &:nth-child(1) {
             filter: blur(10px) contrast(3) brightness(1) hue-rotate(340deg);
@@ -147,6 +147,8 @@
             filter: blur(3px) contrast(110%) brightness(5) hue-rotate(444deg) grayscale(30%);
 
             #flare {
+              transition: filter 1s ease-out;
+
               filter: brightness(6) hue-rotate(60deg);
             }
           }
