@@ -27,7 +27,7 @@ A Text Input consists of three areas.
 
 <br>
 
-#### Sizing & spacing
+### Sizing & spacing
 
 The length of the input should be as close to the intended length of content as possible.
 
@@ -39,23 +39,21 @@ The length of the input should be as close to the intended length of content as 
 
 ## States
 
-Text Inputs can display the following states: unselected, hover, focus, and disabled.
+Text Inputs can display the following states: unselected, hover, focus, disabled, valid, and invalid.
 
 ![Text input states](/images/textinput_states.svg)
 
 <br>
 
-#### Read only
+### Read only
 
 Read-only Text Inputs should be used when there is no action the user can take on the page to enable the field. The benefit of using the read-only input field over a body of text is it still has a focused state, meaning the user can navigate to it using their keyboard.
 
 Read-only Text Inputs may cause frustration or confusion. You may consider using a [Tooltip](/design-system/components/tooltip) that informs them where they may be able to go to change the information that appears in the read-only Text Input.
 
-- - -
+<br>
 
-## Types
-
-#### Validation
+### Validation
 
 A success Text Input is outlined in green. A success message may appear below or next to the input.
 
@@ -69,9 +67,11 @@ An error text Input is outlined in red. Error message with details on the error 
 
 <docs-note> For more information on validation, [see Forms documentation on validation](https://booster.zywave.dev/design-system/patterns/forms/#validation). </docs-note>
 
-<br>
+---
 
-#### Text Area
+## Types
+
+### Text Area
 
 A Text Area is a subset of the Text Input specifically used for entering multiple lines of information. The input size is larger (width and length) than a standard Text Input. Text Areas can also include a scroll bar and expander tab in the bottom right corner, if necessary.
 
@@ -83,7 +83,7 @@ We recommend capping the max-height of a Text Area so it doesn't use too much sp
 
 <br>
 
-#### Text inputs with actions
+### Text inputs with actions
 
 In rare occasions, a Button can be placed directly next to the Text Input, most commonly seen on search fields. The close proximity of this Button saves space in the UI and ties an action directly to a Text Input. The button should have a text label or use a very clear and deliberate icon. This button placement should be used rarely and should not be used for most single Text Inputs or on Forms. 
 
@@ -95,7 +95,7 @@ For more information on Search, [see the guidelines](https://booster.zywave.dev/
 
 <br>
 
-#### Input prefix
+### Input prefix
 
 An input prefix can be added to front of the Text Input to specify what should be entered, such as a dollar sign. To add more attention a container can be added to the styling. These labels are typically an icon.
 
@@ -103,7 +103,7 @@ An input prefix can be added to front of the Text Input to specify what should b
 
 <br>
 
-#### Input suffix
+### Input suffix
 
 An input suffix can be added to back of the Text Input to specify what should be entered, such as a percentage symbol. These labels are typically an icon.
 
@@ -111,7 +111,7 @@ An input suffix can be added to back of the Text Input to specify what should be
 
 <br>
 
-#### Input prefix & suffix
+### Input prefix & suffix
 
 An input prefix and suffix can be added to front and back of the Text Input to specify what should be entered, such as a dollar sign and a decimal number to represent a dollar amount.
 

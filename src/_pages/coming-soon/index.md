@@ -1,5 +1,5 @@
 ---
-layout: no-nav-base
+layout: no-side-nav-base
 title: Coming soon
 subtitle: Under construction
 ---
