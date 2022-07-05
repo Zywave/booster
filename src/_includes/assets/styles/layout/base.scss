@@ -6,7 +6,7 @@ main {
     width: calc(100% - #{rem(350)});
   }
 
-  .content-wrapper {
+  .content-wrapper:not(.home) {
     padding: rem(20);
 
     @media screen and (min-width: 60em) {

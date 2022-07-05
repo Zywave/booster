@@ -4,7 +4,7 @@ layout: base
 
 <main>
     {% include "components/top-nav.njk" %}
-    <div class="content-wrapper">
+    <div class="content-wrapper {{ pageType }}">
         {{ content | safe }}
     </div>
 </main>

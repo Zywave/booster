@@ -129,9 +129,9 @@
         transform-origin: top right;
         transition: filter 1s ease-out, transform 0.8s ease-out;
 
-        #flare {
-          transition: filter 1s ease-out;
-        }
+        // #flare {
+        //   // transition: filter 1s ease-out;
+        // }
       }
 
       &:hover {
@@ -147,9 +147,8 @@
             filter: blur(3px) contrast(110%) brightness(5) hue-rotate(444deg) grayscale(30%);
 
             #flare {
-              transition: filter 1s ease-out;
-
               filter: brightness(6) hue-rotate(60deg);
+              transition: filter 1s ease-out;
             }
           }
         }

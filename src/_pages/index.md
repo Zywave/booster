@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: base
+layout: no-side-nav-base
 title: Booster Development Network
 navHidden: true
 pageType: home
@@ -8,21 +8,7 @@ subtitle: " "
 ---
 
 <link rel="stylesheet" href="/css/pages/home.css">
-<main>
-    <header class="home-nav">
-        <div class="home-nav-content">
-            <div class="logo"><img src="/images/home/zywave-logo.svg" /></div>
-            <nav>
-                <ul>
-                    <li><a href="{{ '/introduction/' | url }}">Introduction</a></li>
-                    <li><a href="{{ '/design-system/about/' | url }}">Design system</a></li>
-                    <li><a href="{{ '/application-framework/about/' | url }}">Application framework</a></li>
-                    <li><a href="{{ '/blog/' | url }}">Blog</a></li>
-                    <li><a target="_blank" href="https://thenewz.zywave.com/wp-content/uploads/2020/08/Zywave-Brand-Guide.pdf">Branding</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<section>
     <div class="home-introduction">
         <img class="home-introduction-img" src="{{  '/images/home/space-background.svg' }}" alt="Space background">
         <div class="home-introduction-content">
@@ -167,4 +153,4 @@ subtitle: " "
             <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
         </div>
     </section>
-</main>
+</section>
