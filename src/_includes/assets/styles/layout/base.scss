@@ -6,19 +6,27 @@ main {
     width: calc(100% - #{rem(350)});
   }
 
-  .content-wrapper:not(.home) {
-    padding: rem(20);
+  .content-wrapper {
+    margin-top: rem(52);
 
-    @media screen and (min-width: 60em) {
-      padding: rem(30);
+    @media (min-width: 64em) {
+      margin-top: rem(77);
     }
 
-    @media screen and (min-width: 64em) {
-      padding: rem(30) rem(50);
-    }
+    &:not(.home) {
+      padding: rem(20);
 
-    @media screen and (min-width: 80em) {
-      padding: rem(40) rem(90);
+      @media screen and (min-width: 60em) {
+        padding: rem(30);
+      }
+
+      @media screen and (min-width: 64em) {
+        padding: rem(30) rem(50);
+      }
+
+      @media screen and (min-width: 80em) {
+        padding: rem(40) rem(90);
+      }
     }
   }
 }

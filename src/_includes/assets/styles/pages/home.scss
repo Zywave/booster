@@ -82,7 +82,11 @@
   grid-template-columns: 100%;
   grid-template-rows: auto;
   width: 100%;
-  min-height: calc(100vh - rem(79));
+  min-height: calc(100vh - rem(52));
+  
+  @media (min-width: 64em) {
+    min-height: calc(100vh - rem(77));
+  }
 
   &-img {
     // grid-area: 1 / 2 / 1/ 2;
