@@ -9,7 +9,7 @@ main {
   .content-wrapper {
     margin-top: rem(52);
 
-    @media (min-width: 64em) {
+    @media (min-width: 77em) { // 1232px
       margin-top: rem(77);
     }
 

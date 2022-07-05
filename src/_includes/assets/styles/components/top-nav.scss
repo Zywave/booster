@@ -72,8 +72,13 @@
       }
 
       .search-login-container {
+          flex-shrink: 0;
           display: flex;
           align-items: center;
+          // algolia search autocomplete has a min width, cut off without these fixes
+          @media (min-width: 42.5em) { // 680px
+            min-width: rem(360);
+          }
       }
 
       .login {
@@ -92,6 +97,12 @@
 
     // algolia search overrides
     #search-top-nav {
+      flex: 1;
+
+      form.aa-Form {
+        margin-left: auto;
+      }
+
         // default / closed state
         .aa-Autocomplete {
             form {

@@ -78,27 +78,25 @@
 }
 
 .home-introduction {
+  --docs-top-nav-height: #{rem(52)};
+  @media (min-width: 77rem) { // 1232px
+    --docs-top-nav-height: #{rem(58)};
+  }
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
   width: 100%;
-  min-height: calc(100vh - rem(52));
-  
-  @media (min-width: 64em) {
-    min-height: calc(100vh - rem(77));
-  }
+  min-height: calc(100vh - var(--docs-top-nav-height));
 
   &-img {
-    // grid-area: 1 / 2 / 1/ 2;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     width: 100%;
-    height: 100%;
+    height: calc(100vh - var(--docs-top-nav-height));
     object-fit: cover;
   }
-  
+
   &-content {
-    // grid-area: 1 / 2 / 1/ 2;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     display: grid;
@@ -109,11 +107,6 @@
     max-width: 70%;
     margin: rem(100) auto;
 
-    
-    .logo-booster-development {
-
-    }
-
     .logo-by-name {
       display: block;
       margin-left: auto;
@@ -123,7 +116,10 @@
     &-rocket-wrapper {
       display: grid;
       grid-template-columns: 100%;
-      padding: rem(100);
+      padding: 25%;
+      @media (min-width: 110em) {
+        padding: rem(180);
+      }
 
       svg {
         grid-column: 1 / 2;
@@ -131,11 +127,7 @@
         filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
         filter: drop-shadow(11px 5px 4px rgba(0, 0, 0, 0.4));
         transform-origin: top right;
-        transition: filter 1s ease-out, transform 0.8s ease-out;
-
-        // #flare {
-        //   // transition: filter 1s ease-out;
-        // }
+        transition: filter 0.4s ease-out, transform 0.4s ease-out;
       }
 
       &:hover {
@@ -144,11 +136,19 @@
           transform: scale(0.8) translate(20%, -20%) rotate(15deg);
 
           &:nth-child(1) {
-            filter: blur(10px) contrast(3) brightness(1) hue-rotate(340deg);
+            filter: blur(5px) contrast(3) brightness(1) hue-rotate(340deg);
+
+            @media (min-width: 110em) {
+              filter: blur(10px) contrast(3) brightness(1) hue-rotate(340deg);
+            }
           }
 
           &:nth-child(2) {
-            filter: blur(3px) contrast(110%) brightness(5) hue-rotate(444deg) grayscale(30%);
+            filter: blur(1.5px) contrast(110%) brightness(5) hue-rotate(444deg) grayscale(30%);
+
+            @media (min-width: 110em) {
+              filter: blur(3px) contrast(110%) brightness(5) hue-rotate(444deg) grayscale(30%);
+            }
 
             #flare {
               filter: brightness(6) hue-rotate(60deg);
