@@ -245,10 +245,11 @@ subtitle: " "
     </div>
     <div class="footer-sitemap">
         <ul class="footer-sitemap-section">
-            <li><a href="#"><h3>Getting started</h3></a></li>
-            <li><a href="#">Contribute to the docs</a></li>
-            <li><a href="#">Format docs</a></li>
-            <li><a href="#">Do and Do Not</a></li>
+            <li><a href="#"><h3>Introduction</h3></a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contributing</a></li>
+            <li><a href="#">Getting started</a></li>
+            <li><a href="#">Glossary</a></li>
         </ul>
         <ul class="footer-sitemap-section">
             <li><a href="#"><h3>Design system</h3></a></li>
