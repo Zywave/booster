@@ -99,6 +99,7 @@
   width: 100%;
   min-height: calc(100vh - var(--docs-top-nav-height));
   background: #294348 url('../../images/home/space-background.svg') no-repeat center bottom;
+  background-size: cover;
 
   &-content {
     grid-column: 1 / 2;
@@ -324,6 +325,7 @@
   width: 68.75%;
   margin: 0 auto;
   gap: 15%;
+  align-items: center;
 }
 
 .home-value-img {
