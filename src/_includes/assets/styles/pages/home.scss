@@ -1,5 +1,16 @@
 @use '../utils/_functions.scss' as *;
 
+:root {
+  --docs-tile-highlight-color: #4DD1C8;
+  --docs-tile-highlight-color-darker: #1B6964;
+  --docs-tile-highlight-color-translucent: #4DD1C8bf;
+}
+.app-framework {
+  --docs-tile-highlight-color: #F36F12;
+  --docs-tile-highlight-color-darker: #D56110;
+  --docs-tile-highlight-color-translucent: #F36F12bf;
+}
+
 .home {
   --zui-background: var(--zui-gray-50);
 
@@ -168,9 +179,29 @@
   &-scroll-text {
     position: absolute;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    bottom: 0;
+    bottom: 2.5rem;
+    justify-self: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    animation: bounce infinite alternate 0.5s ease-in-out;
 
+    @keyframes bounce {
+      from {
+        transform: translateY(7%);
+      }
+    }
+
+    &-triangle {
+      align-self: center;
+      width: 0; 
+      height: 0; 
+      border-top: 10px solid #fff;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+    }
   }
 }
 
@@ -182,7 +213,7 @@
 .home-categories-width {
   display: grid;
   grid-template-columns: 28% 1fr;
-  gap: rem(30);
+  gap: rem(100) rem(30);
   max-width: 70%;
   margin: rem(100) auto;
 }
@@ -209,12 +240,13 @@
 
 .cta {
   color: #1B6964;
+  color: var(--docs-tile-highlight-color-darker);
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s ease-in; 
 
   &:hover {
-    color: #4DD1C8;
+    color: var(--docs-tile-highlight-color);
 
     svg {
       transform: translateX(2px);
@@ -237,9 +269,13 @@
   border-radius: rem(4);
   color: #31313A;
   text-decoration: none;
+  transition: box-shadow 0.3s ease-in;
 
-  &:hover {
+  &:hover,
+  &:focus {
+    text-decoration: none;
     color: #31313A;
+    box-shadow: 0 1px 10px var(--docs-tile-highlight-color-translucent);
 
     .home-category-tile-border {
       transform: scaleY(2);
@@ -247,7 +283,7 @@
     }
 
     .cta {
-      color: #4DD1C8;
+      color: var(--docs-tile-highlight-color);
 
       svg {
         transform: translateX(2px);
@@ -255,11 +291,15 @@
     }
   }
 
+  &:focus {
+    text-decoration: none;
+  }
+
   &-border {
     position: absolute;
     top: 0;
     right: 0;
-    background: #4DD1C8;
+    background: var(--docs-tile-highlight-color);
     width: 100%;
     height: rem(10);
     transition: transform 0.3s ease-in;
@@ -314,5 +354,69 @@
 
   p {
     font-size: rem(22);
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+
+  .footer-sitemap {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: rem(50);
+    padding: rem(50) 8.5%;
+    background: #26333B;
+
+    &-section {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: rem(18);
+      font-weight: 600;
+      color: #4DD1C8;
+
+      a {
+        display: flex;
+        color: #fff;
+        font-weight: 400;
+        text-decoration: none;
+        padding: rem(5) 0;
+      }
+    }
+  }
+
+  .footer-legal {
+    border-top: 1px solid #707070;
+    display: flex;
+    justify-content: space-between;
+    padding: rem(20) 8.5%;
+    background: #2B3B43;
+
+    &-title {
+      h3 {
+        color: #fff;
+        font-size: rem(14);
+        text-transform: uppercase;
+      }
+      div {
+        font-size: rem(12);
+        color: #9494A4;
+      }
+    }
+
+    &-links {
+      display: flex;
+      gap: rem(50);
+      margin-left: auto;
+      align-items: center;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
   }
 }

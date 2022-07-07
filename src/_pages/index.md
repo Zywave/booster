@@ -35,13 +35,14 @@ subtitle: " "
                 </svg>
             </div>
         </div>
-        <!-- <div class="home-introduction-scroll-text">
+        <div class="home-introduction-scroll-text">
             <p>blast off</p>
             <div class="home-introduction-scroll-text-triangle"></div>
-        <div> -->
+        </div>
     </div>
     <div class="home-categories">
         <section class="home-categories-width">
+            <!-- design system section -->
             <div class="home-category-text">
                 <h2>Design system</h2>
                 <p>Stellar components, patterns and other visual elements that comprise the Zywave user experience.</p>
@@ -62,7 +63,22 @@ subtitle: " "
                         <p>The building blocks of the Zywave universe.</p>
                     </div>
                     <div class="cta">
-                        <span>View patterns</span>
+                        <span>View components</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <g transform="translate(11.9) rotate(90)">
+                                <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
+                            </g>
+                        </svg>
+                    </div>
+                </a>
+                <a class="home-category-tile" href="#">
+                    <div class="home-category-tile-border"></div>
+                    <div>
+                        <h3>Developers</h3>
+                        <p>Setup guides and FAQs for developers.</p>
+                    </div>
+                    <div class="cta">
+                        <span>View developers</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
@@ -103,11 +119,11 @@ subtitle: " "
                 <a class="home-category-tile" href="#">
                     <div class="home-category-tile-border"></div>
                     <div>
-                        <h3>Visuals</h3>
-                        <p>Color palettes, iconography, illustration styles, and typographical standards.</p>
+                        <h3>Voice and tone</h3>
+                        <p>Guidelines for all forms of messaging within the UI to ensure consistent brand voice.</p>
                     </div>
                     <div class="cta">
-                        <span>Learn more about visuals</span>
+                        <span>Learn more about voice/tone</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
@@ -115,14 +131,44 @@ subtitle: " "
                         </svg>
                     </div>
                 </a>
-                <a class="home-category-tile" href="#">
+            </div>
+             <!-- app framework section -->
+            <div class="home-category-text">
+                <h2>Application framework</h2>
+                <p>A collection of API-driven custom elements and tools that help you quickly build a Zywave-integrated application.</p>
+                <a class="cta app-framework" href="{{ '/design-system/about/' | url }}">
+                    <span>Learn more about our application framework</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                        <g transform="translate(11.9) rotate(90)">
+                            <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="home-categories-tile-grid">
+                <a class="home-category-tile app-framework" href="#">
                     <div class="home-category-tile-border"></div>
                     <div>
-                        <h3>Voice and tone</h3>
-                        <p>Guidelines for all forms of messaging within the UI to ensure consistent brand voice.</p>
+                        <h3>Components</h3>
+                        <p>A constellation of developer tools including Analytics, API proxy, and Zywave shell.</p>
                     </div>
                     <div class="cta">
-                        <span>Learn more about voice/tone</span>
+                        <span>View components</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <g transform="translate(11.9) rotate(90)">
+                                <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
+                            </g>
+                        </svg>
+                    </div>
+                </a>
+                <a class="home-category-tile app-framework" href="#">
+                    <div class="home-category-tile-border"></div>
+                    <div>
+                        <h3>Developers</h3>
+                        <p>Setup and guidance for developers.</p>
+                    </div>
+                    <div class="cta">
+                        <span>View developers</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
@@ -154,3 +200,43 @@ subtitle: " "
         </div>
     </section>
 </section>
+<footer>
+    <div class="footer-sitemap">
+        <ul class="footer-sitemap-section">
+            <li><h3>Getting started</h3></li>
+            <li><a href="#">Contribute to the docs</a></li>
+            <li><a href="#">Format docs</a></li>
+            <li><a href="#">Do and Do Not</a></li>
+        </ul>
+        <ul class="footer-sitemap-section">
+            <li><h3>Design system</h3></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Components</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Patterns</a></li>
+            <li><a href="#">Visuals</a></li>
+            <li><a href="#">Voice and tone</a></li>
+        </ul>
+        <ul class="footer-sitemap-section">
+            <li><h3>Application framework</h3></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Components</a></li>
+            <li><a href="#">Developers</a></li>
+        </ul>
+        <ul class="footer-sitemap-section">
+            <li><h3>Other resources</h3></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Branding guidelines</a></li>
+        </ul>
+    </div>
+    <div class="footer-legal">
+        <div class="footer-legal-title">
+            <h3>Booster Development Network | All rights reserved</h3>
+            <div class="footer-legal-title-sub">Powered by Zywave</div>
+        </div>
+        <div class="footer-legal-links">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of use</a>
+        </div>
+    <div>
+</footer>
