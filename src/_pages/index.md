@@ -196,12 +196,12 @@ subtitle: " "
                 <h2>One brand voice</h2>
                 <p>Booster's design system helps you build toward your team's shared vision with ease as you continue shooting for the stars.</p>
             </div>
-            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-2-voice.svg" alt="TODO">
         </div>
     </section>
     <section class="home-value">
         <div class="home-value-width">
-            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-3-stop.svg" alt="TODO">
             <div class="home-value-text">
                 <h3>it's not rocket science</h3>
                 <h2>One stop for all your design needs</h2>
@@ -216,12 +216,12 @@ subtitle: " "
                 <h2>One less thing to worry about</h2>
                 <p>Booster is built around convenience. It saves you time and gives you the bandwidth to focus on what matters.</p>
             </div>
-            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-4-convenience.svg" alt="TODO">
         </div>
     </section>
     <section class="home-value">
         <div class="home-value-width">
-            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-5-vision.svg" alt="TODO">
             <div class="home-value-text">
                 <h3>to infinity and beyond</h3>
                 <h2>One shared vision</h2>
@@ -239,7 +239,7 @@ subtitle: " "
             <a class="button" href="#">Houston, we have a problem</a>
         </div>
         <div class="footer-launch-img-wrapper">
-            <img src="#">
+            <img src="/images/footer-launch.svg" alt="TODO">
         </div>
     </div>
     <div class="footer-sitemap">
