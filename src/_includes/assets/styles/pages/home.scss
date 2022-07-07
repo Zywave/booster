@@ -374,16 +374,20 @@ footer {
       list-style: none;
       margin: 0;
       padding: 0;
-      font-size: rem(18);
-      font-weight: 600;
-      color: #4DD1C8;
-
+      
+      h3 {
+        font-weight: 600;
+        color: #4DD1C8;
+        font-size: rem(18);
+      }
+      
       a {
-        display: flex;
-        color: #fff;
-        font-weight: 400;
-        text-decoration: none;
+        display: inline-flex;
         padding: rem(5) 0;
+        font-size: rem(18);
+        font-weight: 400;
+        color: #fff;
+        text-decoration: none;
       }
     }
   }
@@ -400,6 +404,7 @@ footer {
         color: #fff;
         font-size: rem(14);
         text-transform: uppercase;
+        margin-bottom: rem(5);
       }
       div {
         font-size: rem(12);

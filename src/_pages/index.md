@@ -199,17 +199,58 @@ subtitle: " "
             <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
         </div>
     </section>
+    <section class="home-value">
+        <div class="home-value-width">
+            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+            <div class="home-value-text">
+                <h3>it's not rocket science</h3>
+                <h2>One stop for all your design needs</h2>
+                <p>Booster features carefully-crafted, stable components that make maintaining your product ecosystem a breeze.</p>
+            </div>
+        </div>
+    </section>
+    <section class="home-value">
+        <div class="home-value-width">
+            <div class="home-value-text">
+                <h3>don't reinvent the wheel</h3>
+                <h2>One less thing to worry about</h2>
+                <p>Booster is built around convenience. It saves you time and gives you the bandwidth to focus on what matters.</p>
+            </div>
+            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+        </div>
+    </section>
+    <section class="home-value">
+        <div class="home-value-width">
+            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+            <div class="home-value-text">
+                <h3>to infinity and beyond</h3>
+                <h2>One shared vision</h2>
+                <p>Booster helps your mission team build momentum as you continue to build toward the future.</p>
+            </div>
+        </div>
+    </section>
 </section>
 <footer>
+    <div class="footer-launch">
+        <div class="footer-launch-text">
+            <h3>Ready to launch?</h3>
+            <p>Godspeed! Access any of the links below</p>
+            <p>If you still have questions, contact Mission Control by clicking on the button below.</p>
+            <a class="button" href="#">Houston, we have a problem</a>
+        </div>
+        <div class="footer-launch-img-wrapper">
+            <img src="#">
+        </div>
+    </div>
     <div class="footer-sitemap">
         <ul class="footer-sitemap-section">
-            <li><h3>Getting started</h3></li>
+            <li><a href="#"><h3>Getting started</h3></a></li>
             <li><a href="#">Contribute to the docs</a></li>
             <li><a href="#">Format docs</a></li>
             <li><a href="#">Do and Do Not</a></li>
         </ul>
         <ul class="footer-sitemap-section">
-            <li><h3>Design system</h3></li>
+            <li><a href="#"><h3>Design system</h3></a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Components</a></li>
             <li><a href="#">Developers</a></li>
@@ -218,13 +259,13 @@ subtitle: " "
             <li><a href="#">Voice and tone</a></li>
         </ul>
         <ul class="footer-sitemap-section">
-            <li><h3>Application framework</h3></li>
+            <li><a href="#"><h3>Application framework</h3></a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Components</a></li>
             <li><a href="#">Developers</a></li>
         </ul>
         <ul class="footer-sitemap-section">
-            <li><h3>Other resources</h3></li>
+            <li><a href="#"><h3>Other resources</h3></a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Branding guidelines</a></li>
         </ul>
@@ -234,9 +275,9 @@ subtitle: " "
             <h3>Booster Development Network | All rights reserved</h3>
             <div class="footer-legal-title-sub">Powered by Zywave</div>
         </div>
-        <div class="footer-legal-links">
+        <!-- <div class="footer-legal-links">
             <a href="#">Privacy policy</a>
             <a href="#">Terms of use</a>
-        </div>
+        </div> -->
     <div>
 </footer>
