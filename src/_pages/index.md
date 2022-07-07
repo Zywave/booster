@@ -10,7 +10,6 @@ subtitle: " "
 <link rel="stylesheet" href="/css/pages/home.css">
 <section>
     <div class="home-introduction">
-        <img class="home-introduction-img" src="{{  '/images/home/space-background.svg' }}" alt="Space background">
         <div class="home-introduction-content">
             <h1 class="home-introduction-content-text">
                 <span class="visually-hidden">Booster Development Network by Zywave</span>
@@ -232,14 +231,16 @@ subtitle: " "
 </section>
 <footer>
     <div class="footer-launch">
-        <div class="footer-launch-text">
-            <h3>Ready to launch?</h3>
-            <p>Godspeed! Access any of the links below</p>
-            <p>If you still have questions, contact Mission Control by clicking on the button below.</p>
-            <a class="button" href="#">Houston, we have a problem</a>
-        </div>
-        <div class="footer-launch-img-wrapper">
-            <img src="/images/footer-launch.svg" alt="TODO">
+        <div class="footer-launch-inside">
+            <div class="footer-launch-text">
+                <h3>Ready to launch?</h3>
+                <p class="footer-launch-text-tagline">Godspeed! Access any of the links below</p>
+                <p>If you still have questions, contact Mission Control by clicking on the button below.</p>
+                <a class="button" href="#">Houston, we have a problem</a>
+            </div>
+            <div class="footer-launch-img-wrapper">
+                <img src="/images/footer-launch.svg" alt="TODO">
+            </div>
         </div>
     </div>
     <div class="footer-sitemap">
@@ -275,7 +276,7 @@ subtitle: " "
             <h3>Booster Development Network | All rights reserved</h3>
             <div class="footer-legal-title-sub">Powered by Zywave</div>
         </div>
-        <!-- <div class="footer-legal-links">
+        <!-- TODO at some point add back these links, styles are done too <div class="footer-legal-links">
             <a href="#">Privacy policy</a>
             <a href="#">Terms of use</a>
         </div> -->

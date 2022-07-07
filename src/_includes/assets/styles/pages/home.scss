@@ -98,14 +98,7 @@
   grid-template-rows: auto;
   width: 100%;
   min-height: calc(100vh - var(--docs-top-nav-height));
-
-  &-img {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    width: 100%;
-    height: calc(100vh - var(--docs-top-nav-height));
-    object-fit: cover;
-  }
+  background: #294348 url('../../images/home/space-background.svg') no-repeat center bottom;
 
   &-content {
     grid-column: 1 / 2;
@@ -252,7 +245,7 @@
       transform: translateX(2px);
     }
   }
-  
+
   svg {
     width: rem(12);
     transition: transform 0.3s ease-in;
@@ -328,14 +321,13 @@
 
 .home-value-width {
   display: flex;
-  // background: hotpink;
   width: 68.75%;
   margin: 0 auto;
   gap: 15%;
 }
 
 .home-value-img {
-  width: 35%; 
+  width: 35%;
 }
 
 .home-value-text {
@@ -347,7 +339,7 @@
   }
 
   h2 {
-    font-weight: 700; // bold
+    font-weight: 700;
     font-size: rem(44);
     line-height: 1.2;
   }
@@ -362,6 +354,52 @@ footer {
   flex-direction: column;
   width: 100%;
 
+  .footer-launch {
+    transform: scaleX(-1);
+    width: 100%;
+    padding: rem(50) 0 rem(20);
+    background: #294348 url('../../images/home/space-background.svg') no-repeat center bottom;
+    background-size: cover;
+
+    &-inside {
+      display: flex;
+      width: 68.75%;
+      margin: 0 auto;
+      gap: 15%;
+      transform: scaleX(-1);
+    }
+
+    &-text {
+      align-self: center;
+      margin-bottom: rem(30);
+      color: #fff;
+
+      h3 {
+        margin-bottom: rem(10);
+        font-size: rem(44);
+        font-weight: 700;
+      }
+
+      &-tagline {
+        margin-bottom: rem(50);
+        font-size: rem(23);
+      }
+
+      a.button {
+        display: inline-flex;
+        background: #fff;
+        color: #1B6964;
+        font-size: rem(14);
+        padding: rem(7) rem(20);
+        margin-top: rem(10);
+      }
+    }
+
+    &-img-wrapper {
+      align-self: center;
+      width: 35%;
+    }
+  }
 
   .footer-sitemap {
     display: grid;
@@ -374,13 +412,13 @@ footer {
       list-style: none;
       margin: 0;
       padding: 0;
-      
+
       h3 {
         font-weight: 600;
         color: #4DD1C8;
         font-size: rem(18);
       }
-      
+
       a {
         display: inline-flex;
         padding: rem(5) 0;
