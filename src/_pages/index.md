@@ -245,14 +245,14 @@ subtitle: " "
     </div>
     <div class="footer-sitemap">
         <ul class="footer-sitemap-section">
-            <li><a href="#"><h3>Introduction</h3></a></li>
+            <li><h3>Introduction</h3></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contributing</a></li>
             <li><a href="#">Getting started</a></li>
             <li><a href="#">Glossary</a></li>
         </ul>
         <ul class="footer-sitemap-section">
-            <li><a href="#"><h3>Design system</h3></a></li>
+            <li><h3>Design system</h3></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Components</a></li>
             <li><a href="#">Developers</a></li>
@@ -261,13 +261,13 @@ subtitle: " "
             <li><a href="#">Voice and tone</a></li>
         </ul>
         <ul class="footer-sitemap-section">
-            <li><a href="#"><h3>Application framework</h3></a></li>
+            <li><h3>Application framework</h3></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Components</a></li>
             <li><a href="#">Developers</a></li>
         </ul>
         <ul class="footer-sitemap-section">
-            <li><a href="#"><h3>Other resources</h3></a></li>
+            <li><h3>Other resources</h3></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Branding guidelines</a></li>
         </ul>
