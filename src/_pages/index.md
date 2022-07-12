@@ -11,13 +11,20 @@ subtitle: " "
 <section>
     <div class="home-introduction">
         <div class="home-introduction-content">
-            <h1 class="home-introduction-content-text">
+            <!-- <h1 class="home-introduction-content-text">
                 <span class="visually-hidden">Booster Development Network by Zywave</span>
                 <img class="logo-booster-development-network" src="{{ '/images/home/logo-booster-development-network.svg' }}" tabindex="-1">
                 <img class="logo-by-name" src="{{ '/images/home/logo-by-name.svg' }}" tabindex="-1">
                 <svg class="home-introduction-content-text-tagline" viewBox="0 0 463 48">
                     <text x="0" y="34">Boldly build what no team has built before.</text>
                 </svg>
+            </h1> -->
+            <h1 class="home-introduction-content-text">
+                <div class="home-introduction-content-text-title">
+                    <span class="home-introduction-content-text-title-accent">Booster</span>
+                    <span>Development Network</span>
+                </div>
+                <div class="home-introduction-content-text-subtitle">Boldly build what no team has built before.</div>
             </h1>
             <div class="home-introduction-content-rocket-wrapper">
                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.5 129.6">
