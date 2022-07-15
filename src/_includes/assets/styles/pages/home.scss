@@ -89,15 +89,11 @@
 }
 
 .home-introduction {
-  --docs-top-nav-height: #{rem(52)};
-  @media (min-width: 77rem) { // 1232px
-    --docs-top-nav-height: #{rem(58)};
-  }
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
   width: 100%;
-  min-height: calc(100vh - var(--docs-top-nav-height));
+  min-height: calc(100vh - #{rem(40)});
   background: center bottom no-repeat #294348 url('../../images/home/space-background.svg');
   background-size: cover;
 
@@ -136,6 +132,10 @@
     }
 
     &-rocket-wrapper {
+      @media (max-width: 90.625rem) { // 1450px
+        display: none;
+      }
+
       display: grid;
       grid-template-columns: 100%;
       padding: 25%;
@@ -178,13 +178,6 @@
               transition: filter 1s ease-out;
             }
           }
-        }
-      }
-
-      &:active {
-        transition: transform 0.3s ease;
-        svg {
-          transform: scaleX(-1);
         }
       }
     }
@@ -234,8 +227,12 @@
 
 .home-categories-tile-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: rem(30);
+  
+  @media (min-width: 93.75rem) { // 1500px
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .home-category-text {

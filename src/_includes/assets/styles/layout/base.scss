@@ -7,10 +7,11 @@ main {
   }
 
   .content-wrapper {
-    margin-top: rem(52);
+    margin-top: rem(40);
+    margin-top: rem(107);
 
-    @media (min-width: 77em) { // 1232px
-      margin-top: rem(72);
+    @media (min-width: 63.1875rem) { // 1011px
+      margin-top: rem(61);
     }
 
     &:not(.home) {

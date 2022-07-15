@@ -2,19 +2,21 @@
     z-index: 100;
     position: fixed;
     width: 100%;
+    padding: rem(10) 0;
     background-color: #25323a;
     border-bottom: 1px solid var(--docs-secondary-color);
 
     &-content {
+      --top-nav-spacer: #{rem(10)};
       display: flex;
       flex-wrap: wrap;
       max-width: rem(1600);
       margin: 0 auto;
-      padding: 0 rem(20);
-      gap: rem(10);
+      padding: 0 var(--top-nav-spacer);
+      gap: var(--top-nav-spacer);
 
       @media (min-width: 93.75rem) { // 1500px
-        gap: rem(20);
+        --top-nav-spacer: #{rem(20)};
       }
 
       a {
@@ -31,11 +33,6 @@
         display: flex;
         width: auto;
         height: rem(36);
-        margin: rem(10) 0;
-
-        @media screen and (min-width: 64em) {
-          margin: rem(20) 0;
-        }
 
         &:focus {
           outline: 0;
@@ -60,6 +57,7 @@
         grid-column: 2 / 12;
         display: flex;
         align-items: center;
+        margin-left: auto;
 
         ul {
           display: flex;
@@ -74,11 +72,7 @@
             font-weight: 600;
             font-weight: 400;
             line-height: 1.2;
-
-            a {
-              opacity: 0.8;
-              transition: opacity 0.3s ease;
-            }
+            padding: 0 var(--top-nav-spacer);
 
             &:hover {
               a {
@@ -86,21 +80,17 @@
               }
             }
 
-            @media screen and (min-width: 45em) {
-              padding: 0 rem(20);
-            }
-
-            @media screen and (min-width: 60em) {
+            @media (min-width: 76.9375) { // 1231px
               font-size: rem(16);
             }
 
-            @media screen and (min-width: 64em) {
+            @media (min-width: 93.75rem) { // 1500px
               font-size: rem(18);
-              padding: 0 rem(30);
             }
 
-            @media screen and (min-width: 80em) {
-              padding: 0 rem(40);
+            a {
+              opacity: 0.8;
+              transition: opacity 0.3s ease;
             }
           }
         }
@@ -135,6 +125,7 @@
     // algolia search overrides
     #search-top-nav {
       flex: 1;
+      justify-self: center;
 
       form.aa-Form {
         margin-left: auto;
