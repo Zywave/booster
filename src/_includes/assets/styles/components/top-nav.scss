@@ -6,12 +6,16 @@
     border-bottom: 1px solid var(--docs-secondary-color);
 
     &-content {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
+      display: flex;
+      flex-wrap: wrap;
       max-width: rem(1600);
       margin: 0 auto;
       padding: 0 rem(20);
-      gap: rem(20);
+      gap: rem(10);
+
+      @media (min-width: 93.75rem) { // 1500px
+        gap: rem(20);
+      }
 
       a {
         color: #fefefe;
@@ -27,10 +31,10 @@
         display: flex;
         width: auto;
         height: rem(36);
-        margin: rem(10) 0 rem(5);
+        margin: rem(10) 0;
 
         @media screen and (min-width: 64em) {
-          margin: rem(20) 0 rem(16);
+          margin: rem(20) 0;
         }
 
         &:focus {
@@ -40,11 +44,14 @@
         img {
           transform-origin: center center;
           transition: transform 0.2s ease-out;
+          max-width: unset;
+          height: rem(20);
+          align-self: center;
         }
 
         &:hover {
           img {
-            transform: scale(0.95) rotate(5deg);
+            transform: scale(0.97);
           }
         }
       }
@@ -56,15 +63,17 @@
 
         ul {
           display: flex;
+          align-items: center;
           list-style: none;
           margin: 0;
           padding: 0;
 
           li {
+            padding: 0 rem(10);
             font-size: rem(14);
             font-weight: 600;
             font-weight: 400;
-            padding: 0 rem(10);
+            line-height: 1.2;
 
             a {
               opacity: 0.8;
@@ -101,6 +110,8 @@
           flex-shrink: 0;
           display: flex;
           align-items: center;
+          margin-left: auto;
+
           // algolia search autocomplete has a min width, cut off without these fixes
           @media (min-width: 42.5em) { // 680px
             min-width: rem(360);
