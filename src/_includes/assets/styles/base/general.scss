@@ -33,25 +33,27 @@ a {
     color: hsl(var(--docs-green-color-h), var(--docs-green-color-s), 24%);
     text-decoration: underline;
   }
+}
 
-  &.button {
-    display: flex;
-    align-items: center;
-    padding: rem(7) rem(40);
-    font-size: rem(20);
-    font-weight: 600;
-    border-radius: rem(25);
-    color: var(--docs-primary-color);
-    background: var(--docs-orange-color);
-    text-decoration: none;
-    transition: opacity 0.3s ease-in;
+a.button,
+button.button {
+  display: flex;
+  align-items: center;
+  padding: rem(7) rem(40);
+  font-size: rem(20);
+  font-weight: 600;
+  border-radius: rem(25);
+  color: var(--docs-primary-color);
+  background: var(--docs-orange-color);
+  text-decoration: none;
+  transition: opacity 0.3s ease-in, background 0.3s ease-in;
+  cursor: pointer;
 
-    &:hover {
-      opacity: 0.85;
-    }
+  &:hover {
+    opacity: 0.85;
   }
-  
-  &.button.secondary {
+
+  .secondary {
     color: #FEFEFE;
     background: var(--docs-green-color);
   }

@@ -54,7 +54,7 @@ subtitle: " "
                 </a>
             </div>
             <div class="home-categories-tile-grid">
-                <a class="home-category-tile" href="#">
+                <a class="home-category-tile" href="{{ '/design-system/components/breadcrumbs/' | url }}">
                     <div class="home-category-tile-border"></div>
                     <div>
                         <h3>Components</h3>
@@ -69,7 +69,7 @@ subtitle: " "
                         </svg>
                     </div>
                 </a>
-                <a class="home-category-tile" href="#">
+                <a class="home-category-tile" href="{{ '/design-system/developers/css-guide/' | url }}">
                     <div class="home-category-tile-border"></div>
                     <div>
                         <h3>Developers</h3>
@@ -84,7 +84,7 @@ subtitle: " "
                         </svg>
                     </div>
                 </a>
-                <a class="home-category-tile" href="#">
+                <a class="home-category-tile" href="{{ '/design-system/patterns/builder/' | url }}">
                     <div class="home-category-tile-border"></div>
                     <div>
                         <h3>Patterns</h3>
@@ -99,7 +99,7 @@ subtitle: " "
                         </svg>
                     </div>
                 </a>
-                <a class="home-category-tile" href="#">
+                <a class="home-category-tile" href="{{ '/design-system/visuals/colors/' | url }}">
                     <div class="home-category-tile-border"></div>
                     <div>
                         <h3>Visuals</h3>
@@ -114,7 +114,7 @@ subtitle: " "
                         </svg>
                     </div>
                 </a>
-                <a class="home-category-tile" href="#">
+                <a class="home-category-tile" href="{{ '/design-system/voice-and-tone/error-messages/' | url }}">
                     <div class="home-category-tile-border"></div>
                     <div>
                         <h3>Voice and tone</h3>
@@ -134,7 +134,7 @@ subtitle: " "
             <div class="home-category-text">
                 <h2>Application framework</h2>
                 <p>A collection of API-driven custom elements and tools that help you quickly build a Zywave-integrated application.</p>
-                <a class="cta app-framework" href="{{ '/design-system/about/' | url }}">
+                <a class="cta app-framework" href="{{ '/application-framework/about/' | url }}">
                     <span>Learn more about our application framework</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
                         <g transform="translate(11.9) rotate(90)">
@@ -144,7 +144,7 @@ subtitle: " "
                 </a>
             </div>
             <div class="home-categories-tile-grid">
-                <a class="home-category-tile app-framework" href="#">
+                <a class="home-category-tile app-framework" href="{{ '/application-framework/components/analytics/' | url }}">
                     <div class="home-category-tile-border"></div>
                     <div>
                         <h3>Components</h3>
@@ -159,7 +159,7 @@ subtitle: " "
                         </svg>
                     </div>
                 </a>
-                <a class="home-category-tile app-framework" href="#">
+                <a class="home-category-tile app-framework" href="{{ '/application-framework/developers/api-client/' | url }}">
                     <div class="home-category-tile-border"></div>
                     <div>
                         <h3>Developers</h3>
@@ -228,57 +228,3 @@ subtitle: " "
         </div>
     </section>
 </section>
-<footer>
-    <div class="footer-launch">
-        <div class="footer-launch-inside">
-            <div class="footer-launch-text">
-                <h3>Ready to launch?</h3>
-                <p class="footer-launch-text-tagline">Godspeed! Access any of the links below</p>
-                <p>If you still have questions, contact Mission Control by clicking on the button below.</p>
-                <a class="button" href="#">Houston, we have a problem</a>
-            </div>
-            <div class="footer-launch-img-wrapper">
-                <img src="/images/footer-launch.svg" alt="TODO">
-            </div>
-        </div>
-    </div>
-    <div class="footer-sitemap">
-        <ul class="footer-sitemap-section">
-            <li><h3>Introduction</h3></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contributing</a></li>
-            <li><a href="#">Getting started</a></li>
-            <li><a href="#">Glossary</a></li>
-        </ul>
-        <ul class="footer-sitemap-section">
-            <li><h3>Design system</h3></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Components</a></li>
-            <li><a href="#">Developers</a></li>
-            <li><a href="#">Patterns</a></li>
-            <li><a href="#">Visuals</a></li>
-            <li><a href="#">Voice and tone</a></li>
-        </ul>
-        <ul class="footer-sitemap-section">
-            <li><h3>Application framework</h3></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Components</a></li>
-            <li><a href="#">Developers</a></li>
-        </ul>
-        <ul class="footer-sitemap-section">
-            <li><h3>Other resources</h3></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Branding guidelines</a></li>
-        </ul>
-    </div>
-    <div class="footer-legal">
-        <div class="footer-legal-title">
-            <h3>Booster Development Network | All rights reserved</h3>
-            <div class="footer-legal-title-sub">Powered by Zywave</div>
-        </div>
-        <!-- TODO at some point add back these links, styles are done too <div class="footer-legal-links">
-            <a href="#">Privacy policy</a>
-            <a href="#">Terms of use</a>
-        </div> -->
-    <div>
-</footer>

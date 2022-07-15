@@ -36,6 +36,7 @@
     import { hasQueryParam } from '@booster/utils/component-docs-helpers.js';
 
     const feedbackBtn = document.getElementById("feedback-button");
+    const feedbackBtnFooter = document.getElementById("feedback-button-footer");
     const dialog = document.getElementById("feedback-dialog");
 
     if (typeof dialog.showModal !== "function") {
@@ -49,6 +50,7 @@
     const feedbackForm = document.getElementById("feedback-form");
     const cancelButton = document.getElementById("feedback-dialog-cancel");
     feedbackBtn.addEventListener("click", () => dialog.showModal());
+    feedbackBtnFooter.addEventListener("click", () => dialog.showModal());
     cancelButton.addEventListener("click", () => dialog.close());
     feedbackForm.addEventListener("formdata", x => x.formData.set("url", window.location.toString()));
 

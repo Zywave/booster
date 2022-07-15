@@ -10,7 +10,7 @@ main {
     margin-top: rem(52);
 
     @media (min-width: 77em) { // 1232px
-      margin-top: rem(77);
+      margin-top: rem(72);
     }
 
     &:not(.home) {
@@ -26,6 +26,10 @@ main {
 
       @media screen and (min-width: 80em) {
         padding: rem(40) rem(90);
+      }
+
+      & ~ footer {
+        margin-top: rem(150);
       }
     }
   }
