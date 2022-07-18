@@ -3,22 +3,38 @@ main {
   margin: 0 auto;
 
   &.content-with-side-nav {
-    width: calc(100% - #{rem(350)});
+    width: 100%;
+
+    .content-wrapper {
+      width: calc(100% - #{rem(350)});
+    }
   }
 
   .content-wrapper {
-    padding: rem(20);
+    margin-top: rem(107);
 
-    @media screen and (min-width: 60em) {
-      padding: rem(30);
+    @media (min-width: 58.4375rem) { // 935px
+      margin-top: rem(61);
     }
 
-    @media screen and (min-width: 64em) {
-      padding: rem(30) rem(50);
-    }
+    &:not(.home) {
+      padding: rem(20);
 
-    @media screen and (min-width: 80em) {
-      padding: rem(40) rem(90);
+      @media screen and (min-width: 60em) {
+        padding: rem(30);
+      }
+
+      @media screen and (min-width: 64em) {
+        padding: rem(30) rem(50);
+      }
+
+      @media screen and (min-width: 80em) {
+        padding: rem(40) rem(90);
+      }
+
+      & ~ footer {
+        margin-top: rem(150);
+      }
     }
   }
 }

@@ -1,14 +1,24 @@
 .top-nav {
-    background-color: var(--docs-primary-color);
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    min-height: rem(61);
+    padding: rem(10) 0;
+    background-color: #25323a;
     border-bottom: 1px solid var(--docs-secondary-color);
 
     &-content {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
+      --docs-top-nav-spacer: #{rem(10)};
+      display: flex;
+      flex-wrap: wrap;
       max-width: rem(1600);
       margin: 0 auto;
-      padding: 0 rem(20);
-      gap: rem(20);
+      padding: 0 var(--docs-top-nav-spacer);
+      gap: var(--docs-top-nav-spacer);
+
+      @media (min-width: 93.75rem) { // 1500px
+        --docs-top-nav-spacer: #{rem(20)};
+      }
 
       a {
         color: #fefefe;
@@ -24,11 +34,23 @@
         display: flex;
         width: auto;
         height: rem(36);
-        margin: rem(10) 0 rem(5);
 
-        @media screen and (min-width: 64em) {
-          height: auto;
-          margin: rem(20) 0 rem(10);
+        &:focus {
+          outline: 0;
+        }
+
+        img {
+          transform-origin: center center;
+          transition: transform 0.2s ease-out;
+          max-width: unset;
+          height: rem(20);
+          align-self: center;
+        }
+
+        &:hover {
+          img {
+            transform: scale(0.97);
+          }
         }
       }
 
@@ -36,41 +58,55 @@
         grid-column: 2 / 12;
         display: flex;
         align-items: center;
+        margin-left: auto;
 
         ul {
           display: flex;
+          align-items: center;
           list-style: none;
           margin: 0;
           padding: 0;
 
           li {
+            padding: 0 rem(10);
             font-size: rem(14);
             font-weight: 600;
-            padding: 0 rem(10);
+            font-weight: 400;
+            line-height: 1.2;
+            padding: 0 var(--docs-top-nav-spacer);
 
-            @media screen and (min-width: 45em) {
-              padding: 0 rem(20);
+            &:hover {
+              a {
+                opacity: 1;
+              }
             }
 
-            @media screen and (min-width: 60em) {
+            @media (min-width: 76.9375) { // 1231px
               font-size: rem(16);
             }
 
-            @media screen and (min-width: 64em) {
+            @media (min-width: 93.75rem) { // 1500px
               font-size: rem(18);
-              padding: 0 rem(30);
             }
 
-            @media screen and (min-width: 80em) {
-              padding: 0 rem(40);
+            a {
+              opacity: 0.8;
+              transition: opacity 0.3s ease;
             }
           }
         }
       }
 
       .search-login-container {
+          flex-shrink: 0;
           display: flex;
           align-items: center;
+          margin-left: auto;
+
+          // algolia search autocomplete has a min width, cut off without these fixes
+          @media (min-width: 42.5em) { // 680px
+            min-width: rem(360);
+          }
       }
 
       .login {
@@ -89,17 +125,23 @@
 
     // algolia search overrides
     #search-top-nav {
+      flex: 1;
+      justify-self: center;
+
+      form.aa-Form {
+        margin-left: auto;
+      }
+
         // default / closed state
         .aa-Autocomplete {
             form {
-              --color-text: #fff;
-              --color-background: var(--docs-secondary-color);
-              --color-input-icon: var(--docs-gray-color);
                 border: 0;
                 width: rem(40);
                 height: rem(40);
-                background: rgba(72, 117, 107, .1);
                 border-radius: rem(20);
+
+                width: auto;
+                min-width: rem(270);
 
                 button[type="submit"] {
                     display: flex;
@@ -112,26 +154,10 @@
                     border-radius: 50%;
                 }
 
-                input {
-                    display: none;
-                }
-
                 // x / delete button icon
                 .aa-InputWrapperSuffix {
                     padding: rem(9);
                 }
-            }
-        }
-
-        // opened / clicked state
-        .aa-Autocomplete.is-open {
-            form {
-                width: auto;
-                min-width: rem(270);
-            }
-
-            input {
-                display: flex;
             }
         }
     }

@@ -11,6 +11,7 @@ nav.side-nav {
   color: #fefefe;
   font-weight: 600;
   background-color: var(--docs-primary-color);
+  border-right: 1px solid #5c4f4f;
   box-sizing: border-box;
 
   @media screen and (min-width: 64em) {
@@ -55,11 +56,19 @@ nav.side-nav {
       align-items: center;
       text-decoration: none;
       color: inherit;
+
+      &:hover {
+        img {
+          transform: scale(0.97);
+        }
+      }
     }
 
-    svg {
-      height: rem(50);
+    img {
+      height: rem(20);
       margin-right: rem(10);
+      transform-origin: center center;
+      transition: transform 0.2s ease-out;
     }
   }
 
@@ -88,7 +97,7 @@ nav.side-nav {
   hr {
     width: 100%;
     border: 0;
-    border-top: 1px solid hsla(0, 0%, 100%, 0.19);
+    border-top: 1px solid #5c4f4f;
     margin: rem(15) 0 rem(20);
   }
 

@@ -1,0 +1,55 @@
+<footer>
+    <div class="footer-launch">
+        <div class="footer-launch-inside">
+            <div class="footer-launch-text">
+                <h3>Ready to launch?</h3>
+                <p class="footer-launch-text-tagline">Godspeed! Access any of the links below</p>
+                <p>Notice anything peculiar out in space?, contact Mission Control by clicking on the button below.</p>
+                <!-- note: feedback.njk queries button below to launch feedback dialog -->
+                <button id="feedback-button-footer" type="button" class="button" aria-label="Provide feedback">Houston, we have a problem</button>
+            </div>
+            <div class="footer-launch-img-wrapper">
+                <img src="/images/footer-launch.svg" alt="An astronaut climbing out of a rocket ship">
+            </div>
+        </div>
+    </div>
+    <div class="footer-sitemap">
+        <ul class="footer-sitemap-section">
+            <li><h3>Introduction</h3></li>
+            <li><a href="{{ '/introduction/' | url }}">About</a></li>
+            <li><a href="{{ '/introduction/contributing/contribute-to-docs/' | url }}">Contributing</a></li>
+            <li><a href="{{ '/introduction/getting-started/how-to-get-started/' | url }}">Getting started</a></li>
+            <li><a href="{{ '/introduction/glossary/' | url }}">Glossary</a></li>
+        </ul>
+        <ul class="footer-sitemap-section">
+            <li><h3>Design system</h3></li>
+            <li><a href="{{ '/design-system/about/' | url }}">About</a></li>
+            <li><a href="{{ '/design-system/components/breadcrumbs/' | url }}">Components</a></li>
+            <li><a href="{{ '/design-system/developers/css-guide/' | url }}">Developers</a></li>
+            <li><a href="{{ '/design-system/patterns/builder/' | url }}">Patterns</a></li>
+            <li><a href="{{ '/design-system/visuals/colors/' | url }}">Visuals</a></li>
+            <li><a href="{{ '/design-system/voice-and-tone/error-messages/' | url }}">Voice and tone</a></li>
+        </ul>
+        <ul class="footer-sitemap-section">
+            <li><h3>Application framework</h3></li>
+            <li><a href="{{ '/application-framework/about/' | url }}">About</a></li>
+            <li><a href="{{ '/application-framework/components/analytics/' | url }}">Components</a></li>
+            <li><a href="{{ '/application-framework/developers/api-client/' | url }}">Developers</a></li>
+        </ul>
+        <ul class="footer-sitemap-section">
+            <li><h3>Other resources</h3></li>
+            <li><a href="{{ '/blog/' | url }}">Blog</a></li>
+            <li><a href="https://thenewz.zywave.com/wp-content/uploads/2020/08/Zywave-Brand-Guide.pdf">Marketing brand guide</a></li>
+        </ul>
+    </div>
+    <div class="footer-legal">
+        <div class="footer-legal-title">
+            <h3>Booster Development Network | All rights reserved</h3>
+            <div class="footer-legal-title-sub">Powered by Zywave</div>
+        </div>
+        <!-- TODO at some point add back these links, styles are done too <div class="footer-legal-links">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms of use</a>
+        </div> -->
+    <div>
+</footer>
