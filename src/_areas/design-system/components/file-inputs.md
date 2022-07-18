@@ -3,9 +3,9 @@ title: File inputs
 subtitle: ""
 api: https://cdn.zywave.com/@zywave/zui-input@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-input@latest/docs/demo.html
-mainComponentName: zui-input-file
+mainComponentName: zui-input
 includedElements:
-  - zui-input-file
+  - zui-input
 ---
 ## Usage
 
