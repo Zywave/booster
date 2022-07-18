@@ -47,6 +47,7 @@ subtitle: " "
                 <a class="cta" href="{{ '/design-system/about/' | url }}">
                     <span>Learn more about our design system</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                        <title>A right facing arrow</title>
                         <g transform="translate(11.9) rotate(90)">
                             <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                         </g>
@@ -63,6 +64,7 @@ subtitle: " "
                     <div class="cta">
                         <span>View components</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <title>A right facing arrow</title>
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                             </g>
@@ -78,6 +80,7 @@ subtitle: " "
                     <div class="cta">
                         <span>View developers</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <title>A right facing arrow</title>
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                             </g>
@@ -93,6 +96,7 @@ subtitle: " "
                     <div class="cta">
                         <span>View patterns</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <title>A right facing arrow</title>
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                             </g>
@@ -108,6 +112,7 @@ subtitle: " "
                     <div class="cta">
                         <span>Learn more about visuals</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <title>A right facing arrow</title>
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                             </g>
@@ -123,6 +128,7 @@ subtitle: " "
                     <div class="cta">
                         <span>Learn more about voice/tone</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <title>A right facing arrow</title>
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                             </g>
@@ -137,6 +143,7 @@ subtitle: " "
                 <a class="cta app-framework" href="{{ '/application-framework/about/' | url }}">
                     <span>Learn more about our application framework</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                        <title>A right facing arrow</title>
                         <g transform="translate(11.9) rotate(90)">
                             <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                         </g>
@@ -153,6 +160,7 @@ subtitle: " "
                     <div class="cta">
                         <span>View components</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <title>A right facing arrow</title>
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                             </g>
@@ -168,6 +176,7 @@ subtitle: " "
                     <div class="cta">
                         <span>View developers</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.9 7.535">
+                            <title>A right facing arrow</title>
                             <g transform="translate(11.9) rotate(90)">
                                 <path fill="currentColor" d="M3.968,0h-.4L.068,3.7a.2.2,0,0,0,0,.3l.9,1h.3l1.6-1.6v8.3a.2.2,0,0,0,.2.2h1.4a.2.2,0,0,0,.2-.2V3.4l1.6,1.7h.3l.9-1a.2.2,0,0,0,0-.3Z" />
                             </g>
@@ -179,7 +188,7 @@ subtitle: " "
     </div>
     <section class="home-value">
         <div class="home-value-width">
-            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-1-unity.svg" alt="Work meeting around a table, presenting data charts">
             <div class="home-value-text">
                 <h3>platform unity</h3>
                 <h2>One unified design language</h2>
@@ -194,12 +203,12 @@ subtitle: " "
                 <h2>One brand voice</h2>
                 <p>Booster's design system helps you build toward your team's shared vision with ease as you continue shooting for the stars.</p>
             </div>
-            <img class="home-value-img" src="/images/home/home-value-2-voice.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-2-voice.svg" alt="Throwing a paper airplane at a target">
         </div>
     </section>
     <section class="home-value">
         <div class="home-value-width">
-            <img class="home-value-img" src="/images/home/home-value-3-stop.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-3-stop.svg" alt="Mechanic fixing a rocket ship">
             <div class="home-value-text">
                 <h3>it's not rocket science</h3>
                 <h2>One stop for all your design needs</h2>
@@ -214,12 +223,12 @@ subtitle: " "
                 <h2>One less thing to worry about</h2>
                 <p>Booster is built around convenience. It saves you time and gives you the bandwidth to focus on what matters.</p>
             </div>
-            <img class="home-value-img" src="/images/home/home-value-4-convenience.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-4-convenience.svg" alt="Organizing data sheets at a desk">
         </div>
     </section>
     <section class="home-value">
         <div class="home-value-width">
-            <img class="home-value-img" src="/images/home/home-value-5-vision.svg" alt="TODO">
+            <img class="home-value-img" src="/images/home/home-value-5-vision.svg" alt="A team building a website in a comical way">
             <div class="home-value-text">
                 <h3>to infinity and beyond</h3>
                 <h2>One shared vision</h2>
