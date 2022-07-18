@@ -56,11 +56,19 @@ nav.side-nav {
       align-items: center;
       text-decoration: none;
       color: inherit;
+
+      &:hover {
+        img {
+          transform: scale(0.97);
+        }
+      }
     }
 
     img {
       height: rem(20);
       margin-right: rem(10);
+      transform-origin: center center;
+      transition: transform 0.2s ease-out;
     }
   }
 

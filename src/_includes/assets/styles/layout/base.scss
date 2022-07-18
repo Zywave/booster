@@ -3,7 +3,11 @@ main {
   margin: 0 auto;
 
   &.content-with-side-nav {
-    width: calc(100% - #{rem(350)});
+    width: 100%;
+
+    .content-wrapper {
+      width: calc(100% - #{rem(350)});
+    }
   }
 
   .content-wrapper {

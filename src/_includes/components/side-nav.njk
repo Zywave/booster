@@ -1,13 +1,14 @@
 <nav class="side-nav zui skinny-scrollbar">
   <header>
     <a href="{{ '/' | url }}">
-      <img alt="Booster logo with chevron" src="/images/home/booster-logo.svg" />
+      <img class="logo" alt="Booster logo with chevron" src="/images/home/booster-logo.svg" />
     </a>
   </header>
 
   <section>
     <a class="nav-back-button" href="{{ (parentPermalink | url) if (parent !== system) else ('/' | url) }}">
       <svg class="svg" id="svg" viewBox="0 0 24 24">
+        <title>A left facing arrow</title>
         <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
       </svg>
       {{ (system | sentenceCase) if (parent !== system) else "Home" }}
