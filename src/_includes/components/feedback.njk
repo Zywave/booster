@@ -39,6 +39,13 @@
     const feedbackBtnFooter = document.getElementById("feedback-button-footer");
     const dialog = document.getElementById("feedback-dialog");
 
+    function chooseSelectedOptionDefault(index = 0) {
+        const select = document.querySelector('form#feedback-form select[name="type"]');
+        if (select) {
+            select.selectedIndex = index;
+        }
+    }
+
     if (typeof dialog.showModal !== "function") {
         const exports = await import("https://cdn.zywave.com/dialog-polyfill@0.5.6/dist/dialog-polyfill.esm.js");
         exports.default.registerDialog(dialog);
@@ -49,8 +56,15 @@
     }
     const feedbackForm = document.getElementById("feedback-form");
     const cancelButton = document.getElementById("feedback-dialog-cancel");
-    feedbackBtn.addEventListener("click", () => dialog.showModal());
-    feedbackBtnFooter.addEventListener("click", () => dialog.showModal());
+    feedbackBtn.addEventListener("click", () => {
+        chooseSelectedOptionDefault();
+        dialog.showModal();
+    });
+    feedbackBtnFooter.addEventListener("click", () => {
+        // choose the 'bug' option, 3rd item in select
+        chooseSelectedOptionDefault(2);
+        dialog.showModal();
+    });
     cancelButton.addEventListener("click", () => dialog.close());
     feedbackForm.addEventListener("formdata", x => x.formData.set("url", window.location.toString()));
 

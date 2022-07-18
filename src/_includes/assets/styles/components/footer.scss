@@ -37,16 +37,24 @@ footer {
 
       button.button {
         display: inline-flex;
+        margin-top: rem(10);
+        padding: rem(7) rem(20);
+        font-size: rem(14);
         background: #fff;
         color: var(--zui-aqua-600);
-        font-size: rem(14);
-        padding: rem(7) rem(20);
-        margin-top: rem(10);
+        border: 0;
 
         &:hover {
           opacity: 1;
           background: var(--zui-aqua-600);
           color: #fff;
+        }
+
+        &:active,
+        &:focus,
+        &:focus-within {
+          outline: 0;
+          border: 0;
         }
       }
     }
