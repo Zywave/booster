@@ -11,6 +11,8 @@ includedElements:
 
 Combining related actions into a Button Group can save space and reduce the visual clutter of multiple actions on a page. Button Group labels should be short and self-explanatory; for example: export, edit, duplicate. The actions available in a Button Group should be ordered logically, either by usage or importance from left to right.
 
+DELETE ME
+
 ![Button group example](/images/button-group_usage.svg)
 
 - - -
