@@ -9,4 +9,4 @@ includedElements: []
 ---
 ## Coming soon
 
-A design guidelines page will created and added soon, stay tuned! asdfas
+A design guidelines page will created and added soon, stay tuned!
