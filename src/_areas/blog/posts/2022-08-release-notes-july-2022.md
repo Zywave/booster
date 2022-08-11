@@ -67,6 +67,7 @@ Hopefully you noticed the out-of-this-world updates to Booster's homepage! This 
 The Booster documentation site is used by others outside the Zywave engineering organization, and we're now proud of what those individuals will first see when they come check us out!
 
 ### API documentation headers now deep-linkable
+[Changeset](https://gitlab.com/zywave/devkit/web-sdk/customelement-manifest-element/-/merge_requests/22)
 
 A small quality-of-life improvement, but we've updated the rendering of custom element API documentation to have it so that the headers are deep linkable! All headers under a component's API tab are now clickable, so if you want to share some documentation with a co-worker, just click on the link and copy the URL and send it off.
 
