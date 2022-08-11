@@ -25,7 +25,7 @@ Unknown to ZUI, the library we used for some of our initial components ([Polymer
 </custom-style>
 ```
 
-With the removal of Polymer, these styles are now gone.
+With the removal of Polymer, these styles are now gone, which means elements that were once hidden may not be any longer.
 
 We have updated our [base component host styles](https://gitlab.com/zywave/devkit/web-sdk/zui/-/blob/main/packages/components/zui-base/src/zui-base.scss#L15) to accomodate, but it's important to call out that we no longer specify `!important` which _could_ be a breaking change for some!
 
