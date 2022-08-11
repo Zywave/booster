@@ -11,7 +11,6 @@ tags:
 Melted ice cream
 
 ## `[hidden]` support breaking change
-
 [Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1295)  
 
 Did you know that HTML specifies a [global `hidden` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden)? This attribute essentially tells the user agent styles to `display: none;` on that element, but due to how CSS specificity works, if a web author sets the `display` property to something else, it won't be hidden!
@@ -43,7 +42,6 @@ If you'd like the old behavior back, you can add the following style to your app
 ```
 
 ## Disabled state for `zui-input-file`
-
 [Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1282)
 
 An overlooked design bug in our file input component, thanks to Carter Jasinski for resolving this issue!
@@ -51,6 +49,7 @@ An overlooked design bug in our file input component, thanks to Carter Jasinski 
 ![two file inputs, one enabled and the other disabled](/images/disabled-file-input.png)
 
 ## `zui-input` now supports `step`
+[Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1292)  
 A small enhancement, but you can now supply the `step` attribute/property to a `zui-input`. It only applies to numerical inputs, e.g. number, date, etc.
 
 ```html
