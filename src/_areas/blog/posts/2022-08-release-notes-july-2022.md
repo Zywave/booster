@@ -29,7 +29,7 @@ With the removal of Polymer, these styles are now gone, which means elements tha
 
 We have updated our [base component host styles](https://gitlab.com/zywave/devkit/web-sdk/zui/-/blob/main/packages/components/zui-base/src/zui-base.scss#L15) to accomodate, but it's important to call out that we no longer specify `!important` which _could_ be a breaking change for some!
 
-If you're currently setting a `display` property on an element but relying on the `hidden` attribute to hide an element, you will need to remove this display property.
+If you're currently setting a `display` property on an element but relying on the `hidden` attribute to hide that same element, you will need to remove this display property.
 
 This change is consistent with native behavior, which is why we are omitting `!important` but we understand this could break some workflows.
 
