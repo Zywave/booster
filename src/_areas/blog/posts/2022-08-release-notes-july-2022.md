@@ -33,7 +33,7 @@ If you're currently setting a `display` property on an element but relying on th
 
 This change is consistent with native behavior, which is why we are omitting `!important` but we understand this could break some workflows.
 
-If you'd like the old behavior back, you can also add the following style to your CSS:
+If you'd like the old behavior back, you can add the following style to your application's CSS:
 ```css
 [hidden] {
   display: none!important;
