@@ -42,7 +42,7 @@ If you'd like the old behavior back, you can add the following style to your app
 }
 ```
 
-## Disabled state for `<zui-input-file>`
+## Disabled state for `zui-input-file`
 
 [Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1282)
 
@@ -50,7 +50,7 @@ An overlooked design bug in our file input component, thanks to Carter Jasinski 
 
 ![two file inputs, one enabled and the other disabled](/images/disabled-file-input.png)
 
-## `<zui-input>` now supports `step`
+## `zui-input` now supports `step`
 A small enhancement, but you can now supply the `step` attribute/property to a `zui-input`. It only applies to numerical inputs, e.g. number, date, etc.
 
 ```html
