@@ -42,8 +42,6 @@ Did you know that HTML specifies a [global `hidden` attribute](https://developer
 
 Unknown to ZUI, the library we used for some of our initial components ([Polymer](https://polymer-library.polymer-project.org/3.0/docs/devguide/feature-overview)) introduced a sneaky style into everyone's pages:
 
-<docs-spacer size="small"></docs-spacer>
-
 ```html
 <custom-style>
   <style is="custom-style">
@@ -63,8 +61,6 @@ If you're currently setting a `display` property on an element but relying on th
 This change is consistent with native behavior, which is why we are omitting `!important` but we understand this could break some workflows.
 
 If you'd like the old behavior back, you can add the following style to your application's CSS:
-
-<docs-spacer size="small"></docs-spacer>
 
 ```css
 [hidden] {
@@ -87,8 +83,6 @@ An overlooked design bug in our file input component, thanks to Carter Jasinski 
 [Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1292)
 
 A small enhancement, but you can now supply the `step` attribute/property to a `zui-input`. It only applies to numerical inputs, e.g. number, date, etc.
-
-<docs-spacer size="small"></docs-spacer>
 
 ```html
 <zui-input type="number" step="10"></zui-input>
