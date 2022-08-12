@@ -23,11 +23,11 @@ One of the last ZUI components that heavily relied on Polymer was ZUI Tabs `<zui
 
 # ZUI Pages removed from the ZUI bundle completely
 
-<docs-note>This is a breaking change in July's release.</docs-note>
+Utilization statistics showed little to no use of ZUI Pages `<zui-pages>` and most consumers of ZUI Tabs relied on their frameworks to show and hide content. We collaborated with the engineering teams whose web applications were still using ZUI Pages to replace it with another solution, so we can get rid of this under utilized component once and for all.
 
 <docs-spacer size="small"></docs-spacer>
 
-Utilization statistics showed little to no use of ZUI Pages `<zui-pages>` and most consumers of ZUI Tabs relied on their frameworks to show and hide content. We collaborated with the engineering teams whose web applications were still using ZUI Pages to replace it with another solution, so we can get rid of this under utilized component once and for all.
+<docs-note>This is a breaking change in July's release.</docs-note>
 
 <docs-spacer size="small"></docs-spacer>
 
