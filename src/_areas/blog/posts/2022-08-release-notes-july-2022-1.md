@@ -27,11 +27,11 @@ Utilization statistics showed little to no use of ZUI Pages `<zui-pages>` and mo
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note>This is a breaking change in July's release.</docs-note>
+If you are still a consumer of ZUI Pages, please replace it! We no longer support this component.
 
 <docs-spacer size="small"></docs-spacer>
 
-If you are still a consumer of ZUI Pages, please replace it! We no longer support this component.
+<docs-note>This is a breaking change in July's release.</docs-note>
 
 <docs-spacer></docs-spacer>
 
