@@ -97,7 +97,7 @@ For more information on what `step` does, feel free to check out [MDN's document
 ## Additional minor bug fixes
 
 * `<zui-table-topbar>`'s `@slotchange` to invoke a single expression instead of multiple expressions
-* Inline ZUI Radio buttons `<zui-radio inline>` previously had a height of `42px`, but it has been changed to `36px`
+* Inline ZUI Radio buttons `<zui-radio inline>` previously had a height of `42px`, but it has been reduced to `36px`
 * Removed IE11-specific logos from `<zui-logo>`
 
 <docs-spacer></docs-spacer>
