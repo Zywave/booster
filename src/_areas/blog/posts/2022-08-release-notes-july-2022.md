@@ -11,7 +11,7 @@ tags:
 ---
 # ZUI bundle size decreased by 300kBs after removal of Polymer dependency
 
-The goal for July was to remove dependencies on Polymer in order to trim some kilobytes off of the ZUI bundle. We identified that Polymer made up ~300kBs of our bundle size and only two ZUI components were dependent on it: ZUI Tabs and ZUI Pages. Further, utilization statistics showed ZUI Pages was barely used by consumers. The few who did use ZUI Pages misused it, treating it as a `<div>` wrapper, and relied on their framework of choice to show and hide content.
+The goal for July was to remove dependencies on Polymer in order to trim some kilobytes off of the ZUI bundle. We identified that Polymer made up ~300kBs of our bundle size and only two ZUI components were dependent on it: ZUI Tabs and ZUI Pages. Further, utilization statistics showed ZUI Pages was barely used by consumers. The few who did use ZUI Pages used it as a `<div>` wrapper and relied on their framework of choice to show and hide content when navigating between tabs.
 
 <docs-spacer></docs-spacer>
 
@@ -23,11 +23,11 @@ One of the last ZUI components that heavily relied on Polymer was ZUI Tabs `<zui
 
 # ZUI Pages removed from the ZUI bundle completely
 
-Utilization statistics showed little to no use of ZUI Pages `<zui-pages>` and most consumers of ZUI Tabs relied on their frameworks to show and hide content. We collaborated with the engineering teams whose web applications were still using ZUI Pages to replace it with another solution, so we can get rid of this under utilized component once and for all.
+Utilization statistics showed little to no use of ZUI Pages `<zui-pages>` and most consumers of ZUI Tabs relied on their frameworks to show and hide tab content. We collaborated with the engineering teams whose web applications were still using ZUI Pages to replace it with another solution, so we can get rid of this under utilized component once and for all.
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note>This is a breaking change in July's release. If you are still using ZUI Pages, please replace it! We no longer support this component.</docs-note>
+<docs-note>If you are still using ZUI Pages, please replace it! We no longer support this component.</docs-note>
 
 <docs-spacer></docs-spacer>
 
@@ -48,7 +48,7 @@ Unknown to ZUI, the library we used for some of our initial components ([Polymer
 
 With the removal of Polymer, these styles are now gone, which means elements that were once hidden may not be any longer.
 
-We have updated our [base component host styles](https://gitlab.com/zywave/devkit/web-sdk/zui/-/blob/main/packages/components/zui-base/src/zui-base.scss#L15) to accomodate, but it's important to call out that we no longer specify `!important` which *could* be a breaking change for some!
+We have updated our [base component host styles](https://gitlab.com/zywave/devkit/web-sdk/zui/-/blob/main/packages/components/zui-base/src/zui-base.scss#L15) to accommodate, but it's important to call out that we no longer specify `!important` which *could* be a breaking change for some!
 
 If you're currently setting a `display` property on an element but relying on the `hidden` attribute to hide that same element, you will need to remove this display property.
 
@@ -58,7 +58,7 @@ If you'd like the old behavior back, you can add the following style to your app
 
 ```css
 [hidden] {
-  display: none!important;
+  display: none !important;
 }
 ```
 
@@ -74,7 +74,8 @@ An overlooked design bug in our file input component, thanks to Carter Jasinski 
 <docs-spacer></docs-spacer>
 
 # `zui-input` now supports `step`
-[Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1292)  
+[Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1292)
+
 A small enhancement, but you can now supply the `step` attribute/property to a `zui-input`. It only applies to numerical inputs, e.g. number, date, etc.
 
 ```html
@@ -82,6 +83,14 @@ A small enhancement, but you can now supply the `step` attribute/property to a `
 ```
 
 For more information on what `step` does, feel free to check out [MDN's documentation on `step`](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step).
+
+<docs-spacer></docs-spacer>
+
+# Additional minor bug fixes
+
+* `<zui-table-topbar>`'s `@slotchange` to invoke a single expression instead of multiple expressions
+* Inline ZUI Radio buttons `<zui-radio inline>` previously had a height of `42px`, but it has been changed to `36px`
+* Removed IE11-specific logos from `<zui-logo>`
 
 <docs-spacer></docs-spacer>
 
@@ -95,10 +104,10 @@ The Booster documentation site is used by others outside the Zywave engineering 
 
 <docs-spacer></docs-spacer>
 
-## API documentation headers now deep-linkable
+## API documentation headers are now deep-linkable
+
 [Changeset](https://gitlab.com/zywave/devkit/web-sdk/customelement-manifest-element/-/merge_requests/22)
 
 A small quality-of-life improvement, but we've updated the rendering of custom element API documentation to have it so that the headers are deep linkable! All headers under a component's API tab are now clickable, so if you want to share some documentation with a co-worker, just click on the link and copy the URL and send it off.
-
 
 For an example, go check out [table's events documentation](https://booster.zywave.dev/design-system/components/tables/#zui-table~events)!
