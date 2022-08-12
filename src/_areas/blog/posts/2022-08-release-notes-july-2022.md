@@ -13,9 +13,9 @@ tags:
 
 The goal for July was to remove dependencies on Polymer in order to trim some kilobytes off of the ZUI bundle. We identified that Polymer made up ~300kBs of our bundle size and only two ZUI components were dependent on it: ZUI Tabs and ZUI Pages. Further, utilization statistics showed ZUI Pages was barely used by consumers. The few who did use ZUI Pages used it as a `<div>` wrapper and relied on their framework of choice to show and hide content when navigating between tabs.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
-## ZUI Tabs rewritten without Polymer
+### ZUI Tabs rewritten without Polymer
 
 [Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1278)
 
@@ -23,7 +23,7 @@ One of the last ZUI components that heavily relied on Polymer was ZUI Tabs `<zui
 
 <docs-spacer></docs-spacer>
 
-## ZUI Pages removed from the ZUI bundle completely
+### ZUI Pages removed from the ZUI bundle completely
 
 [Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1284)
 
