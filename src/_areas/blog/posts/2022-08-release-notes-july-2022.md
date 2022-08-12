@@ -17,11 +17,15 @@ The goal for July was to remove dependencies on Polymer in order to trim some ki
 
 ## ZUI Tabs rewritten without Polymer
 
+[Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1278)
+
 One of the last ZUI components that heavily relied on Polymer was ZUI Tabs `<zui-tab>`. In our efforts to rewrite ZUI Tabs, we tried our best to keep the ZUI Tabs functionality the same to not break current implementations of ZUI Tabs in Zywave products. There may be minor differences, but nothing major that should prevent users from completing their tasks.
 
 <docs-spacer></docs-spacer>
 
 ## ZUI Pages removed from the ZUI bundle completely
+
+[Changeset](https://gitlab.com/zywave/devkit/web-sdk/zui/-/merge_requests/1284)
 
 Utilization statistics showed little to no use of ZUI Pages `<zui-pages>` and most consumers of ZUI Tabs relied on their frameworks to show and hide tab content. We collaborated with the engineering teams whose web applications were still using ZUI Pages to replace it with another solution, so we can get rid of this under utilized component once and for all.
 
