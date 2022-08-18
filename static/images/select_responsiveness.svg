@@ -7,6 +7,10 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
+    <linearGradient id="linear-gradient" x1="0.447" y1="0.695" x2="0.447" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f4f6"/>
+      <stop offset="1" stop-color="#f4f4f6" stop-opacity="0"/>
+    </linearGradient>
     <clipPath id="clip-select_responsiveness">
       <rect width="1000" height="470"/>
     </clipPath>
@@ -66,6 +70,21 @@
       </g>
       <rect id="Rectangle_4677" data-name="Rectangle 4677" width="5" height="100" rx="2.5" transform="translate(422 137)" fill="#78788c"/>
       <rect id="Rectangle_4859" data-name="Rectangle 4859" width="24" height="24" transform="translate(374 99)" fill="none"/>
+      <g id="Group_264384" data-name="Group 264384" transform="translate(-5 -127.079)">
+        <path id="Path_3" data-name="Path 3" d="M0,0H1V39H0Z" transform="translate(91 369) rotate(-90)" fill="#17987c"/>
+        <g id="Group_5" data-name="Group 5" transform="translate(0 -2.921)">
+          <g id="Group_6" data-name="Group 6" transform="translate(0 351)">
+            <path id="Path_8" data-name="Path 8" d="M0,0H1V5H0Z" transform="translate(128 1) rotate(-90)" fill="#17987c"/>
+            <path id="Path_9" data-name="Path 9" d="M0,0H1V5H0Z" transform="translate(128 42) rotate(-90)" fill="#17987c"/>
+            <path id="Path_7" data-name="Path 7" d="M0,0H1V40.5H0Z" transform="translate(130 0.75)" fill="#17987c"/>
+          </g>
+        </g>
+        <text id="_42_px" data-name="42 px" transform="translate(52 374)" fill="#17987c" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">42 px</tspan></text>
+      </g>
+      <path id="Line_19" data-name="Line 19" d="M300,.5h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0H96v-1h4Zm-8,0H88v-1h4Zm-8,0H80v-1h4Zm-8,0H72v-1h4Zm-8,0H64v-1h4Zm-8,0H56v-1h4Zm-8,0H48v-1h4Zm-8,0H40v-1h4Zm-8,0H32v-1h4Zm-8,0H24v-1h4Zm-8,0H16v-1h4Zm-8,0H8v-1h4ZM4,.5H0v-1H4Z" transform="translate(132 221.579)" fill="#17987c"/>
+      <path id="Line_20" data-name="Line 20" d="M300,.5h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0H96v-1h4Zm-8,0H88v-1h4Zm-8,0H80v-1h4Zm-8,0H72v-1h4Zm-8,0H64v-1h4Zm-8,0H56v-1h4Zm-8,0H48v-1h4Zm-8,0H40v-1h4Zm-8,0H32v-1h4Zm-8,0H24v-1h4Zm-8,0H16v-1h4Zm-8,0H8v-1h4ZM4,.5H0v-1H4Z" transform="translate(132 262.5)" fill="#17987c"/>
     </g>
+    <rect id="Rectangle_4848" data-name="Rectangle 4848" width="336" height="76" transform="translate(668 106) rotate(180)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_8177" data-name="Rectangle 8177" width="336" height="76" transform="translate(332 376)" fill="url(#linear-gradient)"/>
   </g>
 </svg>

@@ -103,7 +103,7 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 #### Mobile
 
-Users on mobile and touch devices should not see our styling; instead the default styles native to the device should override ours, as these typically provide a better UX as they're designed for use on that particular device.
+Users on mobile and touch devices should have a larger touchpoint than desktop users. The row height on the option increases from 36px to 42px.
 
 ![](/images/select_responsiveness.svg)
 
