@@ -107,7 +107,7 @@ Users on mobile and touch devices should have a larger touchpoint than desktop u
 
 For more information about mobile and touch device breakpoints, see the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid)[breakpoints table](https://booster.zywave.dev/design-system/developers/css-guide/#breakpoints).
 
-![](/images/select_responsiveness.svg)
+![Dropdown select responsiveness](/images/select_responsiveness.svg)
 
 - - -
 
