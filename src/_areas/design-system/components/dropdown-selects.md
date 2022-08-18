@@ -103,7 +103,7 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 
 #### Mobile
 
-Users on mobile and touch devices should have a larger touchpoint than desktop users. The row height on the option increases from 36px to 42px.
+Users on mobile and touch devices should have a larger touchpoint than desktop users. The touch target increases from 36px to 42px for users on devices with a viewport smaller than x pixels.
 
 ![](/images/select_responsiveness.svg)
 

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="470" viewBox="0 0 1000 470">
   <defs>
-    <filter id="Rectangle_4660" x="341" y="89" width="318" height="363" filterUnits="userSpaceOnUse">
+    <filter id="Rectangle_4660" x="521" y="89" width="318" height="363" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -11,13 +11,20 @@
       <stop offset="0" stop-color="#f4f4f6"/>
       <stop offset="1" stop-color="#f4f4f6" stop-opacity="0"/>
     </linearGradient>
+    <filter id="Rectangle_4660-2" x="161" y="89" width="318" height="316" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
     <clipPath id="clip-select_responsiveness">
       <rect width="1000" height="470"/>
     </clipPath>
   </defs>
   <g id="select_responsiveness" clip-path="url(#clip-select_responsiveness)">
     <rect width="1000" height="470" fill="#f4f4f6"/>
-    <g id="Group_15371" data-name="Group 15371" transform="translate(218 -37)">
+    <g id="Group_15371" data-name="Group 15371" transform="translate(398 -37)">
       <text id="State" transform="translate(132 82)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">State</tspan></text>
       <g id="Group_14579" data-name="Group 14579" transform="translate(132 90)">
         <rect id="Rectangle_288" data-name="Rectangle 288" width="300" height="42" rx="4" fill="#fff"/>
@@ -29,8 +36,8 @@
       </g>
       <text id="Select_a_state" data-name="Select a state" transform="translate(147 117)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select a state</tspan></text>
       <path id="Line_3" data-name="Line 3" d="M.5,19h-1V0h1Z" transform="translate(146.3 104)" fill="#5b5b5b"/>
-      <g transform="matrix(1, 0, 0, 1, -218, 37)" filter="url(#Rectangle_4660)">
-        <rect id="Rectangle_4660-2" data-name="Rectangle 4660" width="300" height="345" rx="4" transform="translate(350 95)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, -398, 37)" filter="url(#Rectangle_4660)">
+        <rect id="Rectangle_4660-3" data-name="Rectangle 4660" width="300" height="345" rx="4" transform="translate(530 95)" fill="#fff"/>
       </g>
       <g id="Group_7762" data-name="Group 7762" transform="translate(-94 -80)">
         <rect id="Rectangle_4665" data-name="Rectangle 4665" width="300" height="42" transform="translate(226 217)" fill="#fff"/>
@@ -70,21 +77,64 @@
       </g>
       <rect id="Rectangle_4677" data-name="Rectangle 4677" width="5" height="100" rx="2.5" transform="translate(422 137)" fill="#78788c"/>
       <rect id="Rectangle_4859" data-name="Rectangle 4859" width="24" height="24" transform="translate(374 99)" fill="none"/>
-      <g id="Group_264384" data-name="Group 264384" transform="translate(-5 -127.079)">
-        <path id="Path_3" data-name="Path 3" d="M0,0H1V39H0Z" transform="translate(91 369) rotate(-90)" fill="#17987c"/>
-        <g id="Group_5" data-name="Group 5" transform="translate(0 -2.921)">
-          <g id="Group_6" data-name="Group 6" transform="translate(0 351)">
-            <path id="Path_8" data-name="Path 8" d="M0,0H1V5H0Z" transform="translate(128 1) rotate(-90)" fill="#17987c"/>
-            <path id="Path_9" data-name="Path 9" d="M0,0H1V5H0Z" transform="translate(128 42) rotate(-90)" fill="#17987c"/>
-            <path id="Path_7" data-name="Path 7" d="M0,0H1V40.5H0Z" transform="translate(130 0.75)" fill="#17987c"/>
-          </g>
-        </g>
-        <text id="_42_px" data-name="42 px" transform="translate(52 374)" fill="#17987c" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">42 px</tspan></text>
-      </g>
-      <path id="Line_19" data-name="Line 19" d="M300,.5h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0H96v-1h4Zm-8,0H88v-1h4Zm-8,0H80v-1h4Zm-8,0H72v-1h4Zm-8,0H64v-1h4Zm-8,0H56v-1h4Zm-8,0H48v-1h4Zm-8,0H40v-1h4Zm-8,0H32v-1h4Zm-8,0H24v-1h4Zm-8,0H16v-1h4Zm-8,0H8v-1h4ZM4,.5H0v-1H4Z" transform="translate(132 221.579)" fill="#17987c"/>
-      <path id="Line_20" data-name="Line 20" d="M300,.5h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0h-4v-1h4Zm-8,0H96v-1h4Zm-8,0H88v-1h4Zm-8,0H80v-1h4Zm-8,0H72v-1h4Zm-8,0H64v-1h4Zm-8,0H56v-1h4Zm-8,0H48v-1h4Zm-8,0H40v-1h4Zm-8,0H32v-1h4Zm-8,0H24v-1h4Zm-8,0H16v-1h4Zm-8,0H8v-1h4ZM4,.5H0v-1H4Z" transform="translate(132 262.5)" fill="#17987c"/>
     </g>
-    <rect id="Rectangle_4848" data-name="Rectangle 4848" width="336" height="76" transform="translate(668 106) rotate(180)" fill="url(#linear-gradient)"/>
-    <rect id="Rectangle_8177" data-name="Rectangle 8177" width="336" height="76" transform="translate(332 376)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_4848" data-name="Rectangle 4848" width="336" height="76" transform="translate(848 106) rotate(180)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_8177" data-name="Rectangle 8177" width="336" height="76" transform="translate(512 376)" fill="url(#linear-gradient)"/>
+    <g id="Group_15371-2" data-name="Group 15371" transform="translate(38 -37)">
+      <text id="State-2" data-name="State" transform="translate(132 82)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">State</tspan></text>
+      <g id="Group_14579-2" data-name="Group 14579" transform="translate(132 90)">
+        <rect id="Rectangle_288-2" data-name="Rectangle 288" width="300" height="42" rx="4" fill="#fff"/>
+        <path id="Rectangle_288_-_Outline-2" data-name="Rectangle 288 - Outline" d="M4,2A2,2,0,0,0,2,4V38a2,2,0,0,0,2,2H296a2,2,0,0,0,2-2V4a2,2,0,0,0-2-2H4M4,0H296a4,4,0,0,1,4,4V38a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" fill="#4e92df"/>
+        <g id="Group_7793-2" data-name="Group 7793" transform="translate(266 9)">
+          <rect id="Rectangle_3867-3" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+          <path id="Path_5558-3" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(65 23.9) rotate(180)" fill="#9494a4"/>
+        </g>
+      </g>
+      <text id="Select_a_state-2" data-name="Select a state" transform="translate(147 117)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Select a state</tspan></text>
+      <path id="Line_3-2" data-name="Line 3" d="M.5,19h-1V0h1Z" transform="translate(146.3 104)" fill="#5b5b5b"/>
+      <g transform="matrix(1, 0, 0, 1, -38, 37)" filter="url(#Rectangle_4660-2)">
+        <rect id="Rectangle_4660-4" data-name="Rectangle 4660" width="300" height="298" rx="4" transform="translate(170 95)" fill="#fff"/>
+      </g>
+      <g id="Group_7762-9" data-name="Group 7762" transform="translate(-94 -80)">
+        <rect id="Rectangle_4665-9" data-name="Rectangle 4665" width="300" height="36" transform="translate(226 217)" fill="#fff"/>
+        <text id="Alaska-2" data-name="Alaska" transform="translate(241 239)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alaska</tspan></text>
+      </g>
+      <g id="Group_7762-10" data-name="Group 7762" transform="translate(-94 -44)">
+        <rect id="Rectangle_4665-10" data-name="Rectangle 4665" width="300" height="36" transform="translate(226 217)" fill="#fff"/>
+        <text id="Alabama-2" data-name="Alabama" transform="translate(241 239)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Alabama</tspan></text>
+      </g>
+      <g id="Group_7762-11" data-name="Group 7762" transform="translate(-94 -8)">
+        <rect id="Rectangle_4665-11" data-name="Rectangle 4665" width="300" height="36" transform="translate(226 217)" fill="#fff"/>
+        <text id="Arizona-2" data-name="Arizona" transform="translate(241 239)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Arizona</tspan></text>
+      </g>
+      <g id="Group_7762-12" data-name="Group 7762" transform="translate(-94 28)">
+        <rect id="Rectangle_4665-12" data-name="Rectangle 4665" width="300" height="36" transform="translate(226 217)" fill="#fff"/>
+        <text id="California-2" data-name="California" transform="translate(241 239)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">California</tspan></text>
+      </g>
+      <g id="Group_7762-13" data-name="Group 7762" transform="translate(-94 64)">
+        <rect id="Rectangle_4665-13" data-name="Rectangle 4665" width="300" height="36" transform="translate(226 217)" fill="#fff"/>
+        <text id="Colorado-2" data-name="Colorado" transform="translate(241 239)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Colorado</tspan></text>
+      </g>
+      <g id="Group_7762-14" data-name="Group 7762" transform="translate(-94 100)">
+        <rect id="Rectangle_4665-14" data-name="Rectangle 4665" width="300" height="36" transform="translate(226 217)" fill="#fff"/>
+        <text id="Connecticut-2" data-name="Connecticut" transform="translate(241 239)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Connecticut</tspan></text>
+      </g>
+      <g id="Group_7762-15" data-name="Group 7762" transform="translate(-94 136)">
+        <rect id="Rectangle_4665-15" data-name="Rectangle 4665" width="300" height="36" transform="translate(226 217)" fill="#fff"/>
+        <text id="Delaware-2" data-name="Delaware" transform="translate(241 239)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Delaware</tspan></text>
+      </g>
+      <g id="Group_7762-16" data-name="Group 7762" transform="translate(-94 172)">
+        <rect id="Rectangle_4665-16" data-name="Rectangle 4665" width="300" height="36" transform="translate(226 217)" fill="#fff"/>
+        <text id="Florida-2" data-name="Florida" transform="translate(241 239)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Florida</tspan></text>
+      </g>
+      <g id="Group_7755-2" data-name="Group 7755" transform="translate(-418 -1608)">
+        <rect id="Rectangle_3867-4" data-name="Rectangle 3867" width="24" height="24" transform="translate(816 1707)" fill="none"/>
+        <path id="Path_5558-4" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(881 1730.8) rotate(180)" fill="#7a7a7a"/>
+      </g>
+      <rect id="Rectangle_4677-2" data-name="Rectangle 4677" width="5" height="100" rx="2.5" transform="translate(422 137)" fill="#78788c"/>
+      <rect id="Rectangle_4859-2" data-name="Rectangle 4859" width="24" height="24" transform="translate(374 99)" fill="none"/>
+    </g>
+    <rect id="Rectangle_8178" data-name="Rectangle 8178" width="336" height="76" transform="translate(488 106) rotate(180)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_8179" data-name="Rectangle 8179" width="336" height="76" transform="translate(152 376)" fill="url(#linear-gradient)"/>
   </g>
 </svg>
