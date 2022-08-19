@@ -39,7 +39,9 @@ The width of the action list is, at minimum, 150px wide. The width of the list c
 
 ![Button Dropdown minimum and expanded option list widths](/images/button-dropdown_list_width.svg)
 
-See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0be4e76-4193/) for detailed sizing and spacing information
+<br>
+
+See the [Design specs](https://xd.adobe.com/view/61a11ada-118e-4ab7-bd11-62fa9a6f436a-34f2/grid) for detailed sizing and spacing information
 
 - - -
 
