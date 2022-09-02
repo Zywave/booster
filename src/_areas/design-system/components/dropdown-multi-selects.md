@@ -146,7 +146,7 @@ In some situations, a "Select all" option is desirable (e.g., "Select all accoun
 
 Users on mobile and touch devices should have a larger touchpoint than desktop users. The touch target increases from 36px to 42px for users on mobile or touch devices.
 
-For more information about mobile and touch device breakpoints, see the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid)[breakpoints table](https://booster.zywave.dev/design-system/developers/css-guide/#breakpoints).
+For more information about mobile and touch device breakpoints, see the [breakpoints table](/design-system/developers/css-guide/#breakpoints).
 
 ![Dropdown multi-select responsiveness](/images/multiselect_responsiveness.svg)
 
