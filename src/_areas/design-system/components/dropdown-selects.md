@@ -16,7 +16,7 @@ A form control used when there are more than 2 options and may require a user to
 
 ![Dropdown select usage](/images/select_usage.svg)
 
----
+- - -
 
 ## Anatomy
 
@@ -34,7 +34,7 @@ The anatomy of a dropdown select.
 
 See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
 
----
+- - -
 
 ## Types
 
@@ -52,7 +52,7 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 ![Dropdown select icons](/images/select_icon_specs.svg)
 
----
+- - -
 
 ## States
 
@@ -68,7 +68,7 @@ Within Dropdown select option lists, options can display the following states: s
 
 ![Dropdown select list states](/images/select_list_states.svg)
 
----
+- - -
 
 ## Behavior
 
@@ -97,15 +97,17 @@ Sort the option list in a logical order. For instance, alphabetize or put the mo
 * A Dropdown select shouldn't default a selected option. Defaulting a selection only makes sense after a user's selection has been saved and they revisit to update their choice.
 * Sometimes choosing "None" as an option is necessary if no options are applicable to the user when a Dropdown multi-select is required. "None" should appear at the top of the list.
 
----
+- - -
 
 ## Responsiveness
 
-#### Mobile
+Users on mobile and touch devices should have a larger touchpoint than desktop users. The touch target increases from 36px to 42px for users on mobile or touch devices.
 
-Users on mobile and touch devices should not see our styling; instead the default styles native to the device should override ours, as these typically provide a better UX as they're designed for use on that particular device.
+For more information about mobile and touch device breakpoints, see the [breakpoints table](/design-system/developers/css-guide/#breakpoints).
 
----
+![Dropdown select responsiveness](/images/select_responsiveness.svg)
+
+- - -
 
 ## Best practices
 
@@ -199,7 +201,7 @@ Avoid not drawing attention to a dropdown select with a validation error.
 
 </docs-spacer>
 
----
+- - -
 
 ## Alternate considerations
 
