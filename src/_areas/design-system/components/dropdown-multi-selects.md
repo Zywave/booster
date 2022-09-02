@@ -144,9 +144,11 @@ In some situations, a "Select all" option is desirable (e.g., "Select all accoun
 
 ## Responsiveness
 
-#### Mobile
+Users on mobile and touch devices should have a larger touchpoint than desktop users. The touch target increases from 36px to 42px for users on mobile or touch devices.
 
-Users on mobile and touch devices should not see our styling; instead the default styles native to the device should override ours, as these typically provide a better UX as they're designed for use on that particular device.
+For more information about mobile and touch device breakpoints, see the [breakpoints table](/design-system/developers/css-guide/#breakpoints).
+
+![Dropdown multi-select responsiveness](/images/multiselect_responsiveness.svg)
 
 - - -
 
