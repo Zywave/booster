@@ -39,7 +39,9 @@ The width of the action list is, at minimum, 150px wide. The width of the list c
 
 ![Button Dropdown minimum and expanded option list widths](/images/button-dropdown_list_width.svg)
 
-See the [Design specs](https://xd.adobe.com/view/14c0f042-a5d0-446b-8baf-d47fd0be4e76-4193/) for detailed sizing and spacing information
+<br>
+
+See the [Design specs](https://xd.adobe.com/view/61a11ada-118e-4ab7-bd11-62fa9a6f436a-34f2/grid) for detailed sizing and spacing information
 
 - - -
 
@@ -143,6 +145,16 @@ Buttons Dropdowns follow Button states with the exception of the selected state,
 The options dropdown also has normal, hover and disabled states as shown below. 
 
 ![Option list states](/images/option_states.svg)
+
+- - -
+
+## Responsiveness
+
+Users on mobile and touch devices should have a larger touchpoint than desktop users. The touch target increases from 36px to 42px for users on mobile or touch devices.
+
+For more information about mobile and touch device breakpoints, see the [breakpoints table](/design-system/developers/css-guide/#breakpoints).
+
+![Dropdown select responsiveness](/images/button-dropdown_responsiveness.svg)
 
 - - -
 
