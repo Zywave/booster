@@ -1,20 +1,20 @@
 ---
+title: Shell
+subtitle: Wraps around all of our applications and provides suite level
+  consistencies, branding, and common functionality.
 api: https://cdn.zywave.com/@zywave/zui-shell@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-shell@latest/docs/demo.html
 mainComponentName: zui-shell
 includedElements: []
-title: Shell
-subtitle: Wraps around all of our applications and provides suite level consistencies, branding, and common functionality.
 ---
-
-<Tabs :tabs="['Overview', 'Topbar', 'Sidenav', 'Footer', 'Content area', 'Context switcher', 'Action bar']">
+<Tabs :tabs="\['Overview', 'Topbar', 'Sidenav', 'Footer', 'Content area', 'Context switcher', 'Action bar']">
 <TabPage>
 
 ## What is Shell?
 
 The Shell wraps around all of our applications and provides suite level consistencies, branding, and common functionality. It helps the user understand and navigate the core of the Zywave suite.
 
----
+- - -
 
 ## Anatomy
 
@@ -38,21 +38,21 @@ The Content area is the body of our applications where all the features and func
 
 ![Shell screenshot](/images/components/shell/shell-basics.svg)
 
----
+- - -
 
 ## Suite vs individual products
 
 Depending on if you are building a single point solution that will be sold individually or one that fits into our suite with other features of the same nature, the shell can change to accommodate an ideal user experience.
 
 ![Shell suite screenshot](/images/components/shell/shell--suite.svg)
-_Example: Shell for the Zywave suite._
+*Example: Shell for the Zywave suite.*
 
 <Spacer/>
 
 ![Shell Modmaster screenshot](/images/components/shell/shell--individual-mm.svg)
-_Example: Shell for a single point solution (ModMaster). The application bar becomes slightly larger to accomidate the application name._
+*Example: Shell for a single point solution (ModMaster). The application bar becomes slightly larger to accomidate the application name.*
 
----
+- - -
 
 ## Responsive design
 
@@ -77,7 +77,7 @@ The shell has been designed to transition itself for a better experience on mobi
 
 The Topbar gives the user easy access to suite and organization-level actions, as well as some important actions specific to the application or tool. The Topbar also provides a space for product branding. It is a base component of the suite and should be used for every product, unless there is a specific reason not to.
 
----
+- - -
 
 ## Anatomy
 
@@ -106,8 +106,8 @@ When necessary, you can also include specific product branding in the Zywave Top
 
 ## Sizing & Spacing
 
-- [Zywave Topbar sizing and spacing specs](https://xd.adobe.com/spec/41e8cdc3-6df1-4a55-73e3-41b3ea68ac16-37d9/)
-- [Mobile Topbar and spacing specs](https://xd.adobe.com/spec/4b0ad3da-0bc2-429c-5eca-6edee1c1df44-3d3b/)
+* [Zywave Topbar sizing and spacing specs](https://xd.adobe.com/spec/41e8cdc3-6df1-4a55-73e3-41b3ea68ac16-37d9/)
+* [Mobile Topbar and spacing specs](https://xd.adobe.com/spec/4b0ad3da-0bc2-429c-5eca-6edee1c1df44-3d3b/)
 
 <Spacer size="small"/>
 
@@ -124,8 +124,8 @@ Although there is not much difference in layout and componentry, depending on th
 
 ### Actions in the Topbar
 
-- **Application switcher** - When clicked, a dropdown list will appear and show the user other applications they own so they can easily switch between them.
-- **Profile manager** - When clicked, a dropdown will show user information (e.g., principle and profile) and notifications.
+* **Application switcher** - When clicked, a dropdown list will appear and show the user other applications they own so they can easily switch between them.
+* **Profile manager** - When clicked, a dropdown will show user information (e.g., principle and profile) and notifications.
 
 ### Searching
 
@@ -153,7 +153,7 @@ On smaller screens with a **breakpoint <`720px`**, the Topbar responds to allow 
 
 The Sidenav contains the majority of the application and suite-level navigation. This includes the feature-level navigation as well as access to Notifications, Settings, and Help and training. Having the Sidenav in a standard and reliable place helps ground the user experience of all our products. It should be used for every product, unless there is a speific reason not to.
 
----
+- - -
 
 ## What things go in the Sidenav
 
@@ -183,9 +183,9 @@ The following are nav items that are recommended for every application, when app
 
 ### Icon rules
 
-- All top-level nav items should have a corresponding icon to help quickly identify the action. These icons are also used when the menu is collapsed.
-- Child items do not have icons associated with them.
-- For more information [view our icon standards](/design-system/visuals/iconography/)
+* All top-level nav items should have a corresponding icon to help quickly identify the action. These icons are also used when the menu is collapsed.
+* Child items do not have icons associated with them.
+* For more information [view our icon standards](/design-system/visuals/iconography/)
 
 <Spacer size="small"/>
 
@@ -199,31 +199,31 @@ The following are nav items that are recommended for every application, when app
 
 ## Behavior (expanded state)
 
-1. **Unselected nav item** - Font color: ZUI Gray 700; font weight: 400; icon color: ZUI Gray 800; background color: none
-2. **Selected nav item** - Font color: ZUI Blue 500; font weight: 700; icon color: ZUI Blue 500; background color: none
+1. **Unselected nav item** - Font color: ZUI Gray 700; font weight: 400 (Regular); icon color: ZUI Gray 800; background color: none
+2. **Selected nav item** - Font color: ZUI Blue 500; font weight: 700 (Bold); icon color: ZUI Blue 500; background color: none
 3. **Expand & collapse action icon** - When clicked, the icon rotates 180 degrees. The icon should always point the direction the action will happen.
-4. **Selected subnav item** - Font color: ZUI Blue 500; font weight: 700; icon color: ZUI Blue 500; background color: none
+4. **Selected subnav item** - Font color: ZUI Blue 500; font weight: 700 (Bold); icon color: ZUI Blue 500; background color: none
 5. **Hover** - background color: ZUI Gray 50
 
 ![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--desktop-expanded-behavior.svg)
 
 ### Parent and children
 
-- When anywhere on a parent item is clicked, the children will appear below that parent item.
-- Parent items are used only for organizational purposes to reveal their child subnav items, they aren't linked to pages themselves.
-- Parent items can all be open at the same time to show all subnav item for the entire application.
-- After a user clicks on a link, expanded navigation remains expanded. Don't close the navigation until the user pushes to close it.
+* When anywhere on a parent item is clicked, the children will appear below that parent item.
+* Parent items are used only for organizational purposes to reveal their child subnav items, they aren't linked to pages themselves.
+* Parent items can all be open at the same time to show all subnav item for the entire application.
+* After a user clicks on a link, expanded navigation remains expanded. Don't close the navigation until the user pushes to close it.
 
 ### Scrolling
 
-- When the list of expanded items extends the entire height of the viewport, a small scrollbar appears, allowing the user to scroll the Sidenav.
-- The collapsed nav item remains stuck to the bottom and is not part of the scrolling section.
+* When the list of expanded items extends the entire height of the viewport, a small scrollbar appears, allowing the user to scroll the Sidenav.
+* The collapsed nav item remains stuck to the bottom and is not part of the scrolling section.
 
 ### Collapsing the Sidenav
 
-- The user can collapse & expand the navigation by clicking the collapse button at the bottom of the Sidenav.
-- When collapsed, the content area will respond to make more room for itself by taking up the area that the Sidenav had been using.
-- There is no need for the expand/collapse Sidenav function in the mobile state, so the button is hidden.
+* The user can collapse & expand the navigation by clicking the collapse button at the bottom of the Sidenav.
+* When collapsed, the content area will respond to make more room for itself by taking up the area that the Sidenav had been using.
+* There is no need for the expand/collapse Sidenav function in the mobile state, so the button is hidden.
 
 <Spacer size="small"/>
 
@@ -251,9 +251,9 @@ The menu slides in over the content. To close the Sidenav, the user can click of
 
 Use the following links to find exact pixel specs for each state of the Sidenav.
 
-- [Expanded state specs](https://xd.adobe.com/view/970272fb-9567-4c56-738c-462d2abe2ae3-e133/screen/442c19f5-7eeb-4164-90b5-1693bc59386c/sidenav-sizing-spacing-desktop-expanded)
-- [Collapsed state specs](https://xd.adobe.com/view/970272fb-9567-4c56-738c-462d2abe2ae3-e133/)
-- [Mobile state specs](https://xd.adobe.com/view/970272fb-9567-4c56-738c-462d2abe2ae3-e133/screen/caddde32-914d-4fa5-b328-f3d031e60252/sidenav-sizing-spacing-mobile)
+* [Expanded state specs](https://xd.adobe.com/view/970272fb-9567-4c56-738c-462d2abe2ae3-e133/screen/442c19f5-7eeb-4164-90b5-1693bc59386c/sidenav-sizing-spacing-desktop-expanded)
+* [Collapsed state specs](https://xd.adobe.com/view/970272fb-9567-4c56-738c-462d2abe2ae3-e133/)
+* [Mobile state specs](https://xd.adobe.com/view/970272fb-9567-4c56-738c-462d2abe2ae3-e133/screen/caddde32-914d-4fa5-b328-f3d031e60252/sidenav-sizing-spacing-mobile)
 
 </TabPage>
 
@@ -263,18 +263,18 @@ Use the following links to find exact pixel specs for each state of the Sidenav.
 
 The Footer is the small section at the bottom of each page that contains things like the privacy and cookie policies, and other legal and trademark information. It is easy to find the information you are looking for, should you need it, and does not interfere with using the app. The Footer is a core feature of Shell and should be used in every application.
 
----
+- - -
 
 ## Anatomy
 
 The core features of the footer include:
 
-- **Zywave copyright**
-- **Terms and Conditions link**
-- **Privacy Statement link**
-- **DMCA link**
-- **Cookie Usage link**
-- **Contact link**
+* **Zywave copyright**
+* **Terms and Conditions link**
+* **Privacy Statement link**
+* **DMCA link**
+* **Cookie Usage link**
+* **Contact link**
 
 <Spacer size="small"/>
 
@@ -284,11 +284,11 @@ The footer stays at the bottom of the page. There are no special behaviors, othe
 
 The links in the footer go to the following:
 
-- Terms and Conditions link - https://www.zywave.com/terms-conditions/
-- Privacy Statement link - https://www.zywave.com/privacy-statement/
-- DMCA link - https://www.zywave.com/dmca-notice/
-- Cookie Usage link - https://www.zywave.com/cookie-usage/
-- Contact link - mailto:support@zywave.com
+* Terms and Conditions link - https://www.zywave.com/terms-conditions/
+* Privacy Statement link - https://www.zywave.com/privacy-statement/
+* DMCA link - https://www.zywave.com/dmca-notice/
+* Cookie Usage link - https://www.zywave.com/cookie-usage/
+* Contact link - mailto:support@zywave.com
 
 <Spacer size="small"/>
 
@@ -320,7 +320,7 @@ The Content area is the body of our applications where all the features and func
 
 ![Basics of the content area](/images/components/shell/content-area/content-area_basics.svg)
 
----
+- - -
 
 ## Standard padding
 
@@ -328,8 +328,8 @@ Common page padding is important to keep the content in one place and give it so
 
 [View padding specs](https://xd.adobe.com/view/927bdb91-0983-4101-4d30-b4705d927192-e44a/grid)
 
-| Breakpoints\*         | Padding | Notes                                                |
-| :-------------------- | :------ | :--------------------------------------------------- |
+| Breakpoints*          | Padding | Notes                                                |
+| --------------------- | ------- | ---------------------------------------------------- |
 | ≤`30em` or ≤`480px`   | `20px`  | Side navigation hides; mobile menu becomes available |
 | ≤`45em` or ≤`720px`   | `20px`  | Collapsed side navigation appears                    |
 | ≤`60em` or ≤`960px`   | `20px`  |                                                      |
@@ -339,9 +339,9 @@ Common page padding is important to keep the content in one place and give it so
 | ≤`120em` or ≤`1920px` | `30px`  |                                                      |
 | ≤`160em` or ≤`2560px` | `30px`  |                                                      |
 
-<small>\*`em` units are based off the browser's default font size of `16px`</small>
+<small>*`em` units are based off the browser's default font size of `16px`</small>
 
----
+- - -
 
 ## Content area max-width
 
@@ -369,8 +369,8 @@ Because Cards can hold a variety of different components and content, all specif
 
 [View card max-width specs](https://xd.adobe.com/view/2f5a2586-b842-455b-5880-5b127dea1ba8-596b/grid)
 
-| Breakpoints\*         | Content width               | Notes                                                |
-| :-------------------- | :-------------------------- | :--------------------------------------------------- |
+| Breakpoints*          | Content width               | Notes                                                |
+| --------------------- | --------------------------- | ---------------------------------------------------- |
 | `≤30em` or ≤`480px`   | full-width `440px`          | Side navigation hides; mobile menu becomes available |
 | ≤`45em` or ≤`720px`   | full-width `430px`          | Collapsed side navigation appears                    |
 | ≤`60em` or ≤`960px`   | full-width `670px`          |                                                      |
@@ -380,7 +380,7 @@ Because Cards can hold a variety of different components and content, all specif
 | ≤`120em` or ≤`1920px` | `900px`/`1600px`            |                                                      |
 | ≤`160em` or ≤`2560px` | `900px`/`1600px`            |                                                      |
 
-<small>\*`em` units are based off the browser's default font size of `16px`</small>
+<small>*`em` units are based off the browser's default font size of `16px`</small>
 
 #### Text areas
 
@@ -398,7 +398,7 @@ Using the same studies and conclusion as Text Areas, Text Inputs should also hav
 
 Tables can have a large amount of information, options, and details within them; because of this, it is acceptable that they expand to the full width of `1600px` of the page where applicable.
 
----
+- - -
 
 ## Content area best practices
 
@@ -452,7 +452,7 @@ There should never be a situation where a form has a max-width of `900px`, and a
 
 </Grid>
 
----
+- - -
 
 ## Background coloring
 
@@ -475,7 +475,7 @@ Use a white background when the content is mainly text based to enhance readabil
 
 The Context Switcher lives in the Sidenav when a user is viewing a feature on behalf of a different organization. It provides information about which organization is being accessed as well as an easy way to switch to a different organization.
 
----
+- - -
 
 ## Anatomy
 
@@ -484,9 +484,11 @@ The context switch indicates which organization is currently being viewed by the
 ![Context switcher anatomy](/images/components/shell/context-switcher/Anatomy.svg)
 
 1. **Organization name** - indicate the current organization the user is viewing
-   - Longer organization names will truncate and include ellipses
+
+   * Longer organization names will truncate and include ellipses
 2. **Switch action** - allows the user to navigate back to their dashboard to switch to a different organization
-   - The icon and "Switch" label both remain when the sidenav is collapsed
+
+   * The icon and "Switch" label both remain when the sidenav is collapsed
 
 ![Context switcher anatomy collapsed](/images/components/shell/context-switcher/Anatomy_collapsed.svg)
 
@@ -502,7 +504,7 @@ On mobile devices, the Context Switcher is hidden off-screen within the Sidenav.
 
 ## Types/States
 
-**Expanded hover:**  
+**Expanded hover:**\
 The background of the Context Switcher becomes ZUI Gray 100 on hover, indicating that the entire area is clickable.
 
 ![Expanded switcher hover](/images/components/shell/context-switcher/Hover.svg)
@@ -510,7 +512,7 @@ The background of the Context Switcher becomes ZUI Gray 100 on hover, indicating
 </br>
 
 **Collapsed hover:**
-When the Sidenav is collapsed, additional hover behavior is added to help identify the currently selected organization. The background behind the switch action becomes ZUI Gray 100 to indicate that it is clickable. In addition, there is a fly-out that shows the "Viewing as: _organization_" message on a white background, similar to the child items in the Sidenav.
+When the Sidenav is collapsed, additional hover behavior is added to help identify the currently selected organization. The background behind the switch action becomes ZUI Gray 100 to indicate that it is clickable. In addition, there is a fly-out that shows the "Viewing as: *organization*" message on a white background, similar to the child items in the Sidenav.
 
 ![Collapsed switcher hover](/images/components/shell/context-switcher/Hover_collapsed.svg)
 
@@ -532,7 +534,7 @@ The Context Switcher only appears in the Sidenav when the user has chosen to vie
 The contents of the Sidenav should also change to reflect what is available for that account in the feature/tool.
 
 **Collapsing navigation behavior:**
-When collapsing the Sidenav, the flyout containing the "Viewing as: _organization_" message appears for a few seconds and then disappears. To view this message again, the user can hover over the switch action.
+When collapsing the Sidenav, the flyout containing the "Viewing as: *organization*" message appears for a few seconds and then disappears. To view this message again, the user can hover over the switch action.
 
 ![Behavior when collapsing Sidenav with Context switcher](/images/components/shell/context-switcher/Collapse_sidenav.gif)
 
@@ -544,7 +546,7 @@ When collapsing the Sidenav, the flyout containing the "Viewing as: _organizatio
 
 The Action bar is used to provide the user with a consistent placement of actions on the screen when interacting with longer, more complex pages.
 
----
+- - -
 
 ## Usage
 
@@ -552,7 +554,7 @@ Action bar keeps the action buttons in a standard state on the screen, even when
 
 ### Alternate considerations
 
-- Use [dialog box](/design-system/components/dialogs/) to keep the user focused on the form and input fields and if you have only a few input fields
+* Use [dialog box](/design-system/components/dialogs/) to keep the user focused on the form and input fields and if you have only a few input fields
 
 <br />
 
@@ -568,7 +570,7 @@ For detailed documentation on using Action bar in a long form, view the [design 
 
 ### In a multi-step form
 
-When you have a form that is broken up into multiple steps, the progress indicator is located on the left within the action bar and follows the format **# of #: Step title**
+When you have a form that is broken up into multiple steps, the progress indicator is located on the left within the action bar and follows the format **\# of #: Step title**
 
 ![in a multi-step form](/images/components/shell/action-bar/usage-multi-step.svg)
 
@@ -582,7 +584,7 @@ For detailed documentation on using Action bar in a multi-step form, view the [d
 
 For detailed documentation on using Action bar when editing a document, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/a8f96726-827b-41aa-bca1-949362230fa8).
 
----
+- - -
 
 ## Anatomy
 
@@ -594,15 +596,15 @@ For detailed documentation on using Action bar when editing a document, view the
 
 For detailed documentation on Action bar anatomy, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/04796dd6-e40a-4de0-b1ca-3175bacf5d38).
 
----
+- - -
 
 ## Behavior
 
 The main purpose of the action bar is to provide the user with a consistent placement of actions. The Top bar and Side nav should remain available in an action bar to not limit the user in their ability to navigate out of the current workflow when necessary. To achieve that, the following behavior should be used:
 
-- Zywave Top bar behavior should remain unchanged
-- The action bar is sticky and should remain flush up against the bottom of the Top bar, even as the user scrolls down the page to keep the actions in a consistent place on the screen
-- Depending on the task at hand and how the data is being saved, a dialog may need to be displayed before a user navigates away to prevent loss of information
+* Zywave Top bar behavior should remain unchanged
+* The action bar is sticky and should remain flush up against the bottom of the Top bar, even as the user scrolls down the page to keep the actions in a consistent place on the screen
+* Depending on the task at hand and how the data is being saved, a dialog may need to be displayed before a user navigates away to prevent loss of information
 
 <br />
 
@@ -618,7 +620,7 @@ Action bar after scrolling down the page
 
 For detailed documentation on Action bar after scrolling down the page, view the [design specs](https://xd.adobe.com/view/e7bc4016-c457-4553-88c6-9dfb12c25ed2-b2ef/screen/8a119f76-5a5f-42c1-ad53-99c88ab13a0d).
 
----
+- - -
 
 ## Responsiveness
 
@@ -626,14 +628,14 @@ For detailed documentation on Action bar after scrolling down the page, view the
 
 The mobile action bar is a bit different from the desktop version.
 
-- The Top bar should disappear completely when entering a focus state on a mobile device
-- The action bar remains sticky to the top of the page
-- The background of the action bar is white
-- If the action bar uses a "cancel" action, it should be replaced with ZUI-remove and be moved to the left side of the action bar
-- The title or progress indicator should be aligned 20px to the right of the cancel or back button
-- When there are more than two actions, the title can be removed from the action bar
-- If the title is important for the user to see, use an ellipsis in the title if it overlaps the actions in the bar
-- The save or forward directional button should be located on the right
+* The Top bar should disappear completely when entering a focus state on a mobile device
+* The action bar remains sticky to the top of the page
+* The background of the action bar is white
+* If the action bar uses a "cancel" action, it should be replaced with ZUI-remove and be moved to the left side of the action bar
+* The title or progress indicator should be aligned 20px to the right of the cancel or back button
+* When there are more than two actions, the title can be removed from the action bar
+* If the title is important for the user to see, use an ellipsis in the title if it overlaps the actions in the bar
+* The save or forward directional button should be located on the right
 
 For detailed documentation on Action bar responsiveness, view the [design specs](https://xd.adobe.com/view/fc9c6e16-fcda-4634-b5f9-81f6b3c93d65-a9cf/grid).
 
@@ -649,7 +651,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 ![steps](/images/components/shell/action-bar/steps.svg)
 
----
+- - -
 
 ## Best practices
 
@@ -661,7 +663,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 <Do />
 
-- Use the Action bar for forms that are longer than 5 input fields
+* Use the Action bar for forms that are longer than 5 input fields
 
 </GridCol>
 
@@ -669,7 +671,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 <DoNot />
 
-- Use the Action bar for forms that are under 5 input fields
+* Use the Action bar for forms that are under 5 input fields
 
 </GridCol>
 
@@ -685,7 +687,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 <Do />
 
-- Use the Action bar for step flows where there are more than X steps
+* Use the Action bar for step flows where there are more than X steps
 
 </GridCol>
 
@@ -707,7 +709,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 <Do />
 
-- Use only one primary button
+* Use only one primary button
 
 </GridCol>
 
@@ -715,7 +717,7 @@ ZUI-remove will always be present. When you have a form that is broken up into m
 
 <DoNot />
 
-- Use more than one primary button
+* Use more than one primary button
 
 </GridCol>
 
