@@ -7,7 +7,7 @@ demo: https://cdn.zywave.com/@zywave/zui-shell@latest/docs/demo.html
 mainComponentName: zui-shell
 includedElements: []
 ---
-<Tabs :tabs="\['Overview', 'Topbar', 'Sidenav', 'Footer', 'Content area', 'Context switcher', 'Action bar']">
+<Tabs :tabs="\\['Overview', 'Topbar', 'Sidenav', 'Footer', 'Content area', 'Context switcher', 'Action bar']">
 <TabPage>
 
 ## What is Shell?
@@ -233,7 +233,7 @@ The following are nav items that are recommended for every application, when app
 2. **Selected nav item** - Slide-out shows the full name of the navigation item. The user can then click the icon or the text to navigate to this page. Icon color: ZUI Blue 500; background color: none
 3. **Hover nav item with children** - Slide-out shows the nav item name and list of subnav items. The user can then select the page they wish to navigate to in the list. Background color: ZUI Gray 50
 4. **Hover subnav item** - Background color: ZUI Gray 100
-5. **Selected item** - Font color: ZUI Blue 500; font weight: 700; background color: none
+5. **Selected item** - Font color: ZUI Blue 500; font weight: 700 (Bold); background color: none
 
 ![Sidenav - anatomy](/images/components/shell/sidenav/sidenav-anatomy--desktop-collapsed-behavior.svg)
 
