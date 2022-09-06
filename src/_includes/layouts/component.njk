@@ -34,7 +34,7 @@ layout: side-nav-base
 {% if subtitle %} <h2 class="component-subheader">{{ subtitle }}</h2> {% endif %}
 
 <nav class="zui row">
-  <zui-tabs selected="-1">
+  <zui-tabs>
     {% for tab in tabs %}
       <zui-tab id="tab-{{ tab | slug }}">
         <a href="{{ page.url | componentTabHref(tab) | url }}" class="zui text-decoration-none">{{ tab }}</a>

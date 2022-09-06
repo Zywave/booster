@@ -1,5 +1,5 @@
 // fouc styles for zui-tabs
-@import "https://cdn.zywave.com/@zywave/zui-tabs@latest/dist/css/zui-tabs.fouc.min.css";
+@import "https://cdn.zywave.com/@zywave/zui-tabs@latest/dist/css/zui-tabs.fouc.css";
 
 zui-tabs {
   margin-bottom: rem(48);
@@ -8,6 +8,10 @@ zui-tabs {
   a {
     &:active {
       text-decoration: none;
+    }
+
+    &:focus {
+      outline: 0;
     }
 
     &:-webkit-any-link {
