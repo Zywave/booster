@@ -4,6 +4,7 @@
 zui-tabs {
   margin-bottom: rem(48);
   --zui-tabs-color: var(--docs-secondary-color);
+  --zui-tabs-fouc-scroll-button-space: 0;
 
   a {
     &:active {
