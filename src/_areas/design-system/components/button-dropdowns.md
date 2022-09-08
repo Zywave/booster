@@ -11,6 +11,12 @@ includedElements:
 
 Button Dropdowns are used when there is a set of closely related actions available to the user, or as a solution to consolidate the number of actions that appear on the screen. Clicking the Button Dropdown opens an option list where the user can select an action or shift focus off the button to close the list. They are commonly seen within tables due to space restrictions.
 
+
+
+
+
+
+
 ![Standard and selected Button Dropdown states](/images/button-dropdown_usage.svg)
 
 <docs-spacer size="small"></docs-spacer>
