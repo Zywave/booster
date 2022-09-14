@@ -71,18 +71,6 @@ An error text Input is outlined in red. Error message with details on the error 
 
 ## Types
 
-### Text Area
-
-A Text Area is a subset of the Text Input specifically used for entering multiple lines of information. The input size is larger (width and length) than a standard Text Input. Text Areas can also include a scroll bar and expander tab in the bottom right corner, if necessary.
-
-![Text input text area](/images/textinput_textarea.svg)
-
-We recommend capping the max-height of a Text Area so it doesn't use too much space within a UI. If it expands beyond the max-height, then a scroll bar can be used to view text that is not visible in the Text Area. We recommend starting with a max-height of 150px.  
-
-![Text input text area scroll](/images/textinput_textarea_scroll.svg)
-
-<br>
-
 ### Text inputs with actions
 
 In rare occasions, a Button can be placed directly next to the Text Input, most commonly seen on search fields. The close proximity of this Button saves space in the UI and ties an action directly to a Text Input. The button should have a text label or use a very clear and deliberate icon. This button placement should be used rarely and should not be used for most single Text Inputs or on Forms. 
@@ -212,9 +200,9 @@ Avoid using an input width that will cut-off information or allows for excessive
 
 ## Alternate considerations
 
+* Use a [Textarea](/design-system/components/textareas/) when users are allowed to input a sizeable amount of free-form text.
 * If the user should be presented with a list of supported or known values to choose from, consider one of the following:
-
-  * [Dropdown select](https://booster.zywave.dev/design-system/components/dropdown-selects/)
-  * [Dropdown multi-select](https://booster.zywave.dev/design-system/components/dropdown-multi-selects/)
-  * [Picker](https://booster.zywave.dev/design-system/components/pickers/)
-  * [Multi-picker](https://booster.zywave.dev/design-system/components/pickers/)
+  * [Dropdown select](/design-system/components/dropdown-selects/)
+  * [Dropdown multi-select](/design-system/components/dropdown-multi-selects/)
+  * [Picker](/design-system/components/pickers/)
+  * [Multi-picker](/design-system/components/pickers/)
