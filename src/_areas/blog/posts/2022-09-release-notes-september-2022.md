@@ -11,8 +11,21 @@ tags:
 ---
 ## ZUI Input gets prefixes and suffixes
 
+TBD
+
+<docs-spacer></docs-spacer>
+
+## ZUI Textarea component page available
+
+We added the component `<zui-textarea>` to our design system in June. Today, the [ZUI Textarea component page](/design-system/components/textareas/) is made available to access API docs and demos. The usage guidelines are still in the works, so stay tuned for an update regarding the completion of this documentation!
+
+![Example of an active ZUI textarea and disabled ZUI textarea](/images/zui-textarea.jpg "Example of an active ZUI textarea and disabled ZUI textarea")
+
+<docs-spacer></docs-spacer>
+
 ## Exposing network connection information via Zywave Analytics
-[Changeset](https://gitlab.com/zywave/app-platform/devkit/web-sdk/zywave-api-toolkit/-/merge_requests/315)
+
+Changeset
 
 As individuals who work on software for a living, it's easy to assume that they way we interface with our applications while testing them is consistent with the experience of our users, but that's not always the case.
 
@@ -21,13 +34,13 @@ What devices are our users using? Where are they physically when they are access
 With some updates to Zywave Analytics, we hope to offer you some insight into answering those questions. Now, all web-based events that flow through `<zywave-analytics>` will include the following properties:
 
 | Property name           | Details                                                                                                                                                           |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `networkRtt`            | The estimated round-trip time of the connection, measured in ms.                                                                                                  |
-| `networkDownlink`       | Estimated download speed, measured in Mbps.  <br>**Note:** This has a maximum cap at 10Mbps due to privacy concerns.                                              |
+| `networkDownlink`       | Estimated bandwidth, measured in Mbps.                                                                                                                            |
+| `networkDownlinkMax`    | Maximum bandwidth, measured in Mbps, for the network connection hardware.                                                                                         |
 | `networkReducedData`    | Indicates that the user has explicitly enabled a setting in their browser to reduce data usage (e.g. mobile connections)                                          |
 | `networkConnectionType` | Indicates how the user's device is connected to the network (e.g. ethernet vs wifi).  <br>**Note:** This will commonly be omitted due to device privacy concerns. |
 
 Additionally, our team now has a Heap report to compare Min/Average/Max downlink connections so that we can get a good snapshot of our users. Feel free to take a look, and repurpose for your team's needs!
 
 <!-- TODO @Pat insert screenshot of Heap report + link to report https://heapanalytics.com/app/env/2837777013/graph/chart/Network-Bandwidth-Comparison-Report-2919213/edit/2923472 -->
-
