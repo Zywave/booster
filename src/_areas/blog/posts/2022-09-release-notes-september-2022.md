@@ -23,8 +23,7 @@ With some updates to Zywave Analytics, we hope to offer you some insight into an
 | Property name           | Details                                                                                                                                                           |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `networkRtt`            | The estimated round-trip time of the connection, measured in ms.                                                                                                  |
-| `networkDownlink`       | Estimated bandwidth, measured in Mbps.                                                                                                                            |
-| `networkDownlinkMax`    | Maximum bandwidth, measured in Mbps, for the network connection hardware.                                                                                         |
+| `networkDownlink`       | Estimated download speed, measured in Mbps.  <br>**Note:** This has a maximum cap at 10Mbps due to privacy concerns.                                              |
 | `networkReducedData`    | Indicates that the user has explicitly enabled a setting in their browser to reduce data usage (e.g. mobile connections)                                          |
 | `networkConnectionType` | Indicates how the user's device is connected to the network (e.g. ethernet vs wifi).  <br>**Note:** This will commonly be omitted due to device privacy concerns. |
 
