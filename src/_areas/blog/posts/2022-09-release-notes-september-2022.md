@@ -27,7 +27,7 @@ We added the component `<zui-textarea>` to our design system in June. Today, the
 
 Changeset
 
-As individuals who work on software for a living, it's easy to assume that they way we interface with our applications while testing them is consistent with the experience of our users, but that's not always the case.
+As individuals who work on software for a living, it is easy to assume that the way we interface with our applications while testing is consistent with the experience of our users, but that's not always the case.
 
 What devices are our users using? Where are they physically when they are accessing our features? Are they in a dedicated office, with an ethernet connection to the corporate network? Are they working from home, maybe from their bedroom, connected to a wireless router downstairs? Or are they on the road, using their phone to shoot off a quick message to a client they will be visiting that day?
 
@@ -36,8 +36,7 @@ With some updates to Zywave Analytics, we hope to offer you some insight into an
 | Property name           | Details                                                                                                                                                           |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `networkRtt`            | The estimated round-trip time of the connection, measured in ms.                                                                                                  |
-| `networkDownlink`       | Estimated bandwidth, measured in Mbps.                                                                                                                            |
-| `networkDownlinkMax`    | Maximum bandwidth, measured in Mbps, for the network connection hardware.                                                                                         |
+| `networkDownlink`       | Estimated downlink bandwidth, measured in Mbps. <br> **Note**: Due to privacy concerns, this is capped at 10Mbps         .                                                                                                                   |                                                                             |
 | `networkReducedData`    | Indicates that the user has explicitly enabled a setting in their browser to reduce data usage (e.g. mobile connections)                                          |
 | `networkConnectionType` | Indicates how the user's device is connected to the network (e.g. ethernet vs wifi).  <br>**Note:** This will commonly be omitted due to device privacy concerns. |
 
