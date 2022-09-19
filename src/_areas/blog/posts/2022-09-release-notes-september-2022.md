@@ -15,9 +15,9 @@ TBD
 
 <docs-spacer></docs-spacer>
 
-## ZUI Textarea component page available
+## Documentation for ZUI Textarea now available
 
-We added the component `<zui-textarea>` to our design system in June. Today, the [ZUI Textarea component page](/design-system/components/textareas/) is made available to access API docs and demos. The usage guidelines are still in the works, so stay tuned for an update regarding the completion of this documentation!
+We added the component `<zui-textarea>` to our design system in June. Today, the [ZUI Textarea component page](/design-system/components/textareas/) is made available to access API docs and demos. The usage guidelines, such as best practices and design specs, are still in the works, so stay tuned for an update regarding the completion of this documentation!
 
 ![Example of an active ZUI textarea and disabled ZUI textarea](/images/zui-textarea.jpg "Example of an active ZUI textarea and disabled ZUI textarea")
 
