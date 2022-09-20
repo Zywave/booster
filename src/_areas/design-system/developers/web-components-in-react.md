@@ -408,8 +408,6 @@ And then use it like so:
 
 ## Problems that still need to be solved
 
-<docs-spacer size="small"></docs-spacer>
-
 ### Managing state between React and Web Components
 
 Both Web components and React components have their own internal state. Keeping state in sync between the two is difficult. This is obvious when using `zui-input`, because your value in your React component will not match the value in the zui-input component. One hack to get around this is to force your component to re-render when the component value changes. This is not ideal, but it works.
