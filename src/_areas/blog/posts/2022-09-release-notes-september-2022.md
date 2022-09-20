@@ -25,7 +25,7 @@ We added the component `<zui-textarea>` to our design system in June. Today, the
 
 ## Exposing network connection information via Zywave Analytics
 
-Changeset
+[Changeset](https://gitlab.com/zywave/app-platform/devkit/web-sdk/zywave-api-toolkit/-/merge_requests/315/diffs)
 
 As individuals who work on software for a living, it is easy to assume that the way we interface with our applications while testing is consistent with the experience of our users, but that's not always the case.
 
