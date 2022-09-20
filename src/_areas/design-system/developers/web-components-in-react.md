@@ -4,11 +4,13 @@ title: Web Components in React
 subtitle: Using custom webcomponents (e.g. ZUI) in React
 hideToc: false
 ---
-# Introduction 
+# Overview
 
 This article will cover how our team uses custom web components (particularly with ZUI) in React, along with the issues and resolutions we've encountered along the way.
 
 If you want to skip all of the details and go straight to ZUI in React, see `Introducing @zywave/zui-react-wrapper` below.
+
+---
 
 # What are Web Components
 
@@ -19,6 +21,8 @@ Web Components is a suite of different technologies allowing you to create reusa
 ```
 
 [ZUI](https://booster.zywave.dev/) uses web components to create the custom elements that can be used within any framework, including React.
+
+---
 
 # Pitfalls with React
 
@@ -196,6 +200,8 @@ This is a minor annoyance, but React components will use `className`, but web co
 
 Other differences with React attributes can be found here: [https://reactjs.org/docs/dom-elements.html#differences-in-attributes](https://reactjs.org/docs/dom-elements.html#differences-in-attributes)
 
+---
+
 # Fixing these problems
 
 All of the above problems are fixable, and there are two packages available on NPM that our team has attempted to use to solve these problems. However, both of these packages only solve some of these problems.
@@ -207,6 +213,8 @@ All of the above problems are fixable, and there are two packages available on N
 ## use-custom-element
 
 [use-custom-element](https://www.npmjs.com/package/use-custom-element) was the second page we attempted to use. This fixed our unmounting issue, but the event handlers were not set up with the correct names (being `change` instead of `onChange`, etc.). It also broke any non-event functions (such as the `queryHandler` used in `zui-select-dropdown`).
+
+---
 
 # Using @zywave/useCustomElement-in-react
 
@@ -328,6 +336,8 @@ export const ZuiPager = (props: ZuiPagerProps) => {
 
 Now you could write a wrapper component for each ZUI component that you need. Or, you can use @zywave/zui-react-wrapper!
 
+---
+
 # Introducing @zywave/zui-react-wrapper
 
 Our team has also written [@zywave/zui-react-wrapper](https://packages.zywave.com/feeds/private-npm/@zywave/zui-react-wrapper/versions) to create all of the ZUI React components for you. This package uses @zywave/useCustomElement-in-react, but takes care of all of the prop types, custom mappings, and event types. You just need to include it in your project and use it!
@@ -368,6 +378,8 @@ And then use it like so:
 </ZuiButton>
 ```
 
+---
+
 # Problems that still need to be solved
 
 ## Managing state between React and Web Components
@@ -375,6 +387,8 @@ And then use it like so:
 Both Web components and React components have their own internal state. Keeping state in sync between the two is difficult. This is obvious when using `zui-input`, because your value in your React component will not match the value in the zui-input component. One hack to get around this is to force your component to re-render when the component value changes. This is not ideal, but it works.
 
 You can implement this by using the `key` prop (setting it to a new value each time your value changes), or by using `useCallback` to create a new component each time your value changes.
+
+---
 
 # Conclusion
 
