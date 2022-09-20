@@ -28,6 +28,8 @@ Web Components is a suite of different technologies allowing you to create reusa
 
 On the surface, React and Web Components seem to work well out of the box. But several issues arise once you start using them in depth.
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Custom Events and Synthetic Events
 
 Typically with React you would use `onClick`, `onChange`, or `on<CustomEventType>` to add change handlers for events. Web components typically do not provide these properties, so you typically use `addEventListener` and `removeEventListener` to add these change handlers.
@@ -58,6 +60,8 @@ function BrokenEvents() {
 ```
 
 In the example above, the dialog will open properly because `onClick` is a standard event type. But `onClose` will not update the state of `dialogOpened`, so the dialog will not be able to open again.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### addEventListener and removeEventListener
 
@@ -108,6 +112,8 @@ function EventHandlers() {
 }
 ```
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Unmounting
 
 When a component is being unmounted, you typically want to remove the event listener on the web component. However, the web component is usually gone by this point, so accessing the ref will fail. You can work around this with a null check.
@@ -129,6 +135,8 @@ function EventHandlers() {
 ```
 
 Certain tools, such as Storybook, will try to remove event listeners when a component is unmounted (e.g. when switching between stories). However, Storybook does not do this null check which causes it to fail, giving you an error screen immediately after switching between stories.
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Object and Array props
 
@@ -154,6 +162,8 @@ In the browser, this shows up as:
 ```html
 <zui-button obj="[object Object]" type="primary" tabindex="0" role="button">View my props in dev tools</zui-button>
 ```
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Typescript
 
@@ -206,9 +216,13 @@ Other differences with React attributes can be found here: [https://reactjs.org/
 
 All of the above problems are fixable, and there are two packages available on NPM that our team has attempted to use to solve these problems. However, both of these packages only solve some of these problems.
 
+<docs-spacer size="small"></docs-spacer>
+
 ### webcomponents-in-react
 
 [webcomponents-in-react](https://www.npmjs.com/package/webcomponents-in-react) was the first package we attempted to use to wrap the ZUI web components. This worked fairly well, but it did not fully solve the problem of event handlers. This made Storybook unstable, causing it to crash when switching between stories.
+
+<docs-spacer size="small"></docs-spacer>
 
 ### use-custom-element
 
@@ -219,6 +233,8 @@ All of the above problems are fixable, and there are two packages available on N
 ## Using @zywave/useCustomElement-in-react
 
 Our team created [@zywave/useCustomElement-in-react](https://packages.zywave.com/feeds/private-npm/@zywave/usecustomelement-in-react/versions) to solve all of the above problems. It takes inspiration from both webcomponents-in-react and use-custom-element, but it fixes the issues we had with each package.
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Event Handlers
 
@@ -266,6 +282,8 @@ React.useLayoutEffect(() => {
 }, [props, webComponentRef, customMapping]);
 ```
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Object and Array props, and Custom Mappings
 
 useCustomElement-in-react handles objects and arrays pretty simply, by just using JSON.stringify to convert them to a string. We also handle custom mappings at the same time (such as `className` to `class`, or `showAll` to `show-all`). The `className` to `class` is handled automatically, while the `showAll` to `show-all` is handled by the customMapping prop.
@@ -296,6 +314,8 @@ return React.createElement(componentSelector, {
   ...customElementProps,
 });
 ```
+
+<docs-spacer size="small"></docs-spacer>
 
 ### ZUI component example
 
@@ -342,6 +362,8 @@ Now you could write a wrapper component for each ZUI component that you need. Or
 
 Our team has also written [@zywave/zui-react-wrapper](https://packages.zywave.com/feeds/private-npm/@zywave/zui-react-wrapper/versions) to create all of the ZUI React components for you. This package uses @zywave/useCustomElement-in-react, but takes care of all of the prop types, custom mappings, and event types. You just need to include it in your project and use it!
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Installing
 
 To use @zywave/zui-react-wrapper, you'll need to make sure that your NPM registry is set to the Zywave private registry for the @zywave scope. You can do that by adding a `.npmrc` file to your project with the following contents:
@@ -362,6 +384,8 @@ Or:
 yarn add -D @zywave/zui-react-wrapper@1.0.0
 ```
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Using
 
 To use @zywave/zui-react-wrapper, you can import the components directly from the package:
@@ -381,6 +405,8 @@ And then use it like so:
 ---
 
 ## Problems that still need to be solved
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Managing state between React and Web Components
 
