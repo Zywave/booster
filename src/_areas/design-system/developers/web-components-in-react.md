@@ -204,6 +204,8 @@ declare global {
 }
 ```
 
+<docs-spacer size="small"></docs-spacer>
+
 ### React attribute differences (class vs className, style)
 
 This is a minor annoyance, but React components will use `className`, but web components will use `class`. This will be confusing if you use web components directly, but it can be easily solved by mapping between the two in a wrapper component. `style` will also need to be a string instead of the structured CSS properties that React uses.
