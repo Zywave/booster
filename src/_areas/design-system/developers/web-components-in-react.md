@@ -240,7 +240,7 @@ Our team created [@zywave/useCustomElement-in-react](https://packages.zywave.com
 
 ### Event Handlers
 
-useCustomElement-in-react uses a ref on the web component, along with useLayoutEffect, to add and remove event listeners. The code for that is here:
+useCustomElement-in-react uses a ref on the web component, along with `useLayoutEffect`, to add and remove event listeners. The code for that is here:
 
 ```tsx
 // Changes "onClick" to "click", etc.
