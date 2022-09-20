@@ -4,7 +4,7 @@ title: Web Components in React
 subtitle: Using custom webcomponents (e.g. ZUI) in React
 hideToc: false
 ---
-# Overview
+## Overview
 
 This article will cover how our team uses custom web components (particularly with ZUI) in React, along with the issues and resolutions we've encountered along the way.
 
@@ -12,7 +12,7 @@ If you want to skip all of the details and go straight to ZUI in React, see `Int
 
 ---
 
-# What are Web Components
+## What are Web Components
 
 From [MDN](https://developer.mozilla.org/en-US/docs/Web/Web_Components):
 
@@ -24,11 +24,11 @@ Web Components is a suite of different technologies allowing you to create reusa
 
 ---
 
-# Pitfalls with React
+## Pitfalls with React
 
 On the surface, React and Web Components seem to work well out of the box. But several issues arise once you start using them in depth.
 
-## Custom Events and Synthetic Events
+### Custom Events and Synthetic Events
 
 Typically with React you would use `onClick`, `onChange`, or `on<CustomEventType>` to add change handlers for events. Web components typically do not provide these properties, so you typically use `addEventListener` and `removeEventListener` to add these change handlers.
 
@@ -59,7 +59,7 @@ function BrokenEvents() {
 
 In the example above, the dialog will open properly because `onClick` is a standard event type. But `onClose` will not update the state of `dialogOpened`, so the dialog will not be able to open again.
 
-### addEventListener and removeEventListener
+#### addEventListener and removeEventListener
 
 To use `addEventListener` and `removeEventListener` in React, you would need to create a ref to the component and add the event listener via `useLayoutEffect` (and usually remove the event listener when the component is unmounted).
 
@@ -108,7 +108,7 @@ function EventHandlers() {
 }
 ```
 
-### Unmounting
+#### Unmounting
 
 When a component is being unmounted, you typically want to remove the event listener on the web component. However, the web component is usually gone by this point, so accessing the ref will fail. You can work around this with a null check.
 
@@ -130,7 +130,7 @@ function EventHandlers() {
 
 Certain tools, such as Storybook, will try to remove event listeners when a component is unmounted (e.g. when switching between stories). However, Storybook does not do this null check which causes it to fail, giving you an error screen immediately after switching between stories.
 
-## Object and Array props
+### Object and Array props
 
 Objects and arrays will get converted to strings when sent to web component props. Which means that they will be sent to the web component as `"[object Object]"`. The web component will try to parse this string as the object and fail.
 
@@ -155,7 +155,7 @@ In the browser, this shows up as:
 <zui-button obj="[object Object]" type="primary" tabindex="0" role="button">View my props in dev tools</zui-button>
 ```
 
-## Typescript
+### Typescript
 
 Typescript brings a new problem, because web components are not standard HTML elements, so they are not recognized by Typescript. This means that you wil have to add the web component type to JSX.IntrinsicElements for Typescript to recognize it and allow the build to succeed.
 
@@ -194,7 +194,7 @@ declare global {
 }
 ```
 
-## React attribute differences (class vs className, style)
+### React attribute differences (class vs className, style)
 
 This is a minor annoyance, but React components will use `className`, but web components will use `class`. This will be confusing if you use web components directly, but it can be easily solved by mapping between the two in a wrapper component. `style` will also need to be a string instead of the structured CSS properties that React uses.
 
@@ -202,25 +202,25 @@ Other differences with React attributes can be found here: [https://reactjs.org/
 
 ---
 
-# Fixing these problems
+## Fixing these problems
 
 All of the above problems are fixable, and there are two packages available on NPM that our team has attempted to use to solve these problems. However, both of these packages only solve some of these problems.
 
-## webcomponents-in-react
+### webcomponents-in-react
 
 [webcomponents-in-react](https://www.npmjs.com/package/webcomponents-in-react) was the first package we attempted to use to wrap the ZUI web components. This worked fairly well, but it did not fully solve the problem of event handlers. This made Storybook unstable, causing it to crash when switching between stories.
 
-## use-custom-element
+### use-custom-element
 
 [use-custom-element](https://www.npmjs.com/package/use-custom-element) was the second page we attempted to use. This fixed our unmounting issue, but the event handlers were not set up with the correct names (being `change` instead of `onChange`, etc.). It also broke any non-event functions (such as the `queryHandler` used in `zui-select-dropdown`).
 
 ---
 
-# Using @zywave/useCustomElement-in-react
+## Using @zywave/useCustomElement-in-react
 
 Our team created [@zywave/useCustomElement-in-react](https://packages.zywave.com/feeds/private-npm/@zywave/usecustomelement-in-react/versions) to solve all of the above problems. It takes inspiration from both webcomponents-in-react and use-custom-element, but it fixes the issues we had with each package.
 
-## Event Handlers
+### Event Handlers
 
 useCustomElement-in-react uses a ref on the web component, along with useLayoutEffect, to add and remove event listeners. The code for that is here:
 
@@ -266,7 +266,7 @@ React.useLayoutEffect(() => {
 }, [props, webComponentRef, customMapping]);
 ```
 
-## Object and Array props, and Custom Mappings
+### Object and Array props, and Custom Mappings
 
 useCustomElement-in-react handles objects and arrays pretty simply, by just using JSON.stringify to convert them to a string. We also handle custom mappings at the same time (such as `className` to `class`, or `showAll` to `show-all`). The `className` to `class` is handled automatically, while the `showAll` to `show-all` is handled by the customMapping prop.
 
@@ -297,7 +297,7 @@ return React.createElement(componentSelector, {
 });
 ```
 
-## ZUI component example
+### ZUI component example
 
 Using @zywave/useCustomElement-in-react, we can simply create React components that wrap the ZUI web components. Here is an example of the `zui-pager` element (including all of the prop types, and a custom event type):
 
@@ -338,11 +338,11 @@ Now you could write a wrapper component for each ZUI component that you need. Or
 
 ---
 
-# Introducing @zywave/zui-react-wrapper
+## Introducing @zywave/zui-react-wrapper
 
 Our team has also written [@zywave/zui-react-wrapper](https://packages.zywave.com/feeds/private-npm/@zywave/zui-react-wrapper/versions) to create all of the ZUI React components for you. This package uses @zywave/useCustomElement-in-react, but takes care of all of the prop types, custom mappings, and event types. You just need to include it in your project and use it!
 
-## Installing
+### Installing
 
 To use @zywave/zui-react-wrapper, you'll need to make sure that your NPM registry is set to the Zywave private registry for the @zywave scope. You can do that by adding a `.npmrc` file to your project with the following contents:
 
@@ -362,7 +362,7 @@ Or:
 yarn add -D @zywave/zui-react-wrapper@1.0.0
 ```
 
-## Using
+### Using
 
 To use @zywave/zui-react-wrapper, you can import the components directly from the package:
 
@@ -380,9 +380,9 @@ And then use it like so:
 
 ---
 
-# Problems that still need to be solved
+## Problems that still need to be solved
 
-## Managing state between React and Web Components
+### Managing state between React and Web Components
 
 Both Web components and React components have their own internal state. Keeping state in sync between the two is difficult. This is obvious when using `zui-input`, because your value in your React component will not match the value in the zui-input component. One hack to get around this is to force your component to re-render when the component value changes. This is not ideal, but it works.
 
@@ -390,7 +390,7 @@ You can implement this by using the `key` prop (setting it to a new value each t
 
 ---
 
-# Conclusion
+## Conclusion
 
 That's it! Hopefully this has helped you understand what web components are, how they can be used in React, what issues arise when using them in React, and how we got around those issues.
 
