@@ -101,3 +101,6 @@ We've added a minor enhancement to `zui-select` and `zui-select-dropdown` to exp
 S﻿ee documentation page for API and demo details: <https://booster.zywave.dev/design-system/components/dropdown-selects/>
 
 [](https://booster.zywave.dev/design-system/components/dropdown-selects/)
+
+## Additional features and fixes
+As always, feel free to check out our [GitLab milestone for more details](https://gitlab.com/groups/zywave/app-platform/devkit/-/milestones/28#tab-issues)!
