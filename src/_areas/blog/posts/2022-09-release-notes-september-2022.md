@@ -65,3 +65,13 @@ Additionally, our team now has a Heap report to compare Min/Average/Max downlink
 ![A graph showing networkDownlink trends in Heap. It highlights Sep 26, showing a Max of 9.9, Average of 5.71, and Min of 0.35](/images/heap-network-downlink.png)
 
 [Source](https://heapanalytics.com/app/env/2837777013/graph/chart/Network-Bandwidth-Comparison-Report-2919213/edit/2923472)
+
+<docs-spacer></docs-spacer>
+
+## Z﻿UI Input File now supports file drag and drop
+
+N﻿ow users of `zui-input-file` can drag and drop a file from their file explorer onto the web component and the file will be attached and name reflected in UI.
+
+T﻿his is a default behavior of `zui-input-file`, no setup needed to use. A reminder that this component currently only supports a single file selection, therefore users dragging multiple files out onto the component will result in nothing, it will remain file-less or reflect last added file if applicable.
+
+![zui-input-file with a file being dropped onto component](/images/zui-input-file-drag-and-drop.gif "zui-input-file with a file being dropped onto component")
