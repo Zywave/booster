@@ -29,7 +29,9 @@ tags:
 
 N﻿ot all input types are supported with this feature, i.e. a color picker would clash visually with a prefix value. We recommend use of prefix and suffix on only these types: `text`  |  `number`  |  `tel`  |  `email`  |  `password`  |  `url`
 
-T﻿here is also a shadow part of \*::part(prefix) and \*::part(suffix) that has been exposed for further style customization.
+T﻿here is also a shadow part of `*::part(prefix)` and `*::part(suffix)` that has been exposed for further style customization.
+
+![zui-input with prefix and suffix customized to theme colors](/images/zui-input-number-prefi-and-suffix-customized.jpg "zui-input with prefix and suffix customized to theme colors")
 
 F﻿or examples and more API details see: <https://booster.zywave.dev/design-system/components/text-inputs/>
 
