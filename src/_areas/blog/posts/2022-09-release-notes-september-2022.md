@@ -80,17 +80,17 @@ Additionally, our team now has a Heap report to compare Min/Average/Max downlink
 
 ## Z﻿UI Input File now supports file drag and drop
 
-N﻿ow users of `zui-input-file` can drag and drop a file from their file explorer onto the web component and the file will be attached and name reflected in UI.
+N﻿ow users of `<zui-input-file>` can drag and drop a file from their file explorer onto the web component and the file will be attached and name reflected in UI.
 
-T﻿his is a default behavior of `zui-input-file`, no setup needed to use. A reminder that this component currently only supports a single file selection, therefore users dragging multiple files out onto the component will result in nothing, it will remain file-less or reflect last added file if applicable.
+T﻿his is a default behavior of `zui-input-file`, no setup needed to use. A reminder that this component currently only supports a single file selection, therefore users dragging multiple files out onto the component will result in nothing, it will remain in its previous state.
 
 ![zui-input-file with a file being dropped onto component](/images/zui-input-file-drag-and-drop.gif "zui-input-file with a file being dropped onto component")
 
 <docs-spacer></docs-spacer>
 
-## Z﻿UI Select and Select Dropdown expose a shadow part
+## Z﻿UI Select and Select Dropdown advanced styling support
 
-A﻿ minor enhancement to `zui-select` and `zui-select-dropdown` expose a shadow part for each web component, to enable much more styling options upon the 'control' element within the shadow DOM.
+We've added a minor enhancement to `zui-select` and `zui-select-dropdown` to expose a shadow part to enable much more styling options upon the 'control' element within the shadow DOM.
 
 ```
 .my-zui-select-dropdown::part(control) {
