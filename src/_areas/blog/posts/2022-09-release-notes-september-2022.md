@@ -25,7 +25,7 @@ tags:
 <zui-input type="number" prefix="$" value="1" suffix=".23"></zui-input>
 ```
 
-`<﻿zui-input>` has been enhanced to support prefix and suffix values, which can be added via HTML attributes of javascript property. Suffix and prefix can be added standalone or with both present.
+`<﻿zui-input>` has been enhanced to support prefix and suffix values, which can be added via HTML attributes or javascript properties. Suffix and prefix can be added standalone or with both present.
 
 N﻿ot all input types are supported with this feature, i.e. a color picker would clash visually with a prefix value. We recommend use of prefix and suffix on only these types: `text`  |  `number`  |  `tel`  |  `email`  |  `password`  |  `url`
 
