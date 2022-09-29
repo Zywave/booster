@@ -33,13 +33,17 @@ What devices are our users using? Where are they physically when they are access
 
 With some updates to Zywave Analytics, we hope to offer you some insight into answering those questions. Now, all web-based events that flow through `<zywave-analytics>` will include the following properties:
 
-| Property name           | Details                                                                                                                                                           |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `networkRtt`            | The estimated round-trip time of the connection, measured in ms.                                                                                                  |
-| `networkDownlink`       | Estimated downlink bandwidth, measured in Mbps. <br> **Note**: Due to privacy concerns, this is capped at 10Mbps         .                                                                                                                   |                                                                             |
-| `networkReducedData`    | Indicates that the user has explicitly enabled a setting in their browser to reduce data usage (e.g. mobile connections)                                          |
-| `networkConnectionType` | Indicates how the user's device is connected to the network (e.g. ethernet vs wifi).  <br>**Note:** This will commonly be omitted due to device privacy concerns. |
+| Property name           | Details                                                                                                                                                           |     |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| `networkRtt`            | The estimated round-trip time of the connection, measured in ms.                                                                                                  |     |
+| `networkDownlink`       | Estimated downlink bandwidth, measured in Mbps. <br> **Note**: Due to privacy concerns, this is capped at 10Mbps         .                                        |     |
+| `networkReducedData`    | Indicates that the user has explicitly enabled a setting in their browser to reduce data usage (e.g. mobile connections)                                          |     |
+| `networkConnectionType` | Indicates how the user's device is connected to the network (e.g. ethernet vs wifi).  <br>**Note:** This will commonly be omitted due to device privacy concerns. |     |
 
 Additionally, our team now has a Heap report to compare Min/Average/Max downlink connections so that we can get a good snapshot of our users. Feel free to take a look, and repurpose for your team's needs!
 
-<!-- TODO @Pat insert screenshot of Heap report + link to report https://heapanalytics.com/app/env/2837777013/graph/chart/Network-Bandwidth-Comparison-Report-2919213/edit/2923472 -->
+
+
+![A graph showing networkDownlink trends in Heap. It highlights Sep 26, showing a Max of 9.9, Average of 5.71, and Min of 0.35](/images/heap-network-downlink.png)
+
+[Source](https://heapanalytics.com/app/env/2837777013/graph/chart/Network-Bandwidth-Comparison-Report-2919213/edit/2923472)
