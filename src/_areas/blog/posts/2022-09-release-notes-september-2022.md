@@ -27,11 +27,19 @@ tags:
 
 `<﻿zui-input>` has been enhanced to support prefix and suffix values, which can be added via HTML attributes or javascript properties. Suffix and prefix can be used in tandem or independent of one another.
 
-N﻿ot all input types are supported with this feature, i.e. a color picker would clash visually with a prefix value. We recommend use of prefix and suffix on only these types: `text`  |  `number`  |  `tel`  |  `email`  |  `password`  |  `url`
+N﻿ot all input types are supported with this feature, i.e. a color picker would clash visually with where the prefix value would reside. We recommend use of prefix and suffix on only these types: `text`  |  `number`  |  `tel`  |  `email`  |  `password`  |  `url`
 
 T﻿here is also a shadow part of `*::part(prefix)` and `*::part(suffix)` that has been exposed for further style customization.
 
 ![zui-input with prefix and suffix customized to theme colors](/images/zui-input-number-prefi-and-suffix-customized.jpg "zui-input with prefix and suffix customized to theme colors")
+
+```
+zui-input.custom-shadow-part::part(prefix), 
+zui-input.custom-shadow-part::part(suffix) {
+    background: var(--zui-blue);
+    color: #fff;
+}
+```
 
 F﻿or examples and more API details see: <https://booster.zywave.dev/design-system/components/text-inputs/>
 
