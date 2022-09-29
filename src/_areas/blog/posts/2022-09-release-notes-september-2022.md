@@ -11,7 +11,17 @@ tags:
 ---
 ## ZUI Input gets prefixes and suffixes
 
-TBD
+![zui-input of type text with a prefix value](/images/zui-input-text-prefix.jpg "zui-input of type text with a prefix value")
+
+![zui-input of type number with a prefix and suffix value](/images/zui-input-number-prefi-and-suffix.jpg "zui-input of type number with a prefix and suffix value")
+
+```
+<zui-input prefix="$" value="1" suffix=".23"></zui-input>
+```
+
+`<﻿zui-input>` has been enhanced to support the prefix and suffix values, which can be added via HTML attributes of javascript property. Suffix and prefix can be added standalone or with both present.
+
+N﻿ot all input types are supported with this feature, i.e. a color picker would clash visually with a prefix value. We recommend use of prefix and suffix on only these types: `text`  |  `number`  |  `tel`  |  `email`  |  `password`  |  `url`
 
 <docs-spacer></docs-spacer>
 
@@ -41,8 +51,6 @@ With some updates to Zywave Analytics, we hope to offer you some insight into an
 | `networkConnectionType` | Indicates how the user's device is connected to the network (e.g. ethernet vs wifi).  <br>**Note:** This will commonly be omitted due to device privacy concerns. |     |
 
 Additionally, our team now has a Heap report to compare Min/Average/Max downlink connections so that we can get a good snapshot of our users. Feel free to take a look, and repurpose for your team's needs!
-
-
 
 ![A graph showing networkDownlink trends in Heap. It highlights Sep 26, showing a Max of 9.9, Average of 5.71, and Min of 0.35](/images/heap-network-downlink.png)
 
