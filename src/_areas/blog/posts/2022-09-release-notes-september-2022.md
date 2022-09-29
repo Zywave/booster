@@ -13,8 +13,6 @@ tags:
 
 ![zui-input of type text with a prefix value](/images/zui-input-text-prefix.jpg "zui-input of type text with a prefix value")
 
-
-
 ```
 <zui-input prefix="Mr." value="Anderson"></zui-input>
 ```
@@ -100,7 +98,8 @@ We've added a minor enhancement to `zui-select` and `zui-select-dropdown` to exp
 
 S﻿ee documentation page for API and demo details: <https://booster.zywave.dev/design-system/components/dropdown-selects/>
 
-[](https://booster.zywave.dev/design-system/components/dropdown-selects/)
+<docs-spacer></docs-spacer>
 
 ## Additional features and fixes
+
 As always, feel free to check out our [GitLab milestone for more details](https://gitlab.com/groups/zywave/app-platform/devkit/-/milestones/28#tab-issues)!
