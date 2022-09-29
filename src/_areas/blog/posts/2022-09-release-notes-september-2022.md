@@ -77,3 +77,19 @@ N﻿ow users of `zui-input-file` can drag and drop a file from their file explor
 T﻿his is a default behavior of `zui-input-file`, no setup needed to use. A reminder that this component currently only supports a single file selection, therefore users dragging multiple files out onto the component will result in nothing, it will remain file-less or reflect last added file if applicable.
 
 ![zui-input-file with a file being dropped onto component](/images/zui-input-file-drag-and-drop.gif "zui-input-file with a file being dropped onto component")
+
+<docs-spacer></docs-spacer>
+
+## Z﻿UI Select and Select Dropdown expose a shadow part
+
+A﻿ minor enhancement to zui-select and zui-select-dropdown expose a shadow part for each web component, to enable much more styling options upon the 'control' element within the shadow DOM.
+
+```
+.my-zui-select-dropdown::part(control) {
+    transition: border 1000ms ease-in-out, box-shadow 1000ms ease-in-out;
+}
+```
+
+S﻿ee documentation page for API and demo details: <https://booster.zywave.dev/design-system/components/dropdown-selects/>
+
+[](https://booster.zywave.dev/design-system/components/dropdown-selects/)
