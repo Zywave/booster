@@ -82,7 +82,7 @@ T﻿his is a default behavior of `zui-input-file`, no setup needed to use. A rem
 
 ## Z﻿UI Select and Select Dropdown expose a shadow part
 
-A﻿ minor enhancement to zui-select and zui-select-dropdown expose a shadow part for each web component, to enable much more styling options upon the 'control' element within the shadow DOM.
+A﻿ minor enhancement to `zui-select` and `zui-select-dropdown` expose a shadow part for each web component, to enable much more styling options upon the 'control' element within the shadow DOM.
 
 ```
 .my-zui-select-dropdown::part(control) {
