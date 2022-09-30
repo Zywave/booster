@@ -1,6 +1,7 @@
 nav.side-nav {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
   position: sticky;
   width: rem(200);
   top: 0;
