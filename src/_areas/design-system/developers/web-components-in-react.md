@@ -10,7 +10,7 @@ This article will cover how our team uses custom web components (particularly wi
 
 Web components do not work perfectly out of the box with React. Developers will quickly run into issues with events, object and array properties, attribute differences, and types (if using Typescript). All of these issues, along with how we solved them, are detailed below.
 
-If you want to skip all of the details and go straight to ZUI in React, see `Introducing @zywave/zui-react-wrapper` below.
+If you want to skip all of the details and go straight to ZUI in React, see [Introducing @zywave/zui-react-wrapper](#using-%40zywave%2Fusecustomelement-in-react) below.
 
 ---
 
@@ -21,8 +21,9 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/Web_Components):
 ```
 Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
 ```
+For a quick summary on web components, check out our documentation on web components [here](/introduction/glossary/#web-components).
 
-[ZUI](https://booster.zywave.dev/) uses web components to create the custom elements that can be used within any framework, including React.
+Zywave's [design system](/design-system/about/) and [application framework](/application-framework/about/) use web components to create the custom elements that can be used within any framework, including React.
 
 ---
 
@@ -32,11 +33,15 @@ On the surface, React and Web Components seem to work well out of the box. But s
 
 <docs-spacer size="small"></docs-spacer>
 
-### Custom Events and Synthetic Events
+### Eventing
 
-Typically with React you would use `onClick`, `onChange`, or `on<CustomEventType>` to add change handlers for events. Web components typically do not provide these properties, so you typically use `addEventListener` and `removeEventListener` to add these change handlers.
+With everyday React, you likely have used `onClick`, `onChange`, or `on<CustomEventType>` to add change handlers for events. This eventing system is referred to as "Synthetic Events", as it abstracts away built-in DOM events with a React-specific layer. `on<CustomEventType>` works for custom _React_ components, as they operate within the walls of React.
 
-Here is an example showing how you typically write React, but the custom events (in this case `onClose`) will not work properly:
+Contrast this behavior with web components, which do not expose properties for every emitted event. React's synthetic event system won't work out of the box in this situation, as React can't write custom hooks for every event name that could possibly be dispatched. As a result, you are required to use `addEventListener` and `removeEventListener` to manage these change handlers on the actual DOM element. The React event ergnomics are gone.
+
+
+Let's dive into an example, to help illustrate the issue. Here, we'd like to respond to the `close` event emitted by `zui-dialog`.
+
 
 ```jsx
 function BrokenEvents() {
@@ -61,15 +66,14 @@ function BrokenEvents() {
 }
 ```
 
-In the example above, the dialog will open properly because `onClick` is a standard event type. But `onClose` will not update the state of `dialogOpened`, so the dialog will not be able to open again.
+In the example above, the dialog will open properly because React has provided an `onClick` property that corresponds to a [web standard click event](https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event). But there is no event defined called "close"! So in this case, `onClose` will not update the state of `dialogOpened`, causing our React code here to prevent the dialog from being opened again.
 
 <docs-spacer size="small"></docs-spacer>
 
 #### addEventListener and removeEventListener
 
-To use `addEventListener` and `removeEventListener` in React, you would need to create a ref to the component and add the event listener via `useLayoutEffect` (and usually remove the event listener when the component is unmounted).
+To use `addEventListener` and `removeEventListener` in React, you can create a ref to the component and then add the event listener via `useLayoutEffect` (and usually remove the event listener when the component is unmounted), like the example below:
 
-Here is an example of how you would use `addEventListener` and `removeEventListener` in React, but there is an issue during unmounting:
 
 ```jsx
 function EventHandlers() {
@@ -87,7 +91,9 @@ function EventHandlers() {
     const { current } = dialogRef;
     current.addEventListener("close", closeDialog);
 
-    return () => current.removeEventListener("close", closeDialog);
+    // Be careful with removing the event listener when unmounting! Sometimes, the element may be null already.
+    // Here, we're using the optional chaining operator to help guard us against this scenario
+    return () => current?.removeEventListener("close", closeDialog);
   }, [dialogRef, closeDialog]);
 
   return (
@@ -159,7 +165,7 @@ function ObjectProps() {
 }
 ```
 
-In the browser, this shows up as:
+In the HTML rendered in-browser, this displays as:
 
 ```html
 <zui-button obj="[object Object]" type="primary" tabindex="0" role="button">View my props in dev tools</zui-button>
@@ -169,7 +175,7 @@ In the browser, this shows up as:
 
 ### Typescript
 
-Typescript brings a new problem, because web components are not standard HTML elements, so they are not recognized by Typescript. This means that you wil have to add the web component type to JSX.IntrinsicElements for Typescript to recognize it and allow the build to succeed.
+Typescript brings a new problem, because web components are not browser-defined HTML elements, so they are not recognized by Typescript. This means that you will have to add the web component type to JSX.IntrinsicElements for Typescript to recognize it and allow the build to succeed.
 
 Furthermore, you need to add all of the props and their respective types to the web component type.
 
@@ -210,7 +216,15 @@ declare global {
 
 ### React attribute differences (class vs className, style)
 
-This is a minor annoyance, but React components will use `className`, but web components will use `class`. This will be confusing if you use web components directly, but it can be easily solved by mapping between the two in a wrapper component. `style` will also need to be a string instead of the structured CSS properties that React uses.
+While only a minor annoyance, there are some discrepancies in a handful of attributes in React vs native Web Components.
+
+One common gotcha is `className`. Since React on its own cannot foresee every possible custom HTML element, `className` is not directly mapped for web components. As a result, you will need to watch out for this and may get some benefit in mapping the two together with wrapper components.
+
+As an example:
+
+TODO INSERT JSX EXAMPLE
+
+Another likely gotcha comes in the form of `style`. You'll need to just use a plain old string here, instead of the structured CSS properties that React uses.
 
 Other differences with React attributes can be found here: [https://reactjs.org/docs/dom-elements.html#differences-in-attributes](https://reactjs.org/docs/dom-elements.html#differences-in-attributes)
 
@@ -236,7 +250,7 @@ All of the above problems are fixable, and there are two packages available on N
 
 ## Using @zywave/useCustomElement-in-react
 
-Our team created [@zywave/useCustomElement-in-react](https://packages.zywave.com/feeds/private-npm/@zywave/usecustomelement-in-react/versions) to solve all of the above problems. It takes inspiration from both webcomponents-in-react and use-custom-element, but it fixes the issues we had with each package.
+Zywave has created [@zywave/useCustomElement-in-react](https://packages.zywave.com/feeds/private-npm/@zywave/usecustomelement-in-react/versions) to solve all of the above problems. It takes inspiration other packages in this area, but fixes a couple of headaches we've encountered along the way.
 
 <docs-spacer size="small"></docs-spacer>
 
