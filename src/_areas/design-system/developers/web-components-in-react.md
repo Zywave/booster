@@ -122,30 +122,6 @@ function EventHandlers() {
 
 <docs-spacer size="small"></docs-spacer>
 
-#### Unmounting
-
-When a component is being unmounted, you typically want to remove the event listener on the web component. However, the web component is usually gone by this point, so accessing the ref will fail. You can work around this with a null check.
-
-```jsx
-function EventHandlers() {
-  ...
-  React.useLayoutEffect(() => {
-    const { current } = dialogRef;
-
-    if(current) {
-      current.addEventListener("close", closeDialog);
-    }
-
-    return () => current && current.removeEventListener("close", closeDialog);
-  }, [dialogRef, closeDialog]);
-  ...
-}
-```
-
-Certain tools, such as Storybook, will try to remove event listeners when a component is unmounted (e.g. when switching between stories). However, Storybook does not do this null check which causes it to fail, giving you an error screen immediately after switching between stories.
-
-<docs-spacer size="small"></docs-spacer>
-
 ### Object and Array props
 
 Objects and arrays will get converted to strings when sent to web component props. Which means that they will be sent to the web component as `"[object Object]"`. The web component will try to parse this string as the object and fail.
