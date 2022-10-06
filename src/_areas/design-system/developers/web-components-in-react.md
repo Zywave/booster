@@ -380,6 +380,8 @@ Now you could write a wrapper component for each ZUI component that you need. Or
 
 Our team has also written [@zywave/zui-react-wrapper](https://packages.zywave.com/feeds/private-npm/@zywave/zui-react-wrapper/versions) to create all of the ZUI React components for you. This package uses @zywave/useCustomElement-in-react, but takes care of all of the prop types, custom mappings, and event types. You just need to include it in your project and use it!
 
+Note - this package is developed independently of ZUI, so any new ZUI features (elements or prop types) will not be immediately available in @zywave/zui-react-wrapper. If you find something missing, please submit a Merge Request!
+
 <docs-spacer size="small"></docs-spacer>
 
 ### Installing
