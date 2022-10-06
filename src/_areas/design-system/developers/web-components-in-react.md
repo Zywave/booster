@@ -147,6 +147,21 @@ In the HTML rendered in-browser, this displays as:
 <zui-button obj="[object Object]" type="primary" tabindex="0" role="button">View my props in dev tools</zui-button>
 ```
 
+To get around this, you need to use JSON.stringify on the object:
+
+```jsx
+function ObjectProps() {
+  const obj = { foo: "bar", foo2: "bar2" };
+
+  return (
+    <div className="margin-top-4rem">
+      <h2>Object Props</h2>
+      <zui-button obj={JSON.stringify(obj)}>View my props in dev tools</zui-button>
+    </div>
+  );
+}
+```
+
 <docs-spacer size="small"></docs-spacer>
 
 ### Typescript
