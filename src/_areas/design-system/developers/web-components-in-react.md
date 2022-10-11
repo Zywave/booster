@@ -213,9 +213,11 @@ One common gotcha is `className`. Since React on its own cannot foresee every po
 
 As an example:
 
-TODO INSERT JSX EXAMPLE
-
-Another likely gotcha comes in the form of `style`. You'll need to just use a plain old string here, instead of the structured CSS properties that React uses.
+```jsx
+function ClassExample() {
+  return <zui-button class="secondary">Secondary button</zui-button>;
+}
+```
 
 Other differences with React attributes can be found here: [https://reactjs.org/docs/dom-elements.html#differences-in-attributes](https://reactjs.org/docs/dom-elements.html#differences-in-attributes)
 
