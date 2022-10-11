@@ -233,86 +233,11 @@ All of the above problems are fixable, and there are several packages available 
 
 Zywave has created [@zywave/useCustomElement-in-react](https://packages.zywave.com/feeds/private-npm/@zywave/usecustomelement-in-react/versions) to solve all of the above problems. It takes inspiration other packages in this area, but fixes a couple of headaches we've encountered along the way.
 
-<docs-spacer size="small"></docs-spacer>
-
-### Event Handlers
-
-useCustomElement-in-react uses a ref on the web component, along with `useLayoutEffect`, to add and remove event listeners. The code for that is here:
-
-```tsx
-// Changes "onClick" to "click", etc.
-const keyToEventName = (key: string): string => {
-  return key.replace(/^on/, "").toLowerCase();
-};
-
-...
-
-const webComponentRef = React.useRef<HTMLElement | null>(null);
-
-React.useLayoutEffect(() => {
-  const { current } = webComponentRef;
-
-  let fns: Array<FunctionsType>;
-
-  if (current) {
-    // Handle all of the standard functions, set the properties on the ref
-    Object.keys(props)
-      .filter((key) => props.hasOwnProperty(key) && props[key] instanceof Function && !key.startsWith("on"))
-      .forEach((key) => {
-        (current as any)[customMapping[key] || key] = props[key];
-      });
-
-    // Handle all of the event listeners by adding the proper listener to the event
-    fns = Object.keys(props)
-      .filter((key) => props[key] instanceof Function && key.startsWith("on"))
-      .map((key) => ({
-        key: keyToEventName(customMapping[key] || key),
-        fn: props[key],
-      }));
-
-    fns.forEach(({ key, fn }) => current.addEventListener(key, fn));
-  }
-
-  return () => {
-    if (current) {
-      fns.forEach(({ key, fn }) => current.removeEventListener(key, fn));
-    }
-  };
-}, [props, webComponentRef, customMapping]);
-```
-
-<docs-spacer size="small"></docs-spacer>
-
-### Object and Array props, and Custom Mappings
-
-useCustomElement-in-react handles objects and arrays pretty simply, by just using JSON.stringify to convert them to a string. We also handle custom mappings at the same time (such as `className` to `class`, or `showAll` to `show-all`). The `className` to `class` is handled automatically, while the `showAll` to `show-all` is handled by the customMapping prop.
-
-```tsx
-// Handle the arrays and objects by converting them to a string
-const customElementProps = Object.keys(props)
-  .filter((key) => !(props[key] instanceof Function))
-  .reduce((acc, key) => {
-    const prop = props[key];
-
-    const computedKey = customMapping[key] || key;
-
-    if (key !== "children" && key !== "style" && (prop instanceof Object || prop instanceof Array)) {
-      return { ...acc, [computedKey]: JSON.stringify(prop) };
-    }
-
-    return { ...acc, [computedKey]: prop };
-  }, {});
-```
-
-Finally, we create the element and return it:
-  
-```tsx
-// Create the element, set the ref, apply the rest of the props
-return React.createElement(componentSelector, {
-  ref: (ref: HTMLElement) => (webComponentRef.current = ref),
-  ...customElementProps,
-});
-```
+[@zywave/useCustomElement-in-react](https://packages.zywave.com/feeds/private-npm/@zywave/usecustomelement-in-react/versions) offers the following features:
+ - Adding event handlers for any function passed whose name starts with "on" (e.g. onSearch will get translated to adding an event handler for a search event)
+ - Serializes array and object properties so React can use them correctly
+ - Allows custom mapping of properties, so you can follow JSX standards (e.g. you can map the noColor prop to no-color in the web component)
+ - Remaps className to class automatically
 
 <docs-spacer size="small"></docs-spacer>
 
