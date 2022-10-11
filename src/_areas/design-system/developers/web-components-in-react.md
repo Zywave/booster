@@ -225,19 +225,7 @@ Other differences with React attributes can be found here: [https://reactjs.org/
 
 ## Fixing these problems
 
-All of the above problems are fixable, and there are two packages available on NPM that our team has attempted to use to solve these problems. However, both of these packages only solve some of these problems.
-
-<docs-spacer size="small"></docs-spacer>
-
-### webcomponents-in-react
-
-[webcomponents-in-react](https://www.npmjs.com/package/webcomponents-in-react) was the first package we attempted to use to wrap the ZUI web components. This worked fairly well, but it did not fully solve the problem of event handlers. This made Storybook unstable, causing it to crash when switching between stories.
-
-<docs-spacer size="small"></docs-spacer>
-
-### use-custom-element
-
-[use-custom-element](https://www.npmjs.com/package/use-custom-element) was the second page we attempted to use. This fixed our unmounting issue, but the event handlers were not set up with the correct names (being `change` instead of `onChange`, etc.). It also broke any non-event functions (such as the `queryHandler` used in `zui-select-dropdown`).
+All of the above problems are fixable, and there are several packages available on NPM that our team has attempted to use to solve these problems. However, the packages we tested can only solve some of these problems.
 
 ---
 
