@@ -11,7 +11,7 @@ statusOverride: null
 ---
 ## Usage
 
-Test Use tables to help users visualize, organize and understand their data to derive insights and take informed action. 
+Use tables to help users visualize, organize and understand their data to derive insights and take informed action. 
 
 ## General best practices
 
