@@ -1,7 +1,7 @@
 body.documentation main .content-wrapper,
 body.blog main .content-wrapper {
   width: 100%;
-  max-width: rem(1430);
+  max-width: rem(1430); /* content + quick links width */
 }
 
 body.blog main .content-wrapper {
@@ -22,10 +22,6 @@ main {
 
     .content-wrapper {
       width: 100%;
-
-      // @media screen and (min-width: 120em) {
-      //   width: calc(100% - #{rem(350)});
-      // }
     }
   }
 
