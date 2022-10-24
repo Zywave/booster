@@ -42,6 +42,10 @@ h2.component-subheader {
     width: 100%;
   }
 
+  #api {
+    max-width: rem(1400);
+  }
+
   #demos, #usage {
     max-width: rem(1250); /* content + quick links width */
   }
