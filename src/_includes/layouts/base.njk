@@ -55,7 +55,11 @@
 	<link rel="stylesheet" href="https://cdn.zywave.com/@algolia/algoliasearch-netlify-frontend@1.0.8/dist/algoliasearchNetlify.css" />
 </head>
 
+{% if layout === 'documentation' or 'blog' %}
+<body class="zui row {{ pageType }} {{ layout }}">
+{% else %}
 <body class="zui row {{ pageType }}">
+{% endif %}
 	<script async src="https://cdn.zywave.com/es-module-shims@1.0.0/dist/es-module-shims.js"></script>
 	{{ content | safe }}
 	{% include "components/feedback.njk" %}

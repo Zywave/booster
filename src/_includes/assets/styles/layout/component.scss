@@ -38,13 +38,16 @@ h2.component-subheader {
     display: none;
   }
 
-  #demos,
-  #usage .documentation {
-    width: calc(100% - 200px); /* subtracts quick-links width */
+  #api, #demos, #usage, #usage .documentation {
+    width: 100%;
   }
 
-  #usage .documentation {
-    max-width: rem(1000);
+  #api {
+    max-width: rem(1400);
+  }
+
+  #demos, #usage {
+    max-width: rem(1250); /* content + quick links width */
   }
 
   clipboard-copy-icon {
