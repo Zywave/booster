@@ -301,13 +301,13 @@ To use @zywave/zui-react-wrapper, you'll need to make sure that your NPM registr
 Then you can install the package with:
 
 ```bash
-npm install -D @zywave/zui-react-wrapper@1.0.0
+npm install -D @zywave/zui-react-wrapper
 ```
 
 Or:
 
 ```bash
-yarn add -D @zywave/zui-react-wrapper@1.0.0
+yarn add -D @zywave/zui-react-wrapper
 ```
 
 <docs-spacer size="small"></docs-spacer>
