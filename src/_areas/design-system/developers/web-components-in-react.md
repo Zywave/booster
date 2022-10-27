@@ -10,7 +10,7 @@ This article will cover how our team uses custom web components (particularly wi
 
 Web components do not work perfectly out of the box with React. Developers will quickly run into issues with events, object and array properties, attribute differences, and types (if using Typescript). All of these issues, along with how we solved them, are detailed below.
 
-If you want to skip all of the details and go straight to ZUI in React, see [Introducing @zywave/zui-react-wrapper](/design-system/developers/web-components-in-react/#using-%40zywave%2Fusecustomelement-in-react) below.
+If you want to skip all of the details and go straight to ZUI in React, see [Introducing @zywave/zui-react-wrapper](/design-system/developers/web-components-in-react/#introducing-%40zywave%2Fzui-react-wrapper) below.
 
 ---
 
@@ -301,13 +301,13 @@ To use @zywave/zui-react-wrapper, you'll need to make sure that your NPM registr
 Then you can install the package with:
 
 ```bash
-npm install -D @zywave/zui-react-wrapper@1.0.0
+npm install -D @zywave/zui-react-wrapper
 ```
 
 Or:
 
 ```bash
-yarn add -D @zywave/zui-react-wrapper@1.0.0
+yarn add -D @zywave/zui-react-wrapper
 ```
 
 <docs-spacer size="small"></docs-spacer>
