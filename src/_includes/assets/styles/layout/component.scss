@@ -47,7 +47,17 @@ h2.component-subheader {
   }
 
   #demos, #usage {
-    max-width: rem(1250); /* content + quick links width */
+    @media screen and (max-width: 45em) {
+      max-width: calc(#{rem(1000)} + 30ch + #{rem(20)}); /* content + quick links width & left margin */
+    }
+
+    @media screen and (min-width: 64em) {
+      max-width: calc(#{rem(1000)} + 30ch + #{rem(30)}); /* content + quick links width & left margin */
+    }
+
+    @media screen and (min-width: 80em) {
+      max-width: calc(#{rem(1000)} + 30ch + #{rem(50)}); /* content + quick links width & left margin */
+    }
   }
 
   clipboard-copy-icon {

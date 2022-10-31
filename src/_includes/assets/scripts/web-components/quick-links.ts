@@ -8,7 +8,7 @@ const css = `
         top: 5rem;
         flex-shrink: 0;
         margin: 0 0 0 1.25rem; /* 20 / 16 */
-        width: 200px;
+        width: 30ch;
         transition: margin 100ms ease-in-out;
     }
     
