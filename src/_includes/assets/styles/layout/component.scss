@@ -47,7 +47,7 @@ h2.component-subheader {
   }
 
   #demos, #usage {
-    @media screen and (max-width: 45em) {
+    @media screen and (min-width: 45em) {
       max-width: calc(#{rem(1000)} + 30ch + #{rem(20)}); /* content + quick links width & left margin */
     }
 

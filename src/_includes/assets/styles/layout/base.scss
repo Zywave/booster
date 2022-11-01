@@ -1,7 +1,22 @@
 body.documentation main .content-wrapper,
 body.blog main .content-wrapper {
   width: 100%;
-  max-width: rem(1430); /* content + quick links width */
+
+  @media screen and (min-width: 45em) {
+    max-width: calc(#{rem(1060)} + 30ch); /* content: 1000px + lr padding: 40px + quick links: 30ch & left margin: 20px */
+  }
+
+  @media screen and (min-width: 60em) {
+    max-width: calc(#{rem(1090)} + 30ch); /* content: 1000px + lr padding: 60px + quick links: 30ch & left margin: 30px */
+  }
+
+  @media screen and (min-width: 64em) {
+    max-width: calc(#{rem(1130)} + 30ch); /* content: 1000px + lr padding: 100px + quick links: 30ch & left margin: 30px */
+  }
+
+  @media screen and (min-width: 80em) {
+    max-width: calc(#{rem(1230)} + 30ch); /* content: 1000px + lr padding: 180px + quick links: 30ch & left margin: 50px */
+  }
 }
 
 body.blog main .content-wrapper {
