@@ -14,13 +14,13 @@ Bulk actions, yay!
 <docs-spacer></docs-spacer>
 
 ## Including a user's language preferences in Heap
-Web browsers offer users the ability to manage their language preferences; for many, this often is the default applied when they first downloaded the browser, but some users do customize these preferences and web pages can choose to respect these settings (time formatting, localization of text, etc.)
+Web browsers offer users the ability to manage their language preferences. These preferences serve as hints to website authors for internationalization via time formatting, localization of text, etc.
 
-We've updated `<zywave-analytics>` to include the [languages](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/languages) as a property on users in Heap via a new `languages` property.
+We've updated `<zywave-analytics>` to include the [languages](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/languages) a user has configured with their browser as a property on the user in Heap via a new `languages` property.
 
-Because a user may have multiple languages, the syntax of this field will be a bit unique. As an example, given a user who prefers English (United States), then Spanish (Mexico), then English (United Kingdom), the language field on the user will be stored as: `[en-us];[es-mx];[en-gb]`.
+Because a user may have multiple languages, the syntax of this field may seem a bit odd. Instead of trying to explain it, an example will probably do a better job: given a user who prefers English (United States), then Spanish (Mexico), then English (United Kingdom), the language field on the user would be stored as: `[en-us];[es-mx];[en-gb]` in Heap.
 
-We'll evaluate the usefulness of this change when we have real user data, but we hope this can help illuminate language barriers and opportunities for Zywave to expand.
+We'll evaluate the usefulness of this change when we have real user data behind it, but we hope this can help illuminate language barriers and opportunities for Zywave to expand.
 
 ## Additional bug fixes
 
