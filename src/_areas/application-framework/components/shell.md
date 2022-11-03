@@ -20,11 +20,11 @@ Bring your application's contents, and let Zywave Shell do the rest!
 * Your application **must** be authenticated with Zywave Auth (e.g., <https://auth.zywave.com>).
 
   * If your application cannot or does not use Zywave Auth, then you cannot use Zywave Shell. Please use [ZUI Shell](/design-system/components/shell/) instead.
-* If you cannot or are not using the [Zywave API Proxy Element](/application-framework/components/api-proxy/?tab=usage), the following scope is required:
+* If you cannot or are not using [Zywave API Proxy](/application-framework/components/api-proxy/?tab=usage), the following scope is required:
 
   * `api.shell`
 
-<docs-note>When do I use Zywave API Proxy Element? [Check here.](/application-framework/components/api-proxy/?tab=usage)</docs-note>
+<docs-note>When do I use the Zywave API Proxy element `<zywave-api-proxy>`? [Check here.](/application-framework/components/api-proxy/?tab=usage)</docs-note>
 
 <docs-spacer></docs-spacer>
 
@@ -60,7 +60,7 @@ Getting this right is difficult. Thankfully, Zywave Shell will retrieve all of t
 
 Zywave uses a few third-party services to analyze how our users interact with our offerings. This information is immensely important to us so we can provide the best experience possible. Zywave Shell will ensure the proper analytics scripts are loaded and configured correctly.
 
-<docs-note>When do I use the Zywave Analytics Element? [Check here.](/application-framework/components/analytics)</docs-note>
+<docs-note>When do I use the Zywave Analytics element `<zywave-analytics>`? [Check here.](/application-framework/components/analytics)</docs-note>
 
 <docs-spacer size="small"></docs-spacer>
 
