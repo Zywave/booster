@@ -1,3 +1,29 @@
+body.documentation main .content-wrapper,
+body.blog main .content-wrapper {
+  width: 100%;
+
+  @media screen and (min-width: 45em) {
+    max-width: calc(#{rem(1060)} + 30ch); /* content: 1000px + lr padding: 40px + quick links: 30ch & left margin: 20px */
+  }
+
+  @media screen and (min-width: 60em) {
+    max-width: calc(#{rem(1090)} + 30ch); /* content: 1000px + lr padding: 60px + quick links: 30ch & left margin: 30px */
+  }
+
+  @media screen and (min-width: 64em) {
+    max-width: calc(#{rem(1130)} + 30ch); /* content: 1000px + lr padding: 100px + quick links: 30ch & left margin: 30px */
+  }
+
+  @media screen and (min-width: 80em) {
+    max-width: calc(#{rem(1230)} + 30ch); /* content: 1000px + lr padding: 180px + quick links: 30ch & left margin: 50px */
+  }
+}
+
+body.blog main .content-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 pre, code {
   white-space: pre-wrap;
 }
@@ -10,12 +36,13 @@ main {
     width: 100%;
 
     .content-wrapper {
-      width: calc(100% - #{rem(350)});
+      width: 100%;
     }
   }
 
   .content-wrapper {
     margin-top: rem(107);
+    transition: width 100ms ease-in-out, padding 100ms ease-in-out, margin 100ms ease-in-out;
 
     @media (min-width: 58.4375rem) { // 935px
       margin-top: rem(61);

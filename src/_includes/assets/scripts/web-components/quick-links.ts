@@ -8,14 +8,8 @@ const css = `
         top: 5rem;
         flex-shrink: 0;
         margin: 0 0 0 1.25rem; /* 20 / 16 */
-        width: 200px;
+        width: 30ch;
         transition: margin 100ms ease-in-out;
-    }
-
-    @media screen and (min-width: 64em) {
-      :host {
-        margin: 0 0 0 1.875rem; /* 30 / 16 */
-      }
     }
     
     @media screen and (max-width: 45em) {
@@ -26,7 +20,7 @@ const css = `
   
     @media screen and (min-width: 64em) {
       :host {
-        margin: 0 0 0 2.5rem; /* 40 / 16 */
+        margin: 0 0 0 1.875rem; /* 30 / 16 */
       }
     }
   
