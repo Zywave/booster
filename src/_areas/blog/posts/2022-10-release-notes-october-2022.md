@@ -10,6 +10,8 @@ tags:
 ---
 This month's release is a light one with enhancements to gather user language preferences in Heap via `<zywave-analytics>` and some very much needed bug fixes for ZUI Select Dropdown.
 
+<docs-spacer></docs-spacer>
+
 ## Including a user's language preferences in Heap
 Web browsers offer users the ability to manage their language preferences. These preferences serve as hints to website authors for internationalization via time formatting, localization of text, etc.
 
