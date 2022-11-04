@@ -195,6 +195,20 @@ collections:
       - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
     meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
 
+  - name: "branding"
+    label: "Branding"
+    folder: "src/_areas/branding"
+    create: true
+    nested:
+      depth: 10
+      summary: "{{title}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "documentation" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Nav Title", name: "navTitle", widget: "string", required: false }
+    meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+
   - name: "pages"
     label: "Misc. Pages"
     label_singular: "page"
