@@ -29,9 +29,13 @@ We'll evaluate the usefulness of this change when we have real user data behind 
 * Include "Select all" option in the options list height calculation in a multi-select dropdown, since it was getting cut off.
 * Retain selected option while searching in a single-select dropdown.
 
+<docs-spacer></docs-spacer>
+
 ## Additional features and changes
 
 F﻿or full details of what went into this release, check out [the release milestone](https://gitlab.com/groups/zywave/app-platform/devkit/-/milestones/29#tab-issues).
+
+<docs-spacer></docs-spacer>
 
 ## S﻿neak peek
 
