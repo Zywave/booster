@@ -13,6 +13,7 @@ This month's release is a light one with enhancements to gather user language pr
 <docs-spacer></docs-spacer>
 
 ## Including a user's language preferences in Heap
+
 Web browsers offer users the ability to manage their language preferences. These preferences serve as hints to website authors for internationalization via time formatting, localization of text, etc.
 
 We've updated `<zywave-analytics>` to include the [languages](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/languages) a user has configured with their browser as a property on the user in Heap via a new `languages` property.
@@ -24,5 +25,20 @@ We'll evaluate the usefulness of this change when we have real user data behind 
 <docs-spacer></docs-spacer>
 
 ## ZUI Select Dropdown bug fixes
- * Include "Select all" option in the options list height calculation in a multi-select dropdown, since it was getting cut off.
- * Retain selected option while searching in a single-select dropdown.
+
+* Include "Select all" option in the options list height calculation in a multi-select dropdown, since it was getting cut off.
+* Retain selected option while searching in a single-select dropdown.
+
+## Additional features and changes
+
+F﻿or full details of what went into this release, check out [the release milestone](https://gitlab.com/groups/zywave/app-platform/devkit/-/milestones/29#tab-issues).
+
+
+
+## S﻿neak peek
+
+W﻿e've been busy with a large number of other projects. But coming soon:
+
+* B﻿ulk action support for ZUI Table
+* M﻿ulti-proxy support for APIs hosted at multiple domains
+* A﻿ template of how to build your own API-driven, interoperable components to share with other engineers
