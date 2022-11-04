@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Release Notes - October 2022
 description: Minor bug fixes and enhancements
-date: 2022-12-09T14:00:13.149Z
+date: 2022-11-04T00:19:36.764Z
 hideToc: false
 tags:
   - Release Notes
