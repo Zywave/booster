@@ -2,16 +2,13 @@
 layout: blog
 type: blogPost
 title: Release Notes - October 2022
-description: "Major feature added to ZUI Table: bulk actions"
+description: Minor bug fixes and enhancements
 date: 2022-12-09T14:00:13.149Z
 hideToc: false
 tags:
   - Release Notes
 ---
-## ZUI Table bulk actions feature is here
-Bulk actions, yay!
-
-<docs-spacer></docs-spacer>
+This month's release is a light one with enhancements to gather user language preferences in Heap via `<zywave-analytics>` and some very much needed bug fixes for ZUI Select Dropdown.
 
 ## Including a user's language preferences in Heap
 Web browsers offer users the ability to manage their language preferences. These preferences serve as hints to website authors for internationalization via time formatting, localization of text, etc.
@@ -22,8 +19,8 @@ Because a user may have multiple languages, the syntax of this field may seem a 
 
 We'll evaluate the usefulness of this change when we have real user data behind it, but we hope this can help illuminate language barriers and opportunities for Zywave to expand.
 
-## Additional bug fixes
+<docs-spacer></docs-spacer>
 
-### ZUI Select Dropdown
- * Include "Select all" option in the options list height calculation
- * Retain selected option while searching in a single-select dropdown
+## ZUI Select Dropdown bug fixes
+ * Include "Select all" option in the options list height calculation in a multi-select dropdown, since it was getting cut off.
+ * Retain selected option while searching in a single-select dropdown.
