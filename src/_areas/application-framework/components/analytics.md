@@ -1,5 +1,5 @@
 ---
-title: Analytics
+title: Zywave Analytics
 subtitle: Defines a configurable way to communicate with our centralized
   analytics tracking.
 api: https://cdn.zywave.com/@zywave/zywave-analytics@latest/dist/custom-elements.json
