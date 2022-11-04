@@ -17,16 +17,16 @@ Zywave API Proxy enables easier, more secure client-side API communication. It a
 
 Still not sure if you need to include it in your application?
 
-If you meet all of these criterias, please include Zywave API Proxy in your application for secure, client-side API communication:
+If you meet all of these criteria, please include Zywave API Proxy in your application for secure, client-side API communication:
 
-1. Your application is a *.zywave.com
+1. Your application is hosted on a *.zywave.com domain
 1. Your application is authenticated with Zywave Auth
 1. Your application is using [Zywave Shell](/application-framework/components/shell/)
 1. You are **not providing** a Zywave bearer token `<zywave-shell bearer-token="">`
 
 <docs-spacer size="small"></docs-spacer>
 
-### Why does my application need to be *.zywave.com?
+### Why does my application need to be hosted on a *.zywave.com domain?
 Applications consuming this component are currently required to be on a *.zywave.com due to continual restrictions being made, or already made, to third-party cookies.
 
 For more information:
