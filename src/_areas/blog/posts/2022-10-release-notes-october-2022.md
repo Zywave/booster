@@ -37,7 +37,7 @@ F﻿or full details of what went into this release, check out [the release miles
 
 <docs-spacer></docs-spacer>
 
-## S﻿neak peek
+## S﻿neak peek of what's to come
 
 This month's release was a bit light, but we've been working on a lot of good enhancements that we're excited to share with you soon. Just a taste of what to expect:
 
