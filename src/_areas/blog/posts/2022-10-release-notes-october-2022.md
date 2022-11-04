@@ -33,11 +33,9 @@ We'll evaluate the usefulness of this change when we have real user data behind 
 
 F﻿or full details of what went into this release, check out [the release milestone](https://gitlab.com/groups/zywave/app-platform/devkit/-/milestones/29#tab-issues).
 
-
-
 ## S﻿neak peek
 
-W﻿e've been busy with a large number of other projects. But coming soon:
+This month's release was a bit light, but we've been working on a lot of good enhancements that we're excited to share with you soon. Just a taste of what to expect:
 
 * B﻿ulk action support for ZUI Table
 * M﻿ulti-proxy support for APIs hosted at multiple domains
