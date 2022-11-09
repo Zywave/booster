@@ -1,7 +1,8 @@
 ---
 layout: documentation
-title: Layouts
-subtitle:
+title: Card layout
+subtitle: Highly flexible foundational building blocks used as a container for a
+  variety of content.
 ---
 
 ## Cards usage
