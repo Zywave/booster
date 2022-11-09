@@ -7,7 +7,7 @@ demo: https://cdn.zywave.com/@zywave/zui-card@latest/docs/demo.html
 mainComponentName: zui-card
 includedElements: []
 ---
-# Usage
+## Usage
 
 Cards group similar concepts together making scanning content easier and faster. Elements within a card are standard and organized so the user can quickly find actionable information. Follow the rule: 'one card, one concept', meaning each card should focus on only one feature or a bit of information.
 
@@ -16,7 +16,7 @@ Cards are an excellent choice for:
 * Dashboards or for pages that display a variety of content types at the same time on the same page.
 * Displaying data visualizations & metrics
 
-# Card basics
+## Card basics
 
 Cards function as a container for content.  They provide a blank canvas to help balance UI aesthetics with good usability.  There are various types of content and many options for functionality that can be placed within a card, but to remain consistent all cards should use the following basic design specifications. 
 
@@ -30,7 +30,7 @@ Cards function as a container for content.  They provide a blank canvas to help
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--basics.png?version=2&modificationDate=1604651358280&cacheVersion=1&api=v2)
 
-# Anatomy
+## Anatomy
 
 Cards are made up of three main sections: a header, a body, and a footer.  Each section has their own options and limitations, and the only section that is preferred is the header.  There are a number of different data and layout types that can be used for the body section. Note: although media *cards* have a very similar anatomy, there are slight differences in layout.
 
@@ -44,7 +44,7 @@ Cards are made up of three main sections: a header, a body, and a footer.  Ea
 6. **Header actions** (optional): Typically affect the information within the card such as a 'Add', 'Edit', 'Save'.
 7. **Footer actions** (optional): Typically initiate a workflow or take you to the next step.
 
-# Card sizing & layout
+## Card sizing & layout
 
 The size of a card is determined by the type of content it's hosting.  As long as the contents within a card meet our standards of readability, its size does not matter.
 
@@ -62,9 +62,9 @@ When data is displayed in a listview within cards, they should follow the same g
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--Layout.png?version=2&modificationDate=1604392908930&cacheVersion=1&api=v2)
 
-# Headlines
+## Headlines
 
-## Content guidelines
+### Content guidelines
 
 Cards are a great tool for communicating quick stories. Like all stories, the title is important to know if you'd like to read it.  Always follow our *Voice and Tone Guidelines*.
 
@@ -72,7 +72,7 @@ Cards are a great tool for communicating quick stories. Like all stories, the ti
 * **Keep it short:** make it so user can scan the material.
 * **Keep it clever:** use words the peak the users interest and make it personal for them.
 
-## Headline alignment
+### Headline alignment
 
 * Most of the time cards should use left aligned headlines.
 * Center aligned headlines are acceptable.  Center alignment is typically used on a landing screen before a user enters a workflow, or when the user has a fork in the road choice to make.
@@ -86,7 +86,7 @@ Although our cards are designed to allow for wrapping headlines, best practice i
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--headline-long.png?version=1&modificationDate=1604392909307&cacheVersion=1&api=v2)
 
-## Subheading
+### Subheading
 
 Use a subheading when you need more supporting copy to reinforce what users will find in the card.  Subheadings are part of the header and should directly relate to the headline. 
 
@@ -95,18 +95,18 @@ Use a subheading when you need more supporting copy to reinforce what users wi
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--subheadline-long.png?version=1&modificationDate=1604392909817&cacheVersion=1&api=v2)
 
-## Icons in the header
+### Icons in the header
 
 The only icon we currently support in the header is the gripper icon, which is used to indicate moving a card. See the '*Dragging a card documentation*' for more information.  If you have a need to include an icon, contact the ZUI team and we will log an enhancement. 
 
-# Actions
+## Actions
 
 In many cases a card offers a entry point to for the user to find more information.  Often, a card contains high level information enticing users to click through and discover more.  For this reason, it's critical that a card's actions are clear and predictable.  There are three ways to make a card actionable: adding an action in the header; adding actions in the footer; or making the entire card the action.  A couple things to note when adding actions to your card:
 
 * The type of action should determine placement.  For example, actions in the footer typically take the user somewhere else.
 * Avoid adding too many call-to-action buttons or links. There should only be one primary call-to-action per card.
 
-## Header actions 
+### Header actions 
 
 Header actions typically affect the information within the card such as a Add, Edit, or Save.  When using a call-to-action within a card, most often use a [secondary button](https://www.carbondesignsystem.com/components/button/usage). Primary buttons should be reserved for the most important action a user can take on the page.
 
@@ -120,7 +120,7 @@ When a card is larger it is acceptable to have multiple actions within the heade
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--actions-multiple-actions.png?version=1&modificationDate=1604392905460&cacheVersion=1&api=v2)
 
-## Footer actions
+### Footer actions
 
 Footer actions are typically directional, used for kicking off workflows or next step type actions, such as Create a dynamic list. 
 
@@ -134,7 +134,7 @@ Multiple actions in the footer is a limited accepted practice. It is best practi
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--actions-footer-multiple.png?version=3&modificationDate=1604392904993&cacheVersion=1&api=v2)
 
-## Clickable cards
+### Clickable cards
 
 In some cases the the entire card should act as a link and initiates a single action.  Clickable cards must be expected and predictable so users understand they can take action.  
 
@@ -144,13 +144,13 @@ In some cases the the entire card should act as a link and initiates a single a
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--Actions-whole.png?version=2&modificationDate=1604392906127&cacheVersion=1&api=v2)
 
-## Filtering and sorting
+### Filtering and sorting
 
 Sometimes it's necessary for the user to be able to filter the data within the card, for example by date.  If a card can be filtered, add the proper filtering component to the header action area.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--actions-filtering.png?version=4&modificationDate=1604392904767&cacheVersion=1&api=v2)
 
-# Dragging a card
+## Dragging a card
 
 Dragging and dropping cards is useful when the user needs to rearrange, reorder or group cards. 
 
@@ -160,7 +160,7 @@ Dragging and dropping cards is useful when the user needs to rearrange, reorder
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--drag-specs.png?version=2&modificationDate=1604660171803&cacheVersion=1&api=v2)
 
-# Cards with tabs 
+## Cards with tabs 
 
 In many cases, tabs can take the place of the card headline.
 
@@ -186,17 +186,17 @@ When you need multiple pieces of content to occupy a single space, a carousel i
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--carousel.png?version=1&modificationDate=1604392902180&cacheVersion=1&api=v2)
 
-# Loading content into cards
+## Loading content into cards
 
 While the data for a card is loading, the card’s contents are replaced with a loading spinner. While the card is in a loading state, any actions that could be taken on the card’s content are disabled. Cards should not change height drastically when data appears and is rendered.
 
-## Skeleton screens
+### Skeleton screens
 
 A skeleton screen is a low fidelity UI into which information is gradually loaded. It gives users a visual cue that the content is being loaded into each UI element.  Using a skeleton screen makes the user perceive that app/website is loading fast.  Skeleton screens work great in cards.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Cards--spinner.png?version=2&modificationDate=1604392909580&cacheVersion=1&api=v2)
 
-# Background graphics
+## Background graphics
 
 Adding background graphics can give the card more visual interest and evoke more emotion to connect with the user.
 
@@ -211,7 +211,7 @@ Examples of background graphics in cards:
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Cards--backgrounds.png?version=5&modificationDate=1604652539480&cacheVersion=1&api=v2)
 
-# Responsive Behavior
+## Responsive Behavior
 
 When on a mobile device (breakpoint ≤480px) the card's base padding changes to 10px. 
 
@@ -238,11 +238,11 @@ With the card's left and right margin removed, the content within the card will 
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--actions-header-mobile.png?version=3&modificationDate=1591862345857&cacheVersion=1&api=v2)
 
-# Media Cards
+## Media Cards
 
 Media cards have a horizontal layout and are ideal for showing document preview images.  All traditional card design guidelines apply to media cards, except for the following:
 
-## Media Card basics
+### Media Card basics
 
 What makes media cards unique include:
 
@@ -250,7 +250,7 @@ What makes media cards unique include:
 * There is a spot for an optional label to be included.
 * The padding is 15px.
 
-## Media Card Anatomy
+### Media Card Anatomy
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/MediaCard-Anatomy.png?version=3&modificationDate=1604392908300&cacheVersion=1&api=v2)
 
@@ -268,7 +268,7 @@ When the image does not take up the entire image section, line it up with the h
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/MediaCard--lineup.png?version=2&modificationDate=1604392901147&cacheVersion=1&api=v2)
 
-## Media card sizing
+### Media card sizing
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/MediaCards-max%26min.png?version=1&modificationDate=1591871975920&cacheVersion=1&api=v2)
 
