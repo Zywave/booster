@@ -9,26 +9,12 @@ includedElements: []
 ---
 # Usage
 
-Cards are highly flexible foundational building blocks used as a container for a variety of content.  Cards group similar concepts together making scanning content easier and faster.  Elements within a card are standard and organized so the user can quickly find actionable information.  Follow the rule: 'one card, one concept', meaning each card should focus on only one feature or bit of information.
+Cards group similar concepts together making scanning content easier and faster. Elements within a card are standard and organized so the user can quickly find actionable information. Follow the rule: 'one card, one concept', meaning each card should focus on only one feature or a bit of information.
 
 Cards are an excellent choice for:
 
 * Dashboards or for pages that display a variety of content types at the same time on the same page.
 * Displaying data visualizations & metrics
-
-# Table of Contents
-
-* Card basics
-* Anatomy
-* Sizing & layout
-* Headlines
-* Actions
-* Cards with Tabs
-* Cards with Tables
-* Cards with carousels
-* Loading content
-* Responsive behavior
-* Media cards
 
 # Card basics
 
@@ -72,8 +58,6 @@ The size of a card is determined by the type of content it's hosting.  As lo
 
 Make the card so small is doesn't leave enough space for the content to be easily consumed. 
 
-
-
 When data is displayed in a listview within cards, they should follow the same grid pattern to line up with each other.  A grid places cards in fixed rows and columns, making it easy for users to scan content.  See our grid documentation for more guidance on how to properly space our cards when they're lined up next to each other in a grid.  It's important to match height between cards in the same row for visual organization. In a grid, cards should have the same fixed width in each column.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--Layout.png?version=2&modificationDate=1604392908930&cacheVersion=1&api=v2)
@@ -98,8 +82,6 @@ Cards are a great tool for communicating quick stories. Like all stories, the ti
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--headline-alignment.png?version=1&modificationDate=1604392906720&cacheVersion=1&api=v2)
 
-
-
 Although our cards are designed to allow for wrapping headlines, best practice is to keep the headline short and snappy.  Make sure to leave a minimum gutter of at least 50px between the headline and the action button. 
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--headline-long.png?version=1&modificationDate=1604392909307&cacheVersion=1&api=v2)
@@ -112,8 +94,6 @@ Use a subheading when you need more supporting copy to reinforce what users wi
 * Subheadings can contain links.  For example, a common use is a link to learn more.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/card--subheadline-long.png?version=1&modificationDate=1604392909817&cacheVersion=1&api=v2)
-
-
 
 ## Icons in the header
 
@@ -132,13 +112,9 @@ Header actions typically affect the information within the card such as a Add,
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--actions-header-secondary.png?version=2&modificationDate=1604392905653&cacheVersion=1&api=v2)
 
-
-
 Due to the limited space in the header for actions, using an icon button is acceptable; just make sure the icon is easily identifiable.  If there is more than one action, consider using a *button dropdown*; unless both actions are of high importance.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--actions-header-icon.png?version=2&modificationDate=1604392905853&cacheVersion=1&api=v2)
-
-
 
 When a card is larger it is acceptable to have multiple actions within the header, just avoid too many call-to-action buttons or links and only one primary call to action per card.  If there are more than two actions, use a button dropdown.
 
@@ -152,15 +128,9 @@ Footer actions are typically directional, used for kicking off workflows or nex
 * Avoid icon buttons as they aren't clear enough.  
 * Depending on the content in the card footer actions can be aligned on the left or centered.  For example, if there are form fields in the card, best practice is to line up the action under the fields on the left side. 
 
-
-
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--actions-footer.png?version=3&modificationDate=1604392905220&cacheVersion=1&api=v2)
 
-
-
 Multiple actions in the footer is a limited accepted practice. It is best practice to only have one primary action per card. When there are more than one action, left align them.  
-
-
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--actions-footer-multiple.png?version=3&modificationDate=1604392904993&cacheVersion=1&api=v2)
 
@@ -171,8 +141,6 @@ In some cases the the entire card should act as a link and initiates a single a
 * Use actionable wording usually makes it clear you can perform an action.
 * When a card contains an actionable component, the interaction should be tied to that UI component, not to the whole card.
 * When hovered, the clickable card should outline and the cursor should change to a pointer.
-
-
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--Actions-whole.png?version=2&modificationDate=1604392906127&cacheVersion=1&api=v2)
 
@@ -198,13 +166,9 @@ In many cases, tabs can take the place of the card headline.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--tabs.png?version=3&modificationDate=1604392903883&cacheVersion=1&api=v2)
 
-
-
 The body of a card should still follow the padding requirements of a card, and the first tab label should line up to that padding. 
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--tab-specs.png?version=2&modificationDate=1604392903440&cacheVersion=1&api=v2)
-
-
 
 If a headline is necessary, line up the tabs within the card padding, but keep the separator running to the edges.
 
@@ -215,8 +179,6 @@ If a headline is necessary, line up the tabs within the card padding, but keep
 The table itself is a card.  When using a table on a card, the padding of the card is removed and the table contents line up to the edge of the card.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card%20-%20Table.png?version=2&modificationDate=1604392901917&cacheVersion=1&api=v2)
-
-
 
 ## Cards with a Carousel 
 
@@ -245,8 +207,6 @@ Best practices
 * Avoid overlapping text.
 * Keep in mind scaling to ensure the background graphic is appropriately sized on all card sizes.
 
-
-
 Examples of background graphics in cards:
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Cards--backgrounds.png?version=5&modificationDate=1604652539480&cacheVersion=1&api=v2)
@@ -257,8 +217,6 @@ When on a mobile device (breakpoint ≤480px) the card's base padding changes 
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--Base-mobile.png?version=3&modificationDate=1604392908527&cacheVersion=1&api=v2)
 
-
-
 Because of the nature of card containers, they are ideal for flexible layouts.  As the viewport gets smaller, cards should react appropriately to fit. 
 
 * Cards should stack, creating a organized way for users to scroll through the content.
@@ -268,13 +226,9 @@ Because of the nature of card containers, they are ideal for flexible layouts.�
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--responsive-contentmargin.png?version=3&modificationDate=1591861550740&cacheVersion=1&api=v2)
 
-
-
 With the card's left and right margin removed, the content within the card will now line up with other content on the page.  Note: the content area padding is 10px at ≤480px.  
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--responsive-contentarea.png?version=3&modificationDate=1604392902653&cacheVersion=1&api=v2)
-
-
 
 ### Header actions
 
@@ -283,10 +237,6 @@ With the card's left and right margin removed, the content within the card will 
 * Do not stack action buttons.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/Card--actions-header-mobile.png?version=3&modificationDate=1591862345857&cacheVersion=1&api=v2)
-
-
-
-
 
 # Media Cards
 
@@ -310,19 +260,13 @@ What makes media cards unique include:
 4. **Subheading** (optional)**:** Provides supporting content for the headline.  A subheading should only be used if the user needs more detail to understand the feature within the card.
 5. **Footer actions** (optional): Typically initiates a workflow or takes the user to the next step.
 
-
-
 The footer actions always align to the bottom-right corner of the media card.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/MediaCard--actionplacement.png?version=2&modificationDate=1604392900803&cacheVersion=1&api=v2)
 
-
-
 When the image does not take up the entire image section, line it up with the headline.
 
 ![](https://zywave.atlassian.net/wiki/download/attachments/138909221029/MediaCard--lineup.png?version=2&modificationDate=1604392901147&cacheVersion=1&api=v2)
-
-    
 
 ## Media card sizing
 
