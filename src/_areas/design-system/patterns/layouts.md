@@ -8,24 +8,12 @@ subtitle: Highly flexible foundational building blocks used as a container for a
 
 Cards group similar concepts together which makes scanning content more efficient. Elements within a card are standard and organized so the user can quickly find actionable information. Follow the rule: 'one card, one concept', meaning each card should focus on only one feature or a bit of information.
 
+Cards function as a container for content. They provide a blank canvas to help balance UI aesthetics with good usability. There are various types of content and many options for functionality that can be placed within a card
+
 Cards are an excellent choice for:
 
 * Dashboards or for pages that display a variety of content types at the same time on the same page.
 * Displaying data visualizations & metrics
-
-<hr>
-
-## Card basics
-
-Cards function as a container for content. They provide a blank canvas to help balance UI aesthetics with good usability. There are various types of content and many options for functionality that can be placed within a card, but to remain consistent all cards should use the following basic design specifications.
-
-* container padding
-* corner radius
-* border weight
-* border color
-* drop shadow
-
-<a href="https://xd.adobe.com/view/c11f2559-0a63-49ca-8270-f088e50042ca-944c/screen/d501cbd8-ac8b-451a-91fc-4fe551a2c18e/specs/" target="_blank">Click here for card development specs</a>
 
 <hr>
 
@@ -44,6 +32,16 @@ Cards are made up of three main sections: a header, a body, and a footer. Each s
 5. **Subheading** (optional): Provides supporting content for the header. A subheading should only be used if the user needs more detail to understand the feature within the card.
 6. **Header actions** (optional): Typically affect the information within the card such as a 'Add', 'Edit', 'Save'.
 7. **Footer actions** (optional): Typically initiate a workflow or take you to the next step.
+
+To remain consistent all cards should use the following basic design specifications.
+
+* container padding
+* corner radius
+* border weight
+* border color
+* drop shadow
+
+<a href="https://xd.adobe.com/view/c11f2559-0a63-49ca-8270-f088e50042ca-944c/screen/d501cbd8-ac8b-451a-91fc-4fe551a2c18e/specs/" target="_blank">Click here for card development specs</a>
 
 <hr>
 
