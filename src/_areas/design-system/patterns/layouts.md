@@ -47,7 +47,7 @@ To remain consistent all cards should use the following basic design specificati
 
 <div id="cards-sizing"></div>
 
-## Card layout structure
+## Card layout & structure
 
 The size of a card is determined by the type of content it's hosting. As long as the contents within a card meet our standards of readability, its size does not matter.
 
