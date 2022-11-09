@@ -4,7 +4,7 @@ title: Card layout
 subtitle: Highly flexible foundational building blocks used as a container for a
   variety of content.
 ---
-## Card layout usage
+## Card usage
 
 Cards group similar concepts together which makes scanning content more efficient. Elements within a card are standard and organized so the user can quickly find actionable information. Follow the rule: 'one card, one concept', meaning each card should focus on only one feature or a bit of information.
 
@@ -15,7 +15,7 @@ Cards are an excellent choice for:
 
 <hr>
 
-## Card layout basics
+## Card basics
 
 Cards function as a container for content. They provide a blank canvas to help balance UI aesthetics with good usability. There are various types of content and many options for functionality that can be placed within a card, but to remain consistent all cards should use the following basic design specifications.
 
@@ -26,8 +26,6 @@ Cards function as a container for content. They provide a blank canvas to help b
 * drop shadow
 
 <a href="https://xd.adobe.com/view/c11f2559-0a63-49ca-8270-f088e50042ca-944c/screen/d501cbd8-ac8b-451a-91fc-4fe551a2c18e/specs/" target="_blank">Click here for card development specs</a>
-
-![Basics](/images/patterns/cards/card--basics.svg)
 
 <hr>
 
