@@ -209,6 +209,17 @@ Allow users to organize rows by a specific category and follow these best practi
 * *Sorting by the column in descending order is indicated with a ZUI-chevron down.*
 * The clickable area to trigger sort, is the whole column header. 
 
+### Filtering
+
+Based on the data in the table, the user may be able to add filters to narrow down the data available.
+
+* Unlike other table-level actions, the filter button should be placed directly next to the Search input, 10px apart
+* When the filter button is clicked, a modal should open with filter options
+* Once filters are selected, they will remain visible in the table header using Tags
+* The filters can be removed directly on the tags, which will reload the results in the table automatically 
+
+![Example of a table with filters. ](/images/table-filters.svg "Example of a table with filters. ")
+
 ## Responsiveness
 
 When on a mobile device (breakpoint ≤480px), the table reduces to cards.
