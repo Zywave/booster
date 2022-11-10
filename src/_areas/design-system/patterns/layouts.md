@@ -21,17 +21,20 @@ Cards are an excellent choice for:
 
 ## Anatomy
 
-Cards are made up of three main sections: a header, a body, and a footer. Each section has their own options and limitations, and the only section that is preferred is the header. There are a number of different data and layout types that can be used for the body section. <!-- Note: although \\[media cards](#cards-media) have a very similar anatomy, there are slight differences in layout. -->
+Cards are made up of three main sections: a header, a body, and a footer. Each section has its own options and limitations, and the only section that is preferred is the header. There are a number of different data and layout types that can be used for the body section. <!-- Note: although \\[media cards](#cards-media) have a very similar anatomy, there are slight differences in layout. -->
 
-![Anatomy](/images/patterns/cards/card--anatomy.svg)
+![Anatomy](/images/card-anatomy.svg)
 
 1. **Header section** (preferred): Defines space for the headline, subheading, and header actions.
 2. **Body section** (optional): Displays the content of the card such as lists, images / illustrations, data visualizations, form inputs and more.
 3. **Footer section** (optional): Defined space for footer actions.
-4. **Headline** (preferred): Briefly describes the features to the user. See the [header content guidelines](#cards-headlines).
-5. **Subheading** (optional): Provides supporting content for the header. A subheading should only be used if the user needs more detail to understand the feature within the card.
-6. **Header actions** (optional): Typically affect the information within the card such as a 'Add', 'Edit', 'Save'.
-7. **Footer actions** (optional): Typically initiate a workflow or take you to the next step.
+
+![Anatomy](/images/card-anatomy2.svg)
+
+1. **Headline** (preferred): Briefly describes the features to the user. See the [header content guidelines](#cards-headlines).
+2. **Subheading** (optional): Provides supporting content for the header. A subheading should only be used if the user needs more detail to understand the feature within the card.
+3. **Header actions** (optional): Typically affect the information within the card such as a 'Add', 'Edit', 'Save'.
+4. **Footer actions** (optional): Typically initiate a workflow or take you to the next step.
 
 To remain consistent all cards should use the following basic design specifications.
 
