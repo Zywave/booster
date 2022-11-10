@@ -58,7 +58,7 @@ The size of a card is determined by the type of content it's hosting. As long as
 * For larger cards, follow our [line length documentation](/design-system/visuals/fonts-typography/) to make sure lines of text don't get too long.
 * Cards should not be less than 250px wide.
 
-![Sizing](/images/patterns/cards/card--sizing-minwidth.svg)
+![Sizing](/images/card-sizing-minwidth.svg)
 
 <DoNot />
 
