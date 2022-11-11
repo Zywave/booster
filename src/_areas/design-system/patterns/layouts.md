@@ -158,9 +158,9 @@ Footer actions are typically directional, used for kicking off workflows or next
 
 <Spacer size="small" />
 
-Multiple actions in the footer is a limited accepted practice. It is best practice to only have one primary action per card. When there are more than one action, left align them.
+Multiple actions in the footer is a limited accepted practice. It is best practice only to have one primary action per card. When there is more than one action, left align them.
 
-![Footer multiple actions](/images/patterns/cards/card--actions-footer-multiple.svg)
+![Footer multiple actions](/images/card-actions-footer-multiple.svg)
 
 <Spacer size="small" />
 
