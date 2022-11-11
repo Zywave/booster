@@ -100,7 +100,7 @@ Cards are a great tool for communicating quick stories. Like all stories, the ti
 
 Although our cards are designed to allow for wrapping headlines, best practice is to keep the headline short and snappy. Make sure to leave a minimum gutter of at least 50px between the headline and the action button.
 
-![Headline long](/images/patterns/cards/card--headline-long.svg)
+![Headline long](/images/card-headline-long.svg)
 
 <Spacer size="small" />
 
