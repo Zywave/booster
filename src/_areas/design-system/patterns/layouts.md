@@ -94,7 +94,7 @@ Cards are a great tool for communicating quick stories. Like all stories, the ti
   * When the headline is centered, the rest of the content in the card should also be centered.
 * Be consistent. If there are multiple cards on the screen do not mix and match left and center aligned headlines.
 
-![Headline alignment](/images/patterns/cards/card--headline-alignment.svg)
+![Headline alignment](/images/card-headline-alignment.svg)
 
 <Spacer size="small" />
 
