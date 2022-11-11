@@ -180,7 +180,7 @@ In some cases the entire card should act as a link and initiate a single action.
 
 Sometimes it's necessary for the user to be able to filter the data within the card, for example by date. If a card can be filtered, add the proper filtering component to the header action area.
 
-![Actions filtering & sorting](/images/patterns/cards/card--actions-filtering.svg)
+![Actions filtering & sorting](/images/card-filtering.svg)
 
 <hr>
 
