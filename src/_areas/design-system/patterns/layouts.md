@@ -172,7 +172,7 @@ In some cases the entire card should act as a link and initiate a single action.
 * When a card contains an actionable component, the interaction should be tied to that UI component, not to the whole card.
 * When hovered, the clickable card should outline and the cursor should change to a pointer.
 
-![Actions whole card](/images/patterns/cards/card--actions-whole.svg)
+![Actions whole card](/images/card-clickable.svg)
 
 <Spacer size="small" />
 
