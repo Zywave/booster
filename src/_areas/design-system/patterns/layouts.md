@@ -140,9 +140,9 @@ Due to the limited space in the header for actions, using an icon button is acce
 
 <Spacer size="small" />
 
-When a card is larger it is acceptable to have multiple actions within the header, just avoid too many call-to-action buttons or links and only one primary call to action per card. If there are more than two actions, use a [button dropdown](/design-system/components/button-dropdowns/).
+When a card is larger it is acceptable to have multiple actions within the header, just avoid too many call-to-action buttons or links and only one primary call-to-action per card. If there are more than two actions, use a [button dropdown](/design-system/components/button-dropdowns/).
 
-![Header multiple actions](/images/patterns/cards/card--actions-multiple-actions.svg)
+![Header multiple actions](/images/card-actions-multiple-actions.svg)
 
 <Spacer size="small" />
 
