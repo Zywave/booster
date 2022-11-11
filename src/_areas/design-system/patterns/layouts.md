@@ -111,7 +111,7 @@ Use a subheading when you need more supporting copy to reinforce what users will
 * Limit the subheading to two lines or less when the card is at it's smallest.
 * Subheadings can contain links. For example, a common use is a link to learn more.
 
-![Subheaders long](/images/patterns/cards/card--subheadline-long.svg)
+![Subheaders long](/images/card-subheadline-long.svg)
 
 ### Icons in the header
 
@@ -134,7 +134,7 @@ In many cases a card offers a entry point to for the user to find more informati
 
 Header actions typically affect the information within the card such as a Add, Edit, or Save. When using a call-to-action within a card, most often use a [secondary button](/design-system/components/buttons/). Primary buttons should be reserved for the most important action a user can take on the page.
 
-![Header actions](/images/patterns/cards/card--actions-header-secondary.svg)
+![Header actions](/images/card-actions-header-secondary.svg)
 
 <Spacer size="small" />
 
