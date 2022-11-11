@@ -152,9 +152,9 @@ Footer actions are typically directional, used for kicking off workflows or next
 
 * When using a call-to-action within a card, most often use a [secondary button](/design-system/components/buttons/). Primary buttons should be reserved for the most important action a user can take on the page.
 * Avoid icon buttons as they aren't clear enough.
-* Depending on the content in the card footer actions can be aligned on the left or centered. For example, if there are form fields in the card, best practice is to line up the action under the fields on the left side.
+* Depending on the content in the card footer actions can be aligned on the left or centered. For example, if there are form fields in the card, the best practice is to line up the action under the fields on the left side.
 
-![Footer actions](/images/patterns/cards/card--actions-footer.svg)
+![Footer actions](/images/card-actions-footer.svg)
 
 <Spacer size="small" />
 
