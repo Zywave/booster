@@ -4,7 +4,7 @@ title: Card layout
 subtitle: Highly flexible foundational building blocks used as a container for a
   variety of content.
 ---
-## Card usage
+## Usage
 
 Cards group similar concepts together which makes scanning content more efficient. Elements within a card are standard and organized so the user can quickly find actionable information. Follow the rule: 'one card, one concept', meaning each card should focus on only one feature or a bit of information.
 
@@ -50,7 +50,7 @@ To remain consistent all cards should use the following basic design specificati
 
 <div id="cards-sizing"></div>
 
-## Card layout & structure
+## Layout & structure
 
 The size of a card is determined by the type of content it's hosting. As long as the contents within a card meet our standards of readability, its size does not matter.
 
