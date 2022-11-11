@@ -21,7 +21,7 @@ Cards are an excellent choice for:
 
 ## Anatomy
 
-Cards are made up of three main sections: a header, a body, and a footer. Each section has its own options and limitations, and the only section that is preferred is the header. There are a number of different data and layout types that can be used for the body section. <!-- Note: although \\[media cards](#cards-media) have a very similar anatomy, there are slight differences in layout. -->
+Cards are made up of three main sections: a header, a body, and a footer. Each section has its own options and limitations, and the only section that is preferred is the header. There are a number of different data and layout types that can be used for the body section. <!-- Note: although \\\[media cards](#cards-media) have a very similar anatomy, there are slight differences in layout. -->
 
 ![Anatomy](/images/card-anatomy.svg)
 
@@ -68,7 +68,7 @@ Make the card so small it doesn't leave enough space for the content to be easil
 
 When data is displayed in a listview within cards, they should follow the same grid pattern to line up with each other. A grid places cards in fixed rows and columns, making it easy for users to scan content. See our grid documentation for more guidance on how to properly space our cards when they're lined up next to each other in a grid. It's important to match height between cards in the same row for visual organization. In a grid, cards should have the same fixed width in each column.
 
-![Grid layout](/images/patterns/cards/card--layout.svg)
+![Grid layout](/images/card-layout.svg)
 
 <hr>
 
@@ -331,31 +331,31 @@ What makes media cards unique include:
 
 ### Media card anatomy
 
-!\\[Cards - Media card anatomy](/images/patterns/cards/mediacard-anatomy.svg)
+!\\\[Cards - Media card anatomy](/images/patterns/cards/mediacard-anatomy.svg)
 
-1. \\*\\*Image\\*\\* (required): Reserved space for an image, spot illustration or document thumbnail.
-2. \\*\\*Label\\*\\* (optional): Displays what the content is tagged with, such as new or recommended.
-3. \\*\\*Headline\\*\\* (preferred): Title of the media. See the \\[header content guidelines](#cards-headlines).
-4. \\*\\*Subheading\\*\\* (optional): Provides supporting content for the headline. A subheading should only be used if the user needs more detail to understand the feature within the card.
-5. \\*\\*Footer actions\\*\\* (optional): Typically initiates a workflow or takes the user to the next step.
+1. \\\*\\\*Image\\\*\\\* (required): Reserved space for an image, spot illustration or document thumbnail.
+2. \\\*\\\*Label\\\*\\\* (optional): Displays what the content is tagged with, such as new or recommended.
+3. \\\*\\\*Headline\\\*\\\* (preferred): Title of the media. See the \\\[header content guidelines](#cards-headlines).
+4. \\\*\\\*Subheading\\\*\\\* (optional): Provides supporting content for the headline. A subheading should only be used if the user needs more detail to understand the feature within the card.
+5. \\\*\\\*Footer actions\\\*\\\* (optional): Typically initiates a workflow or takes the user to the next step.
 
 <Spacer size="small" />
 
 The footer actions always align to the bottom-right corner of the media card.
 
-!\\[Cards - Media card action placement](/images/patterns/cards/mediacard--actionplacement.svg)
+!\\\[Cards - Media card action placement](/images/patterns/cards/mediacard--actionplacement.svg)
 
 <Spacer size="small" />
 
 When the image does not take up the entire image section, line it up with the headline.
 
-!\\[Cards - Media card lineup](/images/patterns/cards/mediacard--lineup.svg)
+!\\\[Cards - Media card lineup](/images/patterns/cards/mediacard--lineup.svg)
 
 <Spacer size="small" />
 
 ### Media card sizing
 
-!\\[Cards - Media card max and min width](/images/patterns/cards/mediacard--maxmin.svg)
+!\\\[Cards - Media card max and min width](/images/patterns/cards/mediacard--maxmin.svg)
 
 <DoNot />
 

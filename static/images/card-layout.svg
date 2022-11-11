@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="506" viewBox="0 0 1000 506">
+  <defs>
+    <filter id="Card" x="-176.5" y="58.5" width="409" height="423" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card-2" x="-176.5" y="-387.5" width="409" height="423" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card-3" x="253.5" y="58.5" width="409" height="423" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card-4" x="253.5" y="-387.5" width="409" height="423" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card-5" x="683.5" y="58.5" width="409" height="423" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Card-6" x="683.5" y="-387.5" width="409" height="423" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-card--layout">
+      <rect width="1000" height="506"/>
+    </clipPath>
+  </defs>
+  <g id="card--layout" clip-path="url(#clip-card--layout)">
+    <rect width="1000" height="506" fill="#f4f4f6"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card)">
+      <rect id="Card-7" data-name="Card" width="400" height="414" rx="2" transform="translate(-172 62)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-2)">
+      <rect id="Card-8" data-name="Card" width="400" height="414" rx="2" transform="translate(-172 -384)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-3)">
+      <rect id="Card-9" data-name="Card" width="400" height="414" rx="2" transform="translate(258 62)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-4)">
+      <rect id="Card-10" data-name="Card" width="400" height="414" rx="2" transform="translate(258 -384)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-5)">
+      <rect id="Card-11" data-name="Card" width="400" height="414" rx="2" transform="translate(688 62)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card-6)">
+      <rect id="Card-12" data-name="Card" width="400" height="414" rx="2" transform="translate(688 -384)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_9892" data-name="Rectangle 9892" width="476" height="15" transform="translate(258) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9894" data-name="Rectangle 9894" width="476" height="15" transform="translate(673) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9898" data-name="Rectangle 9898" width="476" height="15" transform="translate(688) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9893" data-name="Rectangle 9893" width="476" height="15" transform="translate(243) rotate(90)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9895" data-name="Rectangle 9895" width="1275" height="30" transform="translate(-187 31)" fill="none" opacity="0.24"/>
+    <rect id="Rectangle_9896" data-name="Rectangle 9896" width="1269" height="30" transform="translate(-187 476)" fill="none" opacity="0.24"/>
+    <path id="Line_119" data-name="Line 119" d="M998,.5h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0H96v-1h2Zm-4,0H92v-1h2Zm-4,0H88v-1h2Zm-4,0H84v-1h2Zm-4,0H80v-1h2Zm-4,0H76v-1h2Zm-4,0H72v-1h2Zm-4,0H68v-1h2Zm-4,0H64v-1h2Zm-4,0H60v-1h2Zm-4,0H56v-1h2Zm-4,0H52v-1h2Zm-4,0H48v-1h2Zm-4,0H44v-1h2Zm-4,0H40v-1h2Zm-4,0H36v-1h2Zm-4,0H32v-1h2Zm-4,0H28v-1h2Zm-4,0H24v-1h2Zm-4,0H20v-1h2Zm-4,0H16v-1h2Zm-4,0H12v-1h2Zm-4,0H8v-1h2ZM6,.5H4v-1H6ZM2,.5H0v-1H2Z" transform="translate(0.5 61.5)" fill="#30bbb1"/>
+    <path id="Line_122" data-name="Line 122" d="M998,.5h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0h-2v-1h2Zm-4,0H96v-1h2Zm-4,0H92v-1h2Zm-4,0H88v-1h2Zm-4,0H84v-1h2Zm-4,0H80v-1h2Zm-4,0H76v-1h2Zm-4,0H72v-1h2Zm-4,0H68v-1h2Zm-4,0H64v-1h2Zm-4,0H60v-1h2Zm-4,0H56v-1h2Zm-4,0H52v-1h2Zm-4,0H48v-1h2Zm-4,0H44v-1h2Zm-4,0H40v-1h2Zm-4,0H36v-1h2Zm-4,0H32v-1h2Zm-4,0H28v-1h2Zm-4,0H24v-1h2Zm-4,0H20v-1h2Zm-4,0H16v-1h2Zm-4,0H12v-1h2Zm-4,0H8v-1h2ZM6,.5H4v-1H6ZM2,.5H0v-1H2Z" transform="translate(0.5 30.5)" fill="#30bbb1"/>
+    <path id="Line_120" data-name="Line 120" d="M.5,476h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1V98h1Zm0-4h-1V94h1Zm0-4h-1V90h1Zm0-4h-1V86h1Zm0-4h-1V82h1Zm0-4h-1V78h1Zm0-4h-1V74h1Zm0-4h-1V70h1Zm0-4h-1V66h1Zm0-4h-1V62h1Zm0-4h-1V58h1Zm0-4h-1V54h1Zm0-4h-1V50h1Zm0-4h-1V46h1Zm0-4h-1V42h1Zm0-4h-1V38h1Zm0-4h-1V34h1Zm0-4h-1V30h1Zm0-4h-1V26h1Zm0-4h-1V22h1Zm0-4h-1V18h1Zm0-4h-1V14h1Zm0-4h-1V10h1Zm0-4h-1V6h1Zm0-4h-1V2h1Z" transform="translate(228.5)" fill="#30bbb1"/>
+    <path id="Line_121" data-name="Line 121" d="M.5,476h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1v-2h1Zm0-4h-1V98h1Zm0-4h-1V94h1Zm0-4h-1V90h1Zm0-4h-1V86h1Zm0-4h-1V82h1Zm0-4h-1V78h1Zm0-4h-1V74h1Zm0-4h-1V70h1Zm0-4h-1V66h1Zm0-4h-1V62h1Zm0-4h-1V58h1Zm0-4h-1V54h1Zm0-4h-1V50h1Zm0-4h-1V46h1Zm0-4h-1V42h1Zm0-4h-1V38h1Zm0-4h-1V34h1Zm0-4h-1V30h1Zm0-4h-1V26h1Zm0-4h-1V22h1Zm0-4h-1V18h1Zm0-4h-1V14h1Zm0-4h-1V10h1Zm0-4h-1V6h1Zm0-4h-1V2h1Z" transform="translate(257.5)" fill="#30bbb1"/>
+  </g>
+</svg>
