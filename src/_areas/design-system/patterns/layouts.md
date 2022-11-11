@@ -166,9 +166,9 @@ Multiple actions in the footer is a limited accepted practice. It is best practi
 
 ### Clickable cards
 
-In some cases the the entire card should act as a link and initiates a single action. Clickable cards must be expected and predictable so users understand they can take action.
+In some cases the entire card should act as a link and initiate a single action. Clickable cards must be expected and predictable so users understand an action can be taken.
 
-* Use actionable wording usually makes it clear you can perform an action.
+* Using actionable wording usually makes it clear you can perform an action.
 * When a card contains an actionable component, the interaction should be tied to that UI component, not to the whole card.
 * When hovered, the clickable card should outline and the cursor should change to a pointer.
 
