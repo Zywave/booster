@@ -113,10 +113,6 @@ Use a subheading when you need more supporting copy to reinforce what users will
 
 ![Subheaders long](/images/card-subheadline-long.svg)
 
-### Icons in the header
-
-The only icon we currently support in the header is the gripper icon, which is used to indicate moving a card. See the [dragging a card](#dragging-a-card) documentation for more information. If you have a need to include an icon, contact the ZUI team and we will log an enhancement.
-
 <hr>
 
 <div id="cards-actions"></div>
@@ -140,7 +136,7 @@ Header actions typically affect the information within the card such as a Add, E
 
 Due to the limited space in the header for actions, using an icon button is acceptable; just make sure the icon is easily identifiable. If there is more than one action, consider using a button dropdown; unless both actions are of high importance.
 
-![Header action icons](/images/patterns/cards/card--actions-header-icon.svg)
+![Header action icons](/images/card-actions-header-icon.svg)
 
 <Spacer size="small" />
 
