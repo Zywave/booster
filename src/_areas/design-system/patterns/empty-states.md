@@ -32,7 +32,7 @@ For detailed documentation on our Empty states anatomy, view the [design specs](
 
 The layout and structure of any empty state is determined by application and component context.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
 ### Cards
 
@@ -129,6 +129,8 @@ For detailed documentation on Tables, [view the Table design specs](/design-syst
 
 ## Types
 
+<docs-spacer size="small"></docs-spacer>
+
 ### First use
 
 This Empty state appears when a user is entering a product for the first time and has no data shown. Body text should be used to explain to the user where and how to initiate the workflow. An illustration, title, and action are all optional depending on the space and workflow.
@@ -198,4 +200,4 @@ This Empty state appears when the user has cleared all data on a page, such as a
 
 ## Alternative considerations
 
-* Use *Error patterns* if TBD
+* Use [Error patterns](/design-system/patterns/errors/) when a user encounters an error.
