@@ -32,7 +32,9 @@ For detailed documentation on our Empty states anatomy, view the [design specs](
 
 The layout and structure of any empty state is determined by application and component context.
 
-#### Cards
+<docs-spacer></docs-spacer>
+
+### Cards
 
 Cards are a very common component for holding empty states. Use a hero or spot illustration based on your use case. For detailed documentation on Illustrations, [view the Illustration design specs.](design-system/visuals/illustrations/ "/design-system/visuals/illustrations/")
 
@@ -46,23 +48,31 @@ For detailed documentation on Cards, [view the Card design specs.](/design-syste
 
 ![Empty state small space large card](/images/emptystate_largespace_card.svg)
 
-#### Large spaces
+<docs-spacer size="small"></docs-spacer>
+
+### Large spaces
 
 When the empty state is not confined to a card or smaller area, it may be helpful to the user to make use of the entire space for an empty state. If an illustration is needed for an empty state in a large space, a hero illustration is better suited due to its larger size.
+
+<docs-spacer size="small"></docs-spacer>
 
 **Centered**
 
 ![Empty state large space centered](/images/emptystate_largespace_centered.svg)
 
+<docs-spacer size="small"></docs-spacer>
+
 **Text-heavy**
 
 ![Empty state large space text](/images/emptystate_largespace_text.svg)
 
-#### Tables
+<docs-spacer></docs-spacer>
+
+### Tables
 
 Empty states help guide a user when interacting with an empty table and help them accomplish their next course of action. A title and body text is required within an empty state in a Table.
 
-For detailed documentation on Tables, \[view the Table design specs](/design-system/components/tables/?tab=usage "/design-system/components/tables/?tab=usage")
+For detailed documentation on Tables, [view the Table design specs](/design-system/components/tables/?tab=usage "/design-system/components/tables/?tab=usage")
 
 ![](/images/emptystate_table.svg)
 
@@ -115,17 +125,27 @@ For detailed documentation on Tables, \[view the Table design specs](/design-sys
 
 ## Types
 
-#### First use
+### First use
 
 This Empty state appears when a user is entering a product for the first time and has no data shown. Body text should be used to explain to the user where and how to initiate the workflow. An illustration, title, and action are all optional depending on the space and workflow.
 
-**First use in a full-page**
+<docs-spacer size="small"></docs-spacer>
+
+#### First use in a full-page
 
 It is recommended that an illustration, title, body text, and action all be used when a *first use* empty state is used in a full page. This will give the user the most guidance and delight when entering a new product.
 
 ![First use full page](/images/firstuse_centered.svg)
 
-**First use in a table**
+<docs-spacer size="small"></docs-spacer>
+
+##### First use in a full-page on a mobile device
+
+![First use mobile](/images/firstuse_mobile.svg)
+
+<docs-spacer size="small"></docs-spacer>
+
+#### First use in a table
 
 It is recommended that a title, body text, and action all be used when a First use empty state is used within a table. Give clear and concise guidance within the body text to help the user navigate to an action to get started.
 
@@ -133,33 +153,39 @@ It is recommended that a title, body text, and action all be used when a First u
 
 ![First use table with cards](/images/firstuse_table2.svg)
 
-**Responsive**
+<docs-spacer></docs-spacer>
 
-![First use mobile](/images/firstuse_mobile.svg)
-
-**No results / data**
+### No results / data
 
 This Empty state surfaces where data would appear, but no data is available at the moment, or no results are returned for the specific query. A clear and concise title is used to point out the reason why no results/data are shown and body text is used under the title to provide more context. Depending on the scenarios, it may be recommended to have a secondary call to action button to provide users with a clear next step.
 
 ![Example of no results empty state illustration ](/images/noresults.svg)
 
+<docs-spacer size="small"></docs-spacer>
+
 A use case for this Empty state would be when an image preview is unavailable for the user, such as on a Content details page for an imported piece of content.
 
 ![Image placeholder](/images/imageplaceholder.svg)
 
-**Responsive**
+<docs-spacer size="small"></docs-spacer>
+
+#### No results / data on a mobile device
 
 ![Example of no results empty state on mobile](/images/noresults_mobile.svg)
 
 ![Image placeholder mobile](/images/imageplaceholder_mobile.svg)
 
-**User cleared**
+<docs-spacer></docs-spacer>
+
+### User cleared
 
 This Empty state appears when the user has cleared all data on a page, such as an alerts inbox. For this Empty state, body text should be used to explain to the user why no data is being shown. An illustration, title, and action are all optional depending on the space and workflow.
 
 ![User cleared](/images/usercleared.svg)
 
-**Responsive**
+<docs-spacer size="small"></docs-spacer>
+
+#### User cleared on a mobile device
 
 ![User cleared mobile](/images/usercleared_mobile.svg)
 
