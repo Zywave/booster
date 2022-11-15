@@ -40,15 +40,19 @@ Cards are a very common component for holding empty states. Use a hero or spot i
 
 For detailed documentation on Cards, [view the Card design specs.](/design-system/components/cards/ "/design-system/components/cards/")
 
-**Small card**
+<docs-spacer size="small"></docs-spacer>
+
+#### Small card
 
 ![Empty state small space centered](/images/emptystate_smallspace_centered.svg)
 
-**Large card**
+<docs-spacer size="small"></docs-spacer>
+
+#### Large card
 
 ![Empty state small space large card](/images/emptystate_largespace_card.svg)
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ### Large spaces
 
@@ -56,13 +60,13 @@ When the empty state is not confined to a card or smaller area, it may be helpfu
 
 <docs-spacer size="small"></docs-spacer>
 
-**Centered**
+#### Centered
 
 ![Empty state large space centered](/images/emptystate_largespace_centered.svg)
 
 <docs-spacer size="small"></docs-spacer>
 
-**Text-heavy**
+#### Text-heavy
 
 ![Empty state large space text](/images/emptystate_largespace_text.svg)
 
