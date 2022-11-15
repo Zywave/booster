@@ -175,9 +175,10 @@ A use case for this Empty state would be when an image preview is unavailable fo
 
 #### No results / data on a mobile device
 
-![Example of no results empty state on mobile](/images/noresults_mobile.svg)
-
-![Image placeholder mobile](/images/imageplaceholder_mobile.svg)
+<docs-grid columns="2">
+<img src="/images/noresults_mobile.svg" alt="Example of no results empty state on mobile" />
+<img src="/images/imageplaceholder_mobile.svg" alt="Image placeholder on mobile" />
+</docs-grid>
 
 <docs-spacer></docs-spacer>
 
