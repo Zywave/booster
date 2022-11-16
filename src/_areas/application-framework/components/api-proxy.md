@@ -36,6 +36,8 @@ If you meet the minimum requirements below, please include Zywave API Proxy in y
 
 Yes, you must include `<zywave-api-proxy>` in addition to `<zywave-shell>` because `<zywave-shell>` cannot communicate with Zywave APIs by itself.
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Why does my application need to be hosted on a *.zywave.com domain?
 
 Applications consuming this component are currently required to be on a *.zywave.com due to continual restrictions being made, or already made, to third-party cookies.
