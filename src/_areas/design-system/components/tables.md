@@ -15,6 +15,8 @@ Used to help users visualize, organize and understand their data to derive insig
 
 ![Base image of a table](/images/table-usage.svg "Base image of a table")
 
+<hr>
+
 ## Anatomy
 
 ![Anatomy of a table](/images/table-anatomy.svg "Anatomy of a table")
@@ -25,6 +27,8 @@ Tables typically use cards as their container(s).
 * **Column headers** (required): The title for data within each row
 * **Content rows** (required): The containers for cell data
 * **Table footer** (optional): The container that can include pagination and a summary row that displays a grand total of values
+
+<hr>
 
 ## Types
 
@@ -63,6 +67,8 @@ Text should always be aligned left and numbers right, this allows values to be e
 ![Example of monetary values in cells with vertical column dividers, aligning the $ symbol to the left of the cell.](/images/table-dataalignment-dividers.svg "Example of monetary values in cells with vertical column dividers, aligning the $ symbol to the left of the cell.")
 
 *Example of monetary values in cells with vertical column dividers, aligning the $ symbol to the left of the cell.*
+
+<hr>
 
 ## Behavior 
 
@@ -220,6 +226,8 @@ Based on the data in the table, the user may be able to add filters to narrow do
 
 ![Example of a table with filters. ](/images/table-filters.svg "Example of a table with filters. ")
 
+<hr>
+
 ## Responsiveness
 
 When on a mobile device (breakpoint ≤480px), the table reduces to cards.
@@ -230,11 +238,15 @@ When on a mobile device (breakpoint ≤480px), the table reduces to cards.
 
 ![Example of a responsive table.](/images/table-mobile.svg "Example of a responsive table.")
 
+<hr>
+
 ## Best practices
 
 * Tables should not be stretched, unless the data within the table requires it. In general, use the fixed width (1000px) page layout.
 * Table columns should be sized according to the data they contain.
 * Unless it helps with readability, remove everything in the design which is not data or white space.
+
+<hr>
 
 ## Alternative considerations
 
