@@ -178,6 +178,12 @@ Use the minimal pager when a more simplistic pager is required, such as on mobil
 
 If the user navigates to a page from within the table, then uses breadcrumbs to navigate back, we should try to remember the location.
 
+#### B﻿est practices
+
+* W﻿hen the user is trying to find something specific,  such as a specific account, a pager is ideal.
+* W﻿hen the user is browsing, such as a content search, infinite scroll may be ideal.
+* F﻿or mobile, infinite scrolling is ideal.
+
 ### Wrapping and truncation
 
 Based on the space available and the amount of data contained within the table, wrapping or truncation may be necessary to display all of the available columns. The data contained within the table should drive the decision on whether to truncate or wrap. 
