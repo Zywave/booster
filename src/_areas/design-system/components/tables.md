@@ -11,7 +11,7 @@ statusOverride: null
 ---
 ## Usage
 
-Used to help users visualize, organize and understand their data to derive insights and take informed action.
+A table visualizes and organizes data to help the user derive insights and take an informed action.
 
 ![Base image of a table](/images/table-usage.svg "Base image of a table")
 
@@ -34,13 +34,13 @@ Tables typically use cards as their container(s).
 
 ### Vertical column dividers
 
-Add vertical column dividers minimally, only if extra clarity is required or there are many columns and too close together.
+Add vertical columns if extra clarity is needed to differentiate between columns. Vertical columns are also helpful when the table has many columns.
 
 ![Example of a table with vertical column dividers. ](/images/table-columndividers.svg "Example of a table with vertical column dividers. ")
 
 ### Row banding
 
-Add row banding minimally, only if the rows become hard to follow, when the data is complex, there is considerable space between columns, or the user is required to scroll horizontally.
+Add row banding if the rows become hard to follow, when the data is complex, when there is considerable space between columns, or the table requires horizontal scrolling.
 
 Row banding can distort the meaning of the data by highlighting every other row to the detriment of neighboring rows and can cause user distraction.
 
@@ -50,7 +50,7 @@ If the table uses row banding, it does not need row dividers.
 
 ### Cell data alignment
 
-Text should always be aligned left and numbers right, this allows values to be easily compared and calculated. 
+Text should always be aligned left and dollar amounts right, this allows values to be compared and calculated.
 
 #### Data alignment best practices
 
@@ -90,7 +90,7 @@ After performing a search, the content rows should reflect the search parameters
 
 ##### No results
 
-If there are no results returned from a search, inform the user with a message.
+If there are no results returned from a search, inform the user with a message, view [Empty states](https://booster.zywave.dev/design-system/patterns/empty-states/). 
 
 ![Example of a table with no search results.](/images/table-searching-noresults.svg "Example of a table with no search results.")
 
@@ -100,7 +100,7 @@ If there are no results returned from a search, inform the user with a message.
 
 Actions that directly impact the table, such as "Add", can be located in the table header.
 
-* Actions in the header are vertically centered and located on the right side of the header area following the 20px padding of the table
+* Actions in the header should be located on the right side of the header area following the 20px padding of the table
 * When there are 1-2 actions they can remain as separate buttons
 * When there are 3+ consider using a button dropdown or a button group when appropriate
 * Buttons in the header should follow our normal button style hierarchy
@@ -174,15 +174,12 @@ Use the minimal pager when a more simplistic pager is required, such as on mobil
 
 ![Example of a table with standard and minimal pagination. ](/images/table-pagination.svg "Example of a table with standard and minimal pagination. ")
 
-#### Things to consider
-
-If the user navigates to a page from within the table, then uses breadcrumbs to navigate back, we should try to remember the location.
-
 #### B﻿est practices
 
 * W﻿hen the user is trying to find something specific,  such as a specific account, a pager is ideal.
 * W﻿hen the user is browsing, such as a content search, infinite scroll may be ideal.
 * F﻿or mobile, infinite scrolling is ideal.
+* If the user navigates to a page from within the table, then uses breadcrumbs to navigate back, we should try to remember the location.
 
 ### Wrapping and truncation
 
