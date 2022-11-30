@@ -332,7 +332,7 @@ Media cards should not be more than 700px or less than 300px wide
 
 <div>
 
-![Labeling do](/images/select_bestpractices-–-do.svg)
+![Labeling do](/images/card-do-size.svg)
 
 <docs-do>
 Use an appropriate width for cards based on the content it's hosting.
@@ -342,7 +342,7 @@ Use an appropriate width for cards based on the content it's hosting.
 
 <div>
 
-![Labeling don't](/images/select_bestpractices-–-donot.svg)
+![Labeling don't](/images/card-donot-size.svg)
 
 <docs-do-not>
 Avoid making the card so small it doesn't leave enough space for the content to be easily consumed. Cards should not be less than 250px wide.
