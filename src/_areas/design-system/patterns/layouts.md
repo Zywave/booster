@@ -21,7 +21,7 @@ Cards are an excellent choice for:
 
 ## Anatomy
 
-Cards are made up of three main sections: a header, a body, and a footer. Each section has its own options and limitations, and the only section that is preferred is the header. <!-- Note: although \\\\[media cards](#cards-media) have a very similar anatomy, there are slight differences in layout. -->
+Cards are made up of three main sections: a header, a body, and a footer. Each section has its own options and limitations, and the only section that is preferred is the header. <!-- Note: although \\\\\[media cards](#cards-media) have a very similar anatomy, there are slight differences in layout. -->
 
 ![Anatomy](/images/card-anatomy.svg)
 
@@ -298,31 +298,31 @@ What makes media cards unique include:
 
 ### Media card anatomy
 
-!\\\\[Cards - Media card anatomy](/images/patterns/cards/mediacard-anatomy.svg)
+!\\\\\[Cards - Media card anatomy](/images/patterns/cards/mediacard-anatomy.svg)
 
-1. \\\\*\\\\*Image\\\\*\\\\* (required): Reserved space for an image, spot illustration or document thumbnail.
-2. \\\\*\\\\*Label\\\\*\\\\* (optional): Displays what the content is tagged with, such as new or recommended.
-3. \\\\*\\\\*Headline\\\\*\\\\* (preferred): Title of the media. See the \\\\[header content guidelines](#cards-headlines).
-4. \\\\*\\\\*Subheading\\\\*\\\\* (optional): Provides supporting content for the headline. A subheading should only be used if the user needs more detail to understand the feature within the card.
-5. \\\\*\\\\*Footer actions\\\\*\\\\* (optional): Typically initiates a workflow or takes the user to the next step.
+1. \\\\\*\\\\\*Image\\\\\*\\\\\* (required): Reserved space for an image, spot illustration or document thumbnail.
+2. \\\\\*\\\\\*Label\\\\\*\\\\\* (optional): Displays what the content is tagged with, such as new or recommended.
+3. \\\\\*\\\\\*Headline\\\\\*\\\\\* (preferred): Title of the media. See the \\\\\[header content guidelines](#cards-headlines).
+4. \\\\\*\\\\\*Subheading\\\\\*\\\\\* (optional): Provides supporting content for the headline. A subheading should only be used if the user needs more detail to understand the feature within the card.
+5. \\\\\*\\\\\*Footer actions\\\\\*\\\\\* (optional): Typically initiates a workflow or takes the user to the next step.
 
 <Spacer size="small" />
 
 The footer actions always align to the bottom-right corner of the media card.
 
-!\\\\[Cards - Media card action placement](/images/patterns/cards/mediacard--actionplacement.svg)
+!\\\\\[Cards - Media card action placement](/images/patterns/cards/mediacard--actionplacement.svg)
 
 <Spacer size="small" />
 
 When the image does not take up the entire image section, line it up with the headline.
 
-!\\\\[Cards - Media card lineup](/images/patterns/cards/mediacard--lineup.svg)
+!\\\\\[Cards - Media card lineup](/images/patterns/cards/mediacard--lineup.svg)
 
 <Spacer size="small" />
 
 ### Media card sizing
 
-!\\\\[Cards - Media card max and min width](/images/patterns/cards/mediacard--maxmin.svg)
+!\\\\\[Cards - Media card max and min width](/images/patterns/cards/mediacard--maxmin.svg)
 
 <DoNot />
 
@@ -338,6 +338,36 @@ Media cards should not be more than 700px or less than 300px wide
 * Avoid icon buttons in the footer as they aren't clear enough.
 * Avoid overlapping text on a background image
 * Do not stack action buttons on mobile
+
+#### Labeling
+
+<docs-grid columns="2">
+
+<div>
+
+![Labeling do](/images/select_bestpractices-–-do.svg)
+
+<docs-do>
+Use clear and concise labeling. Label text is used to inform users as to what information is requested for a dropdown. 
+</docs-do>
+
+</div>
+
+<div>
+
+![Labeling don't](/images/select_bestpractices-–-donot.svg)
+
+<docs-do-not>
+Avoid using sentences or long phrases for label text. 
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
 
 <hr>
 
