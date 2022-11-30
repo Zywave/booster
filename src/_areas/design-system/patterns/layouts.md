@@ -321,13 +321,12 @@ Media cards should not be more than 700px or less than 300px wide
 
 ## Best practices
 
-* Cards should not be less than 250px wide. Make the card so small it doesn't leave enough space for the content to be easily consumed.
 * Avoid adding too many call-to-action buttons or links. There should only be one primary call-to-action per card.
 * Avoid icon buttons in the footer as they aren't clear enough.
 * Avoid overlapping text on a background image
 * Do not stack action buttons on mobile
 
-#### Labeling
+#### Size and layout
 
 <docs-grid columns="2">
 
@@ -336,7 +335,7 @@ Media cards should not be more than 700px or less than 300px wide
 ![Labeling do](/images/select_bestpractices-–-do.svg)
 
 <docs-do>
-Use clear and concise labeling. Label text is used to inform users as to what information is requested for a dropdown. 
+Use an appropriate width for cards based on the content it's hosting.
 </docs-do>
 
 </div>
@@ -346,7 +345,7 @@ Use clear and concise labeling. Label text is used to inform users as to what in
 ![Labeling don't](/images/select_bestpractices-–-donot.svg)
 
 <docs-do-not>
-Avoid using sentences or long phrases for label text. 
+Avoid making the card so small it doesn't leave enough space for the content to be easily consumed. Cards should not be less than 250px wide.
 </docs-do-not>
 
 </div>
