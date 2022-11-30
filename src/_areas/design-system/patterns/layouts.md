@@ -204,19 +204,17 @@ Dragging and dropping cards is useful when the user needs to rearrange, reorder 
 
 In many cases, tabs can take the place of the card headline.
 
-![Cards with tabs](/images/patterns/cards/card--tabs.svg)
+![Cards with tabs](/images/card-tabs.svg)
 
 <Spacer size="small" />
 
 The body of a card should still follow the padding requirements of a card, and the first tab label should line up to that padding.
 
-![Specs of cards with tabs](/images/patterns/cards/card--tab-specs.svg)
-
 <Spacer size="small" />
 
 If a headline is necessary, line up the tabs within the card padding, but keep the separator running to the edges.
 
-![Cards with tabs + headline](/images/patterns/cards/card--tabs-headline.svg)
+![Cards with tabs + headline](/images/card-tabs-headline.svg)
 
 <hr>
 
