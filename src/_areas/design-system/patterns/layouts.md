@@ -321,7 +321,6 @@ Media cards should not be more than 700px or less than 300px wide
 
 ## Best practices
 
-* Avoid adding too many call-to-action buttons or links. There should only be one primary call-to-action per card.
 * Avoid icon buttons in the footer as they aren't clear enough.
 * Avoid overlapping text on a background image
 * Do not stack action buttons on mobile
@@ -346,6 +345,38 @@ Use an appropriate width for cards based on the content it's hosting.
 
 <docs-do-not>
 Avoid making the card so small it doesn't leave enough space for the content to be easily consumed. Cards should not be less than 250px wide.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+#### Size and layout
+
+#### Size and layout
+
+<docs-grid columns="2">
+
+<div>
+
+![Labeling do](/images/card-do-size.svg)
+
+<docs-do>
+Use only one primary call-to-action per card.
+</docs-do>
+
+</div>
+
+<div>
+
+![Labeling don't](/images/card-donot-size.svg)
+
+<docs-do-not>
+Avoid adding too many call-to-action buttons or links.
 </docs-do-not>
 
 </div>
