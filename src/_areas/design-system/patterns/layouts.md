@@ -21,7 +21,7 @@ Cards are an excellent choice for:
 
 ## Anatomy
 
-Cards are made up of three main sections: a header, a body, and a footer. Each section has its own options and limitations, and the only section that is preferred is the header. There are a number of different data and layout types that can be used for the body section. <!-- Note: although \\\\[media cards](#cards-media) have a very similar anatomy, there are slight differences in layout. -->
+Cards are made up of three main sections: a header, a body, and a footer. Each section has its own options and limitations, and the only section that is preferred is the header. <!-- Note: although \\\\[media cards](#cards-media) have a very similar anatomy, there are slight differences in layout. -->
 
 ![Anatomy](/images/card-anatomy.svg)
 
