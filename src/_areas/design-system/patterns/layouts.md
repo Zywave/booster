@@ -224,7 +224,7 @@ If a headline is necessary, line up the tabs within the card padding, but keep t
 
 When you need multiple pieces of content to occupy a single space, a carousel is a good option. We offer two options to scroll through content, both should always be placed below the carousel.
 
-![Cards with a carousel](/images/patterns/cards/card--carousel.svg)
+![Cards with a carousel](/images/card-carousel.svg)
 
 <hr>
 
