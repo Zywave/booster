@@ -255,7 +255,7 @@ Adding background graphics can give the card more visual interest and evoke more
 
 Examples of background graphics in cards:
 
-![Cards - backgroung graphics](/images/patterns/cards/cards--backgrounds.svg)
+![Cards - backgroung graphics](/images/cards-backgrounds.svg)
 
 <hr>
 
@@ -264,8 +264,6 @@ Examples of background graphics in cards:
 ## Responsive behavior
 
 When on a mobile device (breakpoint ≤480px) the card's base padding changes to 10px.
-
-![Cards - mobile padding](/images/patterns/cards/card--base-mobile.svg)
 
 <Spacer size="small" />
 
@@ -276,13 +274,7 @@ Because of the nature of card containers, they are ideal for flexible layouts. A
 * Corner radius is removed.
 * At least 10px is required between cards.
 
-![Cards - responsive content margins](/images/patterns/cards/cards--responsive-contentmargin.svg)
-
-<Spacer size="small" />
-
-With the card's left and right margin removed, the content within the card will now line up with other content on the page. Note: the content area padding is 10px at ≤480px.
-
-![Cards - responsive content area](/images/patterns/cards/card--responsive-contentarea.svg)
+![Cards - responsive content margins](/images/cards-responsive.svg)
 
 <Spacer size="small" />
 
