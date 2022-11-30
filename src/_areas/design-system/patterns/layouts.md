@@ -155,11 +155,13 @@ Multiple actions in the footer is a limited accepted practice. It is best practi
 
 ![Footer multiple actions](/images/card-actions-footer-multiple.svg)
 
-<Spacer size="small" />
+<hr>
+
+## B﻿ehavior
 
 ### Clickable cards
 
-In some cases the entire card should act as a link and initiate a single action. Clickable cards must be expected and predictable so users understand an action can be taken.
+In some cases, the entire card should act as a link and initiate a single action. Clickable cards must be expected and predictable so users understand an action can be taken.
 
 * Using actionable wording usually makes it clear you can perform an action.
 * When a card contains an actionable component, the interaction should be tied to that UI component, not to the whole card.
@@ -175,11 +177,9 @@ Sometimes it's necessary for the user to be able to filter the data within the c
 
 ![Actions filtering & sorting](/images/card-filtering.svg)
 
-<hr>
+<Spacer size="small" />
 
-<div id="cards-dragging"></div>
-
-## Dragging a card
+### Dragging a card
 
 Dragging and dropping cards is useful when the user needs to rearrange, reorder or group cards.
 
@@ -189,11 +189,9 @@ Dragging and dropping cards is useful when the user needs to rearrange, reorder 
 
 ![Dragging a card](/images/card-drag.svg)
 
-<hr>
+<Spacer size="small" />
 
-<div id="cards-tabs"></div>
-
-## Cards with tabs
+### Cards with tabs
 
 In many cases, tabs can take the place of the card headline.
 
@@ -209,35 +207,29 @@ If a headline is necessary, line up the tabs within the card padding, but keep t
 
 ![Cards with tabs + headline](/images/card-tabs-headline.svg)
 
-<hr>
+<Spacer size="small" />
 
-<div id="cards-tables"></div>
-
-## Cards with a carousel
+### Cards with a carousel
 
 When you need multiple pieces of content to occupy a single space, a carousel is a good option. We offer two options to scroll through content, both should always be placed below the carousel.
 
 ![Cards with a carousel](/images/card-carousel.svg)
 
-<hr>
+<Spacer size="small" />
 
-<div id="cards-loading"></div>
-
-## Loading content into cards
+### Loading content into cards
 
 While the data for a card is loading, the card's contents are replaced with a loading spinner. While the card is in a loading state, any actions that could be taken on the card's content are disabled. Cards should not change height drastically when data appears and is rendered.
 
-### Skeleton screens
+### Skeleton screens and spinners
 
-A skeleton screen is a low fidelity UI into which information is gradually loaded. It gives users a visual cue that the content is being loaded into each UI element. Using a skeleton screen makes the user perceive that app/website is loading fast. Skeleton screens work great in cards.
+A skeleton screen is a low-fidelity UI into which information is gradually loaded. It gives users a visual cue that the content is being loaded into each UI element. Using a skeleton screen makes the user perceive that app/website is loading fast. Skeleton screens work great in cards.
 
 ![Cards - loading content](/images/cards-spinner.svg)
 
-<hr>
+<Spacer size="small" />
 
-<div id="cards-background"></div>
-
-## Background graphics
+### Background graphics
 
 Adding background graphics can give the card more visual interest and evoke more emotion to connect with the user. Follow these best practices:
 
