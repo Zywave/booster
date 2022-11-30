@@ -145,7 +145,6 @@ When a card is larger it is acceptable to have multiple actions within the heade
 Footer actions are typically directional, used for kicking off workflows or next step type actions, such as Create a dynamic list.
 
 * When using a call-to-action within a card, most often use a [secondary button](/design-system/components/buttons/). Primary buttons should be reserved for the most important action a user can take on the page.
-* Avoid icon buttons as they aren't clear enough.
 * Depending on the content in the card footer actions can be aligned on the left or centered. For example, if there are form fields in the card, the best practice is to line up the action under the fields on the left side.
 
 ![Footer actions](/images/card-actions-footer.svg)
@@ -244,7 +243,6 @@ Adding background graphics can give the card more visual interest and evoke more
 
 * Bleeding the image to the edge is preferred.
 * Illustrations are preferred. See our [illustration guidelines](/design-system/visuals/illustrations/).
-* Avoid overlapping text.
 * Keep in mind scaling to ensure the background graphic is appropriately sized on all card sizes.
 
 Examples of background graphics in cards:
@@ -339,6 +337,7 @@ Media cards should not be more than 700px or less than 300px wide
 * Cards should not be less than 250px wide. Make the card so small it doesn't leave enough space for the content to be easily consumed.
 * Avoid adding too many call-to-action buttons or links. There should only be one primary call-to-action per card.
 * Avoid icon buttons in the footer as they aren't clear enough.
+* Avoid overlapping text on a background image
 
 <hr>
 
