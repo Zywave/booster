@@ -44,7 +44,7 @@ To remain consistent all cards should use the following basic design specificati
 * border color
 * drop shadow
 
-<a href="https://xd.adobe.com/view/c11f2559-0a63-49ca-8270-f088e50042ca-944c/screen/d501cbd8-ac8b-451a-91fc-4fe551a2c18e/specs/" target="_blank">Click here for card development specs</a>
+<a href="https://xd.adobe.com/view/dad2c287-4748-451c-bc2d-b3997def2d6a-8f81/specs/" target="_blank">Click here for card development specs</a>
 
 <hr>
 
