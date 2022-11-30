@@ -37,6 +37,12 @@
         <rect id="Rectangle_3990-2" data-name="Rectangle 3990" width="71" height="36" rx="18" fill="#2777d3"/>
         <text id="Action-3" data-name="Action" transform="translate(15 23)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action</tspan></text>
       </g>
+      <g id="Link_Button" data-name="Link Button" transform="translate(319.66 388)">
+        <g id="Group_264143" data-name="Group 264143">
+          <rect id="Rectangle_6075" data-name="Rectangle 6075" width="71" height="36" rx="18" fill="rgba(255,255,255,0)"/>
+          <text id="Action-4" data-name="Action" transform="translate(15 23)" fill="#2777d3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Action</tspan></text>
+        </g>
+      </g>
     </g>
   </g>
 </svg>

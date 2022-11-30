@@ -323,7 +323,6 @@ Media cards should not be more than 700px or less than 300px wide
 
 * Avoid icon buttons in the footer as they aren't clear enough.
 * Avoid overlapping text on a background image
-* Do not stack action buttons on mobile
 
 #### Size and layout
 
@@ -376,6 +375,37 @@ Use only one primary call-to-action per card.
 
 <docs-do-not>
 Avoid adding too many call-to-action buttons or links. 
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+#### Mobile actions
+
+<docs-grid columns="2">
+
+<div>
+
+![Mobile actions do](/images/card-do-actions.svg)
+
+<docs-do>
+Use only one primary call-to-action per card.
+
+</docs-do>
+
+</div>
+
+<div>
+
+![Mobile actions don't](/images/card-donot-actions.svg)
+
+<docs-do-not>
+Avoid stacking action buttons on mobile.
 </docs-do-not>
 
 </div>
