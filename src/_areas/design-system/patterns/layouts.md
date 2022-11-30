@@ -340,4 +340,4 @@ Media cards should not be more than 700px or less than 300px wide
 
 ## Alternate considerations
 
-* U﻿se a table when...
+* U﻿se a table when there is a lot of data that needs to be organized.
