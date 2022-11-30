@@ -238,7 +238,7 @@ While the data for a card is loading, the card's contents are replaced with a lo
 
 A skeleton screen is a low fidelity UI into which information is gradually loaded. It gives users a visual cue that the content is being loaded into each UI element. Using a skeleton screen makes the user perceive that app/website is loading fast. Skeleton screens work great in cards.
 
-![Cards - loading content](/images/patterns/cards/cards--spinner.svg)
+![Cards - loading content](/images/cards-spinner.svg)
 
 <hr>
 
