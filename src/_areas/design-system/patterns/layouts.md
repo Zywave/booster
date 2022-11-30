@@ -220,16 +220,6 @@ If a headline is necessary, line up the tabs within the card padding, but keep t
 
 <div id="cards-tables"></div>
 
-## Cards with a table
-
-The table itself is a card. When using a table on a card, the padding of the card is removed and the table contents line up to the edge of the card.
-
-![Cards with tables](/images/patterns/cards/card--table.svg)
-
-<hr>
-
-<div id="cards-carousel"></div>
-
 ## Cards with a carousel
 
 When you need multiple pieces of content to occupy a single space, a carousel is a good option. We offer two options to scroll through content, both should always be placed below the carousel.
@@ -355,3 +345,7 @@ When the image does not take up the entire image section, line it up with the he
 
 Media cards should not be more than 700px or less than 300px wide
 -->
+
+## Alternate considerations
+
+* U﻿se a table when...
