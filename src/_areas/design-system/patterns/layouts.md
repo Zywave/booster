@@ -75,10 +75,6 @@ When data is displayed in a listview within cards, they should follow the same g
 
 Cards are a great tool for communicating quick stories. Like all stories, the title is important to know if you'd like to read it. Always follow our [writing style guide](/design-system/voice-and-tone/writing-style-guide/).
 
-* **Keep it simple:** the headline needs to be easy to digest.
-* **Keep it short:** make it so user can scan the material.
-* **Keep it clever:** use words the peak the users interest and make it personal for them.
-
 <Spacer size="small" />
 
 ### Headline alignment
