@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: Card
+title: Cards
 subtitle: Highly flexible foundational building blocks used as a container for a
   variety of content.
 ---
