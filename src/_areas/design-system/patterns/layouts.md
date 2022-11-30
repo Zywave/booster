@@ -284,7 +284,7 @@ Because of the nature of card containers, they are ideal for flexible layouts. A
 * Limit the header action to one icon button or a button dropdown.
 * Do not stack action buttons.
 
-![Cards - responsive content area](/images/patterns/cards/cards--actions-header-mobile.svg)
+![Cards - responsive content area](/images/cards-actions-header-mobile.svg)
 
 <!--
 <hr>
