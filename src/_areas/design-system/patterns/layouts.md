@@ -361,7 +361,7 @@ Avoid making the card so small it doesn't leave enough space for the content to 
 
 <div>
 
-![Labeling do](/images/card-do-size.svg)
+![Actions do](/images/card-do-actions.svg)
 
 <docs-do>
 Use only one primary call-to-action per card.
@@ -372,7 +372,7 @@ Use only one primary call-to-action per card.
 
 <div>
 
-![Labeling don't](/images/card-donot-size.svg)
+![Actions don't](/images/card-donot-actions.svg)
 
 <docs-do-not>
 Avoid adding too many call-to-action buttons or links. 
