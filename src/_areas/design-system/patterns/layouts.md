@@ -261,7 +261,7 @@ When on a mobile device (breakpoint ≤480px) the card's base padding changes to
 
 Because of the nature of card containers, they are ideal for flexible layouts. As the viewport gets smaller, cards should react appropriately to fit.
 
-* Cards should stack, creating a organized way for users to scroll through the content.
+* Cards should stack, creating an organized way for users to scroll through the content.
 * Left and right margin is removed to maximize room for the card's content.
 * Corner radius is removed.
 * At least 10px is required between cards.
@@ -272,9 +272,8 @@ Because of the nature of card containers, they are ideal for flexible layouts. A
 
 ### Header actions
 
-* If the action has an icon that is highly intuitive to the user, for example pencil icon for edit, it is recommended to use the icon button.
+* If the action has an icon that is highly intuitive to the user, for example, pencil icon for edit, it is recommended to use the icon button.
 * Limit the header action to one icon button or a button dropdown.
-* Do not stack action buttons.
 
 ![Cards - responsive content area](/images/cards-actions-header-mobile.svg)
 
@@ -338,6 +337,7 @@ Media cards should not be more than 700px or less than 300px wide
 * Avoid adding too many call-to-action buttons or links. There should only be one primary call-to-action per card.
 * Avoid icon buttons in the footer as they aren't clear enough.
 * Avoid overlapping text on a background image
+* Do not stack action buttons on mobile
 
 <hr>
 
