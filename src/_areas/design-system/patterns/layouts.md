@@ -56,13 +56,8 @@ The size of a card is determined by the type of content it's hosting. As long as
 
 * Max width and height of a card follows the [content area guidelines](/design-system/components/shell?tab=usage).
 * For larger cards, follow our [line length documentation](/design-system/visuals/fonts-typography/) to make sure lines of text don't get too long.
-* Cards should not be less than 250px wide.
 
 ![Sizing](/images/card-sizing-minwidth.svg)
-
-<DoNot />
-
-Make the card so small it doesn't leave enough space for the content to be easily consumed.
 
 <Spacer size="large" />
 
@@ -122,7 +117,6 @@ Use a subheading when you need more supporting copy to reinforce what users will
 In many cases a card offers a entry point to for the user to find more information. Often, a card contains high level information enticing users to click through and discover more. For this reason, it's critical that a card's actions are clear and predictable. There are three ways to make a card actionable: adding an action in the header; adding actions in the footer; or making the entire card the action. A couple things to note when adding actions to your card:
 
 * The type of action should determine placement. For example, actions in the footer typically take the user somewhere else.
-* Avoid adding too many call-to-action buttons or links. There should only be one primary call-to-action per card.
 
 <Spacer size="small" />
 
@@ -337,6 +331,16 @@ When the image does not take up the entire image section, line it up with the he
 
 Media cards should not be more than 700px or less than 300px wide
 -->
+
+<hr>
+
+## Best practices
+
+* Cards should not be less than 250px wide. Make the card so small it doesn't leave enough space for the content to be easily consumed.
+* Avoid adding too many call-to-action buttons or links. There should only be one primary call-to-action per card.
+* Avoid icon buttons in the footer as they aren't clear enough.
+
+<hr>
 
 ## Alternate considerations
 
