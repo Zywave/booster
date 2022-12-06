@@ -29,8 +29,6 @@ Tables always use cards as their container(s).
 * **Summary row** (optional): The container that displays a grand total of values
 * **Table footer** (optional): The container that can include pagination
 
-
-
 ### Vertical column dividers
 
 Add vertical columns if extra clarity is needed to differentiate between columns. Vertical columns are also helpful when the table has many columns.
@@ -196,19 +194,21 @@ Use the minimal pager when a more simplistic pager is required, such as on mobil
 
 Based on the space available and the amount of data contained within the table, wrapping or truncation may be necessary to display all of the available columns. The data contained within the table should drive the decision on whether to truncate or wrap. 
 
-![Example of a table with wrapping and truncation.](/images/table-wrappingandtruncation.svg "Example of a table with wrapping and truncation.")
-
 #### Wrapping data
 
 The benefits of wrapping data is that all of the information is visible to the user and it works well with very detailed information such as plan names.
 
 The negative of wrapping data is that wrapping on more than two lines can add a lot of height to the rows within a table, which can actually harm readability of some data like numbers.
 
+![Example of a table with wrapping.](/images/table-wrapping.svg "Example of a table with wrapping.")
+
 #### Truncating data
 
 The benefit of truncation is that the table height remains compact and all row heights will remain equal. 
 
 The negative of wrapping data is that important information may be hidden.
+
+![Example of a table with truncation.](/images/table-truncation.svg "Example of a table with truncation.")
 
 #### Things to consider
 
@@ -243,9 +243,56 @@ When on a mobile device (breakpoint ≤480px), the table reduces to cards.
 
 ## Best practices
 
-* Tables should not be stretched, unless the data within the table requires it. In general, use the fixed width (1000px) page layout.
-* Table columns should be sized according to the data they contain.
-* Unless it helps with readability, remove everything in the design which is not data or white space.
+<docs-grid columns="2">
+  <div>
+
+![Do Table row level actions](/images/table-do-buttons.svg)
+
+<docs-do>
+Use link or icon buttons in table row level actions
+
+</docs-do>
+  </div>
+  <div>
+
+![Do not Table row level actions](/images/table-donot-buttons.svg)
+
+<docs-do-not>
+
+Use primary or secondary buttons in table row level actions
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
+
+<docs-grid columns="2">
+  <div>
+
+![Do Table row level actions](/images/table-do-space.svg)
+
+<docs-do>
+
+Use table columns sized according to the data they contain
+
+</docs-do>
+  </div>
+  <div>
+
+![Do not Table row level actions](/images/table-donot-space.svg)
+
+<docs-do-not>
+
+Use columns that are too small for data if there is room for more space
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
 
 <hr>
 
