@@ -217,7 +217,6 @@ Allow users to organize rows by a specific category and follow these best practi
 * *Sorting by the column in ascending order is indicated with a ZUI-chevron up*
 * *Sorting by the column in descending order is indicated with a ZUI-chevron down*
 * To help users sort information, a column can be displayed sorting by default. To indicate which column is sorted by default, place a ZUI-chevron up or ZUI-chevron down icon to the right of the column header’s name. 
-* *Sorting by the column in descending order is indicated with a ZUI-chevron down.*
 * The clickable area to trigger sort, is the whole column header. 
 
 ### Filtering
