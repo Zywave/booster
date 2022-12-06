@@ -155,7 +155,6 @@ Infinite scrolling is the preferred method of handling tables that contain enoug
 
 When infinite scrolling is not an option, a pager may be used to allow the user to navigate through the table.
 
-* Pagers are located 10px directly below the table
 * The pager should indicate the page the user is currently viewing and provide them with 5 other pages to click on including the last page. This will also give the user an indication of how many pages there are total.
 * The user should be able to click on a page number to view that page or use the arrows to navigate to a page
 * The input field to the right of the pages allows the user to type in the page number they want to view
