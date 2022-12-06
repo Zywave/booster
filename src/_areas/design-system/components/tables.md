@@ -194,7 +194,7 @@ The negative of wrapping data is that wrapping on more than two lines can add a 
 
 #### Truncating data
 
-The benefit of truncating data is that it can keep the table compact in terms of height
+The benefit of truncation is that the table height remains compact and all row heights will remain equal. 
 
 The negative of wrapping data is that important information may be hidden
 
