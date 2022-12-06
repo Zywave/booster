@@ -212,7 +212,10 @@ The negative of wrapping data is that important information may be hidden
 Allow users to organize rows by a specific category and follow these best practices: 
 
 * Any column can be ordered alphabetically or numerically by clicking the sort icon next to the column label.
-* Whenever a column is selected for sort, sort by that column only.
+* Whenever a column is selected for sort, sort by that column only
+* To indicate columns than have been sorted, the ZUI-chevron-up or ZUI-chevron-down icon will be highlighted in blue 
+* *Sorting by the column in ascending order is indicated with a ZUI-chevron up*
+* *Sorting by the column in descending order is indicated with a ZUI-chevron down*
 * To help users sort information, a column can be displayed sorting by default. To indicate which column is sorted by default, place a ZUI-chevron up or ZUI-chevron down icon to the right of the column header’s name. 
 * *Sorting by the column in ascending order is indicated with a ZUI-chevron up.*
 * *Sorting by the column in descending order is indicated with a ZUI-chevron down.*
