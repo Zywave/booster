@@ -11,7 +11,7 @@ statusOverride: null
 ---
 ## Usage
 
-A table visualizes and organizes data to help the user derive insights and take an informed action.
+A Table organizes data visually to help the user derive insights and, when applicable, take an informed action.
 
 ![Base image of a table](/images/table-usage.svg "Base image of a table")
 
@@ -21,32 +21,21 @@ A table visualizes and organizes data to help the user derive insights and take 
 
 ![Anatomy of a table](/images/table-anatomy.svg "Anatomy of a table")
 
-Tables typically use cards as their container(s).
+Tables always use cards as their container(s).
 
 * **Table header** (optional): The container that can include search, filters, actions, number of results
 * **Column headers** (required): The title for data within each row
 * **Content rows** (required): The containers for cell data
-* **Table footer** (optional): The container that can include pagination and a summary row that displays a grand total of values
+* **Summary row** (optional): The container that displays a grand total of values
+* **Table footer** (optional): The container that can include pagination
 
-<hr>
 
-## Types
 
 ### Vertical column dividers
 
 Add vertical columns if extra clarity is needed to differentiate between columns. Vertical columns are also helpful when the table has many columns.
 
 ![Example of a table with vertical column dividers. ](/images/table-columndividers.svg "Example of a table with vertical column dividers. ")
-
-### Row banding
-
-Add row banding if the rows become hard to follow, when the data is complex, when there is considerable space between columns, or the table requires horizontal scrolling.
-
-Row banding can distort the meaning of the data by highlighting every other row to the detriment of neighboring rows and can cause user distraction.
-
-If the table uses row banding, it does not need row dividers.
-
-![Example of a table with row banding. ](/images/table-rowbanding.svg "Example of a table with row banding. ")
 
 ### Cell data alignment
 
@@ -70,11 +59,46 @@ Text should always be aligned left and dollar amounts right, this allows values 
 
 <hr>
 
+## Types
+
+#### Results counter table
+
+Display the current number of results shown in the table to the left of the action in the table header.
+
+* If you need to add more actions to the table, push the results counter to the left in the table header. 
+* If the table header is not present, show the results counter below the table, aligned with the first column header.
+
+*T﻿his feature is not available yet in Toolkit.*
+
+![Example of a table with a results counter. ](/images/table-counter.svg "Example of a table with a results counter. ")
+
+### Sortable table
+
+![Example of a table with sorting. ](/images/table-sorting.svg "Example of a table with sorting. ")
+
+Allow users to organize rows by a specific category and follow these best practices: 
+
+* Any column can be ordered alphabetically, by date, or numerically by clicking the sort icon next to the column label.
+* Whenever a column is selected for sort, sort by that column only
+* To indicate columns than have been sorted, the ZUI-chevron-up or ZUI-chevron-down icon will be highlighted in blue 
+* *Sorting by the column in ascending order is indicated with a ZUI-chevron up*
+* *Sorting by the column in descending order is indicated with a ZUI-chevron down*
+* When helpful, a column can be displayed sorting by default
+* The entire column header is clickable to trigger sorting
+
+### Banded table
+
+Add row banding if the rows become hard to follow, when the data is complex, when there is considerable space between columns, or the table requires horizontal scrolling.
+
+Row banding can distort the meaning of the data by highlighting every other row to the detriment of neighboring rows and can cause user distraction.
+
+If the table uses row banding, it does not need row dividers.
+
+![Example of a table with row banding. ](/images/table-rowbanding.svg "Example of a table with row banding. ")
+
+<hr>
+
 ## Behavior 
-
-### Table header
-
-The table header can include search, filters, actions, and number of results.
 
 #### Search
 
@@ -114,15 +138,6 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 ![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
 
-#### Results counter
-
-Display the current number of results shown in the table to the left of the action in the table header.
-
-* If you need to add more actions to the table, push the results counter to the left in the table header. 
-* If the table header is not present, show the results counter below the table, aligned with the first column header.
-
-![Example of a table with a results counter. ](/images/table-counter.svg "Example of a table with a results counter. ")
-
 ### Bulk selection
 
 The bulk selection workflow becomes available when the user needs to select more than one option in a table and complete an action on them.
@@ -144,41 +159,38 @@ Infinite scrolling is the preferred method of handling tables that contain enoug
 
 #### Infinite scrolling
 
-* The consumer should determine the number of table rows available to the user initially (Zywave standard starts at 10 rows, but it can be larger).
-* As the user scrolls down through the table, an additional set of rows should begin loading when they reach the bottom of the table.
-* If the user scrolls back up, the loaded rows should remain and not need to be loaded again.
-* Depending on the time necessary to load additional rows, a loading experience may be necessary.
+* The consumer should determine the number of table rows available to the user initially (Zywave standard starts at 10 rows, but it can be larger)
+* As the user scrolls down through the table, an additional set of rows should begin loading when they reach the bottom of the table
+* If the user scrolls back up, the loaded rows should remain and not need to be loaded again
+* Depending on the time necessary to load additional rows, a loading experience may be necessary
 
 ![Example of a table with infinite scrolling.](/images/table-infinitescroll.svg "Example of a table with infinite scrolling.")
 
 #### Standard pagination
 
-When infinite scrolling is not an option, a pager may be used to allow the user to navigate through the table.
+When infinite scrolling is not an option, a[ pager](https://booster.zywave.dev/design-system/components/pagers/?tab=usage) may be used to allow the user to navigate through the table.
 
-* The pager should indicate the page the user is currently viewing and provide them with 5 other pages to click on including the last page. This will also give the user an indication of how many pages there are total.
+* The pager should indicate the page the user is currently viewing and provide them with 5 other pages to click on including the last page. This will also give the user an indication of how many pages there are total
 * The user should be able to click on a page number to view that page or use the arrows to navigate to a page
 * The input field to the right of the pages allows the user to type in the page number they want to view
-* If possible, provide the user a way to change the number of rows that are visible in the table at a time (defaulted at 10).
-* * This should be a dropdown aligned with the right edge of the table.
-  * Typical values are 10, 25, 50, 100.
-* When there are 5 or fewer pages, the pager may be simplified to only show the 5 pages and not require the input field to navigate to a specific page.  
+* If possible, provide the user a way to change the number of rows that are visible in the table at a time (defaulted at 10)
+* * This should be a dropdown aligned with the right edge of the table
+  * Typical values are 10, 25, 50, 100
+* When there are 5 or fewer pages, the pager may be simplified to only show the 5 pages and not require the input field to navigate to a specific page
 
 #### Minimal pagination
 
 Use the minimal pager when a more simplistic pager is required, such as on mobile devices.
 
-* The minimal pager should show the page number that the user is currently viewing as well as the last page to indicate to the user how many total pages there are.
-* Arrows to the left and right allow the user to easily navigate through the pages one at a time.
-* The input to the right of the pages allows the user to easily enter the page number they wish to navigate too.
+* The minimal pager should show the page number that the user is currently viewing as well as the last page to indicate to the user how many total pages there are
+* Arrows to the left and right allow the user to easily navigate through the pages one at a time
+* The input to the right of the pages allows the user to easily enter the page number they wish to navigate too
+* W﻿hen the user is trying to find something specific,  such as an account, a pager is ideal
+* W﻿hen the user is browsing, such as a content search, infinite scroll may be ideal
+* F﻿or mobile, infinite scrolling is ideal
+* If the user navigates to a page from within the table, then uses breadcrumbs to navigate back, we should try to remember the location
 
 ![Example of a table with standard and minimal pagination. ](/images/table-pagination.svg "Example of a table with standard and minimal pagination. ")
-
-#### B﻿est practices
-
-* W﻿hen the user is trying to find something specific,  such as a specific account, a pager is ideal.
-* W﻿hen the user is browsing, such as a content search, infinite scroll may be ideal.
-* F﻿or mobile, infinite scrolling is ideal.
-* If the user navigates to a page from within the table, then uses breadcrumbs to navigate back, we should try to remember the location.
 
 ### Wrapping and truncation
 
@@ -188,35 +200,21 @@ Based on the space available and the amount of data contained within the table, 
 
 #### Wrapping data
 
-The benefits of wrapping data is that all of the information is visible to the user and it works well with very detailed information such as plan names
+The benefits of wrapping data is that all of the information is visible to the user and it works well with very detailed information such as plan names.
 
-The negative of wrapping data is that wrapping on more than two lines can add a lot of height to the rows within a table, which can actually harm readability of some data like numbers
+The negative of wrapping data is that wrapping on more than two lines can add a lot of height to the rows within a table, which can actually harm readability of some data like numbers.
 
 #### Truncating data
 
 The benefit of truncation is that the table height remains compact and all row heights will remain equal. 
 
-The negative of wrapping data is that important information may be hidden
+The negative of wrapping data is that important information may be hidden.
 
 #### Things to consider
 
 * When truncating data a tooltip may be used on hover to show the full length
 * Wrapping to a certain number of lines before truncating may be appropriate
 * Move to a full-width table when many columns start wrapping, but consider how this will behave at different browser sizes
-
-### Sorting
-
-![Example of a table with sorting. ](/images/table-sorting.svg "Example of a table with sorting. ")
-
-Allow users to organize rows by a specific category and follow these best practices: 
-
-* Any column can be ordered alphabetically, by date, or numerically by clicking the sort icon next to the column label.
-* Whenever a column is selected for sort, sort by that column only
-* To indicate columns than have been sorted, the ZUI-chevron-up or ZUI-chevron-down icon will be highlighted in blue 
-* *Sorting by the column in ascending order is indicated with a ZUI-chevron up*
-* *Sorting by the column in descending order is indicated with a ZUI-chevron down*
-* When helpful, a column can be displayed sorting by default
-* The entire column header is clickable to trigger sorting
 
 ### Filtering
 
