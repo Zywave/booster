@@ -161,6 +161,7 @@ Infinite scrolling is the preferred method of handling tables that contain enoug
 * As the user scrolls down through the table, an additional set of rows should begin loading when they reach the bottom of the table
 * If the user scrolls back up, the loaded rows should remain and not need to be loaded again
 * Depending on the time necessary to load additional rows, a loading experience may be necessary
+* A﻿ spinner is the preferred method for a loading experience
 
 ![Example of a table with infinite scrolling.](/images/table-infinitescroll.svg "Example of a table with infinite scrolling.")
 
