@@ -225,9 +225,13 @@ The negative of wrapping data is that important information may be hidden.
 Based on the data in the table, the user may be able to add filters to narrow down the data available.
 
 * Unlike other table-level actions, the filter button should be placed directly next to the Search input, 10px apart
-* When the filter button is clicked, a modal should open with filter options
+* When the filter button is clicked, a dropdown or modal should open with filter options
+
+  * Use a filter dropdown when there are just a few filter options
+  * Use a filter modal when there are multiple filter options or filter categories
 * Once filters are selected, they will remain visible in the table header using Tags
 * The filters can be removed directly on the tags, which will reload the results in the table automatically 
+* Filters can also be applied through headers or a filter panel, when these methods are used, the Filter button next to Search should be removed
 
 ![Example of a table with filters. ](/images/table-filters.svg "Example of a table with filters. ")
 
