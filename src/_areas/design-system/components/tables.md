@@ -61,6 +61,11 @@ Text should always be aligned left and dollar amounts right, this allows values 
 
 ### Basic table 
 
+A﻿ basic table should be used to show the user data that is not actionable, searchable, or sortable. A﻿ basic table must contain the following:
+
+* **Column headers**: The title for data within each row
+* **Content rows**: The containers for cell data
+
 ![Example of a table with a results counter. ](/images/table-basictable.svg "Example of a table with a results counter. ")
 
 ### Banded table
@@ -75,13 +80,19 @@ If the table uses row banding, it does not need row dividers.
 
 ### T﻿opbar table
 
+A﻿dd a topbar to a table when the user will need to either search or view the number of results. The search input should always be left-aligned, while the results counter should always be right-aligned. 
+
 ![Example of a table with a results counter. ](/images/table-topbar.svg "Example of a table with a results counter. ")
 
 ### Actions table
 
+A﻿ctions can either be added to the topbar or to the last column on the right of the table. Add actions to the table when the user can take an action on either all data or individual data. 
+
 ![Example of a table with a results counter. ](/images/table-withactions.svg "Example of a table with a results counter. ")
 
 ### Summary table
+
+A﻿dd a summary row to the table when a user needs to know the total amount from a column of data. The summary row should be placed at the bottom of the table and right-aligned with the amount column. 
 
 ![Example of a table with a results counter. ](/images/table-summary.svg "Example of a table with a results counter. ")
 
