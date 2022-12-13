@@ -102,8 +102,8 @@ If the table uses row banding, it does not need row dividers.
 
 When the user needs to find a record in the table, add a search input field.  The search bar is placed on the left side of the table header. 
 
-* D﻿epending on the size and type of data, the search may happen as the user types or after the hit enter.
-* A spinner is recommended for displaying the loaded content.
+* D﻿epending on the size and type of data, the search may happen as the user types or after the hit enter
+* A spinner is recommended for displaying the loaded content
 
 ![Example of a table with search.](/images/table-searching-base.svg "Example of a table with search.")
 
