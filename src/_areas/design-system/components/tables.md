@@ -59,7 +59,33 @@ Text should always be aligned left and dollar amounts right, this allows values 
 
 ## Types
 
-#### Results counter table
+### Basic table 
+
+![Example of a table with a results counter. ](/images/table-basictable.svg "Example of a table with a results counter. ")
+
+### Banded table
+
+Add row banding if the rows become hard to follow, when the data is complex, when there is considerable space between columns, or the table requires horizontal scrolling.
+
+Row banding can distort the meaning of the data by highlighting every other row to the detriment of neighboring rows and can cause user distraction.
+
+If the table uses row banding, it does not need row dividers.
+
+![Example of a table with row banding. ](/images/table-rowbanding.svg "Example of a table with row banding. ")
+
+### T﻿opbar table
+
+![Example of a table with a results counter. ](/images/table-topbar.svg "Example of a table with a results counter. ")
+
+### Actions table
+
+![Example of a table with a results counter. ](/images/table-withactions.svg "Example of a table with a results counter. ")
+
+### Summary table
+
+![Example of a table with a results counter. ](/images/table-summary.svg "Example of a table with a results counter. ")
+
+### Results counter table
 
 Display the current number of results shown in the table to the left of the action in the table header.
 
@@ -72,8 +98,6 @@ Display the current number of results shown in the table to the left of the acti
 
 ### Sortable table
 
-![Example of a table with sorting. ](/images/table-sorting.svg "Example of a table with sorting. ")
-
 Allow users to organize rows by a specific category and follow these best practices: 
 
 * Any column can be ordered alphabetically, by date, or numerically by clicking the sort icon next to the column label.
@@ -84,15 +108,7 @@ Allow users to organize rows by a specific category and follow these best practi
 * When helpful, a column can be displayed sorting by default
 * The entire column header is clickable to trigger sorting
 
-### Banded table
-
-Add row banding if the rows become hard to follow, when the data is complex, when there is considerable space between columns, or the table requires horizontal scrolling.
-
-Row banding can distort the meaning of the data by highlighting every other row to the detriment of neighboring rows and can cause user distraction.
-
-If the table uses row banding, it does not need row dividers.
-
-![Example of a table with row banding. ](/images/table-rowbanding.svg "Example of a table with row banding. ")
+![Example of a table with sorting. ](/images/table-sorting.svg "Example of a table with sorting. ")
 
 <hr>
 
@@ -102,8 +118,8 @@ If the table uses row banding, it does not need row dividers.
 
 When the user needs to find a record in the table, add a search input field.  The search bar is placed on the left side of the table header. 
 
-* D﻿epending on the size and type of data, the search may happen as the user types or after the hit enter
-* A spinner is recommended for displaying the loaded content
+* D﻿epending on the size and type of data, the search may happen as the user types or after the hit enter.
+* A spinner is recommended for displaying the loaded content.
 
 ![Example of a table with search.](/images/table-searching-base.svg "Example of a table with search.")
 
