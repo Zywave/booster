@@ -85,7 +85,7 @@ Use chevrons as separators between Breadcrumb titles. They not only help separat
 
 <div>
 
-![Always use right arrows in breadcrumb trials](/images/1-1.png)
+![Always use left arrows in breadcrumb trials](/images/1-1.png)
 
 <docs-do>
 Always use right arrows in breadcrumb trails.
@@ -134,6 +134,10 @@ Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficia
 </docs-do-not>
 
 </div>
+
+Insert photo D﻿O Keep the first breadcrumb without any chevrons.
+
+I﻿nsert photo D﻿O NOT put a chevron in front of the first breadcrumb (except for mobile where it functions as a back button)
 
 </docs-grid>
 
