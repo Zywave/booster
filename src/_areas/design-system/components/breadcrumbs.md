@@ -39,7 +39,7 @@ Breadcrumbs give users context so they don't feel lost, even when they are deep 
 
 ## Anatomy
 
-For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/a732e0cf-0523-44cb-9c64-cd8162785b7b-f261/grid)
+For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/cbf87f90-f0db-4b94-b430-55727a71b233-9eab/?hints=off)
 
 ![Breadcrumbs - Anatomy](/images/breadcrumb-anatomy.svg)
 
