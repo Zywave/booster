@@ -71,12 +71,6 @@ Breadcrumbs alignment:
 
 ## Best Practices
 
-### Breadcrumb title length
-
-* We recommend keeping Breadcrumb titles to 30 characters or less but leave the length up to the consumer
-
-<docs-spacer>
-
 </docs-spacer>
 
 ### Only ﻿use left chevrons
@@ -115,7 +109,10 @@ Avoid using icons that are not left chevrons, such as forward slash "/", dash "-
 
 ## Responsive Layout
 
-Breadcrumbs on mobile should follow the same pattern and only show the previous page with a chevron to the left.
+* Breadcrumbs on mobile should follow the same pattern and only show the previous page with a chevron to the left.
+* Breadcrumbs titles on mobile will truncate after 30 characters with an ellipsis at the end
+
+
 
 ![Breadcrumbs - mobile layout](/images/moble.png)
 
