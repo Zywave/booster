@@ -73,9 +73,7 @@ Breadcrumbs alignment:
 
 ### Breadcrumb title length
 
-* We recommend keeping Breadcrumb titles to 30 characters or less, especially in longer trails, but leave the length up to the consumer
-
-![truncated title breadcrumb](/images/truncate.png)
+* We recommend keeping Breadcrumb titles to 30 characters or less but leave the length up to the consumer
 
 <docs-spacer>
 
