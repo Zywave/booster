@@ -23,11 +23,11 @@ A Table organizes data visually to help the user derive insights and, when appli
 
 Tables always use cards as their container(s).
 
-* **Table header** (optional): The container that can include search, filters, actions, number of results
-* **Column headers** (required): The title for data within each row
-* **Content rows** (required): The containers for cell data
-* **Summary row** (optional): The container that displays a grand total of values
-* **Table footer** (optional): The container that can include pagination
+1. **Table header** (optional): The container that can include search, filters, actions, number of results
+2. **Column headers** (required): The title for data within each row
+3. **Content rows** (required): The containers for cell data
+4. **Summary row** (optional): The container that displays a grand total of values
+5. **Table footer** (optional): The container that can include pagination
 
 ### Vertical column dividers
 
@@ -59,7 +59,7 @@ Text should always be aligned left and dollar amounts right, this allows values 
 
 ## Types
 
-### Basic table 
+### Basic table
 
 A﻿ basic table should be used to show the user data that is not actionable, searchable, or sortable. A﻿ basic table must contain the following:
 
