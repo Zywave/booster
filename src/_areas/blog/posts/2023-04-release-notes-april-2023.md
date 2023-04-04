@@ -104,7 +104,7 @@ Shoutout to Trevor for adding these enhancements to a couple of the Booster cust
 
 <docs-spacer size="small"></docs-spacer>
 
-#### zui-notifier demos
+#### `zui-notifier` demos
 
 We've finally added demos and code snippets to the Notifier page since they were missing. Please check them out [here](/design-system/components/notifiers/?tab=demos)!
 
