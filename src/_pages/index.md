@@ -6,7 +6,6 @@ navHidden: true
 pageType: home
 subtitle: " "
 ---
-
 <link rel="stylesheet" href="/css/pages/home.css">
 <section>
     <div class="home-introduction">
@@ -201,7 +200,7 @@ subtitle: " "
             <div class="home-value-text">
                 <h3>consistency is key</h3>
                 <h2>One brand voice</h2>
-                <p>Booster's design system helps you build toward your team's shared vision with ease as you continue shooting for the stars.</p>
+                <p>Booster brings cosmic harmony to the Zyverse and ensures that every aspect of your latest project feels cohesive and tapped into the Zywave brand.</p>
             </div>
             <img class="home-value-img" src="/images/home/home-value-2-voice.svg" alt="Throwing a paper airplane at a target">
         </div>
