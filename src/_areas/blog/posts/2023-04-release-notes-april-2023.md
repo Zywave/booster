@@ -70,7 +70,7 @@ Here's the list of icons that are deprecated with some replacement suggestions. 
 
 <br>
 
-<docs-note>To view an entire list of available icons, check [here](/design-system/components/icons/?tab=usage).</docs-note>
+<docs-note>To view the entire list of available icons, [check here](/design-system/components/icons/?tab=usage).</docs-note>
 
 <docs-spacer></docs-spacer>
 
@@ -106,7 +106,7 @@ Shoutout to Trevor for adding these enhancements to a couple of the Booster cust
 
 #### `zui-notifier` demos
 
-We've finally added demos and code snippets to the Notifier page since they were missing. Please check them out [here](/design-system/components/notifiers/?tab=demos)!
+We've finally added demos and code snippets to the Notifier page since they were missing. [Check them out!](/design-system/components/notifiers/?tab=demos)
 
 <docs-spacer size="small"></docs-spacer>
 
