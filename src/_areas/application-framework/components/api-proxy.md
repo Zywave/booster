@@ -64,4 +64,4 @@ A profile token is **required** to provide the correct profile context if your a
 
 ### Do I need to provide a bearer token?
 
-<span style="color: red">Providing a bearer token is an alternative that is not recommended because X, Y, Z. If you cannot A, B, C, then providing a bearer token as an alternative to E, F, G is acceptable.</span>
+<span style="color: red">Providing a bearer token is an alternative that is **not recommended** because any party in possession of the bearer token can exploit it. Bearer tokens need to be protected from disclosure in storage and in transport. If you cannot provide X, Y, Z, then providing a bearer token as an alternative to A, B, C is acceptable.</span>
