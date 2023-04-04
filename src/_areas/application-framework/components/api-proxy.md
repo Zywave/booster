@@ -64,4 +64,10 @@ A profile token is **required** to provide the correct profile context if your a
 
 ### Do I need to provide a bearer token?
 
-<span style="color: red">Providing a bearer token is an alternative that is **not recommended** because any party in possession of the bearer token can exploit it. Bearer tokens need to be protected from disclosure in storage and in transport. If you cannot provide X, Y, Z, then providing a bearer token as an alternative to A, B, C is acceptable.</span>
+Providing a client-side bearer token as an alternative to server-side is **not recommended** because any party in possession of the bearer token can exploit it. If you cannot provide a bearer token via server-side, then providing a client-side bearer token as an alternative is acceptable, provided you protect it from disclosure in storage and in transport.
+
+<docs-spacer size="small"></docs-spacer>
+
+### If I provide a profile token, do I still need to provide a bearer token?
+
+A profile token and a bearer token are not mutually exclusive. While a profile token provides the user's current active profile information, a bearer token provides authentication for the user. How you choose to provide a bearer token (server-side or client-side) is up to you, but we recommend server-side.
