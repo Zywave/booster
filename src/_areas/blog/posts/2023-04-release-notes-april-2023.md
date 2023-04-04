@@ -12,6 +12,8 @@ tags:
 ---
 For the past several months, many improvements have been accumulating for this month's release: enhancements, bug fixes, and even breaking changes.
 
+<docs-spacer></docs-spacer>
+
 ## Breaking changes
 
 ### Icons deprecation
@@ -19,6 +21,8 @@ For the past several months, many improvements have been accumulating for this m
 We have deprecated 21 icons. This deprecation has been in the making since November 2020.
 
 Here's the list of icons that are deprecated with some replacement suggestions. Please replace these deprecated icons immediately if you haven't done so.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Navigation icons
 
@@ -37,7 +41,7 @@ Here's the list of icons that are deprecated with some replacement suggestions. 
 | `zui-nav-rfp`               |                             |
 | `zui-nav-setup`             |                             |
 
-
+<docs-spacer size="small"></docs-spacer>
 
 #### System icons
 
@@ -54,9 +58,11 @@ Here's the list of icons that are deprecated with some replacement suggestions. 
 | `zui-warning-circle` | `zui-indicator-warning` |
 | `zui-dynamic-list`   |                         |
 
-
+<docs-spacer size="small"></docs-spacer>
 
 To view an entire list of available icons, check [here](/design-system/components/icons/?tab=usage).
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Deprecated loader scripts
 
@@ -66,9 +72,13 @@ For official installation instructions for the ZUI bundle, [read this](/design-s
 
 For official installation instructions for the ZAPI bundle, [read this](/application-framework/developers/installation/).
 
+<docs-spacer></docs-spacer>
+
 ## Bug fixes
 
-* `zui-shell-nav-item` will wrap long text in nav items going forward.
+`zui-shell-nav-item` will wrap long text in nav items going forward.
+
+<docs-spacer></docs-spacer>
 
 ## Enhancements and features
 
@@ -78,9 +88,13 @@ When we first built the Booster design system years ago, we were early adopters 
 
 Shoutout to Trevor for adding these enhancements to a couple of the Booster custom elements so they are more closely aligned to native HTML element specs!
 
+<docs-spacer size="small"></docs-spacer>
+
 #### `zui-radio-group`
 
 `zui-radio-group` now has a value property for improved data representation in a form submission.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### `zui-select-dropdown`
 
@@ -88,13 +102,19 @@ Shoutout to Trevor for adding these enhancements to a couple of the Booster cust
 * `zui-select-dropdown` has a new read-only property called `value` that returns the first selected option from a single-select dropdown or multiple values from multiple selected options for a multi-select dropdown.
 * Improved behavior in a non-scrolling `zui-dialog`. When a `zui-select-dropdown` is inside of a `zui-dialog` that does not scroll, the `zui-dialog` will no longer grow in height to accommodate the dropdown list when a user clicks to reveal it.
 
+<docs-spacer size="small"></docs-spacer>
+
 #### zui-notifier demos
 
 We've finally added demos and code snippets to the Notifier page since they were missing. Please check them out [here](/design-system/components/notifiers/?tab=demos)!
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Debugging just got easier with development bundles
 
 We've added unminified JS files for easier debugging since our bundles are very aggressively minified for production, making it very difficult to debug our components. Not only will you be able to debug all Booster components with less effort moving forward, you also get the added benefit of Lit dev logging with extra runtime warnings.
+
+<docs-spacer size="small"></docs-spacer>
 
 #### How do I use the development build files?
 
@@ -123,6 +143,8 @@ All development build (unminified) files are located in the `/dev/` folder inste
 <script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dev/bundle.js"></script>
 <script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dev/components/api-proxy.js"></script>
 ```
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Can I use the development bundles in lower environments for my apps?
 
