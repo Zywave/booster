@@ -7,11 +7,11 @@ mainComponentName: zywave-shell
 includedElements:
   - zywave-shell
 ---
-## General
+## What is Zywave Shell?
 
 Zywave Shell enables applications to have a rich, consistent experience across any application. It builds each subcomponent of [ZUI Shell](/design-system/components/shell) for you, ensuring your users can navigate anywhere in the Zywave ecosystem. 
 
-Bring your application's contents, and let Zywave Shell do the rest!
+Bring your application's contents and let Zywave Shell do the rest!
 
 <docs-spacer></docs-spacer>
 
@@ -76,6 +76,6 @@ Should you need to extend the footer with extra legal jargon or disclaimers, you
 
 ## Multi-profile support
 
-Zywave Shell, by default, will support the type of the active profile of the currently authenticated user of your application.
+Zywave Shell, by default, will support the active profile type of the currently authenticated user of your application.
 
 If your application can support multiple types of profiles, you can include them in Zywave Shell's `switch-profile-type-codes` attribute. This instructs Zywave Shell on how to construct actions for a user to take in order to switch from one profile to another, in the case where they have multiple profiles.

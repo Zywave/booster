@@ -7,9 +7,9 @@ mainComponentName: zywave-api-proxy
 includedElements: []
 ---
 
-## General
+## What is Zywave API Proxy?
 
-Zywave API Proxy defines a keep-alive iframe for easier and more secure client-side communications with the Zywave API proxy. It also makes the utilization of all Application Framework components (e.g., `<zywave-analytics>` and `<zywave-shell>`) simpler, enabling you to focus on what matters.
+Zywave API Proxy defines a keep-alive iframe for easier and more secure client-side communications with the Zywave API proxy. It also simplifies the utilization of all Application Framework components (e.g., `<zywave-analytics>` and `<zywave-shell>`).
 
 <docs-spacer></docs-spacer>
 
