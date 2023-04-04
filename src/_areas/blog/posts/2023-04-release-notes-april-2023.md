@@ -20,9 +20,9 @@ For the past several months, many improvements have been accumulating for this m
 
 We used to have loader scripts to load the ZUI and ZAPI bundles, but they are now deprecated in favor of loading the ES module version. If you're still using `zui-loader.js` for ZUI and/or `loader.js` for ZAPI in your applications, you must immediately switch to `bundle.js`.
 
-For official installation instructions for the ZUI bundle aka Booster design system, [read this](/design-system/developers/installation/).
+For official installation instructions for the ZUI bundle, [read this](/design-system/developers/installation/).
 
-For official installation instructions for the ZAPI bundle aka Booster application framework, [read this](/application-framework/developers/installation/).
+For official installation instructions for the ZAPI bundle, [read this](/application-framework/developers/installation/).
 
 <docs-spacer></docs-spacer>
 
@@ -86,13 +86,13 @@ Here's the list of icons that are deprecated with some replacement suggestions. 
 
 When we first built the Booster design system years ago, we were early adopters of web components and did not realize the importance of aligning our component specs to native HTML element specs. Misaligned specs affected the efficiency of engineers since they had to troubleshoot why a custom element didn't perform as intended and find a workaround.
 
-Shoutout to Trevor for adding these enhancements to a couple of the Booster custom elements so they are more closely aligned to native HTML element specs!
+Shoutout to Trevor for adding these enhancements to a couple of the Booster components so they are more closely aligned to native HTML element specs!
 
 <docs-spacer size="small"></docs-spacer>
 
 #### `zui-radio-group`
 
-`zui-radio-group` now has a value property for improved data representation in a form submission.
+`zui-radio-group` now has a read only property called `value` for improved data representation in form submissions.
 
 <docs-spacer size="small"></docs-spacer>
 
