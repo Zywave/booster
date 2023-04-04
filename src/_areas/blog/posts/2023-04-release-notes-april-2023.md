@@ -68,9 +68,9 @@ Here's the list of icons that are deprecated with some replacement suggestions. 
 | `zui-warning-circle` | `zui-indicator-warning` |
 | `zui-dynamic-list`   |                         |
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
-To view an entire list of available icons, check [here](/design-system/components/icons/?tab=usage).
+<docs-note>To view an entire list of available icons, check [here](/design-system/components/icons/?tab=usage).</docs-note>
 
 <docs-spacer></docs-spacer>
 
