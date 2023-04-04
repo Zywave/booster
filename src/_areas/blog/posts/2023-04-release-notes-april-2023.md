@@ -124,24 +124,24 @@ All development build (unminified) files are located in the `/dev/` folder inste
 <!-- ZUI -->
 
 <!-- Minified PRODUCTION ZUI files -->
-<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@next/dist/bundle.js"></script>
-<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@next/dist/components/table.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/components/table.js"></script>
 
 <!-- Unminified DEVELOPMENT ZUI files -->
-<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@next/dev/bundle.js"></script>
-<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@next/dev/components/table.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dev/bundle.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dev/components/table.js"></script>
 
 
 
 <!-- ZAPI -->
 
 <!-- Minified PRODUCTION ZAPI files -->
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dist/bundle.js"></script>
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dist/components/api-proxy.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/components/api-proxy.js"></script>
 
 <!-- Unminified DEVELOPMENT ZAPI files -->
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dev/bundle.js"></script>
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dev/components/api-proxy.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dev/bundle.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dev/components/api-proxy.js"></script>
 ```
 
 <docs-spacer size="small"></docs-spacer>
