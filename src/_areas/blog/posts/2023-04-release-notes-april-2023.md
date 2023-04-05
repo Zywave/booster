@@ -118,9 +118,9 @@ All development build (unminified) files are located in the `/dev/` folder inste
 <!-- Unminified DEVELOPMENT ZUI files -->
 <script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dev/bundle.js"></script>
 <script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dev/components/table.js"></script>
+```
 
-
-
+```html
 <!-- ZAPI -->
 
 <!-- Minified PRODUCTION ZAPI files -->
