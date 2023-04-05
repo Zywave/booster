@@ -52,7 +52,7 @@ By using Zywave Shell, Zywave theming is applied out of the box.
 
 Our users, and who they are, are immensely important for us to understand. Equally as important is for our users to know who they are currently logged in as (or impersonating as for Zywave employees) and what tenant they are associated with.
 
-Getting this right is difficult. Thankfully, Zywave Shell will retrieve all of the appropriate information about our users (such as their name, tenancy information, and notifications) and present it clearly and consistently.
+Getting this right is difficult, but Zywave Shell will retrieve all of the appropriate information about our users (such as their name, tenancy information, and notifications) and present it consistently.
 
 <docs-spacer size="small"></docs-spacer>
 

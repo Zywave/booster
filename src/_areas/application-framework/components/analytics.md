@@ -132,13 +132,13 @@ The last thing you need to supply is a unique global identifier to the `identity
 * `familyName`: Commonly referred to as "last name"
 * `email`: email address
 
-Any extra fields provided are entirely up to you. However, if you use the same Appcues instance as Zywave, it is highly encouraged your field names are clearly confined to your product suite. For example, Advisen might want to supply the name of the agency. It would be recommended they do something like `advisenAgencyName: 'Awesome Agency'`.
+Any extra fields provided are entirely up to you. However, if you use the same Appcues instance as Zywave, it is highly encouraged your field names are confined to your product suite. For example, Advisen might want to supply the name of the agency. It would be recommended they do something like `advisenAgencyName: 'Awesome Agency'`.
 
 <docs-spacer size="small"></docs-spacer>
 
 ### Third party IDs and testing
 
-No one tests in production! Be sure to use the proper IDs when testing this in a test environment. Transform these IDs with production ones when deploying to a production environment. We have a test instance of Appcues, and most Heap projects are segmented into environments for just this purpose.
+No one tests in production! Be sure to use the proper IDs when testing this in a test environment. Transform these IDs with production ones when deploying to a production environment. We have a test instance of Appcues and most Heap projects are segmented into environments for this purpose.
 
 ---
 
