@@ -4,8 +4,14 @@
   <li class="card"><a href="{{ post.url }}">
       <h2>{{ post.data.title }}</h2>
       <div class="details">
-        <time datetime="{{ post.date | machineDate }}">{{ post.date | readableDate }}</time>
-        <div>{{ post.data.description }}</div>
+        <div class="description">{{ post.data.description }}</div>
+        <div class="date-tags">
+          <time datetime="{{ post.date | machineDate }}">{{ post.date | readableDate }}</time>
+          <div class="tags">
+            {%- for tag in post.data.tags -%}
+              <zui-tag color="gray" class="tag">{{ tag }}</zui-tag color="gray">
+            {%- endfor -%}
+        </div>
       </div>
   </a></li>
 {%- endfor -%}

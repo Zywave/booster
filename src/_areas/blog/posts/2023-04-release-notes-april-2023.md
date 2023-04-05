@@ -10,23 +10,11 @@ hideToc: false
 tags:
   - Release Notes
 ---
-For the past several months, many improvements have been accumulating for this month's release: enhancements, bug fixes, and even breaking changes.
+Many improvements have been accumulating for this month's release, including breaking changes to ZUI icons since we deprecated a bunch of icons. Another important change to the ZUI and ZAPI bundles is we will be deprecating `zui-loader.js` and `loader.js` and have increased the severity of messaging from console warnings to browser alerts for those still using the outdated method of loading the bundles.
 
-<docs-spacer></docs-spacer>
+---
 
-## Breaking changes
-
-### Deprecated loader scripts
-
-We used to have loader scripts to load the ZUI and ZAPI bundles, but they are now deprecated in favor of loading the ES module version. If you're still using `zui-loader.js` for ZUI and/or `loader.js` for ZAPI in your applications, you must immediately switch to `bundle.js`.
-
-For official installation instructions for the ZUI bundle, [read this](/design-system/developers/installation/).
-
-For official installation instructions for the ZAPI bundle, [read this](/application-framework/developers/installation/).
-
-<docs-spacer></docs-spacer>
-
-### Icons deprecation
+## Breaking changes to ZUI icons
 
 We have deprecated 22 icons. This deprecation has been in the making since November 2020.
 
@@ -34,7 +22,7 @@ Here's the list of icons that are deprecated with some replacement suggestions. 
 
 <docs-spacer size="small"></docs-spacer>
 
-#### Navigation icons
+### Navigation icons
 
 | Deprecated icon             | Replacement                 |
 | --------------------------- | --------------------------- |
@@ -53,7 +41,7 @@ Here's the list of icons that are deprecated with some replacement suggestions. 
 
 <docs-spacer size="small"></docs-spacer>
 
-#### System icons
+### System icons
 
 | Deprecated icon      | Replacement             |
 | -------------------- | ----------------------- |
@@ -72,13 +60,13 @@ Here's the list of icons that are deprecated with some replacement suggestions. 
 
 <docs-note>To view the entire list of available icons, [check here](/design-system/components/icons/?tab=usage).</docs-note>
 
-<docs-spacer></docs-spacer>
+---
 
 ## Bug fixes
 
 `zui-shell-nav-item` will wrap long text in nav items going forward.
 
-<docs-spacer></docs-spacer>
+---
 
 ## Enhancements and features
 
@@ -120,7 +108,7 @@ We've added unminified JS files for easier debugging since our bundles are very 
 
 All development build (unminified) files are located in the `/dev/` folder instead of the `/dist/` of each bundle:
 
-```
+```html
 <!-- ZUI -->
 
 <!-- Minified PRODUCTION ZUI files -->
@@ -149,3 +137,12 @@ All development build (unminified) files are located in the `/dev/` folder inste
 #### Can I use the development bundles in lower environments for my apps?
 
 We strongly encourage you to do so! However, please *don't use them in production* since they will reduce your app's performance to end users.
+
+---
+
+## Deprecating loader scripts
+
+We have old scripts to load the ZUI and ZAPI bundles that are now deprecated in favor of loading the ES module versions. For months we've notified users of this change via console warnings if the old scripts are still being used to load ZUI and ZAPI bundles, but now we've increased the severity of this messaging to browser alerts. If you're still using `zui-loader.js` for ZUI and/or `loader.js` for ZAPI in your applications, you must switch to `bundle.js`.
+
+<docs-note>For official installation instructions for the ZUI bundle, [read this](/design-system/developers/installation/).  
+For official installation instructions for the ZAPI bundle, [read this](/application-framework/developers/installation/).</docs-note>
