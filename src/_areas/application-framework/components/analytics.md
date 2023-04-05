@@ -12,7 +12,7 @@ includedElements:
 
 Zywave currently uses three third-party tracking solutions to gather analytics from our applications: [Heap](https://heap.io/), [Appcues](https://www.appcues.com/), and [Google Analytics](https://analytics.google.com). Zywave Analytics bundles these tracking solutions into a single component to simplify the process of adding analytics to your application.
 
-<docs-spacer></docs-spacer>
+---
 
 ## How to use Zywave Analytics
 
@@ -35,7 +35,7 @@ There are three ways to add the analytics scripts to Zywave applications:
 
 <docs-note>When do I use the Zywave API Proxy element `<zywave-api-proxy>`? [Check here.](/application-framework/components/api-proxy/?tab=usage)</docs-note>
 
-<docs-spacer></docs-spacer>
+---
 
 ## Installing Zywave Analytics manually
 
@@ -113,7 +113,7 @@ The last thing you need to supply is a unique global identifier to the `identity
 
 <docs-note>For Zywave, we use a combination of `profileTypeCode` and `profileId`, separated by a tilde (e.g., `identity="B~1234"`).</docs-note>
 
-<docs-spacer></docs-spacer>
+---
 
 ## Best practices
 
@@ -140,7 +140,7 @@ Any extra fields provided are entirely up to you. However, if you use the same A
 
 No one tests in production! Be sure to use the proper IDs when testing this in a test environment. Transform these IDs with production ones when deploying to a production environment. We have a test instance of Appcues, and most Heap projects are segmented into environments for just this purpose.
 
-<docs-spacer></docs-spacer>
+---
 
 ## Content Security Policy requirements
 

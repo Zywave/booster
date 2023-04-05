@@ -13,7 +13,7 @@ Zywave Shell enables applications to have a rich, consistent experience across a
 
 Bring your application's contents and let Zywave Shell do the rest!
 
-<docs-spacer></docs-spacer>
+---
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ Bring your application's contents and let Zywave Shell do the rest!
 
 <docs-note>When do I use the Zywave API Proxy element `<zywave-api-proxy>`? [Check here.](/application-framework/components/api-proxy/?tab=usage)</docs-note>
 
-<docs-spacer></docs-spacer>
+---
 
 ## Built-in functionality
 
@@ -72,7 +72,7 @@ Should you need to extend the footer with extra legal jargon or disclaimers, you
 
 <docs-note>Note: While Zywave Shell *will* provide the copyright years for you as a fallback, it is required that your application supply the `current-year` attribute with the server-side provided year of the current date. Client-side dates are not a reliable source.</docs-note>
 
-<docs-spacer></docs-spacer>
+---
 
 ## Multi-profile support
 

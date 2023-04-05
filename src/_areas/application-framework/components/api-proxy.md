@@ -11,13 +11,13 @@ includedElements: []
 
 Zywave API Proxy defines a keep-alive iframe for easier and more secure client-side communications with the Zywave API proxy. It also simplifies the utilization of all Application Framework components (e.g., `<zywave-analytics>` and `<zywave-shell>`).
 
-<docs-spacer></docs-spacer>
+---
 
 ## When do I use Zywave API Proxy?
 
 Zywave API Proxy is required to communicate with Zywave APIs, such as to provide the correct context for users with different permissions.
 
-<docs-spacer></docs-spacer>
+---
 
 ## What are the minimum requirements to use Zywave API Proxy?
 
@@ -28,7 +28,7 @@ If you meet the minimum requirements below, please include Zywave API Proxy in y
 
 <docs-note>If you're using Zywave Shell in your application, you must include Zywave API Proxy.</docs-note>
 
-<docs-spacer></docs-spacer>
+---
 
 ## Frequently asked questions
 
