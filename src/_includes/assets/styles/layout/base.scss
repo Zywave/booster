@@ -28,6 +28,15 @@ pre, code {
   white-space: pre-wrap;
 }
 
+@layer defaults {
+  code {
+    color: hsl(var(--docs-primary-color-h), var(--docs-primary-color-s), 29%);
+    padding: rem(5);
+    background-color: hsl(var(--docs-primary-color-h), var(--docs-primary-color-s), 89%);
+    border-radius: rem(3);
+  }
+}
+
 main {
   width: 100%;
   margin: 0 auto;

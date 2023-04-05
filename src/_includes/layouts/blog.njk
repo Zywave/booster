@@ -15,15 +15,16 @@ layout: no-side-nav-base
 
 
 <article>
-  <zui-breadcrumbs>
-    <zui-breadcrumb>
-      <a href="{{ '/blog/' | url }}">Blog</a>
-    </zui-breadcrumb>
-  </zui-breadcrumbs>
-  <h1 class="component-header">{{ title }}</h1>
-  <p>
+  <header>
+    <zui-breadcrumbs>
+      <zui-breadcrumb>
+        <a href="{{ '/blog/' | url }}">Blog</a>
+      </zui-breadcrumb>
+    </zui-breadcrumbs>
+    <h1 class="component-header">{{ title }}</h1>
+    <p>{{ description }}</p>
     <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
-  </p>
+  </header>
   <div class="blog-content-wrapper">
     <div id="content">
     {{ content | safe }}
