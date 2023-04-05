@@ -33,6 +33,8 @@ There are three ways to add the analytics scripts to Zywave applications:
    1. You must manually add Zywave Analytics to your application and
    2. Include the appropriate attributes and IDs for the analytics solutions you need (more on that below).
 
+<docs-note>When do I use the Zywave API Proxy element `<zywave-api-proxy>`? [Check here.](/application-framework/components/api-proxy/?tab=usage)</docs-note>
+
 <docs-spacer></docs-spacer>
 
 ## Installing Zywave Analytics manually
@@ -72,7 +74,7 @@ Reach out to the Heap and Appcues group at Zywave.
 
 Once you've gotten the necessary IDs for any or all of the analytics solutions, it's time to install Zywave Analytics in your application!
 
-Fun fact: Zywave Analytics is a native web component and has no expectations of frameworks/libraries being used.
+<docs-note>Fun fact: Zywave Analytics is a native web component and has no expectations of frameworks/libraries being used.</docs-note>
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -107,7 +109,9 @@ We'll go over what the attribute identity is in the next step.
 
 #### Step 3: Add 'identity'
 
-The last thing you need to supply is a unique global identifier to the `identity` attribute in `<zywave-analytics>`. With the way the third-party scripts work, we need an identifier to help track a given individual across multiple sessions and devices. `identity` should be a guaranteed unique global identifier from your system. For Zywave, we use a combination of `profileTypeCode` and `profileId`, separated by a tilde (e.g., `identity="B~1234"`).
+The last thing you need to supply is a unique global identifier to the `identity` attribute in `<zywave-analytics>`. With the way the third-party scripts work, we need an identifier to help track a given individual across multiple sessions and devices. `identity` should be a guaranteed unique global identifier from your system.
+
+<docs-note>For Zywave, we use a combination of `profileTypeCode` and `profileId`, separated by a tilde (e.g., `identity="B~1234"`).</docs-note>
 
 <docs-spacer></docs-spacer>
 
