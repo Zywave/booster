@@ -1,5 +1,4 @@
-body.documentation main .content-wrapper,
-body.blog main .content-wrapper {
+body.documentation main .content-wrapper {
   width: 100%;
 
   @media screen and (min-width: 45em) {
@@ -17,11 +16,6 @@ body.blog main .content-wrapper {
   @media screen and (min-width: 80em) {
     max-width: calc(#{rem(1230)} + 30ch); /* content: 1000px + lr padding: 180px + quick links: 30ch & left margin: 50px */
   }
-}
-
-body.blog main .content-wrapper {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 pre, code {

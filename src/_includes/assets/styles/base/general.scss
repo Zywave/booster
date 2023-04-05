@@ -9,29 +9,31 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  vertical-align: baseline;
-  margin: 0;
-  padding: 0;
-  cursor: pointer;
-  color: var(--docs-green-color);
-  text-decoration: underline;
-  transition: color 100ms ease-in-out;
-
-  &:hover {
-    color: hsl(var(--docs-green-color-h), var(--docs-green-color-s), 44%);
-  }
-
-  &:focus {
-    outline: 1px solid var(--docs-green-color);
-    outline-offset: rem(4);
-    text-decoration: none;
-  }
-
-  &:active {
-    outline: none;
-    color: hsl(var(--docs-green-color-h), var(--docs-green-color-s), 24%);
+@layer defaults {
+  a {
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    color: var(--docs-green-color);
     text-decoration: underline;
+    transition: color 100ms ease-in-out;
+  
+    &:hover {
+      color: hsl(var(--docs-green-color-h), var(--docs-green-color-s), 44%);
+    }
+  
+    &:focus {
+      outline: 1px solid var(--docs-green-color);
+      outline-offset: rem(4);
+      text-decoration: none;
+    }
+  
+    &:active {
+      outline: none;
+      color: hsl(var(--docs-green-color-h), var(--docs-green-color-s), 24%);
+      text-decoration: underline;
+    }
   }
 }
 
@@ -63,4 +65,33 @@ hr {
   margin: rem(50) 0;
   border: 0;
   border-top: 1px solid var(--zui-gray-100);
+}
+
+zui-breadcrumbs zui-breadcrumb {
+  a {
+    display: inline-flex;
+    align-items: center;
+    line-height: inherit;
+    cursor: pointer;
+    color: var(--zui-blue-500);
+    text-decoration: none;
+    transition: color 0.25s ease-out;
+  
+    &:hover {
+      color: var(--zui-blue-400);
+    }
+    
+    &:focus {
+      box-shadow: inset 0 0 0 1px var(--zui-blue);
+      outline: none;
+    }
+    
+    &:active {
+      color: var(--zui-blue-600);
+    }
+  }
+
+  &:last-of-type:not(:first-of-type) a {
+    color: var(--zui-gray-400);
+  }
 }

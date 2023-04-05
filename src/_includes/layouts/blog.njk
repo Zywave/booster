@@ -15,15 +15,22 @@ layout: no-side-nav-base
 
 
 <article>
-  <header>
+  <header class="blog-header">
     <zui-breadcrumbs>
       <zui-breadcrumb>
         <a href="{{ '/blog/' | url }}">Blog</a>
       </zui-breadcrumb>
     </zui-breadcrumbs>
-    <h1 class="component-header">{{ title }}</h1>
-    <p>{{ description }}</p>
-    <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
+    <h1 class="blog-title">{{ title }}</h1>
+    <p class="blog-description">{{ description }}</p>
+    <div class="date-tags">
+      <time datetime="{{ date | machineDate }}">{{ date | readableDate }}</time>
+      <div class="tags">
+        {%- for tag in tags -%}
+          <zui-tag color="gray" class="tag">{{ tag }}</zui-tag color="gray">
+        {%- endfor -%}
+      </div>
+    </div>
   </header>
   <div class="blog-content-wrapper">
     <div id="content">
