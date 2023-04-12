@@ -35,7 +35,7 @@ For a more detailed breakdown of spacing and sizing, view the [design specs](ht
 
 Depending on the location, Tooltips can be placed at the top, bottom, right, or left of the related page element.
 
-![Tooltip positioning](/images/positioning.svg)
+![Tooltip positioning](/images/placement.svg)
 
 - - -
 
@@ -161,6 +161,34 @@ Use a dotted blue underline as an alternative to trigger Tooltips on terminologi
 
 <docs-do-not>
 Avoid using icons to initiate Tooltips when the page element/text is not right next to it because this may confuse users on what this Tooltip is associated with.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+<docs-grid columns="2">
+
+<div>
+
+![Use the info icon for all tooltips.](/images/do-6.svg)
+
+<docs-do>
+Use the info icon for all tooltips.
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid using the help icon. This icon has been deprecated.](/images/don-t-6.svg)
+
+<docs-do-not>
+Avoid using the help icon. This icon has been deprecated.
 </docs-do-not>
 
 </div>

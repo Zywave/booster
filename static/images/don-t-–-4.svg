@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="176" viewBox="0 0 500 176">
+  <defs>
+    <filter id="Card" x="-4.5" y="26.5" width="509" height="155" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Don_t_4">
+      <rect width="500" height="176"/>
+    </clipPath>
+  </defs>
+  <g id="Don_t_4" data-name="Don&apos;t – 4" clip-path="url(#clip-Don_t_4)">
+    <rect width="500" height="176" fill="#f4f4f6"/>
+    <g id="Group_268827" data-name="Group 268827" transform="translate(250 -22)">
+      <g id="Card-2" data-name="Card" transform="translate(-250 52)">
+        <g transform="matrix(1, 0, 0, 1, 0, -30)" filter="url(#Card)">
+          <rect id="Card-3" data-name="Card" width="500" height="146" rx="2" transform="translate(0 30)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="Smart_content" data-name="Smart content" transform="translate(-220 104)" fill="#31313a" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Smart content</tspan></text>
+      <text id="Add_this_content_to_the_Agency_content_section_of_the_Smart_Content_module_to_enable_easy_access_for_your_company_" data-name="Add this content to the Agency content section of the Smart Content module to enable easy access for your company?" transform="translate(-220 119)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="15">Add this content to the </tspan><tspan y="15" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600">Agency content</tspan><tspan y="15" xml:space="preserve"> section of the Smart Content </tspan><tspan x="0" y="34">module to enable easy access for your company?</tspan></text>
+    </g>
+    <g id="Group_268835" data-name="Group 268835" transform="translate(341 119)">
+      <g id="Group_11913" data-name="Group 11913">
+        <g id="Ellipse_6" data-name="Ellipse 6" fill="none" stroke="#2777d3" stroke-width="1">
+          <circle cx="8" cy="8" r="8" stroke="none"/>
+          <circle cx="8" cy="8" r="7.5" fill="none"/>
+        </g>
+      </g>
+      <path id="Path_6649" data-name="Path 6649" d="M153,29.862V23.321a.182.182,0,0,1,.182-.182h1.2a.182.182,0,0,1,.182.182v6.541a.182.182,0,0,1-.182.182h-1.2A.182.182,0,0,1,153,29.862Zm.182-8.292h1.2a.182.182,0,0,0,.182-.182v-1.2a.182.182,0,0,0-.182-.182h-1.2a.182.182,0,0,0-.182.182v1.2A.182.182,0,0,0,153.182,21.569Z" transform="translate(-145.667 -17.07)" fill="#2777d3"/>
+    </g>
+  </g>
+</svg>
