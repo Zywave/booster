@@ -175,6 +175,34 @@ Avoid using icons to initiate Tooltips when the page element/text is not right n
 
 <div>
 
+![Use the info icon for all Tooltips.](/images/do-6.svg)
+
+<docs-do>
+Use the info icon for all Tooltips.
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid using the help icon for Tooltips. This icon has been depreciated. ](/images/don-t-6.svg)
+
+<docs-do-not>
+Avoid using the help icon for Tooltips. This icon has been depreciated. 
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+<docs-grid columns="2">
+
+<div>
+
 ![Use broswers' native title attributes to represent advisory information related to the element](/images/do-–-5.svg)
 
 <docs-do>
