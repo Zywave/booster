@@ -11,8 +11,8 @@ includedElements: []
 Tooltips are user-triggered messages that help provide additional information to a page element. They are usually activated by a mouse hover, keyboard focus, or tap.
 
 * Tooltips can be paired with any trigger, such as icons, buttons, text, etc...
-* Tooltip messages should not be critical for the user to read.
-* There should be no action included within tooltips.
+* Tooltip messages should not be critical for the user to read
+* There should be no action included within tooltips
 
 ![Image for Tooltip usage](/images/usage.svg)
 
@@ -25,9 +25,9 @@ For a more detailed breakdown of spacing and sizing, view the [design specs](ht
 ![Image for Tooltip anatomy](/images/anatomy.svg)
 
 1. **Container:** the container of the Tooltip
-2. **Page element:** paired with Tooltips to indicate additional information is available on hover/focus state
+2. **Trigger:** indicate additional information is available via Tooltip on hover/focus
 3. **Label:** a brief message that provides additional information to users
-4. **Tip:** an arrow pointing from the Tooltip container to the related page element
+4. **Tip:** an arrow pointing from the Tooltip container to the related page element - always make sure that the Tooltip arrow is pointing at the associated page content and is vertically or horizontally centered based on the tooltip message 
 
 - - -
 
@@ -43,7 +43,7 @@ Depending on the location, Tooltips can be placed at the top, bottom, right, or 
 
 ### Mouse hover action
 
-Tooltips appear on hover and remain active until the user's cursor is no longer hovering over the associated page element. A 200ms fade transitions the visibility of Tooltips.
+Tooltips appear on hover and remain active until the user's cursor is no longer hovering over the associated trigger. A 200ms fade transitions the visibility of Tooltips.
 
 ### Keyboard focus
 
@@ -71,10 +71,10 @@ Keep Tooltips simple by only including concise text.
 
 <div>
 
-![Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.](/images/don-t-1.svg)
+![Place actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.](/images/don-t-1.svg)
 
 <docs-do-not>
-Avoid placing actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as they move their cursors away from the page elements.
+Place actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.
 </docs-do-not>
 
 </div>
@@ -129,10 +129,10 @@ Tooltips should be placed close to related content without being disruptive.
 
 <div>
 
-![Ensure Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.](/images/don-t-–-3.svg)
+![Do not block related page content or important functionality of the page.](/images/don-t-–-3.svg)
 
 <docs-do-not>
-Ensure that Tooltips do not block related page content. This will disrupt users' workflow and cause repetitive actions.
+Do not block related page content or important functionality of the page.
 </docs-do-not>
 
 </div>
@@ -175,20 +175,20 @@ Avoid using icons to initiate Tooltips when the page element/text is not right n
 
 <div>
 
-![Use the info icon for all Tooltips.](/images/do-6.svg)
+![Only use the info icon when an icon is used as the trigger for a Tooltip.](/images/do-6.svg)
 
 <docs-do>
-Use the info icon for all Tooltips.
+Only use the info icon when an icon is used as the trigger for a Tooltip.
 </docs-do>
 
 </div>
 
 <div>
 
-![Avoid using the help icon for Tooltips. This icon has been depreciated. ](/images/don-t-6.svg)
+![The help icon should not be used as a trigger for a Tooltip. The help icon can be used with [Popovers](/design-system/components/popovers/) when a link to more helpful information might be necessary.](/images/don-t-6.svg)
 
 <docs-do-not>
-Avoid using the help icon for Tooltips. This icon has been depreciated. 
+The help icon should not be used as a trigger for a Tooltip. The help icon can be used with [Popovers](https://booster.zywave.dev/design-system/components/popovers/) when a link to more helpful information might be necessary.
 </docs-do-not>
 
 </div>
@@ -226,8 +226,3 @@ Avoid using Tooltips the same way as title attributes.
 <docs-spacer>
 
 </docs-spacer>
-
-### Additional guidelines
-
-* Always make sure that the Tooltip arrow is pointing at the associated page content and is vertically or horizontally centered based on the tooltip message
-* Keep Tooltips brief and concise. In certain scenarios, this text may flow onto a second line within the Tooltip. If the text is too complex or an action needs to be taken, you may need to consider a different delivery option for this information.
