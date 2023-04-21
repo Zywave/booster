@@ -9,53 +9,57 @@ includedElements: []
 ---
 ## What are Breadcrumbs
 
-Breadcrumbs are a form of secondary navigation that helps users view and navigate efficiently through page hierarchies. The Breadcrumb links also allow users to backtrack through deep navigation as far as they need to.
+Breadcrumbs are a form of navigation that helps users view and backtrack efficiently through page hierarchies.
 
 <hr>
 
 ## Usage
 
-Breadcrumbs give users context so they don't feel lost, even when they are deep inside large, nested content. 
+Breadcrumbs provide the user context of what page they came from when they are viewing nested content.
 
-![Breadcrumb example](/images/default.png)
+![Breadcrumb - Default](/images/breadcrumb-default.svg)
 
 <br>
 
 ### When to use Breadcrumbs
 
 * When there are 2 or more pages in the hierarchy
-* When it's necessary to inform users of where they are
-* When users need a quick and efficient way to navigate back to high-level pages
+* When it's beneficial to inform users where they are
+* When users need a quick and efficient way to navigate back to previous pages
 
 <br>
 
 ### Why do we use Breadcrumbs
 
 * Quick, efficient, and straightforward navigation within the application
-* Fast navigation: one-click access to get to a higher-level page
-* Informs the user of their location in relation to other pages
+* Fast navigation: one-click access to get to a previous page
 
 <hr>
 
 ## Anatomy
 
-For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/a732e0cf-0523-44cb-9c64-cd8162785b7b-f261/grid)
+For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/cbf87f90-f0db-4b94-b430-55727a71b233-9eab/?hints=off)
 
-![Breadcrumbs - Anatomy](/images/anatomy.png)
+![Breadcrumbs - Anatomy](/images/breadcrumb-anatomy.svg)
 
 <br>
 
 Breadcrumbs can contain the following elements:
 
-1. **Separator**: use right arrow as a separator (tied to the Breadcrumb to it's left) between pages to imply movement between pages
-2. **Item/page**: the section or page title, use the same style as text links without an underline
-3. **Current page**: the current page is always the last Breadcrumb, styled as a disabled text link and it is not clickable
+1. **Icon**: use left chevron at the beginning of the breadcrumb to indicate that the user will be taken back a page
+2. **Link**: a text link to the previous page
+
+<hr>
+
+## S﻿tates
+
+See text link documentation for details about states.
 
 <hr>
 
 ## Layout
 
-![Breadcrumbs - Layout](/images/spacing.png)
+![Breadcrumbs - Layout](/images/breadcrumb-layout.svg)
 
 Breadcrumbs alignment:
 
@@ -66,39 +70,30 @@ Breadcrumbs alignment:
 
 ## Best Practices
 
-### Breadcrumb title length
-
-* We recommend keeping Breadcrumb titles to 30 characters or less, especially in longer trails, but leave the length up to the consumer
-* Breadcrumb titles will truncate after 30 characters with an ellipsis at the end
-
-![truncated title breadcrumb](/images/truncate.png)
-
-<docs-spacer>
-
 </docs-spacer>
 
-### Separators should mimic movement
+### Only ﻿use left chevrons
 
-Use chevrons as separators between Breadcrumb titles. They not only help separate between different Breadcrumb titles, but also help indicate hierarchy.
+Use only left chevrons as separators.
 
 <docs-grid columns="2">
 
 <div>
 
-![Always use right arrows in breadcrumb trials](/images/1-1.png)
+![Always use left chevrons in breadcrumbs](/images/breadcrumbs-do-use-left-chevrons.svg)
 
 <docs-do>
-Always use right arrows in breadcrumb trails.
+Always use left chevrons in breadcrumbs
 </docs-do>
 
 </div>
 
 <div>
 
-![Avoid using icons that are not right arrows, such as forward slash "/", dash "-", and etc.](/images/1-2.png)
+![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/breadcrumb-avoid-using-items-that-are-not-left-chevrons.svg)
 
 <docs-do-not>
-Avoid using icons that are not right arrows, such as forward slash "/", dash "-", and etc.
+Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.
 </docs-do-not>
 
 </div>
@@ -108,100 +103,13 @@ Avoid using icons that are not right arrows, such as forward slash "/", dash "-"
 <docs-spacer>
 
 </docs-spacer>
-
-### The first Breadcrumb should always be spelled out
-
-When placing ellipses, always leave the first item visible and avoid using ellipses at the beginning.
-
-<docs-grid columns="2">
-
-<div>
-
-![Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.](/images/2-1.png)
-
-<docs-do>
-Consider using ellipses from the second item onwards. Always leave the first Breadcrumb item visible to provide a clear starting point of the page hierachy.
-</docs-do>
-
-</div>
-
-<div>
-
-![Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link](/images/2-2.png)
-
-<docs-do-not>
-Avoid placing ellipses at the beginning of a breadcrumb trail as it is beneficial for users to know the origin of the page structure, especially if they are directed from an external link.
-</docs-do-not>
-
-</div>
-
-</docs-grid>
-
-<docs-spacer>
-
-</docs-spacer>
-
-### **Breadcrumb width should not exceed 700px**
-
-For the optimal readability, it is recommended to keep the maximum Breadcrumb length at 700px. If the Breadcrumb trail length exceeds the limit, wrap the remaining Breadcrumbs to the next row below.
-
-<br>
-
-### Breadcrumbs are not intended to be the primary action on a page
-
-Breadcrumbs are intended to supplement other navigational elements on the page, such as "back" "continue" buttons in an action bar.
-
-<br>
-
-### **Breadcrumbs should only indicate hierarchical site pages, not page history**
-
-Breadcrumbs are not designed to show browsing history (such as "back" button in browsers), it is meant to show a given webpage's hierarchical structure. This is critical since browsing history can get long and complicated very quickly and also would not be beneficial for users who come in from an external link to quickly find out where they are.
-
-<br>
-
-### When using **ellipses, consider making the last two items visible**
-
-When in a long Breadcrumb trail, items that are closer to the current page hold more weight to users than others. It is recommended to make the last two items (including current page) visible.
-
-<hr>
-
-## Behavior
-
-### Upon refreshing/re-navigating to the page, collapse long Breadcrumb trails
-
-After expanding a long Breadcrumb trail, refreshing the page will collapse the trail automatically.
-
-<br>
-
-### Single Breadcrumb
-
-Default state is the shortest form of a Breadcrumb navigation. It contains the current page with one prior Breadcrumb.
-
-![Breadcrumbs - default](/images/default.png)
-
-<br>
-
-### Long Breadcrumb trail
-
-When there are 5 or more pages in a Breadcrumb trail, we recommend using an ellipsis to hide everything between the first page and the second to last page. Clicking the ellipsis will expand to reveal all the hidden Breadcrumbs.
-
-![Breadcrumbs - long](/images/long.png)
-
-<br>
-
-### Long Breadcrumb trail - expanded
-
-When the ellipsis is clicked, the Breadcrumb trail will expand to show all hidden pages. When the Breadcrumbs are fully expanded, any overflow will wrap to a new line.
-
-![Breadcrumbs - long expanded](/images/long-–-expanded.png)
 
 <hr>
 
 ## Responsive Layout
 
-### Shorten Breadcrumbs to only show the last level on mobile
-
-Due to the smaller screen size and potential complexity of Breadcrumbs, a mobile Breadcrumb functions as an on-screen back button. This Breadcrumb is simplified to the last level before the current page with a chevron to the left.
+* Breadcrumbs on mobile should follow the same pattern and only show the previous page with a chevron to the left.
+* Breadcrumbs titles on mobile will truncate after 30 characters with an ellipsis at the end
 
 ![Breadcrumbs - mobile layout](/images/moble.png)
 
