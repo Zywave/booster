@@ -136,3 +136,29 @@ I﻿MAGE
 Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
+
+#### Best-practices
+
+<docs-grid columns="2">
+  <div>
+
+I﻿MAGE
+
+<docs-do>
+
+Use categorical colors when there are multiple data points to compare unless highlighting an area of focus. See *Areas of focus* section for more details.
+
+</docs-do>
+  </div>
+  <div>
+
+I﻿MAGE
+
+<docs-do-not>
+
+Use more than four lines
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
