@@ -43,3 +43,84 @@ The following are the basic types of data visualizations. For detailed documenta
 Booster supports`vertical column`, `line`, `vertical bar`, `display`, `pie`, `donut `and `heatmap `charts.
 
 When choosing a chart type, consider your data set and what you want to convey about the data.
+
+<docs-spacer size="small"></docs-spacer>
+
+#### Changes over time
+
+A change over time, comparisons, and trends, consider a line or vertical column chart.
+
+Common use cases include:
+
+* Quote volume in the past 90 days
+* Sales closed per agent
+
+I﻿MAGE
+
+#### Category & ranking comparison
+
+A comparison between distinct categories, consider a horizontal bar or horizontal grouped bar chart.
+
+Common use cases include:
+
+* Quote volume by office
+* Top-selling products
+
+I﻿MAGE
+
+#### Part to whole
+
+A comparison of proportions of a whole or how partial elements add to a total, consider a donut, pie or stacked chart.
+
+Common use cases include:
+
+* Bridged to bound quotes
+
+I﻿MAGE
+
+#### Display
+
+A quantifiable measure that is used to track and display the status of a specific process. Examples include a sum, an average, or a movement in a positive or negative direction, consider a display metric.
+
+Common use cases include:
+
+* Total quote volume
+
+I﻿MAGE
+
+#### Spatial
+
+A visualization to quickly understand data across both space and time on a geographic region, consider a choropleth.
+
+Common use cases include:
+
+* Geographical: Quote volume by zip code
+
+I﻿MAGE
+
+- - -
+
+## Layout & structure
+
+Putting all of the components together in the right layout is essential for a user to digest and analyze the data efficiently. This includes:
+
+1. **Title:** A clear, actionable title that will help users understand what exactly they looking at. Example: Quote volume by office - Top 10.
+2. **Subtitle** (optional): Provides context for the title.
+3. **Data visual:** Consider your data set and what you want to convey about the data when selecting a data visual.
+4. **Axis:** All charts have 2 axis lines which should be used as a guideline yet be unobtrusive.
+5. **Axis labels:** Axis lines should be labeled for clarity.
+6. **Controls** (optional): Charts can have various controls. Example: Favorite, Expand, filter
+7. **Annotation** (optional): Highlights data points and data outliers
+8. **Legend** (optional): Some chart elements may need more context with labels
+
+I﻿MAGE
+
+For detailed documentation on Data visualization, view the `Data visualization design specs`.
+
+<docs-spacer size="small"></docs-spacer>
+
+#### Line charts
+
+Line charts are used to show change over time, comparisons, and trends. Use line charts when the number of data points is more than 30. For detailed documentation on line charts, view the `Data visualization design specs`.
+
+I﻿MAGE
