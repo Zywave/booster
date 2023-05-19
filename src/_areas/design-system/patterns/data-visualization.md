@@ -117,10 +117,22 @@ I﻿MAGE
 
 For detailed documentation on Data visualization, view the `Data visualization design specs`.
 
-<docs-spacer size="small"></docs-spacer>
+- - -
 
-#### Line charts
+## Line charts
 
 Line charts are used to show change over time, comparisons, and trends. Use line charts when the number of data points is more than 30. For detailed documentation on line charts, view the `Data visualization design specs`.
+
+I﻿MAGE
+
+#### Legend
+
+Be sure to include a categorical color legend if comparing more than one data point. Sometimes direct labeling can be used if data is less dense. On desktop, a legend should be positioned below a chart. On mobile, place the legend above the chart to keep it visible during interactions.
+
+I﻿MAGE
+
+#### Annotation
+
+Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
