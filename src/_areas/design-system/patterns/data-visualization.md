@@ -10,6 +10,8 @@ hideToc: false
 
 Data visuals are designed to make it easy to compare data and use it to tell a story – both of which can help users in decision-making. This allows users to digest, visualize and see trends in their data.
 
+I﻿MAGE
+
 - - -
 
 ## Principles
@@ -33,3 +35,11 @@ Keep the visual elements as simple as possible. Only necessary information such 
 Designing with real data will reveal the effectiveness of the visualization. Also test when there are a few data points (one or two) or many data points (100 or more). Adapt data visualizations for different device sizes, while anticipating user needs on data depth and complexity
 
 - - -
+
+## Types
+
+The following are the basic types of data visualizations. For detailed documentation on Data visualization, view the `Data visualization design specs.`
+
+Booster supports`vertical column`, `line`, `vertical bar`, `display`, `pie`, `donut `and `heatmap `charts.
+
+When choosing a chart type, consider your data set and what you want to convey about the data.
