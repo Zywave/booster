@@ -1,9 +1,8 @@
 ---
 layout: documentation
 title: Iconography
-subtitle:
+subtitle: null
 ---
-
 ## Icon Overview
 
 Icons are one half of our visual library within ZUI. Icons can be broken up into two main categories: Navigation and System.
@@ -12,23 +11,89 @@ Icons are one half of our visual library within ZUI. Icons can be broken up into
 
 ## Navigation Icons
 
-Navigation icons provide our users with an easily recognizable visual for parent-level items within the Sidenav or Topbar. Combined with their text labels, they will speed up recognition and processing of the link text. Navigation icons are especially important when the user has collapsed the Sidenav as they are the only item immediately visible to the user.
+Navigation icons provide our users with an easily recognizable visual for parent-level items within the Sidenav or Topbar. Combined with their text labels, they will speed up recognition and processing of the link text. 
 
-Our Navigation icons fit into two groups: canonized and generic. Most of our icons are canonized and have a consistent meaning. Any time a user sees a canonized icon they should know exactly what page they will be taken to. On the contrary, when a generic icon is used, the page a user is taken to may differ slightly based on the product they are accessing it from.
+<!--StartFragment-->
 
-### Canonized icons
+### Principles
 
-Canonized icons should never be reused to represent more than one feature or tool.
+#### **Bold over basic**
 
-### Generic icons
+Our nav icons are meant to stand out. Since they will always be paired with their descriptive text in the navigation, focus on icons that make a significant statement and are more unique than system icons.
 
-Generic icons have a more general meaning and can be used to represent more than one feature or tool.
+#### **Modern over mature**
 
-### Shell icons
+Nav icon design should follow more modern patterns. Focus on current design trends including rounded corner and a sense of delight.
 
-These icons are used specifically in Shell's 2 core sections: topbar and sidenav. Shell icons help identify major navigational features and different user states in applications.
+#### **Balance over biased**
 
----
+Nav icon design should have an equitable balance between being professional and playful. Focus on be professional but with delight.
+
+#### **Clarity over consistency**
+
+the guides are flexible when necessary to best represent the metaphor or parts of it.
+
+#### **Style**
+
+* visually interesting but professional
+* more unique than system icons
+
+### Usage
+
+Nav icon definition/description
+
+\[Insert image here]
+
+### Anatomy
+
+For a more detailed breakdown, view *(insert link for more detailed specs.)*
+
+\[Insert image here]
+
+ 
+
+1. **Corner**: fill in info here
+2. **Stroke terminal**: fill in info here
+3. **Counter stroke**: fill in info here
+4. **Stroke:** fill in info here
+5. **Counter area:** fill in info here
+6. **Bounding area:** fill in here
+
+### Best practices
+
+Intro
+
+### Best practice #1
+
+Sample text
+
+\[Insert Do and Don’t images here]
+
+### Best practice #2
+
+Sample text
+
+\[Insert Do and Don’t images here]
+
+ 
+
+### Best practice #3
+
+Sample text
+
+\[Insert Do and Don’t images here]
+
+ 
+
+### Best practice #4
+
+Sample text
+
+\[Insert Do and Don’t images here]
+
+<!--EndFragment-->
+
+- - -
 
 ## System Icons
 
@@ -124,8 +189,8 @@ The zui-close icon is used to signify when a component can be closed or dismisse
 
 ### Remove or delete icons
 
-There are two icons that may be used to signify something that can be removed/deleted: zui-delete and zui-remove.  
-The zui-delete icon (trash can) should be used sparingly and is often associated with a more permanent delete. We recommend using this in situations where there is only one delete action on the page. It appears most often alongside text within a button, but it can also be used alone within an icon button. This icons should be ZUI Red 500 to indicate a destructive action when clicked, and should never be ZUI Gray 800 when used in this context.  
+There are two icons that may be used to signify something that can be removed/deleted: zui-delete and zui-remove.\
+The zui-delete icon (trash can) should be used sparingly and is often associated with a more permanent delete. We recommend using this in situations where there is only one delete action on the page. It appears most often alongside text within a button, but it can also be used alone within an icon button. This icons should be ZUI Red 500 to indicate a destructive action when clicked, and should never be ZUI Gray 800 when used in this context.\
 The zui-remove (X) icon is used more frequently and can indicate the ability to remove or permanently delete something. Zui-remove is the preferred icon when there is one or more delete/remove action on the page. For example, it is often seen in tables to delete a row or to remove filters and selections in a dropdown. Consider using ZUI Red 500 to indicate a destructive action when clicked.
 
 <center>
