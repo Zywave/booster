@@ -355,12 +355,35 @@ I﻿MAGE
 
 #### **Designing a dashboard**
 
-A dashboards purpose should be reflected in its layout. The design of the dashboard should suit how it will be used, whether it's a tool for deeply exploring data or answering predefined questions. Dashboards should prioritize the most important information by placing charts with high significance towards the top.
+A dashboard's purpose should be reflected in its layout. The design of the dashboard should suit how it will be used, whether it's a tool for deeply exploring data or answering predefined questions. Dashboards should prioritize the most important information by placing charts with high significance toward the top.
 
 Here are some best practices for creating effective data visualization layouts:
+
+U﻿SE IMAGERY FROM DATA VIZ PPT PRESENTATION
 
 1. **Group related charts together:** Place charts that are related or have a similar purpose close to each other.
 2. **Use hierarchy to portray significance:** Place charts with high importance but less specificity towards the top and charts with less importance but more specificity towards bottom.
 3. **Use consistent colors and typography:** Use the design system's color and typography guidelines to ensure consistency and readability.
 4. **Consider the user's workflow:** Design the layout to match the user's workflow and the tasks they need to accomplish.
 5. **Provide context:** Provide additional context or explanations for complex data points, so that users can understand the meaning behind the data.
+
+- - -
+
+## **Drilling down**
+
+Drilling down into information means allowing users to interact and explore the data in more detail. For detailed documentation on drilling down, view the `Data visualization design specs`.
+
+I﻿MAGE
+
+Here are some best practices for implementing drilling down:
+
+1. **Keep it simple:** Don't overwhelm the user with too many options or levels of detail.
+2. **Provide context:** Make sure the user understands where they are and what they are looking at before offering the option to drill down.
+3. **Use breadcrumbs:** Provide a clear path for the user to follow back to the original view.
+4. **Offer clear labels and descriptions:** Use descriptive labels and tooltips to help the user understand what they are looking at.
+
+- - -
+
+## **Alternate considerations**
+
+* Use a *table* when multiple metrics and categories need to be presented together, and an accurate lookup of the data values is more important than showing patterns in the data.
