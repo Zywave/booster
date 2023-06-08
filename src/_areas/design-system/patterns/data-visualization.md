@@ -317,6 +317,50 @@ I﻿MAGE
 
 #### **Movement**
 
-Display metrics are usually combined with other visual elements for clearer communication. These can include bar charts, line charts, icons and deltas.
+Display metrics are usually combined with other visual elements for clearer communication. These can include bar charts, line charts, icons, and deltas.
 
 IMAGE
+
+- - -
+
+## **Heatmap**
+
+Heatmaps associate a color to a value over a geographic region rather than a strict grid such as a heatmap. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on heatmap charts, view the `Data visualization design specs`.
+
+I﻿MAGE
+
+- - -
+
+## **Behavior**
+
+#### **Areas of focus**
+
+Color can highlight an area of focus, when it is used sparingly. It’s not recommended to use a substantial amount of color highlights, as they can distract and hinder user focus.
+
+IMAGE
+
+#### **Color indicates meaning**
+
+Use color when certain data need is displayed in a negative or positive light. Red shows a negative delta and green shows a positive delta.
+
+IMAGE
+
+- - -
+
+## **Dashboards**
+
+In addition to choosing the right chart type, it's important to consider the layout of your dashboard. Dashboards can better help communicate a story rather than one complex chart. Dashboards are a collection of multiple separate charts on a screen. For detailed documentation on dashboards, view the `Data visualization design specs`.
+
+I﻿MAGE
+
+#### **Designing a dashboard**
+
+A dashboards purpose should be reflected in its layout. The design of the dashboard should suit how it will be used, whether it's a tool for deeply exploring data or answering predefined questions. Dashboards should prioritize the most important information by placing charts with high significance towards the top.
+
+Here are some best practices for creating effective data visualization layouts:
+
+1. **Group related charts together:** Place charts that are related or have a similar purpose close to each other.
+2. **Use hierarchy to portray significance:** Place charts with high importance but less specificity towards the top and charts with less importance but more specificity towards bottom.
+3. **Use consistent colors and typography:** Use the design system's color and typography guidelines to ensure consistency and readability.
+4. **Consider the user's workflow:** Design the layout to match the user's workflow and the tasks they need to accomplish.
+5. **Provide context:** Provide additional context or explanations for complex data points, so that users can understand the meaning behind the data.
