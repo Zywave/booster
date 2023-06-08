@@ -40,7 +40,7 @@ Designing with real data will reveal the effectiveness of the visualization. Als
 
 The following are the basic types of data visualizations. For detailed documentation on Data visualization, view the `Data visualization design specs.`
 
-Booster supports`vertical column`, `line`, `vertical bar`, `display`, `pie`, `donut `and `heatmap `charts.
+Booster supports`vertical column`, `line`, `vertical bar`, `display`, `pie`, `donut`and `heatmap`charts.
 
 When choosing a chart type, consider your data set and what you want to convey about the data.
 
@@ -157,6 +157,80 @@ I﻿MAGE
 <docs-do-not>
 
 Use more than four lines
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+- - -
+
+## Bar charts
+
+Line charts are used to compare different values that are hierarchically equivalent. In bar graphs each variable should consistently be represented using one color. Multiple colors can be used if there is more than one variable, but each variable has its own color. For detailed documentation on bar charts, view the `Data visualization design specs`.
+
+#### Vertical column charts
+
+Vertical column charts are used to show change over time, trends, and individual data points. Use column charts for when the number of data points is fewer than 30, or else use a line chart.
+
+I﻿MAGE
+
+#### **Horizontal bar charts**
+
+Vertical column charts are used to show change over time, trends, and individual data points. Use column charts when the number of data points is fewer than 30, or else use a line chart.
+
+I﻿MAGE
+
+#### Annotation
+
+Highlight data points, data outliers, and any noteworthy content.
+
+I﻿MAGE
+
+#### Best-practices
+
+<docs-grid columns="2">
+  <div>
+
+I﻿MAGE
+
+<docs-do>
+
+Use one color for the bars
+
+</docs-do>
+  </div>
+  <div>
+
+I﻿MAGE
+
+<docs-do-not>
+
+Use more than one color for the bars
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-grid columns="2">
+  <div>
+
+I﻿MAGE
+
+<docs-do>
+
+Make the width of each bar about twice as wide as the space between them.
+
+</docs-do>
+  </div>
+  <div>
+
+I﻿MAGE
+
+<docs-do-not>
+
+Make the bars too skinny
 
 </docs-do-not>
   </div>
