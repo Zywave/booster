@@ -236,3 +236,79 @@ Make the bars too skinny
   </div>
   
 </docs-grid>
+
+- - -
+
+## **Donut and pie charts**
+
+Donut and pie charts express portions of a whole, using arcs or angles within a circle Use donut and pie charts for showing partial elements that add up to a total. They can become difficult to understand when they include many segments. Try to use 2-3 segments if possible, and no more than 5. For detailed documentation on donut and pie charts, view the `Data visualization design specs`.
+
+I﻿MAGE
+
+#### **Legend**
+
+Be sure to include a categorical color legend. Sometimes direct labeling can be used if data is less dense. A legend should be positioned to the right of a donut chart, but if there is not enough horizontal space, it can be placed below the chart.
+
+I﻿MAGE
+
+#### **Annotation**
+
+Highlight data points, data outliers, and any noteworthy content.
+
+I﻿MAGE
+
+#### Best-practices
+
+<docs-grid columns="2">
+  <div>
+
+I﻿MAGE
+
+<docs-do>
+
+Use categorical colors for each segment.
+
+</docs-do>
+  </div>
+  <div>
+
+I﻿MAGE
+
+<docs-do-not>
+
+Use the same color shade for each segment unless highlighting an area of focus.
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-grid columns="2">
+  <div>
+
+I﻿MAGE
+
+<docs-do>
+
+Use 2-3 segments if possible. Donut charts become difficult to understand they include many segments.
+
+</docs-do>
+  </div>
+  <div>
+
+I﻿MAGE
+
+<docs-do-not>
+
+Use more than 5 segments.
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+- - -
+
+## **Display metrics**
+
+Display metrics are used to show a single value with a base unit. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on display metrics, view the `Data visualization design specs`.
