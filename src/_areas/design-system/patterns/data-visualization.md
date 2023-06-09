@@ -331,22 +331,6 @@ I﻿MAGE
 
 - - -
 
-## **Behavior**
-
-#### **Areas of focus**
-
-Color can highlight an area of focus, when it is used sparingly. It’s not recommended to use a substantial amount of color highlights, as they can distract and hinder user focus.
-
-IMAGE
-
-#### **Color indicates meaning**
-
-Use color when certain data need is displayed in a negative or positive light. Red shows a negative delta and green shows a positive delta.
-
-IMAGE
-
-- - -
-
 ## **Dashboards**
 
 In addition to choosing the right chart type, it's important to consider the layout of your dashboard. Dashboards can better help communicate a story rather than one complex chart. Dashboards are a collection of multiple separate charts on a screen. For detailed documentation on dashboards, view the `Data visualization design specs`.
@@ -399,6 +383,24 @@ IMAGE
 #### **Individual chart filters**
 
 Individual chart filters allow users to adjust the filters for a specific chart without affecting the others.
+
+IMAGE
+
+- - -
+
+## **Color**
+
+The color palette for data visualizations is based on accessibility guidelines to ensure that all users, including those with color blindness or visual impairments, can perceive the information being presented. The color palette includes a range of colors with high contrast and distinction. For detailed documentation on color, view the `Data visualization design specs`.
+
+#### **Color to convey heierarchy**
+
+Color can highlight an area of focus, when it is used sparingly. It’s not recommended to use a substantial amount of color highlights, as they can distract and hinder user focus.
+
+IMAGE
+
+#### **Color to convey meaning**
+
+Use color when certain data need is displayed in a negative or positive light. Red shows a negative delta and green shows a positive delta.
 
 IMAGE
 
