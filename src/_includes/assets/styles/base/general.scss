@@ -3,6 +3,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  --zui-font-size: 1em;
+  --zui-line-height: 1.8;
+}
+
 *,
 *:before,
 *:after {

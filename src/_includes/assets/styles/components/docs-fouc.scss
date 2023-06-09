@@ -2,12 +2,11 @@
 docs-do,
 docs-do-not {
   @include undefined-element {
-    display: flex;
-    flex-direction: column;
+    display: block;
     width: 100%;
 
     &::before {
-      display: flex;
+      display: block;
       width: 100%;
       padding: rem(10) 0;
       font-size: rem(14);
