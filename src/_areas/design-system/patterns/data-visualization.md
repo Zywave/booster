@@ -384,6 +384,26 @@ Here are some best practices for implementing drilling down:
 
 - - -
 
+## **Filtering**
+
+The placement of the filters on the dashboard depends on the specific use case and the number of charts on the page.
+
+The decision on where to place the filters should be based on the needs and preferences of the users, as well as the overall design and layout of the dashboard. The goal is to make the filters easily accessible and intuitive to use, so users can quickly adjust them and get the insights they need. For detailed documentation on filtering, view the `Data visualization design specs`.
+
+#### **Global filters**
+
+Global filters allow users to adjust the filters for all charts at once. They should appear at the top of the page.
+
+IMAGE
+
+#### **Individual chart filters**
+
+Individual chart filters allow users to adjust the filters for a specific chart without affecting the others.
+
+IMAGE
+
+- - -
+
 ## **Alternate considerations**
 
 * Use a *table* when multiple metrics and categories need to be presented together, and an accurate lookup of the data values is more important than showing patterns in the data.
