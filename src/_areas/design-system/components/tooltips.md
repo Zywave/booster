@@ -74,7 +74,7 @@ Keep Tooltips simple by only including concise text.
 ![Place actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.](/images/don-t-1.svg)
 
 <docs-do-not>
-Place actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the page elements.
+Place actionable items in Tooltips, such as buttons and text links. Users will not be able to interact with them because the message will disappear as soon as the users move their cursor away from the associated trigger.
 </docs-do-not>
 
 </div>
@@ -185,10 +185,10 @@ Only use the info icon when an icon is used as the trigger for a Tooltip.
 
 <div>
 
-![The help icon should not be used as a trigger for a Tooltip. The help icon can be used with [Popovers](/design-system/components/popovers/) when a link to more helpful information might be necessary.](/images/don-t-6.svg)
+![The help icon should not be used as a trigger for a Tooltip. The help icon can be used with Popovers when a link to more helpful information might be necessary.](/images/don-t-6.svg)
 
 <docs-do-not>
-The help icon should not be used as a trigger for a Tooltip. The help icon can be used with [Popovers](https://booster.zywave.dev/design-system/components/popovers/) when a link to more helpful information might be necessary.
+The help icon should not be used as a trigger for a Tooltip. The help icon can be used with <a href="/design-system/components/popovers/">Popovers</a> when a link to more helpful information might be necessary.
 </docs-do-not>
 
 </div>
@@ -203,20 +203,20 @@ The help icon should not be used as a trigger for a Tooltip. The help icon can b
 
 <div>
 
-![Use broswers' native title attributes to represent advisory information related to the element](/images/do-–-5.svg)
+![Use the HTML global attribute title to represent advisory information related to the element.](/images/do-–-5.svg)
 
 <docs-do>
-Use browsers' native title attributes to represent advisory information related to the element. If there is no visible name for the element you can reference, use aria-label to provide the user with a recognizable accessible name.
+Use the HTML global attribute `title` to represent advisory information related to the element. If there is no visible name for the element you can reference, use `aria-label` to provide the user with a recognizable accessible name.
 </docs-do>
 
 </div>
 
 <div>
 
-![Avoid using Tooltips the same way as title attributes](/images/don-t-–-5.svg)
+![Avoid using Tooltips the same way as the HTML global attribute title.](/images/don-t-–-5.svg)
 
 <docs-do-not>
-Avoid using Tooltips the same way as title attributes.
+Avoid using Tooltips the same way as the HTML global attribute `title`.
 </docs-do-not>
 
 </div>
