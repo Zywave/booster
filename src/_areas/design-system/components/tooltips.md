@@ -188,7 +188,7 @@ Only use the info icon when an icon is used as the trigger for a Tooltip.
 ![The help icon should not be used as a trigger for a Tooltip. The help icon can be used with Popovers when a link to more helpful information might be necessary.](/images/don-t-6.svg)
 
 <docs-do-not>
-The help icon should not be used as a trigger for a Tooltip. The help icon can be used with <a href="/design-system/components/popovers/">Popovers</a> when a link to more helpful information might be necessary.
+The help icon should not be used as a trigger for a Tooltip. The help icon can be used with <a href="/design-system/components/popovers" style="display: inherit">Popovers</a> when a link to more helpful information might be necessary.
 </docs-do-not>
 
 </div>
@@ -206,7 +206,7 @@ The help icon should not be used as a trigger for a Tooltip. The help icon can b
 ![Use the HTML global attribute title to represent advisory information related to the element.](/images/do-–-5.svg)
 
 <docs-do>
-Use the HTML global attribute `title` to represent advisory information related to the element. If there is no visible name for the element you can reference, use `aria-label` to provide the user with a recognizable accessible name.
+Use the HTML global attribute title to represent advisory information related to the element. If there is no visible name for the element you can reference, use aria-label to provide the user with a recognizable accessible name.
 </docs-do>
 
 </div>
@@ -216,7 +216,7 @@ Use the HTML global attribute `title` to represent advisory information related 
 ![Avoid using Tooltips the same way as the HTML global attribute title.](/images/don-t-–-5.svg)
 
 <docs-do-not>
-Avoid using Tooltips the same way as the HTML global attribute `title`.
+Avoid using Tooltips the same way as the HTML global attribute title.
 </docs-do-not>
 
 </div>
