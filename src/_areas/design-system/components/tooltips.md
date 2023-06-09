@@ -188,7 +188,7 @@ Only use the info icon when an icon is used as the trigger for a Tooltip.
 ![The help icon should not be used as a trigger for a Tooltip. The help icon can be used with Popovers when a link to more helpful information might be necessary.](/images/don-t-6.svg)
 
 <docs-do-not>
-The help icon should not be used as a trigger for a Tooltip. The help icon can be used with <a href="/design-system/components/popovers">Popovers</a> when a link to more helpful information might be necessary.
+The help icon should not be used as a trigger for a Tooltip. The help icon can be used with <a href="/design-system/components/popovers/">Popovers</a> when a link to more helpful information might be necessary.
 </docs-do-not>
 
 </div>
