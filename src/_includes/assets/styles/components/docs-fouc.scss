@@ -3,11 +3,9 @@ docs-do,
 docs-do-not {
   @include undefined-element {
     display: block;
-    width: 100%;
 
     &::before {
       display: block;
-      width: 100%;
       padding: rem(10) 0;
       font-size: rem(14);
       text-transform: uppercase;
@@ -42,7 +40,6 @@ docs-do-not {
 docs-spacer {
   @include undefined-element {
     display: block;
-    width: 100%;
     height: rem(30);
     transition: height 100ms ease-in-out;
 
@@ -97,7 +94,6 @@ docs-grid {
     display: grid;
     grid-template-columns: repeat(var(--docs-grid-columns), 1fr);
     grid-gap: rem(20);
-    width: 100%;
     margin: 0 auto;
     transition: grid-gap 100ms ease-in-out, grid-template-columns 100ms ease-in-out;
     
@@ -118,7 +114,7 @@ quick-links {
     top: 5rem;
     flex-shrink: 0;
     margin: 0 0 0 rem(20);
-    width: 200px;
+    width: 30ch;
     border-left: 1px solid var(--zui-gray-200);
     transition: margin 100ms ease-in-out;
 

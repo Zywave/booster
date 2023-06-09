@@ -1,7 +1,6 @@
 const css = `
   .do, .bar {
     display: block;
-    width: 100%;
   }
   .bar {
     padding: 0.625rem 0; /* 10 / 16 */
