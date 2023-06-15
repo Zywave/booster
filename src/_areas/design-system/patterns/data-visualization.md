@@ -416,7 +416,7 @@ IMAGE
 
 ## **Color for data visualizations**
 
-The color palettes for data visualizations are based on accessibility guidelines to ensure that all users, including those with color blindness or visual impairments, can perceive the information being presented. Appropriate use of color for data visualization allows interrelationships and patterns within data to be easily observed.
+The color palettes for data visualizations are based on accessibility guidelines to ensure that all users, including those with color blindness or visual impairments, can perceive the presented information. Appropriate use of color for data visualization allows interrelationships and patterns within data to be easily observed. 
 
 When choosing a color palette, consider your data set and what you want to convey about the data.
 
