@@ -137,11 +137,11 @@ Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
 
-#### Use cateogorical colors
+#### Use cateogorical colors and line style
 
-Each line should have a unique color. Limit the number of colors (dimension values) to no more than 6. Review `Color for data visualization` for more about choosing colors for line charts.
+Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 6. Review `Color for data visualization` for more about choosing colors for line charts. 
 
-I﻿MAGE
+I﻿MAGE OF COLOR AND LINE STYLE SELECTION
 
 #### Best-practices
 
