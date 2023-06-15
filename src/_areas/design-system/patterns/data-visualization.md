@@ -424,13 +424,13 @@ I﻿MAGE
 
 ### Sequential color palette
 
-A sequential color palette is used when the variable are numeric or ordered values. Colors are assigned to data values in a continuum, usually based on lightness, hue, or both.
+A sequential color palette is used when the variable is numeric or ordered values. Colors are assigned to data values in a continuum, usually based on lightness, hue, or both.
 
 I﻿MAGE
 
 ### Binary color palette
 
-A binary color palettt is used when you are comparing two categories in contrast to each other. The primary difference between the two categories of a binary scheme may be a lightness.
+A binary color palette is used when the variable is a comparison of two categories. A common use case is to show hierarchy. The primary difference between the two categories of a binary scheme may be lightness.
 
 I﻿MAGE
 
