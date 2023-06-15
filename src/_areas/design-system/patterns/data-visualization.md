@@ -434,8 +434,14 @@ A binary color palette is used when the variable is a comparison of two categori
 
 I﻿MAGE
 
+<docs-spacer size="small"></docs-spacer>
+
+### Qualitative color palette
+
+A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
+
 - - -
 
 ## **Alternate considerations**
 
-* Use a *table* when multiple metrics and categories need to be presented together, and an accurate lookup of the data values is more important than showing patterns in the data.
+* Use a `table` when multiple metrics and categories need to be presented together, and an accurate lookup of the data values is more important than showing patterns in the data.
