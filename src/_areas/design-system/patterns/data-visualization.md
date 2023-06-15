@@ -141,9 +141,15 @@ Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
 
-### Use cateogorical colors and line style
+### Use categorical colors and line style
 
 Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 6. Review `Color for data visualization` for more about choosing colors for line charts. 
+
+I﻿MAGE
+
+**Selecting icon and line style**
+
+In a line chart, the iconography and line style assigned to each group need to be distinct. Follow the pattern below to create each category.
 
 I﻿MAGE OF COLOR AND LINE STYLE SELECTION
 
@@ -439,6 +445,26 @@ I﻿MAGE
 ### Qualitative color palette
 
 A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
+
+I﻿MAGE OF COLOR RANGE
+
+I﻿MAGE EXAMPLE
+
+#### Selecting a qualitative color palette
+
+In a qualitative palette, the colors assigned to each group need to be distinct. Color selection should follow the color series below. The color series follows a pattern going from light shade, dark shade, light shade, dark shade, etc.
+
+IMAGE COLOR SELECTION ORDER
+
+<docs-spacer size="small"></docs-spacer>
+
+### Qualitative color palette
+
+A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
+
+I﻿MAGE OF COLOR RANGE
+
+I﻿MAGE EXAMPLE
 
 - - -
 
