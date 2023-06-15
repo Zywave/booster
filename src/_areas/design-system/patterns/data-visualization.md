@@ -408,21 +408,9 @@ IMAGE
 
 - - -
 
-## **Color**
+## **Color for data visualizations**
 
-The color palette for data visualizations is based on accessibility guidelines to ensure that all users, including those with color blindness or visual impairments, can perceive the information being presented. The color palette includes a range of colors with high contrast and distinction. For detailed documentation on color, view the `Data visualization design specs`.
-
-### Color to convey hierarchy
-
-Color can highlight an area of focus, when it is used sparingly. It’s not recommended to use a substantial amount of color highlights, as they can distract and hinder user focus.
-
-IMAGE
-
-### Color to convey meaning
-
-Use color when certain data need is displayed in a negative or positive light. Red shows a negative delta and green shows a positive delta.
-
-IMAGE
+The color palettes for data visualizations are based on accessibility guidelines to ensure that all users, including those with color blindness or visual impairments, can perceive the information being presented. The color palette includes a range of colors with high contrast and distinction. For detailed documentation on color, view the `Data visualization design specs`.
 
 - - -
 
