@@ -137,7 +137,7 @@ Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
 
-#### Use cateogorical colors and line style
+#### Use cateogory colors and line style 
 
 Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 6. Review `Color for data visualization` for more about choosing colors for line charts. 
 
@@ -253,7 +253,7 @@ Make the bars too skinny
 
 - - -
 
-## **Donut and pie charts**
+## Donut and pie charts
 
 Donut and pie charts express portions of a whole, using arcs or angles within a circle Use donut and pie charts for showing partial elements that add up to a total. They can become difficult to understand when they include many segments. Try to use 2-3 segments if possible, and no more than 5. For detailed documentation on donut and pie charts, view the `Data visualization design specs`.
 
@@ -323,7 +323,7 @@ Use more than 5 segments.
 
 - - -
 
-## **Display metrics**
+## Display metrics
 
 Display metrics are used to show a single value with a base unit. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on display metrics, view the `Data visualization design specs`.
 
@@ -337,7 +337,7 @@ IMAGE
 
 - - -
 
-## **Heatmap**
+## Heatmap
 
 Heatmaps associate a color to a value over a geographic region rather than a strict grid such as a heatmap. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on heatmap charts, view the `Data visualization design specs`.
 
@@ -345,13 +345,13 @@ I﻿MAGE
 
 - - -
 
-## **Dashboards**
+## Dashboards
 
 In addition to choosing the right chart type, it's important to consider the layout of your dashboard. Dashboards can better help communicate a story rather than one complex chart. Dashboards are a collection of multiple separate charts on a screen. For detailed documentation on dashboards, view the `Data visualization design specs`.
 
 I﻿MAGE
 
-#### **Designing a dashboard**
+#### Designing a dashboard
 
 A dashboard's purpose should be reflected in its layout. The design of the dashboard should suit how it will be used, whether it's a tool for deeply exploring data or answering predefined questions. Dashboards should prioritize the most important information by placing charts with high significance toward the top.
 
@@ -367,7 +367,9 @@ U﻿SE IMAGERY FROM DATA VIZ PPT PRESENTATION
 
 - - -
 
-## **Drilling down**
+## Behavior
+
+#### D﻿rilling down
 
 Drilling down into information means allowing users to interact and explore the data in more detail. For detailed documentation on drilling down, view the `Data visualization design specs`.
 
@@ -380,21 +382,21 @@ Here are some best practices for implementing drilling down:
 3. **Use breadcrumbs:** Provide a clear path for the user to follow back to the original view.
 4. **Offer clear labels and descriptions:** Use descriptive labels and tooltips to help the user understand what they are looking at.
 
-- - -
+<docs-spacer size="small"></docs-spacer>
 
-## **Filtering**
+#### Filtering
 
 The placement of the filters on the dashboard depends on the specific use case and the number of charts on the page.
 
 The decision on where to place the filters should be based on the needs and preferences of the users, as well as the overall design and layout of the dashboard. The goal is to make the filters easily accessible and intuitive to use, so users can quickly adjust them and get the insights they need. For detailed documentation on filtering, view the `Data visualization design specs`.
 
-#### **Global filters**
+#### Global filters
 
 Global filters allow users to adjust the filters for all charts at once. They should appear at the top of the page.
 
 IMAGE
 
-#### **Individual chart filters**
+#### Individual chart filters
 
 Individual chart filters allow users to adjust the filters for a specific chart without affecting the others.
 
@@ -402,17 +404,17 @@ IMAGE
 
 - - -
 
-## **Color**
+## Color
 
 The color palette for data visualizations is based on accessibility guidelines to ensure that all users, including those with color blindness or visual impairments, can perceive the information being presented. The color palette includes a range of colors with high contrast and distinction. For detailed documentation on color, view the `Data visualization design specs`.
 
-#### **Color to convey heierarchy**
+#### Color to convey heierarchy
 
 Color can highlight an area of focus, when it is used sparingly. It’s not recommended to use a substantial amount of color highlights, as they can distract and hinder user focus.
 
 IMAGE
 
-#### **Color to convey meaning**
+#### Color to convey meaning
 
 Use color when certain data need is displayed in a negative or positive light. Red shows a negative delta and green shows a positive delta.
 
@@ -420,6 +422,6 @@ IMAGE
 
 - - -
 
-## **Alternate considerations**
+## Alternate considerations
 
 * Use a *table* when multiple metrics and categories need to be presented together, and an accurate lookup of the data values is more important than showing patterns in the data.
