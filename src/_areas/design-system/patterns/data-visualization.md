@@ -68,7 +68,7 @@ Line
   </div>
   <div>
 
-![vertical column](/images/line-chart.svg "vertical column")
+![vertical column](/images/vertical-column-chart.svg "vertical column")
 
 Vertical column
 
