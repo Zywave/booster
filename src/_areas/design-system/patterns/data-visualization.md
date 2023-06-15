@@ -137,6 +137,12 @@ Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
 
+#### Use cateogorical colors
+
+Each line should have a unique color. Limit the number of colors (dimension values) to no more than 6. Review `Color for data visualization` for more about choosing colors for line charts.
+
+I﻿MAGE
+
 #### Best-practices
 
 <docs-grid columns="2">
@@ -178,6 +184,14 @@ I﻿MAGE
 #### **Horizontal bar charts**
 
 Vertical column charts are used to show change over time, trends, and individual data points. Use column charts when the number of data points is fewer than 30, or else use a line chart.
+
+I﻿MAGE
+
+#### **Stacked bar charts**
+
+Stacked bar charts use color to show an additional dimension. To do this, each bar is split into a set of dimension items, distinguished by color, while maintaining the total bar height. Review `Color for data visualization` for more about choosing colors for stacked bar charts.
+
+<!--EndFragment-->
 
 I﻿MAGE
 
