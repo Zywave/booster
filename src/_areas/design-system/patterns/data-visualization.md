@@ -22,15 +22,19 @@ Data visualizations should be approached by:
 
 <docs-spacer size="small"></docs-spacer>
 
-#### Solving a problem
+### Solving a problem
 
 Have a clear question that needs to be answered. If multiple answers to multiple questions are illustrated in a single visualization, it will become over complicated and hard to understand. If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.
 
-#### Simplicity
+<docs-spacer size="small"></docs-spacer>
+
+### Simplicity
 
 Keep the visual elements as simple as possible. Only necessary information such as labels, values, and bars or lines should be present. A key or legend should be provided for more complex data that may have multiple colors or types of information. Colors and other visual elements should always be kept to a minimum when possible.
 
-#### Designing with real data
+<docs-spacer size="small"></docs-spacer>
+
+### Designing with real data
 
 Designing with real data will reveal the effectiveness of the visualization. Also test when there are a few data points (one or two) or many data points (100 or more). Adapt data visualizations for different device sizes, while anticipating user needs on data depth and complexity
 
@@ -46,7 +50,7 @@ When choosing a chart type, consider your data set and what you want to convey a
 
 <docs-spacer size="small"></docs-spacer>
 
-#### Changes over time
+### Changes over time
 
 A change over time, comparisons, and trends, consider a line or vertical column chart.
 
@@ -57,7 +61,7 @@ Common use cases include:
 
 I﻿MAGE
 
-#### Category & ranking comparison
+### Category & ranking comparison
 
 A comparison between distinct categories, consider a horizontal bar or horizontal grouped bar chart.
 
@@ -68,7 +72,7 @@ Common use cases include:
 
 I﻿MAGE
 
-#### Part to whole
+### Part to whole
 
 A comparison of proportions of a whole or how partial elements add to a total, consider a donut, pie or stacked chart.
 
@@ -78,7 +82,7 @@ Common use cases include:
 
 I﻿MAGE
 
-#### Display
+### Display
 
 A quantifiable measure that is used to track and display the status of a specific process. Examples include a sum, an average, or a movement in a positive or negative direction, consider a display metric.
 
@@ -88,7 +92,7 @@ Common use cases include:
 
 I﻿MAGE
 
-#### Spatial
+### Spatial
 
 A visualization to quickly understand data across both space and time on a geographic region, consider a choropleth.
 
@@ -125,25 +129,25 @@ Line charts are used to show change over time, comparisons, and trends. Use line
 
 I﻿MAGE
 
-#### Legend
+### Legend
 
 Be sure to include a categorical color legend if comparing more than one data point. Sometimes direct labeling can be used if data is less dense. On desktop, a legend should be positioned below a chart. On mobile, place the legend above the chart to keep it visible during interactions.
 
 I﻿MAGE
 
-#### Annotation
+### Annotation
 
 Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
 
-#### Use cateogory colors and line style 
+### Use cateogorical colors and line style
 
 Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 6. Review `Color for data visualization` for more about choosing colors for line charts. 
 
 I﻿MAGE OF COLOR AND LINE STYLE SELECTION
 
-#### Best-practices
+### Best-practices
 
 <docs-grid columns="2">
   <div>
@@ -175,19 +179,19 @@ Use more than four lines
 
 Line charts are used to compare different values that are hierarchically equivalent. In bar graphs each variable should consistently be represented using one color. Multiple colors can be used if there is more than one variable, but each variable has its own color. For detailed documentation on bar charts, view the `Data visualization design specs`.
 
-#### Vertical column charts
+### Vertical column charts
 
 Vertical column charts are used to show change over time, trends, and individual data points. Use column charts for when the number of data points is fewer than 30, or else use a line chart.
 
 I﻿MAGE
 
-#### **Horizontal bar charts**
+### Horizontal bar charts
 
 Vertical column charts are used to show change over time, trends, and individual data points. Use column charts when the number of data points is fewer than 30, or else use a line chart.
 
 I﻿MAGE
 
-#### **Stacked bar charts**
+### Stacked bar charts
 
 Stacked bar charts use color to show an additional dimension. To do this, each bar is split into a set of dimension items, distinguished by color, while maintaining the total bar height. Review `Color for data visualization` for more about choosing colors for stacked bar charts.
 
@@ -195,13 +199,13 @@ Stacked bar charts use color to show an additional dimension. To do this, each b
 
 I﻿MAGE
 
-#### Annotation
+### Annotation
 
 Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
 
-#### Best-practices
+### Best-practices
 
 <docs-grid columns="2">
   <div>
@@ -253,25 +257,25 @@ Make the bars too skinny
 
 - - -
 
-## Donut and pie charts
+## **Donut and pie charts**
 
 Donut and pie charts express portions of a whole, using arcs or angles within a circle Use donut and pie charts for showing partial elements that add up to a total. They can become difficult to understand when they include many segments. Try to use 2-3 segments if possible, and no more than 5. For detailed documentation on donut and pie charts, view the `Data visualization design specs`.
 
 I﻿MAGE
 
-#### **Legend**
+### Legend
 
 Be sure to include a categorical color legend. Sometimes direct labeling can be used if data is less dense. A legend should be positioned to the right of a donut chart, but if there is not enough horizontal space, it can be placed below the chart.
 
 I﻿MAGE
 
-#### **Annotation**
+### Annotation
 
 Highlight data points, data outliers, and any noteworthy content.
 
 I﻿MAGE
 
-#### Best-practices
+### Best-practices
 
 <docs-grid columns="2">
   <div>
@@ -323,13 +327,13 @@ Use more than 5 segments.
 
 - - -
 
-## Display metrics
+## **Display metrics**
 
 Display metrics are used to show a single value with a base unit. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on display metrics, view the `Data visualization design specs`.
 
 I﻿MAGE
 
-#### **Movement**
+### Movement
 
 Display metrics are usually combined with other visual elements for clearer communication. These can include bar charts, line charts, icons, and deltas.
 
@@ -337,7 +341,7 @@ IMAGE
 
 - - -
 
-## Heatmap
+## **Heatmap**
 
 Heatmaps associate a color to a value over a geographic region rather than a strict grid such as a heatmap. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on heatmap charts, view the `Data visualization design specs`.
 
@@ -345,13 +349,13 @@ I﻿MAGE
 
 - - -
 
-## Dashboards
+## **Dashboards**
 
 In addition to choosing the right chart type, it's important to consider the layout of your dashboard. Dashboards can better help communicate a story rather than one complex chart. Dashboards are a collection of multiple separate charts on a screen. For detailed documentation on dashboards, view the `Data visualization design specs`.
 
 I﻿MAGE
 
-#### Designing a dashboard
+### Designing a dashboard
 
 A dashboard's purpose should be reflected in its layout. The design of the dashboard should suit how it will be used, whether it's a tool for deeply exploring data or answering predefined questions. Dashboards should prioritize the most important information by placing charts with high significance toward the top.
 
@@ -367,9 +371,9 @@ U﻿SE IMAGERY FROM DATA VIZ PPT PRESENTATION
 
 - - -
 
-## Behavior
+## **Behavior**
 
-#### D﻿rilling down
+### Drilling down
 
 Drilling down into information means allowing users to interact and explore the data in more detail. For detailed documentation on drilling down, view the `Data visualization design specs`.
 
@@ -384,7 +388,7 @@ Here are some best practices for implementing drilling down:
 
 <docs-spacer size="small"></docs-spacer>
 
-#### Filtering
+### Filtering
 
 The placement of the filters on the dashboard depends on the specific use case and the number of charts on the page.
 
@@ -396,7 +400,7 @@ Global filters allow users to adjust the filters for all charts at once. They sh
 
 IMAGE
 
-#### Individual chart filters
+#### **Individual chart filters**
 
 Individual chart filters allow users to adjust the filters for a specific chart without affecting the others.
 
@@ -404,17 +408,17 @@ IMAGE
 
 - - -
 
-## Color
+## **Color**
 
 The color palette for data visualizations is based on accessibility guidelines to ensure that all users, including those with color blindness or visual impairments, can perceive the information being presented. The color palette includes a range of colors with high contrast and distinction. For detailed documentation on color, view the `Data visualization design specs`.
 
-#### Color to convey heierarchy
+### Color to convey hierarchy
 
 Color can highlight an area of focus, when it is used sparingly. It’s not recommended to use a substantial amount of color highlights, as they can distract and hinder user focus.
 
 IMAGE
 
-#### Color to convey meaning
+### Color to convey meaning
 
 Use color when certain data need is displayed in a negative or positive light. Red shows a negative delta and green shows a positive delta.
 
@@ -422,6 +426,6 @@ IMAGE
 
 - - -
 
-## Alternate considerations
+## **Alternate considerations**
 
 * Use a *table* when multiple metrics and categories need to be presented together, and an accurate lookup of the data values is more important than showing patterns in the data.
