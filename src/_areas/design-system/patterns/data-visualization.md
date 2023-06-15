@@ -60,17 +60,17 @@ Common use cases include:
 <docs-grid columns="2">
   <div>
 
-![line chart](/images/line-chart.svg "line chart")
-
 Line
+
+![line chart](/images/line-chart.svg "line chart")
 
 </docs-do>
   </div>
   <div>
 
-![vertical column](/images/vertical-column-chart.svg "vertical column")
-
 Vertical column
+
+![vertical column](/images/vertical-column-chart.svg "vertical column")
 
 </docs-do-not>
   </div>
@@ -88,7 +88,27 @@ Common use cases include:
 * Quote volume by office
 * Top-selling products
 
-I﻿MAGE
+<docs-grid columns="2">
+  <div>
+
+Line
+
+![line chart](/images/line-chart.svg "line chart")
+
+</docs-do>
+  </div>
+  <div>
+
+Vertical column
+
+![vertical column](/images/vertical-column-chart.svg "vertical column")
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Part to whole
 
@@ -98,7 +118,27 @@ Common use cases include:
 
 * Bridged to bound quotes
 
-I﻿MAGE
+<docs-grid columns="2">
+  <div>
+
+Line
+
+![line chart](/images/line-chart.svg "line chart")
+
+</docs-do>
+  </div>
+  <div>
+
+Vertical column
+
+![vertical column](/images/vertical-column-chart.svg "vertical column")
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Display
 
@@ -108,7 +148,27 @@ Common use cases include:
 
 * Total quote volume
 
-I﻿MAGE
+<docs-grid columns="2">
+  <div>
+
+Line
+
+![line chart](/images/line-chart.svg "line chart")
+
+</docs-do>
+  </div>
+  <div>
+
+Vertical column
+
+![vertical column](/images/vertical-column-chart.svg "vertical column")
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Spatial
 
@@ -118,7 +178,27 @@ Common use cases include:
 
 * Geographical: Quote volume by zip code
 
-I﻿MAGE
+<docs-grid columns="2">
+  <div>
+
+Line
+
+![line chart](/images/line-chart.svg "line chart")
+
+</docs-do>
+  </div>
+  <div>
+
+Vertical column
+
+![vertical column](/images/vertical-column-chart.svg "vertical column")
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
 
 - - -
 
