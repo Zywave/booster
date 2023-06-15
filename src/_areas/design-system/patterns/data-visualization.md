@@ -414,6 +414,26 @@ The color palettes for data visualizations are based on accessibility guidelines
 
 When choosing a color palette, consider your data set and what you want to convey about the data.
 
+<docs-spacer size="small"></docs-spacer>
+
+### Qualitative color palette
+
+A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
+
+I﻿MAGE
+
+### Sequential color palette
+
+A sequential color palette is used when the variable are numeric or ordered values. Colors are assigned to data values in a continuum, usually based on lightness, hue, or both.
+
+I﻿MAGE
+
+### Binary color palette
+
+A binary color palettt is used when you are comparing two categories in contrast to each other. The primary difference between the two categories of a binary scheme may be a lightness.
+
+I﻿MAGE
+
 - - -
 
 ## **Alternate considerations**
