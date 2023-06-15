@@ -10,8 +10,6 @@ hideToc: false
 
 Data visuals are designed to make it easy to compare data and use it to tell a story – both of which can help users in decision-making. This allows users to digest, visualize and see trends in their data.
 
-I﻿MAGE
-
 - - -
 
 ## Principles
