@@ -458,13 +458,27 @@ IMAGE COLOR SELECTION ORDER
 
 <docs-spacer size="small"></docs-spacer>
 
-### Qualitative color palette
+### Sequential color palette
 
-A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
+A sequential color palette is used when the variable is numeric or ordered values. Colors are assigned to data values in a continuum, usually based on lightness, hue, or both.
 
 I﻿MAGE OF COLOR RANGE
 
-I﻿MAGE EXAMPLE
+The most prominent dimension of color for a sequential palette is its lightness. Typically, lower values are associated with lighter colors, and higher values with darker colors.
+
+IMAGE EXAMPLE
+
+<docs-spacer size="small"></docs-spacer>
+
+### Binary color palette
+
+A binary color palette shows differences that are divided into only two categories. The primary difference between the two categories of a binary scheme may be a lightness.
+
+I﻿MAGE OF COLOR RANGE
+
+A common use case for a binary color palette is to convey hierarchy. The contrast puts emphasis on an area of focus, when it is used sparingly.
+
+IMAGE EXAMPLE
 
 - - -
 
