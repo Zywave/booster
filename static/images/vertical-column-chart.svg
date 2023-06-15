@@ -17,14 +17,15 @@
       <g transform="matrix(1, 0, 0, 1, 799, 292)" filter="url(#Card)">
         <rect id="Card-2" data-name="Card" width="425" height="250" rx="2" transform="translate(30 30)" fill="#fff"/>
       </g>
-      <g id="Group_270710" data-name="Group 270710" transform="translate(7 29)">
-        <rect id="Rectangle_10409" data-name="Rectangle 10409" width="75" height="36" transform="translate(849 493) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_10410" data-name="Rectangle 10410" width="75" height="36" transform="translate(905 493) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_10411" data-name="Rectangle 10411" width="125" height="36" transform="translate(961 493) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_10412" data-name="Rectangle 10412" width="150" height="36" transform="translate(1017 493) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_10413" data-name="Rectangle 10413" width="100" height="36" transform="translate(1073 493) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_10414" data-name="Rectangle 10414" width="50" height="36" transform="translate(1129 493) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_10415" data-name="Rectangle 10415" width="75" height="36" transform="translate(1185 493) rotate(-90)" fill="#30bbb1"/>
+      <g id="Group_270710" data-name="Group 270710" transform="translate(20 29)">
+        <rect id="Rectangle_10409" data-name="Rectangle 10409" width="75" height="30" transform="translate(849 493) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_10410" data-name="Rectangle 10410" width="75" height="30" transform="translate(894 493) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_10411" data-name="Rectangle 10411" width="125" height="30" transform="translate(939 493) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_10412" data-name="Rectangle 10412" width="150" height="30" transform="translate(984 493) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_10413" data-name="Rectangle 10413" width="100" height="30" transform="translate(1029 493) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_10414" data-name="Rectangle 10414" width="50" height="30" transform="translate(1074 493) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_10415" data-name="Rectangle 10415" width="75" height="30" transform="translate(1119 493) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11686" data-name="Rectangle 11686" width="100" height="30" transform="translate(1164 493) rotate(-90)" fill="#30bbb1"/>
       </g>
     </g>
   </g>

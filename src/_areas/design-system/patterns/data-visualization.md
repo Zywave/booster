@@ -88,24 +88,26 @@ Common use cases include:
 * Quote volume by office
 * Top-selling products
 
-<docs-grid columns="2">
-  <div>
+<docs-grid columns="3">
 
-Line
+<div>
 
-![line chart](/images/line-chart.svg "line chart")
+![](/images/line-chart.svg)
 
-</docs-do>
-  </div>
-  <div>
+</div>
 
-Vertical column
+<div>
 
-![vertical column](/images/vertical-column-chart.svg "vertical column")
+![](/images/line-chart.svg)
 
-</docs-do-not>
-  </div>
-  
+</div>
+
+<div>
+
+![](/images/line-chart.svg)
+
+</div>
+
 </docs-grid>
 
 <docs-spacer size="small"></docs-spacer>
