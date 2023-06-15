@@ -57,7 +57,27 @@ Common use cases include:
 * Quote volume in the past 90 days
 * Sales closed per agent
 
-I﻿MAGE
+<docs-grid columns="2">
+  <div>
+
+![line chart](/images/line-chart.svg "line chart")
+
+Line
+
+</docs-do>
+  </div>
+  <div>
+
+![vertical column](/images/line-chart.svg "vertical column")
+
+Vertical column
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Category & ranking comparison
 

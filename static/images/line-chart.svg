@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="311" viewBox="0 0 485 311">
+  <defs>
+    <filter id="Card" x="25.5" y="26.5" width="434" height="259" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-line_chart">
+      <rect width="485" height="311"/>
+    </clipPath>
+  </defs>
+  <g id="line_chart" data-name="line chart" clip-path="url(#clip-line_chart)">
+    <rect width="485" height="311" fill="#f4f4f6"/>
+    <g id="Group_270708" data-name="Group 270708" transform="translate(-799 -292)">
+      <g transform="matrix(1, 0, 0, 1, 799, 292)" filter="url(#Card)">
+        <rect id="Card-2" data-name="Card" width="425" height="250" rx="2" transform="translate(30 30)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_270709" data-name="Group 270709" transform="translate(-13.592 -20.203)">
+      <rect id="Rectangle_10404" data-name="Rectangle 10404" width="10" height="10" transform="translate(154.5 196.203)" fill="#30bbb1"/>
+      <path id="Path_101193" data-name="Path 101193" d="M892.5,492.591a1.5,1.5,0,0,1-.589-2.88L989.1,448.232a1.5,1.5,0,0,1,.589-.12h95.633l96.566-60.481a1.5,1.5,0,0,1,.318-.151l94.141-31.632a1.5,1.5,0,0,1,.956,2.844l-93.973,31.575-96.781,60.616a1.5,1.5,0,0,1-.8.229H989.995l-96.91,41.359A1.5,1.5,0,0,1,892.5,492.591Z" transform="translate(-829.904 -248.351)" fill="#30bbb1"/>
+      <rect id="Rectangle_10406" data-name="Rectangle 10406" width="10" height="10" transform="translate(251.092 196.202)" fill="#30bbb1"/>
+      <rect id="Rectangle_10408" data-name="Rectangle 10408" width="10" height="10" transform="translate(347.5 136.202)" fill="#30bbb1"/>
+    </g>
+  </g>
+</svg>
