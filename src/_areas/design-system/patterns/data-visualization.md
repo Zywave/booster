@@ -243,9 +243,7 @@ Each line should have a unique color and line style. Limit the number of colors 
 
 I﻿MAGE
 
-**Selecting icon and line style**
-
-In a line chart, the iconography and line style assigned to each group need to be distinct. Follow the pattern below to create each category.
+The lines should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring lines to help with visual differentiation.
 
 I﻿MAGE OF COLOR AND LINE STYLE SELECTION
 
@@ -541,8 +539,6 @@ I﻿MAGE
 ### Qualitative color palette
 
 A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
-
-I﻿MAGE OF COLOR RANGE
 
 I﻿MAGE EXAMPLE
 
