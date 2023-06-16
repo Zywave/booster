@@ -88,13 +88,9 @@ Common use cases include:
 * Quote volume by office
 * Top-selling products
 
-<docs-grid columns="3">
 
-<div>
 
-![](/images/line-chart.svg)
-
-</div>
+<docs-grid columns="2">
 
 <div>
 
@@ -550,9 +546,7 @@ I﻿MAGE OF COLOR RANGE
 
 I﻿MAGE EXAMPLE
 
-#### Selecting a qualitative color palette
-
-In a qualitative palette, the colors assigned to each group need to be distinct. Color selection should follow the color series below. The color series follows a pattern going from light shade, dark shade, light shade, dark shade, etc.
+The colors of this palette should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring colors to help with visual differentiation.
 
 IMAGE COLOR SELECTION ORDER
 
