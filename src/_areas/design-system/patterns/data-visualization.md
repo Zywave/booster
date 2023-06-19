@@ -88,8 +88,6 @@ Common use cases include:
 * Quote volume by office
 * Top-selling products
 
-
-
 <docs-grid columns="2">
 
 <div>
@@ -543,6 +541,10 @@ A qualitative palette is used when the variable is categorical in nature. Exampl
 I﻿MAGE EXAMPLE
 
 The colors of this palette should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring colors to help with visual differentiation.
+
+IMAGE COLOR SELECTION ORDER
+
+To ensure accessibility, line charts should utilize darker shades of color. The colors of this palette should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring colors to help with visual differentiation.
 
 IMAGE COLOR SELECTION ORDER
 
