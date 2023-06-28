@@ -38,11 +38,6 @@ the guides are flexible when necessary to best represent the metaphor or parts o
 * visually interesting but professional
 * more unique than system icons
 
-### Usage
-
-Nav icon definition/description
-
-\[Insert image here]
 
 ### Anatomy
 
