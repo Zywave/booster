@@ -40,6 +40,8 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 ### Anatomy
 
+![](/images/anatomy-navicon.png)
+
 1. **Bounding area**: 24x24px
 2. **Stroke weight**: 1px
 3. **Counter fill:** 20% tint of stroke color
