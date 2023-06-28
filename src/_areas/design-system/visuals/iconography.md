@@ -38,18 +38,13 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 * visually interesting but professional
 * more unique than system icons
 
-
 ### Anatomy
 
-
-
-1. **Corner**: fill in info here
-2. **Stroke cap**: rounded
-3. **Counter stroke**:
-4. **Stroke:** 1px
-5. **Counter fill:** 
-6. **Stroke color:**
-6. **Bounding area:**
+1. **Bounding area**: 24x24px
+2. **Stroke weight**: 1px
+3. **Counter fill:** 20% tint of stroke color
+4. **Stroke cap:** rounded
+5. **Angles:** increments of 45 degrees
 
 ### Best practices
 
@@ -67,15 +62,11 @@ Sample text
 
 \[Insert Do and Don’t images here]
 
- 
-
 ### Best practice #3
 
 Sample text
 
 \[Insert Do and Don’t images here]
-
- 
 
 ### Best practice #4
 
