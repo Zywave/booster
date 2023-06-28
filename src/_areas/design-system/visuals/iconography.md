@@ -31,7 +31,7 @@ Nav icon design should have an equitable balance between being professional and 
 
 #### **Clarity over consistency**
 
-the guides are flexible when necessary to best represent the metaphor or parts of it.
+The guides are flexible when necessary to best represent the metaphor or parts of it. Use your best judgement as a designer.
 
 #### **Style**
 
@@ -41,11 +41,7 @@ the guides are flexible when necessary to best represent the metaphor or parts o
 
 ### Anatomy
 
-For a more detailed breakdown, view *(insert link for more detailed specs.)*
 
-\[Insert image here]
-
- 
 
 1. **Corner**: fill in info here
 2. **Stroke terminal**: fill in info here
