@@ -44,11 +44,12 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 
 1. **Corner**: fill in info here
-2. **Stroke terminal**: fill in info here
-3. **Counter stroke**: fill in info here
-4. **Stroke:** fill in info here
-5. **Counter area:** fill in info here
-6. **Bounding area:** fill in here
+2. **Stroke cap**: rounded
+3. **Counter stroke**:
+4. **Stroke:** 1px
+5. **Counter fill:** 
+6. **Stroke color:**
+6. **Bounding area:**
 
 ### Best practices
 
