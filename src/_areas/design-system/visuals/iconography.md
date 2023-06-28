@@ -56,8 +56,6 @@ Intro
 
 Sample text
 
-\[Insert Do and Don’t images here]
-
 ### Best practice #2
 
 Sample text
