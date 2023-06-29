@@ -48,13 +48,19 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 4. **Stroke cap:** rounded
 5. **Angles:** increments of 45 degrees
 
-## Designing icons
+
 
 ![Nav icons - grid](/images/navicon-keyline-grid.png)
 
-## Best practices
+Insert description.
 
-### S﻿ample best practice title #1
+
+
+## Best Practices
+
+</docs-spacer>
+
+### S﻿ample title #1
 
 Insert description.
 
@@ -62,20 +68,24 @@ Insert description.
 
 <div>
 
-![Always use left chevrons in breadcrumbs](/images/breadcrumbs-do-use-left-chevrons.svg)
+![](/images/do-1.png)
 
 <docs-do>
 Insert description.
+
+
 </docs-do>
 
 </div>
 
 <div>
 
-![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/breadcrumb-avoid-using-items-that-are-not-left-chevrons.svg)
+![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/navicon-don-t-1.png)
 
 <docs-do-not>
-Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.
+Insert description.
+
+
 </docs-do-not>
 
 </div>
@@ -86,31 +96,79 @@ Avoid using icons that are not left chevrons, such as forward slash "/", dash "-
 
 </docs-spacer>
 
-<hr>
+### S﻿ample title #2
 
-Intro
+Insert description.
 
-### Best practice #1
+<docs-grid columns="2">
 
-Sample text
+<div>
 
-### Best practice #2
+![](/images/do-2.png)
 
-Sample text
+<docs-do>
+Insert description.
 
-\[Insert Do and Don’t images here]
 
-### Best practice #3
+</docs-do>
 
-Sample text
+</div>
 
-\[Insert Do and Don’t images here]
+<div>
 
-### Best practice #4
+![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/navicon-don-t-2.png)
 
-Sample text
+<docs-do-not>
+Insert description.
 
-\[Insert Do and Don’t images here]
+
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+### S﻿ample title #3
+
+Insert description.
+
+<docs-grid columns="2">
+
+<div>
+
+![](/images/do-3.png)
+
+<docs-do>
+
+
+Insert description.
+
+
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/navicon-don-t-3.png)
+
+<docs-do-not>
+Insert description.
+
+
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
 
 <!--EndFragment-->
 
