@@ -38,7 +38,7 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 * visually interesting but professional
 * more unique than system icons
 
-### Anatomy
+## Anatomy
 
 ![Nav icons - anatomy](/images/anatomy-navicon.png)
 
@@ -48,11 +48,45 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 4. **Stroke cap:** rounded
 5. **Angles:** increments of 45 degrees
 
-### Designing icons
+## Designing icons
 
 ![Nav icons - grid](/images/navicon-keyline-grid.png)
 
-### Best practices
+## Best practices
+
+### S﻿ample best practice title #1
+
+### Only ﻿use left chevrons
+
+Use only left chevrons as separators.<docs-grid columns="2">
+
+<div>
+
+![Always use left chevrons in breadcrumbs](/images/breadcrumbs-do-use-left-chevrons.svg)
+
+<docs-do>
+Always use left chevrons in breadcrumbs
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/breadcrumb-avoid-using-items-that-are-not-left-chevrons.svg)
+
+<docs-do-not>
+Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+<hr>
 
 Intro
 
