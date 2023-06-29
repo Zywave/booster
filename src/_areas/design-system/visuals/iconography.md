@@ -42,19 +42,19 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 ![Nav icons - anatomy](/images/anatomy-navicon.png)
 
+<﻿br>
+
+
+
 1. **Bounding area**: 24x24px
 2. **Stroke weight**: 1px
 3. **Counter fill:** 20% tint of stroke color
 4. **Stroke cap:** rounded
 5. **Angles:** increments of 45 degrees
 
-
-
 ![Nav icons - grid](/images/navicon-keyline-grid.png)
 
 Insert description.
-
-
 
 ## Best Practices
 
@@ -73,7 +73,6 @@ Insert description.
 <docs-do>
 Insert description.
 
-
 </docs-do>
 
 </div>
@@ -84,7 +83,6 @@ Insert description.
 
 <docs-do-not>
 Insert description.
-
 
 </docs-do-not>
 
@@ -109,7 +107,6 @@ Insert description.
 <docs-do>
 Insert description.
 
-
 </docs-do>
 
 </div>
@@ -120,7 +117,6 @@ Insert description.
 
 <docs-do-not>
 Insert description.
-
 
 </docs-do-not>
 
@@ -144,9 +140,7 @@ Insert description.
 
 <docs-do>
 
-
 Insert description.
-
 
 </docs-do>
 
@@ -158,7 +152,6 @@ Insert description.
 
 <docs-do-not>
 Insert description.
-
 
 </docs-do-not>
 
