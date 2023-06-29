@@ -56,16 +56,14 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 ### S﻿ample best practice title #1
 
-### Only ﻿use left chevrons
-
-Use only left chevrons as separators.<docs-grid columns="2">
+Insert description.<docs-grid columns="2">
 
 <div>
 
 ![Always use left chevrons in breadcrumbs](/images/breadcrumbs-do-use-left-chevrons.svg)
 
 <docs-do>
-Always use left chevrons in breadcrumbs
+Insert description.
 </docs-do>
 
 </div>
