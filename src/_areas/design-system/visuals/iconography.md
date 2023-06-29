@@ -50,7 +50,7 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 ### Designing icons
 
-![](/images/navicon-keyline-grid.png)
+![Nav icons - grid](/images/navicon-keyline-grid.png)
 
 ### Best practices
 
