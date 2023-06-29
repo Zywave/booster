@@ -48,6 +48,10 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 4. **Stroke cap:** rounded
 5. **Angles:** increments of 45 degrees
 
+### Designing icons
+
+![](/images/navicon-keyline-grid.png)
+
 ### Best practices
 
 Intro
