@@ -42,19 +42,26 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 ![Nav icons - anatomy](/images/anatomy-navicon.png)
 
-<﻿br>
+<br>
 
+### **Bounding area**: 24x24px
 
+1. **Stroke weight**: 1px
+2. **Counter fill:** 20% tint of stroke color
+3. **Stroke cap:** rounded
+4. **Angles:** increments of 45 degrees
 
-1. **Bounding area**: 24x24px
-2. **Stroke weight**: 1px
-3. **Counter fill:** 20% tint of stroke color
-4. **Stroke cap:** rounded
-5. **Angles:** increments of 45 degrees
+## Grid
 
 ![Nav icons - grid](/images/navicon-keyline-grid.png)
 
+<br>
+
 Insert description.
+
+<br>
+
+
 
 ## Best Practices
 
@@ -63,6 +70,8 @@ Insert description.
 ### S﻿ample title #1
 
 Insert description.
+
+<br>
 
 <docs-grid columns="2">
 
