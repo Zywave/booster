@@ -56,7 +56,9 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 ### S﻿ample best practice title #1
 
-Insert description.<docs-grid columns="2">
+Insert description.
+
+<docs-grid columns="2">
 
 <div>
 
