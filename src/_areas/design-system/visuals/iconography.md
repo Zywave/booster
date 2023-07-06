@@ -44,12 +44,11 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 <br>
 
-### **Bounding area**: 24x24px
-
-1. **Stroke weight**: 1px
-2. **Counter fill:** 20% tint of stroke color
-3. **Stroke cap:** rounded
-4. **Angles:** increments of 45 degrees
+1. **Bounding area:** 24x24 px
+2. **Stroke weight**: 1px
+3. **Counter fill:** 20% tint of stroke color
+4. **Stroke cap:** rounded
+5. **Angles:** increments of 45 degrees
 
 ## Grid
 
@@ -60,8 +59,6 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 Insert description.
 
 <br>
-
-
 
 ## Best Practices
 
