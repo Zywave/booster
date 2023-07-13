@@ -22,19 +22,15 @@ Navigation icons provide our users with an easily recognizable visual for parent
 Our nav icons are meant to stand out. Since they will always be paired with their descriptive text in the navigation, focus on icons that make a significant statement and are more unique than system icons.
 
 #### **Modern over mature**
-
 Nav icon design should follow more modern patterns. Focus on current design trends including rounded corner and a sense of delight.
 
 #### **Balance over biased**
-
 Nav icon design should have an equitable balance between being professional and playful. Focus on be professional but with delight.
 
 #### **Clarity over consistency**
-
 The guides are flexible when necessary to best represent the metaphor or parts of it. Use your best judgement as a designer.
 
 #### **Style**
-
 * visually interesting but professional
 * more unique than system icons
 
@@ -46,7 +42,7 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 1. **Bounding area:** 24x24 px
 2. **Stroke weight**: 1px
-3. **Counter fill:** 20% tint of stroke color
+3. **Counter fill:** Th be a majority of the fill color. Ideally icons will also include some white fill thought this may not always be possible.
 4. **Stroke cap:** rounded
 5. **Angles:** increments of 45 degrees
 
