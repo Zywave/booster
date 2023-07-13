@@ -40,12 +40,10 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 <br>
 
 1. **Bounding area:** 24x24 px
-2. **Stroke weight**: 1px
+2. **Stroke weight**: 1px, .5px rounded corners
 3. **Counter fill:** Two-tone fill (more detail on color below)
 4. **Stroke cap:** Rounded
 5. **Angles:** Increments of 45 degrees
-
-
 
 ## Color
 
