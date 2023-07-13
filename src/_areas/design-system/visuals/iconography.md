@@ -3,36 +3,35 @@ layout: documentation
 title: Iconography
 subtitle: null
 ---
-## Icon Overview
+## Icon overview
 
 Icons are one half of our visual library within ZUI. Icons can be broken up into two main categories: Navigation and System.
 
 <Spacer size="small"/>
 
-## Navigation Icons
+## Navigation icons
 
 Navigation icons provide our users with an easily recognizable visual for parent-level items within the Sidenav or Topbar. Combined with their text labels, they will speed up recognition and processing of the link text. 
 
 <!--StartFragment-->
 
-### Principles
+## Principles
 
 #### **Bold over basic**
 
-Our nav icons are meant to stand out. Since they will always be paired with their descriptive text in the navigation, focus on icons that make a significant statement and are more unique than system icons.
+Our nav icons are meant to stand out. They will always be paired with their descriptive text in the navigation. This allows the designers to create icons that make a significant statement and are more unique than system icons. 
 
 #### **Modern over mature**
+
 Nav icon design should follow more modern patterns. Focus on current design trends including rounded corner and a sense of delight.
 
 #### **Balance over biased**
-Nav icon design should have an equitable balance between being professional and playful. Focus on be professional but with delight.
+
+Nav icon design should have an equitable balance between being professional and playful. Focus on professional but unique concepts.
 
 #### **Clarity over consistency**
-The guides are flexible when necessary to best represent the metaphor or parts of it. Use your best judgement as a designer.
 
-#### **Style**
-* visually interesting but professional
-* more unique than system icons
+The guides are flexible when necessary to best represent the metaphor or parts of it. Use your best judgement as a designer.
 
 ## Anatomy
 
@@ -42,9 +41,27 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 1. **Bounding area:** 24x24 px
 2. **Stroke weight**: 1px
-3. **Counter fill:** Th be a majority of the fill color. Ideally icons will also include some white fill thought this may not always be possible.
-4. **Stroke cap:** rounded
-5. **Angles:** increments of 45 degrees
+3. **Counter fill:** Two-tone fill (more detail on color below)
+4. **Stroke cap:** Rounded
+5. **Angles:** Increments of 45 degrees
+
+
+
+## Color
+
+![](/images/color.png)
+
+**Default & hover states:**
+
+* Stroke: #606072
+* Counter fill: #E0E0E4
+
+**Selected state:** 
+
+* Stroke: #3B75B5
+* Counter fill: #CADCEE
+
+The counter fill color should be a majority of the fill. Ideally icons will also include some white fill, though this may not always be possible.
 
 ## Grid
 
@@ -52,7 +69,7 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 <br>
 
-Insert description.
+A keyline grid is a set of guides to help maintain optical balance between icons within a set. Use it as a starting point and guide, but not a hard rule. There are four basic shapes that represent common icon scale and placement: circle, square, and rectangles.
 
 <br>
 
@@ -60,9 +77,9 @@ Insert description.
 
 </docs-spacer>
 
-### S﻿ample title #1
+### **Simple, but interesting**
 
-Insert description.
+Find the balance between simple and complex. Make sure to continually check icons at the scale they will be viewed. This will help you determine the correct amount of detail to include. 
 
 <br>
 
@@ -73,7 +90,7 @@ Insert description.
 ![](/images/do-1.png)
 
 <docs-do>
-Insert description.
+This provides enough detail to be immediately recognizable as a house.
 
 </docs-do>
 
@@ -81,10 +98,10 @@ Insert description.
 
 <div>
 
-![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/navicon-don-t-1.png)
+![](/images/navicon-don-t-1.png)
 
 <docs-do-not>
-Insert description.
+The house on the left does not align with the level of detail in the icon set, when possible include more detail for both clarity and visual interest. The icon on the right has too much detail - at scale this looks busy and unclear.
 
 </docs-do-not>
 
@@ -96,9 +113,9 @@ Insert description.
 
 </docs-spacer>
 
-### S﻿ample title #2
+### **C﻿lear & unique**
 
-Insert description.
+Do not use icons that are commonly used for alternate actions. 
 
 <docs-grid columns="2">
 
@@ -107,7 +124,7 @@ Insert description.
 ![](/images/do-2.png)
 
 <docs-do>
-Insert description.
+A target works better for “Prospecting” than a magnifying glass. Additionally, the target provides more visual interest and is a more intriguing concept.
 
 </docs-do>
 
@@ -115,10 +132,10 @@ Insert description.
 
 <div>
 
-![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/navicon-don-t-2.png)
+![](/images/navicon-don-t-2.png)
 
 <docs-do-not>
-Insert description.
+The magnifying glass is often used for search and/or zoom which could create recognition issues for users.
 
 </docs-do-not>
 
@@ -130,9 +147,9 @@ Insert description.
 
 </docs-spacer>
 
-### S﻿ample title #3
+### Optical alignment
 
-Insert description.
+The align tools are great, but make sure to always optically align shapes when needed.
 
 <docs-grid columns="2">
 
@@ -142,7 +159,7 @@ Insert description.
 
 <docs-do>
 
-Insert description.
+This is optically aligned. Although mathematically the triangle is not centered in the circle, it looks centered to the human eye.
 
 </docs-do>
 
@@ -153,7 +170,7 @@ Insert description.
 ![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/navicon-don-t-3.png)
 
 <docs-do-not>
-Insert description.
+This is mathematically aligned but looks off due to the shape and weight of the triangle.
 
 </docs-do-not>
 
