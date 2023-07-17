@@ -208,7 +208,7 @@ Putting all of the components together in the right layout is essential for a us
 1. **Subtitle** (optional): Provides context for the title.
 2. **Legend** (optional): Some chart elements may need more context with labels.
 
-I﻿MAGE
+![Layout and structure](/images/layout-and-structure-2.svg "Layout and structure")
 
 For detailed documentation on Data visualization, view the `Data visualization design specs`.
 
