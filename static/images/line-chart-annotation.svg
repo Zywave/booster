@@ -7,11 +7,11 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <clipPath id="clip-line_chart_-_legend">
+    <clipPath id="clip-line_chart_-_annotation">
       <rect width="1000" height="478"/>
     </clipPath>
   </defs>
-  <g id="line_chart_-_legend" data-name="line chart - legend" clip-path="url(#clip-line_chart_-_legend)">
+  <g id="line_chart_-_annotation" data-name="line chart - annotation" clip-path="url(#clip-line_chart_-_annotation)">
     <rect width="1000" height="478" fill="#f4f4f6"/>
     <g id="Card-2" data-name="Card" transform="translate(105 30)">
       <g transform="matrix(1, 0, 0, 1, -105, -30)" filter="url(#Card)">
@@ -36,6 +36,7 @@
         </g>
       </g>
       <g id="Group_270725" data-name="Group 270725" transform="translate(411 3)">
+        <rect id="Rectangle_11764" data-name="Rectangle 11764" width="246" height="1" transform="translate(-13 333) rotate(-90)" fill="#e6e6ea"/>
         <rect id="Rectangle_11693" data-name="Rectangle 11693" width="719" height="1" transform="translate(359 333) rotate(180)" fill="#e6e6ea"/>
         <rect id="Rectangle_11694" data-name="Rectangle 11694" width="719" height="1" transform="translate(359 292) rotate(180)" fill="#e6e6ea"/>
         <rect id="Rectangle_11695" data-name="Rectangle 11695" width="719" height="1" transform="translate(359 251) rotate(180)" fill="#e6e6ea"/>
@@ -89,6 +90,16 @@
         <rect id="Rectangle_11768" data-name="Rectangle 11768" width="10" height="10" transform="translate(0 102.875)" fill="#30bbb1"/>
         <rect id="Rectangle_11769" data-name="Rectangle 11769" width="10" height="10" transform="translate(165 120)" fill="#30bbb1"/>
         <rect id="Rectangle_11770" data-name="Rectangle 11770" width="10" height="10" transform="translate(336 142)" fill="#30bbb1"/>
+        <g id="Ellipse_2101" data-name="Ellipse 2101" transform="translate(-18 204.664)" fill="#2777d3" stroke="#fff" stroke-width="2">
+          <circle cx="5" cy="5" r="5" stroke="none"/>
+          <circle cx="5" cy="5" r="4" fill="none"/>
+        </g>
+        <g id="Tooltip-_Right" data-name="Tooltip- Right" transform="translate(-1 175.482)">
+          <path id="Union_10" data-name="Union 10" d="M-1370.492-2829.639a2,2,0,0,1-2-2v-27.671l-4.508-4.508,4.508-4.508V-2896a2,2,0,0,1,2-2H-1269a2,2,0,0,1,2,2v64.361a2,2,0,0,1-2,2Z" transform="translate(1377 2898)" fill="#494955"/>
+          <text id="_1_500" data-name="1,500" transform="translate(56 40.361)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-16.611" y="0">1,500</tspan></text>
+          <text id="Quotes" transform="translate(56 57.361)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-17.555" y="0">Quotes</tspan></text>
+          <text id="Nov_31_2023" data-name="Nov 31, 2023" transform="translate(56 21)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-31.966" y="0">Nov 31, 2023</tspan></text>
+        </g>
       </g>
     </g>
   </g>
