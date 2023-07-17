@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="311" viewBox="0 0 485 311">
+  <defs>
+    <filter id="Card" x="25.5" y="26.5" width="434" height="259" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-display">
+      <rect width="485" height="311"/>
+    </clipPath>
+  </defs>
+  <g id="display" clip-path="url(#clip-display)">
+    <rect width="485" height="311" fill="#f4f4f6"/>
+    <g id="Group_270714" data-name="Group 270714">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card)">
+        <rect id="Card-2" data-name="Card" width="425" height="250" rx="2" transform="translate(30 30)" fill="#fff"/>
+      </g>
+      <text id="_10_129" data-name="10,129" transform="translate(50 150)" fill="#31313a" font-size="44" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">10,129</tspan></text>
+      <g id="Tags" transform="translate(70 180)">
+        <rect id="Rectangle_9728" data-name="Rectangle 9728" width="72" height="38" rx="4" transform="translate(-20 -9)" fill="#d7efcd" opacity="0.25"/>
+        <text id="_10_" data-name="10%" transform="translate(8 18)" fill="#376822" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">10%</tspan></text>
+        <g id="Caret_down" data-name="Caret down" transform="translate(-19 -2.5)">
+          <g id="Group_270231" data-name="Group 270231">
+            <g id="Group_270230" data-name="Group 270230" transform="translate(7 8.75)">
+              <path id="Path_101161" data-name="Path 101161" d="M12.384,11.067H3.054a.335.335,0,0,1-.261-.544l4.665-5.83a.334.334,0,0,1,.523,0l4.665,5.83A.335.335,0,0,1,12.384,11.067Z" transform="translate(-2.719 -4.567)" fill="#376822"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Path_101193" data-name="Path 101193" d="M892.5,435.68a1.5,1.5,0,0,1-.589-2.88l55.858-23.839a1.5,1.5,0,0,1,.589-.12h54.779l55.343-34.663a1.5,1.5,0,0,1,.318-.151l54.105-18.18a1.5,1.5,0,0,1,.956,2.844l-53.937,18.123-55.558,34.8a1.5,1.5,0,0,1-.8.229h-54.9l-55.576,23.719A1.5,1.5,0,0,1,892.5,435.68Z" transform="translate(-678.379 -244.18)" fill="#30bbb1"/>
+    </g>
+  </g>
+</svg>

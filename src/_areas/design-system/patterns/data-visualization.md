@@ -68,7 +68,7 @@ Line
   </div>
   <div>
 
-Vertical column
+Bar
 
 ![vertical column](/images/bar-chart.svg "vertical column")
 
@@ -92,11 +92,15 @@ Common use cases include:
 
 <div>
 
+B﻿ar
+
 ![](/images/bar-chart.svg)
 
 </div>
 
 <div>
+
+G﻿rouped bar
 
 ![](/images/grouped-bar-chart.svg)
 
@@ -117,7 +121,7 @@ Common use cases include:
 <docs-grid columns="2">
   <div>
 
-Line
+P﻿ie
 
 ![line chart](/images/donut.svg "line chart")
 
@@ -125,9 +129,13 @@ Line
   </div>
   <div>
 
-Vertical column
+Pie
 
 ![vertical column](/images/pie.svg "vertical column")
+
+
+
+S﻿tacked bar
 
 ![vertical column](/images/stacked-bar-chart.svg "vertical column")
 
@@ -149,19 +157,11 @@ Common use cases include:
 <docs-grid columns="2">
   <div>
 
-Line
+Display
 
-![line chart](/images/line-chart.svg "line chart")
+![line chart](/images/display.svg "line chart")
 
 </docs-do>
-  </div>
-  <div>
-
-Vertical column
-
-![vertical column](/images/vertical-column-chart.svg "vertical column")
-
-</docs-do-not>
   </div>
   
 </docs-grid>
