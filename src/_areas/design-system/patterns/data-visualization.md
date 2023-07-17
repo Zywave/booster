@@ -224,7 +224,7 @@ I﻿MAGE
 
 Be sure to include a categorical color legend if comparing more than one data point. Sometimes direct labeling can be used if data is less dense. On desktop, a legend should be positioned below a chart. On mobile, place the legend above the chart to keep it visible during interactions.
 
-I﻿MAGE
+![Layout and structure](/images/line-chart-legend.svg "Layout and structure")
 
 ### Annotation
 
