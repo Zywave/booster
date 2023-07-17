@@ -228,7 +228,7 @@ Be sure to include a categorical color legend if comparing more than one data po
 
 ### Annotation
 
-Highlight data points, data outliers, and any noteworthy content.
+By hovering over data points, we emphasize key data points, data outliers, and any noteworthy content, allowing for quick access to valuable insights.
 
 I﻿MAGE
 
