@@ -199,14 +199,14 @@ Putting all of the components together in the right layout is essential for a us
 3. **Axis:** Most charts should have at least 1 axis line which should be used as a guideline yet be unobtrusive (optional)
 4. **Axis labels:** Axis lines should be labeled for clarity.
 5. **Controls** (optional): Charts can have various controls. Example: Favorite, Expand, filter
+6. **Annotation** (optional): Highlights data points and data outliers.
 
 ![Layout and structure](/images/layout-and-structure.svg "Layout and structure")
 
 <docs-spacer size="small"></docs-spacer>
 
 1. **Subtitle** (optional): Provides context for the title.
-2. **Annotation** (optional): Highlights data points and data outliers.
-3. **Legend** (optional): Some chart elements may need more context with labels.
+2. **Legend** (optional): Some chart elements may need more context with labels.
 
 I﻿MAGE
 
