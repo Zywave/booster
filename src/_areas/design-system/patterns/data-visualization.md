@@ -70,7 +70,7 @@ Line
 
 Bar
 
-![vertical column](/images/bar-chart.svg "vertical column")
+![Bar chart](/images/bar-chart.svg "Bar chart")
 
 </docs-do-not>
   </div>
@@ -94,7 +94,7 @@ Common use cases include:
 
 B﻿ar
 
-![](/images/bar-chart.svg)
+![Bar chart](/images/bar-chart.svg "Bar chart")
 
 </div>
 
@@ -102,7 +102,7 @@ B﻿ar
 
 G﻿rouped bar
 
-![](/images/grouped-bar-chart.svg)
+![G﻿rouped bar chart](/images/grouped-bar-chart.svg "G﻿rouped bar chart")
 
 </div>
 
@@ -121,9 +121,9 @@ Common use cases include:
 <docs-grid columns="2">
   <div>
 
-P﻿ie
+Donut
 
-![line chart](/images/donut.svg "line chart")
+![Donut chart](/images/donut.svg "Donut chart")
 
 </docs-do>
   </div>
@@ -131,13 +131,13 @@ P﻿ie
 
 Pie
 
-![vertical column](/images/pie.svg "vertical column")
+![Pie chart](/images/pie.svg "Pie chart")
 
 
 
 S﻿tacked bar
 
-![vertical column](/images/stacked-bar-chart.svg "vertical column")
+![Stacked bar chart](/images/stacked-bar-chart.svg "Stacked bar chart")
 
 </docs-do-not>
   </div>
@@ -159,7 +159,7 @@ Common use cases include:
 
 Display
 
-![line chart](/images/display.svg "line chart")
+![Display](/images/display.svg "Display")
 
 </docs-do>
   </div>
@@ -170,7 +170,7 @@ Display
 
 ### Spatial
 
-A visualization to quickly understand data across both space and time on a geographic region, consider a choropleth.
+A visualization to quickly understand data across both space and time on a geographic region, consider a heatmap
 
 Common use cases include:
 
@@ -179,19 +179,11 @@ Common use cases include:
 <docs-grid columns="2">
   <div>
 
-Line
+Heatmap
 
-![line chart](/images/line-chart.svg "line chart")
+![Heatmap](/images/heatmap.svg "Heatmap")
 
 </docs-do>
-  </div>
-  <div>
-
-Vertical column
-
-![vertical column](/images/vertical-column-chart.svg "vertical column")
-
-</docs-do-not>
   </div>
   
 </docs-grid>
