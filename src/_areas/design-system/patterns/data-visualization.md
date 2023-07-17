@@ -133,8 +133,6 @@ Pie
 
 ![Pie chart](/images/pie.svg "Pie chart")
 
-
-
 S﻿tacked bar
 
 ![Stacked bar chart](/images/stacked-bar-chart.svg "Stacked bar chart")
@@ -197,13 +195,18 @@ Heatmap
 Putting all of the components together in the right layout is essential for a user to digest and analyze the data efficiently. This includes:
 
 1. **Title:** A clear, actionable title that will help users understand what exactly they looking at. Example: Quote volume by office - Top 10.
-2. **Subtitle** (optional): Provides context for the title.
-3. **Data visual:** Consider your data set and what you want to convey about the data when selecting a data visual.
-4. **Axis:** All charts have 2 axis lines which should be used as a guideline yet be unobtrusive.
-5. **Axis labels:** Axis lines should be labeled for clarity.
-6. **Controls** (optional): Charts can have various controls. Example: Favorite, Expand, filter
-7. **Annotation** (optional): Highlights data points and data outliers
-8. **Legend** (optional): Some chart elements may need more context with labels
+2. **Data visual:** Consider your data set and what you want to convey about the data when selecting a data visual.
+3. **Axis:** Most charts should have at least 1 axis line which should be used as a guideline yet be unobtrusive (optional)
+4. **Axis labels:** Axis lines should be labeled for clarity.
+5. **Controls** (optional): Charts can have various controls. Example: Favorite, Expand, filter
+
+![Layout and structure](/images/layout-and-structure.svg "Layout and structure")
+
+<docs-spacer size="small"></docs-spacer>
+
+1. **Subtitle** (optional): Provides context for the title.
+2. **Annotation** (optional): Highlights data points and data outliers.
+3. **Legend** (optional): Some chart elements may need more context with labels.
 
 I﻿MAGE
 
