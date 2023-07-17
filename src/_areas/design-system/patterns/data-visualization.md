@@ -70,7 +70,7 @@ Line
 
 Vertical column
 
-![vertical column](/images/vertical-column-chart.svg "vertical column")
+![vertical column](/images/bar-chart.svg "vertical column")
 
 </docs-do-not>
   </div>
@@ -92,13 +92,13 @@ Common use cases include:
 
 <div>
 
-![](/images/line-chart.svg)
+![](/images/bar-chart.svg)
 
 </div>
 
 <div>
 
-![](/images/line-chart.svg)
+![](/images/grouped-bar-chart.svg)
 
 </div>
 
@@ -119,7 +119,7 @@ Common use cases include:
 
 Line
 
-![line chart](/images/line-chart.svg "line chart")
+![line chart](/images/donut.svg "line chart")
 
 </docs-do>
   </div>
@@ -127,7 +127,9 @@ Line
 
 Vertical column
 
-![vertical column](/images/vertical-column-chart.svg "vertical column")
+![vertical column](/images/pie.svg "vertical column")
+
+![vertical column](/images/stacked-bar-chart.svg "vertical column")
 
 </docs-do-not>
   </div>
