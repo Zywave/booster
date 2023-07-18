@@ -240,7 +240,7 @@ Each line should have a unique color and line style. Limit the number of colors 
 
 The lines should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring lines to help with visual differentiation.
 
-I﻿MAGE OF COLOR AND LINE STYLE SELECTION
+![line chart color sequence](/images/line-chart-color-sequence.svg "line chart color sequence")
 
 ### Best-practices
 

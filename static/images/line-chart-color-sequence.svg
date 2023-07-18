@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="121" viewBox="0 0 1000 121">
+  <defs>
+    <clipPath id="clip-line_chart_-_color_sequence">
+      <rect width="1000" height="121"/>
+    </clipPath>
+  </defs>
+  <g id="line_chart_-_color_sequence" data-name="line chart - color sequence" clip-path="url(#clip-line_chart_-_color_sequence)">
+    <rect width="1000" height="121" fill="#f4f4f6"/>
+    <g id="Group_270727" data-name="Group 270727" transform="translate(133.999 22)">
+      <circle id="Ellipse_2102" data-name="Ellipse 2102" cx="5" cy="5" r="5" transform="translate(319 34)" fill="#6ea239"/>
+      <path id="Line_2622" data-name="Line 2622" d="M26,1.5H25A1.5,1.5,0,0,1,23.5,0,1.5,1.5,0,0,1,25-1.5h1A1.5,1.5,0,0,1,27.5,0,1.5,1.5,0,0,1,26,1.5Zm-5,0H20A1.5,1.5,0,0,1,18.5,0,1.5,1.5,0,0,1,20-1.5h1A1.5,1.5,0,0,1,22.5,0,1.5,1.5,0,0,1,21,1.5Zm-5,0H15A1.5,1.5,0,0,1,13.5,0,1.5,1.5,0,0,1,15-1.5h1A1.5,1.5,0,0,1,17.5,0,1.5,1.5,0,0,1,16,1.5Zm-5,0H10A1.5,1.5,0,0,1,8.5,0,1.5,1.5,0,0,1,10-1.5h1A1.5,1.5,0,0,1,12.5,0,1.5,1.5,0,0,1,11,1.5Zm-5,0H5A1.5,1.5,0,0,1,3.5,0,1.5,1.5,0,0,1,5-1.5H6A1.5,1.5,0,0,1,7.5,0,1.5,1.5,0,0,1,6,1.5Zm-5,0H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H1A1.5,1.5,0,0,1,2.5,0,1.5,1.5,0,0,1,1,1.5Z" transform="translate(311.001 39)" fill="#6ea239"/>
+    </g>
+    <g id="Group_270728" data-name="Group 270728" transform="translate(29 22)">
+      <path id="Polygon_1" data-name="Polygon 1" d="M6,0l6,10H0Z" transform="translate(505.501 34)" fill="#c48402"/>
+      <path id="Line_2623" data-name="Line 2623" d="M30,1.5H27A1.5,1.5,0,0,1,25.5,0,1.5,1.5,0,0,1,27-1.5h3A1.5,1.5,0,0,1,31.5,0,1.5,1.5,0,0,1,30,1.5Zm-8,0H18A1.5,1.5,0,0,1,16.5,0,1.5,1.5,0,0,1,18-1.5h4A1.5,1.5,0,0,1,23.5,0,1.5,1.5,0,0,1,22,1.5Zm-9,0H9A1.5,1.5,0,0,1,7.5,0,1.5,1.5,0,0,1,9-1.5h4A1.5,1.5,0,0,1,14.5,0,1.5,1.5,0,0,1,13,1.5Zm-9,0H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H4A1.5,1.5,0,0,1,5.5,0,1.5,1.5,0,0,1,4,1.5Z" transform="translate(497 39)" fill="#c48402"/>
+    </g>
+    <g id="Group_270726" data-name="Group 270726" transform="translate(198 22)">
+      <rect id="Rectangle_11765" data-name="Rectangle 11765" width="10" height="10" transform="translate(174.598 34)" fill="#2aa29a"/>
+      <path id="Line_2624" data-name="Line 2624" d="M30,1.5H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H30A1.5,1.5,0,0,1,31.5,0,1.5,1.5,0,0,1,30,1.5Z" transform="translate(165 39)" fill="#2aa29a"/>
+    </g>
+    <g id="Group_270729" data-name="Group 270729" transform="translate(-63 22)">
+      <path id="Line_2626" data-name="Line 2626" d="M26,1.5H25A1.5,1.5,0,0,1,23.5,0,1.5,1.5,0,0,1,25-1.5h1A1.5,1.5,0,0,1,27.5,0,1.5,1.5,0,0,1,26,1.5Zm-5,0H20A1.5,1.5,0,0,1,18.5,0,1.5,1.5,0,0,1,20-1.5h1A1.5,1.5,0,0,1,22.5,0,1.5,1.5,0,0,1,21,1.5Zm-5,0H15A1.5,1.5,0,0,1,13.5,0,1.5,1.5,0,0,1,15-1.5h1A1.5,1.5,0,0,1,17.5,0,1.5,1.5,0,0,1,16,1.5Zm-5,0H10A1.5,1.5,0,0,1,8.5,0,1.5,1.5,0,0,1,10-1.5h1A1.5,1.5,0,0,1,12.5,0,1.5,1.5,0,0,1,11,1.5Zm-5,0H5A1.5,1.5,0,0,1,3.5,0,1.5,1.5,0,0,1,5-1.5H6A1.5,1.5,0,0,1,7.5,0,1.5,1.5,0,0,1,6,1.5Zm-5,0H0A1.5,1.5,0,0,1-1.5,0,1.5,1.5,0,0,1,0-1.5H1A1.5,1.5,0,0,1,2.5,0,1.5,1.5,0,0,1,1,1.5Z" transform="translate(671 39)" fill="#cf5c0a"/>
+      <rect id="Rectangle_11777" data-name="Rectangle 11777" width="5" height="10" rx="2" transform="translate(681 34)" fill="#cf5c0a"/>
+    </g>
+    <text id="_1" data-name="1" transform="translate(376 43)" fill="#30bbb1" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-3.234" y="0">1</tspan></text>
+    <text id="_2" data-name="2" transform="translate(457 43)" fill="#30bbb1" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-3.234" y="0">2</tspan></text>
+    <text id="_3" data-name="3" transform="translate(539 43)" fill="#30bbb1" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-3.234" y="0">3</tspan></text>
+    <text id="_4" data-name="4" transform="translate(620 43)" fill="#30bbb1" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-3.234" y="0">4</tspan></text>
+    <text id="_2AA29A" data-name="#2AA29A" transform="translate(376 89)" fill="#30bbb1" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-24.858" y="0">#2AA29A</tspan></text>
+    <text id="_6EA239" data-name="#6EA239" transform="translate(457 89)" fill="#30bbb1" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-23.388" y="0">#6EA239</tspan></text>
+    <text id="_C48402" data-name="#C48402" transform="translate(539 89)" fill="#30bbb1" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-23.432" y="0">#C48402</tspan></text>
+    <text id="_CF5C0A" data-name="#CF5C0A" transform="translate(623 89)" fill="#30bbb1" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-24.243" y="0">#CF5C0A</tspan></text>
+  </g>
+</svg>
