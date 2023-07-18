@@ -186,8 +186,6 @@ Heatmap
   
 </docs-grid>
 
-<docs-spacer size="small"></docs-spacer>
-
 - - -
 
 ## Layout & structure
@@ -220,11 +218,15 @@ Line charts are used to show change over time, comparisons, and trends. Use line
 
 I﻿MAGE
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Legend
 
 Be sure to include a categorical color legend if comparing more than one data point. Sometimes direct labeling can be used if data is less dense. On desktop, a legend should be positioned below a chart. On mobile, place the legend above the chart to keep it visible during interactions.
 
 ![line chart legend](/images/line-chart-legend.svg "line chart legend")
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Annotation
 
@@ -232,15 +234,21 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 
 ![line chart annotation](/images/line-chart-annotation.svg "line chart annotation")
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Use categorical colors and line style
 
 Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 4. Review `Color for data visualization` for more about choosing colors for line charts. 
 
 ![line chart color](/images/line-chart-color.svg "line chart color")
 
+<docs-spacer size="small"></docs-spacer>
+
 The lines should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring lines to help with visual differentiation.
 
 ![line chart color sequence](/images/line-chart-color-sequence.svg "line chart color sequence")
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Best-practices
 
