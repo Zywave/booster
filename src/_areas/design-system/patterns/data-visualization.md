@@ -304,7 +304,7 @@ Stacked bar charts use color to show an additional dimension. To do this, each b
 
 ### Annotation
 
-Highlight data points, data outliers, and any noteworthy content.
+By hovering over data points, we emphasize key data points, data outliers, and any noteworthy content, allowing for quick access to valuable insights.
 
 I﻿MAGE
 
