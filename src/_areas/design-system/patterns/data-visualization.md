@@ -236,7 +236,7 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 
 Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 6. Review `Color for data visualization` for more about choosing colors for line charts. 
 
-I﻿MAGE
+![line chart annotation](/images/line-chart-color.svg "line chart annotation")
 
 The lines should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring lines to help with visual differentiation.
 
