@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="411" viewBox="0 0 1000 411">
+  <defs>
+    <filter id="Card" x="238.5" y="26.5" width="526" height="360" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-donut_chart_annotation">
+      <rect width="1000" height="411"/>
+    </clipPath>
+  </defs>
+  <g id="donut_chart_annotation" data-name="donut chart – annotation" clip-path="url(#clip-donut_chart_annotation)">
+    <rect width="1000" height="411" fill="#f4f4f6"/>
+    <g id="Group_270415" data-name="Group 270415" transform="translate(-586 -292)">
+      <g transform="matrix(1, 0, 0, 1, 586, 292)" filter="url(#Card)">
+        <rect id="Card-2" data-name="Card" width="517" height="351" rx="2" transform="translate(243 30)" fill="#fff"/>
+      </g>
+      <rect id="Card-3" data-name="Card" width="519" height="61" rx="2" transform="translate(827 322)" fill="#f9f9fa"/>
+      <text id="Rates_per_carrier" data-name="Rates per carrier" transform="translate(847 359)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Rates per carrier</tspan></text>
+      <path id="Line_27" data-name="Line 27" d="M519,.5H0v-1H519Z" transform="translate(827 383)" fill="#e6e6ea"/>
+      <g id="External" transform="translate(1310 345)">
+        <g id="Group_270302" data-name="Group 270302">
+          <g id="Group_270301" data-name="Group 270301">
+            <path id="Path_101932" data-name="Path 101932" d="M8.169,8.655a.212.212,0,0,0,.3,0l2.642-2.639V7.8a.192.192,0,0,0,.2.2h1.376a.2.2,0,0,0,.2-.2V3.312a.2.2,0,0,0-.2-.2l-4.477,0a.21.21,0,0,0-.21.21V4.689a.2.2,0,0,0,.2.2H9.985L7.342,7.528a.214.214,0,0,0,0,.3Z" fill="#2777d3"/>
+            <path id="Path_101933" data-name="Path 101933" d="M15.24,0H4.76A.762.762,0,0,0,4,.76V4H.76A.762.762,0,0,0,0,4.76V15.24A.762.762,0,0,0,.76,16H11.24a.762.762,0,0,0,.76-.76V12h3.24a.762.762,0,0,0,.76-.76V.76A.762.762,0,0,0,15.24,0ZM10.667,14.667H1.333V5.333H4V12h6.667Zm4-4H5.333V1.333h9.334Z" fill="#2777d3"/>
+          </g>
+          <rect id="Rectangle_11495" data-name="Rectangle 11495" width="16" height="16" fill="none"/>
+        </g>
+      </g>
+      <g id="Favorite-empty" transform="translate(1274 345)">
+        <g id="Group_270307" data-name="Group 270307">
+          <path id="Path_101936" data-name="Path 101936" d="M8.8,6.412l.225.691a.332.332,0,0,0,.317.23h3.313L10.561,8.854l-.587.427a.334.334,0,0,0-.122.372l.225.691.8,2.46-2.092-1.52L8.2,10.857a.333.333,0,0,0-.392,0l-.588.427L5.124,12.8l.8-2.46.225-.691a.334.334,0,0,0-.122-.372l-.587-.427L3.346,7.333H6.659a.332.332,0,0,0,.317-.23L7.2,6.412,8,3.952ZM8,.453A.359.359,0,0,0,7.653.7L5.933,6H.366a.365.365,0,0,0-.215.66l4.5,3.272-1.72,5.3a.364.364,0,0,0,.561.408L8,12.363l4.5,3.272a.364.364,0,0,0,.561-.408l-1.72-5.3,4.5-3.272A.365.365,0,0,0,15.634,6H10.067L8.347.7A.359.359,0,0,0,8,.453Z" transform="translate(0)" fill="#2777d3"/>
+          <rect id="Rectangle_11503" data-name="Rectangle 11503" width="16" height="16" transform="translate(0)" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_270262" data-name="Group 270262" transform="translate(287 219)">
+        <text id="Carrier_1_60_" data-name="Carrier 1     60%" transform="translate(582 199)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">Carrier 1     </tspan><tspan y="0" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600">60%</tspan></text>
+        <text id="Carrier_2_30_" data-name="Carrier 2     30%" transform="translate(582 237)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">Carrier 2     </tspan><tspan y="0" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600">30%</tspan></text>
+        <circle id="Ellipse_2063" data-name="Ellipse 2063" cx="8" cy="8" r="8" transform="translate(560 186)" fill="#30bbb1"/>
+        <circle id="Ellipse_2064" data-name="Ellipse 2064" cx="8" cy="8" r="8" transform="translate(560 224)" fill="#97c964"/>
+        <text id="Carrier_3_10_" data-name="Carrier 3     10%" transform="translate(582 275)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">Carrier 3     </tspan><tspan y="0" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600">10%</tspan></text>
+        <circle id="Ellipse_2065" data-name="Ellipse 2065" cx="8" cy="8" r="8" transform="translate(560 262)" fill="#fbac0e"/>
+      </g>
+      <text id="_12_021" data-name="12,021" transform="translate(1168.995 536.5)" fill="#31313a" font-size="44" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-59.651" y="0">12,021</tspan></text>
+      <text id="Total_rates" data-name="Total rates" transform="translate(1168.995 562.5)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-31.63" y="0">Total rates</tspan></text>
+      <g id="Ring_Chart2" data-name="Ring Chart2" transform="translate(209.991 294)">
+        <path id="Path_103570" data-name="Path 103570" d="M0-125A125,125,0,0,1,118.882-38.627,125,125,0,0,1,73.473,101.127a125,125,0,0,1-146.946,0l23.511-32.361a85,85,0,0,0,99.924,0A85,85,0,0,0,80.84-26.266,85,85,0,0,0,0-85Z" transform="translate(959 234)" fill="#4dd1c8"/>
+        <path id="Path_103571" data-name="Path 103571" d="M-73.473,101.127A125,125,0,0,1-125,0,125,125,0,0,1-73.473-101.127l23.511,32.361A85,85,0,0,0-85,0,85,85,0,0,0-49.962,68.766Z" transform="translate(959 234)" fill="#97c964"/>
+        <path id="Path_103572" data-name="Path 103572" d="M-73.473-101.127A125,125,0,0,1,0-125v40A85,85,0,0,0-49.962-68.766Z" transform="translate(959 234)" fill="#fbac0e"/>
+        <g id="Tooltip-_Top" data-name="Tooltip- Top" transform="translate(995.518 258.64)">
+          <g id="Group_264703" data-name="Group 264703">
+            <path id="Union_1" data-name="Union 1" d="M-8115.041-791.809H-8159a2,2,0,0,1-2-2V-856a2,2,0,0,1,2-2h99a2,2,0,0,1,2,2v62.19a2,2,0,0,1-2,2h-44.321l-5.359,5.17Z" transform="translate(8161 828)" fill="#494955"/>
+            <g id="Group_264702" data-name="Group 264702" transform="translate(1 -16)">
+              <text id="Carrier_1" data-name="Carrier 1" transform="translate(24.5 6)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Carrier 1</tspan></text>
+              <text id="_60_of_quotes" data-name="60% of quotes" transform="translate(50.5 24)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-35.036" y="0">60% of quotes</tspan></text>
+              <text id="_720_quotes" data-name="720 quotes" transform="translate(50.5 41.722)" fill="#fff" font-size="11" font-family="SegoeUI, Segoe UI"><tspan x="-27.049" y="0">720 quotes</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <path id="Line_2629" data-name="Line 2629" d="M27.195,38.593l-28-38L.805-.593l28,38Z" transform="translate(1094.5 425)" fill="#fff"/>
+      <path id="Line_2630" data-name="Line 2630" d="M.805,38.593l-1.61-1.186,28-38L28.805.593Z" transform="translate(1092.5 595)" fill="#fff"/>
+      <path id="Line_2631" data-name="Line 2631" d="M1,46H-1V0H1Z" transform="translate(1168.995 402)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

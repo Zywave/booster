@@ -386,7 +386,7 @@ Be sure to include a categorical color legend. Sometimes direct labeling can be 
 
 By hovering over data points, we emphasize key data points, data outliers, and any noteworthy content, allowing for quick access to valuable insights.
 
-I﻿MAGE
+![donut chart annotation](/images/donut-chart-–-annotation.svg "donut chart annotation")
 
 <docs-spacer size="small"></docs-spacer>
 
