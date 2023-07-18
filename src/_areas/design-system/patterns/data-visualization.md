@@ -286,7 +286,9 @@ Line charts are used to compare different values that are hierarchically equival
 
 Vertical column charts are used to show change over time, trends, and individual data points. Use column charts for when the number of data points is fewer than 30, or else use a line chart.
 
-I﻿MAGE
+![vertical bar chart](/images/bar-chart-vertical.svg "vertical bar chart")
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Horizontal bar charts
 
