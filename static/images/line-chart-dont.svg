@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="504" viewBox="0 0 485 504">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="506" viewBox="0 0 485 506">
   <defs>
-    <filter id="Card" x="15.5" y="26.5" width="454" height="452" filterUnits="userSpaceOnUse">
+    <filter id="Card" x="15.5" y="26.5" width="454" height="454" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,14 +8,14 @@
       <feComposite in="SourceGraphic"/>
     </filter>
     <clipPath id="clip-line_chart_-_dont">
-      <rect width="485" height="504"/>
+      <rect width="485" height="506"/>
     </clipPath>
   </defs>
   <g id="line_chart_-_dont" data-name="line chart - dont" clip-path="url(#clip-line_chart_-_dont)">
-    <rect width="485" height="504" fill="#f4f4f6"/>
+    <rect width="485" height="506" fill="#f4f4f6"/>
     <g id="Card-2" data-name="Card" transform="translate(20 30)">
       <g transform="matrix(1, 0, 0, 1, -20, -30)" filter="url(#Card)">
-        <rect id="Card-3" data-name="Card" width="445" height="443" rx="2" transform="translate(20 30)" fill="#fff"/>
+        <rect id="Card-3" data-name="Card" width="445" height="445" rx="2" transform="translate(20 30)" fill="#fff"/>
       </g>
       <rect id="Card-4" data-name="Card" width="445" height="61" rx="2" fill="#fafafa"/>
       <text id="Top_performing_office_-_Quote_volume" data-name="Top performing office - Quote volume" transform="translate(20 37)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Top performing office - Quote volume</tspan></text>
@@ -36,18 +36,18 @@
         </g>
       </g>
       <g id="Group_270725" data-name="Group 270725" transform="translate(411 3)">
-        <rect id="Rectangle_11765" data-name="Rectangle 11765" width="10" height="10" transform="translate(-378.402 382)" fill="#2aa29a"/>
-        <text id="Office_2" data-name="Office 2" transform="translate(-257 391)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 2</tspan></text>
-        <text id="Office_3" data-name="Office 3" transform="translate(-162 391)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 3</tspan></text>
-        <text id="Office_1" data-name="Office 1" transform="translate(-352 391)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 1</tspan></text>
-        <circle id="Ellipse_2102" data-name="Ellipse 2102" cx="5" cy="5" r="5" transform="translate(-285 382)" fill="#6ea239"/>
-        <path id="Polygon_1" data-name="Polygon 1" d="M6,0l6,10H0Z" transform="translate(-189.499 382)" fill="#c48402"/>
-        <line id="Line_2622" data-name="Line 2622" x2="30" transform="translate(-292.999 387)" fill="none" stroke="#6ea239" stroke-linecap="round" stroke-width="3" stroke-dasharray="1 4"/>
-        <line id="Line_2623" data-name="Line 2623" x2="30" transform="translate(-198 387)" fill="none" stroke="#c48402" stroke-linecap="round" stroke-width="3" stroke-dasharray="4 5"/>
-        <line id="Line_2624" data-name="Line 2624" x2="30" transform="translate(-388 387)" fill="none" stroke="#2aa29a" stroke-linecap="round" stroke-width="3"/>
-        <text id="Office_4" data-name="Office 4" transform="translate(-67 391)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 4</tspan></text>
-        <line id="Line_2626" data-name="Line 2626" x2="30" transform="translate(-103 387)" fill="none" stroke="#cf5c0a" stroke-linecap="round" stroke-width="3" stroke-dasharray="1 4"/>
-        <rect id="Rectangle_11777" data-name="Rectangle 11777" width="5" height="10" rx="2" transform="translate(-93 382)" fill="#cf5c0a"/>
+        <rect id="Rectangle_11765" data-name="Rectangle 11765" width="10" height="10" transform="translate(-378.402 384)" fill="#2aa29a"/>
+        <text id="Office_2" data-name="Office 2" transform="translate(-257 393)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 2</tspan></text>
+        <text id="Office_3" data-name="Office 3" transform="translate(-162 393)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 3</tspan></text>
+        <text id="Office_1" data-name="Office 1" transform="translate(-352 393)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 1</tspan></text>
+        <circle id="Ellipse_2102" data-name="Ellipse 2102" cx="5" cy="5" r="5" transform="translate(-285 384)" fill="#6ea239"/>
+        <path id="Polygon_1" data-name="Polygon 1" d="M6,0l6,10H0Z" transform="translate(-189.499 384)" fill="#c48402"/>
+        <line id="Line_2622" data-name="Line 2622" x2="30" transform="translate(-292.999 389)" fill="none" stroke="#6ea239" stroke-linecap="round" stroke-width="3" stroke-dasharray="1 4"/>
+        <line id="Line_2623" data-name="Line 2623" x2="30" transform="translate(-198 389)" fill="none" stroke="#c48402" stroke-linecap="round" stroke-width="3" stroke-dasharray="4 5"/>
+        <line id="Line_2624" data-name="Line 2624" x2="30" transform="translate(-388 389)" fill="none" stroke="#2aa29a" stroke-linecap="round" stroke-width="3"/>
+        <text id="Office_4" data-name="Office 4" transform="translate(-67 393)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 4</tspan></text>
+        <line id="Line_2626" data-name="Line 2626" x2="30" transform="translate(-103 389)" fill="none" stroke="#cf5c0a" stroke-linecap="round" stroke-width="3" stroke-dasharray="1 4"/>
+        <rect id="Rectangle_11777" data-name="Rectangle 11777" width="5" height="10" rx="2" transform="translate(-93 384)" fill="#cf5c0a"/>
         <rect id="Rectangle_11693" data-name="Rectangle 11693" width="374" height="1" transform="translate(14 333) rotate(180)" fill="#e6e6ea"/>
         <rect id="Rectangle_11694" data-name="Rectangle 11694" width="374" height="1" transform="translate(14 292) rotate(180)" fill="#e6e6ea"/>
         <rect id="Rectangle_11695" data-name="Rectangle 11695" width="374" height="1" transform="translate(14 251) rotate(180)" fill="#e6e6ea"/>
@@ -57,17 +57,17 @@
         <rect id="Rectangle_11699" data-name="Rectangle 11699" width="374" height="1" transform="translate(14 87) rotate(180)" fill="#e6e6ea"/>
         <rect id="Rectangle_11578" data-name="Rectangle 11578" width="6" height="1" transform="translate(-341 333) rotate(90)" fill="#e6e6ea"/>
         <rect id="Rectangle_11578-2" data-name="Rectangle 11578" width="6" height="1" transform="translate(-171 333) rotate(90)" fill="#e6e6ea"/>
-        <text id="_3k" data-name="3k" transform="translate(-369 91)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">3k</tspan></text>
-        <text id="_2.5k" data-name="2.5k" transform="translate(-369 132)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-21.504" y="0">2.5k</tspan></text>
-        <text id="_0" data-name="0" transform="translate(-369 337)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-6.469" y="0">0</tspan></text>
-        <text id="_500" data-name="500" transform="translate(-369 296)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-19.406" y="0">500</tspan></text>
-        <text id="_1k" data-name="1k" transform="translate(-369 255)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">1k</tspan></text>
-        <text id="_1.5k" data-name="1.5k" transform="translate(-369 214)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-21.504" y="0">1.5k</tspan></text>
-        <text id="_2k" data-name="2k" transform="translate(-369 173)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">2k</tspan></text>
-        <text id="Nov_15" data-name="Nov 15" transform="translate(-341 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.99" y="0">Nov 15</tspan></text>
-        <text id="Nov_24" data-name="Nov 24" transform="translate(-172 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.99" y="0">Nov 24</tspan></text>
+        <text id="_3k" data-name="3k" transform="translate(-370 91)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">3k</tspan></text>
+        <text id="_2.5k" data-name="2.5k" transform="translate(-370 132)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-21.504" y="0">2.5k</tspan></text>
+        <text id="_0" data-name="0" transform="translate(-370 337)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-6.469" y="0">0</tspan></text>
+        <text id="_500" data-name="500" transform="translate(-370 296)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-19.406" y="0">500</tspan></text>
+        <text id="_1k" data-name="1k" transform="translate(-370 255)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">1k</tspan></text>
+        <text id="_1.5k" data-name="1.5k" transform="translate(-370 214)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-21.504" y="0">1.5k</tspan></text>
+        <text id="_2k" data-name="2k" transform="translate(-370 173)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">2k</tspan></text>
+        <text id="Nov_15" data-name="Nov 15" transform="translate(-341 357)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.99" y="0">Nov 15</tspan></text>
+        <text id="Nov_24" data-name="Nov 24" transform="translate(-172 357)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.99" y="0">Nov 24</tspan></text>
         <rect id="Rectangle_11724" data-name="Rectangle 11724" width="6" height="1" transform="translate(0 333) rotate(90)" fill="#e6e6ea"/>
-        <text id="Dec_1" data-name="Dec 1" transform="translate(0 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-14.994" y="0">Dec 1</tspan></text>
+        <text id="Dec_1" data-name="Dec 1" transform="translate(0 357)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-14.994" y="0">Dec 1</tspan></text>
         <path id="Path_103565" data-name="Path 103565" d="M892.5,491.091l366.167-30" transform="translate(-1247.904 -358.813)" fill="none" stroke="#2aa29a" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
         <path id="Path_103556" data-name="Path 103556" d="M890.519,643.89l368.145-81.4" transform="translate(-1247.904 -358.813)" fill="none" stroke="#c48402" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1 4"/>
         <rect id="Rectangle_11766" data-name="Rectangle 11766" width="10" height="10" transform="translate(-346 126.5)" fill="#2aa29a"/>
@@ -88,16 +88,16 @@
         <path id="Polygon_8" data-name="Polygon 8" d="M6,0l6,10H0Z" transform="translate(-336 201) rotate(90)" fill="#cc3610"/>
         <path id="Polygon_9" data-name="Polygon 9" d="M6,0l6,10H0Z" transform="translate(-166 201) rotate(90)" fill="#cc3610"/>
         <path id="Polygon_10" data-name="Polygon 10" d="M6,0l6,10H0Z" transform="translate(8 137) rotate(90)" fill="#cc3610"/>
-        <text id="Office_5" data-name="Office 5" transform="translate(-352 417)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 5</tspan></text>
-        <line id="Line_2627" data-name="Line 2627" x2="30" transform="translate(-388 413)" fill="none" stroke="#cc3610" stroke-linecap="round" stroke-width="3" stroke-dasharray="1 4"/>
-        <path id="Polygon_11" data-name="Polygon 11" d="M6,0l6,10H0Z" transform="translate(-370 407) rotate(90)" fill="#cc3610"/>
+        <text id="Office_5" data-name="Office 5" transform="translate(-352 419)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 5</tspan></text>
+        <line id="Line_2627" data-name="Line 2627" x2="30" transform="translate(-388 415)" fill="none" stroke="#cc3610" stroke-linecap="round" stroke-width="3" stroke-dasharray="1 4"/>
+        <path id="Polygon_11" data-name="Polygon 11" d="M6,0l6,10H0Z" transform="translate(-370 409) rotate(90)" fill="#cc3610"/>
         <path id="Path_103569" data-name="Path 103569" d="M891.15,491.672l368.074,37.291" transform="translate(-1248.558 -244.192)" fill="none" stroke="#c6318c" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1 4"/>
         <rect id="Rectangle_11783" data-name="Rectangle 11783" width="10" height="10" rx="4" transform="translate(-346 243)" fill="#c6318c"/>
         <rect id="Rectangle_11784" data-name="Rectangle 11784" width="10" height="10" rx="4" transform="translate(-176 262)" fill="#c6318c"/>
         <rect id="Rectangle_11785" data-name="Rectangle 11785" width="10" height="10" rx="4" transform="translate(-5 279)" fill="#c6318c"/>
-        <text id="Office_6" data-name="Office 6" transform="translate(-257 417)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 6</tspan></text>
-        <line id="Line_2628" data-name="Line 2628" x2="30" transform="translate(-293 413)" fill="none" stroke="#c6318c" stroke-linecap="round" stroke-width="3" stroke-dasharray="1 4"/>
-        <rect id="Rectangle_11786" data-name="Rectangle 11786" width="10" height="10" rx="4" transform="translate(-286 408)" fill="#c6318c"/>
+        <text id="Office_6" data-name="Office 6" transform="translate(-257 419)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Office 6</tspan></text>
+        <line id="Line_2628" data-name="Line 2628" x2="30" transform="translate(-293 415)" fill="none" stroke="#c6318c" stroke-linecap="round" stroke-width="3" stroke-dasharray="1 4"/>
+        <rect id="Rectangle_11786" data-name="Rectangle 11786" width="10" height="10" rx="4" transform="translate(-286 410)" fill="#c6318c"/>
       </g>
     </g>
   </g>
