@@ -296,11 +296,15 @@ Vertical column charts are used to show change over time, trends, and individual
 
 ![vertical bar chart](/images/bar-chart-horizontal.svg "vertical bar chart")
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Stacked bar charts
 
 Stacked bar charts use color to show an additional dimension. To do this, each bar is split into a set of dimension items, distinguished by color, while maintaining the total bar height. Review `Color for data visualization` for more about choosing colors for stacked bar charts.
 
 ![stacked bar chart](/images/stacked-bar-chart.svg "stacked bar chart")
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Annotation
 
@@ -308,12 +312,14 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 
 ![bar chart annotation](/images/bar-chart-annotation.svg "bar chart annotation")
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Best-practices
 
 <docs-grid columns="2">
   <div>
 
-I﻿MAGE
+![bar chart do](/images/bar-chart-do.svg "bar chart do")
 
 <docs-do>
 
@@ -323,7 +329,7 @@ Use one color for the bars
   </div>
   <div>
 
-I﻿MAGE
+![bar chart don't](/images/bar-chart-dont.svg "bar chart don't")
 
 <docs-do-not>
 
@@ -337,7 +343,7 @@ Use more than one color for the bars
 <docs-grid columns="2">
   <div>
 
-I﻿MAGE
+![bar chart do](/images/bar-chart-do-–-2.svg "bar chart do")
 
 <docs-do>
 
@@ -347,7 +353,7 @@ Make the width of each bar about twice as wide as the space between them.
   </div>
   <div>
 
-I﻿MAGE
+![bar chart don't](/images/bar-chart-dont-–-2.svg "bar chart don't")
 
 <docs-do-not>
 
