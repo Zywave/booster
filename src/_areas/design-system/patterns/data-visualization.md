@@ -294,7 +294,7 @@ Vertical column charts are used to show change over time, trends, and individual
 
 Vertical column charts are used to show change over time, trends, and individual data points. Use column charts when the number of data points is fewer than 30, or else use a line chart.
 
-I﻿MAGE
+![vertical bar chart](/images/bar-chart-horizontal.svg "vertical bar chart")
 
 ### Stacked bar charts
 
