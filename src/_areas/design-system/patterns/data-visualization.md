@@ -370,7 +370,7 @@ Make the bars too skinny
 
 Donut and pie charts express portions of a whole, using arcs or angles within a circle Use donut and pie charts for showing partial elements that add up to a total. They can become difficult to understand when they include many segments. Try to use 2-3 segments if possible, and no more than 5. For detailed documentation on donut and pie charts, view the `Data visualization design specs`.
 
-I﻿MAGE
+![donut chart](/images/donut-chart.svg "donut chart")
 
 ### Legend
 
