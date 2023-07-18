@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="411" viewBox="0 0 1000 411">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="490" viewBox="0 0 1000 490">
   <defs>
-    <filter id="Card" x="238.5" y="26.5" width="526" height="360" filterUnits="userSpaceOnUse">
+    <filter id="Card" x="238.5" y="26.5" width="526" height="438" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,17 +8,17 @@
       <feComposite in="SourceGraphic"/>
     </filter>
     <clipPath id="clip-donut_chart">
-      <rect width="1000" height="411"/>
+      <rect width="1000" height="490"/>
     </clipPath>
   </defs>
   <g id="donut_chart" data-name="donut chart" clip-path="url(#clip-donut_chart)">
-    <rect width="1000" height="411" fill="#f4f4f6"/>
+    <rect width="1000" height="490" fill="#f4f4f6"/>
     <g id="Group_270415" data-name="Group 270415" transform="translate(-586 -292)">
       <g transform="matrix(1, 0, 0, 1, 586, 292)" filter="url(#Card)">
-        <rect id="Card-2" data-name="Card" width="517" height="351" rx="2" transform="translate(243 30)" fill="#fff"/>
+        <rect id="Card-2" data-name="Card" width="517" height="429" rx="2" transform="translate(243 30)" fill="#fff"/>
       </g>
       <rect id="Card-3" data-name="Card" width="519" height="61" rx="2" transform="translate(827 322)" fill="#f9f9fa"/>
-      <text id="Rates_per_carrier" data-name="Rates per carrier" transform="translate(847 359)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Rates per carrier</tspan></text>
+      <text id="Quotes_per_carrier" data-name="Quotes per carrier" transform="translate(847 359)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Quotes per carrier</tspan></text>
       <path id="Line_27" data-name="Line 27" d="M519,.5H0v-1H519Z" transform="translate(827 383)" fill="#e6e6ea"/>
       <g id="External" transform="translate(1310 345)">
         <g id="Group_270302" data-name="Group 270302">
@@ -35,24 +35,27 @@
           <rect id="Rectangle_11503" data-name="Rectangle 11503" width="16" height="16" transform="translate(0)" fill="none"/>
         </g>
       </g>
-      <g id="Group_270262" data-name="Group 270262" transform="translate(287 219)">
-        <text id="Carrier_1_60_" data-name="Carrier 1     60%" transform="translate(582 199)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">Carrier 1     </tspan><tspan y="0" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600">60%</tspan></text>
-        <text id="Carrier_2_30_" data-name="Carrier 2     30%" transform="translate(582 237)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">Carrier 2     </tspan><tspan y="0" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600">30%</tspan></text>
-        <circle id="Ellipse_2063" data-name="Ellipse 2063" cx="8" cy="8" r="8" transform="translate(560 186)" fill="#30bbb1"/>
-        <circle id="Ellipse_2064" data-name="Ellipse 2064" cx="8" cy="8" r="8" transform="translate(560 224)" fill="#97c964"/>
-        <text id="Carrier_3_10_" data-name="Carrier 3     10%" transform="translate(582 275)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0" xml:space="preserve">Carrier 3     </tspan><tspan y="0" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600">10%</tspan></text>
-        <circle id="Ellipse_2065" data-name="Ellipse 2065" cx="8" cy="8" r="8" transform="translate(560 262)" fill="#fbac0e"/>
+      <g id="Group_270735" data-name="Group 270735" transform="translate(-82.995 78)">
+        <text id="_1_200" data-name="1,200" transform="translate(1168.995 536.5)" fill="#31313a" font-size="44" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-50.8" y="0">1,200</tspan></text>
+        <text id="Total_quotes" data-name="Total quotes" transform="translate(1168.995 562.5)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-37.82" y="0">Total quotes</tspan></text>
+        <g id="Ring_Chart2" data-name="Ring Chart2" transform="translate(209.991 294)">
+          <path id="Path_103570" data-name="Path 103570" d="M0-125A125,125,0,0,1,118.882-38.627,125,125,0,0,1,73.473,101.127a125,125,0,0,1-146.946,0l23.511-32.361a85,85,0,0,0,99.924,0A85,85,0,0,0,80.84-26.266,85,85,0,0,0,0-85Z" transform="translate(959 234)" fill="#30bbb1"/>
+          <path id="Path_103571" data-name="Path 103571" d="M-73.473,101.127A125,125,0,0,1-125,0,125,125,0,0,1-73.473-101.127l23.511,32.361A85,85,0,0,0-85,0,85,85,0,0,0-49.962,68.766Z" transform="translate(959 234)" fill="#97c964"/>
+          <path id="Path_103572" data-name="Path 103572" d="M-73.473-101.127A125,125,0,0,1,0-125v40A85,85,0,0,0-49.962-68.766Z" transform="translate(959 234)" fill="#fbac0e"/>
+        </g>
+        <path id="Line_2629" data-name="Line 2629" d="M27.195,38.593l-28-38L.805-.593l28,38Z" transform="translate(1094.5 425)" fill="#fff"/>
+        <path id="Line_2630" data-name="Line 2630" d="M.805,38.593l-1.61-1.186,28-38L28.805.593Z" transform="translate(1092.5 595)" fill="#fff"/>
+        <path id="Line_2631" data-name="Line 2631" d="M1,46H-1V0H1Z" transform="translate(1168.995 402)" fill="#fff"/>
       </g>
-      <text id="_12_021" data-name="12,021" transform="translate(1168.995 536.5)" fill="#31313a" font-size="44" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-59.651" y="0">12,021</tspan></text>
-      <text id="Total_rates" data-name="Total rates" transform="translate(1168.995 562.5)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-31.63" y="0">Total rates</tspan></text>
-      <g id="Ring_Chart2" data-name="Ring Chart2" transform="translate(209.991 294)">
-        <path id="Path_103570" data-name="Path 103570" d="M0-125A125,125,0,0,1,118.882-38.627,125,125,0,0,1,73.473,101.127a125,125,0,0,1-146.946,0l23.511-32.361a85,85,0,0,0,99.924,0A85,85,0,0,0,80.84-26.266,85,85,0,0,0,0-85Z" transform="translate(959 234)" fill="#30bbb1"/>
-        <path id="Path_103571" data-name="Path 103571" d="M-73.473,101.127A125,125,0,0,1-125,0,125,125,0,0,1-73.473-101.127l23.511,32.361A85,85,0,0,0-85,0,85,85,0,0,0-49.962,68.766Z" transform="translate(959 234)" fill="#97c964"/>
-        <path id="Path_103572" data-name="Path 103572" d="M-73.473-101.127A125,125,0,0,1,0-125v40A85,85,0,0,0-49.962-68.766Z" transform="translate(959 234)" fill="#fbac0e"/>
-      </g>
-      <path id="Line_2629" data-name="Line 2629" d="M27.195,38.593l-28-38L.805-.593l28,38Z" transform="translate(1094.5 425)" fill="#fff"/>
-      <path id="Line_2630" data-name="Line 2630" d="M.805,38.593l-1.61-1.186,28-38L28.805.593Z" transform="translate(1092.5 595)" fill="#fff"/>
-      <path id="Line_2631" data-name="Line 2631" d="M1,46H-1V0H1Z" transform="translate(1168.995 402)" fill="#fff"/>
+      <text id="Carrier_2_30_360_quotes" data-name="Carrier 2
+30%
+360 quotes" transform="translate(870 592)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Carrier 2</tspan><tspan font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="19">30%</tspan><tspan x="0" y="38">360 quotes</tspan></tspan></text>
+      <text id="Carrier_1_60_720_quotes" data-name="Carrier 1
+60%
+720 quotes" transform="translate(1231 592)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Carrier 1</tspan><tspan font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="19">60%</tspan><tspan x="0" y="38">720 quotes</tspan></tspan></text>
+      <text id="Carrier_3_10_120_quotes" data-name="Carrier 3
+10%
+120 quotes" transform="translate(1031 418)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Carrier 3</tspan><tspan font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="19">10%</tspan><tspan x="0" y="38">120 quotes</tspan></tspan></text>
     </g>
   </g>
 </svg>

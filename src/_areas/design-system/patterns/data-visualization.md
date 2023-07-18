@@ -372,17 +372,23 @@ Donut and pie charts express portions of a whole, using arcs or angles within a 
 
 ![donut chart](/images/donut-chart.svg "donut chart")
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Legend
 
 Be sure to include a categorical color legend. Sometimes direct labeling can be used if data is less dense. A legend should be positioned to the right of a donut chart, but if there is not enough horizontal space, it can be placed below the chart.
 
-I﻿MAGE
+![donut chart](/images/donut-chart-–-legend.svg "donut chart")
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Annotation
 
-Highlight data points, data outliers, and any noteworthy content.
+By hovering over data points, we emphasize key data points, data outliers, and any noteworthy content, allowing for quick access to valuable insights.
 
 I﻿MAGE
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Best-practices
 
