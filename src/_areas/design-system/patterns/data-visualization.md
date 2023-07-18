@@ -247,7 +247,7 @@ The lines should be applied in sequence strictly as described below. The sequenc
 <docs-grid columns="2">
   <div>
 
-I﻿MAGE
+![line chart do](/images/line-chart-do.svg "line chart do")
 
 <docs-do>
 
@@ -257,7 +257,7 @@ Use categorical colors when there are multiple data points to compare unless hig
   </div>
   <div>
 
-I﻿MAGE
+![line chart don't](/images/line-chart-dont.svg "line chart don't")
 
 <docs-do-not>
 
