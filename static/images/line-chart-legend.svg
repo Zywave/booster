@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="478" viewBox="0 0 1000 478">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="480" viewBox="0 0 1000 480">
   <defs>
-    <filter id="Card" x="100.5" y="26.5" width="799" height="426" filterUnits="userSpaceOnUse">
+    <filter id="Card" x="100.5" y="26.5" width="799" height="428" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -8,14 +8,14 @@
       <feComposite in="SourceGraphic"/>
     </filter>
     <clipPath id="clip-line_chart_-_legend">
-      <rect width="1000" height="478"/>
+      <rect width="1000" height="480"/>
     </clipPath>
   </defs>
   <g id="line_chart_-_legend" data-name="line chart - legend" clip-path="url(#clip-line_chart_-_legend)">
-    <rect width="1000" height="478" fill="#f4f4f6"/>
+    <rect width="1000" height="480" fill="#f4f4f6"/>
     <g id="Card-2" data-name="Card" transform="translate(105 30)">
       <g transform="matrix(1, 0, 0, 1, -105, -30)" filter="url(#Card)">
-        <rect id="Card-3" data-name="Card" width="790" height="417" rx="2" transform="translate(105 30)" fill="#fff"/>
+        <rect id="Card-3" data-name="Card" width="790" height="419" rx="2" transform="translate(105 30)" fill="#fff"/>
       </g>
       <rect id="Card-4" data-name="Card" width="790" height="61" rx="2" fill="#fafafa"/>
       <text id="Top_underwriters_by_total_quote_volume" data-name="Top underwriters by total quote volume" transform="translate(20 37)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Top underwriters by total quote volume</tspan></text>
@@ -46,20 +46,20 @@
         <rect id="Rectangle_11578" data-name="Rectangle 11578" width="6" height="1" transform="translate(-341 333) rotate(90)" fill="#e6e6ea"/>
         <rect id="Rectangle_11578-2" data-name="Rectangle 11578" width="6" height="1" transform="translate(-171 333) rotate(90)" fill="#e6e6ea"/>
         <rect id="Rectangle_11578-3" data-name="Rectangle 11578" width="6" height="1" transform="translate(341 333) rotate(90)" fill="#e6e6ea"/>
-        <text id="_3k" data-name="3k" transform="translate(-369 91)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">3k</tspan></text>
-        <text id="_2.5k" data-name="2.5k" transform="translate(-369 132)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-21.504" y="0">2.5k</tspan></text>
-        <text id="_0" data-name="0" transform="translate(-369 337)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-6.469" y="0">0</tspan></text>
-        <text id="_500" data-name="500" transform="translate(-369 296)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-19.406" y="0">500</tspan></text>
-        <text id="_1k" data-name="1k" transform="translate(-369 255)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">1k</tspan></text>
-        <text id="_1.5k" data-name="1.5k" transform="translate(-369 214)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-21.504" y="0">1.5k</tspan></text>
-        <text id="_2k" data-name="2k" transform="translate(-369 173)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">2k</tspan></text>
-        <text id="Nov_15" data-name="Nov 15" transform="translate(-341 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.99" y="0">Nov 15</tspan></text>
-        <text id="Dec_15" data-name="Dec 15" transform="translate(341 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.229" y="0">Dec 15</tspan></text>
-        <text id="Nov_24" data-name="Nov 24" transform="translate(-172 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.99" y="0">Nov 24</tspan></text>
+        <text id="_3k" data-name="3k" transform="translate(-370 91)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">3k</tspan></text>
+        <text id="_2.5k" data-name="2.5k" transform="translate(-370 132)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-21.504" y="0">2.5k</tspan></text>
+        <text id="_0" data-name="0" transform="translate(-370 337)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-6.469" y="0">0</tspan></text>
+        <text id="_500" data-name="500" transform="translate(-370 296)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-19.406" y="0">500</tspan></text>
+        <text id="_1k" data-name="1k" transform="translate(-370 255)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">1k</tspan></text>
+        <text id="_1.5k" data-name="1.5k" transform="translate(-370 214)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-21.504" y="0">1.5k</tspan></text>
+        <text id="_2k" data-name="2k" transform="translate(-370 173)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.434" y="0">2k</tspan></text>
+        <text id="Nov_15" data-name="Nov 15" transform="translate(-341 357)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.99" y="0">Nov 15</tspan></text>
+        <text id="Dec_15" data-name="Dec 15" transform="translate(341 357)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.229" y="0">Dec 15</tspan></text>
+        <text id="Nov_24" data-name="Nov 24" transform="translate(-172 357)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.99" y="0">Nov 24</tspan></text>
         <rect id="Rectangle_11723" data-name="Rectangle 11723" width="6" height="1" transform="translate(170 333) rotate(90)" fill="#e6e6ea"/>
-        <text id="Dec_9" data-name="Dec 9" transform="translate(169 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-14.994" y="0">Dec 9</tspan></text>
+        <text id="Dec_9" data-name="Dec 9" transform="translate(169 357)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-14.994" y="0">Dec 9</tspan></text>
         <rect id="Rectangle_11724" data-name="Rectangle 11724" width="6" height="1" transform="translate(0 333) rotate(90)" fill="#e6e6ea"/>
-        <text id="Dec_1" data-name="Dec 1" transform="translate(0 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-14.994" y="0">Dec 1</tspan></text>
+        <text id="Dec_1" data-name="Dec 1" transform="translate(0 357)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-14.994" y="0">Dec 1</tspan></text>
         <path id="Path_103556" data-name="Path 103556" d="M890.519,643.89l362.614-79.617,289.245-16.615h63.775" transform="translate(-1247.904 -358.813)" fill="none" stroke="#6ea239" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="1 4"/>
         <circle id="Ellipse_2105" data-name="Ellipse 2105" cx="5" cy="5" r="5" transform="translate(-346 277)" fill="#6ea239"/>
         <circle id="Ellipse_2106" data-name="Ellipse 2106" cx="5" cy="5" r="5" transform="translate(-176 239)" fill="#6ea239"/>
@@ -72,7 +72,7 @@
         <rect id="Rectangle_11768" data-name="Rectangle 11768" width="10" height="10" transform="translate(0 102.875)" fill="#2aa29a"/>
         <rect id="Rectangle_11769" data-name="Rectangle 11769" width="10" height="10" transform="translate(165 120)" fill="#2aa29a"/>
         <rect id="Rectangle_11770" data-name="Rectangle 11770" width="10" height="10" transform="translate(336 138)" fill="#2aa29a"/>
-        <g id="Group_270673" data-name="Group 270673" transform="translate(-663.002 -21)">
+        <g id="Group_270673" data-name="Group 270673" transform="translate(-663.002 -19)">
           <rect id="Rectangle_11765" data-name="Rectangle 11765" width="10" height="10" transform="translate(284.6 403)" fill="#2aa29a"/>
           <text id="Liability" transform="translate(408.002 412)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Liability</tspan></text>
           <text id="Package" transform="translate(311.002 412)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Package</tspan></text>

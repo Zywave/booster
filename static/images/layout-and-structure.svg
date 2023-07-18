@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="532" viewBox="0 0 1000 532">
   <defs>
-    <filter id="Card" x="100.5" y="95.5" width="799" height="343" filterUnits="userSpaceOnUse">
+    <filter id="Card" x="100.5" y="95.5" width="799" height="345" filterUnits="userSpaceOnUse">
       <feOffset dy="1" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -15,7 +15,7 @@
     <rect width="1000" height="532" fill="#f4f4f6"/>
     <g id="Card-2" data-name="Card" transform="translate(105 99)">
       <g transform="matrix(1, 0, 0, 1, -105, -99)" filter="url(#Card)">
-        <rect id="Card-3" data-name="Card" width="790" height="334" rx="2" transform="translate(105 99)" fill="#fff"/>
+        <rect id="Card-3" data-name="Card" width="790" height="336" rx="2" transform="translate(105 99)" fill="#fff"/>
       </g>
       <rect id="Card-4" data-name="Card" width="790" height="61" rx="2" fill="#fafafa"/>
       <text id="Top_underwriters_by_total_quote_volume" data-name="Top underwriters by total quote volume" transform="translate(20 37)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Top underwriters by total quote volume</tspan></text>
@@ -40,27 +40,27 @@
       <rect id="Rectangle_11678" data-name="Rectangle 11678" width="209" height="1" transform="translate(119 81) rotate(90)" fill="#e6e6ea"/>
       <text id="Greg_McGreg" data-name="Greg McGreg" transform="translate(111 236)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-71.098" y="0">Greg McGreg</tspan></text>
       <text id="Shania_Twine" data-name="Shania Twine" transform="translate(111 280)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-68.631" y="0">Shania Twine</tspan></text>
-      <text id="_0" data-name="0" transform="translate(121 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-2.695" y="0">0</tspan></text>
-      <text id="_300" data-name="300" transform="translate(313 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">300</tspan></text>
-      <text id="_1000" data-name="1000" transform="translate(762 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-10.781" y="0">1000</tspan></text>
+      <text id="_0" data-name="0" transform="translate(121 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-3.234" y="0">0</tspan></text>
+      <text id="_300" data-name="300" transform="translate(313 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">300</tspan></text>
+      <text id="_1000" data-name="1000" transform="translate(762 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-12.938" y="0">1000</tspan></text>
       <text id="Sally_Ride" data-name="Sally Ride" transform="translate(111 192)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-50.813" y="0">Sally Ride</tspan></text>
       <text id="Bobby_Shmurd" data-name="Bobby Shmurd" transform="translate(111 146)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-78.645" y="0">Bobby Shmurd</tspan></text>
       <rect id="Rectangle_11679" data-name="Rectangle 11679" width="209" height="1" transform="translate(184 81) rotate(90)" fill="#e6e6ea"/>
       <rect id="Rectangle_11680" data-name="Rectangle 11680" width="209" height="1" transform="translate(248.001 81) rotate(90)" fill="#e6e6ea"/>
-      <text id="_100" data-name="100" transform="translate(183 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">100</tspan></text>
-      <text id="_700" data-name="700" transform="translate(571 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">700</tspan></text>
+      <text id="_100" data-name="100" transform="translate(183 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">100</tspan></text>
+      <text id="_700" data-name="700" transform="translate(571 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">700</tspan></text>
       <rect id="Rectangle_11695" data-name="Rectangle 11695" width="209" height="1" transform="translate(377 81) rotate(90)" fill="#e6e6ea"/>
       <rect id="Rectangle_11696" data-name="Rectangle 11696" width="209" height="1" transform="translate(442 81) rotate(90)" fill="#e6e6ea"/>
       <rect id="Rectangle_11697" data-name="Rectangle 11697" width="209" height="1" transform="translate(506 81) rotate(90)" fill="#e6e6ea"/>
       <rect id="Rectangle_11698" data-name="Rectangle 11698" width="209" height="1" transform="translate(570.999 81) rotate(90)" fill="#e6e6ea"/>
-      <text id="_200" data-name="200" transform="translate(248 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">200</tspan></text>
+      <text id="_200" data-name="200" transform="translate(248 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">200</tspan></text>
       <rect id="Rectangle_11699" data-name="Rectangle 11699" width="209" height="1" transform="translate(635.001 81) rotate(90)" fill="#e6e6ea"/>
       <rect id="Rectangle_11700" data-name="Rectangle 11700" width="209" height="1" transform="translate(700 81) rotate(90)" fill="#e6e6ea"/>
-      <text id="_400" data-name="400" transform="translate(376 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">400</tspan></text>
-      <text id="_500" data-name="500" transform="translate(441 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">500</tspan></text>
-      <text id="_600" data-name="600" transform="translate(506 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">600</tspan></text>
-      <text id="_800" data-name="800" transform="translate(634 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">800</tspan></text>
-      <text id="_900" data-name="900" transform="translate(699 310)" fill="#31313a" font-size="10" font-family="SegoeUI, Segoe UI"><tspan x="-8.086" y="0">900</tspan></text>
+      <text id="_400" data-name="400" transform="translate(376 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">400</tspan></text>
+      <text id="_500" data-name="500" transform="translate(441 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">500</tspan></text>
+      <text id="_600" data-name="600" transform="translate(506 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">600</tspan></text>
+      <text id="_800" data-name="800" transform="translate(634 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">800</tspan></text>
+      <text id="_900" data-name="900" transform="translate(699 313)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-9.703" y="0">900</tspan></text>
       <rect id="Rectangle_11682" data-name="Rectangle 11682" width="99" height="30" transform="translate(119 260)" fill="#30bbb1"/>
       <rect id="Rectangle_11683" data-name="Rectangle 11683" width="112" height="30" transform="translate(119 216)" fill="#30bbb1"/>
       <rect id="Rectangle_11684" data-name="Rectangle 11684" width="276" height="30" transform="translate(119 171)" fill="#30bbb1"/>
