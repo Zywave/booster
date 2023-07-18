@@ -300,9 +300,7 @@ Vertical column charts are used to show change over time, trends, and individual
 
 Stacked bar charts use color to show an additional dimension. To do this, each bar is split into a set of dimension items, distinguished by color, while maintaining the total bar height. Review `Color for data visualization` for more about choosing colors for stacked bar charts.
 
-<!--EndFragment-->
-
-I﻿MAGE
+![vertical bar chart](/images/stacked-bar-chart.svg "vertical bar chart")
 
 ### Annotation
 
