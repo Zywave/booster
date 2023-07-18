@@ -50,28 +50,28 @@
         <text id="_10k" data-name="10k" transform="translate(-369 255)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.902" y="0">10k</tspan></text>
         <text id="_15k" data-name="15k" transform="translate(-369 214)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.902" y="0">15k</tspan></text>
         <text id="_20k" data-name="20k" transform="translate(-369 173)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-18.902" y="0">20k</tspan></text>
-        <text id="Under_21" data-name="Under 21" transform="translate(-345 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-24.387" y="0">Under 21</tspan></text>
-        <text id="_41-45" data-name="41-45" transform="translate(-12 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">41-45</tspan></text>
-        <text id="_21-25" data-name="21-25" transform="translate(-271 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">21-25</tspan></text>
-        <text id="_31-35" data-name="31-35" transform="translate(-142 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">31-35</tspan></text>
-        <text id="_26-30" data-name="26-30" transform="translate(-206 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">26-30</tspan></text>
-        <rect id="Rectangle_11573" data-name="Rectangle 11573" width="41" height="30" transform="translate(-360 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11574" data-name="Rectangle 11574" width="64" height="30" transform="translate(-286 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11666" data-name="Rectangle 11666" width="165" height="30" transform="translate(-221 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11667" data-name="Rectangle 11667" width="187" height="30" transform="translate(-157 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11668" data-name="Rectangle 11668" width="198" height="30" transform="translate(-92 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11787" data-name="Rectangle 11787" width="181" height="30" transform="translate(-27 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11789" data-name="Rectangle 11789" width="210" height="30" transform="translate(38 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11791" data-name="Rectangle 11791" width="187" height="30" transform="translate(103 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11792" data-name="Rectangle 11792" width="123" height="30" transform="translate(167 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11793" data-name="Rectangle 11793" width="41" height="30" transform="translate(232 333) rotate(-90)" fill="#30bbb1"/>
-        <rect id="Rectangle_11794" data-name="Rectangle 11794" width="21" height="30" transform="translate(303 333) rotate(-90)" fill="#30bbb1"/>
-        <text id="_36-40" data-name="36-40" transform="translate(-77 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">36-40</tspan></text>
-        <text id="_51-55" data-name="51-55" transform="translate(53 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">51-55</tspan></text>
-        <text id="_56-60" data-name="56-60" transform="translate(118 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">56-60</tspan></text>
-        <text id="_61-65" data-name="61-65" transform="translate(182 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">61-65</tspan></text>
-        <text id="_66-70" data-name="66-70" transform="translate(247 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">66-70</tspan></text>
-        <text id="Over_71" data-name="Over 71" transform="translate(318 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-20.733" y="0">Over 71</tspan></text>
+        <text id="Under_21" data-name="Under 21" transform="translate(-326 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-24.387" y="0">Under 21</tspan></text>
+        <text id="_41-45" data-name="41-45" transform="translate(3 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">41-45</tspan></text>
+        <text id="_21-25" data-name="21-25" transform="translate(-253 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">21-25</tspan></text>
+        <text id="_31-35" data-name="31-35" transform="translate(-125 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">31-35</tspan></text>
+        <text id="_26-30" data-name="26-30" transform="translate(-189 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">26-30</tspan></text>
+        <rect id="Rectangle_11573" data-name="Rectangle 11573" width="41" height="30" transform="translate(-341 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11574" data-name="Rectangle 11574" width="64" height="30" transform="translate(-268 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11666" data-name="Rectangle 11666" width="165" height="30" transform="translate(-204 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11667" data-name="Rectangle 11667" width="187" height="30" transform="translate(-140 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11668" data-name="Rectangle 11668" width="198" height="30" transform="translate(-76 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11787" data-name="Rectangle 11787" width="181" height="30" transform="translate(-12 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11789" data-name="Rectangle 11789" width="210" height="30" transform="translate(51 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11791" data-name="Rectangle 11791" width="187" height="30" transform="translate(115 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11792" data-name="Rectangle 11792" width="123" height="30" transform="translate(179 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11793" data-name="Rectangle 11793" width="41" height="30" transform="translate(243 333) rotate(-90)" fill="#30bbb1"/>
+        <rect id="Rectangle_11794" data-name="Rectangle 11794" width="21" height="30" transform="translate(313 333) rotate(-90)" fill="#30bbb1"/>
+        <text id="_36-40" data-name="36-40" transform="translate(-61 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">36-40</tspan></text>
+        <text id="_51-55" data-name="51-55" transform="translate(66 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">51-55</tspan></text>
+        <text id="_56-60" data-name="56-60" transform="translate(130 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">56-60</tspan></text>
+        <text id="_61-65" data-name="61-65" transform="translate(194 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">61-65</tspan></text>
+        <text id="_66-70" data-name="66-70" transform="translate(258 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-15.337" y="0">66-70</tspan></text>
+        <text id="Over_71" data-name="Over 71" transform="translate(328 355)" fill="#31313a" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-20.733" y="0">Over 71</tspan></text>
       </g>
     </g>
   </g>
