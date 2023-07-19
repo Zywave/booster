@@ -41,7 +41,7 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 1. **Bounding area:** 24x24 px
 2. **Stroke weight**: 1px, .5px rounded corners
-3. **Counter fill:** Two-tone fill (more detail on color below)
+3. **Counter fill:** 20% opacity of stroke color
 4. **Stroke cap:** Rounded
 5. **Angles:** Increments of 45 degrees
 
@@ -52,12 +52,12 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 **Default & hover states:**
 
 * Stroke: #606072
-* Counter fill: #E0E0E4
+* Counter fill: #606072 at 20% opacity
 
 **Selected state:** 
 
 * Stroke: #3B75B5
-* Counter fill: #CADCEE
+* Counter fill: #3B75B5 at 20% opacity
 
 The counter fill color should be a majority of the fill. Ideally icons will also include some white fill, though this may not always be possible.
 
