@@ -395,7 +395,7 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 <docs-grid columns="2">
   <div>
 
-![Donut chart](/images/donut-chart-do.svg "Donut chart")
+![Donut chart do](/images/donut-chart-do.svg "Donut chart do")
 
 <docs-do>
 
@@ -405,7 +405,7 @@ Use categorical colors for each segment. Review `Color for data visualization`�
   </div>
   <div>
 
-![Donut chart](/images/donut-chart-don-t.svg "Donut chart")
+![Donut chart don't](/images/donut-chart-don-t.svg "Donut chart don't")
 
 <docs-do-not>
 
@@ -419,7 +419,7 @@ Use the same color shade for each segment unless highlighting an area of focus.
 <docs-grid columns="2">
   <div>
 
-I﻿MAGE
+![Donut chart do](/images/donut-chart-do.svg "Donut chart do")
 
 <docs-do>
 
@@ -429,7 +429,7 @@ Use 2-3 segments if possible. Donut charts become difficult to understand they i
   </div>
   <div>
 
-I﻿MAGE
+![Donut chart don't](/images/donut-chart-don-t.svg "Donut chart don't")
 
 <docs-do-not>
 
