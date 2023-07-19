@@ -462,7 +462,7 @@ Display metrics are usually combined with other visual elements for clearer comm
 
 Heatmaps associate a color to a value over a geographic region rather than a strict grid such as a heatmap. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on heatmap charts, view the `Data visualization design specs`.
 
-I﻿MAGE
+![Donut chart don't](/images/heatmap-2.svg "Donut chart don't")
 
 - - -
 
