@@ -135,7 +135,7 @@ Pie
 
 S﻿tacked bar
 
-![Stacked bar chart](/images/stacked-bar-chart.svg "Stacked bar chart")
+![Stacked bar chart](/images/stacked-bar.svg "Stacked bar chart")
 
 </docs-do-not>
   </div>
