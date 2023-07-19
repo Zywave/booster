@@ -446,13 +446,15 @@ Use more than 5 segments.
 
 Display metrics are used to show a single value with a base unit. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on display metrics, view the `Data visualization design specs`.
 
-I﻿MAGE
+![Donut chart don't](/images/display-metrics.svg "Donut chart don't")
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Movement
 
 Display metrics are usually combined with other visual elements for clearer communication. These can include bar charts, line charts, icons, and deltas.
 
-IMAGE
+![Donut chart don't](/images/display-metrics-–-movement.svg "Donut chart don't")
 
 - - -
 
