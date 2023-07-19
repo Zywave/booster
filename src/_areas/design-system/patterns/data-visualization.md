@@ -395,17 +395,17 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 <docs-grid columns="2">
   <div>
 
-I﻿MAGE
+![Donut chart](/images/donut-chart-do.svg "Donut chart")
 
 <docs-do>
 
-Use categorical colors for each segment.
+Use categorical colors for each segment. Review `Color for data visualization` for more about choosing colors for donut charts.
 
 </docs-do>
   </div>
   <div>
 
-I﻿MAGE
+![Donut chart](/images/donut-chart-don-t.svg "Donut chart")
 
 <docs-do-not>
 
