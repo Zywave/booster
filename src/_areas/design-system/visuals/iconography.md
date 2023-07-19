@@ -5,7 +5,7 @@ subtitle: null
 ---
 ## Icon overview
 
-Icons are one half of our visual library within ZUI. Icons can be broken up into two main categories: Navigation and System.
+Within ZUI, icons play a crucial role in our visual library. They can be divided into two main categories: Navigation and System icons.
 
 <Spacer size="small"/>
 
@@ -17,15 +17,15 @@ Navigation icons provide our users with an easily recognizable visual for parent
 
 ## Principles
 
-#### **Bold over basic**
+#### **Bold over subtle**
 
 Our nav icons are meant to stand out. They will always be paired with their descriptive text in the navigation. This allows the designers to create icons that make a significant statement and are more unique than system icons. 
 
-#### **Modern over mature**
+#### **Modern over traditional**
 
-Nav icon design should follow more modern patterns. Focus on current design trends including rounded corner and a sense of delight.
+For a modern touch, it's important to follow current design trends in icon design, such as incorporating rounded corners and adding a sense of delight.
 
-#### **Balance over biased**
+#### **Distinctive over generic**
 
 Nav icon design should have an equitable balance between being professional and playful. Focus on professional but unique concepts.
 
@@ -75,7 +75,7 @@ A keyline grid is a set of guides to help maintain optical balance between icons
 
 </docs-spacer>
 
-### **Simple, but interesting**
+### **Visual complexity**
 
 Find the balance between simple and complex. Make sure to continually check icons at the scale they will be viewed. This will help you determine the correct amount of detail to include. 
 
@@ -133,7 +133,7 @@ A target works better for “Prospecting” than a magnifying glass. Additionall
 ![](/images/navicon-don-t-2.png)
 
 <docs-do-not>
-The magnifying glass is often used for search and/or zoom which could create recognition issues for users.
+The magnifying glass is often used for search and/or zoom which could create confusion for users.
 
 </docs-do-not>
 
