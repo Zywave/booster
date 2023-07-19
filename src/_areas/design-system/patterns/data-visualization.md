@@ -429,7 +429,7 @@ Use 2-3 segments if possible. Donut charts become difficult to understand they i
   </div>
   <div>
 
-![Donut chart don't](/images/donut-chart-don-t.svg "Donut chart don't")
+![Donut chart don't](/images/donut-chart-don-t-–-2.svg "Donut chart don't")
 
 <docs-do-not>
 
