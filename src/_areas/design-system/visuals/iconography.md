@@ -11,7 +11,7 @@ Within ZUI, icons play a crucial role in our visual library. They can be divided
 
 ## Navigation icons
 
-Navigation icons provide our users with an easily recognizable visual for parent-level items within the Sidenav or Topbar. Combined with their text labels, they will speed up recognition and processing of the link text. 
+Navigation icons provide our users with an easily recognizable visual for parent-level items within the Sidenav or Topbar. Combined with their text labels, they will speed up the recognition and processing of the link text.
 
 <!--StartFragment-->
 
@@ -31,7 +31,7 @@ Nav icon design should have an equitable balance between being professional and 
 
 #### **Clarity over consistency**
 
-The guides are flexible when necessary to best represent the metaphor or parts of it. Use your best judgement as a designer.
+The guides are flexible when necessary to best represent the metaphor or parts of it. Use your best judgment as a designer.
 
 ## Anatomy
 
@@ -67,7 +67,7 @@ The counter fill color should be a majority of the fill. Ideally icons will also
 
 <br>
 
-A keyline grid is a set of guides to help maintain optical balance between icons within a set. Use it as a starting point and guide, but not a hard rule. There are four basic shapes that represent common icon scale and placement: circle, square, and rectangles.
+A keyline grid is a set of guides to help maintain the optical balance between icons within a set. Use it as a starting point and guide, but not a hard rule. There are four basic shapes that represent common icon scale and placement: circles, squares, and rectangles.
 
 <br>
 
@@ -186,11 +186,11 @@ This is mathematically aligned but looks off due to the shape and weight of the 
 
 ## System Icons
 
-Our system icons are a set of line icons that can be used throughout the UI to draw more attention to a specific element or action. Typically our system icons are used to the left of the text label within buttons to help draw more attention to them. Or, if the icon is easily identifiable, the icon can be used alone within a button in order to save space.
+Our system icons are a set of line icons that can be used throughout the UI to draw more attention to a specific element or action. Typically our system icons are used to the left of the text label within buttons to help draw more attention to them. Or, if the icon is easily identifiable, the icon can be used alone within a button to save space.
 
 ### File system icons
 
-All file system icons have a default color to help users make connections with other, non-Zywave systems. Grayscale is available for edge case scenarios, and should be used rarely.
+All file system icons have a default color to help users make connections with other, non-Zywave systems. Grayscale is available for edge case scenarios and should be used rarely.
 
 ### System icon usage guidelines
 
@@ -256,7 +256,7 @@ Our message delivery systems can use colored icons to convey the type of message
 
 ### Interactive icons
 
-Aside from icon buttons, there are a few instances that are clickable or on hover will trigger a Tooltip or Popover. These icons should be ZUI Blue 500 in order to indicate that they are interactive and draw more attention to them. Typically these icons are represented by our help icon or our info circle icon.
+Aside from icon buttons, there are a few instances that are clickable or on hover will trigger a Tooltip or Popover. These icons should be ZUI Blue 500 to indicate that they are interactive and draw more attention to them. Typically these icons are represented by our help icon or our info circle icon.
 
 <center>
 
@@ -278,9 +278,9 @@ The zui-close icon is used to signify when a component can be closed or dismisse
 
 ### Remove or delete icons
 
-There are two icons that may be used to signify something that can be removed/deleted: zui-delete and zui-remove.\
+Two icons may be used to signify something that can be removed/deleted: zui-delete and zui-remove.\
 The zui-delete icon (trash can) should be used sparingly and is often associated with a more permanent delete. We recommend using this in situations where there is only one delete action on the page. It appears most often alongside text within a button, but it can also be used alone within an icon button. This icons should be ZUI Red 500 to indicate a destructive action when clicked, and should never be ZUI Gray 800 when used in this context.\
-The zui-remove (X) icon is used more frequently and can indicate the ability to remove or permanently delete something. Zui-remove is the preferred icon when there is one or more delete/remove action on the page. For example, it is often seen in tables to delete a row or to remove filters and selections in a dropdown. Consider using ZUI Red 500 to indicate a destructive action when clicked.
+The zui-remove (X) icon is used more frequently and can indicate the ability to remove or permanently delete something. Zui-remove is the preferred icon when there is one or more delete/remove actions on the page. For example, it is often seen in tables to delete a row or to remove filters and selections in a dropdown. Consider using ZUI Red 500 to indicate a destructive action when clicked.
 
 <center>
 
