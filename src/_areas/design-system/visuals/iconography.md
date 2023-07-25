@@ -39,7 +39,7 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 
 <br>
 
-1. **Bounding area:** 24x24 px
+1. **Bounding area:** 20x20 px
 2. **Stroke weight**: 1px, .5px rounded corners
 3. **Counter fill:** 20% opacity of stroke color
 4. **Stroke cap:** Rounded
@@ -59,7 +59,7 @@ The guides are flexible when necessary to best represent the metaphor or parts o
 * Stroke: #3B75B5
 * Counter fill: #3B75B5 at 20% opacity
 
-The counter fill color should be a majority of the fill. Ideally icons will also include some white fill, though this may not always be possible.
+The counter fill color should be a majority of the fill. Ideally icons will also include some negative space, though this may not always be possible.
 
 ## Grid
 
