@@ -126,7 +126,7 @@ There are **four required files** in order for the Booster Application Framework
 
 <docs-spacer></docs-spacer>
 
-## Need a better way to debug our components?
+## Debug Booster components
 
 We've added unminified JS files for easier debugging since our bundles are very aggressively minified for production, making it very difficult to debug our components. Not only will you be able to debug all Booster components with less effort moving forward, you also get the added benefit of Lit dev logging with extra runtime warnings.
 
