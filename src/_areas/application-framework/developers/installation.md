@@ -6,9 +6,9 @@ title: Installation
 
 Gain access to the Booster Application Framework—commonly known as the Zywave API Toolkit (ZAPI)—components without having to install a single package.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
-## Determine if your application requires stable third-party components
+### Determine if your application requires stable third-party components
 
 * If yes, get the most recent **stable** versions here:
 
@@ -19,15 +19,15 @@ Gain access to the Booster Application Framework—commonly known as the Zywave 
   * Booster Design System (ZUI) bundle: <https://cdn.zywave.com/@zywave/zui-bundle@next/dist/>
   * Booster Application Framework (ZAPI) bundle: <https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dist/>
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
-## Required files
+### Required files
 
 There are **four required files** in order for the Booster Application Framework bundle to work propertly in every application:
 
 1. `zui-bundle.fouc.css` - required for a smooth transition while all the scripts on the page loads, especially for non-SPAs
 2. `zui-bundle.app.css` - required for resetting styles for all base elements in your application
-3. zui-bundle's `bundle.js`* - required to load **most** ZUI components properly
+3. zui-bundle's `bundle.js`* - required to load **most** ZUI components\*\* properly
 4. zywave-api-toolkit-bundle's `bundle.js`* - required to load **all** ZAPI components properly
 
 ```html
@@ -36,7 +36,7 @@ There are **four required files** in order for the Booster Application Framework
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note><strong>*</strong> The `bundle.js` file is delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, e.g. `<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>`.
+<docs-note><strong>*</strong> The `bundle.js` files are delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, such as `<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js"></script>`.
 <strong>\*\*</strong> There are some exceptions to what components are part of the ZUI bundle. For example, `<zui-table>` must be embedded separately. [Learn more by visiting the Tables documentation.](/design-system/components/tables/)</docs-note>
 
 <docs-spacer></docs-spacer>
@@ -45,7 +45,9 @@ There are **four required files** in order for the Booster Application Framework
 
 The Zywave API toolkit offers a bundle with all of the core componentry for the Zywave API Toolkit, which includes the [Zywave Shell](/application-framework/components/shell/), the [API proxy](/application-framework/components/api-proxy/), etc. This bundle is delivered as an [ES module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), and only works in modern browsers.
 
-By loading the bundle via a CDN that can resolve npm tags, we can push fixes/enhancements to your application without any deployment on your end. 
+By loading the bundle via a CDN that can resolve npm tags, we can push fixes/enhancements to your application without any deployment on your end.
+
+Here's an example of how to load the Zywave API Toolkit bundle with the necessary stylesheets and scripts:
 
 ```html
 <!doctype html>
