@@ -126,30 +126,6 @@ There are **four required files** in order for the Booster Application Framework
 
 <docs-spacer></docs-spacer>
 
-## Debug Booster components
-
-We've added unminified JS files for easier debugging since our bundles are very aggressively minified for production, making it very difficult to debug our components. Not only will you be able to debug all Booster components with less effort moving forward, you also get the added benefit of Lit dev logging with extra runtime warnings.
-
-All development build (unminified) files are located in the `/dev/` folder instead of the `/dist/` of each bundle:
-
-```html
-<!-- Unminified DEVELOPMENT ZUI files -->
-<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dev/bundle.js"></script>
-<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dev/components/table.js"></script>
-
-<!-- Unminified DEVELOPMENT ZAPI files -->
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dev/bundle.js"></script>
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dev/components/api-proxy.js"></script>
-```
-
-<docs-spacer size="small"></docs-spacer>
-
-### Can I use the development bundles in lower environments for my apps?
-
-We strongly encourage you to do so! However, please don't use them in production since they will reduce your app's performance to end users.
-
-<docs-spacer></docs-spacer>
-
 ## Where do I find a list of released packages to install?
 
 * Search for `@zywave` at [npmjs.com](https://www.npmjs.com/search?q=%40zywave)
@@ -180,3 +156,27 @@ A versioned URL could look something like the following:
 ```
 https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@1.0.22/dist/bundle.js
 ```
+
+<docs-spacer></docs-spacer>
+
+## Debug Booster components
+
+We've added unminified JS files for easier debugging since our bundles are very aggressively minified for production, making it very difficult to debug our components. Not only will you be able to debug all Booster components with less effort moving forward, you also get the added benefit of Lit dev logging with extra runtime warnings.
+
+All development build (unminified) files are located in the `/dev/` folder instead of the `/dist/` of each bundle:
+
+```html
+<!-- Unminified DEVELOPMENT ZUI files -->
+<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dev/bundle.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dev/components/table.js"></script>
+
+<!-- Unminified DEVELOPMENT ZAPI files -->
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dev/bundle.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dev/components/api-proxy.js"></script>
+```
+
+<docs-spacer size="small"></docs-spacer>
+
+### Can I use the development bundles in lower environments for my apps?
+
+We strongly encourage you to do so! However, please don't use them in production since they will reduce your app's performance to end users.
