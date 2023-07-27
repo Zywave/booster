@@ -74,9 +74,9 @@ There are **three required files** in order for the Booster Design System bundle
 
 ## @latest and @next tags
 
-You may have noticed in the code snippets above something like `@latest`
+You may have noticed `@latest` and `@next` in the code snippets and links above.
 
-These terms correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
+They are tags that correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
 
 These dist tags gives the toolkit the ability to deploy updates and fixes to your application, without you having to lift a finger!
 

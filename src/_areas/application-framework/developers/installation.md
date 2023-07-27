@@ -93,10 +93,9 @@ For more information on the API Proxy Element, click [here](/application-framewo
 
 ## @latest and @next tags
 
-You may have noticed in that code snippets above the following:\
-`@{latest|next}`  
+You may have noticed `@latest` and `@next` in the code snippets and links above.
 
-These terms correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
+They are tags that correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
 
 Choose the right tag for your situation, and update accordingly (e.g., `https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js`).
 
