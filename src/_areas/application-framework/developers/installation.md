@@ -31,7 +31,7 @@ There are **four required files** in order for the Booster Application Framework
 4. zywave-api-toolkit-bundle's `bundle.js`* - required to load **all** ZAPI components properly
 
 ```html
-<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@{latest|next}/dist/bundle.js"></script>
+<script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js"></script>
 ```
 
 <docs-spacer size="small"></docs-spacer>
@@ -55,12 +55,12 @@ By loading the bundle via a CDN that can resolve npm tags, we can push fixes/enh
 
     <!-- These two stylesheets should always be listed before all other application styles -->
     <!-- Make sure `zui-bundle.fouc.css` is always listed first to counter FOUC -->
-    <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-bundle@{latest|next}/dist/css/zui-bundle.fouc.css" />
-    <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-bundle@{latest|next}/dist/css/zui-bundle.app.css" />
+    <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/css/zui-bundle.app.css" />
 
     <!-- It is required to also load the ZUI bundle and stylesheets above, especially for Zywave Shell usage -->
-    <script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@{latest|next}/dist/bundle.js"></script>
-    <script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@{latest|next}/dist/bundle.js"></script>
+    <script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>
+    <script type="module" src="https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@latest/dist/bundle.js"></script>
   </head>
   <body>
     <!-- your content here -->
