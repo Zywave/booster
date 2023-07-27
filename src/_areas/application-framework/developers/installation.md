@@ -113,7 +113,7 @@ A versioned URL could look something like the following:\
 
 <docs-spacer></docs-spacer>
 
-## Debugging
+## Debugging components
 
 We've added unminified JS files for easier debugging since our bundles are very aggressively minified for production, making it very difficult to debug our components. Not only will you be able to debug all Booster components with less effort moving forward, you also get the added benefit of Lit dev logging with extra runtime warnings.
 
