@@ -42,7 +42,7 @@ There are **three required files** in order for the Booster Design System bundle
 
 <docs-spacer size="small"></docs-spacer>
 
-### Install via CDN
+### Installation
 
 ```html
 <!doctype html>
@@ -61,24 +61,6 @@ There are **three required files** in order for the Booster Design System bundle
     <!-- your content here -->
   <body>
 </html>
-```
-
-<docs-spacer size="small"></docs-spacer>
-
-### Install via Yarn/NPM
-
-If you want an à la carte experience, you can install individual ZUI component packages via Yarn or NPM.
-
-The following works with no extra work:
-
-```shell
-> yarn add @zywave/zui-components-all
-```
-
-<br>
-
-```shell
-> npm install @zywave/zui-components-all
 ```
 
 <docs-spacer></docs-spacer>
