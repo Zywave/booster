@@ -42,7 +42,7 @@ There are **three required files** in order for the Booster Design System bundle
 
 <docs-spacer size="small"></docs-spacer>
 
-### Installation
+## Installation
 
 ```html
 <!doctype html>
