@@ -40,7 +40,7 @@ There are **three required files** in order for the Booster Design System bundle
 <docs-note><strong>*</strong> The `bundle.js` file is delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, e.g. `<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>`.
 <strong>\*\*</strong> There are some exceptions to what components are part of the ZUI bundle. For example, `<zui-table>` must be embedded separately. [Learn more by visiting the Tables documentation.](/design-system/components/tables/)</docs-note>
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
 ## Installation
 
