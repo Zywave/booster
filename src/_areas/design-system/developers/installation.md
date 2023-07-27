@@ -6,9 +6,9 @@ title: Installation
 
 Gain access to the Booster Design System—commonly known as the Zywave User Interface (ZUI)—components and stylesheets without having to install a single package.
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
-### Determine if your application requires stable third-party components
+## Determine if your application requires stable third-party components
 
 * If yes, get the most recent **stable** versions here:
 
@@ -19,9 +19,9 @@ Gain access to the Booster Design System—commonly known as the Zywave User Int
   * Booster Design System (ZUI) bundle: <https://cdn.zywave.com/@zywave/zui-bundle@next/dist/>
   * Booster Application Framework (ZAPI) bundle: <https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dist/>
 
-<docs-spacer size="small"></docs-spacer>
+<docs-spacer></docs-spacer>
 
-### Required files
+## Required files
 
 There are **three required files** in order for the Booster Design System bundle to work properly in every application:
 
