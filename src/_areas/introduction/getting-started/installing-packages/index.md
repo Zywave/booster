@@ -135,9 +135,9 @@ There are **four required files** in order for the Booster Application Framework
 
 ## @latest and @next tags
 
-You may have noticed in the code snippets above something like `@latest`
+You may have noticed `@latest` and `@next` in the code snippets and links above.
 
-These terms correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
+They are tags that correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
 
 These dist tags gives the toolkit the ability to deploy updates and fixes to your application, without you having to lift a finger!
 
@@ -159,7 +159,7 @@ https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@1.0.22/dist/bundle.js
 
 <docs-spacer></docs-spacer>
 
-## Debug Booster components
+## Debugging all Booster components
 
 We've added unminified JS files for easier debugging since our bundles are very aggressively minified for production, making it very difficult to debug our components. Not only will you be able to debug all Booster components with less effort moving forward, you also get the added benefit of Lit dev logging with extra runtime warnings.
 

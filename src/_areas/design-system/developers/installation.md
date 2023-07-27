@@ -6,9 +6,9 @@ title: Installation
 
 Gain access to the Booster Design System—commonly known as the Zywave User Interface (ZUI)—components and stylesheets without having to install a single package.
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
-## Determine if your application requires stable third-party components
+### Determine if your application requires stable third-party components
 
 * If yes, get the most recent **stable** versions here:
 
@@ -19,9 +19,9 @@ Gain access to the Booster Design System—commonly known as the Zywave User Int
   * Booster Design System (ZUI) bundle: <https://cdn.zywave.com/@zywave/zui-bundle@next/dist/>
   * Booster Application Framework (ZAPI) bundle: <https://cdn.zywave.com/@zywave/zywave-api-toolkit-bundle@next/dist/>
 
-<docs-spacer></docs-spacer>
+<docs-spacer size="small"></docs-spacer>
 
-## Required files
+### Required files
 
 There are **three required files** in order for the Booster Design System bundle to work properly in every application:
 
@@ -37,12 +37,18 @@ There are **three required files** in order for the Booster Design System bundle
 
 <docs-spacer size="small"></docs-spacer>
 
-<docs-note><strong>*</strong> The `bundle.js` file is delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, e.g. `<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>`.
+<docs-note><strong>*</strong> The `bundle.js` file is delivered as [ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) and must be loaded from other ES modules, such as `<script type="module" src="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/bundle.js"></script>`.
 <strong>\*\*</strong> There are some exceptions to what components are part of the ZUI bundle. For example, `<zui-table>` must be embedded separately. [Learn more by visiting the Tables documentation.](/design-system/components/tables/)</docs-note>
 
 <docs-spacer></docs-spacer>
 
 ## Installation
+
+We offer a bundle with all of the core componentry for the Booster Design System, which includes [ZUI Buttons](/design-system/components/buttons/), [ZUI Icons](/design-system/components/icons/), [ZUI color palette](/design-system/visuals/colors/), etc. This bundle is delivered as an [ES module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), and only works in modern browsers.
+
+By loading the bundle via a CDN that can resolve npm tags, we can push fixes/enhancements to your application without any deployment on your end.
+
+Here's an example of how to load the bundle with the necessary stylesheets and script:
 
 ```html
 <!doctype html>
@@ -74,9 +80,9 @@ There are **three required files** in order for the Booster Design System bundle
 
 ## @latest and @next tags
 
-You may have noticed in the code snippets above something like `@latest`
+You may have noticed `@latest` and `@next` in the code snippets and links above.
 
-These terms correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
+They are tags that correspond to [npm distribution tags](https://docs.npmjs.com/cli/v7/commands/npm-dist-tag), where `latest` is stable, production-ready code, and `next` is generally unstable and not suitable to be referenced in a live environment.
 
 These dist tags gives the toolkit the ability to deploy updates and fixes to your application, without you having to lift a finger!
 
