@@ -504,11 +504,11 @@ Drilling down into information means allowing users to interact and explore the 
 
 The drilling down process initiates when a user clicks on a specific data point in a chart, triggering a seamless transition to a dedicated page with expanded insights.
 
-![dashboard](/images/drill-down.svg "dashboard")
+![drill down chart](/images/drill-down.svg "drill down chart")
 
 Upon clicking a data point, users are seamlessly directed to a new page exclusively focused on presenting comprehensive information related to their selection. This dedicated page offers a concentrated view of the data point's context, contributing factors, and any relevant metrics.
 
-![dashboard](/images/drill-down.svg "dashboard")
+![drill down page](/images/drill-down-2.svg "drill down page")
 
 Here are some best practices for implementing drilling down:
 
