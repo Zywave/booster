@@ -502,7 +502,7 @@ Here are some best practices for creating effective data visualization layouts:
 
 Drilling down into information means allowing users to interact and explore the data in more detail. For detailed documentation on drilling down, view the `Data visualization design specs`.
 
-I﻿MAGE
+![dashboard](/images/drill-down.svg "dashboard")
 
 Here are some best practices for implementing drilling down:
 
