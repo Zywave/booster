@@ -114,14 +114,11 @@
       <text id="Underwriters_-_Billy_Bob" data-name="Underwriters - Billy Bob" transform="translate(280 167)" fill="#31313a" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Underwriters - Billy Bob</tspan></text>
       <text id="last_updated_10_04_22" data-name="last updated 10/04/22" transform="translate(582 162)" fill="#9494a4" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">last updated 10/04/22</tspan></text>
       <g id="Breadcrumb" transform="translate(280 100)">
-        <text id="Current_page" data-name="Current page" transform="translate(419 15)" fill="#9494a4" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Underwriters - Billy Bob</tspan></text>
+        <text id="Current_page" data-name="Current page" transform="translate(198 15)" fill="#9494a4" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Underwriters - Billy Bob</tspan></text>
         <g id="Clickable_page" data-name="Clickable page" transform="translate(89 -91)">
-          <g id="Group_8413" data-name="Group 8413" transform="translate(266 -15)">
+          <g id="Group_8413" data-name="Group 8413" transform="translate(45 -15)">
             <rect id="Rectangle_3875" data-name="Rectangle 3875" width="16" height="16" transform="translate(64 108) rotate(90)" fill="none"/>
             <path id="Path_5567" data-name="Path 5567" d="M376.7,13.533l4.2-4.2-4.2-4.2a.644.644,0,0,1,0-.933h0a.644.644,0,0,1,.933,0l4.2,4.2.467.467a.644.644,0,0,1,0,.933l-.467.467-4.2,4.2a.644.644,0,0,1-.933,0h0A.643.643,0,0,1,376.7,13.533Z" transform="translate(-323.5 106.667)" fill="#2777d3"/>
-          </g>
-          <g id="Symbol_152_2" data-name="Symbol 152 – 2" transform="translate(19 -19)">
-            <text id="Top_offices_by_premium_-_Miami_FL" data-name="Top offices by premium - Miami, FL" transform="translate(74 125)" fill="#2777d3" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Top offices by premium - Miami, FL</tspan></text>
           </g>
         </g>
         <g id="Clickable_page-2" data-name="Clickable page" transform="translate(-93 -91)">
@@ -129,7 +126,7 @@
             <rect id="Rectangle_3875-2" data-name="Rectangle 3875" width="16" height="16" transform="translate(64 108) rotate(90)" fill="none"/>
             <path id="Path_5567-2" data-name="Path 5567" d="M376.7,13.533l4.2-4.2-4.2-4.2a.644.644,0,0,1,0-.933h0a.644.644,0,0,1,.933,0l4.2,4.2.467.467a.644.644,0,0,1,0,.933l-.467.467-4.2,4.2a.644.644,0,0,1-.933,0h0A.643.643,0,0,1,376.7,13.533Z" transform="translate(-323.5 106.667)" fill="#2777d3"/>
           </g>
-          <g id="Symbol_152_2-2" data-name="Symbol 152 – 2" transform="translate(19 -19)">
+          <g id="Symbol_152_2" data-name="Symbol 152 – 2" transform="translate(19 -19)">
             <text id="Commercial_lines_analytics" data-name="Commercial lines analytics" transform="translate(74 125)" fill="#2777d3" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Commercial lines analytics</tspan></text>
           </g>
         </g>
