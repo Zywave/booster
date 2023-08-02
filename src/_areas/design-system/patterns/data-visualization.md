@@ -470,7 +470,7 @@ Heatmaps associate a color to a value over a geographic region rather than a str
 
 In addition to choosing the right chart type, it's important to consider the layout of your dashboard. Dashboards can better help communicate a story rather than one complex chart. Dashboards are a collection of multiple separate charts on a screen. For detailed documentation on dashboards, view the `Data visualization design specs`.
 
-I﻿MAGE
+![dashboard](/images/dashboard.svg "dashboard")
 
 ### Designing a dashboard
 
