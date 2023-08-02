@@ -506,10 +506,10 @@ Drilling down into information means allowing users to interact and explore the 
 
 Here are some best practices for implementing drilling down:
 
-1. **Keep it simple:** Don't overwhelm the user with too many options or levels of detail.
-2. **Provide context:** Make sure the user understands where they are and what they are looking at before offering the option to drill down.
-3. **Use breadcrumbs:** Provide a clear path for the user to follow back to the original view.
-4. **Offer clear labels and descriptions:** Use descriptive labels and tooltips to help the user understand what they are looking at.
+* **Keep it simple:** Don't overwhelm the user with too many options or levels of detail.
+* **Provide context:** Make sure the user understands where they are and what they are looking at before offering the option to drill down.
+* **Use breadcrumbs:** Provide a clear path for the user to follow back to the original view.
+* **Offer clear labels and descriptions:** Use descriptive labels and tooltips to help the user understand what they are looking at.
 
 <docs-spacer size="small"></docs-spacer>
 
