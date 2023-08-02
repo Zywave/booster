@@ -472,6 +472,8 @@ In addition to choosing the right chart type, it's important to consider the lay
 
 ![dashboard](/images/dashboard.svg "dashboard")
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Designing a dashboard
 
 A dashboard's purpose should be reflected in its layout. The design of the dashboard should suit how it will be used, whether it's a tool for deeply exploring data or answering predefined questions. The layout plays a critical role in conveying information effectively. To ensure that users can quickly grasp the key insights while still having access to supporting data, follow these best practices for arranging your dashboard elements:
@@ -481,6 +483,8 @@ A dashboard's purpose should be reflected in its layout. The design of the dashb
 3. **Supplementary Data:** The final layer may encompass more specific data that provides additional reinforcement for the information presented at the top.
 
 ![dashboard](/images/dashboard-layout.svg "dashboard")
+
+<docs-spacer size="small"></docs-spacer>
 
 Here are some best practices for creating effective data visualization layouts:
 
