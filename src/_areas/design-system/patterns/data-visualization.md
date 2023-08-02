@@ -476,8 +476,11 @@ In addition to choosing the right chart type, it's important to consider the lay
 
 A dashboard's purpose should be reflected in its layout. The design of the dashboard should suit how it will be used, whether it's a tool for deeply exploring data or answering predefined questions. The layout plays a critical role in conveying information effectively. To ensure that users can quickly grasp the key insights while still having access to supporting data, follow these best practices for arranging your dashboard elements:
 
-1. Dashboards should prioritize the most important information by placing charts with high significance toward the top
-2.
+1. **Emphasized data:** The dashboard layout should emphasize critical information by positioning charts with significant relevance at the top. This could encompass attention-worthy elements or provide a summarized overview.
+2. **Supporting Data:** The subsequent layer can incorporate deeper insights and underlying factors that substantiate the emphasized data.
+3. **Supplementary Data:** The final layer may encompass more specific data that provides additional reinforcement for the information presented at the top.
+
+
 
 Here are some best practices for creating effective data visualization layouts:
 
