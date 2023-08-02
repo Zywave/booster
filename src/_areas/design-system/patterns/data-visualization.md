@@ -478,13 +478,13 @@ A dashboard's purpose should be reflected in its layout. The design of the dashb
 
 Here are some best practices for creating effective data visualization layouts:
 
-U﻿SE IMAGERY FROM DATA VIZ PPT PRESENTATION
+* **Group related charts together:** Place charts that are related or have a similar purpose close to each other.
+* **Use hierarchy to portray significance:** Place charts with high importance but less specificity towards the top and charts with less importance but more specificity towards bottom.
+* **Use consistent colors and typography:** Use the design system's color and typography guidelines to ensure consistency and readability.
+* **Consider the user's workflow:** Design the layout to match the user's workflow and the tasks they need to accomplish.
+* **Provide context:** Provide additional context or explanations for complex data points, so that users can understand the meaning behind the data.
 
-1. **Group related charts together:** Place charts that are related or have a similar purpose close to each other.
-2. **Use hierarchy to portray significance:** Place charts with high importance but less specificity towards the top and charts with less importance but more specificity towards bottom.
-3. **Use consistent colors and typography:** Use the design system's color and typography guidelines to ensure consistency and readability.
-4. **Consider the user's workflow:** Design the layout to match the user's workflow and the tasks they need to accomplish.
-5. **Provide context:** Provide additional context or explanations for complex data points, so that users can understand the meaning behind the data.
+
 
 - - -
 
