@@ -480,7 +480,7 @@ A dashboard's purpose should be reflected in its layout. The design of the dashb
 2. **Supporting Data:** The subsequent layer can incorporate deeper insights and underlying factors that substantiate the emphasized data.
 3. **Supplementary Data:** The final layer may encompass more specific data that provides additional reinforcement for the information presented at the top.
 
-
+![dashboard](/images/dashboard-layout.svg "dashboard")
 
 Here are some best practices for creating effective data visualization layouts:
 
