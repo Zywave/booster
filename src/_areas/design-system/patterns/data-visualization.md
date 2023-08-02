@@ -500,9 +500,9 @@ Here are some best practices for creating effective data visualization layouts:
 
 ### Drilling down
 
-Drilling down into information means allowing users to interact and explore the data in more detail. Drilling down into information offers users the ability to gain deeper insights by interacting with specific data points within a chart. For detailed documentation on drilling down, view the `Data visualization design specs`.
+Drilling down into information means allowing users to interact and explore the data in more detail. Users gain a deeper understanding of specific data points, enabling them to make more informed decisions and identify trends that may not be immediately apparent at a higher level. For detailed documentation on drilling down, view the `Data visualization design specs`.
 
-The drilling down process initiates when a user clicks on a specific data point in a chart, triggering a seamless transition to a dedicated page with expanded insights.
+The drilling down process initiates when a user clicks on a specific data point in a chart, triggering a seamless transition to a dedicated page with expanded insights. By isolating specific data points, users can perform detailed analysis without distraction, ensuring a thorough examination of the selected metric.
 
 ![drill down chart](/images/drill-down.svg "drill down chart")
 
