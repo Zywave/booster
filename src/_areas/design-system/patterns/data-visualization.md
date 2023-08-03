@@ -535,7 +535,7 @@ Global filters allow users to adjust the filters for all charts at once. They sh
 
 Individual chart filters allow users to adjust the filters for a specific chart without affecting the others.
 
-IMAGE
+![individual filter](/images/individual-filter.svg "individual filter")
 
 - - -
 
