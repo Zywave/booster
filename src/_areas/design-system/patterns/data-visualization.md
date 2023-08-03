@@ -687,6 +687,8 @@ To ensure accessibility, line charts should utilize darker shades of color. The 
 
 <docs-spacer size="small"></docs-spacer>
 
+![line chart color palette](/images/global-filter.svg "line chart color palette")
+
 ### Sequential color palette
 
 A sequential color palette is used when the variable is numeric or ordered values. Colors are assigned to data values in a continuum, usually based on lightness, hue, or both.
