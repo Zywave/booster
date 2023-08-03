@@ -38,6 +38,8 @@ Data visualizations should be approached by:
 
 The following are the basic types of data visualizations. For detailed documentation on Data visualization, view the `Data visualization design specs.`
 
+
+
 Booster supports`vertical column`, `line`, `vertical bar`, `display`, `pie`, `donut`and `heatmap`charts.
 
 When choosing a chart type, consider your data set and what you want to convey about the data.
