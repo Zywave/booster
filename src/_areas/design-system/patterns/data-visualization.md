@@ -549,9 +549,23 @@ When choosing a color palette, consider your data set and what you want to conve
 
 A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
 
-<!--StartFragment-->
+<div style="display: flex; justify-content"> 
 
-<div style="display: flex; justify-content"> <div style="width: 40px; height: 40px; background-color: #30BBB1; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color:#97C964; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #FBAC0E; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #F36F12; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #D93911; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #C6318C; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #6F48B0;"></div> </div>
+<div style="width: 40px; height: 40px; background-color: #30BBB1; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color:#97C964; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #FBAC0E; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #F36F12; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #D93911; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #C6318C; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #6F48B0;"></div> 
+
+</div>
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -559,7 +573,23 @@ A qualitative palette is used when the variable is categorical in nature. Exampl
 
 A sequential color palette is used when the variable is numeric or ordered values. Colors are assigned to data values in a continuum, usually based on lightness, hue, or both.
 
-I﻿MAGE
+<div style="display: flex; justify-content"> 
+
+<div style="width: 40px; height: 40px; background-color: #E8FFFF; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color:#9DEDEA; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #5FD9D1; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #30BBB1; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #1B8880; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #116F69; margin-right: 2px;"></div> 
+
+</div>
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Binary color palette
 
