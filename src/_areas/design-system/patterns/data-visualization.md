@@ -595,7 +595,13 @@ A sequential color palette is used when the variable is numeric or ordered value
 
 A binary color palette is used when the variable is a comparison of two categories. A common use case is to show hierarchy. The primary difference between the two categories of a binary scheme may be lightness.
 
-I﻿MAGE
+<div style="display: flex; justify-content"> 
+
+<div style="width: 40px; height: 40px; background-color: #E6E6EA; margin-right: 2px;"></div> 
+
+<div style="width: 40px; height: 40px; background-color: #30BBB1; margin-right: 2px;"></div> 
+
+</div>
 
 <docs-spacer size="small"></docs-spacer>
 
