@@ -737,7 +737,21 @@ The most prominent dimension of color for a sequential palette is its lightness.
 
 A binary color palette shows differences that are divided into only two categories. The primary difference between the two categories of a binary scheme may be a lightness.
 
-I﻿MAGE OF COLOR RANGE
+<div style="display: flex; flex-direction: column;"> <div style="display: flex; justify-content: space-between;"> <span>1</span>
+
+<span>2</span>
+
+</div> 
+
+<div style="display: flex; justify-content: space-between; margin-top: 5px;"> 
+
+<div style="width: 60px; height: 60px; background-color: #30BBB1; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#30BBB1</span> </div>
+
+<div style="width: 60px; height: 60px; background-color: #E6E6EA; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: black;">#E6E6EA</span> </div>
+
+</div> </div>
+
+<docs-spacer size="small"></docs-spacer>
 
 A common use case for a binary color palette is to convey hierarchy. The contrast puts emphasis on an area of focus, when it is used sparingly.
 
