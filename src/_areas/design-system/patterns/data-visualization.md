@@ -551,9 +551,7 @@ A qualitative palette is used when the variable is categorical in nature. Exampl
 
 <!--StartFragment-->
 
-<div style="display: flex; justify-content"> <div style="width: 40px; height: 40px; background-color: red; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: blue; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: green; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: yellow; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: orange; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: purple; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: pink;"></div> </div>
-
-<!--EndFragment-->
+<div style="display: flex; justify-content"> <div style="width: 40px; height: 40px; background-color: #30BBB1; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color:#97C964; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #FBAC0E; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #F36F12; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #D93911; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #C6318C; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: #6F48B0;"></div> </div>
 
 <docs-spacer size="small"></docs-spacer>
 
