@@ -529,7 +529,7 @@ The decision on where to place the filters should be based on the needs and pref
 
 Global filters allow users to adjust the filters for all charts at once. They should appear at the top of the page.
 
-IMAGE
+![global filter](/images/global-filter.svg "global filter")
 
 #### **Individual chart filters**
 
