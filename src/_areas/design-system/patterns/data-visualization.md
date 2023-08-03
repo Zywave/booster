@@ -755,7 +755,7 @@ A binary color palette shows differences that are divided into only two categori
 
 A common use case for a binary color palette is to convey hierarchy. The contrast puts emphasis on an area of focus, when it is used sparingly.
 
-IMAGE EXAMPLE
+![binary color palette](/images/binary-color-palette.svg "binary color palette")
 
 - - -
 
