@@ -3,7 +3,6 @@ layout: documentation
 title: Contribute to the documentation
 navTitle: Documentation
 ---
-
 This guide is to empower our community to contribute to the docs with recommendations, rules, and helpful resources.
 
 <docs-spacer></docs-spacer>
@@ -67,7 +66,7 @@ You can provide your own HTML markup in here, such as an unordered list, if you 
 </docs-do-not>
 ```
 
----
+- - -
 
 ### Spacers
 
@@ -85,6 +84,7 @@ I am section A.
 <docs-spacer></docs-spacer>
 
 I am section B and want some space from section A.
+
 </div>
 
 ```html
@@ -107,6 +107,7 @@ I am section A.
 <docs-spacer size="small"></docs-spacer>
 
 I am section B and I want a small amount of space from section B.
+
 </div>
 
 ```html
@@ -117,7 +118,7 @@ I am section A.
 I am section B and I want a small amount of space from section B.
 ```
 
----
+- - -
 
 ### Grid system
 
@@ -129,6 +130,7 @@ To set the number of columns, add the attribute `columns=""` along with a number
 <docs-grid columns="3">
   <div>
      This is column 1 of 3.
+     Line 2
   </div>
   <div>
     This is column 2 of 3.
