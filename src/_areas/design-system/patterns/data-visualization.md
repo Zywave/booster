@@ -545,13 +545,17 @@ The color palettes for data visualizations are based on accessibility guidelines
 
 When choosing a color palette, consider your data set and what you want to convey about the data.
 
-<docs-spacer size="small"></docs-spacer>
-
 ### Qualitative color palette
 
 A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
 
-I﻿MAGE
+<!--StartFragment-->
+
+<div style="display: flex; justify-content"> <div style="width: 40px; height: 40px; background-color: red; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: blue; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: green; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: yellow; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: orange; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: purple; margin-right: 2px;"></div> <div style="width: 40px; height: 40px; background-color: pink;"></div> </div>
+
+<!--EndFragment-->
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Sequential color palette
 
