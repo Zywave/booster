@@ -36,7 +36,7 @@ Data visualizations should be approached by:
 
 ## Types
 
-The following are the basic types of data visualizations. For detailed documentation on Data visualization, view the `Data visualization design specs.`
+The following are the basic types of data visualizations. For detailed documentation on Data visualization, view [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/grid)
 
 
 
