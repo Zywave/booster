@@ -687,7 +687,9 @@ To ensure accessibility, line charts should utilize darker shades of color. The 
 
 <docs-spacer size="small"></docs-spacer>
 
-![line chart color palette](/images/global-filter.svg "line chart color palette")
+![line chart color palette](/images/line-chart-color-palette.svg "line chart color palette")
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Sequential color palette
 
