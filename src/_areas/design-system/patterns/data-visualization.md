@@ -695,11 +695,41 @@ To ensure accessibility, line charts should utilize darker shades of color. The 
 
 A sequential color palette is used when the variable is numeric or ordered values. Colors are assigned to data values in a continuum, usually based on lightness, hue, or both.
 
-I﻿MAGE OF COLOR RANGE
+<div style="display: flex; flex-direction: column;"> <div style="display: flex; justify-content: space-between;"> <span>1</span>
+
+<span>2</span>
+
+<span>3</span>
+
+<span>4</span>
+
+<span>5</span>
+
+<span>6</span>
+
+</div> 
+
+<div style="display: flex; justify-content: space-between; margin-top: 5px;"> 
+
+<div style="width: 60px; height: 60px; background-color: #E8FFFF; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: black;">#E8FFFF</span> </div>
+
+<div style="width: 60px; height: 60px; background-color: #9DEDEA; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: black;">#9DEDEA</span> </div>
+
+<div style="width: 60px; height: 60px; background-color: #5FD9D1; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: black;">#5FD9D1</span> </div>
+
+<div style="width: 60px; height: 60px; background-color: #30BBB1; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#30BBB1</span> </div>
+
+<div style="width: 60px; height: 60px; background-color: #1B8880; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#1B8880</span> </div> 
+
+<div style="width: 60px; height: 60px; background-color: #116F69; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#116F69</span> </div>
+
+</div> </div>
+
+<docs-spacer size="small"></docs-spacer>
 
 The most prominent dimension of color for a sequential palette is its lightness. Typically, lower values are associated with lighter colors, and higher values with darker colors.
 
-IMAGE EXAMPLE
+![heatmap color palette](/images/heatmap-color-palette.svg "heatmap color palette")
 
 <docs-spacer size="small"></docs-spacer>
 
