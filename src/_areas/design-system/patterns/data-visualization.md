@@ -651,7 +651,39 @@ The colors of this palette should be applied in sequence strictly as described b
 
 To ensure accessibility, line charts should utilize darker shades of color. The colors of this palette should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring colors to help with visual differentiation.
 
-IMAGE COLOR SELECTION ORDER
+<div style="display: flex; flex-direction: column;"> <div style="display: flex; justify-content: space-between;"> <span>1</span>
+
+<span>2</span>
+
+<span>3</span>
+
+<span>4</span>
+
+<span>5</span>
+
+<span>6</span>
+
+<span>7</span> 
+
+</div> 
+
+<div style="display: flex; justify-content: space-between; margin-top: 5px;"> 
+
+<div style="width: 60px; height: 60px; background-color: #2AA29A; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#2AA29A</span> </div>
+
+<div style="width: 60px; height: 60px; background-color: #6EA239; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#6EA239</span> </div>
+
+<div style="width: 60px; height: 60px; background-color: #C48402; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#C48402</span> </div> 
+
+<div style="width: 60px; height: 60px; background-color: #CF5C0A; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#CF5C0A</span> </div> 
+
+<div style="width: 60px; height: 60px; background-color: #CC3610; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#CC3610</span> </div> 
+
+<div style="width: 60px; height: 60px; background-color: #C6318C; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#C6318C</span> </div>
+
+<div style="width: 60px; height: 60px; background-color: #6F48B0; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#6F48B0</span> </div> 
+
+</div> </div>
 
 <docs-spacer size="small"></docs-spacer>
 
