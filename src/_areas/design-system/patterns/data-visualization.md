@@ -24,7 +24,7 @@ Data visualizations should be approached by:
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; text-align: center;"> 
 
-<div> <h3>Solving a problem</h3> <p>Have a clear question that needs to be answered. If multiple answers to multiple questions are illustrated in a single visualization, it will become over complicated and hard to understand. If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.</p> </div> <div>
+<div> <h3>Solving a problem</h3> <p>Have a clear question that needs to be answered. If multiple answers to multiple questions are illustrated in a single visualization, it will become over-complicated and hard to understand. If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.</p> </div> <div>
 
 <h3>Simplicity</h3> <p>Keep the visual elements as simple as possible. Only necessary information such as labels, values, and bars or lines should be present. A key or legend should be provided for more complex data that may have multiple colors or types of information. Colors and other visual elements should always be kept to a minimum when possible.</p> </div> <div> 
 
@@ -38,11 +38,7 @@ Data visualizations should be approached by:
 
 The following are the basic types of data visualizations. For detailed documentation on Data visualization, view [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/grid)
 
-
-
-Booster supports`vertical column`, `line`, `vertical bar`, `display`, `pie`, `donut`and `heatmap`charts.
-
-When choosing a chart type, consider your data set and what you want to convey about the data.
+Booster supports column, line, bar, display, pie, donut, and heatmap charts. When choosing a chart type, consider your data set and what you want to convey about the data.
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -214,7 +210,7 @@ For detailed documentation on Data visualization, view the [design specs](https:
 
 Line charts are used to show change over time, comparisons, and trends. Use line charts when the number of data points is more than 30. For detailed documentation on line charts, view the `Data visualization design specs`.
 
-I﻿MAGE
+![line chart](/images/line-chart-example.svg "line chart")
 
 <docs-spacer size="small"></docs-spacer>
 
