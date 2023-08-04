@@ -208,7 +208,7 @@ For detailed documentation on Data visualization, view the [design specs](https:
 
 ## Line charts
 
-Line charts are used to show change over time, comparisons, and trends. Use line charts when the number of data points is more than 30. For detailed documentation on line charts, view the `Data visualization design specs`.
+Line charts are used to show change over time, comparisons, and trends. Use line charts when the number of data points is more than 30. For detailed documentation on line charts, view the [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/screen/f1673b11-60f4-4df4-8c08-97bc2b8e6afa)
 
 ![line chart](/images/line-chart-example.svg "line chart")
 
