@@ -753,6 +753,14 @@ A common use case for a binary color palette is to convey hierarchy. The contras
 
 - - -
 
+## **Responsiveness**
+
+Ensuring data visualizations are responsive is crucial for providing a seamless user experience across various devices and screen sizes. Responsive design allows data to be easily accessible and comprehensible, regardless of the user's device.
+
+T﻿BD
+
+- - -
+
 ## **Alternate considerations**
 
 * Use a `table` when multiple metrics and categories need to be presented together, and an accurate lookup of the data values is more important than showing patterns in the data.
