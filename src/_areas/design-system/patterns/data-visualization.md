@@ -232,7 +232,7 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 
 ### Use categorical colors and line style
 
-Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 4. Review [Color for data visualizations](#color-for-data-visualizations) for more about choosing colors for line charts. 
+Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 4. Review [Color for data visualizations](/design-system/patterns/data-visualization/#color-for-data-visualizations) for more about choosing colors for line charts. 
 
 ![line chart color](/images/line-chart-color.svg "line chart color")
 
@@ -294,7 +294,7 @@ Vertical column charts are used to show change over time, trends, and individual
 
 ### Stacked bar charts
 
-Stacked bar charts use color to show an additional dimension. To do this, each bar is split into a set of dimension items, distinguished by color, while maintaining the total bar height. Review [Color for data visualizations](#color-for-data-visualizations) for more about choosing colors for stacked bar charts.
+Stacked bar charts use color to show an additional dimension. To do this, each bar is split into a set of dimension items, distinguished by color, while maintaining the total bar height. Review [Color for data visualizations](/design-system/patterns/data-visualization/#color-for-data-visualizations) for more about choosing colors for stacked bar charts.
 
 ![stacked bar chart](/images/stacked-bar-chart.svg "stacked bar chart")
 
@@ -393,7 +393,7 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 
 <docs-do>
 
-Use categorical colors for each segment. Review [Color for data visualizations](#color-for-data-visualizations) for more about choosing colors for donut charts.
+Use categorical colors for each segment. Review [Color for data visualizations](/design-system/patterns/data-visualization/#color-for-data-visualizations) for more about choosing colors for donut charts.
 
 </docs-do>
   </div>
