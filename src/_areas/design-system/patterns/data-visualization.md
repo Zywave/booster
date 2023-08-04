@@ -274,7 +274,7 @@ Use more than four lines
 
 ## Bar charts
 
-Line charts are used to compare different values that are hierarchically equivalent. In bar graphs each variable should consistently be represented using one color. Multiple colors can be used if there is more than one variable, but each variable has its own color. For detailed documentation on bar charts, view the `Data visualization design specs`.
+Line charts are used to compare different values that are hierarchically equivalent. In bar graphs each variable should consistently be represented using one color. Multiple colors can be used if there is more than one variable, but each variable has its own color. For detailed documentation on bar charts, view the [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/screen/c37cbe44-7c30-45dd-a9c1-00856f5a11f4).
 
 ### Vertical column charts
 
@@ -294,7 +294,7 @@ Vertical column charts are used to show change over time, trends, and individual
 
 ### Stacked bar charts
 
-Stacked bar charts use color to show an additional dimension. To do this, each bar is split into a set of dimension items, distinguished by color, while maintaining the total bar height. Review `Color for data visualization` for more about choosing colors for stacked bar charts.
+Stacked bar charts use color to show an additional dimension. To do this, each bar is split into a set of dimension items, distinguished by color, while maintaining the total bar height. Review [Color for data visualizations](#color-for-data-visualizations) for more about choosing colors for stacked bar charts.
 
 ![stacked bar chart](/images/stacked-bar-chart.svg "stacked bar chart")
 
@@ -362,7 +362,7 @@ Make the bars too skinny
 
 ## **Donut and pie charts**
 
-Donut and pie charts express portions of a whole, using arcs or angles within a circle Use donut and pie charts for showing partial elements that add up to a total. They can become difficult to understand when they include many segments. Try to use 2-3 segments if possible, and no more than 5. For detailed documentation on donut and pie charts, view the `Data visualization design specs`.
+Donut and pie charts express portions of a whole, using arcs or angles within a circle Use donut and pie charts to show partial elements that add up to a total. They can become difficult to understand when they include many segments. Try to use 2-3 segments if possible, and no more than 5. For detailed documentation on donut and pie charts, view the [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/screen/d10cf3ba-efd1-44ba-82c6-a12493587d4d).
 
 ![donut chart](/images/donut-chart.svg "donut chart")
 
