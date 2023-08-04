@@ -393,7 +393,7 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 
 <docs-do>
 
-Use categorical colors for each segment. Review `Color for data visualization` for more about choosing colors for donut charts.
+Use categorical colors for each segment. Review [Color for data visualizations](#color-for-data-visualizations) for more about choosing colors for donut charts.
 
 </docs-do>
   </div>
@@ -438,7 +438,7 @@ Use more than 5 segments.
 
 ## **Display metrics**
 
-Display metrics are used to show a single value with a base unit. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on display metrics, view the `Data visualization design specs`.
+Display metrics are used to show a single value with a base unit. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on display metrics, view the [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/screen/98047e81-20a1-4899-b147-26da4210e802).
 
 ![Donut chart don't](/images/display-metrics.svg "Donut chart don't")
 
@@ -454,7 +454,7 @@ Display metrics are usually combined with other visual elements for clearer comm
 
 ## **Heatmap**
 
-Heatmaps associate a color to a value over a geographic region rather than a strict grid such as a heatmap. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average. For detailed documentation on heatmap charts, view the `Data visualization design specs`.
+Heatmaps associate a color with a value over a geographic region rather than a strict grid such as a heatmap. Metrics should be scoped to indicate the timeline of the data. Consider including a comparison indicator such as a comparison to the previous time or average.
 
 ![Donut chart don't](/images/heatmap-2.svg "Donut chart don't")
 
@@ -462,7 +462,7 @@ Heatmaps associate a color to a value over a geographic region rather than a str
 
 ## **Dashboards**
 
-In addition to choosing the right chart type, it's important to consider the layout of your dashboard. Dashboards can better help communicate a story rather than one complex chart. Dashboards are a collection of multiple separate charts on a screen. For detailed documentation on dashboards, view the `Data visualization design specs`.
+In addition to choosing the right chart type, it's important to consider the layout of your dashboard. Dashboards can better help communicate a story rather than one complex chart. Dashboards are a collection of multiple separate charts on a screen. For detailed documentation on dashboards, view the [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/screen/8e52046c-7e3c-432d-a9ff-7d6447e9ec93).
 
 ![dashboard](/images/dashboard.svg "dashboard")
 
@@ -483,7 +483,7 @@ A dashboard's purpose should be reflected in its layout. The design of the dashb
 Here are some best practices for creating effective data visualization layouts:
 
 * **Group related charts together:** Place charts that are related or have a similar purpose close to each other.
-* **Use hierarchy to portray significance:** Place charts with high importance but less specificity towards the top and charts with less importance but more specificity towards bottom.
+* **Use hierarchy to portray significance:** Place charts with high importance but less specificity towards the top and charts with less importance but more specificity towards the bottom.
 * **Use consistent colors and typography:** Use the design system's color and typography guidelines to ensure consistency and readability.
 * **Consider the user's workflow:** Design the layout to match the user's workflow and the tasks they need to accomplish.
 * **Provide context:** Provide additional context or explanations for complex data points, so that users can understand the meaning behind the data.
@@ -494,7 +494,7 @@ Here are some best practices for creating effective data visualization layouts:
 
 ### Drilling down
 
-Drilling down into information means allowing users to interact and explore the data in more detail. Users gain a deeper understanding of specific data points, enabling them to make more informed decisions and identify trends that may not be immediately apparent at a higher level. For detailed documentation on drilling down, view the `Data visualization design specs`.
+Drilling down into information means allowing users to interact and explore the data in more detail. Users gain a deeper understanding of specific data points, enabling them to make more informed decisions and identify trends that may not be immediately apparent at a higher level.
 
 The drilling down process initiates when a user clicks on a specific data point in a chart, triggering a seamless transition to a dedicated page with expanded insights. By isolating specific data points, users can perform detailed analysis without distraction, ensuring a thorough examination of the selected metric.
 
@@ -517,7 +517,7 @@ Here are some best practices for implementing drilling down:
 
 The placement of the filters on the dashboard depends on the specific use case and the number of charts on the page.
 
-The decision on where to place the filters should be based on the needs and preferences of the users, as well as the overall design and layout of the dashboard. The goal is to make the filters easily accessible and intuitive to use, so users can quickly adjust them and get the insights they need. For detailed documentation on filtering, view the `Data visualization design specs`.
+The decision on where to place the filters should be based on the needs and preferences of the users, as well as the overall design and layout of the dashboard. The goal is to make the filters easily accessible and intuitive to use, so users can quickly adjust them and get the insights they need. For detailed documentation on filtering, view the [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/screen/884f30d3-baca-4467-82dc-0d6835172155).
 
 #### Global filters
 
