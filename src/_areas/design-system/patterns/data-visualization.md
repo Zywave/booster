@@ -232,9 +232,7 @@ By hovering over data points, we emphasize key data points, data outliers, and a
 
 ### Use categorical colors and line style
 
-Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 4. Review [Color for data visualization](#color-for-data-visualization) for more about choosing colors for line charts. 
-
-
+Each line should have a unique color and line style. Limit the number of colors and line styles (dimension values) to no more than 4. Review [Color for data visualizations](#color-for-data-visualizations) for more about choosing colors for line charts. 
 
 ![line chart color](/images/line-chart-color.svg "line chart color")
 
