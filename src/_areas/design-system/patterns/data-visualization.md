@@ -755,9 +755,9 @@ A common use case for a binary color palette is to convey hierarchy. The contras
 
 ## **Responsiveness**
 
-Ensuring data visualizations are responsive is crucial for providing a seamless user experience across various devices and screen sizes. Responsive design allows data to be easily accessible and comprehensible, regardless of the user's device.
+Ensuring data visualizations are responsive is crucial for providing a seamless user experience across various devices and screen sizes. Responsive design allows data to be easily accessible and comprehensible, regardless of the user's device. Fluid layouts enable dashboards to adapt to different screen sizes. Elements should resize and reposition dynamically to optimize space.
 
-Consider using a more mobile-friendly data visualization format. For example, consider presenting data in a horizontal bar chart rather than a line chart. It’s essentially the same graphic, only the axes are flipped. It still tells the same story, just in a more mobile-friendly vertical format.
+Consider using a more mobile-friendly data visualization format when designing for responsiveness. For example, consider presenting data in a horizontal bar chart rather than a line chart. It’s essentially the same graphic, only the axes are flipped. It still tells the same story, just in a more mobile-friendly vertical format.
 
 - - -
 
