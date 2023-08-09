@@ -759,6 +759,12 @@ Ensuring data visualizations are responsive is crucial for providing a seamless 
 
 Consider using a more mobile-friendly data visualization format when designing for responsiveness. For example, consider presenting data in a horizontal bar chart rather than a line chart. It’s essentially the same graphic, only the axes are flipped. It still tells the same story, just in a more mobile-friendly vertical format.
 
+![responsiveness desktop](/images/responsiveness-desktop-format.svg "binary color palette")
+
+I﻿nstead of a line chart, the mobile view presents users with a horizontal bar chart. It’s essentially the same graphic from the desktop, only the axes are flipped. It still tells visitors the same story, just in a more mobile-friendly vertical format.  
+
+![responsiveness mobile](/images/responsiveness-mobile-format.svg "binary color palette")
+
 - - -
 
 ## **Alternate considerations**
