@@ -26,7 +26,7 @@ Data visualizations should be approached by:
 
 <div> <h3>Solving a problem</h3> <p>Have a clear question that needs to be answered. If multiple answers to multiple questions are illustrated in a single visualization, it will become over-complicated and hard to understand. If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.</p> </div> <div>
 
-<h3>Simplicity</h3> <p>Keep the visual elements as simple as possible. Only necessary information such as labels, values, and bars or lines should be present. A key or legend should be provided for more complex data that may have multiple colors or types of information. </p> </div> <div> 
+<h3>Simplicity</h3> <p>Ensure visual elements are kept as simple as possible by including only necessary information, such as labels, values, pertinent bars or lines, and a key for complex data. Colors and other visual elements should always be kept to a minimum when possible, by avoiding distracting embellishments, such as excessive gradients, shadows, and patterns that could divert attention from the data.</p> </div> <div> 
 
 <h3>Designing with real data</h3> <p>Designing with real data will reveal the effectiveness of the visualization. Also test when there are a few data points (one or two) or many data points (100 or more). Adapt data visualizations for different device sizes, while anticipating user needs on data depth and complexity</p> </div>
 
