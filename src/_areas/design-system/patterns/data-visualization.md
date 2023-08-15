@@ -362,7 +362,7 @@ Make the bars too skinny
 
 ## **Donut and pie charts**
 
-Donut and pie charts express portions of a whole, using arcs or angles within a circle Use donut and pie charts to show partial elements that add up to a total. They can become difficult to understand when they include many segments. Try to use 2-3 segments if possible, and no more than 5. For detailed documentation on donut and pie charts, view the [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/screen/d10cf3ba-efd1-44ba-82c6-a12493587d4d).
+Donut and pie charts express portions of a whole, using arcs or angles within a circle. Use donut and pie charts to show partial elements that add up to a total. They can become difficult to understand when they include many segments. Try to use 2-3 segments, if possible, and no more than 5. For detailed documentation on donut and pie charts, view the [design specs](https://xd.adobe.com/view/41b99309-6276-4988-95d6-adbff614ab54-14ea/screen/d10cf3ba-efd1-44ba-82c6-a12493587d4d).
 
 ![donut chart](/images/donut-chart.svg "donut chart")
 
