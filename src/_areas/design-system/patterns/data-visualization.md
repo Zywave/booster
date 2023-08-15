@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Data visualization
-subtitle: Data visualizations represents information in graphical form to tell a
+subtitle: Data visualizations represent information in graphical form to tell a
   story. They surface patterns in data that aim to provide an answer to one
   specific question.
 hideToc: false
