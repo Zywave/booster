@@ -188,7 +188,7 @@ Putting all of the components together in the right layout is essential for a us
 
 1. **Title:** A clear, actionable title that will help users understand what exactly they looking at. Example: Quote volume by office - Top 10.
 2. **Data visual:** Consider your data set and what you want to convey about the data when selecting a data visual.
-3. **Axis:** Most charts should have at least 1 axis line which should be used as a guideline yet be unobtrusive (optional)
+3. **Axis:** Most charts should have at least 1 axis line which should be used as a guideline yet be unobtrusive
 4. **Axis labels:** Axis lines should be labeled for clarity.
 5. **Controls** (optional): Charts can have various controls. Example: Favorite, Expand, filter
 6. **Annotation** (optional): Highlights data points and data outliers.
