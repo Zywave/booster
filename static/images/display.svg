@@ -1,22 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="311" viewBox="0 0 485 311">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="250" viewBox="0 0 485 250">
   <defs>
-    <filter id="Card" x="25.5" y="26.5" width="434" height="259" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
     <clipPath id="clip-display">
-      <rect width="485" height="311"/>
+      <rect width="485" height="250"/>
     </clipPath>
   </defs>
   <g id="display" clip-path="url(#clip-display)">
-    <rect width="485" height="311" fill="#f4f4f6"/>
-    <g id="Group_270714" data-name="Group 270714">
-      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Card)">
-        <rect id="Card-2" data-name="Card" width="425" height="250" rx="2" transform="translate(30 30)" fill="#fff"/>
-      </g>
+    <rect width="485" height="250" fill="#f4f4f6"/>
+    <g id="Group_270714" data-name="Group 270714" transform="translate(0 -31)">
       <text id="_10_129" data-name="10,129" transform="translate(50 150)" fill="#31313a" font-size="44" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">10,129</tspan></text>
       <g id="Tags" transform="translate(70 180)">
         <rect id="Rectangle_9728" data-name="Rectangle 9728" width="72" height="38" rx="4" transform="translate(-20 -9)" fill="#d7efcd" opacity="0.25"/>

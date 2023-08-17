@@ -1,22 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="311" viewBox="0 0 485 311">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="250" viewBox="0 0 485 250">
   <defs>
-    <filter id="Card" x="25.5" y="26.5" width="434" height="259" filterUnits="userSpaceOnUse">
-      <feOffset dy="1" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
     <clipPath id="clip-stacked_bar">
-      <rect width="485" height="311"/>
+      <rect width="485" height="250"/>
     </clipPath>
   </defs>
   <g id="stacked_bar" data-name="stacked bar" clip-path="url(#clip-stacked_bar)">
-    <rect width="485" height="311" fill="#f4f4f6"/>
-    <g id="Group_270708" data-name="Group 270708" transform="translate(-799 -292)">
-      <g transform="matrix(1, 0, 0, 1, 799, 292)" filter="url(#Card)">
-        <rect id="Card-2" data-name="Card" width="425" height="250" rx="2" transform="translate(30 30)" fill="#fff"/>
-      </g>
+    <rect width="485" height="250" fill="#f4f4f6"/>
+    <g id="Group_270708" data-name="Group 270708" transform="translate(-799 -330)">
       <g id="Group_270713" data-name="Group 270713" transform="translate(937 536) rotate(-90)">
         <rect id="Rectangle_11682" data-name="Rectangle 11682" width="66" height="30" fill="#30bbb1"/>
         <rect id="Rectangle_11683" data-name="Rectangle 11683" width="80" height="30" transform="translate(0 45)" fill="#30bbb1"/>
