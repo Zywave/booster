@@ -22,21 +22,23 @@ Data visualizations should be approached by:
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; text-align: center;"> 
 
-<div> 
-
-<h3>Solving a problem</h3> <p>Have a clear question that needs to be answered. If multiple answers to multiple questions are illustrated in a single visualization, it will become over-complicated and hard to understand. If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.</p> 
-
-</div> 
-
 <div>
 
-<h3>Simplicity</h3> <p>Ensure visual elements are kept as simple as possible by including only necessary information, such as labels, values, pertinent bars or lines, and a key for complex data. Colors and other visual elements should always be kept to a minimum when possible, by avoiding distracting embellishments, such as excessive gradients, shadows, and patterns that could divert attention from the data.</p> 
+### Solving a problem
 
-</div> 
+Have a clear question that needs to be answered. If multiple answers to multiple questions are illustrated in a single visualization, it will become over-complicated and hard to understand. If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.</div><div>
 
-<div> 
+### Simplicity
 
-<h3>Designing with real data</h3> <p>Designing with real data will reveal the effectiveness of the visualization. Also test when there are a few data points (one or two) or many data points (100 or more). Adapt data visualizations for different device sizes, while anticipating user needs on data depth and complexity</p> </div>
+Ensure visual elements are kept as simple as possible by including only necessary information, such as labels, values, pertinent bars or lines, and a key for complex data. Colors and other visual elements should always be kept to a minimum when possible, by avoiding distracting embellishments, such as excessive gradients, shadows, and patterns that could divert attention from the data.
+
+</div><div> 
+
+### Designing with real data
+
+Designing with real data will reveal the effectiveness of the visualization. Also test when there are a few data points (one or two) or many data points (100 or more). Adapt data visualizations for different device sizes, while anticipating user needs on data depth and complexity
+
+</div>
 
 </div>
 
@@ -60,22 +62,19 @@ Common use cases include:
 * Sales closed per agent
 
 <docs-grid columns="3">
-  <div>
+<div>
 
-#### Line
+Line
 
 ![line chart](/images/line-chart.svg "line chart")
 
+</div><div>
 
-  </div>
-  <div>
-
-#### Bar
+Bar
 
 ![Bar chart](/images/bar-chart.svg "Bar chart")
 
-
-  </div>
+</div>
   
 </docs-grid>
 
@@ -91,16 +90,13 @@ Common use cases include:
 * Top-selling products
 
 <docs-grid columns="3">
-
 <div>
 
 #### B﻿ar
 
 ![Bar chart](/images/bar-chart.svg "Bar chart")
 
-</div>
-
-<div>
+</div><div>
 
 #### G﻿rouped bar
 
@@ -121,29 +117,25 @@ Common use cases include:
 * Bridged to bound quotes
 
 <docs-grid columns="3">
-  <div>
+<div>
 
 #### Donut
 
 ![Pie chart](/images/donut.svg "Pie chart")
 
-</div>
-
-<﻿div>
+</div><div>
 
 #### Pie
 
 ![Pie chart](/images/pie.svg "Pie chart")
 
-<﻿/div>
-
-<﻿div>
+</div><div>
 
 #### S﻿tacked bar
 
 ![Stacked bar chart](/images/stacked-bar.svg "Stacked bar chart")
 
-  </div>
+</div>
   
 </docs-grid>
 
