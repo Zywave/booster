@@ -603,7 +603,7 @@ A binary color palette is used when the variable is a comparison of two categori
 
 A qualitative palette is used when the variable is categorical in nature. Examples include country or state, race, and gender. Each possible value of the variable is assigned one color from a qualitative palette.
 
-I﻿MAGE EXAMPLE
+![individual filter](/images/stacked-bar-color-palette.svg "individual filter")
 
 The colors of this palette should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring colors to help with visual differentiation.
 
