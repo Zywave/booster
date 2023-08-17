@@ -1,10 +1,6 @@
 const css = `
   .do-not, .bar {
-    display: flex;
-    width: 100%;
-  }
-  .do-not {
-    flex-direction: column;
+    display: block;
   }
   .bar {
     padding: 0.625rem 0; /* 10 / 16 */

@@ -6,3 +6,47 @@ h5[id],
 h6[id] {
     scroll-margin-top: rem(32);
 }
+
+/* Header font sizes and margins based off 1.618 golden ratio rule */
+
+h4, h5, h6 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: rem(32);
+    margin-bottom: rem(20);
+}
+
+h2 {
+    font-size: rem(26);
+    margin-bottom: rem(16);
+}
+
+h3 {
+    font-size: rem(22);
+    margin-bottom: rem(14);
+}
+
+h4 {
+    font-size: rem(18);
+    margin-bottom: rem(11);
+}
+
+h5 {
+    font-size: rem(16);
+    margin-bottom: rem(10);
+}
+
+h6 {
+    font-size: rem(14);
+    margin-bottom: rem(9);
+}
+
+p, ul:not(li ul), ol:not(li ol) {
+    margin-bottom: clamp(1.375rem,1.2rem + .89vw,2rem);
+}
+
+li p {
+    margin-bottom: 0;
+}
