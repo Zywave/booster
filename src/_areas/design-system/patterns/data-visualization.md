@@ -86,7 +86,7 @@ Common use cases include:
 
 <div>
 
-B﻿ar
+#### B﻿ar
 
 ![Bar chart](/images/bar-chart.svg "Bar chart")
 
@@ -94,7 +94,7 @@ B﻿ar
 
 <div>
 
-G﻿rouped bar
+#### G﻿rouped bar
 
 ![G﻿rouped bar chart](/images/grouped-bar-chart.svg "G﻿rouped bar chart")
 
@@ -115,19 +115,19 @@ Common use cases include:
 <docs-grid columns="3">
   <div>
 
-Donut
+#### Donut
 
 ![Pie chart](/images/donut.svg "Pie chart")
 
 
 
-Pie
+#### Pie
 
 ![Pie chart](/images/pie.svg "Pie chart")
 
 
 
-S﻿tacked bar
+#### S﻿tacked bar
 
 ![Stacked bar chart](/images/stacked-bar.svg "Stacked bar chart")
 
@@ -149,7 +149,7 @@ Common use cases include:
 <docs-grid columns="3">
   <div>
 
-Display
+#### Display
 
 ![Display](/images/display.svg "Display")
 
@@ -170,7 +170,7 @@ Common use cases include:
 <docs-grid columns="2">
   <div>
 
-Heatmap
+#### Heatmap
 
 ![Heatmap](/images/heatmap.svg "Heatmap")
 
