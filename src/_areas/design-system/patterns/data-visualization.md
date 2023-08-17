@@ -119,18 +119,21 @@ Common use cases include:
 
 ![Pie chart](/images/donut.svg "Pie chart")
 
+</div>
 
+<﻿div>
 
 #### Pie
 
 ![Pie chart](/images/pie.svg "Pie chart")
 
+<﻿/div>
 
+<﻿div>
 
 #### S﻿tacked bar
 
 ![Stacked bar chart](/images/stacked-bar.svg "Stacked bar chart")
-
 
   </div>
   
