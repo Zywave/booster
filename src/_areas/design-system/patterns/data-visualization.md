@@ -51,7 +51,7 @@ Common use cases include:
 * Quote volume in the past 90 days
 * Sales closed per agent
 
-<docs-grid columns="2">
+<docs-grid columns="3">
   <div>
 
 Line
@@ -82,7 +82,7 @@ Common use cases include:
 * Quote volume by office
 * Top-selling products
 
-<docs-grid columns="2">
+<docs-grid columns="3">
 
 <div>
 
@@ -112,26 +112,26 @@ Common use cases include:
 
 * Bridged to bound quotes
 
-<docs-grid columns="2">
+<docs-grid columns="3">
   <div>
 
 Donut
 
-![Donut chart](/images/donut.svg "Donut chart")
+![Pie chart](/images/donut.svg "Pie chart")
 
-</docs-do>
-  </div>
-  <div>
+
 
 Pie
 
 ![Pie chart](/images/pie.svg "Pie chart")
 
+
+
 S﻿tacked bar
 
 ![Stacked bar chart](/images/stacked-bar.svg "Stacked bar chart")
 
-</docs-do-not>
+
   </div>
   
 </docs-grid>
@@ -146,14 +146,13 @@ Common use cases include:
 
 * Total quote volume
 
-<docs-grid columns="2">
+<docs-grid columns="3">
   <div>
 
 Display
 
 ![Display](/images/display.svg "Display")
 
-</docs-do>
   </div>
   
 </docs-grid>
