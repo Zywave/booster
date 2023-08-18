@@ -613,77 +613,139 @@ A qualitative palette is used when the variable is categorical in nature. Exampl
 
 The colors of this palette should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring colors to help with visual differentiation.
 
-<div style="display: flex; flex-direction: column;"> <div style="display: flex; justify-content: space-between;"> <span>1</span>
-
-<span>2</span>
-
-<span>3</span>
-
-<span>4</span>
-
-<span>5</span>
-
-<span>6</span>
-
-<span>7</span> 
-
-</div> 
-
-<div style="display: flex; justify-content: space-between; margin-top: 5px;"> 
-
-<div style="width: 60px; height: 60px; background-color: #30BBB1; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#30BBB1</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #97C964; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#97C964</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #FBAC0E; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#FBAC0E</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #F36F12; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#F36F12</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #D93911; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#D93911</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #C6318C; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#C6318C</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #6F48B0; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#6F48B0</span> </div> 
-
-</div> </div>
+<docs-grid columns="7">
+  <div class="a11y-swatch" style="background-color: #30BBB1;">
+    <div class="color">
+      <div class="details">
+        1
+        <div class="hex">#30BBB1</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #97C964;">
+    <div class="color">
+      <div class="details">
+        2
+        <div class="hex">#97C964</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #FBAC0E;">
+    <div class="color">
+      <div class="details">
+        3
+        <div class="hex">#FBAC0E</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #F36F12;">
+    <div class="color">
+      <div class="details">
+        4
+        <div class="hex">#F36F12</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #D93911;">
+    <div class="color">
+      <div class="details">
+        5
+        <div class="hex">#D93911</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #C6318C;">
+    <div class="color">
+      <div class="details">
+        6
+        <div class="hex">#C6318C</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #6F48B0;">
+    <div class="color">
+      <div class="details">
+        7
+        <div class="hex">#6F48B0</div>
+      </div>
+    </div>
+  </div>
+</docs-grid>
 
 <docs-spacer size="small"></docs-spacer>
 
 To ensure accessibility, line charts should utilize darker shades of color. The colors of this palette should be applied in sequence strictly as described below. The sequence is carefully curated to maximize contrast between neighboring colors to help with visual differentiation.
 
-<div style="display: flex; flex-direction: column;"> <div style="display: flex; justify-content: space-between;"> <span>1</span>
-
-<span>2</span>
-
-<span>3</span>
-
-<span>4</span>
-
-<span>5</span>
-
-<span>6</span>
-
-<span>7</span> 
-
-</div> 
-
-<div style="display: flex; justify-content: space-between; margin-top: 5px;"> 
-
-<div style="width: 60px; height: 60px; background-color: #2AA29A; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#2AA29A</span> </div>
-
-<div style="width: 60px; height: 60px; background-color: #6EA239; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#6EA239</span> </div>
-
-<div style="width: 60px; height: 60px; background-color: #C48402; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#C48402</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #CF5C0A; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#CF5C0A</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #CC3610; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#CC3610</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #C6318C; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#C6318C</span> </div>
-
-<div style="width: 60px; height: 60px; background-color: #6F48B0; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#6F48B0</span> </div> 
-
-</div> </div>
+<docs-grid columns="7">
+  <div class="a11y-swatch" style="background-color: #2AA29A;">
+    <div class="color">
+      <div class="details">
+        1
+        <div class="hex">#2AA29A</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #6EA239;">
+    <div class="color">
+      <div class="details">
+        2
+        <div class="hex">#6EA239</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #C48402;">
+    <div class="color">
+      <div class="details">
+        3
+        <div class="hex">#C48402</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #CF5C0A;">
+    <div class="color">
+      <div class="details">
+        4
+        <div class="hex">#CF5C0A</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #CC3610;">
+    <div class="color">
+      <div class="details">
+        5
+        <div class="hex">#CC3610</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #C6318C;">
+    <div class="color">
+      <div class="details">
+        6
+        <div class="hex">#C6318C</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #6F48B0;">
+    <div class="color">
+      <div class="details">
+        7
+        <div class="hex">#6F48B0</div>
+      </div>
+    </div>
+  </div>
+</docs-grid>
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -695,35 +757,62 @@ To ensure accessibility, line charts should utilize darker shades of color. The 
 
 A sequential color palette is used when the variable is numeric or ordered values. Colors are assigned to data values in a continuum, usually based on lightness, hue, or both.
 
-<div style="display: flex; flex-direction: column;"> <div style="display: flex; justify-content: space-between;"> <span>1</span>
-
-<span>2</span>
-
-<span>3</span>
-
-<span>4</span>
-
-<span>5</span>
-
-<span>6</span>
-
-</div> 
-
-<div style="display: flex; justify-content: space-between; margin-top: 5px;"> 
-
-<div style="width: 60px; height: 60px; background-color: #E8FFFF; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: black;">#E8FFFF</span> </div>
-
-<div style="width: 60px; height: 60px; background-color: #9DEDEA; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: black;">#9DEDEA</span> </div>
-
-<div style="width: 60px; height: 60px; background-color: #5FD9D1; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: black;">#5FD9D1</span> </div>
-
-<div style="width: 60px; height: 60px; background-color: #30BBB1; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#30BBB1</span> </div>
-
-<div style="width: 60px; height: 60px; background-color: #1B8880; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#1B8880</span> </div> 
-
-<div style="width: 60px; height: 60px; background-color: #116F69; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#116F69</span> </div>
-
-</div> </div>
+<docs-grid columns="6">
+  <div class="a11y-swatch" style="background-color: #E8FFFF;">
+    <div class="color">
+      <div class="details">
+        1
+        <div class="hex">#E8FFFF</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #9DEDEA;">
+    <div class="color">
+      <div class="details">
+        2
+        <div class="hex">#9DEDEA</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #5FD9D1;">
+    <div class="color">
+      <div class="details">
+        3
+        <div class="hex">#5FD9D1</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #30BBB1;">
+    <div class="color">
+      <div class="details">
+        4
+        <div class="hex">#30BBB1</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #1B8880;">
+    <div class="color">
+      <div class="details">
+        5
+        <div class="hex">#1B8880</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #116F69;">
+    <div class="color">
+      <div class="details">
+        6
+        <div class="hex">#116F69</div>
+      </div>
+    </div>
+  </div>
+  
+</docs-grid>
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -737,19 +826,26 @@ The most prominent dimension of color for a sequential palette is its lightness.
 
 A binary color palette shows differences that are divided into only two categories. The primary difference between the two categories of a binary scheme may be a lightness.
 
-<div style="display: flex; flex-direction: column;"> <div style="display: flex; justify-content: space-between;"> <span>1</span>
-
-<span>2</span>
-
-</div> 
-
-<div style="display: flex; justify-content: space-between; margin-top: 5px;"> 
-
-<div style="width: 60px; height: 60px; background-color: #30BBB1; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: white;">#30BBB1</span> </div>
-
-<div style="width: 60px; height: 60px; background-color: #E6E6EA; border-radius: 50%; display: flex; justify-content: center; align-items: center;"> <span style="color: black;">#E6E6EA</span> </div>
-
-</div> </div>
+<docs-grid columns="2">
+  <div class="a11y-swatch" style="background-color: #30BBB1;">
+    <div class="color">
+      <div class="details">
+        1
+        <div class="hex">#30BBB1</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="a11y-swatch" style="background-color: #E6E6EA;">
+    <div class="color">
+      <div class="details">
+        2
+        <div class="hex">#E6E6EA</div>
+      </div>
+    </div>
+  </div>
+  
+</docs-grid>
 
 <docs-spacer size="small"></docs-spacer>
 
