@@ -865,8 +865,6 @@ Consider using a more mobile-friendly data visualization format when designing f
 
 ![responsiveness desktop](/images/responsiveness-desktop-format.svg "binary color palette")
 
-![responsiveness desktop](/images/responsiveness-desktop-format.svg "binary color palette")
-
 I﻿nstead of a line chart, the mobile view presents users with a horizontal bar chart. It’s essentially the same graphic from the desktop, only the axes are flipped. It still tells visitors the same story, just in a more mobile-friendly vertical format.  
 
 ![responsiveness mobile](/images/responsiveness-mobile-format.svg "binary color palette")
