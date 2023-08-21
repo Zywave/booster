@@ -68,13 +68,13 @@ Common use cases include:
 <docs-grid columns="3">
 <div>
 
-Line
+#### Line
 
 ![line chart](/images/line-chart.svg "line chart")
 
 </div><div>
 
-Bar
+#### Bar
 
 ![Bar chart](/images/bar-chart.svg "Bar chart")
 
