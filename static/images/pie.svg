@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="250" viewBox="0 0 485 250">
+  <defs>
+    <clipPath id="clip-pie">
+      <rect width="485" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="pie" clip-path="url(#clip-pie)">
+    <rect width="485" height="250" fill="#f4f4f6"/>
+    <g id="Ring_Chart2" data-name="Ring Chart2" transform="translate(-409.991 -60)">
+      <g id="Component_37_1" data-name="Component 37 – 1" transform="translate(557.991 90)">
+        <path id="Path_101234" data-name="Path 101234" d="M-5.756-100.5A94.745,94.745,0,0,1,87.823-20.577a94.745,94.745,0,0,1-64.3,104.929,94.745,94.745,0,0,1-113.7-47.094A94.745,94.745,0,0,1-61.445-82.405L-5.756-5.166c-18.946,13.765-10.632-20.866,0,0s-22.272,7.237,0,0,3.663,23.13,0,0,23.418,0,0,0Z" transform="translate(100.509 100.5)" fill="#30bbb1"/>
+      </g>
+      <path id="Path_101235" data-name="Path 101235" d="M-59.072-82.405A94.745,94.745,0,0,1-3.383-100.5V-3.988h0Z" transform="translate(656.127 190.5)" fill="#e6e6ea"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="250" viewBox="0 0 485 250">
+  <defs>
+    <clipPath id="clip-bar_chart">
+      <rect width="485" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="bar_chart" data-name="bar chart" clip-path="url(#clip-bar_chart)">
+    <rect width="485" height="250" fill="#f4f4f6"/>
+    <g id="Group_270713" data-name="Group 270713" transform="translate(138 213) rotate(-90)">
+      <rect id="Rectangle_11682" data-name="Rectangle 11682" width="74" height="30" fill="#30bbb1"/>
+      <rect id="Rectangle_11683" data-name="Rectangle 11683" width="116" height="30" transform="translate(0 45)" fill="#30bbb1"/>
+      <rect id="Rectangle_11684" data-name="Rectangle 11684" width="148" height="30" transform="translate(0 90)" fill="#30bbb1"/>
+      <rect id="Rectangle_11685" data-name="Rectangle 11685" width="176" height="30" transform="translate(0 135)" fill="#30bbb1"/>
+      <rect id="Rectangle_11688" data-name="Rectangle 11688" width="116" height="30" transform="translate(0 180)" fill="#30bbb1"/>
+    </g>
+  </g>
+</svg>

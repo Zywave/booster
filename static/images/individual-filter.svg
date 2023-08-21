@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="395" viewBox="0 0 1000 395">
+  <defs>
+    <filter id="Card" x="100.5" y="26.5" width="799" height="343" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-individual_filter">
+      <rect width="1000" height="395"/>
+    </clipPath>
+  </defs>
+  <g id="individual_filter" data-name="individual filter" clip-path="url(#clip-individual_filter)">
+    <rect width="1000" height="395" fill="#f4f4f6"/>
+    <g id="Card-2" data-name="Card" transform="translate(105 30)">
+      <g transform="matrix(1, 0, 0, 1, -105, -30)" filter="url(#Card)">
+        <rect id="Card-3" data-name="Card" width="790" height="334" rx="2" transform="translate(105 30)" fill="#fff"/>
+      </g>
+      <rect id="Card-4" data-name="Card" width="790" height="61" rx="2" fill="#f9f9fa"/>
+      <rect id="Rectangle_11835" data-name="Rectangle 11835" width="150" height="19" rx="9.5" transform="translate(30 21)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11846" data-name="Rectangle 11846" width="24" height="16" rx="8" transform="translate(539 300)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11845" data-name="Rectangle 11845" width="24" height="16" rx="8" transform="translate(431 300)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11843" data-name="Rectangle 11843" width="24" height="16" rx="8" transform="translate(214 300)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11844" data-name="Rectangle 11844" width="24" height="16" rx="8" transform="translate(323 300)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11842" data-name="Rectangle 11842" width="10" height="16" rx="5" transform="translate(113 300)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11841" data-name="Rectangle 11841" width="63" height="16" rx="8" transform="translate(48 268)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11837" data-name="Rectangle 11837" width="50" height="16" rx="8" transform="translate(61 88)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11676" data-name="Rectangle 11676" width="210" height="1" transform="translate(551.999 81) rotate(90)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11677" data-name="Rectangle 11677" width="210" height="1" transform="translate(767.999 81) rotate(90)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11678" data-name="Rectangle 11678" width="210" height="1" transform="translate(119 81) rotate(90)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11680" data-name="Rectangle 11680" width="210" height="1" transform="translate(335.001 81) rotate(90)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11726" data-name="Rectangle 11726" width="210" height="1" transform="translate(227.001 81) rotate(90)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11727" data-name="Rectangle 11727" width="210" height="1" transform="translate(444 81) rotate(90)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11728" data-name="Rectangle 11728" width="210" height="1" transform="translate(659.999 81) rotate(90)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11682" data-name="Rectangle 11682" width="61" height="30" transform="translate(119 261)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11683" data-name="Rectangle 11683" width="261" height="30" transform="translate(119 216)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11684" data-name="Rectangle 11684" width="390" height="30" transform="translate(119 171)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11685" data-name="Rectangle 11685" width="469" height="30" transform="translate(119 126)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11686" data-name="Rectangle 11686" width="627" height="30" transform="translate(119 81)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11838" data-name="Rectangle 11838" width="84" height="16" rx="8" transform="translate(27 133)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11839" data-name="Rectangle 11839" width="58" height="16" rx="8" transform="translate(53 178)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11840" data-name="Rectangle 11840" width="63" height="16" rx="8" transform="translate(48 223)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11847" data-name="Rectangle 11847" width="24" height="16" rx="8" transform="translate(647 300)" fill="#f4f4f6"/>
+      <rect id="Rectangle_11848" data-name="Rectangle 11848" width="24" height="16" rx="8" transform="translate(755 300)" fill="#f4f4f6"/>
+      <g id="Dropdown_Select-Side-NEW" data-name="Dropdown Select-Side-NEW" transform="translate(513 10)">
+        <text id="Sort" transform="translate(27 27)" fill="#31313a" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-26.626" y="0">Sort</tspan></text>
+        <g id="Group_15151" data-name="Group 15151" transform="translate(-5034 -7967)">
+          <g id="Group_14579" data-name="Group 14579" transform="translate(5091 7967)">
+            <g id="Rectangle_288" data-name="Rectangle 288" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+              <rect width="200" height="42" rx="4" stroke="none"/>
+              <rect x="0.5" y="0.5" width="199" height="41" rx="3.5" fill="none"/>
+            </g>
+            <text id="Hint_text" data-name="Hint text" transform="translate(15 27)" fill="#cbcbd2" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Hint text</tspan></text>
+            <g id="Group_7793" data-name="Group 7793" transform="translate(166 9)">
+              <rect id="Rectangle_3867" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+              <path id="Path_5558" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(-41)" fill="#9494a4"/>
+            </g>
+          </g>
+          <g id="Rectangle_8096" data-name="Rectangle 8096" transform="translate(5091 7967)" fill="#fff" stroke="#cbcbd2" stroke-width="1">
+            <rect width="200" height="42" rx="4" stroke="none"/>
+            <rect x="0.5" y="0.5" width="199" height="41" rx="3.5" fill="none"/>
+          </g>
+          <text id="Highest_performing" data-name="Highest performing" transform="translate(5106 7994)" fill="#494955" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Highest performing</tspan></text>
+          <g id="Group_14548" data-name="Group 14548" transform="translate(5257 7976)">
+            <rect id="Rectangle_3867-2" data-name="Rectangle 3867" width="24" height="24" fill="none"/>
+            <path id="Path_5558-2" data-name="Path 5558" d="M56,9.4l-3,3-3-3a.967.967,0,0,0-1.4,0h0a.967.967,0,0,0,0,1.4l3.7,3.7a.967.967,0,0,0,1.4,0l3.7-3.7a.967.967,0,0,0,0-1.4h0A.965.965,0,0,0,56,9.4Z" transform="translate(-41)" fill="#9494a4"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

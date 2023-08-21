@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="230" viewBox="0 0 1000 230">
+  <defs>
+    <filter id="Card" x="305.5" y="26.5" width="389" height="178" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-display_metrics">
+      <rect width="1000" height="230"/>
+    </clipPath>
+  </defs>
+  <g id="display_metrics" data-name="display metrics" clip-path="url(#clip-display_metrics)">
+    <rect width="1000" height="230" fill="#f4f4f6"/>
+    <g id="Group_270736" data-name="Group 270736" transform="translate(-517 -292)">
+      <g transform="matrix(1, 0, 0, 1, 517, 292)" filter="url(#Card)">
+        <rect id="Card-2" data-name="Card" width="380" height="169" rx="2" transform="translate(310 30)" fill="#fff"/>
+      </g>
+      <rect id="Card-3" data-name="Card" width="380" height="61" rx="2" transform="translate(827 322)" fill="#f9f9fa"/>
+      <text id="Agencies_quoting" data-name="Agencies quoting" transform="translate(847 359)" fill="#31313a" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Agencies quoting</tspan></text>
+      <path id="Line_27" data-name="Line 27" d="M380,.5H0v-1H380Z" transform="translate(827 383)" fill="#e6e6ea"/>
+      <text id="_12_894" data-name="12,894" transform="translate(907 450)" fill="#31313a" font-size="44" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">12,894</tspan></text>
+      <g id="External" transform="translate(1179 353)">
+        <g id="Group_270302" data-name="Group 270302" transform="translate(-8 -8)">
+          <g id="Group_270301" data-name="Group 270301">
+            <path id="Path_101932" data-name="Path 101932" d="M8.169,8.655a.212.212,0,0,0,.3,0l2.642-2.639V7.8a.192.192,0,0,0,.2.2h1.376a.2.2,0,0,0,.2-.2V3.312a.2.2,0,0,0-.2-.2l-4.477,0a.21.21,0,0,0-.21.21V4.689a.2.2,0,0,0,.2.2H9.985L7.342,7.528a.214.214,0,0,0,0,.3Z" fill="#2777d3"/>
+            <path id="Path_101933" data-name="Path 101933" d="M15.24,0H4.76A.762.762,0,0,0,4,.76V4H.76A.762.762,0,0,0,0,4.76V15.24A.762.762,0,0,0,.76,16H11.24a.762.762,0,0,0,.76-.76V12h3.24a.762.762,0,0,0,.76-.76V.76A.762.762,0,0,0,15.24,0ZM10.667,14.667H1.333V5.333H4V12h6.667Zm4-4H5.333V1.333h9.334Z" fill="#2777d3"/>
+          </g>
+          <rect id="Rectangle_11495" data-name="Rectangle 11495" width="16" height="16" fill="none"/>
+        </g>
+      </g>
+      <g id="Favorite-empty" transform="translate(1143 353)">
+        <g id="Group_270307" data-name="Group 270307" transform="translate(-8 -8)">
+          <path id="Path_101936" data-name="Path 101936" d="M8.8,6.412l.225.691a.332.332,0,0,0,.317.23h3.313L10.561,8.854l-.587.427a.334.334,0,0,0-.122.372l.225.691.8,2.46-2.092-1.52L8.2,10.857a.333.333,0,0,0-.392,0l-.588.427L5.124,12.8l.8-2.46.225-.691a.334.334,0,0,0-.122-.372l-.587-.427L3.346,7.333H6.659a.332.332,0,0,0,.317-.23L7.2,6.412,8,3.952ZM8,.453A.359.359,0,0,0,7.653.7L5.933,6H.366a.365.365,0,0,0-.215.66l4.5,3.272-1.72,5.3a.364.364,0,0,0,.561.408L8,12.363l4.5,3.272a.364.364,0,0,0,.561-.408l-1.72-5.3,4.5-3.272A.365.365,0,0,0,15.634,6H10.067L8.347.7A.359.359,0,0,0,8,.453Z" transform="translate(0)" fill="#2777d3"/>
+          <rect id="Rectangle_11503" data-name="Rectangle 11503" width="16" height="16" transform="translate(0)" fill="none"/>
+        </g>
+      </g>
+      <g id="Tags" transform="translate(1074 423)">
+        <rect id="Rectangle_9728" data-name="Rectangle 9728" width="72" height="38" rx="4" transform="translate(-20 -10)" fill="#fac9bd" opacity="0.25"/>
+        <text id="_10_" data-name="10%" transform="translate(8 18)" fill="#aa2d0e" font-size="20" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">10%</tspan></text>
+        <g id="Caret_down" data-name="Caret down" transform="translate(-19 -2.5)">
+          <g id="Group_270231" data-name="Group 270231">
+            <g id="Group_270230" data-name="Group 270230" transform="translate(7 6.75)">
+              <path id="Path_101161" data-name="Path 101161" d="M12.384,4.567H3.054a.335.335,0,0,0-.261.544l4.665,5.83a.334.334,0,0,0,.523,0l4.665-5.83A.335.335,0,0,0,12.384,4.567Z" transform="translate(-2.719 -2.567)" fill="#aa2d0e"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

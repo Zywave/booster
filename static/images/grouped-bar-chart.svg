@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="485" height="250" viewBox="0 0 485 250">
+  <defs>
+    <clipPath id="clip-grouped_bar_chart">
+      <rect width="485" height="250"/>
+    </clipPath>
+  </defs>
+  <g id="grouped_bar_chart" data-name="grouped bar chart" clip-path="url(#clip-grouped_bar_chart)">
+    <rect width="485" height="250" fill="#f4f4f6"/>
+    <g id="Group_270713" data-name="Group 270713" transform="translate(167 213) rotate(-90)">
+      <rect id="Rectangle_11682" data-name="Rectangle 11682" width="74" height="30" transform="translate(0 -69)" fill="#30bbb1"/>
+      <rect id="Rectangle_11683" data-name="Rectangle 11683" width="116" height="30" transform="translate(0 7)" fill="#30bbb1"/>
+      <rect id="Rectangle_11684" data-name="Rectangle 11684" width="148" height="30" transform="translate(0 83)" fill="#30bbb1"/>
+      <rect id="Rectangle_11685" data-name="Rectangle 11685" width="176" height="30" transform="translate(0 159)" fill="#30bbb1"/>
+      <rect id="Rectangle_11689" data-name="Rectangle 11689" width="125" height="30" transform="translate(0 -38)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11690" data-name="Rectangle 11690" width="58" height="30" transform="translate(0 38)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11691" data-name="Rectangle 11691" width="116" height="30" transform="translate(0 114)" fill="#e6e6ea"/>
+      <rect id="Rectangle_11692" data-name="Rectangle 11692" width="148" height="30" transform="translate(0 190)" fill="#e6e6ea"/>
+    </g>
+  </g>
+</svg>
