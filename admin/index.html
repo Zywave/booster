@@ -18,7 +18,7 @@
     CMS.registerPreviewStyle("/css/global-styles.css");
     CMS.registerPreviewStyle("/css/pages/home.css");
 
-    let ComponentsPreview = createClass({
+    const ComponentsPreview = createClass({
       componentDidMount() {
         const { document } = this.props;
         const docsCustomElementsFiles = [
@@ -53,7 +53,24 @@
     CMS.registerPreviewTemplate("design_system_components", ComponentsPreview);
     CMS.registerPreviewTemplate("application_framework_components", ComponentsPreview);
 
-    let DocumentationPreview = createClass({
+    const DocumentationPreview = createClass({
+      componentDidMount() {
+        const { document } = this.props;
+        const docsCustomElementsFiles = [
+          "/js/web-components/docs-do.js",
+          "/js/web-components/docs-do-not.js",
+          "/js/web-components/docs-grid.js",
+          "/js/web-components/docs-note.js",
+          "/js/web-components/docs-spacer.js"
+        ];
+        
+        docsCustomElementsFiles.forEach(file => {
+          const script = document.createElement('script');
+          script.type = "module";
+          script.src = file;
+          document.head.appendChild(script);
+        });
+      },
       render: function () {
         return h('main', {},
           h('div', { "className": "content-wrapper" },
@@ -75,6 +92,12 @@
     CMS.registerPreviewTemplate("design_system_visuals", DocumentationPreview);
     CMS.registerPreviewTemplate("design_system_voice_and_tone", DocumentationPreview);
   </script>
+  <style>
+    /* Workaround for text editor https://github.com/decaporg/decap-cms/issues/5092 */
+    [data-slate-editor] {
+      -webkit-user-modify: read-write !important;
+    }
+</style>
 </body>
 
 </html>
