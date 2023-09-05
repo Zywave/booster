@@ -95,3 +95,7 @@ zui-breadcrumbs zui-breadcrumb {
     color: var(--zui-gray-400);
   }
 }
+
+p:has(docs-spacer), p:has(docs-do), p:has(docs-do-not), p:has(docs-note), p:has(docs-grid) {
+  margin: 0;
+}
