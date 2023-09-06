@@ -123,7 +123,9 @@ ZUI 4.x is what we're currently on, and we plan to keep it that way until someth
 
 <docs-spacer size="small"></docs-spacer>
 
-#### How ZUI currently versions itself (in descending priority)
+### How ZUI currently versions itself
+
+In descending order, this is how ZUI currently versions itself:
 
 1. If the commit contains `BREAKING CHANGE: <reason>` in the body, we will bump the minor version (e.g., 4.1.6 => 4.2.0)
    <zui-well type="warning" static>You won't be able to commit using `git commit -m` because this only accepts a subject line. Instead, use `git commit`, which will prompt your Git default text editor to open so you can include a body message.</zui-well>
@@ -363,8 +365,6 @@ Just don't worry about merge conflicts in the *yarn.lock* file. It's not worth i
 4. Add the new *yarn.lock* file to your commit and carry on
 
 <docs-note>If there are a lot of changes in the *yarn.lock* file and you aren't confident in commiting those changes, reach out to the App Platform team in Microsoft Teams and we will help you figure it out!</docs-note>
-
-
 
 - - -
 
