@@ -336,9 +336,9 @@ This monorepo can be quite a beast to work in. If you find yourself in some weir
 
 <docs-spacer size="small"></docs-spacer>
 
-### Merge conflicts and yarn:
+### Merge conflicts and Yarn:
 
-Just don't worry about merge conflicts in the yarn.lock file. It's not worth it.
+Just don't worry about merge conflicts in the _yarn.lock_ file. It's not worth it.
 
 1. Mark as resolved
 1. Delete it
@@ -392,28 +392,47 @@ If you are creating a new web component (e.g., `<zui-my-element>`), you may use 
 <br>
 <docs-note>When asked to name your new component, please prefix it with <strong><code>zui-</code></strong>.</docs-note>
 <br>
-
-The command will generate the following:  
-- A new package with your component name defined under _/packages/components/_ (e.g., _/packages/components/zui-my-element/_)
-- _/src/_ directory
-  - _index.ts_ exports your component
-  - _zui-my-element.ts_ includes a sample element with your component's name to get the ball rolling
-  - _zui-my-element.scss_ file to style your component
-  - _/css/_ directory for your component's flash of unstyled content styles
-  - _package.json_ to define the package, and various commands to compile, build and start the lab, tests, etc.
-  - _tsconfig.build.json_ to compile Typescript
-- _lab.html_
-  - Web page playground to test your component locally
-  - Great way to showcase examples of your component's features
-  - Local development environment for your component can be started up with `yarn run watch` (requires the working directory to be inside your new component's folder)
-- _/test/_ directory
-  - Where you will write tests to verify your component's functionality
-  - Start up the local development environment for your component's tests with `yarn run test` (requires the working directory to be inside your new component's folder)
-- _/docs/_ directory
-  - This directory provides working examples to be showcased in the Booster Documentation Network site
-  - _demo.html_ is where you will write code examples or demos of all the possible ways to use your component that will appear in the "Demos" tab of your component's documentation page on Booster Development Network
-  - Start up the local development environment for your component's documentation with `yarn run demo` (requires the working directory to be inside your new component's folder)
-
+<zui-expander-group type="group-standard">
+  <zui-expander type="group-standard">
+    <h3 class="zui font-size-l font-weight-semibold" slot="title">The command will generate the following...</h3>
+    <div slot="content">
+      <ul>
+        <li>A new package with your component name defined under <em>/packages/components/</em> (e.g., <em>/packages/components/zui-my-element/</em>)</li>
+        <li><em>/src/</em> directory
+          <ul>
+            <li><em>index.ts</em> exports your component</li>
+            <li><em>zui-my-element.ts</em> includes a sample element with your component's name to get the ball rolling</li>
+            <li><em>zui-my-element.scss</em> file to style your component</li>
+            <li><em>/css/</em> directory for your component's flash of unstyled content styles</li>
+            <li><em>package.json</em> to define the package, and various commands to compile, build and start the lab, tests, etc.</li>
+            <li><em>tsconfig.build.json</em> to compile Typescript</li>
+          </ul>
+        </li>
+        <li><em>lab.html</em>
+          <ul>
+            <li>Web page playground to test your component locally</li>
+            <li>Great way to showcase examples of your component's features</li>
+            <li>Local development environment for your component can be started up with `yarn run watch` (requires the working directory to be inside your new component's folder)</li>
+          </ul>
+        </li>
+        <li><em>/test/</em> directory
+          <ul>
+            <li>Where you will write tests to verify your component's functionality</li>
+            <li>Start up the local development environment for your component's tests with `yarn run test` (requires the working directory to be inside your new component's folder)</li>
+          </ul>
+        </li>
+        <li><em>/docs/</em> directory
+          <ul>
+            <li>This directory provides working examples to be showcased in the Booster Documentation Network site</li>
+            <li><em>demo.html</em> is where you will write code examples or demos of all the possible ways to use your component that will appear in the "Demos" tab of your component's documentation page on Booster Development Network</li>
+            <li>Start up the local development environment for your component's documentation with `yarn run demo` (requires the working directory to be inside your new component's folder)</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </zui-expander>
+</zui-expander-group>
+<docs-spacer size="small"></docs-spacer>
 <docs-note><strong>Common gotcha:</strong> If you're adding more elements to the same package, be sure to add an export statement to the <em>/src/index.ts</em> file!</docs-note>
 
 <docs-spacer size="small"></docs-spacer>
@@ -456,16 +475,28 @@ If you are creating a new CSS package, you may use the built-in ZUI CSS package 
 <br>
 <docs-note>When asked to name your new package, please prefix it with <strong><code>zui-</code></strong>.</docs-note>
 <br>
-
-This will give you:
-
-- A new package with your component name defined under _/packages/styles/_ (e.g., _/packages/styles/zui-my-styles/_)
-- A _/src/_ directory
-  - _index.scss_ file to import multiple stylesheets into one
-  - _\_partial.scss_ and _module.scss_ are examples of how to organize SCSS components by purpose and reusability within the package or design system
-- A _package.json_ to define the package
-- A _gulpfile.js_ to handle building, demoing, etc.
-- _lab.html_
-  - Web page playground to test your styles locally
-  - Great way to showcase CSS styles and examples
-  - Local development environment for your CSS package can be started up with `npx gulp watch` (requires the working directory to be inside your new packages's folder)
+<zui-expander-group type="group-standard">
+  <zui-expander type="group-standard">
+    <h3 class="zui font-size-l font-weight-semibold" slot="title">This will give you...</h3>
+    <div slot="content">
+      <ul>
+        <li>A new package with your component name defined under <em>/packages/styles/</em> (e.g., <em>/packages/styles/zui-my-styles/</em>)</li>
+        <li>A <em>/src/</em> directory
+          <ul>
+            <li><em>index.scss</em> file to import multiple stylesheets into one</li>
+            <li><em>\<em>partial.scss</em> and <em>module.scss</em> are examples of how to organize SCSS components by purpose and reusability within the package or design system</li>
+          </ul>
+        </li>
+        <li>A <em>package.json</em> to define the package</li>
+        <li>A <em>gulpfile.js</em> to handle building, demoing, etc.</li>
+        <li><em>lab.html</em>
+          <ul>
+            <li>Web page playground to test your styles locally</li>
+            <li>Great way to showcase CSS styles and examples</li>
+            <li>Local development environment for your CSS package can be started up with `npx gulp watch` (requires the working directory to be inside your new packages's folder)</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </zui-expander>
+</zui-expander-group>
