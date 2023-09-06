@@ -46,7 +46,7 @@ ZUI operates with one branch in mind:
 1. *main* branch
 
    * This branch is protected and any other branches are expected to be releasable before being merged in.
-   * prereleases and stable releases are made out of this branch.
+   * Prereleases and stable releases are made out of this branch.
    * Only a select few people can merge into this branch.
    * Only a select few people can prerelease or release from this branch.
 2. Other branches
@@ -60,6 +60,8 @@ ZUI operates with one branch in mind:
 - - -
 
 ## Committing strategy
+
+Your commit message matters and must follow our conventional commit message strategy because they determine how ZUI packages are versioned.
 
 ZUI uses Lerna for CI operations across the entire monorepo. There are two things to note:
 
