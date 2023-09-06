@@ -144,7 +144,7 @@ BREAKING CHANGE: removed the slots "app" from zui-shell-topbar and zui-shell-nav
 
 <docs-spacer size="small"></docs-spacer>
 
-### Preview ZUI packages versioning
+### Preview ZUI packages versions
 
 If you're curious at any time what the next prerelease or release of ZUI will look like, you can execute the following commands against the main branch:
 
