@@ -12,16 +12,19 @@ This guide is to empower our community to contribute to the Booster Development 
 When you first clone the repository, you will need to run a few commands to get everything set up:
 
 1. `cd ${insert path to root of repository here}`
-1. `yarn install`
-   - This one takes awhile, so go grab a coffee or something to snack on.
-1. `yarn run bootstrap`
-   - Using a tool called [Lerna](https://lerna.js.org/), we are able to manage and publish these monorepo components with ZUI-to-ZUI dependencies.
-1. `yarn run build`
-   - Runs through every package defined in the monorepo and executes their `"build"` script as defined in their respective _package.json_ file.
+2. `yarn install`
+
+   * This one takes awhile, so go grab a coffee or something to snack on.
+3. `yarn run bootstrap`
+
+   * Using a tool called [Lerna](https://lerna.js.org/), we are able to manage and publish these monorepo components with ZUI-to-ZUI dependencies.
+4. `yarn run build`
+
+   * Runs through every package defined in the monorepo and executes their `"build"` script as defined in their respective *package.json* file.
 
 <docs-note>Having [Yarn 1](https://yarnpkg.com/en/) installed on your machine is a prerequisite for contributing.</docs-note>
 
----
+- - -
 
 ## Branching
 
@@ -29,38 +32,43 @@ When working in this monorepo, you'll want to be aware of our branching strategy
 
 ZUI operates with one branch in mind:
 
-1. _main_ branch
-   - This branch is protected and any other branches are expected to be releasable before being merged in.
-   - prereleases and stable releases are made out of this branch.
-   - Only a select few people can merge into this branch.
-   - Only a select few people can prerelease or release from this branch.
-1. Other branches
-   - Create them off of the main branch
-   - Call them something easy to understand (not just "fix-stuff")
-   - Delete them when they are merged into the main branch (no need for other persistent branches)
+1. *main* branch
+
+   * This branch is protected and any other branches are expected to be releasable before being merged in.
+   * prereleases and stable releases are made out of this branch.
+   * Only a select few people can merge into this branch.
+   * Only a select few people can prerelease or release from this branch.
+2. Other branches
+
+   * Create them off of the main branch
+   * Call them something easy to understand (not just "fix-stuff")
+   * Delete them when they are merged into the main branch (no need for other persistent branches)
 
 <docs-note>If you don't have permission to create branches in this repository, please reach out to us to get access.</docs-note>
 
----
+- - -
 
 ## Commiting
 
 ZUI uses Lerna for CI operations across the entire monorepo. There are two things to note:
+
 1. On commit, a precommit hook is executed that will lint (and fix if possible) all staged files about to be committed.
-   - JS: uses eslint + prettier
-   - CSS/SCSS: uses stylelint + prettier
-   - If the linter doesn't run, and you have formatting or linting errors, the CI will fail
-1. On versioning, commit messages are evaluated by Lerna's hook with conventional-changelog to autoincrement versions
-   - This is super important, and is something you should actively follow to help keep the versions and CHANGELOGs up-to-date
+
+   * JS: uses eslint + prettier
+   * CSS/SCSS: uses stylelint + prettier
+   * If the linter doesn't run, and you have formatting or linting errors, the CI will fail
+2. On versioning, commit messages are evaluated by Lerna's hook with conventional-changelog to autoincrement versions
+
+   * This is super important, and is something you should actively follow to help keep the versions and CHANGELOGs up-to-date
 
 <docs-spacer size="small"></docs-spacer>
 
 ### Conventional commits
 
-_Recommended links_:
+*Recommended links*:
 
-- [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
-- [Angular commit standards](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
+* [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
+* [Angular commit standards](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
 
 All commits should look like the following:
 
@@ -71,6 +79,7 @@ All commits should look like the following:
 <BLANK LINE>
 <footer>
 ```
+
 <br>
 <docs-note>The most important part of your commit message is the <em>type</em>.</docs-note>
 <br>
@@ -97,15 +106,16 @@ If you want to have an easy template for all ZUI commit messages, you can actual
 ```shell
 > git config --local commit.template "./.gitmessage"
 ```
+
 <br>
 Now, when you try to make a commit, you'll get a prompt to fill in the commit details with more information regarding your changes. This also works with git UI tools such as GitKraken.
 <docs-spacer size="small"></docs-spacer>
 
 ### Conventional changelog
 
-_Recommended links_:
+*Recommended links*:
 
-- [Conventional changelog](https://github.com/conventional-changelog/conventional-changelog/)
+* [Conventional changelog](https://github.com/conventional-changelog/conventional-changelog/)
 
 Based off of your commit messages, Lerna + Conventional Changelog will do a diff between the last version of a given package and the currently releasing changes, and figure out the proper version.
 
@@ -113,17 +123,17 @@ ZUI 4.x is what we're currently on, and we plan to keep it that way until someth
 
 <docs-spacer size="small"></docs-spacer>
 
-#### How ZUI currently versions itself (in descending priority):
+#### How ZUI currently versions itself (in descending priority)
 
 1. If the commit contains `BREAKING CHANGE: <reason>` in the body, we will bump the minor version (e.g., 4.1.6 => 4.2.0)
    <zui-well type="warning" static>You won't be able to commit using `git commit -m` because this only accepts a subject line. Instead, use `git commit`, which will prompt your Git default text editor to open so you can include a body message.</zui-well>
-1. If the commit subject starts with `feat:`, `fix:`, or `perf:`, we'll do a patch (unless the body also includes `BREAKING CHANGE: <reason>`)
-1. If the commit subject starts with `chore:`, `build:`, `docs:`, `refactor:`, `ci:`, `style:`, or `test:` we'll do nothing with the version, but include the notes in the CHANGELOG
-1. If you don't follow the rules, we won't do anything. Hopefully you didn't change anything meaningful.
+2. If the commit subject starts with `feat:`, `fix:`, or `perf:`, we'll do a patch (unless the body also includes `BREAKING CHANGE: <reason>`)
+3. If the commit subject starts with `chore:`, `build:`, `docs:`, `refactor:`, `ci:`, `style:`, or `test:` we'll do nothing with the version, but include the notes in the CHANGELOG
+4. If you don't follow the rules, we won't do anything. Hopefully you didn't change anything meaningful.
 
 <docs-spacer size="small"></docs-spacer>
 
-##### How to commit a breaking change to ZUI
+### How to commit a breaking change to ZUI
 
 If you are not using a GUI, follow the instructions below on how to commit a breaking change via command line.
 
@@ -138,6 +148,7 @@ If you are not using a GUI, follow the instructions below on how to commit a bre
 feat: removed app name slots from zui-shell
 
 BREAKING CHANGE: removed the slots "app" from zui-shell-topbar and zui-shell-nav in favor of the attribute app-name on zui-shell</pre><br>
+
 </li>
 <li>After you have entered your message, all you need to do is save and close the file for Git to commit your changes.</li>
 </ol>
@@ -153,6 +164,7 @@ If you're curious at any time what the next prerelease or release of ZUI will lo
 ```shell
 > npx lerna version --conventional-prerelease=*
 ```
+
 <br>
 <p>For stable release versions:</p>
 
@@ -162,21 +174,21 @@ If you're curious at any time what the next prerelease or release of ZUI will lo
 
 <zui-well type="warning" static>Don't commit the changes generated as a result of this. You can reject the changes before the updates are saved to your repo.</zui-well>
 
----
+- - -
 
 ## Merge requests
 
 Here are some quick best practices when creating your merge request:
 
-- Keep the merge request small; the monorepo structure might tempt you to make many changes all at once, but it's harder to review, and harder to properly associate your changes with the right packages.
-- For "code review" merge requests, you can always prepend `WIP:` to the title to prevent accidental merging.
-- Delete the source branch once it has been merged into the main branch.
-- If your changes are isolated to one package, feel free to check the `Squash commits when merge request is accepted.` box. Just be sure that the title of the merge request (or the resulting commit message) follows our rules above.
-- If your changes span many packages, don't squash the commits. Better to have targeted, explicit commits against the changed code than one blob commit that is hard for conventional-changelog to properly allocate to the right package(s).
+* Keep the merge request small; the monorepo structure might tempt you to make many changes all at once, but it's harder to review, and harder to properly associate your changes with the right packages.
+* For "code review" merge requests, you can always prepend `WIP:` to the title to prevent accidental merging.
+* Delete the source branch once it has been merged into the main branch.
+* If your changes are isolated to one package, feel free to check the `Squash commits when merge request is accepted.` box. Just be sure that the title of the merge request (or the resulting commit message) follows our rules above.
+* If your changes span many packages, don't squash the commits. Better to have targeted, explicit commits against the changed code than one blob commit that is hard for conventional-changelog to properly allocate to the right package(s).
 
 After you create your merge request, please ping the App Platform channel in Microsoft Teams to let us know it is ready for review.
 
----
+- - -
 
 ## Style guide
 
@@ -186,8 +198,8 @@ For the most part, we use prettier and eslint to help you out here. You shouldn'
 
 For you vscode users, here are some recommendations to keep you in sync:
 
-- [prettier-vscode](https://github.com/prettier/prettier-vscode).
-- set `"editor.formatOnSave"` to `true` in File > Preferences > Settings
+* [prettier-vscode](https://github.com/prettier/prettier-vscode).
+* set `"editor.formatOnSave"` to `true` in File > Preferences > Settings
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -210,11 +222,13 @@ class MyElement extends HTMLElement {
   }
 }
 ```
+
 <br>
 
 ```html
 <my-element my-property="good!"></my-element>
 ```
+
 <br>
 
 This requires some work on ZUI's end. If extending PolymerElement, this behavior is baked in. However, if extending LitElement (or ZuiBaseElement), you'll have to do something like the following:
@@ -236,13 +250,13 @@ JavaScript is not the most obvious language when trying to do OOP. But, with ES6
 
 Public:
 
-- methods: `camelCase()`
-- properties: `camelCase`
+* methods: `camelCase()`
+* properties: `camelCase`
 
 Private:
 
-- methods: `#camelCase()`
-- properties: `#camelCase`
+* methods: `#camelCase()`
+* properties: `#camelCase`
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -255,11 +269,12 @@ With ZUI, one of the main ways for a consumer to manipulate a component is via C
   --zui-my-element-color: hotpink;
 }
 ```
+
 <br>
 
 1. We namespace the property to ZUI (don't want to clash with others)
-1. We then scope it to the proper custom element
-1. And finally we indicate what the intent is of the property
+2. We then scope it to the proper custom element
+3. And finally we indicate what the intent is of the property
 
 So, this CSS variable specifies a color for `<zui-my-element>` to be used in its CSS.
 
@@ -270,10 +285,10 @@ So, this CSS variable specifies a color for `<zui-my-element>` to be used in its
 One caveat to custom elements is the way in which the browser will render them. Let's give a really basic (contrived) example:
 
 1. User navigates to https://booster.zywave.dev/
-1. Browser loads HTML on this page, stopping to load stylesheets, scripts, etc.
-1. Browser renders what it can
-1. Browser begins to compile and execute JavaScript
-1. Application is fully loaded
+2. Browser loads HTML on this page, stopping to load stylesheets, scripts, etc.
+3. Browser renders what it can
+4. Browser begins to compile and execute JavaScript
+5. Application is fully loaded
 
 Custom elements require JavaScript to be processed in order for the HTML elements to be rendered properly. Browsers have opted to "defer" custom element rendering until step 4 (not with step 3). This is great for SEO as the first contentful paint can happen sooner; this is unfortunate for custom elements as it means that `<zui-my-element></zui-my-element>` will get rendered based off of some very old HTML rendering rules around unknown or invalid HTML. Then, the next couple of frames will start to upgrade the custom elements and saturate the content. It's worth stressing that this is still very fast; and for you SPA folks out there, this will definitely not be noticeable prior to your app fully loading (you have a lot more JavaScript to process and execute, believe us). But for you server-side-rendering folks, this WILL be noticeable.
 
@@ -292,6 +307,7 @@ my-element {
   }
 }
 ```
+
 <br>
 
 **Pro tip #1:** Need to test your FOUC styles? Before your components get loaded in `<script>` tags, just add the following:
@@ -303,6 +319,7 @@ my-element {
   };
 </script>
 ```
+
 <br>
 
 **Pro tip #2:** Have multiple FOUC stylesheets you're loading? Combine them into one with the power of SASS!
@@ -328,7 +345,7 @@ my-element {
 </html>
 ```
 
----
+- - -
 
 ## Troubleshooting
 
@@ -336,49 +353,20 @@ This monorepo can be quite a beast to work in. If you find yourself in some weir
 
 <docs-spacer size="small"></docs-spacer>
 
-### Merge conflicts and Yarn:
+### Merge conflicts and Yarn
 
-Just don't worry about merge conflicts in the _yarn.lock_ file. It's not worth it.
+Just don't worry about merge conflicts in the *yarn.lock* file. It's not worth it.
 
 1. Mark as resolved
-1. Delete it
-1. `yarn install` to recreate it
-1. Add the new _yarn.lock_ file to your commit and carry on
+2. Delete it
+3. `yarn install` to recreate it
+4. Add the new *yarn.lock* file to your commit and carry on
 
-<docs-spacer size="small"></docs-spacer>
+<docs-note>If there are a lot of changes in the *yarn.lock* file and you aren't confident in commiting those changes, reach out to the App Platform team in Microsoft Teams and we will help you figure it out!</docs-note>
 
-### The "Burn it with fire" approach:
 
-<zui-well type="warning">
-<strong>Note:</strong> Do NOT delete the <em>yarn.lock</em> file without regenerating it. This file is very important for stability of the monorepo, especially <code>zui-bundle</code>.
-</zui-well>
 
-1. Delete _/node_modules/_
-   - This one takes awhile, so press Shift + Delete on the folder in File Explorer to skip the recycle bin
-1. `yarn install`
-1. `yarn run bootstrap`
-1. `yarn run build`
-
-If you'd rather not have to type this out explicitly, you can run the following:
-
-_Windows_:
-
-```shell
-> yarn run nuke:windows
-```
-
-<br>
-
-_Linux:_
-
-```shell
-> yarn run nuke:nix
-```
-<br>
-
-<docs-note>This method will take a while.</docs-note>
-
----
+- - -
 
 ## Creating a new component
 
@@ -389,6 +377,7 @@ If you are creating a new web component (e.g., `<zui-my-element>`), you may use 
 ```shell
 > yarn run generate:wc
 ```
+
 <br>
 <docs-note>When asked to name your new component, please prefix it with <strong><code>zui-</code></strong>.</docs-note>
 <br>
@@ -439,7 +428,7 @@ If you are creating a new web component (e.g., `<zui-my-element>`), you may use 
 
 ### Add new component to zui-components-all
 
-For your component to be recognized by `zui-bundle` please add it to `zui-components-all`'s _package.json_ by running the following command from the root of the project. Following the example below, replace `zui-my-element` with your component's name.
+For your component to be recognized by `zui-bundle` please add it to `zui-components-all`'s *package.json* by running the following command from the root of the project. Following the example below, replace `zui-my-element` with your component's name.
 
 ```shell
 > npx lerna add @zywave/zui-my-element --scope=@zywave/zui-components-all
@@ -461,7 +450,7 @@ import '@zywave/zui-my-element';
 @use '@zywave/zui-my-element/dist/css/zui-my-element.fouc.css';
 ```
 
----
+- - -
 
 ## Creating a new CSS package
 
@@ -472,6 +461,7 @@ If you are creating a new CSS package, you may use the built-in ZUI CSS package 
 ```shell
 > yarn run generate:styles
 ```
+
 <br>
 <docs-note>When asked to name your new package, please prefix it with <strong><code>zui-</code></strong>.</docs-note>
 <br>
