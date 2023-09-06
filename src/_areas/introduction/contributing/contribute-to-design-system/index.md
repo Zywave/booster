@@ -7,6 +7,17 @@ This guide is to empower our community to contribute to the Booster Development 
 
 <docs-spacer></docs-spacer>
 
+## Contribution requirements
+
+Here are some requirements when you contribute code to our design system:
+
+1. If adding any new functionality, please write tests to verify it works.
+1. Document any new functionality you add or functionality you change to be published on this site.
+1. Test your changes in the [recommended browsers at Zywave](https://support.zywave.com/s/article/Zywave-browser-recommendations) to ensure they work properly.
+1. Ping the App Platform team in Microsoft Teams when you have a merge request ready for review.
+
+<docs-spacer></docs-spacer>
+
 ## Initialization
 
 When you first clone the repository, you will need to run a few commands to get everything set up:
@@ -26,7 +37,7 @@ When you first clone the repository, you will need to run a few commands to get 
 
 - - -
 
-## Branching
+## Branching strategy
 
 When working in this monorepo, you'll want to be aware of our branching strategy. We prefer that you branch off of the main branch instead of forking the repository. Branching off of the main branch allows you to create a merge request with minimal merge conflicts.
 
@@ -48,7 +59,7 @@ ZUI operates with one branch in mind:
 
 - - -
 
-## Commiting
+## Committing strategy
 
 ZUI uses Lerna for CI operations across the entire monorepo. There are two things to note:
 
@@ -182,13 +193,14 @@ If you're curious at any time what the next prerelease or release of ZUI will lo
 
 Here are some quick best practices when creating your merge request:
 
-* Keep the merge request small; the monorepo structure might tempt you to make many changes all at once, but it's harder to review, and harder to properly associate your changes with the right packages.
+* Keep the merge request small.
+  * The monorepo structure might tempt you to make many changes all at once, but it's harder to review, and harder to properly associate your changes with the right packages.
 * For "code review" merge requests, you can always prepend `WIP:` to the title to prevent accidental merging.
 * Delete the source branch once it has been merged into the main branch.
 * If your changes are isolated to one package, feel free to check the `Squash commits when merge request is accepted.` box. Just be sure that the title of the merge request (or the resulting commit message) follows our rules above.
 * If your changes span many packages, don't squash the commits. Better to have targeted, explicit commits against the changed code than one blob commit that is hard for conventional-changelog to properly allocate to the right package(s).
 
-After you create your merge request, please ping the App Platform channel in Microsoft Teams to let us know it is ready for review.
+<docs-note>After your merge request is created, please ping the App Platform channel in Microsoft Teams to let us know it is ready for review.</docs-note>
 
 - - -
 
