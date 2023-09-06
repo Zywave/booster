@@ -412,20 +412,20 @@ If you are creating a new web component (e.g., `<zui-my-element>`), you may use 
           <ul>
             <li>Web page playground to test your component locally</li>
             <li>Great way to showcase examples of your component's features</li>
-            <li>Local development environment for your component can be started up with `yarn run watch` (requires the working directory to be inside your new component's folder)</li>
+            <li>Local development environment for your component can be started up with <code>yarn run watch</code> (requires the working directory to be inside your new component's folder)</li>
           </ul>
         </li>
         <li><em>/test/</em> directory
           <ul>
             <li>Where you will write tests to verify your component's functionality</li>
-            <li>Start up the local development environment for your component's tests with `yarn run test` (requires the working directory to be inside your new component's folder)</li>
+            <li>Start up the local development environment for your component's tests with <code>yarn run test</code> (requires the working directory to be inside your new component's folder)</li>
           </ul>
         </li>
         <li><em>/docs/</em> directory
           <ul>
             <li>This directory provides working examples to be showcased in the Booster Documentation Network site</li>
             <li><em>demo.html</em> is where you will write code examples or demos of all the possible ways to use your component that will appear in the "Demos" tab of your component's documentation page on Booster Development Network</li>
-            <li>Start up the local development environment for your component's documentation with `yarn run demo` (requires the working directory to be inside your new component's folder)</li>
+            <li>Start up the local development environment for your component's documentation with <code>yarn run demo</code> (requires the working directory to be inside your new component's folder)</li>
           </ul>
         </li>
       </ul>
@@ -493,7 +493,7 @@ If you are creating a new CSS package, you may use the built-in ZUI CSS package 
           <ul>
             <li>Web page playground to test your styles locally</li>
             <li>Great way to showcase CSS styles and examples</li>
-            <li>Local development environment for your CSS package can be started up with `npx gulp watch` (requires the working directory to be inside your new packages's folder)</li>
+            <li>Local development environment for your CSS package can be started up with <code>npx gulp watch</code> (requires the working directory to be inside your new packages's folder)</li>
           </ul>
         </li>
       </ul>
