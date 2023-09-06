@@ -87,9 +87,9 @@ All commits should look like the following:
 
 ```shell
 <type>(<scope>): <subject>
-<BLANK LINE>
+
 <body>
-<BLANK LINE>
+
 <footer>
 ```
 
