@@ -474,7 +474,7 @@ If you are creating a new CSS package, you may use the built-in ZUI CSS package 
         <li>A <em>/src/</em> directory
           <ul>
             <li><em>index.scss</em> file to import multiple stylesheets into one</li>
-            <li><em>\<em>partial.scss</em> and <em>module.scss</em> are examples of how to organize SCSS components by purpose and reusability within the package or design system</li>
+            <li><em>_partial.scss</em> and <em>module.scss</em> are examples of how to organize SCSS components by purpose and reusability within the package or design system</li>
           </ul>
         </li>
         <li>A <em>package.json</em> to define the package</li>
