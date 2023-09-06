@@ -11,7 +11,7 @@ This guide is to empower our community to contribute to the Booster Development 
 
 Here are some requirements when you contribute code to our design system:
 
-1. If adding any new functionality or changing any current functionality, please write tests to verify it works.
+1. If adding any new functionality or changing any current functionality, please write tests to verify your changes.
 1. Document any new functionality you add or functionality you change to be published on this site.
 1. Test your changes in the [recommended browsers at Zywave](https://support.zywave.com/s/article/Zywave-browser-recommendations) to ensure they work properly.
 1. Ping the App Platform team in Microsoft Teams when you have a merge request ready for review.
