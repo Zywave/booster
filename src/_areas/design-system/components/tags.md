@@ -54,7 +54,45 @@ When displaying more than one, 10px of space should separate each Tag.
 
 ## Best practices
 
+<docs-grid columns="2">
+<div>
+INSERT IMAGE
 
+<docs-do>
+Keep text labels clear and concise
+</docs-do>
+</div>
+
+<div>
+INSERT IMAGE
+
+<docs-do-not>
+Use lengthy text labels or more than two words
+</docs-do-not>
+</div>
+</docs-grid>
+
+<docs-spacer size="large">
+</docs-spacer>
+
+
+<docs-grid columns="2">
+<div>
+INSERT IMAGE
+
+<docs-do>
+Be mindful of connotations when selecting colors for Tags
+</docs-do>
+</div>
+
+<div>
+INSERT IMAGE
+
+<docs-do-not>
+Select colors like red to indicate success or blue to indicate urgency
+</docs-do-not>
+</div>
+</docs-grid>
 
 - - -
 
