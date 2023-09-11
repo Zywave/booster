@@ -34,7 +34,7 @@ Tags consist of two parts, a background and text. Filter tags also contain a rem
 * **Text:** Labels match the color selected for the background and should be around 20ch or less in length
 * **Remove icon:** An X symbol indicates to the user that the filter can be removed
 
-F﻿or a more detailed breakdown of sizing and spacing, view the Tags design specs.
+F﻿or a more detailed breakdown of sizing and spacing, view the [Tags design specs](https://xd.adobe.com/view/9f183024-bbfb-474e-b3d1-53ab3b6c5fc6-ca4b/).
 
 - - -
 
@@ -44,7 +44,7 @@ There are two types of Tags. Usually Tags can be used as a visual label for an o
 
 ### Tags
 
-Tags are most commonly seen within a list or table to either categorize or highlight information about the item they are associated with. Tags come in 9 standard color combinations and should not be customized unless absolutely necessary. 
+Tags are most commonly seen within a List or Table to either categorize or highlight information about the item they are associated with. Tags come in 9 standard color combinations and should not be customized unless absolutely necessary. 
 
 ### Filter Tags
 
@@ -113,7 +113,7 @@ Select colors like red to indicate success or blue to indicate urgency
 
 ## Alternate considerations
 
-When there are too  many Tag options for one object, the Tags become less effective in organizing information. Consider using plain text labels in table columns when there are more options available than Tag colors. These labels can still be filterable in the table and this application can prevent the UI from becoming too busy.
+When there are too  many Tag options for one object, the Tags become less effective in organizing information. Consider using plain text labels in Table columns when there are more options available than Tag colors. These labels can still be filterable in the table and this application can prevent the UI from becoming too busy.
 
 Other visuals such as Icons or color-coded elements may be used when not many options need to be shown and space is limited. 
 
