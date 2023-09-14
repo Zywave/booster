@@ -17,7 +17,7 @@ Progress bars inform users about the status of ongoing processes, the estimated 
 
 1. **Bar:** The visual element that represents progress. It fills up horizontally as the task progresses.
 2. **Label/Percentage** (optional): A numeric indicator, typically displayed above or within the progress bar, showing the completion percentage.
-3. **Container:** The enclosing element that holds the progress bar and related information
+3. **Loading Text or Message** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”
 
 - - -
 
