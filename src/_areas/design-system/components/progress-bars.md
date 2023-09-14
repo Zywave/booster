@@ -9,7 +9,7 @@ includedElements: []
 ---
 ## Usage
 
-Progress bars inform users about the status of ongoing processes, the estimated time of how long a process will take, or if a request is being executed.
+Progress bars inform users about the status of ongoing processes, the estimated time of how long a process will take, or if a request is being executed. Use progress bars for medium wait times (3–10 seconds) to showcase loading progress and maintain user engagement.
 
 - - -
 
