@@ -21,6 +21,18 @@ Progress bars inform users about the status of ongoing processes, the estimated 
 
 - - -
 
+## Behavior
+
+#### Default Behavior
+
+The progress bar fills gradually from left to right as the task progresses.
+
+#### Displaying a percentage
+
+The percentage label updates in real-time to reflect the current progress. When the task is complete, the progress bar reaches 100%, indicating the task's successful execution.
+
+- - -
+
 ## Responsiveness
 
 The progress bar should adapt to different screen sizes and orientations, maintaining its visibility and usability.
