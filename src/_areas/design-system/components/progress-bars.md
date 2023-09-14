@@ -43,6 +43,10 @@ The progress bar fills gradually from left to right as the task progresses.
 
 The percentage label updates in real-time to reflect the current progress. When the task is complete, the progress bar reaches 100%, indicating the task's successful execution.
 
+#### Inform users
+
+Informing your users will make your users wait or else they may assume it is a bug and move on to other websites. Include a label with a progress bar to add context. Use simple, meaningful sentences for example “Linking your bank account” that inform users.
+
 - - -
 
 ## Responsiveness
