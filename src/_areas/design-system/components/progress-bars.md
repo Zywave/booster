@@ -80,6 +80,36 @@ IMAGE
 
 ## Best practices
 
+#### Set expectations
+
+<docs-grid columns="2">
+
+<div>
+
+![Validation do](/images/progress-bar_label_do.svg)
+
+<docs-do>
+
+Accompany the progress bar with clear and concise messages that inform users about the task being performed.
+</docs-do>
+
+</div>
+
+<div>
+
+![Validation don't](/images/progress-bar_label_dont.svg)
+
+<docs-do-not>
+
+Avoid using a progress bar without any accompanying information.
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
 #### Provide context
 
 <docs-grid columns="2">
