@@ -90,7 +90,7 @@ IMAGE
 
 <docs-do>
 
-Accompany the progress bar with clear and concise messages that inform users about the task being performed.
+Ensure that the progress bar accurately reflects the actual time needed for the task to complete.
 </docs-do>
 
 </div>
@@ -101,7 +101,7 @@ Accompany the progress bar with clear and concise messages that inform users abo
 
 <docs-do-not>
 
-Avoid using a progress bar without any accompanying information.
+Avoid progress bars that fill quickly and then stall, giving users a false sense of completion.
 </docs-do-not>
 
 </div>
