@@ -9,7 +9,9 @@ includedElements: []
 ---
 ## Usage
 
-Progress bars inform users about the status of ongoing processes, the estimated time of how long a process will take, or if a request is being executed. Use progress bars for medium wait times (3–10 seconds) to showcase loading progress and maintain user engagement.
+Progress bars inform users about the status of ongoing processes, the estimated time of how long a process will take, or if a request is being executed. 
+
+Use progress bars for medium wait times (3–10 seconds) to display loading progress and engage users. For longer waits, over 10 seconds, provide clear interfaces with interactive elements, combining background tasks and storytelling to keep users engaged throughout the extended waiting period.
 
 - - -
 
@@ -29,7 +31,7 @@ Indeterminate indicators express an unspecified amount of time. Use indeterminat
 
 #### Determinate indicators
 
-Determidisplay how long a process will take, and how far it has progressed. Utilize determinate indicators when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations.
+Determinate indicators display how long a process will take, and how far it has progressed. Utilize determinate indicators when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations.
 
 - - -
 
@@ -46,6 +48,10 @@ The percentage label updates in real-time to reflect the current progress. When 
 #### Inform users
 
 Informing your users will make your users wait or else they may assume it is a bug and move on to other websites. Include a label with a progress bar to add context. Use simple, meaningful sentences for example “Linking your bank account” that inform users.
+
+**For long wait times (10+ seconds)**, provide a clear interface that showcases progress, allows user interaction, and reduces anxiety. Utilize a combination of strategies such as a shimmer effect, background tasks, and storytelling/tips to engage users throughout the extended wait.
+
+<!--EndFragment-->
 
 - - -
 
