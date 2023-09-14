@@ -21,10 +21,10 @@ IMAGE
 
 IMAGE
 
-1. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
-2. **Track:** The static area that the bar indicator moves on top of and acts as a fixed visual reference of what the total length and duration of the process could be.
-3. **Label** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”
-4. **Percentage** (optional): A numeric indicator, typically displayed above or within the progress bar, showing the completion percentage.
+1. **Label** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”
+2. **Percentage** (optional): A numeric indicator, typically displayed above or within the progress bar, showing the completion percentage.
+3. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
+4. **Track:** The static area that the bar indicator moves on top of and acts as a fixed visual reference of what the total length and duration of the process could be.
 
 See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
 
