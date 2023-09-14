@@ -13,13 +13,13 @@ Progress bars inform users about the status of ongoing processes, the estimated 
 
 Use progress bars for medium wait times (3–10 seconds) to display loading progress and engage users. For longer waits, over 10 seconds, provide clear interfaces with interactive elements, combining background tasks and storytelling to keep users engaged throughout the extended waiting period.
 
-IMAGE
+![Progress bar usage](/images/progress-bar_usage.svg)
 
 - - -
 
 ## Anatomy
 
-IMAGE
+![Progress bar usage](/images/progress-bar_anatomy.svg)
 
 1. **Label** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”
 2. **Percentage** (optional): A numeric indicator, typically displayed above or within the progress bar, showing the completion percentage.
