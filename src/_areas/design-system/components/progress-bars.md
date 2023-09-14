@@ -23,13 +23,13 @@ Progress bars inform users about the status of ongoing processes, the estimated 
 
 ## Types
 
-**Indeterminate indicators** — express an unspecified amount of time.
+#### Indeterminate indicators
 
-Use indeterminate indicators when the duration or progress of a process is unknown or variable. They reassure users that the system is working and prevent perception of delays as errors or failures.
+Indeterminate indicators express an unspecified amount of time. Use indeterminate indicators when the duration or progress of a process is unknown or variable. They reassure users that the system is working and prevent the perception of delays as errors or failures.
 
-**Determiante indicators** — display how long a process will take, and how far it has progressed. Utilize determinate indicators when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations.
+#### Determinate indicators
 
-<!--EndFragment-->
+Determidisplay how long a process will take, and how far it has progressed. Utilize determinate indicators when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations.
 
 - - -
 
