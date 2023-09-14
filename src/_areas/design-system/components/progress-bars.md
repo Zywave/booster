@@ -21,6 +21,18 @@ Progress bars inform users about the status of ongoing processes, the estimated 
 
 - - -
 
+## Types
+
+**Indeterminate indicators** — express an unspecified amount of time.
+
+Use indeterminate indicators when the duration or progress of a process is unknown or variable. They reassure users that the system is working and prevent perception of delays as errors or failures.
+
+**Determiante indicators** — display how long a process will take, and how far it has progressed. Utilize determinate indicators when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations.
+
+<!--EndFragment-->
+
+- - -
+
 ## Behavior
 
 #### Default Behavior
@@ -41,4 +53,4 @@ The progress bar should adapt to different screen sizes and orientations, mainta
 
 ## Alternate Considerations
 
-* Use `Spinners` where the exact duration of a task is unknown (indeterminate progress), or If the process takes less than 5 seconds to load.
+* Use `Spinners` if the process takes less than 5 seconds to load.
