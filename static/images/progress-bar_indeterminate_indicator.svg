@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="127" viewBox="0 0 1000 127">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="350" height="3.5" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0.005" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1f5ea8"/>
+      <stop offset="1" stop-color="#cbcbd2"/>
+    </linearGradient>
+    <clipPath id="clip-progress-bar_indeterminate_indicator">
+      <rect width="1000" height="127"/>
+    </clipPath>
+  </defs>
+  <g id="progress-bar_indeterminate_indicator" clip-path="url(#clip-progress-bar_indeterminate_indicator)">
+    <rect width="1000" height="127" fill="#f4f4f6"/>
+    <g id="Indeterminate_Progress_Bar_1" data-name="Indeterminate Progress Bar – 1" transform="translate(325 62)" clip-path="url(#clip-path)">
+      <g id="Group_7631" data-name="Group 7631" transform="translate(-157.5 -319.2)">
+        <g id="Group_7630" data-name="Group 7630" transform="translate(-103 3)">
+          <rect id="Rectangle_3754" data-name="Rectangle 3754" width="350" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="#cbcbd2"/>
+          <rect id="Rectangle_3818" data-name="Rectangle 3818" width="232" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

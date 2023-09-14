@@ -36,15 +36,17 @@ See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079f
 
 Indeterminate indicators express an unspecified amount of time. Use indeterminate indicators when the duration or progress of a process is unknown or variable. They reassure users that the system is working and prevent the perception of delays as errors or failures.
 
-IMAGE
+![Progress bar usage](/images/progress-bar_indeterminate_indicator.svg)
 
 Indeterminate progress bars move along a fixed track continually until the process is complete.
+
+<br>
 
 #### Determinate indicators
 
 Determinate indicators display how long a process will take, and how far it has progressed. Utilize determinate indicators when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations. 
 
-IMAGE
+![Progress bar usage](/images/progress-bar_determinate_indicator.svg)
 
 Determinate progress bars fill from 0 to 100%.
 
@@ -57,6 +59,8 @@ Determinate progress bars fill from 0 to 100%.
 The percentage label updates in real-time to reflect the current progress. When the task is complete, the progress bar reaches 100%, indicating the task's successful execution.
 
 IMAGE
+
+<br>
 
 #### Inform users
 
