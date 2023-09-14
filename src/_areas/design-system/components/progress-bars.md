@@ -13,13 +13,19 @@ Progress bars inform users about the status of ongoing processes, the estimated 
 
 Use progress bars for medium wait times (3–10 seconds) to display loading progress and engage users. For longer waits, over 10 seconds, provide clear interfaces with interactive elements, combining background tasks and storytelling to keep users engaged throughout the extended waiting period.
 
+IMAGE
+
 - - -
 
 ## Anatomy
 
+IMAGE
+
 1. **Bar:** The visual element that represents progress. It fills up horizontally as the task progresses.
 2. **Label/Percentage** (optional): A numeric indicator, typically displayed above or within the progress bar, showing the completion percentage.
 3. **Loading Text or Message** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”
+
+See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
 
 - - -
 
@@ -45,27 +51,25 @@ Determinate progress bars fill from 0 to 100%.
 
 ## Behavior
 
-#### Default Behavior
-
-The progress bar fills gradually from left to right as the task progresses.
-
 #### Displaying a percentage
 
 The percentage label updates in real-time to reflect the current progress. When the task is complete, the progress bar reaches 100%, indicating the task's successful execution.
+
+IMAGE
 
 #### Inform users
 
 Informing your users will make your users wait or else they may assume it is a bug and move on to other websites. Include a label with a progress bar to add context. Use simple, meaningful sentences for example “Linking your bank account” that inform users.
 
-**For long wait times (10+ seconds)**, provide a clear interface that showcases progress, allows user interaction, and reduces anxiety. Utilize a combination of strategies such as a shimmer effect, background tasks, and storytelling/tips to engage users throughout the extended wait.
-
-<!--EndFragment-->
+IMAGE
 
 - - -
 
 ## Responsiveness
 
 The progress bar should adapt to different screen sizes and orientations, maintaining its visibility and usability.
+
+IMAGE
 
 - - -
 
