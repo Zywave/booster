@@ -63,4 +63,4 @@ The progress bar should adapt to different screen sizes and orientations, mainta
 
 ## Alternate Considerations
 
-* Use `Spinners` if the process takes less than 5 seconds to load.
+* Use `Spinners` if the process takes less than 5 seconds to load and when space allows for a smaller loading indicator.
