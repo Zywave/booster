@@ -6,17 +6,11 @@
   </defs>
   <g id="progress-bar_label_dont" clip-path="url(#clip-progress-bar_label_dont)">
     <rect width="485" height="127" fill="#f4f4f6"/>
-    <g id="Determinate_Progress_Bar_4" data-name="Determinate Progress Bar – 4" transform="translate(43 30)">
+    <g id="Component_4" data-name="Component 4" transform="translate(43 30)">
       <path id="Path_8073" data-name="Path 8073" d="M0,0H400V4.5H0Z" transform="translate(0 33.46)" fill="#cbcbd2"/>
       <path id="Path_8074" data-name="Path 8074" d="M0,0H111V4.5H0Z" transform="translate(0 33.46)" fill="#1f5ea8"/>
       <g id="Group_7428" data-name="Group 7428" transform="translate(0 -257.24)">
         <text id="Importing" transform="translate(0 272.24)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Importing</tspan></text>
-      </g>
-      <g id="Group_7429" data-name="Group 7429" transform="translate(0 -257.24)">
-        <text id="_0_" data-name="0%" transform="translate(0 320.24)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">0%</tspan></text>
-      </g>
-      <g id="Group_7430" data-name="Group 7430" transform="translate(0 -257.24)">
-        <text id="_100_" data-name="100%" transform="translate(364 320.24)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">100%</tspan></text>
       </g>
     </g>
   </g>
