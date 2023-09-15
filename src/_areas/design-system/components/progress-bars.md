@@ -13,13 +13,13 @@ Progress bars inform users about the status of ongoing processes, the estimated 
 
 Use progress bars for medium wait times (3–10 seconds) to display loading progress and engage users. For longer waits, over 10 seconds, provide clear interfaces with interactive elements, combining background tasks and storytelling to keep users engaged throughout the extended waiting period.
 
-![Progress bar usage](/images/progress-bar_usage.svg)
+![Progress bars usage](/images/progress-bar_usage.svg)
 
 - - -
 
 ## Anatomy
 
-![Progress bar usage](/images/progress-bar_anatomy.svg)
+![Progress bars anatomy](/images/progress-bar_anatomy.svg)
 
 1. **Label** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”
 2. **Percentage** (optional): A numeric indicator, typically displayed above or within the progress bar, showing the completion percentage.
@@ -38,7 +38,7 @@ Indeterminate indicators express an unspecified amount of time. Use indeterminat
 
 Indeterminate progress bars move along a fixed track continually until the process is complete.
 
-![Progress bar usage](/images/progress-bar_indeterminate_indicator.svg)
+![Progress bars Indeterminate indicators](/images/progress-bar_indeterminate_indicator.svg)
 
 <br>
 
@@ -48,7 +48,7 @@ Determinate indicators display how long a process will take, and how far it has 
 
 Determinate progress bars fill from 0 to 100%.
 
-![Progress bar usage](/images/progress-bar_determinate_indicator.svg)
+![Progress bars Determinate indicators](/images/progress-bar_determinate_indicator.svg)
 
 - - -
 
@@ -58,7 +58,7 @@ Determinate progress bars fill from 0 to 100%.
 
 The percentage label updates in real-time to reflect the current progress. When the task is complete, the progress bar reaches 100%, indicating the task's successful execution.
 
-IMAGE
+![Progress bars display percentage](/images/progress-bar_percentage.svg)
 
 <br>
 
@@ -66,7 +66,7 @@ IMAGE
 
 Informing your users will make your users wait or else they may assume it is a bug and move on to other websites. Include a label with a progress bar to add context. Use simple, meaningful sentences for example “Linking your bank account” that inform users.
 
-![Validation do](/images/progress-bar_inform_users.svg)
+![Progress bars inform users](/images/progress-bar_inform_users.svg)
 
 <br>
 
@@ -80,7 +80,7 @@ Ensure that the progress bar accurately reflects the actual time needed for the 
 
 The progress bar should adapt to different screen sizes and orientations, maintaining its visibility and usability.
 
-![Validation do](/images/progress-bar_responsiveness.svg)
+![Progress bars responsiveness](/images/progress-bar_responsiveness.svg)
 
 - - -
 
@@ -92,7 +92,7 @@ The progress bar should adapt to different screen sizes and orientations, mainta
 
 <div>
 
-![Validation do](/images/progress-bar_label_do.svg)
+![Progress bars labeling best practice do](/images/progress-bar_label_do.svg)
 
 <docs-do>
 
@@ -103,7 +103,7 @@ Accompany the progress bar with clear and concise messages that inform users abo
 
 <div>
 
-![Validation don't](/images/progress-bar_label_dont.svg)
+![Progress bars labeling best practice don't](/images/progress-bar_label_dont.svg)
 
 <docs-do-not>
 
