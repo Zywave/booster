@@ -32,7 +32,7 @@ See the [Design specs](https://xd.adobe.com/view/334e7f6d-d129-4f38-8d09-a0488d4
 
 ## Types
 
-#### Indeterminate indicators
+#### Indeterminate
 
 Indeterminate indicators express an unspecified amount of time. Use indeterminate indicators when the duration or progress of a process is unknown or variable. They reassure users that the system is working and prevent the perception of delays as errors or failures.
 
@@ -42,7 +42,7 @@ Indeterminate progress bars move along a fixed track continually until the proce
 
 <br>
 
-#### Determinate indicators
+#### Determinate
 
 Determinate indicators display how long a process will take, and how far it has progressed. Utilize determinate indicators when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations. 
 
