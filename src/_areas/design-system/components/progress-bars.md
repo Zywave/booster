@@ -32,6 +32,8 @@ See the [Design specs](https://xd.adobe.com/view/334e7f6d-d129-4f38-8d09-a0488d4
 
 ## Types
 
+Progress bars come in two types: indeterminate and determinate. Knowing the difference between them is essential for selecting the right one in different situations.
+
 #### Indeterminate
 
 Indeterminate indicators express an unspecified amount of time. Use indeterminate indicators when the duration or progress of a process is unknown or variable. They reassure users that the system is working and prevent the perception of delays as errors or failures.
