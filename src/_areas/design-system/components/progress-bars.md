@@ -68,6 +68,12 @@ Informing your users will make your users wait or else they may assume it is a b
 
 ![Validation do](/images/progress-bar_inform_users.svg)
 
+<br>
+
+#### Set expectations
+
+Ensure that the progress bar accurately reflects the actual time needed for the task to be completed. For example, If a file upload typically takes 20 seconds, the progress bar should fill accordingly, giving users an accurate sense of progress. Avoid progress bars that fill quickly and then stall, giving users a false sense of completion.
+
 - - -
 
 ## Responsiveness
@@ -79,36 +85,6 @@ IMAGE
 - - -
 
 ## Best practices
-
-#### Set expectations
-
-<docs-grid columns="2">
-
-<div>
-
-![Validation do](/images/progress-bar_label_do.svg)
-
-<docs-do>
-
-Ensure that the progress bar accurately reflects the actual time needed for the task to complete.
-</docs-do>
-
-</div>
-
-<div>
-
-![Validation don't](/images/progress-bar_label_dont.svg)
-
-<docs-do-not>
-
-Avoid progress bars that fill quickly and then stall, giving users a false sense of completion.
-</docs-do-not>
-
-</div>
-
-</docs-grid>
-
-<docs-spacer>
 
 #### Provide context
 
