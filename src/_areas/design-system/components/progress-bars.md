@@ -86,7 +86,7 @@ IMAGE
 
 ## Best practices
 
-#### Provide context
+#### Labeling
 
 <docs-grid columns="2">
 
