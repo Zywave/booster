@@ -26,7 +26,7 @@ Use progress bars for medium wait times (3–10 seconds) to display loading prog
 3. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
 4. **Track:** The static area that the bar indicator moves on top of and acts as a fixed visual reference of what the total length and duration of the process could be.
 
-See the [Design specs](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid) for detailed sizing and spacing information
+See the [Design specs](https://xd.adobe.com/view/334e7f6d-d129-4f38-8d09-a0488d47ca76-661d/grid) for detailed sizing and spacing information
 
 - - -
 
