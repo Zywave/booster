@@ -138,8 +138,6 @@ Avoid using a progress bar without any accompanying information.
 
 </docs-grid>
 
-<docs-spacer>
-
 - - -
 
 ## Alternate Considerations
