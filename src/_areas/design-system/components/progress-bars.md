@@ -66,7 +66,7 @@ IMAGE
 
 Informing your users will make your users wait or else they may assume it is a bug and move on to other websites. Include a label with a progress bar to add context. Use simple, meaningful sentences for example “Linking your bank account” that inform users.
 
-IMAGE
+![Validation do](/images/progress-bar_inform_users.svg)
 
 - - -
 
