@@ -80,7 +80,7 @@ Ensure that the progress bar accurately reflects the actual time needed for the 
 
 The progress bar should adapt to different screen sizes and orientations, maintaining its visibility and usability.
 
-IMAGE
+![Validation do](/images/progress-bar_responsiveness.svg)
 
 - - -
 
