@@ -11,7 +11,7 @@ tags:
 ---
 ## Updated navigation icons
 
-insert blurb about icon updates here
+Updated navigation icons with new styling - these are now line icons with a 20% fill on part of the icon. The following icons were updated: accounts, activities, dashboard, insights, leads, marketing, portal management, quoting, reporting, settings.
 
 <docs-spacer></docs-spacer>
 
