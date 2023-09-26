@@ -46,7 +46,7 @@ Indeterminate progress bars move along a fixed track continually until the proce
 
 #### Determinate
 
-Determinate indicators display how long a process will take, and how far it has progressed. Utilize determinate indicators when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations. 
+Determinate indicators display how long a process will take, and how far it has progressed. Utilize a percentage indicator when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations. 
 
 Determinate progress bars fill from 0 to 100%.
 
@@ -66,7 +66,7 @@ The percentage label updates in real-time to reflect the current progress. When 
 
 #### Inform users
 
-Informing your users will make your users wait or else they may assume it is a bug and move on to other websites. Include a label with a progress bar to add context. Use simple, meaningful sentences for example “Linking your bank account” that inform users.
+Informing your users will make your users wait or else they may assume it is a bug and move on to other websites. Include a label with a progress bar to add context. Use simple, meaningful sentences for example “Loading your policies” that inform users.
 
 ![Progress bar inform users](/images/progress-bar_inform_users.svg)
 
@@ -74,7 +74,7 @@ Informing your users will make your users wait or else they may assume it is a b
 
 #### Set expectations
 
-Ensure that the progress bar accurately reflects the actual time needed for the task to be completed. For example, If a file upload typically takes 20 seconds, the progress bar should fill accordingly, giving users an accurate sense of progress. Avoid progress bars that fill quickly and then stall, giving users a false sense of completion.
+Ensure that the progress bar accurately reflects the actual time needed for the task to be completed in Determinate indicators. For example, If a file upload typically takes 20 seconds, the progress bar should fill accordingly, giving users an accurate sense of progress. Avoid progress bars that fill quickly and then stall, giving users a false sense of completion.
 
 - - -
 
