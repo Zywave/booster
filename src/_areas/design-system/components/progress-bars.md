@@ -109,7 +109,7 @@ The progress bar should adapt to different screen sizes and orientations, mainta
 
 <docs-do>
 
-Accompany the progress bar with clear and concise messages that inform users about the task being performed.
+Accompany a Determinate progress bar with clear and concise messages that inform users about the task being performed.
 </docs-do>
 
 </div>
@@ -120,7 +120,7 @@ Accompany the progress bar with clear and concise messages that inform users abo
 
 <docs-do-not>
 
-Avoid using a progress bar without any accompanying information.
+Avoid using a Determinate progress bar without any accompanying information.
 </docs-do-not>
 
 </div>
