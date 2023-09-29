@@ -17,13 +17,9 @@ A spinner informs users that content or data is being loaded. Use Spinners if th
 
 ![Spinners usage](/images/spinners-usage..svg)
 
-
-
 - - -
 
 ## Anatomy
-
-
 
 ![Spinners anatomy](/images/spinners-anatomy.svg)
 
@@ -105,8 +101,8 @@ Avoid using a Determinate progress bar without any accompanying information.
 
 ## Alternate considerations
 
-* <!--StartFragment-->
+<!--StartFragment-->
 
-  Consider using a `Progress bar` if the process takes more than five seconds and the space is large enough for a progress bar.
+* Consider using a `Progress bar` if the process takes more than five seconds or the space is large enough for a progress bar.
 
-  <!--EndFragment-->
+<!--EndFragment-->
