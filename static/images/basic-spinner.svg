@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="110" viewBox="0 0 1000 110">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="50" height="50" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Default_4">
+      <rect width="1000" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="Default_4" data-name="Default – 4" clip-path="url(#clip-Default_4)">
+    <rect width="1000" height="110" fill="#f4f4f6"/>
+    <g id="Progress_Wheel_5" data-name="Progress Wheel – 5" transform="translate(475 30)" clip-path="url(#clip-path)">
+      <g id="Group_7426" data-name="Group 7426" transform="translate(-146.5 -105.1)">
+        <path id="Path_5481" data-name="Path 5481" d="M171.5,155.1a25,25,0,1,1,25-25A25.009,25.009,0,0,1,171.5,155.1Zm0-42.8a17.8,17.8,0,1,0,17.8,17.8A17.839,17.839,0,0,0,171.5,112.3Z" fill="#cbcbd2"/>
+        <path id="Path_5482" data-name="Path 5482" d="M154.5,124.7l-6.9-2.2A25.037,25.037,0,0,1,179,106.3l-2.2,6.9A17.7,17.7,0,0,0,154.5,124.7Z" fill="#1f5ea8"/>
+      </g>
+    </g>
+  </g>
+</svg>
