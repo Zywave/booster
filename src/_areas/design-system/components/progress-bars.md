@@ -11,7 +11,7 @@ includedElements: []
 
 A Progress bar informs users about the status of ongoing processes, the estimated time of how long a process will take, or if a request is being executed. 
 
-Use a progress bar for medium wait times (3–10 seconds) to display loading progress and engage users. For longer waits, over 10 seconds, provide visuals such as a label or illustration indicating progress to keep users engaged throughout the extended waiting period.
+Use a Progress bar for medium wait times (3–10 seconds) to display loading progress and engage users. For longer waits, over 10 seconds, provide visuals such as a label or illustration indicating progress to keep users engaged throughout the extended waiting period.
 
 ![Progress bar usage](/images/progress-bar_usage.svg)
 
