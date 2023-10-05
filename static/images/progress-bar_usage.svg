@@ -1,24 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="127" viewBox="0 0 1000 127">
   <defs>
-    <clipPath id="clip-path">
-      <rect width="400" height="67" fill="none"/>
-    </clipPath>
-    <clipPath id="clip-path-2">
-      <rect width="350" height="3.5" fill="none"/>
-    </clipPath>
-    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0.005" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#1f5ea8"/>
-      <stop offset="1" stop-color="#cbcbd2"/>
-    </linearGradient>
     <clipPath id="clip-progress-bar_usage">
       <rect width="1000" height="127"/>
     </clipPath>
   </defs>
   <g id="progress-bar_usage" clip-path="url(#clip-progress-bar_usage)">
     <rect width="1000" height="127" fill="#f4f4f6"/>
-    <g id="Component_1" data-name="Component 1" transform="translate(30 30)" clip-path="url(#clip-path)">
+    <g id="Component_1" data-name="Component 1" transform="translate(30 30)">
       <path id="Path_8073" data-name="Path 8073" d="M0,0H400V4.5H0Z" transform="translate(0 33.46)" fill="#cbcbd2"/>
-      <path id="Path_8074" data-name="Path 8074" d="M0,0H111V4.5H0Z" transform="translate(0 33.46)" fill="#1f5ea8"/>
+      <path id="Path_8074" data-name="Path 8074" d="M0,0H111V4.5H0Z" transform="translate(0 33.46)" fill="#2777d3"/>
       <g id="Group_7428" data-name="Group 7428" transform="translate(0 -257.24)">
         <text id="Importing_account_38_of_376" data-name="Importing account 38 of 376" transform="translate(0 272.24)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Importing account 38 of 376</tspan></text>
       </g>
@@ -29,11 +19,11 @@
         <text id="_100_" data-name="100%" transform="translate(364 320.24)" fill="#31313a" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">100%</tspan></text>
       </g>
     </g>
-    <g id="Component_1-2" data-name="Component 1" transform="translate(620 62)" clip-path="url(#clip-path-2)">
+    <g id="Component_1-2" data-name="Component 1" transform="translate(620 62)">
       <g id="Group_7631" data-name="Group 7631" transform="translate(-157.5 -319.2)">
         <g id="Group_7630" data-name="Group 7630" transform="translate(-103 3)">
           <rect id="Rectangle_3754" data-name="Rectangle 3754" width="350" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="#cbcbd2"/>
-          <rect id="Rectangle_3818" data-name="Rectangle 3818" width="232" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="url(#linear-gradient)"/>
+          <rect id="Rectangle_11853" data-name="Rectangle 11853" width="111" height="3.5" rx="1.75" transform="translate(320.5 316.2)" fill="#2777d3"/>
         </g>
       </g>
     </g>

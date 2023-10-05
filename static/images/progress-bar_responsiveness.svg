@@ -1,19 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="390" height="844" viewBox="0 0 390 844">
   <defs>
-    <clipPath id="clip-path">
-      <rect width="350" height="3.5" fill="none"/>
-    </clipPath>
-    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0.005" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#1f5ea8"/>
-      <stop offset="1" stop-color="#cbcbd2"/>
-    </linearGradient>
     <clipPath id="clip-progress-bar_responsiveness">
       <rect width="390" height="844"/>
     </clipPath>
   </defs>
   <g id="progress-bar_responsiveness" clip-path="url(#clip-progress-bar_responsiveness)">
     <rect width="390" height="844" fill="#f4f4f6"/>
-    <g id="Mobile_Top_Bar_1" data-name="Mobile Top Bar – 1">
+    <g id="Component_1" data-name="Component 1">
       <rect id="Rectangle_1" data-name="Rectangle 1" width="391" height="55" fill="#f9f9fa"/>
       <g id="Group_8092" data-name="Group 8092" transform="translate(345 10)">
         <path id="Path_101755" data-name="Path 101755" d="M303.8,258.3l-5-5a6.354,6.354,0,0,0,1.1-4.9,6.471,6.471,0,0,0-5.6-5.3,6.53,6.53,0,0,0-2,12.9,6.914,6.914,0,0,0,4.9-1.1l5,5a1.088,1.088,0,0,0,1.5,0A1.222,1.222,0,0,0,303.8,258.3Zm-14.7-9.5a4.458,4.458,0,0,1,3.7-3.7,4.57,4.57,0,0,1,5.2,5.2,4.458,4.458,0,0,1-3.7,3.7A4.609,4.609,0,0,1,289.1,248.8Z" transform="translate(-277.224 -234.053)" fill="#4e92df"/>
@@ -40,6 +33,14 @@
       <line id="Line_2" data-name="Line 2" x2="390" transform="translate(0 55)" fill="none" stroke="#e6e6ea" stroke-width="1"/>
     </g>
     <g id="Group_270722" data-name="Group 270722" transform="translate(-765.5 -45)">
+      <g id="Indeterminate_Progress_Bar_4" data-name="Indeterminate Progress Bar – 4" transform="translate(785.5 679.23)">
+        <g id="Group_7631" data-name="Group 7631" transform="translate(-157.5 -319.2)">
+          <g id="Group_7630" data-name="Group 7630" transform="translate(-103 3)">
+            <rect id="Rectangle_3754" data-name="Rectangle 3754" width="350" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="#cbcbd2"/>
+            <rect id="Rectangle_11853" data-name="Rectangle 11853" width="111" height="3.5" rx="1.75" transform="translate(320.5 316.2)" fill="#2777d3"/>
+          </g>
+        </g>
+      </g>
       <g id="quote-loading" transform="translate(785.92 341.003)">
         <path id="Path_101231" data-name="Path 101231" d="M304.68,26.668C275.652-5.388,224.7-9.061,190.9,18.456a78.2,78.2,0,0,0-11.343,11.326,15.385,15.385,0,0,1-18.019,4.033C114.239,13.076,58.192,32.605,36.313,77.369s-1.3,97.927,45.956,118.666a95.682,95.682,0,0,0,11.24,4.127,74.151,74.151,0,0,1,32.948,20.353l.5.532c28.444,29.688,76.9,31.893,108.215,4.934,18.817-16.191,27.929-40.165,24.342-64.009a11.154,11.154,0,0,1,8.066-12.3c42.584-12.7,66.249-55.7,52.855-96.1a75.644,75.644,0,0,0-15.753-26.9Z" transform="translate(-3.913)" fill="#f9f9fa"/>
         <path id="Path_101232" data-name="Path 101232" d="M189.71,26.354a8.366,8.366,0,0,0,8.58-8.134,8.58,8.58,0,0,0-17.161,0,8.374,8.374,0,0,0,8.58,8.134Zm0-15.041A7.1,7.1,0,0,1,197,18.22a7.293,7.293,0,1,1-14.587,0,7.1,7.1,0,0,1,7.285-6.864Z" transform="translate(-25.714 -1.369)" fill="#f4f4f6"/>
@@ -155,14 +156,6 @@
       <text id="Please_wait_while_we_fetch_the_plans_and_rates_for_your_quote." data-name="Please wait while we fetch 
 the plans and rates for your 
 quote." transform="translate(960.5 188)" fill="#31313a" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-157.2" y="0">Please wait while we fetch </tspan><tspan x="-166.48" y="35">the plans and rates for your </tspan><tspan x="-37.845" y="70">quote.</tspan></text>
-      <g id="Indeterminate_Progress_Bar_1" data-name="Indeterminate Progress Bar – 1" transform="translate(786 679.23)" clip-path="url(#clip-path)">
-        <g id="Group_7631" data-name="Group 7631" transform="translate(-157.5 -319.2)">
-          <g id="Group_7630" data-name="Group 7630" transform="translate(-103 3)">
-            <rect id="Rectangle_3754" data-name="Rectangle 3754" width="350" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="#cbcbd2"/>
-            <rect id="Rectangle_3818" data-name="Rectangle 3818" width="232" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="url(#linear-gradient)"/>
-          </g>
-        </g>
-      </g>
     </g>
   </g>
 </svg>

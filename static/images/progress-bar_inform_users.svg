@@ -33,13 +33,6 @@
     <clipPath id="clip-path-13">
       <rect id="Rectangle_11768" data-name="Rectangle 11768" width="19.96" height="14.96" transform="translate(0 0)" fill="none"/>
     </clipPath>
-    <clipPath id="clip-path-14">
-      <rect width="350" height="3.5" fill="none"/>
-    </clipPath>
-    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0.005" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#1f5ea8"/>
-      <stop offset="1" stop-color="#cbcbd2"/>
-    </linearGradient>
     <clipPath id="clip-progress-bar_inform_users">
       <rect width="1920" height="1080"/>
     </clipPath>
@@ -305,6 +298,14 @@
       </g>
     </g>
     <g id="Group_270722" data-name="Group 270722" transform="translate(6)">
+      <g id="Indeterminate_Progress_Bar_3" data-name="Indeterminate Progress Bar – 3" transform="translate(786 705)">
+        <g id="Group_7631" data-name="Group 7631" transform="translate(-157.5 -319.2)">
+          <g id="Group_7630" data-name="Group 7630" transform="translate(-103 3)">
+            <rect id="Rectangle_3754" data-name="Rectangle 3754" width="350" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="#cbcbd2"/>
+            <rect id="Rectangle_11853" data-name="Rectangle 11853" width="111" height="3.5" rx="1.75" transform="translate(320.5 316.2)" fill="#2777d3"/>
+          </g>
+        </g>
+      </g>
       <g id="quote-loading" transform="translate(757 316)">
         <path id="Path_101231" data-name="Path 101231" d="M350.53,31.08C316.7-6.28,257.32-10.56,217.92,21.51a91.14,91.14,0,0,0-13.22,13.2,17.93,17.93,0,0,1-21,4.7C128.58,15.24,63.26,38,37.76,90.17S36.24,204.3,91.32,228.47a111.513,111.513,0,0,0,13.1,4.81A86.42,86.42,0,0,1,142.82,257l.58.62c33.15,34.6,89.62,37.17,126.12,5.75,21.93-18.87,32.55-46.81,28.37-74.6a13,13,0,0,1,9.4-14.33c49.63-14.8,77.21-64.92,61.6-112a88.159,88.159,0,0,0-18.36-31.35Z" fill="#f9f9fa"/>
         <path id="Path_101232" data-name="Path 101232" d="M191.13,29.12a9.75,9.75,0,0,0,10-9.48,10,10,0,0,0-20,0,9.76,9.76,0,0,0,10,9.48Zm0-17.53a8.28,8.28,0,0,1,8.49,8.05,8.5,8.5,0,1,1-17,0,8.27,8.27,0,0,1,8.49-8Z" fill="#f4f4f6"/>
@@ -419,14 +420,6 @@
       </g>
       <g id="Group_264123" data-name="Group 264123" transform="translate(317 38)">
         <text id="Please_wait_while_we_fetch_the_plans_and_rates_for_your_quote." data-name="Please wait while we fetch the plans and rates for your quote." transform="translate(282 220)" fill="#31313a" font-size="26" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Please wait while we fetch the plans and rates for your quote.</tspan></text>
-      </g>
-      <g id="Indeterminate_Progress_Bar_3" data-name="Indeterminate Progress Bar – 3" transform="translate(786 705)" clip-path="url(#clip-path-14)">
-        <g id="Group_7631" data-name="Group 7631" transform="translate(-157.5 -319.2)">
-          <g id="Group_7630" data-name="Group 7630" transform="translate(-103 3)">
-            <rect id="Rectangle_3754" data-name="Rectangle 3754" width="350" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="#cbcbd2"/>
-            <rect id="Rectangle_3818" data-name="Rectangle 3818" width="232" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="url(#linear-gradient)"/>
-          </g>
-        </g>
       </g>
     </g>
   </g>
