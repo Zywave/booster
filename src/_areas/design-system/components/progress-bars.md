@@ -59,7 +59,7 @@ Indeterminate progress bars move along a fixed track continually until the proce
 
 Determinate Progress bars should be used when it is possible to display how long a process will take, and how far it has progressed. A percentage indicator can be included when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations. 
 
-Determinate progress bars fill from 0 to 100%.
+Determinate progress bars expand to fill a fixed track from left to right until the loading process is complete.
 
 ![Progress bar Determinate indicators](/images/progress-bar_determinate_indicator.svg)
 
@@ -77,7 +77,7 @@ The percentage label updates in real-time to reflect the current progress. When 
 
 #### Inform users
 
-Informing your users will make your users wait or else they may assume it is a bug and move on to other websites. Include a label with a progress bar to add context. Use simple, meaningful sentences for example “Loading your policies” that inform users.
+Informing your users that a process is taking place will help prevent them from moving on or assuming there is a bug. Include a label with a Progress bar to add context. Use simple, meaningful sentences for example “Loading your policies” that inform users.
 
 ![Progress bar inform users](/images/progress-bar_inform_users.svg)
 
@@ -85,13 +85,13 @@ Informing your users will make your users wait or else they may assume it is a b
 
 #### Set expectations
 
-Ensure that the progress bar accurately reflects the actual time needed for the task to be completed in Determinate indicators. For example, If a file upload typically takes 20 seconds, the progress bar should fill accordingly, giving users an accurate sense of progress. Avoid progress bars that fill quickly and then stall, giving users a false sense of completion.
+When using Determinate Progress Bars, ensure that the progress shown accurately reflects the actual time needed for the task to be completed. For example, If a file upload typically takes 20 seconds, the Progress bar should fill accordingly, giving users an accurate sense of progress. Avoid Progress bars that fill quickly and then stall, giving users a false sense of completion.
 
 - - -
 
 ## Responsiveness
 
-The progress bar should adapt to different screen sizes and orientations, maintaining its visibility and usability.
+The Progress bar should adapt to different screen sizes and orientations, maintaining its visibility and usability.
 
 ![Progress bar responsiveness](/images/progress-bar_responsiveness.svg)
 
@@ -109,7 +109,7 @@ The progress bar should adapt to different screen sizes and orientations, mainta
 
 <docs-do>
 
-Accompany a Determinate progress bar with clear and concise messages that inform users about the task being performed.
+Accompany a determinate Progress bar with clear and concise messages that inform users about the task being performed.
 </docs-do>
 
 </div>
@@ -120,7 +120,7 @@ Accompany a Determinate progress bar with clear and concise messages that inform
 
 <docs-do-not>
 
-Avoid using a Determinate progress bar without any accompanying information.
+Avoid using a determinate Progress bar without any accompanying information.
 </docs-do-not>
 
 </div>
@@ -129,6 +129,6 @@ Avoid using a Determinate progress bar without any accompanying information.
 
 - - -
 
-## Alternate Considerations
+## Alternate considerations
 
-* Use `Spinners` if the process takes less than 5 seconds to load and when space allows for a smaller loading indicator.
+* Use `Spinners` if the loading process takes less than 5 seconds or when the available space requires a smaller loading indicator.
