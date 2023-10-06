@@ -1,7 +1,7 @@
 ---
 title: Progress bar
-subtitle: A progress bar visually represents the progress of a task or loading
-  process through a horizontal bar that fills up gradually.
+subtitle: Visually representation of the progress of a task or loading process
+  through a horizontal bar that fills up gradually.
 api: https://cdn.zywave.com/@zywave/zui-progress@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-progress@latest/docs/demo.html
 mainComponentName: zui-progress
