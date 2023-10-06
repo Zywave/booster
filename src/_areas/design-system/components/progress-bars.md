@@ -23,7 +23,7 @@ Use a Progress bar for medium wait times (3–10 seconds) to display loading pro
 
 ![Progress bar Indeterminate anatomy](/images/progress-bar_indeterminate_anatomy.svg)
 
-1. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
+1. **Bar indicator:** The visual element that represents progress. It animates in and out from left to right.
 2. **Track:** The static area that the bar indicator moves within.
 
 <br>
@@ -32,7 +32,7 @@ Use a Progress bar for medium wait times (3–10 seconds) to display loading pro
 
 ![Progress bar Determinate anatomy](/images/progress-bar_determinate_anatomy.svg)
 
-1. **Label**: Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”
+1. **Label**: Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”. The placement and size of this text should adabt to the specific context.
 2. **Percentage**: A numeric indicator, typically displayed above or within the Progress bar, showing the completion percentage.
 3. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
 4. **Track:** The static area that the bar indicator moves within. It provides a visual reference for how much of the process remains incomplete.
