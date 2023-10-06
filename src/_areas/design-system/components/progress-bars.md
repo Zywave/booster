@@ -24,7 +24,7 @@ Use a Progress bar for medium wait times (3–10 seconds) to display loading pro
 ![Progress bar Indeterminate anatomy](/images/progress-bar_indeterminate_anatomy.svg)
 
 1. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
-2. **Track:** The static area that the bar indicator moves on top of and acts as a fixed visual reference of what the total length and duration of the process could be.
+2. **Track:** The static area that the bar indicator moves within.
 
 <br>
 
