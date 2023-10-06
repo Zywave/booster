@@ -35,7 +35,7 @@ Use a Progress bar for medium wait times (3–10 seconds) to display loading pro
 1. **Label**: Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”
 2. **Percentage**: A numeric indicator, typically displayed above or within the Progress bar, showing the completion percentage.
 3. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
-4. **Track:** The static area that the bar indicator moves on top of and acts as a fixed visual reference of what the total length and duration of the process could be.
+4. **Track:** The static area that the bar indicator moves within. It provides a visual reference for how much of the process remains incomplete.
 
 See the [Design specs](https://xd.adobe.com/view/334e7f6d-d129-4f38-8d09-a0488d47ca76-661d/grid) for detailed sizing and spacing information
 
