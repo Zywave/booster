@@ -57,7 +57,7 @@ Indeterminate progress bars move along a fixed track continually until the proce
 
 #### Determinate
 
-Determinate indicators display how long a process will take, and how far it has progressed. Utilize a percentage indicator when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations. 
+Determinate Progress bars should be used when it is possible to display how long a process will take, and how far it has progressed. A percentage indicator can be included when the duration or progress can be measured or estimated. They visually represent completed or remaining work, allowing users to gauge progress and manage expectations. 
 
 Determinate progress bars fill from 0 to 100%.
 
