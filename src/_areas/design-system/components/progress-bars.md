@@ -43,7 +43,7 @@ See the [Design specs](https://xd.adobe.com/view/334e7f6d-d129-4f38-8d09-a0488d4
 
 ## Types
 
-Progress bars come in two types: indeterminate and determinate. Knowing the difference between them is essential for selecting the right one in different situations.
+Progress bars come in two types: indeterminate and determinate. The technical possibilities of the situation where it is being implemented will determine which type of Progress bar should be used.
 
 #### Indeterminate
 
