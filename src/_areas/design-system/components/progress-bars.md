@@ -17,30 +17,6 @@ Use a Progress bar for medium wait times (3–10 seconds) to display loading pro
 
 - - -
 
-## Anatomy
-
-#### Indeterminate
-
-![Progress bar Indeterminate anatomy](/images/progress-bar_indeterminate_anatomy.svg)
-
-1. **Bar indicator:** The visual element that represents progress. It animates in and out from left to right.
-2. **Track:** The static area that the bar indicator moves within.
-
-<br>
-
-#### Determinate
-
-![Progress bar Determinate anatomy](/images/progress-bar_determinate_anatomy.svg)
-
-1. **Label**: Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”. The placement and size of this text should adabt to the specific context.
-2. **Percentage**: A numeric indicator, typically displayed above or within the Progress bar, showing the completion percentage.
-3. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
-4. **Track:** The static area that the bar indicator moves within. It provides a visual reference for how much of the process remains incomplete.
-
-See the [Design specs](https://xd.adobe.com/view/334e7f6d-d129-4f38-8d09-a0488d47ca76-661d/grid) for detailed sizing and spacing information
-
-- - -
-
 ## Types
 
 Progress bars come in two types: indeterminate and determinate. The technical possibilities of the situation where it is being implemented will determine which type of Progress bar should be used.
@@ -62,6 +38,30 @@ Determinate Progress bars should be used when it is possible to display how long
 Determinate progress bars expand to fill a fixed track from left to right until the loading process is complete.
 
 ![Progress bar Determinate indicators](/images/progress-bar_determinate_indicator.svg)
+
+- - -
+
+## Anatomy
+
+#### Indeterminate
+
+![Progress bar Indeterminate anatomy](/images/progress-bar_indeterminate_anatomy.svg)
+
+1. **Bar indicator:** The visual element that represents progress. It animates in and out from left to right.
+2. **Track:** The static area that the bar indicator moves within.
+
+<br>
+
+#### Determinate
+
+![Progress bar Determinate anatomy](/images/progress-bar_determinate_anatomy.svg)
+
+1. **Label**: Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”. The placement and size of this text should adabt to the specific context.
+2. **Percentage**: A numeric indicator, typically displayed above or within the Progress bar, showing the completion percentage.
+3. **Bar indicator:** The visual element that represents progress. It fills up horizontally as the task progresses.
+4. **Track:** The static area that the bar indicator moves within. It provides a visual reference for how much of the process remains incomplete.
+
+See the [Design specs](https://xd.adobe.com/view/334e7f6d-d129-4f38-8d09-a0488d47ca76-661d/grid) for detailed sizing and spacing information
 
 - - -
 
