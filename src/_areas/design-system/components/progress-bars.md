@@ -47,7 +47,7 @@ Progress bars come in two types: indeterminate and determinate. The technical po
 
 #### Indeterminate
 
-Indeterminate indicators express an unspecified amount of time. Use indeterminate indicators when the duration or progress of a process is unknown or variable. They reassure users that the system is working and prevent the perception of delays as errors or failures.
+Indeterminate Progress bars are best used when the duration or progress of a process is unknown or variable. They reassure users that the system is working and prevent the perception of delays as errors or failures.
 
 Indeterminate progress bars move along a fixed track continually until the process is complete.
 
