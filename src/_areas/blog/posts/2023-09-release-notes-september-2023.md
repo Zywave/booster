@@ -1,10 +1,10 @@
 ---
 layout: blog
 type: blogPost
-title: Release Notes - September 2023
+title: Release Notes - October 2023
 description: Minor updates to ZUI to address bugs, clean up deprecated code, and
   enhance components.
-date: 2023-09-29T01:00:00.000Z
+date: 2023-10-13T01:00:00.000Z
 hideToc: false
 tags:
   - Release Notes
