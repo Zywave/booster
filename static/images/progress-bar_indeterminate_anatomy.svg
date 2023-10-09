@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="132" viewBox="0 0 1000 132">
+  <defs>
+    <clipPath id="clip-progress-bar_indeterminate_anatomy">
+      <rect width="1000" height="132"/>
+    </clipPath>
+  </defs>
+  <g id="progress-bar_indeterminate_anatomy" clip-path="url(#clip-progress-bar_indeterminate_anatomy)">
+    <rect width="1000" height="132" fill="#f4f4f6"/>
+    <g id="Indeterminate_Progress_Bar_1" data-name="Indeterminate Progress Bar – 1" transform="translate(325 30)">
+      <g id="Group_7631" data-name="Group 7631" transform="translate(-157.5 -319.2)">
+        <g id="Group_7630" data-name="Group 7630" transform="translate(-103 3)">
+          <rect id="Rectangle_3754" data-name="Rectangle 3754" width="350" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="#cbcbd2"/>
+          <rect id="Rectangle_11853" data-name="Rectangle 11853" width="111" height="3.5" rx="1.75" transform="translate(320.5 316.2)" fill="#2777d3"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_270720" data-name="Group 270720" transform="translate(56.876 169) rotate(-90)">
+      <g id="Group_267158" data-name="Group 267158" transform="translate(0 -65.954)">
+        <path id="Path_1" data-name="Path 1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(67 445.077)" fill="#17987c"/>
+        <path id="Path_3" data-name="Path 3" d="M0,0H1V41H0Z" transform="translate(91 457.436) rotate(-90)" fill="#17987c"/>
+        <text id="_1" data-name="1" transform="translate(73.5 453.577) rotate(90)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">1</tspan></text>
+      </g>
+    </g>
+    <g id="Group_270721" data-name="Group 270721" transform="translate(226.876 169) rotate(-90)">
+      <g id="Group_267158-2" data-name="Group 267158" transform="translate(0 -65.954)">
+        <path id="Path_1-2" data-name="Path 1" d="M12,0A12,12,0,1,1,0,12,12,12,0,0,1,12,0Z" transform="translate(67 445.077)" fill="#17987c"/>
+        <path id="Path_3-2" data-name="Path 3" d="M0,0H1V41H0Z" transform="translate(91 457.436) rotate(-90)" fill="#17987c"/>
+        <text id="_2" data-name="2" transform="translate(73.5 453.577) rotate(90)" fill="#fff" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">2</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="127" viewBox="0 0 1000 127">
+  <defs>
+    <clipPath id="clip-progress-bar_indeterminate_indicator">
+      <rect width="1000" height="127"/>
+    </clipPath>
+  </defs>
+  <g id="progress-bar_indeterminate_indicator" clip-path="url(#clip-progress-bar_indeterminate_indicator)">
+    <rect width="1000" height="127" fill="#f4f4f6"/>
+    <g id="Indeterminate_Progress_Bar_2" data-name="Indeterminate Progress Bar – 2" transform="translate(325 62)">
+      <g id="Group_7631" data-name="Group 7631" transform="translate(-157.5 -319.2)">
+        <g id="Group_7630" data-name="Group 7630" transform="translate(-103 3)">
+          <rect id="Rectangle_3754" data-name="Rectangle 3754" width="350" height="3.5" rx="1.75" transform="translate(260.5 316.2)" fill="#cbcbd2"/>
+          <rect id="Rectangle_11853" data-name="Rectangle 11853" width="111" height="3.5" rx="1.75" transform="translate(320.5 316.2)" fill="#2777d3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
