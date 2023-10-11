@@ -11,7 +11,7 @@ includedElements: []
 
 <!--StartFragment-->
 
-A spinner informs users that content or data is being loaded. Use Spinners if the process takes less than five seconds to load.
+A spinner informs users that content or data is loading. Use Spinners if the process takes less than five seconds to load.
 
 <!--EndFragment-->
 
@@ -41,7 +41,7 @@ For a more detailed breakdown of spacing and sizing, [view the design specs.](ht
 
 ### Basic spinner
 
-Basic spinners do not include any specific text. They simply indication that some acting is taking place behind the scenes.
+Basic spinners do not include any specific text. They simply indicate that some acting is taking place behind the scenes.
 
 <!--EndFragment-->
 
@@ -53,7 +53,7 @@ Basic spinners do not include any specific text. They simply indication that som
 
 ### Custom text spinner
 
-Custom text spinners include specific text to give the user context as to what is happening behind the scenes. Examples for custom text could be “Loading..” or “Preparing report…”
+Custom text spinners include specific text to give the user context into what is happening behind the scenes. Examples for custom text could be “Loading..” or “Preparing report…”
 
 <!--EndFragment-->
 
