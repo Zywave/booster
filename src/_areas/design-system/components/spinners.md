@@ -77,7 +77,13 @@ Custom text spinners include specific text to give the user context into what is
 
 <docs-do>
 
-Accompany a Determinate progress bar with clear and concise messages that inform users about the task being performed.
+<!--StartFragment-->
+
+Center the Spinner on the area that is loading.
+
+
+
+<!--EndFragment-->
 </docs-do>
 
 </div>
@@ -88,7 +94,7 @@ Accompany a Determinate progress bar with clear and concise messages that inform
 
 <docs-do-not>
 
-Avoid using a Determinate progress bar without any accompanying information.
+Avoid placing the Spinner in random locations.
 </docs-do-not>
 
 </div>
