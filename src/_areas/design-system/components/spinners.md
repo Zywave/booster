@@ -27,37 +27,33 @@ A Spinner informs users that content or data is loading. Use Spinners if the pro
 
 1. **Loading indicator**: The animated element that signals active loading.
 2. **Track**: The static area that the loading indicator moves on top of.
-3. **Label** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”. The placement and size of this text should adabt to the specific context.
+3. **Label** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”. The placement and size of this text should adapt to the specific context.
 
    <!--EndFragment-->
 
-For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/e1a407d7-aa6c-4818-93ae-182335ba4403-b4f7/grid)
+For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/417dc130-5bd5-4b2f-a07d-b5266d1f1ad0-142e/)
 
 <!--EndFragment-->
 
 - - -
 
-## Types
+## Behavior
 
 <!--StartFragment-->
 
-### Basic spinner
+### Inform users
 
-Basic Spinners do not include any specific text. They simply indicate that some acting is taking place behind the scenes.
+<!--StartFragment-->
+
+Informing your users that a process is taking place will help prevent them from moving on or assuming there is a bug. Include a label with a Progress bar to add context. Use simple, meaningful text “Loading your policies” that inform users.
 
 <!--EndFragment-->
 
-![Basic spinner](/images/basic-spinner.svg)
+<!--EndFragment-->
 
 <!--StartFragment-->
 
 <br>
-
-### Custom text spinner
-
-Custom text Spinners include specific text to give the user context into what is happening behind the scenes. Examples for custom text could be “Loading..” or “Preparing report…”
-
-<!--EndFragment-->
 
 ![Custom text spinner](/images/custom-text-spinner.svg)
 
