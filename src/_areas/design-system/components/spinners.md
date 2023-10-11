@@ -27,7 +27,9 @@ A Spinner informs users that content or data is loading. Use Spinners if the pro
 
 1. **Loading indicator**: The animated element that signals active loading.
 2. **Track**: The static area that the loading indicator moves on top of.
-3. **Supporting text** (optional): Text that informs the user of the action. Ex: “Loading…”
+3. **Label** (optional): Text to provide clear feedback to users that the system is actively working on their request. Ex: “Loading...” or “Please wait”. The placement and size of this text should adabt to the specific context.
+
+   <!--EndFragment-->
 
 For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/e1a407d7-aa6c-4818-93ae-182335ba4403-b4f7/grid)
 
