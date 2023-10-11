@@ -15,7 +15,7 @@ A Spinner informs users that content or data is loading. Use Spinners if the pro
 
 <!--EndFragment-->
 
-![Spinners usage](/images/spinners-usage..svg)
+![Spinners usage](/images/spinner_usage.svg)
 
 - - -
 
@@ -45,7 +45,7 @@ For a more detailed breakdown of spacing and sizing, [view the design specs.](ht
 
 <!--StartFragment-->
 
-Informing your users that a process is taking place will help prevent them from moving on or assuming there is a bug. Include a label with a Progress bar to add context. Use simple, meaningful text “Loading your policies” that inform users.
+Informing your users that a process is taking place will help prevent them from moving on or assuming there is a bug. Include a label with a Progress bar to add context. Use simple, meaningful text for example “Loading your policies” that inform users.
 
 <!--EndFragment-->
 
@@ -55,7 +55,7 @@ Informing your users that a process is taking place will help prevent them from 
 
 <br>
 
-![Custom text spinner](/images/custom-text-spinner.svg)
+![Spinners behavior](/images/spinner-behavior.svg)
 
 <!--StartFragment-->
 
