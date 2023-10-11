@@ -31,7 +31,7 @@ A Spinner informs users that content or data is loading. Use Spinners if the pro
 
    <!--EndFragment-->
 
-For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/417dc130-5bd5-4b2f-a07d-b5266d1f1ad0-142e/)
+For a more detailed breakdown of spacing and sizing, [view the design specs.](https://xd.adobe.com/view/417dc130-5bd5-4b2f-a07d-b5266d1f1ad0-142e/grid/)
 
 <!--EndFragment-->
 
