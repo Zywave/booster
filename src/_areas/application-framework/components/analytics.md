@@ -12,7 +12,7 @@ includedElements:
 
 Zywave currently uses three third-party tracking solutions to gather analytics from our applications: [Heap](https://heap.io/), [Appcues](https://www.appcues.com/), and [Google Analytics](https://analytics.google.com). Zywave Analytics bundles these tracking solutions into a single component to simplify the process of adding analytics to your application.
 
----
+- - -
 
 ## How to use Zywave Analytics
 
@@ -35,7 +35,7 @@ There are three ways to add the analytics scripts to Zywave applications:
 
 <docs-note>When do I use the Zywave API Proxy element `<zywave-api-proxy>`? [Check here.](/application-framework/components/api-proxy/?tab=usage)</docs-note>
 
----
+- - -
 
 ## Installing Zywave Analytics manually
 
@@ -99,6 +99,7 @@ Add the following HTML (supplying attributes when needed, and removing when unne
    heap-app-id="${HEAP_APP_ID}" 
    identity="${UNIQUE_GLOBAL_IDENTIFIER}"></zywave-analytics>
 ```
+
 <br>
 
 This custom element will load the necessary analytics based on the attributes you've supplied.
@@ -113,7 +114,7 @@ The last thing you need to supply is a unique global identifier to the `identity
 
 <docs-note>For Zywave, we use a combination of `profileTypeCode` and `profileId`, separated by a tilde (e.g., `identity="B~1234"`).</docs-note>
 
----
+- - -
 
 ## Best practices
 
@@ -121,12 +122,11 @@ The last thing you need to supply is a unique global identifier to the `identity
 
 `identity` should be consistent and unique based on the third-party project IDs you are given because we want to reduce conflict between different systems in our analytics solutions—especially in Appcues. If you are given the Zywave Appcues account ID that all Zywave products use, your identity should be identifiable as associated with your ecosystem. For example, Advisen might use `"Advisen~{userId}"` to not conflict with other systems such as Zywave's identifier `"B~1234"`.
 
-
 <docs-spacer size="small"></docs-spacer>
 
 ### User properties
 
-`userProperties` is an optional property and feature of Zywave Analytics. It allows you to supply extra information in the form of a JavaScript object (or, if coming in via HTML, as an HTML safe JSON string) about a user to these scripts. `userProperties` currently has three standardized fields:
+`userProperties` (HTML: `user-properties`) is an optional property and feature of Zywave Analytics. It allows you to supply extra information in the form of a JavaScript object (or, if coming in via HTML, as an HTML safe JSON string) about a user to these scripts. `userProperties` currently has three standardized fields:
 
 * `givenName`: Commonly referred to as "first name"
 * `familyName`: Commonly referred to as "last name"
@@ -140,7 +140,7 @@ Any extra fields provided are entirely up to you. However, if you use the same A
 
 No one tests in production! Be sure to use the proper IDs when testing this in a test environment. Transform these IDs with production ones when deploying to a production environment. We have a test instance of Appcues and most Heap projects are segmented into environments for this purpose.
 
----
+- - -
 
 ## Content Security Policy requirements
 
