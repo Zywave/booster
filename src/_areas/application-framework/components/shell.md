@@ -70,7 +70,7 @@ Zywave Shell will ensure that a consistent footer is applied to all Zywave prope
 
 Should you need to extend the footer with extra legal jargon or disclaimers, you'll want to make use of the `legalese` slot.
 
-<docs-note>Note: While Zywave Shell *will* provide the copyright years for you as a fallback, it is required that your application supply the `current-year` attribute with the server-side provided year of the current date. Client-side dates are not a reliable source.</docs-note>
+<docs-note>Note: While Zywave Shell *will* provide the copyright years for you as a fallback, it is required that your application supply the `copyright-year` attribute with the server-side provided year of the current date. Client-side dates are not a reliable source.</docs-note>
 
 ---
 
@@ -78,4 +78,4 @@ Should you need to extend the footer with extra legal jargon or disclaimers, you
 
 Zywave Shell, by default, will support the active profile type of the currently authenticated user of your application.
 
-If your application can support multiple types of profiles, you can include them in Zywave Shell's `switch-profile-type-codes` attribute. This instructs Zywave Shell on how to construct actions for a user to take in order to switch from one profile to another, in the case where they have multiple profiles.
+If your application can support multiple types of profiles, you can include them in Zywave Shell's `profile-switch-type-codes` attribute. This instructs Zywave Shell on how to construct actions for a user to take in order to switch from one profile to another, in the case where they have multiple profiles.
