@@ -2,8 +2,7 @@
 layout: blog
 type: blogPost
 title: Release Notes - October 12, 2023
-description: First wave of new navigation icons, deprecation of loader.js, and
-  fixing a zui-select-dropdown bug
+description: First wave of new navigation icons and fixing a zui-select-dropdown bug
 date: 2023-10-13T01:00:00.000Z
 hideToc: false
 tags:
