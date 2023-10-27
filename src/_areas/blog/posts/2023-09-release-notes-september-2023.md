@@ -47,12 +47,6 @@ This is just the first wave of updates to our collection of icons. Be sure to ch
 
 <docs-spacer></docs-spacer>
 
-## Deprecated loader.js
-
-insert blurb about loader.js deprecation
-
-<docs-spacer></docs-spacer>
-
 ## Bug fix: ZUI Dialog scrollbar visibility issue with dynamic content
 
 Dynamic content that was injected into ZUI Dialog after it opened did not trigger an update, so the scrollbar didn't become visible and go into effect. The inability to scroll was blocking users from completing tasks. However, this has been fixed!
