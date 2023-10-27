@@ -12,17 +12,19 @@ tags:
 
 For this release, we updated several canonized icons, specifically for the side navigation of our Zywave products. The new design will be line icons with parts at a 20% fill opacity.
 
+<br>
+
 ### Old icons
 
 ![Old ZUI icons that were updated with this release](/images/zui-nav-icons-old.png "Old ZUI icons that were updated with this release")
 
-
+<br>
 
 ### New icons
 
 ![First wave of new ZUI icons](/images/zui-nav-icons-new.png "First wave of new ZUI icons")
 
-
+<docs-spacer size="small"></docs-spacer>
 
 ### List of updated icons
 
@@ -41,6 +43,8 @@ Here's a list of the icons that were updated in this release:
 11. zui-nav-prospecting
 12. zui-nav-settings
 13. zui-nav-generic-reports
+
+<docs-spacer size="small"></docs-spacer>
 
 This is just the first wave of updates to our collection of icons. Be sure to check our [icons list for updates](/design-system/components/icons/?tab=usage)!
 
