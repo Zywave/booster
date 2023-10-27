@@ -1,7 +1,7 @@
 ---
 layout: blog
 type: blogPost
-title: Release Notes - October 2023
+title: Release Notes - October 12, 2023
 description: Minor updates to ZUI to address bugs, clean up deprecated code, and
   enhance components.
 date: 2023-10-13T01:00:00.000Z
@@ -9,9 +9,31 @@ hideToc: false
 tags:
   - Release Notes
 ---
-## Updated navigation icons
+## First wave of navigation icon design updates
 
-Updated navigation icons with new styling - these are now line icons with a 20% fill on part of the icon. The following icons were updated: accounts, activities, dashboard, insights, leads, marketing, portal management, quoting, reporting, settings.
+For this release, we updated several canonized icons, specifically for the side navigation of our Zywave products. The new design will be line icons with parts at a 20% fill opacity.
+
+![Old ZUI icons that were updated with this release](/images/zui-nav-icons-old.png "Old ZUI icons that were updated with this release")
+
+![First wave of new ZUI icons](/images/zui-nav-icons-new.png "First wave of new ZUI icons")
+
+List of updated icons:
+
+1. zui-nav-accounts
+2. zui-nav-activities
+3. zui-nav-company
+4. zui-nav-content
+5. zui-nav-email-marketing
+6. zui-nav-home
+7. zui-nav-mods
+8. zui-nav-portal-admin
+9. zui-nav-proposals
+10. zui-nav-proposals-uk
+11. zui-nav-prospecting
+12. zui-nav-settings
+13. zui-nav-generic-reports
+
+This is just the first wave of updates to our collection of icons. Be sure to check our [icons list for updates](/design-system/components/icons/?tab=usage)!
 
 <docs-spacer></docs-spacer>
 
