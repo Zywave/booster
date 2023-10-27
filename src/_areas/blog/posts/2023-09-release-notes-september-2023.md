@@ -13,11 +13,21 @@ tags:
 
 For this release, we updated several canonized icons, specifically for the side navigation of our Zywave products. The new design will be line icons with parts at a 20% fill opacity.
 
+### Old icons
+
 ![Old ZUI icons that were updated with this release](/images/zui-nav-icons-old.png "Old ZUI icons that were updated with this release")
+
+<docs-spacer size="small"></docs-spacer>
+
+### New icons
 
 ![First wave of new ZUI icons](/images/zui-nav-icons-new.png "First wave of new ZUI icons")
 
-List of updated icons:
+<docs-spacer size="small"></docs-spacer>
+
+### List of updated icons
+
+Here's a list of the icons that were updated in this release:
 
 1. zui-nav-accounts
 2. zui-nav-activities
