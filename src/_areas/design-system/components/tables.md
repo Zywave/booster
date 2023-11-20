@@ -19,9 +19,9 @@ A table is designed to visually organize data, allowing users to quickly scan an
 
 ## Anatomy
 
-![Anatomy of a table](/images/table-anatomy.svg "Anatomy of a table")
-
 Tables always use cards as their container(s).
+
+![Anatomy of a table](/images/table-anatomy.svg "Anatomy of a table")
 
 1. **Table header** (optional): The container that can include search, filters, actions, number of results
 2. **Column headers** (required): The title for data within each row
