@@ -1,6 +1,6 @@
 ---
 title: Tables
-subtitle: ""
+subtitle: Sets of data displayed in a grid-like format of rows and columns
 hideToc: false
 api: https://cdn.zywave.com/@zywave/zui-table@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-table@latest/docs/demo.html
@@ -11,7 +11,7 @@ statusOverride: null
 ---
 ## Usage
 
-A Table organizes data visually to help the user derive insights and, when applicable, take an informed action.
+A table is designed to visually organize data, allowing users to quickly scan and derive insights. In cases where applicable, it also enables users to take informed actions based on the presented information.
 
 ![Base image of a table](/images/table-usage.svg "Base image of a table")
 
