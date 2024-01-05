@@ -134,7 +134,7 @@ Allow users to organize rows by a specific category and follow these best practi
 
 ## Behavior 
 
-#### Search
+### Search
 
 When the user needs to find a record in the table, add a search input field.  The search bar is placed on the left side of the table header. 
 
@@ -155,7 +155,7 @@ If there are no results returned from a search, inform the user with a message, 
 
 ![Example of a table with no search results.](/images/table-searching-noresults.svg "Example of a table with no search results.")
 
-#### Actions
+### Actions
 
 ##### Table level actions
 
