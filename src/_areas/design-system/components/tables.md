@@ -176,6 +176,8 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 ![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
 
+![Example of a table with multiple row level actions.](/images/table-withmultipleactions.svg "Example of a table with multiple row level actions.")
+
 ### Bulk selection
 
 The bulk selection workflow becomes available when the user needs to select more than one option in a table and complete an action on them.
