@@ -172,7 +172,8 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 * When actions are contained within cells they should follow our Link Button style.
 * The actions column should be pinned to the right of the table.
-* To align the action column header with the action buttons in each row, add an action attribute to the action column header. This applies extra left padding/margin for text alignment.
+
+*To align the action column header with the action buttons in each row, add an action attribute to the action column header. This applies extra left padding/margin for text alignment.*
 
 ![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
 
