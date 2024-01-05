@@ -27,7 +27,7 @@
       <rect id="Row_banding" data-name="Row banding" width="348" height="48" transform="translate(622 216)" fill="#fafafa"/>
       <rect id="Row_banding-2" data-name="Row banding" width="348" height="48" transform="translate(622 314)" fill="#fafafa"/>
       <rect id="Row_banding-3" data-name="Row banding" width="348" height="48" transform="translate(622 412)" fill="#fafafa"/>
-      <g id="Actions" transform="translate(30 117)">
+      <g id="Actions" transform="translate(19 117)">
         <g id="Link_Button" data-name="Link Button" transform="translate(852.752 109.637)">
           <g id="Group_264143" data-name="Group 264143" transform="translate(-0.752 -3.637)">
             <rect id="Rectangle_6075" data-name="Rectangle 6075" width="66.709" height="27.527" rx="13.764" transform="translate(0.752 3.637)" fill="rgba(255,255,255,0)"/>
