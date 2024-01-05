@@ -320,6 +320,31 @@ Use primary or secondary buttons in table row level actions
 <docs-grid columns="2">
   <div>
 
+![Do Table row level actions alignment](/images/table-do-buttonsalignment.svg)
+
+<docs-do>
+Align text in table row level actions to the action column header text
+
+</docs-do>
+  </div>
+  <div>
+
+![Do not Table row level actions alignment](/images/table-do-buttonalignment-–-2.svg)
+
+<docs-do-not>
+
+Align touch target in table row level actions to the action column header text
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
+
+<docs-grid columns="2">
+  <div>
+
 ![Do Table row level actions](/images/table-do-space.svg)
 
 <docs-do>
