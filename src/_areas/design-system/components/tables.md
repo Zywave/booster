@@ -163,7 +163,7 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 * Actions in the header should be located on the right side of the header area following the 20px padding of the table
 * When there are 1-2 actions they can remain as separate buttons
-* When there are 3+ consider using a button dropdown or a button group when appropriate
+* When there are 3+ actions consider using a button dropdown or a button group when appropriate
 * Buttons in the header should follow our normal button style hierarchy
 
 ![Example of a table with table level actions.](/images/table-tablelevelactions.svg "Example of a table with table level actions.")
@@ -176,7 +176,9 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 ![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
 
-* When there are 2 or more actions they can be separated by 10px of padding.
+* When there are 1-2 actions they can remain as separate buttons.
+* Separate 2 actions by 10px of padding.
+* When there are 3+ actions consider using a 'more' button dropdown.
 
 ![Example of a table with multiple row level actions.](/images/table-withmultipleactions.svg "Example of a table with multiple row level actions.")
 
