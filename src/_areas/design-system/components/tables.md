@@ -157,7 +157,7 @@ If there are no results returned from a search, inform the user with a message, 
 
 ### Actions
 
-##### Table level actions
+#### Table level actions
 
 Actions that directly impact the table, such as "Add", can be located in the table header.
 
@@ -168,7 +168,7 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 ![Example of a table with table level actions.](/images/table-tablelevelactions.svg "Example of a table with table level actions.")
 
-##### Row level actions
+#### Row level actions
 
 * When actions are contained within cells they should follow our Link Button style.
 * The actions column should be pinned to the right of the table.
