@@ -93,7 +93,7 @@ A﻿dd a topbar to a table when the user will need to either search or view the 
 Add actions to the table when the user can take an action on either all data or individual data. 
 
 * For actions affecting all data, place the action button in the topbar.
-* F﻿or actions affecting individual data in rows, place the action button in the last column of the row. 
+* F﻿or actions affecting individual data in rows, place the action button in the last column of the row.
 
 ![Example of a table with a results counter. ](/images/table-withactions.svg "Example of a table with a results counter. ")
 
@@ -172,6 +172,7 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 * When actions are contained within cells they should follow our Link Button style.
 * The actions column should be pinned to the right of the table.
+* To align the action column header with the action buttons in each row, add an action attribute to the action column header. This applies extra left padding/margin for text alignment.
 
 ![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
 
