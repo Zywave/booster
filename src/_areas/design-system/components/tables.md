@@ -95,7 +95,7 @@ Add actions to the table when the user can take an action on either all data or 
 * For actions affecting all data, place the action button in the topbar.
 * F﻿or actions affecting individual data in rows, place the action button in the last column of the row.
 
-![Example of a table with a results counter. ](/images/table-withactions.svg "Example of a table with a results counter. ")
+![Example of a table with actions](/images/table-withactions.svg "Example of a table with actions")
 
 ### Summary table
 
