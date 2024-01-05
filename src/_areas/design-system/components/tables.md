@@ -174,7 +174,7 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 * The actions column should be pinned to the right of the table.
 * To align the action column header with the action buttons in each row, add an action attribute to the action column header. This applies extra left padding/margin for text alignment.
 
-
+![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
 
 * When there are 2 actions they can remain as separate buttons separated by 10px of padding
 * When there are 3+ actions consider using a 'more' button dropdown.
