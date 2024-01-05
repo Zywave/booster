@@ -179,6 +179,8 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 * When there are 2 actions they can remain as separate buttons separated by 10px of padding
 * When there are 3+ actions consider using a 'more' button dropdown.
 
+![](/images/table-withmultipleactions.svg)
+
 ### Bulk selection
 
 The bulk selection workflow becomes available when the user needs to select more than one option in a table and complete an action on them.
