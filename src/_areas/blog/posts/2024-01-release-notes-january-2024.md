@@ -36,6 +36,8 @@ This release includes a lot of small enhancements to some of our ZUI components 
 ## Initial selected option for ZUI Select was not respected
 We've fixed a bug with ZUI Select where the initial selection's value was not being set.
 
+<docs-spacer></docs-spacer>
+
 # Enhancements
 
 ## Event bubbling of ZUI form components
