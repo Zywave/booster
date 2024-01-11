@@ -31,6 +31,11 @@ This release includes a lot of small enhancements to some of our ZUI components 
 
 <docs-spacer></docs-spacer>
 
+# Bug fixes
+
+## Initial selected option for ZUI Select was not respected
+We've fixed a bug with ZUI Select where the initial selection's value was not being set.
+
 # Enhancements
 
 ## Event bubbling of ZUI form components
@@ -57,6 +62,7 @@ zui-formfield::part(container) {
   margin-bottom: 0;
 }
 ```
+<docs-spacer size="small"></docs-spacer>
 
 ## Better style support for ZUI Button Dropdown options list with icons
 Icons in the ZUI Button Dropdown options list will now vertically center for a more aesthetically pleasing dropdown list.
