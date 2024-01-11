@@ -10,6 +10,8 @@ tags:
 ---
 This release includes a lot of small enhancements to some of our ZUI components and minor updates to our component documentations. A handful of demos and code examples have been updated or added to some of our ZUI components as well!
 
+<docs-spacer></docs-spacer>
+
 # Deprecations
 
 ## ZUI Tooltip message slot is no longer required
@@ -27,10 +29,14 @@ This release includes a lot of small enhancements to some of our ZUI components 
 </zui-tooltip>
 ```
 
+<docs-spacer></docs-spacer>
+
 # Enhancements
 
 ## Event bubbling of ZUI form components
 zui-checkbox, zui-picker, zui-radio-group, zui-select, and zui-select-dropdown `change` events now bubble up through their ancestors in the DOM hierarchy to more closely align with native form controls.
+
+<docs-spacer size="small"></docs-spacer>
 
 ## ZUI Tooltips margins are now overridable
 You can now override the margins with the CSS custom variable `--zui-tooltip-margin`.
@@ -40,6 +46,8 @@ zui-tooltip {
   --zui-tooltip-margin: 1em 0.5em 2em .75em;
 }
 ```
+
+<docs-spacer size="small"></docs-spacer>
 
 ## ZUI Formfield exposes CSS part to override container CSS styles
 You can now override the container styles via the CSS part `container`. This is helpful for overriding the default margin between ZUI Formfields.
@@ -52,6 +60,8 @@ zui-formfield::part(container) {
 
 ## Better style support for ZUI Button Dropdown options list with icons
 Icons in the ZUI Button Dropdown options list will now vertically center for a more aesthetically pleasing dropdown list.
+
+<docs-spacer></docs-spacer>
 
 # Maintenance
 Form-associated custom elements are widely supported now in most browsers, so we've removed our polyfill to trim down our bundle size.
