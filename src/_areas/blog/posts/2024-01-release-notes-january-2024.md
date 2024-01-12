@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Release Notes - January 2024
 description: A handful of small enhancements to ZUI components and more Booster demos!
-date: 2024-01-11T21:03:24.871Z
+date: 2024-01-12T02:00:24.871Z
 hideToc: false
 tags:
   - Release Notes
