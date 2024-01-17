@@ -8,7 +8,7 @@ demo: https://cdn.zywave.com/@zywave/zui-tag@next/docs/demo.html
 mainComponentName: zui-tag
 includedElements:
   - zui-tag
-statusOverride: unstable
+statusOverride: stable
 ---
 ## Usage
 
