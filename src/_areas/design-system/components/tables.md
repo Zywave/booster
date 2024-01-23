@@ -1,6 +1,6 @@
 ---
 title: Tables
-subtitle: ""
+subtitle: Sets of data displayed in a grid-like format of rows and columns
 hideToc: false
 api: https://cdn.zywave.com/@zywave/zui-table@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-table@latest/docs/demo.html
@@ -11,7 +11,7 @@ statusOverride: null
 ---
 ## Usage
 
-A Table organizes data visually to help the user derive insights and, when applicable, take an informed action.
+A table is designed to visually organize data, allowing users to quickly scan and derive insights. In cases where applicable, it also enables users to take informed actions based on the presented information.
 
 ![Base image of a table](/images/table-usage.svg "Base image of a table")
 
@@ -19,9 +19,9 @@ A Table organizes data visually to help the user derive insights and, when appli
 
 ## Anatomy
 
-![Anatomy of a table](/images/table-anatomy.svg "Anatomy of a table")
-
 Tables always use cards as their container(s).
+
+![Anatomy of a table](/images/table-anatomy.svg "Anatomy of a table")
 
 1. **Table header** (optional): The container that can include search, filters, actions, number of results
 2. **Column headers** (required): The title for data within each row
@@ -93,9 +93,9 @@ A﻿dd a topbar to a table when the user will need to either search or view the 
 Add actions to the table when the user can take an action on either all data or individual data. 
 
 * For actions affecting all data, place the action button in the topbar.
-* F﻿or actions affecting individual data in rows, place the action button in the last column of the row. 
+* F﻿or actions affecting individual data in rows, place the action button in the last column of the row.
 
-![Example of a table with a results counter. ](/images/table-withactions.svg "Example of a table with a results counter. ")
+![Example of a table with actions](/images/table-withactions.svg "Example of a table with actions")
 
 ### Summary table
 
@@ -134,7 +134,7 @@ Allow users to organize rows by a specific category and follow these best practi
 
 ## Behavior 
 
-#### Search
+### Search
 
 When the user needs to find a record in the table, add a search input field.  The search bar is placed on the left side of the table header. 
 
@@ -155,25 +155,30 @@ If there are no results returned from a search, inform the user with a message, 
 
 ![Example of a table with no search results.](/images/table-searching-noresults.svg "Example of a table with no search results.")
 
-#### Actions
+### Actions
 
-##### Table level actions
+#### Table level actions
 
 Actions that directly impact the table, such as "Add", can be located in the table header.
 
 * Actions in the header should be located on the right side of the header area following the 20px padding of the table
 * When there are 1-2 actions they can remain as separate buttons
-* When there are 3+ consider using a button dropdown or a button group when appropriate
+* When there are 3+ actions consider using a button dropdown or a button group when appropriate
 * Buttons in the header should follow our normal button style hierarchy
 
 ![Example of a table with table level actions.](/images/table-tablelevelactions.svg "Example of a table with table level actions.")
 
-##### Row level actions
+#### Row level actions
 
-* When actions are contained within cells they should follow our Link Button style.
+* When actions are contained within cells, they should follow our Link Button style.
 * The actions column should be pinned to the right of the table.
 
 ![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
+
+* When there are 2 actions, they should remain as separate buttons separated by 10px of padding
+* When there are 3+ actions, consider using a 'more' button dropdown.
+
+![Example of a table with multiple row level actions.](/images/table-withmultipleactions.svg "Example of a table with multiple row level actions.")
 
 ### Bulk selection
 
@@ -304,6 +309,31 @@ Use link or icon buttons in table row level actions
 <docs-do-not>
 
 Use primary or secondary buttons in table row level actions
+
+</docs-do-not>
+  </div>
+  
+</docs-grid>
+
+<docs-spacer size="small"></docs-spacer>
+
+<docs-grid columns="2">
+  <div>
+
+![Do Table row level actions alignment](/images/table-do-buttonsalignment.svg)
+
+<docs-do>
+Align text in table row level actions to the action column header text
+
+</docs-do>
+  </div>
+  <div>
+
+![Do not Table row level actions alignment](/images/table-do-buttonalignment-–-2.svg)
+
+<docs-do-not>
+
+Align touch target in table row level actions to the action column header text
 
 </docs-do-not>
   </div>
