@@ -170,7 +170,7 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 #### Row level actions
 
-* When actions are contained within cells they should follow our Link Button style.
+* When actions are contained within cells, they should follow our Link Button style.
 * The actions column should be pinned to the right of the table.
 
 ![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
