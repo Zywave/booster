@@ -175,7 +175,7 @@ Actions that directly impact the table, such as "Add", can be located in the tab
 
 ![Example of a table with row level actions.](/images/table-columnlevelactions.svg "Example of a table with row level actions.")
 
-* When there are 2 actions they can remain as separate buttons separated by 10px of padding
+* When there are 2 actions, they should remain as separate buttons separated by 10px of padding
 * When there are 3+ actions consider using a 'more' button dropdown.
 
 ![Example of a table with multiple row level actions.](/images/table-withmultipleactions.svg "Example of a table with multiple row level actions.")
