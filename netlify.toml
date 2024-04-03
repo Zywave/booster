@@ -45,12 +45,7 @@ package = "netlify-plugin-rss"
 [headers.values]
   X-Frame-Options = "DENY"
   X-XSS-Protection = "1; mode=block"
-  Content-Security-Policy = "script-src 'self' blob: unpkg.com cdn.zywave.com identity.netlify.com netlify-cdp-loader.netlify.app https://cdn.heapanalytics.com https://heapanalytics.com 'unsafe-eval' 'unsafe-inline';
-    style-src 'self' unpkg.com cdn.zywave.com https://heapanalytics.com 'unsafe-inline';
-    frame-src 'self' app.netlify.com;
-    img-src https://heapanalytics.com;
-    connect-src https://heapanalytics.com; 
-    font-src https://heapanalytics.com"
+  Content-Security-Policy = "script-src 'self' blob: unpkg.com cdn.zywave.com identity.netlify.com netlify-cdp-loader.netlify.app https://cdn.heapanalytics.com https://heapanalytics.com 'unsafe-eval' 'unsafe-inline'; style-src 'self' unpkg.com cdn.zywave.com https://heapanalytics.com 'unsafe-inline'; frame-src 'self' app.netlify.com; img-src 'self' https://heapanalytics.com; connect-src 'self' https://heapanalytics.com; font-src 'self' https://heapanalytics.com"
 
 
 # Redirects and headers are GLOBAL for all builds – they do not get scoped to
