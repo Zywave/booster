@@ -74,7 +74,6 @@
 {% endif %}
 	<script async src="https://cdn.zywave.com/es-module-shims@1.0.0/dist/es-module-shims.js"></script>
 	{{ content | safe }}
-	{% include "components/feedback.njk" %}
 	<script>
 	if (window.netlifyIdentity) {
 		window.netlifyIdentity.on("init", user => {
