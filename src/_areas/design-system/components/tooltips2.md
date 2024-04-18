@@ -1,6 +1,6 @@
 ---
-title: Tooltips2
-subtitle: Unobtrusive messages that provide supplementary information
+title: Global alert banner
+subtitle: A banner at the top of a page to convey critical billing or service disruptions
 api: https://cdn.zywave.com/@zywave/zui-tooltip@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-tooltip@latest/docs/demo.html
 mainComponentName: zui-tooltip
@@ -8,11 +8,11 @@ includedElements: []
 ---
 ## Usage
 
-Tooltips are user-triggered messages that help provide additional information to a page element. They are usually activated by a mouse hover, keyboard focus, or tap.
+Alert banners are employed to communicate critical messages regarding billing issues or service outages, which directly impact the user's ability to utilize the product.
 
-* Tooltips can be paired with any trigger, such as icons, buttons, text, etc...
-* Tooltip messages should not be critical for the user to read
-* There should be no action included within tooltips
+* Only one alert banner should ever display at a time
+* Alert banners push all content below down the page
+* Alert banners should only be used to display critical messageing about billing or distruptions that effects the user's abililty to use the product. Do not use alert banners for marketing messages, feature announcements, user tips, etc...
 
 ![Image for Tooltip usage](/images/usage.svg)
 
@@ -20,20 +20,23 @@ Tooltips are user-triggered messages that help provide additional information to
 
 ## Anatomy
 
-For a more detailed breakdown of spacing and sizing, view the [design specs](https://xd.adobe.com/view/60ad1798-1756-4ac9-b083-76c368b0cd13-35fe/).
+![Image for global alert banner anatomy](/images/anatomy.svg)
 
-![Image for Tooltip anatomy](/images/anatomy.svg)
-
-1. **Container:** the container of the Tooltip
-2. **Trigger:** indicate additional information is available via Tooltip on hover/focus
-3. **Label:** a brief message that provides additional information to users
-4. **Tip:** an arrow pointing from the Tooltip container to the related page element - always make sure that the Tooltip arrow is pointing at the associated page content and is vertically or horizontally centered based on the tooltip message 
+1. **Container:** solid background color. Either Red 500 or Yellow 500 - depending on the severity of the alert
+2. **Icon:** use the solid fill warning icon (fill #31313A), positioned 10px the left of the alert content
+3. **Action (optional):** A link to a call to action or next steps. Link is underlined and #31313A
+4. **Dismiss button (optional):** banner alerts are dismissible if the alert is notifying user of an issue, alerts are persistent if the user must take action on the alert.
 
 - - -
 
 ## Placement
 
-Depending on the location, Tooltips can be placed at the top, bottom, right, or left of the related page element.
+* Alert banners appear on every page within production, unless dismissed by user or taken down
+* The alert banner sits on top of ZUI Shell and pushes all content down
+* Alert banners span the full width of the page
+* Always at the very top of the page
+* Max 50px high... ***does this expand on smaller screen sizes? what if message goes on 2 lines?
+  mocks***
 
 ![Tooltip positioning](/images/placement.svg)
 
@@ -41,17 +44,14 @@ Depending on the location, Tooltips can be placed at the top, bottom, right, or 
 
 ## Behavior
 
-### Mouse hover action
+### Dismissing alert
 
-Tooltips appear on hover and remain active until the user's cursor is no longer hovering over the associated trigger. A 200ms fade transitions the visibility of Tooltips.
+* Alerts are dismissible if the alert is only notifying a user of an issue
+* Alerts are *not* dismissible if the user needs to take action
 
-### Keyboard focus
+### Background color
 
-When using a keyboard, users can use \[tab] key to go through and select page elements. Tooltips appear when an element is in its keyboard focus state. 
-
-### Tap gesture
-
-For mobile devices such as cellphones and tablets, mouse-hover and keyboard focus states are not accessible for users. Tooltips are activated by tapping on the page element, and tap again to deactivate Tooltips.
+The background color of the alert changes from Yellow 500 to Red 500 when the deadline of the user action is within **30** days. 
 
 - - -
 
