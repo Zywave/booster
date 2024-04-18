@@ -12,15 +12,13 @@ Alert banners are employed to communicate critical messages regarding billing is
 
 * Only one alert banner should ever display at a time
 * Alert banners push all content below down the page
-* Alert banners should only be used to display critical messageing about billing or distruptions that effects the user's abililty to use the product. Do not use alert banners for marketing messages, feature announcements, user tips, etc...
-
-![Image for Tooltip usage](/images/usage.svg)
+* Alert banners should only be used to display critical messaging about billing or distruptions that effects the user's ability to use the product. Do not use alert banners for marketing messages, feature announcements, user tips, etc...
 
 - - -
 
 ## Anatomy
 
-![Image for global alert banner anatomy](/images/anatomy.svg)
+![](/images/anatomy-–-2.png)
 
 1. **Container:** solid background color. Either Red 500 or Yellow 500 - depending on the severity of the alert
 2. **Icon:** use the solid fill warning icon (fill #31313A), positioned 10px the left of the alert content
@@ -31,14 +29,14 @@ Alert banners are employed to communicate critical messages regarding billing is
 
 ## Placement
 
+![](/images/anatomy-–-1.png)
+
 * Alert banners appear on every page within production, unless dismissed by user or taken down
 * The alert banner sits on top of ZUI Shell and pushes all content down
 * Alert banners span the full width of the page
 * Always at the very top of the page
 * Max 50px high... ***does this expand on smaller screen sizes? what if message goes on 2 lines?
   mocks***
-
-![Tooltip positioning](/images/placement.svg)
 
 - - -
 
