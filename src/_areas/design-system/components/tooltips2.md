@@ -36,7 +36,7 @@ Alert banners are employed to communicate critical messages regarding billing is
 * Alert banners span the full width of the page
 * Always at the very top of the page
 * Max 50px high... ***does this expand on smaller screen sizes? what if message goes on 2 lines?
-  mocks***
+  include mocks***
 
 - - -
 
