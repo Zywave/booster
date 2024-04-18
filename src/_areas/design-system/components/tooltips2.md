@@ -1,6 +1,6 @@
 ---
 title: Global alert banner
-subtitle: A banner at the top of a page to convey critical billing or service disruptions
+subtitle: A banner at the top of a page to communicate critical messages to users
 api: https://cdn.zywave.com/@zywave/zui-tooltip@latest/dist/custom-elements.json
 demo: https://cdn.zywave.com/@zywave/zui-tooltip@latest/docs/demo.html
 mainComponentName: zui-tooltip
@@ -12,7 +12,7 @@ Alert banners are employed to communicate critical messages regarding billing is
 
 * Only one alert banner should ever display at a time
 * Alert banners push all content below down the page
-* Alert banners should only be used to display critical messaging about billing or distruptions that effects the user's ability to use the product. Do not use alert banners for marketing messages, feature announcements, user tips, etc...
+* Alert banners should only be used to display critical messaging about billing or disruptions that effects the user's ability to use the product. Do not use alert banners for marketing messages, feature announcements, user tips, etc...
 
 - - -
 
