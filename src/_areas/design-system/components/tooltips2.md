@@ -13,6 +13,7 @@ Alert banners are employed to communicate critical messages regarding billing is
 * Only one alert banner should ever display at a time
 * Alert banners push all content below down the page
 * Alert banners should only be used to display critical messaging about billing or disruptions that effects the user's ability to use the product. Do not use alert banners for marketing messages, feature announcements, user tips, etc...
+* Alert banners are persistent across every page
 
 - - -
 
@@ -20,10 +21,13 @@ Alert banners are employed to communicate critical messages regarding billing is
 
 ![](/images/anatomy-–-2.png)
 
-1. **Container:** solid background color. Either Red 500 or Yellow 500 - depending on the severity of the alert
+1. **Container:** solid background color. Either Red 500 or Yellow 500 - depending on the severity of the alert. Banner spans full width.
 2. **Icon:** use the solid fill warning icon (fill #31313A), positioned 10px the left of the alert content
 3. **Action (optional):** A link to a call to action or next steps. Link is underlined and #31313A
-4. **Dismiss button (optional):** banner alerts are dismissible if the alert is notifying user of an issue, alerts are persistent if the user must take action on the alert.
+4. **Dismiss button (optional):** banner alerts are dismissible if the alert is notifying user of an issue, do not include the dismiss button if the user must take action on the alert
+
+   Max 50px high... ***does this expand on smaller screen sizes? what if message goes on 2 lines?
+   include mocks***
 
 - - -
 
@@ -31,12 +35,8 @@ Alert banners are employed to communicate critical messages regarding billing is
 
 ![](/images/anatomy-–-1.png)
 
-* Alert banners appear on every page within production, unless dismissed by user or taken down
-* The alert banner sits on top of ZUI Shell and pushes all content down
-* Alert banners span the full width of the page
-* Always at the very top of the page
-* Max 50px high... ***does this expand on smaller screen sizes? what if message goes on 2 lines?
-  include mocks***
+* Alert banners appear on every page, unless dismissed by user or taken down
+* The alert banner sits within ZUI Shell, above the top bar
 
 - - -
 
@@ -44,12 +44,12 @@ Alert banners are employed to communicate critical messages regarding billing is
 
 ### Dismissing alert
 
-* Alerts are dismissible if the alert is only notifying a user of an issue
+* *Alerts are dismissible if the alert is only notifying a user of an issue*
 * Alerts are *not* dismissible if the user needs to take action
 
 ### Background color
 
-The background color of the alert changes from Yellow 500 to Red 500 when the deadline of the user action is within **30** days. 
+* The background color of the alert *can* change from Yellow 500 to Red 500 based on the criticality of the alert.
 
 - - -
 
