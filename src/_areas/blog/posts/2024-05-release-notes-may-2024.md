@@ -78,7 +78,7 @@ Learn how to build a `<zui-table>` [here](/design-system/components/tables/).
 
 A new subcomponent of ZUI Shell has been added called `<zui-shell-banner>`. This component is used to display important information or messages at the top of applications.
 
-Similar to ZUI Wells, the `<zui-shell-banner>` component has a `type` attribute that can be set to `info`, `success`, `warning`, or `error` to change the background color of the banner to indicate the message severity.
+Similar to ZUI Wells, the `<zui-shell-banner>` component has a `type` attribute that can be set to `info`, `success`, `warning`, or `error` to change the background color to indicate the severity of the message.
 
 ![Example of the new ZUI Shell Banner component](/images/2024-05-release-notes-shell-banner.png "Example of the new ZUI Shell Banner component")
 
