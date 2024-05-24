@@ -26,7 +26,7 @@ This month we addressed a bug with our helper CSS classes. When using the `[hidd
 
 <br>
 
-Did you know we have a CSS guide with helper CSS classes? Check it out [here](/design-system/developers/css-guide/).
+Did you know we have a CSS guide with ZUI helper CSS classes? Check it out [here](/design-system/developers/css-guide/).
 
 <docs-spacer></docs-spacer>
 
@@ -55,7 +55,7 @@ Learn more about our `<zui-logo>` component [here](/design-system/components/log
 
 ## Features
 
-### One new icon added to ZUI Icons collection: `zui-nav-admin-console`
+### One new icon added to ZUI Icons collection
 We've added a new icon to our icons collection called `zui-nav-admin-console`. This icon is only to be used in the side nav of ZUI Shell to represent the Zywave Admin application.
 
 ![New navigation icon called admin console](/images/2024-02-release-notes-admin-console-icon.png "New navigation icon called admin console")

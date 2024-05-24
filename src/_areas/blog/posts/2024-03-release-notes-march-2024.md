@@ -31,9 +31,21 @@ Learn about icon rules for ZUI Shell Nav in our [documentation](/design-system/c
 
 <docs-spacer size="small"></docs-spacer>
 
-### ZUI Button Group secondary style was missing the bottom border
+### ZUI Button Group's secondary style was missing the bottom border
 The bottom border was missing for the secondary style of `<zui-button-group>`. This has been fixed and the bottom border will now display as expected.
 
 ![Before and after fix for zui-button-group's bottom border](/images/2024-03-release-notes-button-groups.png "Before and after fix for zui-button-group's bottom border")
+
+<br>
+
+```html
+<zui-button-group>
+  <zui-button type="secondary">Button 1</zui-button>
+  <zui-button type="secondary">Button 2</zui-button>
+  <zui-button type="secondary">Button 3</zui-button>
+</zui-button-group>
+```
+
+<br>
 
 Learn more about the ZUI Button Group component in our [documentation](/design-system/components/button-groups).

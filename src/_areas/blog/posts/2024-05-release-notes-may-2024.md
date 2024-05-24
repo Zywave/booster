@@ -26,6 +26,18 @@ Previously, the component `<zui-select-dropdown>`'s options list would not close
 
 In a searchable Dropdown Select `<zui-select-dropdown>`, the options list would not show all options after a selection has been made. Users had to clear the selection in order for the options list to show all options again. This has been fixed and the options list will now show all options, including the selected option, to allow users to view all the options in order to make a different selection.
 
+<br>
+
+```html
+<zui-dropdown-select placeholder="Choose a Wisconsin city" searchable>
+  <zui-option value="Appleton">Appleton</zui-option>
+  <zui-option value="GreenBay">Green Bay</zui-option>
+  <zui-option value="Madison">Madison</zui-option>
+  <zui-option value="Milwaukee">Milwaukee</zui-option>
+  <zui-option value="Wausau">Waukesha</zui-option>
+</zui-dropdown-select>
+```
+
 <docs-spacer size="small"></docs-spacer>
 
 ### Preventing CSS animations from running when DOM is destroyed and recreated
@@ -66,6 +78,10 @@ Learn how to build a `<zui-table>` [here](/design-system/components/tables/).
 
 A new subcomponent of ZUI Shell has been added called `<zui-shell-banner>`. This component is used to display important information or messages at the top of applications.
 
+Similar to ZUI Wells, the `<zui-shell-banner>` component has a `type` attribute that can be set to `info`, `success`, `warning`, or `error` to change the background color of the banner to indicate the message severity.
+
+![Example of the new ZUI Shell Banner component](/images/2024-05-release-notes-shell-banner.png "Example of the new ZUI Shell Banner component")
+
 <br>
 
 ```html
@@ -85,6 +101,8 @@ Learn how you can implement the new `<zui-shell-banner>` [here](/design-system/c
 ### Loading state added to ZUI Table
 
 A loading state has been added to `<zui-table>` to indicate to users that data is being fetched or processed. This state can be triggered by setting the `loading` attribute on `<zui-table>`.
+
+![Example of the ZUI Table loading](/images/2024-05-release-notes-table-loading.png "Example of the ZUI Table loading")
 
 <br>
 
