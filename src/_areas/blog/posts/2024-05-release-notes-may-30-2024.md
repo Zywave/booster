@@ -23,4 +23,4 @@ ZUI Select Dropdown `<zui-select-dropdown>` has been enhanced to return the sele
 * Removed the internal livechat feature specifically for users to connect with Zywave Support
 * Reimplemented troubleshooting feature in Zywave Shell
 
-<docs-note>Did you know that you can press `CTRL` + `ALT` + `Z` in any Zywave application using Zywave Shell `<zywave-shell>` to get console information for Zywave Support to help our users troubleshoot issues they are experiencing?</docs-note>
+<docs-note>Did you know that you can press `CTRL` + `ALT` + `Z` in any Zywave application using Zywave Shell `<zywave-shell>` to get console information for Zywave Support to help users troubleshoot issues they are experiencing?</docs-note>
