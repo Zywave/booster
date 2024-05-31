@@ -4,7 +4,7 @@ type: blogPost
 title: Release Notes - May 23, 2024
 description: Addressing a few bugs and adding new features to ZUI Table, ZUI
   Shell, and more.
-date: 2024-05-24T02:00:24.871Z
+date: 2024-05-23T21:00:24.871Z
 hideToc: false
 tags:
   - Release Notes
