@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Release Notes - May 30, 2024
 description: Minor updates to ZUI Select Dropdown and Zywave Shell
-date: 2024-05-31T01:00:23.393Z
+date: 2024-05-30T21:00:23.393Z
 hideToc: false
 tags:
   - Release Notes
