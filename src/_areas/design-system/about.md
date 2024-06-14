@@ -3,7 +3,7 @@ layout: documentation
 title: About Booster's Design System
 navTitle: About
 ---
-## What is it and what does it do?
+## What is it & what does it do?
 
 It is a broader term that many of Zywave's visual, front end, and design related standards and tooling are filed under. ZUI, Zywave's reusable component library, (for more info, see below) is part of the Booster Design System.
 
@@ -14,10 +14,13 @@ The Zywave User Interface (ZUI) is a modern and responsive front-end framework b
 ### How does ZUI aid your workflow
 
 #### Time
+
 Save time by using ZUI as a quick reference for styles, whether you're a new or established team member.
 
 #### Communication
+
 Communicate with other team members using ZUI shared vocabulary, foundations, interactivity, and more.
 
 #### Consistency
+
 Employ and maintain consistency when only referencing one place to quickly see if designs, documentation, and more deviate from our established styles.
