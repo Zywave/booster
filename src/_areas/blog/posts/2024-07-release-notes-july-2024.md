@@ -45,18 +45,18 @@ We've enabled `field-sizing` support for `<zui-textarea>` so its size will adjus
 
 ### Updated CSS custom state syntax
 
-We are early adopters of CSS custom states. In the early stages of CSS custom states, the syntax was prefixed with `:--`, such as `zui-checkbox:--indeterminate`. Now the new syntax is `:state()` and we are updating to reflect that for continued browser support.
+We are early adopters of CSS custom states. In the early stages of CSS custom states, the syntax was prefixed with `:--`, such as `zui-progress:--indeterminate`. Now the new syntax is `:state()` and we are updating to reflect that for continued browser support.
 
 <br>
 
 ```css
 /* Old syntax */
-zui-checkbox:--indeterminate {
+zui-progress:--indeterminate {
   display: block;
 }
 
 /* New syntax */
-zui-checkbox:state(indeterminate) {
+zui-progress:state(indeterminate) {
   display: block;
 }
 ```
