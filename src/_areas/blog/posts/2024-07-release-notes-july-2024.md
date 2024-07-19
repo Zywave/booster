@@ -35,7 +35,7 @@ tags:
 
 ### ZUI Textarea will now adjust its size to fit its contents
 
-We've enabled `field-sizing` support for <zui-textarea> so its size will adjust to its contents. One caveat with this is that `field-sizing` is only limited to Chrome and Edge browsers as of this release. With time, we hope other browsers will also support it.
+We've enabled `field-sizing` support for `<zui-textarea>` so its size will adjust to its contents. One caveat with this is that `field-sizing` is only limited to Chrome and Edge browsers as of this release. With time, we hope other browsers will also support it.
 
 <docs-note>`field-sizing` support and behavior will not be consistent across all browsers as of this release. [Learn more about field-sizing here.](https://developer.mozilla.org/en-US/docs/Web/CSS/field-sizing)</docs-note>
 
@@ -46,6 +46,8 @@ We've enabled `field-sizing` support for <zui-textarea> so its size will adjust 
 ### Updated CSS custom state syntax
 
 We are early adopters of CSS custom states. In the early stages of CSS custom states, the syntax was prefixed with `:--`, such as `zui-checkbox:--indeterminate`. Now the new syntax is `:state()` and we are updating to reflect that for continued browser support.
+
+<docs-spacer size="small"></docs-spacer>
 
 ```css
 /* Old syntax */
@@ -58,5 +60,7 @@ zui-checkbox:state(indeterminate) {
   display: block;
 }
 ```
+
+<docs-spacer size="small"></docs-spacer>
 
 <docs-note>`:state()` is still an experimental feature, but supported in all major browsers. Learn more about the [:state() CSS pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:state) and [CustomStateSet API](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet).</docs-note>
