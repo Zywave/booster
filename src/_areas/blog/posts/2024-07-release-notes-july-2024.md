@@ -15,7 +15,7 @@ tags:
 * The 404 error type of `<zui-error-page>`'s illustration background color matched the background of our standard application layout, so we darkened it to stand out more and to match the other error type illustrations.
 * The default slot for `<zui-error-page>` will hide or show based on whether there are slotted content to eliminate white-space taking up unnecessary screen real estate.
 
-<docs-note>To provide users with a good experience, even when they unfortunately encounter a page error, use `<zui-error-page>` to guide them on what to do next. [Learn more about ZUI Error Page component here!](/design-system/components/error-pages/)</docs-note>
+<docs-note>To provide users with a good experience, even when they unfortunately encounter a page error, use `<zui-error-page>` to guide them on what to do next. [Learn more about this component here!](/design-system/components/error-pages/)</docs-note>
 
 <docs-spacer size="small"></docs-spacer>
 
