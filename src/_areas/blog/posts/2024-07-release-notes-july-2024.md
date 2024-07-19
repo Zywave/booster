@@ -47,7 +47,7 @@ We've enabled `field-sizing` support for `<zui-textarea>` so its size will adjus
 
 We are early adopters of CSS custom states. In the early stages of CSS custom states, the syntax was prefixed with `:--`, such as `zui-checkbox:--indeterminate`. Now the new syntax is `:state()` and we are updating to reflect that for continued browser support.
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 ```css
 /* Old syntax */
@@ -61,6 +61,6 @@ zui-checkbox:state(indeterminate) {
 }
 ```
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 <docs-note>`:state()` is still an experimental feature, but supported in all major browsers. Learn more about the [:state() CSS pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:state) and [CustomStateSet API](https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet).</docs-note>
