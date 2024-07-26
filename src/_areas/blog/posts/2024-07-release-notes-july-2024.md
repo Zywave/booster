@@ -3,7 +3,7 @@ layout: blog
 type: blogPost
 title: Release Notes - July 2024
 description: Bug fixes, enhancements, and maintenance release notes
-date: 2024-07-18T23:48:10.402Z
+date: 2024-07-25T23:48:10.402Z
 hideToc: false
 tags:
   - Release Notes
@@ -22,6 +22,12 @@ tags:
 ### Fixed miscalculation of ZUI Shell layout when there is a shell banner present
 
 `<zui-shell-footer>` was being pushed below the viewport when the page did not scroll, causing the screen to shake unpredictably if the user tried to scroll down. This was due to a layout height miscalculation when `<zui-shell-banner>` was present. We have since fixed this bug and it should no longer be an issue.
+
+<docs-spacer size="small"></docs-spacer>
+
+### Fixed flash of unstyled content for ZUI Tooltip component
+
+Since we deprecated the `message` slot in favor of using the default slot in January 2024, tooltip messages were not hidden during the phenomenon known as flash of unstyled content. This split second of flashing text may be jarring to user experiences, so we opted to hide the `<zui-tooltip>` component completely until it is defined and loaded on the web page.
 
 <docs-spacer></docs-spacer>
 
