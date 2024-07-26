@@ -27,7 +27,7 @@ tags:
 
 ### Fixed flash of unstyled content for ZUI Tooltip component
 
-Since we deprecated the `message` slot in favor of using the default slot in January 2024, tooltip messages were not hidden during the phenomenon known as flash of unstyled content. This split second of flashing text may be jarring to user experiences, so we opted to hide the `<zui-tooltip>` component completely until it is defined and loaded on the web page.
+Since we [deprecated the `message` slot in favor of using the default slot in January 2024](/blog/posts/2024-01-release-notes-january-2024/), tooltip messages were not hidden during the phenomenon known as flash of unstyled content. This split second of flashing text may be jarring to user experiences, so we opted to hide the `<zui-tooltip>` component completely until it is defined and loaded on the web page.
 
 <docs-spacer></docs-spacer>
 
