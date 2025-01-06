@@ -38,6 +38,8 @@ Additionally, you can provide custom validation messages via `setCustomValidity(
 
 Now that we have natively implemented form validation, CSS selectors such as `:invalid` and `:valid` will now match, and `<zui-input>` will now automatically render that it is in an invalid state without consumers having to provide their own custom styles or use [the provided `is-invalid` class](/design-system/components/text-inputs/?tab=demos#invalid-input).
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Example
 
 ```html
