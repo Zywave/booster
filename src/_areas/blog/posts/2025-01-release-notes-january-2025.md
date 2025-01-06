@@ -30,7 +30,7 @@ The following attributes will now begin reporting validation errors on form subm
   - email
   - url
 
-Unless provided by consumers, validation messages will be as sourced from the browser if using a native input element. Validation messages can be provided by adding attributes in the following syntax: `validation-{reason}`.
+Unless provided by consumers, validation messages will be as sourced from the browser if using a native input element. Validation messages can be provided by adding attributes in the following syntax: `validation-message-{reason}`.
 
 Additionally, you can provide custom validation messages via `setCustomValidity()`, [as you can with a native input](https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/setCustomValidity).
 
@@ -48,9 +48,9 @@ Now that we have natively implemented form validation, CSS selectors such as `:i
         required="" 
         min="2025-01-01" 
         max="2025-12-31"
-        validation-required="You must provide a date"
-        validation-min="The date cannot be before January 1st, 2025"
-        validation-max="The date cannot be after December 31st, 2025"></zui-input>
+        validation-message-required="You must provide a date"
+        validation-message-min="The date cannot be before January 1st, 2025"
+        validation-message-max="The date cannot be after December 31st, 2025"></zui-input>
     <zui-button><button type="submit">Submit</button></zui-button>
 </form>
 ```
@@ -58,14 +58,14 @@ Now that we have natively implemented form validation, CSS selectors such as `:i
 ### Summary of new attributes, properties, methods, events, and CSS
 
 1. **Attributes**
-    - `validation-min`
-    - `validation-max`
-    - `validation-step`
-    - `validation-minlength`
-    - `validation-maxlength`
-    - `validation-type`
-    - `validation-pattern`
-    - `validation-required`
+    - `validation-message-min`
+    - `validation-message-max`
+    - `validation-message-step`
+    - `validation-message-minlength`
+    - `validation-message-maxlength`
+    - `validation-message-type`
+    - `validation-message-pattern`
+    - `validation-message-required`
 1. **Properties**
     - `willValidate` (readonly)
     - `validity` (readonly)
