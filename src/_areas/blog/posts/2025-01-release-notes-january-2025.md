@@ -121,6 +121,12 @@ While adding validation support, we now have a reason to add more validation pro
 
 `<zui-shell-topbar>` has a dedicated slot called `search` where all product/suite search bars should go. Previously in mobile view, if search was present, it would take up the entire topbar with no option to hide it and render the rest of the topbar unusable. This misbehavior has been fixed by hiding search behind a search button, that when clicked, will show the search bar.
 
+<docs-spacer size="small"></docs-spacer>
+
+### ZUI Expander type property now reflected to the attribute
+
+Previously, the `type` property was not being reflected to the attribute on `<zui-expander type="group-standard">` so standard expanders were not triggering CSS animations and expand/collapse correctly. This has been resolved and standard expanders should now expand and collapse as expected.
+
 <docs-spacer></docs-spacer>
 
 ## Deprecations and removed features
