@@ -28,6 +28,12 @@ To learn about CSS Custom States, check out <a href="https://developer.mozilla.o
 
 ## Deprecations and removed features
 
+<docs-note>
+
+There are no deprecations or removed features in this release.
+
+</docs-note>
+
 ## Meta
 
 With this release, all of Booster is now organized to operate as an ["InnerSource"](https://innersourcecommons.org/) project. Expect more to come around governance, practices, and the likes. We're excited to see this ecosystem flourish as a community-driven project once again.
