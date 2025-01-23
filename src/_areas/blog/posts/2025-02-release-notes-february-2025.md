@@ -47,7 +47,3 @@ This should have no notable impact, but does reduce the amount of code required 
 There are no deprecations or removed features in this release.
 
 </docs-note>
-
-## Meta
-
-With this release, all of Booster is now organized to operate as an ["InnerSource"](https://innersourcecommons.org/) project. Expect more to come around governance, practices, and the likes. We're excited to see this ecosystem flourish as a community-driven project once again.
