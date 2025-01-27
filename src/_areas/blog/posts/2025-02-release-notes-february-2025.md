@@ -17,16 +17,9 @@ TODO
 
 ### CSS Custom States documentation
 
-[@zywave/customelement-manifest-element](https://www.npmjs.com/package/@zywave/customelement-manifest-element) was updated to support rendering Custom CSS states when applicable. For those who aren't familiar, Custom CSS states is a way where custom elements can provide additional styling capabilities, based on their own internal states. This is similar in practice to what [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) provide for native elements.
+To assist in rendering the documentation for our web components, we maintain and distribute a package: [@zywave/customelement-manifest-element](https://www.npmjs.com/package/@zywave/customelement-manifest-element). We have updated this component to support rendering Custom CSS states when applicable. For those who aren't familiar, Custom CSS states is a way where custom elements can provide additional styling capabilities, based on their own internal states. This is similar in practice to what [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) provide for native elements.
 
-We've utilized this feature for quite some time, but our documentation was non-existent here aside from perhaps some demos. With some updates to something called the ["custom element manifest"](https://github.com/webcomponents/custom-elements-manifest) to support a standard format to document these, you will now start seeing updates to our ZUI and ZAPI toolkits to start documenting this feature. For an example, check out [the Zywave Shell documentation](/application-framework/components/shell/?tab=api).
-
-#### Example
-```css
-zywave-shell:state(loading) {
-  /* CSS to render only while zywave-shell is in its loading state */
-}
-```
+We've utilized this feature for quite some time, but our documentation was non-existent here aside from perhaps some demos. With some updates to the [custom element manifest schema](https://github.com/webcomponents/custom-elements-manifest) which `customelement-manifest-element` renders, there is now a supported standard format to document these.  Applicable ZUI and ZAPI components have been updated to document their CSS Custom States. For an example, check out [the Zywave Shell documentation](/application-framework/components/shell/?tab=api).
 
 To learn more about CSS Custom States, check out <https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet>.
 
