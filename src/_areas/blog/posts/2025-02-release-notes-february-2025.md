@@ -23,6 +23,22 @@ We've utilized this feature for quite some time, but our documentation was non-e
 
 To learn more about CSS Custom States, check out <https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet>.
 
+### Base font-family simplification
+
+In our design system, we intentionally use ["system fonts"](https://fonts.google.com/knowledge/glossary/system_font_web_safe_font) so as to decrease our footprint in our applications. For the longest time, this was done via the following CSS declaration:
+
+```css
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+```
+
+We have changed this, and expect no notable changes to our users:
+
+```css
+font-family: system-ui, sans-serif;
+```
+
+For more on `system-ui`, see <https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#system-ui>.
+
 ## Bug fixes
 
 ### Form-associated custom elements focus and validation tweaks
