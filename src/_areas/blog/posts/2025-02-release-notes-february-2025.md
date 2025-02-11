@@ -21,7 +21,7 @@ Opting out of the ZUI Shell Topbar scrolling animation has always been an option
 <zui-shell-topbar no-scroll-animation></zui-shell-topbar>
 ```
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 To learn more about the CSS media feature `prefers-reduced-motion`, check out <https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion>.
 
@@ -63,7 +63,7 @@ ZUI Tooltips now supports 4 new tooltip positions: top-left, top-right, bottom-l
 
 <docs-note>Check out [the ZUI Tooltips documentation](/design-system/components/tooltips/) and start using it today!</docs-note>
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 To learn more about the Popover API, check out <https://developer.mozilla.org/en-US/docs/Web/API/Popover_API>.
 
@@ -97,7 +97,7 @@ We have changed this, and expect no notable changes to our users:
 font-family: system-ui, sans-serif;
 ```
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 For more on `system-ui`, see <https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#system-ui>.
 
