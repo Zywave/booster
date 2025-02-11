@@ -15,7 +15,7 @@ tags:
 
 Opting out of the ZUI Shell Topbar scrolling animation has always been an option via the attribute `no-scroll-animation`. We've taken it a step further to automatically disable the scrolling animation when we detect that the user has enabled a setting on their device or browser to minimize the amount of non-essential motion via the CSS media feature `prefers-reduced-motion`.
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 ```html
 <zui-shell-topbar no-scroll-animation></zui-shell-topbar>
@@ -33,7 +33,7 @@ Since the inception of ZUI Tooltip, we've encountered issues with the stacking c
 
 ZUI Tooltips now supports 4 new tooltip positions: top-left, top-right, bottom-left, and bottom-right.
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 ```html
 <zui-tooltip position="top left"></zui-tooltip>
@@ -41,6 +41,8 @@ ZUI Tooltips now supports 4 new tooltip positions: top-left, top-right, bottom-l
 <zui-tooltip position="bottom left"></zui-tooltip>
 <zui-tooltip position="bottom right"></zui-tooltip>
 ```
+
+<docs-spacer size="small"></docs-spacer>
 
 #### Other ZUI Tooltip enhancements
 
@@ -67,7 +69,7 @@ For example, you can check out the [API docs for ZUI Table](/design-system/compo
 
 For five years, we had a long font-family list to let users' browsers decide the best font to display our application's text that included `-apple-system` and `BlinkMacSystemFont`. These two have been replaced by `system-ui`, so we've simplified and shortened the font family list by getting rid them and then some!
 
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 ```scss
 // old font-family list
