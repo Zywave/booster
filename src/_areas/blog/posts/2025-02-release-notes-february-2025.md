@@ -23,6 +23,10 @@ Opting out of the ZUI Shell Topbar scrolling animation has always been an option
 
 <docs-spacer size="small"></docs-spacer>
 
+To learn more about the CSS media feature `prefers-reduced-motion`, check out <https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion>.
+
+<docs-spacer size="small"></docs-spacer>
+
 ### ZUI Tooltip now uses the native popover API
 
 Since the inception of ZUI Tooltip, we've encountered issues with the stacking context of elements, such as tooltips appearing behind other elements on the page and getting cut off when placed inside an overflow element. This was largely due to the fact that we couldn't declare ZUI Tooltip as a special element such as a native dialog, dropdown, or popover that browsers identify as a separate window. Fortunately with the new Popover API, we are able to declare ZUI Tooltips as a popover, eliminating previous issues with the stacking context. Say good bye to z-index and overflow issues!
@@ -58,6 +62,10 @@ ZUI Tooltips now supports 4 new tooltip positions: top-left, top-right, bottom-l
   * Calculations on the far right side of the viewport is wonky, but will address in the future
 
 <docs-note>Check out [the ZUI Tooltips documentation](/design-system/components/tooltips/) and start using it today!</docs-note>
+
+<docs-spacer size="small"></docs-spacer>
+
+To learn more about the Popover API, check out <https://developer.mozilla.org/en-US/docs/Web/API/Popover_API>.
 
 <docs-spacer size="small"></docs-spacer>
 
