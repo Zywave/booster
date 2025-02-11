@@ -11,22 +11,6 @@ tags:
 ---
 ## Enhancements
 
-### ZUI Shell Topbar scrolling animation disabled for users that prefer reduced motion
-
-Opting out of the ZUI Shell Topbar scrolling animation has always been an option via the attribute `no-scroll-animation`. We've taken it a step further to automatically disable the scrolling animation when we detect that the user has enabled a setting on their device or browser to minimize the amount of non-essential motion via the CSS media feature `prefers-reduced-motion`.
-
-<br>
-
-```html
-<zui-shell-topbar no-scroll-animation></zui-shell-topbar>
-```
-
-<br>
-
-To learn more about the CSS media feature `prefers-reduced-motion`, check out <https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion>.
-
-<docs-spacer size="small"></docs-spacer>
-
 ### ZUI Tooltip now uses the native popover API
 
 Since the inception of ZUI Tooltip, we've encountered issues with the stacking context of elements, such as tooltips appearing behind other elements on the page and getting cut off when placed inside an overflow element. This was largely due to the fact that we couldn't declare ZUI Tooltip as a special element such as a native dialog, dropdown, or popover that browsers identify as a separate window. Fortunately with the new Popover API, we are able to declare ZUI Tooltips as a popover, eliminating previous issues with the stacking context. Say good bye to z-index and overflow issues!
@@ -66,6 +50,22 @@ ZUI Tooltips now supports 4 new tooltip positions: top-left, top-right, bottom-l
 <br>
 
 To learn more about the Popover API, check out <https://developer.mozilla.org/en-US/docs/Web/API/Popover_API>.
+
+<docs-spacer size="small"></docs-spacer>
+
+### ZUI Shell Topbar scrolling animation disabled for users that prefer reduced motion
+
+Opting out of the ZUI Shell Topbar scrolling animation has always been an option via the attribute `no-scroll-animation`. We've taken it a step further to automatically disable the scrolling animation when we detect that the user has enabled a setting on their device or browser to minimize the amount of non-essential motion via the CSS media feature `prefers-reduced-motion`.
+
+<br>
+
+```html
+<zui-shell-topbar no-scroll-animation></zui-shell-topbar>
+```
+
+<br>
+
+To learn more about the CSS media feature `prefers-reduced-motion`, check out <https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion>.
 
 <docs-spacer size="small"></docs-spacer>
 
