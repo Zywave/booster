@@ -23,7 +23,7 @@ Opting out of the ZUI Shell Topbar scrolling animation has always been an option
 
 <docs-spacer size="small"></docs-spacer>
 
-### ZUI Tooltip gets an overhaul
+### ZUI Tooltip now uses the native popover API
 
 Since the inception of ZUI Tooltip, we've encountered issues with the stacking context of elements, such as tooltips appearing behind other elements on the page and getting cut off when placed inside an overflow element. This was largely due to the fact that we couldn't declare ZUI Tooltip as a special element such as a native dialog, dropdown, or popover that browsers identify as a separate window. Fortunately with the new Popover API, we are able to declare ZUI Tooltips as a popover, eliminating previous issues with the stacking context. Say good bye to z-index and overflow issues!
 
@@ -55,34 +55,50 @@ ZUI Tooltips now supports 4 new tooltip positions: top-left, top-right, bottom-l
   * Positioning logic now takes margins into consideration
   * Calculations on the far right side of the viewport is wonky, but will address in the future
 
-<docs-spacer size="small"></docs-spacer>
-
-### CSS custom states are now exposed in our documentation
-
-We use custom-elements-manifest to generate custom elements JSON schemas of our custom elements so we can publish information such as attributes, methods, events, etc. We have a couple places where we use CSS custom states and they are now included in the schema.
-
-For example, you can check out the [API docs for ZUI Table](/design-system/components/tables/) to find a new section regarding CSS custom states that we use in the web component.
+<docs-note>Check out [the ZUI Tooltips documentation](/design-system/components/tooltips/) and start using it today!</docs-note>
 
 <docs-spacer size="small"></docs-spacer>
 
-### Simplified font family list
+### CSS Custom States documentation
 
-For five years, we had a long font-family list to let users' browsers decide the best font to display our application's text that included `-apple-system` and `BlinkMacSystemFont`. These two have been replaced by `system-ui`, so we've simplified and shortened the font family list by getting rid them and then some!
+To assist in rendering the documentation for our web components, we maintain and distribute a package: [@zywave/customelement-manifest-element](https://www.npmjs.com/package/@zywave/customelement-manifest-element). We have updated this component to support rendering Custom CSS states when applicable. For those who aren't familiar, Custom CSS states is a way where custom elements can provide additional styling capabilities, based on their own internal states. This is similar in practice to what [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) provide for native elements.
 
+We've utilized this feature for quite some time, but our documentation was non-existent here aside from perhaps some demos. With some updates to the [custom element manifest schema](https://github.com/webcomponents/custom-elements-manifest) which `customelement-manifest-element` renders, there is now a supported standard format to document these.  Applicable ZUI and ZAPI components have been updated to document their CSS Custom States. For an example, check out [the Zywave Shell documentation](/application-framework/components/shell/?tab=api).
+
+To learn more about CSS Custom States, check out <https://developer.mozilla.org/en-US/docs/Web/API/CustomStateSet>.
+
+<docs-spacer size="small"></docs-spacer>
+
+### Base font-family simplification
+
+In our design system, we intentionally use ["system fonts"](https://fonts.google.com/knowledge/glossary/system_font_web_safe_font) so as to decrease our footprint in our applications. For the longest time, this was done via the following CSS declaration:
 <br>
-
-```scss
-// old font-family list
-$zui-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
-// new font-family list
-$zui-font-family: system-ui, sans-serif;
+```css
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
 ```
+
+We have changed this, and expect no notable changes to our users:
+<br>
+```css
+font-family: system-ui, sans-serif;
+```
+
+For more on `system-ui`, see <https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#system-ui>.
 
 <docs-spacer></docs-spacer>
 
 ## Bug fixes
 
-### Validation messages not rendering on Chromium
+### Form-associated custom elements focus and validation tweaks
 
-When a form-associated custom element, such as [ZUI Input](/design-system/components/text-inputs/), delegates focus via `delegateFocus`, no validation message is displayed when the custom element is invalid. This was a [Chromium bug](https://issues.chromium.org/issues/389587444) and it has been fixed by them.
+With the [input validation enhancement last month](/blog/posts/2025-01-release-notes-january-2025/#inputs-now-participate-in-native-form-validation), we started seeing non-user impacting errors being logged in Firefox in the form `"An invalid form control with name='' is not focusable"`. While this wasn't manifesting as an issue for users, it did start us exploring how to improve focusability of ZUI Input.
+
+For improved focus support, all form-associated custom elements in ZUI now delegate focus, via [`delegatesFocus`](https://developer.mozilla.org/en-US/docs/Web/API/ShadowRoot/delegatesFocus).
+
+This should have no notable impact, but does reduce the amount of code required to support this key aspect of web development in our toolkit.
+
+<docs-spacer></docs-spacer>
+
+## Deprecations and removed features
+
+<docs-note>There are no deprecations or removed features in this release.</docs-note>
