@@ -29,6 +29,8 @@ Since the inception of ZUI Tooltip, we've encountered issues with the stacking c
 
 <docs-note><strong>Note:</strong> All ZUI Tooltips will be hidden in browsers that do not support the Popover API.</docs-note>
 
+<docs-spacer size="small"></docs-spacer>
+
 #### Additional tooltip corner positions support
 
 ZUI Tooltips now supports 4 new tooltip positions: top-left, top-right, bottom-left, and bottom-right.
