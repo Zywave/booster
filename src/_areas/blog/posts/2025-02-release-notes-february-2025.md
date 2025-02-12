@@ -4,7 +4,7 @@ type: blogPost
 title: Release Notes - February 2025
 description: ZUI Tooltip gets an overhaul with the Popover API; accessibility
   win with prefers-reduced-motion; simplified font family list; and more!
-date: 2025-02-11T21:23:43.818Z
+date: 2025-02-12T02:00:43.818Z
 hideToc: false
 tags:
   - Release Notes
