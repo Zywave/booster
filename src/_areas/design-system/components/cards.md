@@ -5,7 +5,7 @@ mainComponentName: zui-card
 includedElements: []
 title: Cards
 subtitle: Highly flexible foundational building blocks used as a container for a variety of content.
-statusOverride: Unstable
+statusOverride: unstable
 ---
 
 ## Coming soon
