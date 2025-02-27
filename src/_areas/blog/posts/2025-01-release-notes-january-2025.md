@@ -61,7 +61,7 @@ Now that we have natively implemented form validation, CSS selectors such as `:i
 
 <docs-spacer size="small"></docs-spacer>
 
-### Summary of new attributes, properties, methods, events, and CSS
+#### Summary of new attributes, properties, methods, events, and CSS
 
 1. **Attributes**
 
