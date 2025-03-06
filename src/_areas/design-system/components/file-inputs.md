@@ -94,8 +94,7 @@ This icon can be found in the [icon documentation](/design-system/components/ico
 
 When using the drag and drop functionality of a File Input, the dropzone should be highlighted only when the user drags a file over the input. This will allow the user to differentiate between multiple inputs on a page and ensure that the correct file is being uploaded.
 
-<docs-note> Support for drag and drop in File Inputs is not yet available. You can track our progress [here](https://gitlab.com/zywave/devkit/zui/zui/-/issues/317).
-</docs-note>
+
 
 - - -
 
