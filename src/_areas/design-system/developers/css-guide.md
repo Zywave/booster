@@ -24,8 +24,7 @@ This stylesheet can be found in two packages: `zui-app-styles` and `zui-bundle`.
 ```html
 <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/css/zui-bundle.app.css" />
 ```
-
-<docs-spacer size="small"></docs-spacer>
+<br>
 
 `zui-bundle.app.css` includes both `zui-base-styles` and `zui-app-styles` stylesheets. The benefit of including the `zui-base-styles` stylesheet, is when you use `zui-app-styles` it makes sure browsers render all elements consistently.
 
@@ -43,11 +42,7 @@ This stylesheet can be found in two packages: `zui-app-styles` and `zui-bundle`.
 
 Stylesheets have a tendency to become excessive and brittle. Naming things is difficult. A class name is chosen but later its meaning can become irrelevant, and future developers aren't certain what styles can be safely removed. Utility classes offer flexibility with semantics, exceptionally useful when a layout significantly changes, you're able to avoid renaming many classes. Conforming to a style library is also efficient for developers and projects.
 
-<docs-spacer size="small"></docs-spacer>
-
 Below is an example of a before and after, to illustrate a common problem, and how `zui-app-styles` can fix this:
-
-<docs-spacer size="small"></docs-spacer>
 
 <docs-grid columns="2">
 
@@ -271,8 +266,6 @@ Percents are great for creating a fluid layout, or for scaling purposes. Element
 ## CSS unit conversions
 
 Provided below are two formulas for the most common unit conversions.
-
-<docs-spacer size="small"></docs-spacer>
 
 ### px to rem
 
