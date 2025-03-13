@@ -6,46 +6,38 @@ subtitle: CSS classes to help you build applications faster.
 
 ## Overview
 
-</TOCItemId>
-
 ZUI exposes a `zui-app-styles` package which is a collection of style files containing both `shared` and `utility` classes for styling. The goal is to create a library of commonly used class names that consumers will become familiar with, thus reducing the need for creating unsemantic, one-off classes, and also minimizing code bloat.
 
----
+<docs-spacer></docs-spacer>
 
 
 ## Installation
 
 To install `zui-app-styles` there are 2 main ways to add to a project, very similar to how ZUI components are added.
 
-<docs-spacer size="small"></docs-spacer>
-
-** 1. Link to the `zui-app-styles` stylesheet via CDN **
-
 This stylesheet can be found in two packages: `zui-app-styles` and `zui-bundle`. Our recommendation is to point to either location, but unpin the version with `@latest` so you get the benefit of always linking to the latest version of `zui-app-styles`.
 
 <docs-spacer size="small"></docs-spacer>
 
-** 1. Link to `zui-bundle`'s stylesheet (recommended) **
+### Link to zui-bundle's stylesheet (recommended)
 
 ```html
-<head>
-  <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/css/zui-bundle.app.css" />
-</head>
+<link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-bundle@latest/dist/css/zui-bundle.app.css" />
 ```
+
+<docs-spacer size="small"></docs-spacer>
 
 `zui-bundle.app.css` includes both `zui-base-styles` and `zui-app-styles` stylesheets. The benefit of including the `zui-base-styles` stylesheet, is when you use `zui-app-styles` it makes sure browsers render all elements consistently.
 
 <docs-spacer size="small"></docs-spacer>
 
-** 2. Link to `zui-app-styles` stylesheet directly **
+### Link to zui-app-styles stylesheet directly
 
 ```html
-<head>
-  <link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.css" />
-</head>
+<link rel="stylesheet" href="https://cdn.zywave.com/@zywave/zui-app-styles@latest/dist/zui-app-styles.css" />
 ```
 
----
+<docs-spacer></docs-spacer>
 
 ## Purpose
 
@@ -55,22 +47,25 @@ Stylesheets have a tendency to become excessive and brittle. Naming things is di
 
 Below is an example of a before and after, to illustrate a common problem, and how `zui-app-styles` can fix this:
 
-<Grid>
-<GridCol col="span-6">
+<docs-spacer size="small"></docs-spacer>
 
-<Do />
+<docs-grid columns="2">
+
+<div>
+<docs-do>
 
 ```html
 <h2 class="zui row justify-center">A header</h2>
 <p class="zui row justify-center">Lorem ipsum...</p>
 ```
+</docs-do>
+<br>
 
 Refactored with `zui-app-styles`, the utility classes applied help describe their effect, rather than what the 'element' is.
+</div>
 
-</GridCol>
-<GridCol col="span-6">
-
-<DoNot />
+<div>
+<docs-do-not>
 
 ```css
 .header {
@@ -78,24 +73,24 @@ Refactored with `zui-app-styles`, the utility classes applied help describe thei
   justify-content: center;
 }
 ```
-
 ```html
 <h2 class="header">A header</h2>
 <p class="header">Lorem ipsum...</p>
 ```
+</docs-do-not>
+<br>
 
-`.header` is appropriately added to an `<h2>`, but it is also applied to a `<p>`, which is not a `header`. The styled appearance of both elements are 'correct' but the names are misrepresented. This might seem farfetched but style authors sometimes reuse classes to avoid creating a redundant copy of a class.
+`.header` is appropriately added to an `<h2>`, but it is also applied to a `<p>`, which is not a `header`. The styled appearance of both elements are _correct_ but the names are misrepresented. This might seem farfetched but style authors sometimes reuse classes to avoid creating a redundant copy of a class.
+</div>
+</docs-grid>
 
-</GridCol>
-</Grid>
-
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
 Feel free to create your own class names within your project; they're useful when applying several style properties via one class. Combine utility classes with custom classes when necessary.
 
 If applying more than 4 utility classes to an element, consider creating your own CSS class&mdash;especially if you plan to reuse. It's difficult to absorb and visualize what 10 applied utility styles looks like on an element; strive to be organized and succinct.
 
----
+<docs-spacer></docs-spacer>
 
 ## Contents
 
@@ -117,11 +112,21 @@ The `/utility/` folder houses different stylesheets based on the type of effects
 
 #### .zui class / zui-all-reset.scss
 
-The stylesheet `.zui-all-reset.scss` is responsible for ensuring all ZUI utility classes do not clash with third-party stylesheets.
+The stylesheet `zui-all-reset.scss` is responsible for ensuring all ZUI utility classes do not clash with third-party stylesheets.
 
 To use any and all ZUI utility classes, the CSS class ** `.zui` must be added ** to your element's `class` attribute.
 
+```html
+<div class="zui"></div>
+```
+
+<docs-spacer size="small"></docs-spacer>
+
 The `.zui` class prevents identical class names from colliding by unsetting all styles back to browser default. Take for instance `<div class="row">`: `zui-app-styles` defines a `.row` class and if another third-party stylesheet also has a `.row` class, those 2 class names can mix with unwanted side effects. `.zui` resets the element by removing all applied styles and then applies whatever ZUI utility classes on top of the now clean element.
+
+```html
+<div class="zui row"></div>
+```
 
 <docs-spacer size="small"></docs-spacer>
 
@@ -135,7 +140,7 @@ The `.zui` class prevents identical class names from colliding by unsetting all 
 
 #### elements.scss
 
-`elements.scss` can be thought of as HTML elements, or more solidified objects and items. This includes stylings for tables (`thead`, `th`, `tr`), line breaks, links, etc.
+`elements.scss` can be thought of as HTML elements, or more solidified objects and items. This includes stylings for tables (`thead`, `th`, `tr`), line breaks, hyperlinks, etc.
 
 <a href="https://gitlab.com/zywave/inner-source/booster/zui/-/blob/main/packages/styles/zui-app-styles/src/utility/elements.scss" target="_blank">View elements.scss file</a>
 
@@ -143,9 +148,9 @@ The `.zui` class prevents identical class names from colliding by unsetting all 
 
 #### spatial.scss
 
-`spatial.scss` includes classes for sizing, box model effects, margin and padding etc.
+`spatial.scss` includes classes for sizing, box model effects, margins and paddings, etc.
 
-The margin and padding utility classes are based on what we refer to as 't-shirt sizes', i.e. `s`, `m`, `l`, `xl`, etc. These sizes are static and do not grow or shrink in response to the viewport width. If you need them to be dynamic, consider writing your own classes with media and container queries.
+The margin and padding utility classes are based on what we refer to as "t-shirt sizes" (e.g., `s`, `m`, `l`, `xl`). These sizes are static and do not grow or shrink in response to the viewport width. If you need them to be dynamic, consider writing your own classes with media and container queries.
 
 <a href="https://gitlab.com/zywave/inner-source/booster/zui/-/blob/main/packages/styles/zui-app-styles/src/utility/spatial.scss" target="_blank">View spatial.scss file</a>
 
@@ -157,16 +162,13 @@ This stylesheet houses all things related to font sizing, weights, truncation, t
 
 <a href="https://gitlab.com/zywave/inner-source/booster/zui/-/blob/main/packages/styles/zui-app-styles/src/utility/typography.scss" target="_blank">View typography.scss file</a>
 
-<docs-spacer size="small"></docs-spacer>
-
-</TabPage>
-<TabPage>
+<docs-spacer></docs-spacer>
 
 ## Mobile first approach
 
 We aim to provide the best user experience possible by taking a mobile-first approach. This means we design for the smallest screen size first (`30em` or `480px`), then progressively enhance the experience as more screen real estate becomes available.
 
----
+<docs-spacer></docs-spacer>
 
 ## Breakpoints
 
@@ -185,15 +187,15 @@ There are 6 breakpoints available. The breakpoints are not named after devices b
 
 <small>\*`em` units are based off the browser's default font size of 16px</small>
 
-<zui-well type="info">Did you know we provide SCSS variables for these breakpoints in the <a href="https://gitlab.com/zywave/inner-source/booster/zui/-/blob/main/packages/styles/zui-base-styles/src/_variables.scss" target="_blank">ZUI Toolkit</a>?</zui-well>
+<docs-note>Did you know we provide SCSS variables for these breakpoints in the <a href="https://gitlab.com/zywave/inner-source/booster/zui/-/blob/main/packages/styles/zui-base-styles/src/_variables.scss" target="_blank">ZUI Toolkit</a>?</docs-note>
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
 ### Why use `em` values for media queries?
 
 During our research, we found that pixels, which are an absolute unit, do not scale appropriately across multiple devices due to various pixel densities. `em`s, however, are relative to their direct or nearest parent font size and do a better job of scaling and are more precise. Also, they are more widely supported than `rem`s, so we recommend using `em`s for all media queries.
 
----
+<docs-spacer></docs-spacer>
 
 ## Font sizes
 
@@ -209,7 +211,7 @@ body {
 }
 ```
 
----
+<docs-spacer></docs-spacer>
 
 ## CSS units
 
@@ -226,39 +228,51 @@ We've provided some guidelines below to help you choose the best unit for your p
 | Viewport width  | `vw`  | 1% of the width of the initial containing block (root element)  |
 | Viewport height | `vh`  | 1% of the height of the initial containing block (root element) |
 
-<Spacer size="small"/>
+<docs-spacer size="small"></docs-spacer>
 
 ### Pixel (px)
 
 Pixels are only recommended for spacing and layout, but not for font-size. As an absolute unit, pixels do not scale if users increase their browser font size. A great example of when to use pixels is border widths.
 
-<zui-well type="info" static>Still not sure if you should be using pixels? If scaling and proportions are important, you probably shouldn't use pixels. Use relative units instead.</zui-well>
+<docs-note>Still not sure if you should be using pixels? If scaling and proportions are important, you probably shouldn't use pixels. Use relative units instead.</docs-note>
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Percent (%)
 
 Percents are great for creating a fluid layout, or for scaling purposes. Elements will resize to a defined percentage of the total space available to them, provided by their parent container. Setting an image's size in percents will allow it to grow and shrink as the screen real estate changes.
 
-### `em`
+<docs-spacer size="small"></docs-spacer>
+
+### em
 
 `em`s are recommended for font sizes and when proportions are important. An `em` is equal to its parent's font size. For example, if a container's font size is set to `30px`, then `1em` is equal to `30px` and `2em` is equal to `60px`.
 
-### `rem`
+<docs-spacer size="small"></docs-spacer>
+
+### rem
 
 `rem`s are also recommended for font sizes and when proportionsa are important, with one caveat that they will always be relative to the _root element_'s (`<html>`) font size. For example, if a root element's font size is set to `16px`, a container's font size is set to `18px`, but its padding is set to `1rem`, the `1rem` equates to `16px`.
+
+<docs-spacer size="small"></docs-spacer>
 
 ### Viewport width (vw)
 
 `vw` is similar to `%` with the exception that it depends on the width of the viewport and not its parent element. This unit is best used when your element relys on the width of the viewport, regardless of its parent container.
 
+<docs-spacer size="small"></docs-spacer>
+
 ### Viewport height (vh)
 
 `vh` is also similar to `%` with the exception that it depends on the height of the viewport and not its parent element. This unit is best used when your element relys on the height of the viewport, regardless of its parent container.
 
----
+<docs-spacer></docs-spacer>
 
 ## CSS unit conversions
 
 Provided below are two formulas for the most common unit conversions.
+
+<docs-spacer size="small"></docs-spacer>
 
 ### px to rem
 
@@ -269,6 +283,8 @@ Provided below are two formulas for the most common unit conversions.
 30px / 16px = 1.875rem
 ```
 
+<docs-spacer size="small"></docs-spacer>
+
 ### px to %
 
 ```shell
@@ -277,7 +293,3 @@ Provided below are two formulas for the most common unit conversions.
 # example
 600px / 1024px * 100 = 58.59375%
 ```
-
-<!-- end Responsive design page -->
-</TabPage>
-</Tabs>
