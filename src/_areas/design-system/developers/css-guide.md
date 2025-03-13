@@ -253,7 +253,7 @@ Percents are great for creating a fluid layout, or for scaling purposes. Element
 <docs-spacer size="small"></docs-spacer>
 
 ### ch
-`ch` are recommended for scaling or aligning elements, such as text inputs, based on character count. For example, setting a text input field to `12ch` to expect a value in the following 12-character format: `000-000-0000`.
+`ch`s are recommended for scaling or aligning elements, such as text inputs, based on character count. For example, setting a text input field to `12ch` to expect a value in the following 12-character format: `000-000-0000`.
 
 <docs-spacer size="small"></docs-spacer>
 
