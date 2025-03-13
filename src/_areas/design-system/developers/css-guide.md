@@ -220,6 +220,7 @@ We've provided some guidelines below to help you choose the best unit for your p
 | Percent         | `%`   | Relative to the same property of the parent element             |
 | Em              | `em`  | Relative to its direct or nearest parent font size              |
 | Root em         | `rem` | Relative to the root element's font size                        |
+| Character width | `ch` | Based on the width of the "0" (zero) character in the element's current font |
 | Viewport width  | `vw`  | 1% of the width of the initial containing block (root element)  |
 | Viewport height | `vh`  | 1% of the height of the initial containing block (root element) |
 
@@ -247,7 +248,12 @@ Percents are great for creating a fluid layout, or for scaling purposes. Element
 
 ### rem
 
-`rem`s are also recommended for font sizes and when proportionsa are important, with one caveat that they will always be relative to the _root element_'s (`<html>`) font size. For example, if a root element's font size is set to `16px`, a container's font size is set to `18px`, but its padding is set to `1rem`, the `1rem` equates to `16px`.
+`rem`s are also recommended for font sizes and when proportions are important, with one caveat that they will always be relative to the _root element_'s (`<html>`) font size. For example, if a root element's font size is set to `16px`, a container's font size is set to `18px`, but its padding is set to `1rem`, the `1rem` equates to `16px`.
+
+<docs-spacer size="small"></docs-spacer>
+
+### ch
+`ch` are recommended for scaling or aligning elements, such as text inputs, based on character count. For example, setting a text input field to `12ch` to expect a value in the following 12-character format: `000-000-0000`.
 
 <docs-spacer size="small"></docs-spacer>
 
