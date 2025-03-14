@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>zui-bundle</title>
+    <link rel="stylesheet" href="./dist/css/zui-bundle.fouc.css" />
+    <link rel="stylesheet" href="./dist/css/zui-bundle.app.css" />
+    <!-- mimic scenario where consumer uses babel polyfill library -->
+    <style>
+      .tabbed-page:not(.is-visible) {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <zui-shell app-name="Test">
+      <zui-shell-topbar>
+        <zui-logo slot="logo"></zui-logo>
+        <zui-button slot="modules">
+          <a href="#">Logout</a>
+        </zui-button>
+        <zui-shell-user
+          slot="user"
+          given-name="John"
+          family-name="Cruikshank"
+          profile-name="Zywave"
+          username="john.cruikshank@zywave.com"
+          profile-detail="Milwaukee, WI"
+          logout-user-url="#"
+          manage-user-url="#"
+          manage-profile-url="#"
+          switch-profile-url="#"
+          notification-count="6"
+          view-notifications-url="https://google.com"
+          impersonating-profile-name="jxiong1337"
+          impersonating-given-name="Julie"
+          impersonating-family-name="Xiong"
+          impersonating
+        ></zui-shell-user>
+      </zui-shell-topbar>
+
+      <zui-shell-nav>
+        <zui-shell-context-switcher context-title="ABC Company" context-label="Viewing as" action-text="switch">
+        </zui-shell-context-switcher>
+        <zui-shell-nav-item>
+          <zui-icon icon="zui-nav-company" slot="icon"></zui-icon>
+          <a href="#">Overview</a>
+        </zui-shell-nav-item>
+        <zui-shell-nav-item>
+          <zui-icon icon="zui-nav-administrators" slot="icon"></zui-icon>
+          <a href="#">Administrators</a>
+        </zui-shell-nav-item>
+      </zui-shell-nav>
+
+      <zui-shell-content>
+        <div class="zui shell-content-wrapper">
+          <zui-tabs>
+            <zui-tab>Form fields</zui-tab>
+            <zui-tab>Buttons</zui-tab>
+            <zui-tab>Wells</zui-tab>
+            <zui-tab>Table</zui-tab>
+            <zui-tab>Dialog</zui-tab>
+          </zui-tabs>
+
+          <section class="tabbed-page-container">
+            <div class="tabbed-page">
+              <h2>Form fields</h2>
+              <div class="zui row">
+                <div class="zui column vanilla">
+                  <zui-formfield label="Vanilla select">
+                    <select name="vanilla-select">
+                      <option>Vanilla1</option>
+                      <option>Vanilla2</option>
+                    </select>
+                  </zui-formfield>
+                  <zui-formfield label="Vanilla multiselect">
+                    <select id="multiple" name="vanilla-multiselect" multiple>
+                      <option>VanillaM1</option>
+                      <option selected>VanillaM2</option>
+                    </select>
+                  </zui-formfield>
+                  <zui-formfield class="part-demo" label="Vanilla input">
+                    <input type="text" name="vanilla-input" />
+                  </zui-formfield>
+                  <zui-formfield label="Vanilla checkbox">
+                    <input type="checkbox" name="vanilla-checkbox" />
+                  </zui-formfield>
+                  <zui-formfield label="Vanilla radio">
+                    <input type="radio" name="vanilla-radio" />
+                  </zui-formfield>
+                  <zui-formfield label="Vanilla radio2">
+                    <input type="radio" name="vanilla-radio2" value="vanilla-radio2" />
+                  </zui-formfield>
+                </div>
+                <div class="zui column boujie">
+                  <zui-formfield label="ZUI Multiselect Dropdown">
+                    <zui-select-dropdown
+                      id="zuiSelectDropdown"
+                      name="zui-select-dropdown"
+                      multiple
+                      placeholder="Select multiple values..."
+                    >
+                      <zui-option value="test-1">Test1</zui-option>
+                      <zui-option value="test-2">Test2</zui-option>
+                      <zui-option value="test-3">Test3</zui-option>
+                      <zui-option value="test-4">Test4</zui-option>
+                      <zui-option value="test-5">Test5</zui-option>
+                    </zui-select-dropdown>
+                  </zui-formfield>
+                  <zui-formfield label="ZUI MultiSelect">
+                    <zui-select id="zuiSelect" name="zui-select" placeholder="Select multiple values..." multiple>
+                      <zui-option value="test-1">Test1</zui-option>
+                      <zui-option value="test-2">Test2</zui-option>
+                      <zui-option value="test-3">Test3</zui-option>
+                      <zui-option value="test-4">Test4</zui-option>
+                      <zui-option value="test-5">Test5</zui-option>
+                    </zui-select>
+                  </zui-formfield>
+                  <zui-formfield label="ZUI Select">
+                    <zui-select id="zuiSelect2" name="zui-select2">
+                      <zui-option value="test-1">Test1</zui-option>
+                      <zui-option value="test-2">Test2</zui-option>
+                      <zui-option value="test-3">Test3</zui-option>
+                      <zui-option value="test-4">Test4</zui-option>
+                      <zui-option value="test-5">Test5</zui-option>
+                    </zui-select>
+                  </zui-formfield>
+                  <zui-formfield class="part-demo" label="ZUI input">
+                    <zui-input name="zui-input"></zui-input>
+                  </zui-formfield>
+                  <zui-formfield label="ZUI Checkbox">
+                    <zui-checkbox name="zui-checkbox"></zui-checkbox>
+                  </zui-formfield>
+                  <zui-formfield label="ZUI Toggle">
+                    <zui-toggle name="zui-toggle"></zui-toggle>
+                  </zui-formfield>
+                  <zui-formfield label="ZUI radio">
+                    <zui-radio name="zui-radio"></zui-radio>
+                  </zui-formfield>
+                  <zui-formfield label="ZUI radio2">
+                    <zui-radio name="zui-radio2" value="zui-radio2-value"></zui-radio>
+                  </zui-formfield>
+                </div>
+              </div>
+            </div>
+            <div class="tabbed-page">
+              <h2>Buttons</h2>
+              <h3>Primary & Secondary</h3>
+              <zui-button-group style="margin-bottom: 10px;">
+                <zui-button>One</zui-button>
+                <zui-button id="dialogOpen">Two (open dialog)</zui-button>
+                <zui-button>Three</zui-button>
+                <zui-button-dropdown icon>
+                  <zui-icon icon="zui-more"></zui-icon>
+                  <button slot="option">Update</button>
+                  <button slot="option">Print</button>
+                  <button slot="option">Email</button>
+                  <a href="#" slot="option" style="color: red;">Delete</a>
+                </zui-button-dropdown>
+              </zui-button-group>
+              <zui-button-group>
+                <zui-button type="secondary">One</zui-button>
+                <zui-button type="secondary">Two</zui-button>
+                <zui-button type="secondary">Three</zui-button>
+                <zui-button-dropdown type="secondary" icon>
+                  <zui-icon icon="zui-more"></zui-icon>
+                  <button slot="option">Update</button>
+                  <button slot="option">Print</button>
+                  <button slot="option">Email</button>
+                  <a href="#" slot="option" style="color: red;">Delete</a>
+                </zui-button-dropdown>
+              </zui-button-group>
+
+              <hr />
+
+              <h3>Disabled</h3>
+              <zui-button-group style="margin-bottom: 10px;">
+                <zui-button disabled>One</zui-button>
+                <zui-button>Two</zui-button>
+                <zui-button>Three</zui-button>
+                <zui-button disabled>Four</zui-button>
+                <zui-button>Five</zui-button>
+              </zui-button-group>
+              <zui-button-group style="margin-bottom: 10px;">
+                <zui-button type="secondary">One</zui-button>
+                <zui-button disabled class="secondary">Two</zui-button>
+                <zui-button type="secondary">Three</zui-button>
+              </zui-button-group>
+
+              <hr />
+
+              <h3>Slotted variations</h3>
+              <zui-button-group>
+                <zui-button>
+                  <zui-icon icon="zui-download"></zui-icon>
+                  Download
+                </zui-button>
+                <zui-button>
+                  <zui-icon icon="zui-mail"></zui-icon>
+                  Email
+                </zui-button>
+                <zui-button-dropdown>
+                  <zui-icon icon="zui-share"></zui-icon>
+                  <span>Share</span>
+                  <button slot="option">Facebook</button>
+                  <button slot="option">LinkedIn</button>
+                  <button slot="option">Portal</button>
+                </zui-button-dropdown>
+                <zui-button-dropdown icon>
+                  <zui-icon icon="zui-more"></zui-icon>
+                  <button slot="option">Update</button>
+                  <button slot="option">Print</button>
+                  <button slot="option">Email</button>
+                  <a href="#" slot="option" style="color: red;">Delete</a>
+                </zui-button-dropdown>
+              </zui-button-group>
+
+              <div style="margin-top: 6px;">
+                <zui-button-group>
+                  <zui-button icon>
+                    <zui-icon icon="zui-download"></zui-icon>
+                  </zui-button>
+                  <zui-button icon>
+                    <zui-icon icon="zui-mail"></zui-icon>
+                  </zui-button>
+                  <zui-button-dropdown icon>
+                    <zui-icon icon="zui-share"></zui-icon>
+                    <a href="http://www.facebook.com" slot="option">Facebook</a>
+                    <button slot="option">LinkedIn</button>
+                    <button slot="option">Portal</button>
+                  </zui-button-dropdown>
+                  <zui-button-dropdown>
+                    <zui-icon icon="zui-share"></zui-icon>
+                    <span>Share</span>
+                    <button slot="option">Facebook</button>
+                    <button slot="option">LinkedIn</button>
+                    <button slot="option">Portal</button>
+                  </zui-button-dropdown>
+                  <zui-button-dropdown icon>
+                    <zui-icon icon="zui-more"></zui-icon>
+                    <button slot="option">Update</button>
+                    <button slot="option">Print</button>
+                    <button slot="option">Email</button>
+                    <a href="#" slot="option" style="color: red;">Delete</a>
+                  </zui-button-dropdown>
+                </zui-button-group>
+              </div>
+              <!-- end zui-button-group tab-->
+
+              <h1>ZUI Buttons</h1>
+              <zui-button-group style="margin-bottom: 10px;">
+                <zui-button disabled>One</zui-button>
+                <zui-button>Two</zui-button>
+                <zui-button>Three</zui-button>
+                <zui-button disabled>Four</zui-button>
+                <zui-button>Five</zui-button>
+              </zui-button-group>
+              <zui-button-group style="margin-bottom: 10px;">
+                <zui-button type="secondary">One</zui-button>
+                <zui-button disabled class="secondary">Two</zui-button>
+                <zui-button type="secondary">Three</zui-button>
+              </zui-button-group>
+              <zui-button-group style="margin-bottom: 10px;">
+                <zui-button>One</zui-button>
+                <zui-button>Two</zui-button>
+                <zui-button>Three</zui-button>
+                <zui-button-dropdown icon>
+                  <zui-icon icon="zui-more"></zui-icon>
+                  <button slot="option">Update</button>
+                  <button slot="option">Print</button>
+                  <button slot="option">Email</button>
+                  <a href="#" slot="option" style="color: red;">Delete</a>
+                </zui-button-dropdown>
+              </zui-button-group>
+              <zui-button-group>
+                <zui-button type="secondary">One</zui-button>
+                <zui-button type="secondary">Two</zui-button>
+                <zui-button type="secondary">Three</zui-button>
+                <zui-button-dropdown type="secondary" icon>
+                  <zui-icon icon="zui-more"></zui-icon>
+                  <button slot="option">Update</button>
+                  <button slot="option">Print</button>
+                  <button slot="option">Email</button>
+                  <a href="#" slot="option" style="color: red;">Delete</a>
+                </zui-button-dropdown>
+              </zui-button-group>
+
+              <hr />
+
+              <zui-button-group>
+                <zui-button>
+                  <zui-icon icon="zui-download"></zui-icon>
+                  Download
+                </zui-button>
+                <zui-button>
+                  <zui-icon icon="zui-mail"></zui-icon>
+                  Email
+                </zui-button>
+                <zui-button-dropdown>
+                  <zui-icon icon="zui-share" style="margin-right: 5px;"></zui-icon>
+                  <span>Share</span>
+                  <button slot="option">Facebook</button>
+                  <button slot="option">LinkedIn</button>
+                  <button slot="option">Portal</button>
+                </zui-button-dropdown>
+                <zui-button-dropdown icon>
+                  <zui-icon icon="zui-more"></zui-icon>
+                  <button slot="option">Update</button>
+                  <button slot="option">Print</button>
+                  <button slot="option">Email</button>
+                  <a href="#" slot="option" style="color: red;">Delete</a>
+                </zui-button-dropdown>
+              </zui-button-group>
+              <script>
+                document.getElementById("dialogOpen").addEventListener("click", () => {
+                  const dialog = document.getElementById("dialog");
+                  dialog.open();
+                });
+              </script>
+            </div>
+            <div class="tabbed-page">
+              <h2>Wells</h2>
+              <zui-well type="info">Employees must sign their own enrollment forms.</zui-well>
+              <zui-well type="warning"
+                >Make sure you review your enrollment form for accuracy before signing and sending to your
+                administrator.</zui-well
+              >
+              <zui-well type="error"
+                >Please edit the statement details to not match another carrier statement.
+              </zui-well>
+            </div>
+            <div class="tabbed-page">
+              <h2>Table</h2>
+              <zui-table columns="6">
+                <zui-table-row header>
+                  <zui-table-cell>Name</zui-table-cell>
+                  <zui-table-cell>Title</zui-table-cell>
+                  <zui-table-cell>Born</zui-table-cell>
+                  <zui-table-cell>Died</zui-table-cell>
+                  <zui-table-cell>Age</zui-table-cell>
+                  <zui-table-cell>Action</zui-table-cell>
+                </zui-table-row>
+                <zui-table-row>
+                  <zui-table-cell>Paulus Atreides</zui-table-cell>
+                  <zui-table-cell>Old Duke</zui-table-cell>
+                  <zui-table-cell>10,089 A.G.</zui-table-cell>
+                  <zui-table-cell>10,156 A.G.</zui-table-cell>
+                  <zui-table-cell>67 years old</zui-table-cell>
+                  <zui-table-cell action>
+                    <zui-button type="secondary">Betray</zui-button>
+                  </zui-table-cell>
+                </zui-table-row>
+                <zui-table-row>
+                  <zui-table-cell>Leto Atreides I</zui-table-cell>
+                  <zui-table-cell>Red Duke</zui-table-cell>
+                  <zui-table-cell>10,140 A.G.</zui-table-cell>
+                  <zui-table-cell>10,191 A.G.</zui-table-cell>
+                  <zui-table-cell>51 years old</zui-table-cell>
+                  <zui-table-cell action>
+                    <zui-button type="secondary">Betray</zui-button>
+                  </zui-table-cell>
+                </zui-table-row>
+                <zui-table-row>
+                  <zui-table-cell>Paul Atreides</zui-table-cell>
+                  <zui-table-cell>Padishah Emperor</zui-table-cell>
+                  <zui-table-cell>10,176 A.G.</zui-table-cell>
+                  <zui-table-cell>10,219 A.G.</zui-table-cell>
+                  <zui-table-cell>43 years old</zui-table-cell>
+                  <zui-table-cell action>
+                    <zui-button type="secondary">Betray</zui-button>
+                  </zui-table-cell>
+                </zui-table-row>
+                <zui-table-row>
+                  <zui-table-cell>Alia Atreides</zui-table-cell>
+                  <zui-table-cell>Imperial Regent</zui-table-cell>
+                  <zui-table-cell>10,191 A.G.</zui-table-cell>
+                  <zui-table-cell>10,219 A.G.</zui-table-cell>
+                  <zui-table-cell>28 years old</zui-table-cell>
+                  <zui-table-cell action>
+                    <zui-button type="secondary">Betray</zui-button>
+                  </zui-table-cell>
+                </zui-table-row>
+                <zui-table-row>
+                  <zui-table-cell>Leto Atreides II</zui-table-cell>
+                  <zui-table-cell>God Emperor</zui-table-cell>
+                  <zui-table-cell>10,207 A.G.</zui-table-cell>
+                  <zui-table-cell>13,728 A.G.</zui-table-cell>
+                  <zui-table-cell>3,521 years old</zui-table-cell>
+                  <zui-table-cell action>
+                    <zui-button type="secondary">Betray</zui-button>
+                  </zui-table-cell>
+                </zui-table-row>
+                <zui-table-row summary>
+                  <zui-table-cell span="6" style="text-align: right;">
+                    Average lifespan: 742 years
+                  </zui-table-cell>
+                </zui-table-row>
+              </zui-table>
+            </div>
+            <div class="tabbed-page">
+              <h2>Dialog</h2>
+              <zui-button id="openDialogBtn">Open dialog</zui-button>
+              <zui-button id="openGiantDialogBtn">Open giant dialog</zui-button>
+            </div>
+          </section>
+        </div>
+      </zui-shell-content>
+      <zui-shell-footer></zui-shell-footer>
+    </zui-shell>
+
+    <zui-dialog id="dialog">
+      <h1 slot="header">Default dialog (max-width: 100%)</h1>
+      <div slot="content">
+        <p>I saw what you did to my stylized modal Julie, stop hiding the secrets from everyone.</p>
+        This is a default dialog.
+        <p>Content size determines width but it does not automatically span full width.</p>
+      </div>
+      <div slot="footer">
+        <zui-button dialog-confirm>
+          Ok
+        </zui-button>
+        <zui-button type="link" dialog-close>
+          Cancel
+        </zui-button>
+      </div>
+    </zui-dialog>
+
+    <zui-dialog id="giantDialog">
+      <h1 slot="header">Big boi scrolling modal, Baby.</h1>
+      <div slot="content">
+        <p><b>We should put the cool scroll bar in here.</b></p>
+        <p>
+          Yo, VIP, let's kick it!<br />
+          Ice ice baby<br />
+          Ice ice baby<br />
+          All right stop<br />
+          Collaborate and listen<br />
+          Ice is back with my brand new invention<br />
+          Something grabs a hold of me tightly<br />
+          Then I flow that a harpoon daily and nightly<br />
+          Will it ever stop?<br />
+          Yo, I don't know<br />
+          Turn off the lights and I'll glow<br />
+          To the extreme, I rock a mic like a vandal<br />
+          Light up a stage and wax a chump like a candle<br />
+          Dance <br />
+          Bum rush the speaker that booms<br />
+          I'm killin' your brain like a poisonous mushroom<br />
+          Deadly, when I play a dope melody<br />
+          Anything less that the best is a felony<br />
+          Love it or leave it<br />
+          You better gain way<br />
+          You better hit bull's eye<br />
+          The kid don't play<br />
+          If there was a problem<br />
+          Yo, I'll solve it<br />
+          Check out the hook while my DJ revolves it<br />
+          Ice ice baby Vanilla<br />
+          Ice ice baby Vanilla<br />
+          Ice ice baby Vanilla<br />
+          Ice ice baby Vanilla<br />
+          Now that the party is jumping<br />
+          With the bass kicked in, the fingers are pumpin'<br />
+          Quick to the point, to the point no faking<br />
+          I'm cooking MC's like a pound of bacon<br />
+          Burning them if they're not quick and nimble<br />
+          I go crazy when I hear a cymbal<br />
+          And a hi hat with a souped up tempo<br />
+          I'm on a roll and it's time to go solo<br />
+          Rollin in my 5.0<br />
+          With my ragtop down so my hair can blow<br />
+          The girlies on standby<br />
+          Waving just to say hi<br />
+          Did you stop?<br />
+          No, I just drove by<br />
+          Kept on pursuing to the next stop<br />
+          I busted a left and I'm heading to the next block<br />
+          That block was dead<br />
+          Yo so I continued to a1a Beachfront Ave<br />
+          Girls were hot wearing less than bikinis<br />
+          Rock man lovers driving Lamborghini<br />
+          Jealous 'cause I'm out getting mine<br />
+          Shay with a gauge and Vanilla with a nine<br />
+          Ready for the chumps on the wall<br />
+          The chumps are acting ill because they're so full of eight balls<br />
+          Gunshots ranged out like a bell<br />
+          I grabbed my nine<br />
+          All I heard were shells<br />
+          Fallin' on the concrete real fast<br />
+          Jumped in my car, slammed on the gas<br />
+          Bumper to bumper the avenue's packed<br />
+          I'm tryin' to get away before the jackers jack<br />
+          Police on the scene<br />
+          You know what I mean<br />
+          They passed me up, confronted all the dope fiends<br />
+          If there was a problem<br />
+          Yo, I'll solve it<br />
+          Check out the hook while my DJ revolves it
+        </p>
+      </div>
+      <zui-button slot="footer" type="link" dialog-close>Cancel</zui-button>
+      <zui-button slot="footer" dialog-confirm>Ok</zui-button>
+    </zui-dialog>
+
+    <script type="module" src="./dist/bundle.js"></script>
+    <script type="module" src="./dist/components/table.js"></script>
+    <script>
+      const tabEls = document.querySelectorAll("zui-tab");
+  
+      function setSelectedTabVisible() {
+        const selectedTabEl = document.querySelector("zui-tabs");
+        const selectedTabVal = selectedTabEl.getAttribute("selected");
+        const pageTabs = Array.from(document.querySelectorAll('.tabbed-page-container > .tabbed-page'));
+        pageTabs[Number(selectedTabVal)].classList.add('is-visible');
+      }
+  
+      function handleTabClick() {
+        setTimeout(() => {
+          const selectedPageTab = document.querySelector('.tabbed-page-container .tabbed-page.is-visible');
+          selectedPageTab && selectedPageTab.classList.remove('is-visible');
+          setSelectedTabVisible();
+        }, 1);
+      }
+  
+      setSelectedTabVisible();
+  
+      tabEls.forEach((tab) => {
+        tab.addEventListener("click", handleTabClick);
+      });
+    </script>
+    <script defer>
+      setTimeout(() => {
+        const btn = document.querySelector('#openDialogBtn');
+        const btnGiant = document.querySelector('#openGiantDialogBtn');
+        btn.addEventListener('click', () => {
+          document.querySelector('#dialog').open();
+        });
+        btnGiant.addEventListener('click', () => {
+          document.querySelector('#giantDialog').open();
+        });
+      }, 200);
+    </script>
+  </body>
+</html>
