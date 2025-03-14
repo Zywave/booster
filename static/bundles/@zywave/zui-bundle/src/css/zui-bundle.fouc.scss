@@ -1,0 +1,34 @@
+@use '@zywave/zui-breadcrumbs/dist/css/zui-breadcrumbs.fouc.css';
+@use '@zywave/zui-button/dist/css/zui-button.fouc.css';
+@use '@zywave/zui-card/dist/css/zui-card.fouc.css';
+@use '@zywave/zui-checkbox/dist/css/zui-checkbox.fouc.css';
+@use '@zywave/zui-dialog/dist/css/zui-dialog.fouc.css';
+@use '@zywave/zui-error-page/dist/css/zui-error-page.fouc.css';
+@use '@zywave/zui-expander/dist/css/zui-expander.fouc.css';
+@use '@zywave/zui-formfield/dist/css/zui-formfield.fouc.css';
+@use '@zywave/zui-icons/dist/css/zui-icons.fouc.css';
+@use '@zywave/zui-input/dist/css/zui-input.fouc.css';
+@use '@zywave/zui-logo/dist/css/zui-logo.fouc.css';
+@use '@zywave/zui-multipicker/dist/css/zui-multipicker.fouc.css';
+@use '@zywave/zui-notifier/dist/css/zui-notifier.fouc.css';
+@use '@zywave/zui-pager/dist/css/zui-pager.fouc.css';
+@use '@zywave/zui-picker/dist/css/zui-picker.fouc.css';
+@use '@zywave/zui-progress/dist/css/zui-progress.fouc.css';
+@use '@zywave/zui-radio/dist/css/zui-radio.fouc.css';
+@use '@zywave/zui-search/dist/css/zui-search.fouc.css';
+@use '@zywave/zui-select/dist/css/zui-select.fouc.css';
+@use '@zywave/zui-shell/dist/css/zui-shell.fouc.css';
+@use '@zywave/zui-slider/dist/css/zui-slider.fouc.css';
+@use '@zywave/zui-spinner/dist/css/zui-spinner.fouc.css';
+@use '@zywave/zui-step-flow/dist/css/zui-step-flow.fouc.css';
+@use '@zywave/zui-svg/dist/css/zui-svg.fouc.css';
+@use '@zywave/zui-table/dist/css/zui-table.fouc.css';
+@use '@zywave/zui-tabs/dist/css/zui-tabs.fouc.css';
+@use '@zywave/zui-tag/dist/css/zui-tag.fouc.css';
+@use '@zywave/zui-toggle/dist/css/zui-toggle.fouc.css';
+@use '@zywave/zui-tooltip/dist/css/zui-tooltip.fouc.css';
+@use '@zywave/zui-well/dist/css/zui-well.fouc.css';
+
+.zui-fouc-canary {
+  background-color: #ffef00; //chirp chirp
+}

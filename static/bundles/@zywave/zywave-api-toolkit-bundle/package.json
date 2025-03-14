@@ -1,0 +1,32 @@
+{
+  "name": "@zywave/zywave-api-toolkit-bundle",
+  "version": "1.0.65",
+  "main": "dist/loader.js",
+  "module": "dist/loader.js",
+  "type": "module",
+  "dependencies": {
+    "@oddbird/popover-polyfill": "0.5.2",
+    "@zywave/zywave-api-client": "^1.0.23",
+    "@zywave/zywave-components-all": "^1.0.61"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/plugin-transform-runtime": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/runtime": "^7.22.6",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "rollup": "^3.26.3",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-minify-html-literals": "^1.2.6",
+    "rollup-plugin-summary": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "gitHead": "b575924e9b16324042ae8dc4171a629922c1ce35"
+}

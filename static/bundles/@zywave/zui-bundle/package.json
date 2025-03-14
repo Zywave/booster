@@ -1,0 +1,45 @@
+{
+  "name": "@zywave/zui-bundle",
+  "version": "4.1.18",
+  "type": "module",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build:after": "rollup --config && webpack --mode=production && node ./copy.mjs",
+    "lab": "es-dev-server --root-dir ../../../ --app-index packages/misc/zui-bundle/lab.html --open --node-resolve --watch",
+    "metrics:visualizer": "yarn run build:after && es-dev-server --root-dir ../../../ --app-index packages/misc/zui-bundle/dist/zui-bundle-metrics-visualizer.html --open --node-resolve --watch",
+    "metrics:size": "node ../../../scripts/node/read-and-write-directory-size.mjs --directory=dist --keyName=zui-bundle/dist --write=dist/zui-bundle-metrics-size.txt"
+  },
+  "dependencies": {
+    "@zywave/zui-app-styles": "^4.2.2",
+    "@zywave/zui-base-styles": "^4.2.2",
+    "@zywave/zui-components-all": "^4.0.55",
+    "dialog-polyfill": "^0.5.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/runtime": "^7.19.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "rollup": "^3.1.0",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-minify-html-literals": "^1.2.6",
+    "rollup-plugin-summary": "^2.0.0",
+    "rollup-plugin-visualizer": "^5.8.2",
+    "sass-loader": "^13.0.2",
+    "webpack": "5.97.1",
+    "webpack-cli": "^5.0.0",
+    "webpack-fix-style-only-entries": "^0.6.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "b04de63a898c7dfee1b220644aa5da783c4cf20e"
+}
