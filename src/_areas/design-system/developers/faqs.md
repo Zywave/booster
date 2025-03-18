@@ -10,53 +10,64 @@ subtitle: Busting common myths and lore about our design system.
 
 ZUI is an acronym that stands for <bold>Z</bold>ywave <bold>U</bold>ser <bold>I</bold>nterface. It's the standardization of the look and feel of the entire Zywave suite, across all Clouds. Its purpose is to enforce consistency, improve efficiency, and help design our brand.
 
-### I hear "ZAPI" sometimes. What is that?
+### What is "ZAPI"?
 
-ZAPI is another acronym that stands for <bold>Z</bold>ywave <bold>API</bold> Toolkit. It is a series of components&mdash;driven by APIs&mdash;that enable building applications faster, often by using ZUI under the hood.
+ZAPI stands for the **Zywave API Toolkit**. It is a comprehensive suite of components powered by APIs, designed to accelerate application development by leveraging the Zywave User Interface (ZUI) as its foundation.
 
-For example: "ZUI Shell" vs "Zywave/ZAPI Shell".
+#### Key Features:
 
-ZUI Shell is our standard around how the entire shell should look and behave, but the data underlying it is completely left out. For example, a 3rd party could build a Zywave-looking application, with their own navigation structure and user info component.
+- **ZUI Shell**: Standardizes the shell's look and behavior, excluding data.
+- **Zywave/ZAPI Shell**: Built with ZUI Shell and public APIs to enforce consistency in both look and data.
 
-Zywave/ZAPI Shell is built with ZUI Shell and our own public APIs to enforce not just the consistency of look and feel, but also the actual data underlying the shell (e.g., Universal Navigation).
+### Understanding "next" and "latest" in ZUI
 
-The goal of ZAPI is to further enforce consistency of user experience in our products, as well as expose a more "plug-n-build" type experience for engineers to build features that belong to "One Zywave".
+In the context of our deployment strategy for the Zywave User Interface (ZUI), we utilize the NPM package management system, which is common in the front-end development community. Here's what the terms "next" and "latest" mean:
 
-### What does "next" and "latest" mean in ZUI?
+- **NPM and Version Tags**: NPM is a widely used package manager for JavaScript, allowing developers to publish and consume packages. Version tags like "next" and "latest" indicate the stability and intended use of different package versions.
 
-Unlike most Zywave systems, ZUI does not distribute on a "per environment" basis. We simply release new versions of packages of code to an ecosystem known as NPM, a common package management system for the front end community at large. **next** and **latest** in that context correlate to what we consider to be active development, unstable ZUI (next) and stable ZUI ready for production consumption (latest).
+- **"next" Tag**: This tag is used for versions in active development, which may include new features or experimental changes. These versions are considered unstable and are typically used by developers testing upcoming features.
 
-Our deployment model has been more apps to consume what we call an "unpinned version" of ZUI, so that the ZUI team can deploy new code to all of our applications, without any other deployments. That means awareness of these channels, and which are in use in production is paramount to the stability of our products.
+- **"latest" Tag**: This tag represents the most recent stable version of a package, ready for production use. It is the default version installed when running `npm install <package-name>`.
+
+- **Unpinned Version Model**: This model means applications are not locked to a specific version of a package, allowing them to automatically use the latest available version. This facilitates seamless updates and ensures applications benefit from the latest improvements without manual intervention.
+
+- **Common Practice**: Using version tags like "next" and "latest" is standard in software development, especially for open-source projects. It helps manage different stages of software development and provides users with guidance on which version to use based on their needs (development vs. production).
+
+This approach supports continuous integration and deployment, enabling rapid innovation while maintaining stability for production environments.
+
+### Example: Using "next" and "latest" Tags with `example-ui`
+
+Imagine you are working on a project that uses a UI library called `example-ui`. This library is published on NPM and follows the common practice of using "next" and "latest" tags to manage its versions.
+
+1. **Installing the Latest Stable Version**:
+   - When you run the command `npm install example-ui`, NPM will install the version of `example-ui` that is tagged as "latest". This is the most recent stable version, suitable for production use.
+
+2. **Testing Upcoming Features**:
+   - If you want to test new features or contribute to the development of `example-ui`, you can install the version tagged as "next" by running `npm install example-ui@next`. This version may include experimental changes and is considered unstable, so it's typically used in a development environment.
+
+3. **Unpinned Version Model**:
+   - Your application is set up to automatically use the latest version of `example-ui` without specifying a fixed version number. This means that whenever a new "latest" version is released, your application will automatically update to use it, ensuring you always have the latest stable features and fixes.
+
+4. **Managing Stability**:
+   - While using the "next" version can be beneficial for testing new features, it's important to monitor changes and test thoroughly to ensure that updates do not introduce instability into your application.
+
+This example demonstrates how the "next" and "latest" tags can be used to manage different stages of software development, providing flexibility for both stable production use and active development.
 
 <hr />
 
 ## Using ZUI
 
 ### I think I found an issue with ZUI. What should I do?
-
-If you think you've found a bug in ZUI, the first thing you should do is check: is anyone else seeing this issue? We're working on making this more easy to find, but currently you can go to JIRA, and search for bugs in the ZUI project.
-
-Next, we would really recommend you try to reproduce the issue in a framework-less way. Too often, we've found people have issues with ZUI that aren't caused by ZUI, but by the framework or technology they use and its interop with ZUI. We have a pretty awesome [CodePen template](https://codepen.io/pen?template=ZEQEQwN) that comes preloaded with the our active development ZUI (e.g. @next). CodePen is a free service that lets you quickly whip up some plain old CSS, JS, and HTML, which is great for helping to find actual ZUI issues. If you can reproduce it in a vanilla way, then it's probably us, and not you.
-
-If you've made it this far, then you probably have a bug. There are numerous ways you can debug ZUI (although we are always open for ideas on how to improve your experience there), but the best thing we can recommend currently is to reproduce the issue in the labs. Conveniently, if you did the CodePen bit earlier, you can easily just copy/paste that into the corresponding component lab!
-
-Finally, and hopefully not as common, there are sometimes issues that aren't with the raw ZUI Toolkit, but rather the bundle we all know and love. If you think you've encountered a bundle issue, we have some further documentation for debugging that and finding issues [here](https://gitlab.zywave.com/zui/zui/-/blob/dev/packages/misc/zui-bundle/README.md).
+1. **Check for Existing Issues**: Search for bugs in the ZUI project on [JIRA](https://zywave-rd.atlassian.net/jira/software/c/projects/BOOSTER/boards/188).
+2. **Reproduce the Issue**: Use our [CodePen template](https://codepen.io/pen?template=ZEQEQwN) to reproduce the issue in a framework-less way.
+3. **Debugging**: If reproducible, debug in the labs or refer to [bundle issue documentation](https://gitlab.zywave.com/zui/zui/-/blob/dev/packages/misc/zui-bundle/README.md).
 
 ### I've been told to use a component or pattern in my feature, but I do not see it in the Toolkit. What should I do?
+1. **Communicate**: Inform your designer/team about the unavailability.
+2. **Prototype**: Build a prototype in your feature.
+3. **Contribute**: Add the component to the Toolkit yourself, following contribution guidelines.
 
-Great question! There are a number of ways you can go about this, and we are actively working on increasing the transparency of what ZUI _says_ to use versus what is _readily available_ for use in the Toolkit.
-
-1. Let your designer/team know that that option isn't available in the Toolkit yet. Sometimes, it's as simple as a conversation to find an alternative solution that won't require you to be blocked by the Toolkit.
-
-   - Example alternatives include:
-     - Using an alternative design to solve the problem (e.g. a multipicker instead of a dropdown)
-     - Using a third-party component that is acceptable (extra points if it can or already looks like a ZUI component)
-   - If you opt for this direction, please still document that the need for something in the Toolkit wasn't there, so we can work to prioritize it. This can currently be done in the form of JIRA Ideas, although we are actively working to improve this, as well. If the Idea already exists, please comment on it and up the count.
-
-1. Help us by building a prototype in your feature! As long as you go into building your component as a typical component, no matter the framework, we can always take what you've learned and convert it in the future. You get a component that looks like ZUI today, and we get a boost up when we start building the component into the Toolkit!
-
-1. ZUI is an "open source"-like project. While there are people more dedicated to maintaining it than others, we appreciate any contribution. The fastest way to get something into the Toolkit is to add it to the Toolkit yourself! We have documentation for how to contribute in the repository and are constantly trying to make it easier to get started.
-   - **Note:** While we want to highly encourage more contribution, be careful with timelines and ZUI. ZUI has a strict release cycle to try to ensure no changes cause odd side effects in our apps. A lot of people are using ZUI in ways we can't always account for, and we want to ensure as much quality as we can in our releases. We are improving this release process with more automated testing, but that's not currently our reality.
+ **Note:** While we want to highly encourage more contribution, be careful with timelines and ZUI. ZUI has a strict release cycle to try to ensure no changes cause odd side effects in our apps. A lot of people are using ZUI in ways we can't always account for, and we want to ensure as much quality as we can in our releases. We are improving this release process with more automated testing, but that's not currently our reality.
 
 ### What is the process behind deprecating a feature?
 
