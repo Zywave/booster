@@ -9,29 +9,104 @@ This guide is to empower our community to contribute to the Booster Development 
 
 ## Contribution requirements
 
-Here are some requirements when you contribute code to our design system:
+Here are the requirements when contributing to our design system through innersource:
 
-1. If adding any new functionality or changing any current functionality, please write tests to verify your changes.
-1. Document any new functionality you add or functionality you change to be published on this site.
-1. Test your changes in the [recommended browsers at Zywave](https://support.zywave.com/s/article/Zywave-browser-recommendations) to ensure they work properly.
-1. Ping the App Platform team in Microsoft Teams when you have a merge request ready for review.
+1. **Code Quality**
+   - Write tests for any new functionality or changes to existing functionality
+   - Follow our established coding standards and patterns
+   - Ensure your code passes all linting and formatting checks
+   - Keep your changes focused and atomic
+
+2. **Documentation**
+   - Document all new functionality and changes in this documentation site
+   - Include clear examples and usage patterns
+   - Update relevant changelogs
+   - Add inline code documentation where necessary
+
+3. **Browser Compatibility**
+   - Test your changes in all [recommended browsers at Zywave](https://support.zywave.com/s/article/Zywave-browser-recommendations)
+   - Ensure responsive behavior works as expected
+   - Verify accessibility compliance
+
+4. **Innersource Process**
+   - Create a merge request for your changes
+   - Follow our branching strategy (create from main)
+   - Use conventional commits for all changes
+   - Respond to review feedback promptly
+   - Ensure CI/CD checks pass before requesting review
+
+5. **Communication**
+   - Tag relevant team members for review
+   - Provide clear context in your merge request description
+   - Be responsive to questions and feedback
+   - Keep the team informed of significant changes
+
+<docs-note>Remember that innersource contributions should follow the same high standards as internal development. If you're unsure about any requirements, don't hesitate to ask in the Booster Teams channel or on the Jira Booster ticket.</docs-note>
 
 <docs-spacer></docs-spacer>
 
 ## Initialization
 
-When you first clone the repository, you will need to run a few commands to get everything set up:
+### System Requirements
+- Node.js 20.17.0 or higher (recommended to use nvm for version management)
+- Yarn 1.22.22 or higher
+- Git
 
-1. `cd ${insert path to root of repository here}`
-2. `yarn install`
+### Installation Steps
 
-   * This one takes awhile, so go grab a coffee or something to snack on.
-3. `yarn run bootstrap`
+1. **Clone the Repository**
+   ```bash
+   git clone git@gitlab.com:zywave/inner-source/booster/zui.git
+   cd zui
+   ```
 
-   * Using a tool called [Lerna](https://lerna.js.org/), we are able to manage and publish these monorepo components with ZUI-to-ZUI dependencies.
-4. `yarn run build`
+2. **Install Dependencies**
+   ```bash
+   yarn install
+   ```
+   This installs all project dependencies defined in package.json files across the monorepo.
 
-   * Runs through every package defined in the monorepo and executes their `"build"` script as defined in their respective *package.json* file.
+3. **Bootstrap the Project**
+   ```bash
+   yarn run bootstrap
+   ```
+   This step:
+   - Links local packages together
+   - Installs dependencies for all packages
+   - Sets up the monorepo structure
+   - Ensures all packages can reference each other correctly
+
+4. **Build the Project**
+   ```bash
+   yarn run build
+   ```
+   This:
+   - Compiles TypeScript files
+   - Bundles components
+   - Processes styles
+   - Generates necessary build artifacts
+
+### Understanding the Build Process
+
+The project uses several tools to manage the build process:
+
+- **Lerna**: A tool for managing JavaScript projects with multiple packages. It:
+  - Manages package versions
+  - Links local packages together
+  - Handles dependency management across packages
+  - Streamlines publishing
+
+- **Bootstrap**: A crucial step that:
+  - Links all local packages together
+  - Ensures dependencies are correctly installed
+  - Sets up the monorepo structure
+  - Makes packages available to each other
+
+- **Build**: The final step that:
+  - Compiles source code
+  - Processes styles
+  - Generates distribution files
+  - Creates necessary build artifacts
 
 <docs-note>Having [Yarn 1](https://yarnpkg.com/en/) installed on your machine is a prerequisite for contributing.</docs-note>
 
