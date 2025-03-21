@@ -24,15 +24,8 @@ Breadcrumbs provide the user context of what page they came from when they are v
 ### When to use Breadcrumbs
 
 * When there are 2 or more pages in the hierarchy
-* When it's beneficial to inform users where they are
-* When users need a quick and efficient way to navigate back to previous pages
-
-<br>
-
-### Why do we use Breadcrumbs
-
-* Quick, efficient, and straightforward navigation within the application
-* Fast navigation: one-click access to get to a previous page
+* When it's beneficial to inform users which page they came from
+* To provide a quick and efficient way to navigate back to the previous page
 
 <hr>
 
@@ -44,16 +37,10 @@ For a more detailed breakdown of spacing and sizing, [view the design specs.](ht
 
 <br>
 
-Breadcrumbs can contain the following elements:
+Breadcrumbs contain the following elements:
 
-1. **Icon**: use left chevron at the beginning of the breadcrumb to indicate that the user will be taken back a page
-2. **Link**: a text link to the previous page
-
-<hr>
-
-## S﻿tates
-
-See text link documentation for details about states.
+1. **Chevron**: the left chevron icon indicates that the user will be taken back a page
+2. **Link**: the title of the previous page as a text link
 
 <hr>
 
