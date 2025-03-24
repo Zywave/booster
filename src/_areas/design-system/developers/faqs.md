@@ -19,7 +19,7 @@ ZAPI stands for the **Zywave API Toolkit**. It is a comprehensive suite of compo
 - **ZUI Shell**: Standardizes the shell's look and behavior, excluding data.
 - **Zywave/ZAPI Shell**: Built with ZUI Shell and public APIs to enforce consistency in both look and data.
 
-### Understanding "next" and "latest" in ZUI
+### Understanding "next" and "latest" in Booster
 
 In the context of our deployment strategy for Booster, we utilize the NPM package management system, which is common in the front-end development community. Here's what the terms "next" and "latest" mean:
 
