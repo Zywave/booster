@@ -8,7 +8,7 @@ subtitle: Busting common myths and lore about our design system.
 
 ### What does "ZUI" stand for?
 
-ZUI is an acronym that stands for <bold>Z</bold>ywave <bold>U</bold>ser <bold>I</bold>nterface. It's the standardization of the look and feel of the entire Zywave suite, across all Clouds. Its purpose is to enforce consistency, improve efficiency, and help design our brand.
+ZUI is an acronym that stands for Zywave User Interface. It is the former name given to Booster. While we are in the process of renaming everything as Booster, you may see or hear the name ZUI from time to time.
 
 ### What is "ZAPI"?
 
@@ -21,7 +21,7 @@ ZAPI stands for the **Zywave API Toolkit**. It is a comprehensive suite of compo
 
 ### Understanding "next" and "latest" in ZUI
 
-In the context of our deployment strategy for the Zywave User Interface (ZUI), we utilize the NPM package management system, which is common in the front-end development community. Here's what the terms "next" and "latest" mean:
+In the context of our deployment strategy for Booster, we utilize the NPM package management system, which is common in the front-end development community. Here's what the terms "next" and "latest" mean:
 
 - **NPM and Version Tags**: NPM is a widely used package manager for JavaScript, allowing developers to publish and consume packages. Version tags like "next" and "latest" indicate the stability and intended use of different package versions.
 
@@ -57,8 +57,10 @@ This example demonstrates how the "next" and "latest" tags can be used to manage
 
 ## Using ZUI
 
-### I think I found an issue with ZUI. What should I do?
-1. **Check for Existing Issues**: Search for bugs in the ZUI project on [JIRA](https://zywave-rd.atlassian.net/jira/software/c/projects/BOOSTER/boards/188).
+### I have a question. Where should I go to find an answer?
+We have started using Jira to track and answer questions. You can [review existing questions](https://zywave-rd.atlassian.net/issues/?filter=10378) to see if anyone else has already asked the same thing. Or you can [submit a new question](https://zywave-rd.atlassian.net/jira/software/c/projects/BOOSTER/form/38) by filling out our form. These questions are also visible on the Booster Teams channel so that anyone can view and respond to them.
+### I think I found an issue with Booster. What should I do?
+1. **Check for Existing Issues**: Search for bugs in the Booster project on [JIRA](https://zywave-rd.atlassian.net/jira/software/c/projects/BOOSTER/issues/BOOSTER-56?jql=project%20%3D%20%22BOOSTER%22%20AND%20type%20%3D%20Bug%20ORDER%20BY%20created%20DESC). Not seeing an issue logged? You can [report a bug with our form](https://zywave-rd.atlassian.net/jira/software/c/projects/BOOSTER/form/37) after you complete the next steps.
 2. **Reproduce the Issue**: Use our [CodePen template](https://codepen.io/pen?template=ZEQEQwN) to reproduce the issue in a framework-less way.
 3. **Debugging**: If reproducible, debug in the labs or refer to [bundle issue documentation](https://gitlab.zywave.com/zui/zui/-/blob/dev/packages/misc/zui-bundle/README.md).
 
