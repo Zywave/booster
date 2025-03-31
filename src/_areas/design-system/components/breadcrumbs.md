@@ -9,13 +9,13 @@ includedElements: []
 ---
 ## What are Breadcrumbs
 
-Breadcrumbs are a form of navigation that helps users view and backtrack efficiently through page hierarchies.
+Breadcrumbs are a secondary form of navigation that helps users understand their current location within the page hierarchy and provides a quick way to navigate back to previous pages. 
 
 <hr>
 
 ## Usage
 
-Breadcrumbs provide the user context of what page they came from when they are viewing nested content.
+Breadcrumbs provide context of the user's current location and enable efficient backtracking to previous pages without using the browser's back button. 
 
 ![Breadcrumb - Default](/images/breadcrumb-default.svg)
 
@@ -23,9 +23,10 @@ Breadcrumbs provide the user context of what page they came from when they are v
 
 ### When to use Breadcrumbs
 
-* When there are 2 or more pages in the hierarchy
-* When it's beneficial to inform users which page they came from
-* To provide a quick and efficient way to navigate back to the previous page
+* On pages with hierarchical navigation of 2 or more levels
+* When a user may need more clarity about their current location within the site structure
+* When offering quick navigation back to a parent page would improve the user experience
+* In complex workflows where a user may need to move between related screens
 
 <hr>
 
@@ -95,8 +96,8 @@ Avoid using icons that are not left chevrons, such as forward slash "/", dash "-
 
 ## Responsive Layout
 
-* Breadcrumbs on mobile should follow the same pattern and only show the previous page with a chevron to the left.
-* Breadcrumbs titles on mobile will truncate after 30 characters with an ellipsis at the end
+* Breadcrumbs maintain the same design and positioning on mobile devices
+* Breadcrumbs titles truncate after 30 characters with an ellipses
 
 ![Breadcrumbs - mobile layout](/images/moble.png)
 
