@@ -49,8 +49,6 @@ See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/
 * Popovers are triggered by clicking on a page element near the content they are supporting.
 * The positioning (up, down, left or right) will be determined by the amount of space available around the trigger. 
 
-
-
 ![Popover states](/images/popover-states-1.svg)
 
 ### Contents
