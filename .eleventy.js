@@ -5,6 +5,19 @@ const htmlArray = require("./src/_filters/htmlArray");
 const fs = require("fs");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
+/**
+ * Adds all lit 3rd party dependencies required for client-side hydration
+ * @param {*} eleventyConfig
+ */
+function addLitDependencies(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("node_modules/@webcomponents");
+  eleventyConfig.addPassthroughCopy("node_modules/@lit");
+  eleventyConfig.addPassthroughCopy("node_modules/@lit-labs");
+  eleventyConfig.addPassthroughCopy("node_modules/lit");
+  eleventyConfig.addPassthroughCopy("node_modules/lit-element");
+  eleventyConfig.addPassthroughCopy("node_modules/lit-html");
+}
+
 module.exports = function(eleventyConfig) {
 
   // Merge data instead of overriding
@@ -77,6 +90,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "static/": "/"});
   eleventyConfig.addPassthroughCopy("_includes/assets/");
   eleventyConfig.addPassthroughCopy("admin");
+
+  addLitDependencies(eleventyConfig);
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

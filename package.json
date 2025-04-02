@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "html-minifier": "^4.0.0",
+    "lit": "^3.2.1",
     "uglify-es": "^3.3.9"
   }
 }
