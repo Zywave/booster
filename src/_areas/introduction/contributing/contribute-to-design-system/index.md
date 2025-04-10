@@ -3,7 +3,7 @@ layout: documentation
 title: Contribute to the design system
 navTitle: Design system
 ---
-This guide is to empower our community to contribute to the Booster Development Network design system, commonly known as the Zywave User Interface (ZUI).
+This guide is to empower our community to contribute to the Booster Development Network design system, commonly known as the Booster.
 
 <docs-spacer></docs-spacer>
 
@@ -12,9 +12,9 @@ This guide is to empower our community to contribute to the Booster Development 
 Here are some requirements when you contribute code to our design system:
 
 1. If adding any new functionality or changing any current functionality, please write tests to verify your changes.
-1. Document any new functionality you add or functionality you change to be published on this site.
-1. Test your changes in the [recommended browsers at Zywave](https://support.zywave.com/s/article/Zywave-browser-recommendations) to ensure they work properly.
-1. Ping the App Platform team in Microsoft Teams when you have a merge request ready for review.
+2. Document any new functionality you add or functionality you change to be published on this site.
+3. Test your changes in the [recommended browsers at Zywave](https://support.zywave.com/s/article/Zywave-browser-recommendations) to ensure they work properly.
+4. Ping the App Platform team in Microsoft Teams when you have a merge request ready for review.
 
 <docs-spacer></docs-spacer>
 
@@ -28,7 +28,7 @@ When you first clone the repository, you will need to run a few commands to get 
    * This one takes awhile, so go grab a coffee or something to snack on.
 3. `yarn run bootstrap`
 
-   * Using a tool called [Lerna](https://lerna.js.org/), we are able to manage and publish these monorepo components with ZUI-to-ZUI dependencies.
+   * Using a tool called [Lerna](https://lerna.js.org/), we are able to manage and publish these monorepo components with Booster-to-Booster dependencies.
 4. `yarn run build`
 
    * Runs through every package defined in the monorepo and executes their `"build"` script as defined in their respective *package.json* file.
@@ -41,7 +41,7 @@ When you first clone the repository, you will need to run a few commands to get 
 
 When working in this monorepo, you'll want to be aware of our branching strategy. We prefer that you branch off of the main branch instead of forking the repository. Branching off of the main branch allows you to create a merge request with minimal merge conflicts.
 
-ZUI operates with one branch in mind:
+Booster operates with one branch in mind:
 
 1. *main* branch
 
@@ -61,9 +61,9 @@ ZUI operates with one branch in mind:
 
 ## Committing strategy
 
-Your commit message matters and must follow our conventional commit message strategy because they determine how ZUI packages are versioned.
+Your commit message matters and must follow our conventional commit message strategy because they determine how Booster packages are versioned.
 
-ZUI uses Lerna for CI operations across the entire monorepo. There are two things to note:
+Booster uses Lerna for CI operations across the entire monorepo. There are two things to note:
 
 1. On commit, a precommit hook is executed that will lint (and fix if possible) all staged files about to be committed.
 
@@ -112,7 +112,7 @@ All commits should look like the following:
 </docs-do-not>
 </docs-grid>
 <br>
-If you want to have an easy template for all ZUI commit messages, you can actually execute the following to the root of the repository:
+If you want to have an easy template for all Booster commit messages, you can actually execute the following to the root of the repository:
 <br>
 <br>
 
@@ -132,13 +132,13 @@ Now, when you try to make a commit, you'll get a prompt to fill in the commit de
 
 Based off of your commit messages, Lerna + Conventional Changelog will do a diff between the last version of a given package and the currently releasing changes, and figure out the proper version.
 
-ZUI 4.x is what we're currently on, and we plan to keep it that way until something shinier comes along. So, ZUI uses a slight fork of [conventional-changelog-angular](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular) which lets us pin down the major version, and sticks us in the minor and patch increments for all updates.
+ZUI 4.x is what we're currently on, and we plan to keep it that way until something shinier comes along. So, Booster uses a slight fork of [conventional-changelog-angular](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular) which lets us pin down the major version, and sticks us in the minor and patch increments for all updates.
 
 <docs-spacer size="small"></docs-spacer>
 
-### How ZUI currently versions itself
+### How Booster currently versions itself
 
-In descending order, this is how ZUI currently versions itself:
+In descending order, this is how Booster currently versions itself:
 
 1. If the commit contains `BREAKING CHANGE: <reason>` in the body, we will bump the minor version (e.g., 4.1.6 => 4.2.0)
    <zui-well type="warning" static>You won't be able to commit using `git commit -m` because this only accepts a subject line. Instead, use `git commit`, which will prompt your Git default text editor to open so you can include a body message.</zui-well>
@@ -148,7 +148,7 @@ In descending order, this is how ZUI currently versions itself:
 
 <docs-spacer size="small"></docs-spacer>
 
-### How to commit a breaking change to ZUI
+### How to commit a breaking change to Booster
 
 If you are not using a GUI, follow the instructions below on how to commit a breaking change via command line.
 
@@ -170,9 +170,9 @@ BREAKING CHANGE: removed the slots "app" from zui-shell-topbar and zui-shell-nav
 
 <docs-spacer size="small"></docs-spacer>
 
-### Preview ZUI packages versions
+### Preview Booster packages versions
 
-If you're curious at any time what the next prerelease or release of ZUI will look like, you can execute the following commands against the main branch:
+If you're curious at any time what the next prerelease or release of Booster will look like, you can execute the following commands against the main branch:
 
 <p>For prerelease versions:</p>
 
@@ -196,6 +196,7 @@ If you're curious at any time what the next prerelease or release of ZUI will lo
 Here are some quick best practices when creating your merge request:
 
 * Keep the merge request small.
+
   * The monorepo structure might tempt you to make many changes all at once, but it's harder to review, and harder to properly associate your changes with the right packages.
 * For "code review" merge requests, you can always prepend `WIP:` to the title to prevent accidental merging.
 * Delete the source branch once it has been merged into the main branch.
@@ -223,7 +224,7 @@ For you vscode users, here are some recommendations to keep you in sync:
 
 #### Attributes
 
-HTML has some pretty wild variations when it comes to attribute names. You're most likely to see hyphenated (e.g. `data-prop`) and all-lowercase, single word (e.g. `tabindex`). And with custom elements becoming mainstream, be ready to see other crazy attributes like `snake_case` and the all-too-familiar `camelCase`. Here at ZUI, we like to enforce some standards. So, please use hyphenated, all-lowercase attributes.
+HTML has some pretty wild variations when it comes to attribute names. You're most likely to see hyphenated (e.g. `data-prop`) and all-lowercase, single word (e.g. `tabindex`). And with custom elements becoming mainstream, be ready to see other crazy attributes like `snake_case` and the all-too-familiar `camelCase`. Here at Booster, we like to enforce some standards. So, please use hyphenated, all-lowercase attributes.
 
 Example:
 
@@ -247,7 +248,7 @@ class MyElement extends HTMLElement {
 
 <br>
 
-This requires some work on ZUI's end. If extending PolymerElement, this behavior is baked in. However, if extending LitElement (or ZuiBaseElement), you'll have to do something like the following:
+This requires some work on Booster's end. If extending PolymerElement, this behavior is baked in. However, if extending LitElement (or ZuiBaseElement), you'll have to do something like the following:
 
 ```js
 class MyElement extends LitElement {
@@ -278,7 +279,7 @@ Private:
 
 #### Custom CSS properties
 
-With ZUI, one of the main ways for a consumer to manipulate a component is via CSS Custom Properties. If you are unsure what we mean by that, checkout [MDN's documentation on CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). All of our custom CSS properties should look like the following:
+With Booster, one of the main ways for a consumer to manipulate a component is via CSS Custom Properties. If you are unsure what we mean by that, checkout [MDN's documentation on CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). All of our custom CSS properties should look like the following:
 
 ```css
 :host {
@@ -288,7 +289,7 @@ With ZUI, one of the main ways for a consumer to manipulate a component is via C
 
 <br>
 
-1. We namespace the property to ZUI (don't want to clash with others)
+1. We namespace the property to Booster (don't want to clash with others)
 2. We then scope it to the proper custom element
 3. And finally we indicate what the intent is of the property
 
@@ -314,7 +315,7 @@ We additionally offer some CSS to help with this FOUC. In all of our components,
 
 <docs-note>Protip: you can also write your own FOUC styling by using `:not(:defined)`.</docs-note>
 
-So, if you decide to contribute to ZUI in the way of custom elements, please be sure to provide some FOUC styles if relevant. You can even use our handy dandy SASS mixin found in `zui-sass-scripts`:
+So, if you decide to contribute to Booster in the way of custom elements, please be sure to provide some FOUC styles if relevant. You can even use our handy dandy SASS mixin found in `zui-sass-scripts`:
 
 ```scss
 my-element {
@@ -386,7 +387,7 @@ Just don't worry about merge conflicts in the *yarn.lock* file. It's not worth i
 
 Prior to creating a new component, please consult with us before doing so. We want to ensure that we are not duplicating efforts, and that the component you are creating is something that we want to include in the Booster Development Network design system.
 
-If you are creating a new web component (e.g., `<zui-my-element>`), you may use the built-in ZUI web component generator. However, using the generator requires that you have [Yeoman](https://yeoman.io/) installed on your machine. If you don't have it installed, run `npm i -g yo` to install it prior to generating a new web component.
+If you are creating a new web component (e.g., `<zui-my-element>`), you may use the built-in Booster web component generator. However, using the generator requires that you have [Yeoman](https://yeoman.io/) installed on your machine. If you don't have it installed, run `npm i -g yo` to install it prior to generating a new web component.
 
 ```shell
 > yarn run generate:wc
@@ -470,7 +471,7 @@ import '@zywave/zui-my-element';
 
 Prior to creating a new CSS package, please consult with us before doing so. We want to ensure that we are not duplicating efforts, and that the styles you are adding fit in the Booster Development Network design system.
 
-If you are creating a new CSS package, you may use the built-in ZUI CSS package generator. However, using the generator requires that you have [Yeoman](https://yeoman.io/) installed on your machine. If you don't have it installed, run `npm i -g yo` to install it prior to generating a new package.
+If you are creating a new CSS package, you may use the built-in Booster CSS package generator. However, using the generator requires that you have [Yeoman](https://yeoman.io/) installed on your machine. If you don't have it installed, run `npm i -g yo` to install it prior to generating a new package.
 
 ```shell
 > yarn run generate:styles
