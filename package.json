@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "",
   "scripts": {
-    "build": "yarn run sass:build && yarn run typescript:build && eleventy",
+    "build": "npm run sass:build && npm run typescript:build && eleventy",
     "serve": "eleventy --serve",
     "watch": "npm-run-all --sequential sass:build typescript:build && npm-run-all --parallel serve sass:watch typescript:watch",
     "sass:build": "sass --style=compressed src/_includes/assets/styles/global-styles.scss:static/css/global-styles.css src/_includes/assets/styles/pages:static/css/pages",

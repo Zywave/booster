@@ -1,6 +1,6 @@
 [build]
   publish = "_site"
-  command = "yarn run build"
+  command = "npm run build"
 
 [[plugins]]
 package = "@algolia/netlify-plugin-crawler"
