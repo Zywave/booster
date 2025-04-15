@@ -26,27 +26,27 @@ cd booster
 ### 3. Install dependencies
 
 ```
-yarn install
+npm install
 ```
 
 ### 4. Running and other commands
 
 Launch site locally and watch for changes:
 ```
-yarn run watch
+npm run watch
 ```
 <br/>
 
 Build or re-build site, `_site` folder is where output is placed:
 ```
-yarn run build
+npm run build
 ```
 <br/>
 
 Run 11ty in debug mode, one command for windows and one for *nix:
 ```
-yarn run debug:windows
-yarn run debug:nix
+npm run debug:windows
+npm run debug:nix
 ```
 
 ## Troubleshooting
