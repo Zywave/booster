@@ -5,7 +5,7 @@ navTitle: About
 ---
 Your  hub for all things design and development at Zywave. Dive into our comprehensive ecosystem, featuring two main sections: the **Design System** and the **Application Framework**.
 
-![Venn diagram of Booster Development Network ecosystem](/images/introduction/booster-ecosystem.png)
+![Venn diagram of Booster Development Network ecosystem](/images/group-8.png)
 
 <docs-spacer></docs-spacer>
 
