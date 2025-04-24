@@ -3,7 +3,7 @@ layout: documentation
 title: Welcome to the Booster Development Network 🌟
 navTitle: About
 ---
-Your hub for all things design and development at Zywave. Dive into our comprehensive ecosystem, featuring two main sections: the **Design System** and the **Application Framework**.
+Your  hub for all things design and development at Zywave. Dive into our comprehensive ecosystem, featuring two main sections: the **Design System** and the **Application Framework**.
 
 ![Venn diagram of Booster Development Network ecosystem](/images/group-8.png)
 
@@ -11,11 +11,11 @@ Your hub for all things design and development at Zywave. Dive into our comprehe
 
 ## What is the Design System?
 
-The **Booster Design System**—previously called Zywave User Interface (ZUI)—is your go-to for all front-end and design standards. It embodies our visual language and serves as a guide to creating top-notch partner solutions with ease. Custom-made by our Zywave team, Booster is tailored to fit our specific needs, providing a quick reference for styles, shared vocabulary, foundations, interactivity, and more.
+The **Booster Design System**—previously called Zywave User Interface (ZUI)—is your go-to for all front-end and design standards. It embodies our visual language and serves as a guide to creating top-notch partner solutions with ease. Custom-made by our Zywave team, ZUI is tailored to fit our specific needs, providing a quick reference for styles, shared vocabulary, foundations, interactivity, and more.
 
 #### How does Booster Design System aid your workflow?
 
-* **Time**: Save time by using Booster as a quick reference for styles.
+* **Time**: Save time by using Booster as a quick reference for styles, whether you're a new or established team member.
 * **Communication**: Enhance communication with team members using Booster's shared vocabulary and foundations.
 * **Consistency**: Maintain consistency by referencing one place to ensure designs, documentation, and more align with our established styles.
 
