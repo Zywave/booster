@@ -1,39 +1,52 @@
 ---
 layout: documentation
-title: About Booster Development Network
+title: Welcome to the Booster Development Network 🌟
 navTitle: About
 ---
+Your  hub for all things design and development at Zywave. Dive into our comprehensive ecosystem, featuring two main sections: the **Design System** and the **Application Framework**.
 
-The Booster Development Network is the documentation hub for design and development tools, such as Zywave's design system and application framework.
-
-There are two major sections that make up the Booster Development Network ecosystem: the design system and the application framework.
-
-![Venn diagram of Booster Development Network ecosystem](/images/introduction/booster-ecosystem.png)
+![Venn diagram of Booster Development Network ecosystem](/images/group-8.png)
 
 <docs-spacer></docs-spacer>
 
-## What is the design system?
-The Booster Design System is a broader term that many of Zywave's visuals, front-end, and design related standards and tooling are filed under.
+## What is the Design System?
 
-Commonly referred as Zywave User Interface (ZUI), the design system is best known for its collection of reusable custom elements and robust documentation.
+The **Booster Design System**—previously called Zywave User Interface (ZUI)—is your go-to for all front-end and design standards. It embodies our visual language and serves as a guide to creating top-notch partner solutions with ease. Custom-made by our Zywave team, ZUI is tailored to fit our specific needs, providing a quick reference for styles, shared vocabulary, foundations, interactivity, and more.
 
-[Learn more about the Booster Design System.](/design-system/about/)
+#### How does Booster Design System aid your workflow?
+
+* **Time**: Save time by using Booster as a quick reference for styles, whether you're a new or established team member.
+* **Communication**: Enhance communication with team members using Booster's shared vocabulary and foundations.
+* **Consistency**: Maintain consistency by referencing one place to ensure designs, documentation, and more align with our established styles.
 
 <docs-spacer></docs-spacer>
 
 ## What is the application framework?
-The Booster Application Framework is a collection of API-driven custom elements that help enforce consistency of:
-- how data is served and presented to the user
-- how the user navigates throughout the Zywave ecosystem
-- and so much more!
 
-Commonly referred as Zywave API Toolkit (ZAPI), the application framework has a heavy dependency on our design system to assist engineers in serving users with a consistent experience.
+The **Booster Application Framework**, commonly referred to as the Zywave API Toolkit (ZAPI), is a powerful suite of API-driven custom elements. It ensures consistency in:
 
-[Learn more about the Booster Application Framework.](/application-framework/about/)
+* How data is served and presented
+* Navigation throughout the Zywave ecosystem
+* Interaction with Zywave platform components, such as support, profiles, and more
+
+This collection of components heavily relies on our design system to assist engineers in creating applications that seamlessly fit into the Zywave value proposition.
+
+#### How does the Application Framework assist you?
+
+* **Efficiency**: Greatly reduces the time to build an application that feels like a part of the "one Zywave" philosophy.
+* **Enhancements**: Continual enhancements mean getting new features without lifting a finger, allowing you to focus on what matters most.
+* **User Experience**: End users get a consistent experience and increased visibility into what your application can offer them.
+
+#### What requirements are there to use these components?
+
+The APIs underlying these components are built to Zywave's standards and support Zywave-authenticated users. Applications consuming these components must comply with the same Zywave standards and authentication. All components can be provided a bearer token for authentication purposes or used in conjunction with the [Zywave API proxy](https://booster.zywave.dev/application-framework/components/api-proxy/?tab=usage). If not consuming the proxy, relevant scopes must be authorized. These scopes are illustrated on each component's Usage section where applicable.
+
+For an overview of the APIs currently exposed that these components could communicate with, check out the [**API documentation site**.](https://www.zywave.dev/apis/)
 
 <docs-spacer></docs-spacer>
 
 ## Which one do I use?
+
 While any project can use the Booster Design System, there are requirements that need to be met in order to use the Booster Application System.
 
 [To find out which one is best for your project, check out Getting Started.](/introduction/getting-started/how-to-get-started/)
