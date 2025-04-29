@@ -5,7 +5,7 @@ subtitle: null
 ---
 ## Icon overview
 
-Within ZUI, icons play a crucial role in our visual library. They can be divided into two main categories: Navigation and System icons.
+Within Booster, icons play a crucial role in our visual library. They can be divided into two main categories: Navigation and System icons.
 
 <Spacer size="small"/>
 
