@@ -8,14 +8,13 @@ includedElements: []
 ---
 ## Usage
 
-Popovers are used to help users understand unknown or unfamiliar controls, features, or workflows that are not described directly on the page.
+Popovers are small overlay windows used to display important information or additional context that is not shown or does not fit within the content on the main page. 
 
-Popovers are also used:
+Popovers can be used:
 
-* to provide information to users when they need it, and to help free up screen space.
-* when more detailed information is needed, such as a header and multiple lines of body text.
+* to free up screen space while still providing the user with important information when it is most valuable.
 * to provide more actions to the user, such as a walkthrough or text link.
-* when the content needs to remain open without being moused over.
+* when the content within the overlay needs to remain open without needing to hover over a trigger.
 
 ![Popover usage](/images/popover_usage.svg)
 
@@ -23,7 +22,7 @@ Popovers are also used:
 
 ## Anatomy
 
-Popovers consist of a shape background, shadow, text, and can include a variety of components. Unlike tooltips, there may be actions included within popovers such as close, next, back, and text links.
+Popovers are small overlay windows that contain content and, unlike Tooltips, they may also contain text links or Buttons. 
 
 ![Popover anatomy](/images/popover_anatomy.svg)
 
@@ -31,62 +30,56 @@ Popovers consist of a shape background, shadow, text, and can include a variety 
 
 #### Required
 
-Popovers must always include a blue top bar, a close button in the top right, and either header text or body text to provide information.
+Popovers must always include a 10px blue top bar, a close button in the top right corner, and body copy to provide information.  The message within should not be critical for the user to read in order to complete the task at hand. Text within a Popover has a max-width of 75ch and can wrap onto as many lines as necessary. 
 
 #### Optional
 
-Popovers can include primary and secondary buttons for walkthroughs, and text links to link users to more information.
+Popovers may include optional header text as well as text links and Buttons.
 
 <br>
 
-See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid)[Design specs](https://xd.adobe.com/view/b5414570-9452-427d-9b19-a96778f43874-e012/grid) for detailed sizing and spacing information
+See the [](https://xd.adobe.com/view/ef2f902b-219f-4e41-8bba-2bf079fc5969-ba7c/grid)[Design specs](https://www.figma.com/design/n8TDqimJp8aATTFH2UHGjZ/Booster-Design-System?m=auto&node-id=3723-150) for detailed sizing and spacing information
 
 - - -
 
 ## States
 
-Popovers are anchored to the page element in which they are referencing and should not be critical for the user to read.
+### Direction
 
-* The popover positioning will default to the right of whatever page element is being clicked.
-* Special use cases may arrive in which the bottom, top, and left tooltip positions may be used if there is not sufficient space to display the popover, such as a top bar popover.
+* Popovers are triggered by clicking on a page element near the content they are supporting.
+* The positioning (up, down, left or right) will be determined by the amount of space available around the trigger. 
 
-![Popover states](/images/select_positioning.svg)
+![Popover states](/images/popover-states-1.svg)
 
-- - -
+### Contents
 
-## Types
+![Popover types](/images/popover-states-2.svg)
 
-![Popover types](/images/popover_types.svg)
+#### Body copy only
 
-#### Header/action
+Popover can be simple and contain only body copy which provides the user with more information. 
 
-Header/action provides actions to the user, such as a walkthrough.
+#### Header and body copy
 
-#### Header/body
+Sometimes it may be beneficial to include a header, especially if the body copy is lengthy, to quickly inform the user what the Popover contents are about. 
 
-Header/body provides information to the user such as a header and multiple lines of body text or a text link.
+#### Actions
 
-#### Header/body/action
-
-Header/body/action provides actions to the user, such as a walkthrough. It also provides information to the user such as a header and multiple lines of body text or a text link.
+If there is additional supporting content you may consider including a text link within the body copy. Or, if there is another step in a walkthrough or additional action the user can take, consider using Buttons. 
 
 - - -
 
 ## Behavior
 
-#### Opening and closing popovers
+### Opening and closing popovers
 
-Popovers trigger on click and remain active until the user either clicks off of the page element or clicks close on the popover.
+Popovers can be triggered by clicking on page elements such as icons or text links. They should remain open allowing the user to view the remainder of the page until the user clicks the close button or elsewhere on the page. 
 
 - - -
 
 ## Best practices
 
-Button Groups should follow the best practices outlined in the [Button](https://booster.zywave.dev/design-system/components/buttons) component when included.
-
-<br>
-
-#### Popover  vs. tooltip
+#### Content
 
 <docs-grid columns="2">
   <div>
@@ -95,7 +88,7 @@ Button Groups should follow the best practices outlined in the [Button](https:/
 
 <docs-do>
 
-A popover can hold more detailed information and multiple lines of text.
+A Popover should always contain body copy. 
 
 </docs-do>
 
@@ -103,11 +96,11 @@ A popover can hold more detailed information and multiple lines of text.
 
   <div>
 
-![Popover Don't](/images/popover_dont.svg)
+![Popover Don't](/images/popover-dont-1.svg)
 
 <docs-do-not>
 
-A tooltip should not contain detailed information and multiple lines of text.
+Do not only include header copy within a Popover.
 
 </docs-do-not>
 
@@ -125,11 +118,11 @@ A tooltip should not contain detailed information and multiple lines of text.
 
    <div>
 
-![Popover Do](/images/popover_do-–-2.svg)
+![Popover Do](/images/popover-do-2.svg)
 
 <docs-do>
 
-A popover should be display all of its contents regardless of where it is positioned on the page.
+A Popover should open in a direction that ensures the entire message is visible. 
 
 </docs-do>
 
@@ -137,11 +130,11 @@ A popover should be display all of its contents regardless of where it is positi
 
    <div>
 
-![Popover Don't](/images/popover_don-t-–-2.svg)
+![Popover Don't](/images/popover-dont-2.svg)
 
 <docs-do-not>
 
-A popover should not be cut off to fit within a container such as a card.
+Do not open the Popover in a direction that would cut off the message 
 
 </docs-do-not>
 
@@ -152,4 +145,6 @@ A popover should not be cut off to fit within a container such as a card.
 
 ## Alternate considerations
 
-* A [tooltip](/design-system/components/tooltips/) may be the appropriate component if the message is a small text hint explaining the anchored element, if the message needs to only be visible on hover, and if the message can disappear when the user moves away from the element.
+* Consider a [Tooltip](/design-system/components/tooltips/) for shorter messages that are best triggered on hover such as hint text on an element.
+* Consider a [Notifier](/design-system/components/notifiers/) for messages that are system generated based off an action that a user has taken.
+* Consider a [Dialog](/design-system/components/dialogs/) for more messages that need to be more intrusive or require a user's full attention such as confirmation messages or forms.
