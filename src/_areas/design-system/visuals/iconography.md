@@ -1,42 +1,196 @@
 ---
 layout: documentation
 title: Iconography
-subtitle:
+subtitle: null
 ---
+## Icon overview
 
-## Icon Overview
-
-Icons are one half of our visual library within ZUI. Icons can be broken up into two main categories: Navigation and System.
+Within Booster, icons play a crucial role in our visual library. They can be divided into two main categories: Navigation and System icons.
 
 <Spacer size="small"/>
 
-## Navigation Icons
+## Navigation icons
 
-Navigation icons provide our users with an easily recognizable visual for parent-level items within the Sidenav or Topbar. Combined with their text labels, they will speed up recognition and processing of the link text. Navigation icons are especially important when the user has collapsed the Sidenav as they are the only item immediately visible to the user.
+Navigation icons provide our users with an easily recognizable visual for parent-level items within the Sidenav or Topbar. Combined with their text labels, they will speed up the recognition and processing of the link text.
 
-Our Navigation icons fit into two groups: canonized and generic. Most of our icons are canonized and have a consistent meaning. Any time a user sees a canonized icon they should know exactly what page they will be taken to. On the contrary, when a generic icon is used, the page a user is taken to may differ slightly based on the product they are accessing it from.
+<!--StartFragment-->
 
-### Canonized icons
+## Principles
 
-Canonized icons should never be reused to represent more than one feature or tool.
+#### **Bold over subtle**
 
-### Generic icons
+Our nav icons are meant to stand out. They will always be paired with their descriptive text in the navigation. This allows the designers to create icons that make a significant statement and are more unique than system icons. 
 
-Generic icons have a more general meaning and can be used to represent more than one feature or tool.
+#### **Modern over traditional**
 
-### Shell icons
+For a modern touch, it's important to follow current design trends in icon design, such as incorporating rounded corners and adding a sense of delight.
 
-These icons are used specifically in Shell's 2 core sections: topbar and sidenav. Shell icons help identify major navigational features and different user states in applications.
+#### **Distinctive over generic**
 
----
+Nav icon design should have an equitable balance between being professional and playful. Focus on professional but unique concepts.
+
+#### **Clarity over consistency**
+
+The guides are flexible when necessary to best represent the metaphor or parts of it. Use your best judgment as a designer.
+
+## Anatomy
+
+![Nav icons - anatomy](/images/anatomy-navicon.png)
+
+<br>
+
+1. **Bounding area:** 20x20 px
+2. **Stroke weight**: 1px, .5px rounded corners
+3. **Counter fill:** 20% opacity of stroke color
+4. **Stroke cap:** Rounded
+5. **Angles:** Increments of 45 degrees
+
+## Color
+
+![](/images/color.png)
+
+**Default & hover states:**
+
+* Stroke: #606072
+* Counter fill: #606072 at 20% opacity
+
+**Selected state:** 
+
+* Stroke: #3B75B5
+* Counter fill: #3B75B5 at 20% opacity
+
+The counter fill color should be a majority of the fill. Ideally icons will also include some negative space, though this may not always be possible.
+
+## Grid
+
+![Nav icons - grid](/images/navicon-keyline-grid.png)
+
+<br>
+
+A keyline grid is a set of guides to help maintain the optical balance between icons within a set. Use it as a starting point and guide, but not a hard rule. There are four basic shapes that represent common icon scale and placement: circles, squares, and rectangles.
+
+<br>
+
+## Best Practices
+
+</docs-spacer>
+
+### **Visual complexity**
+
+Find the balance between simple and complex. Make sure to continually check icons at the scale they will be viewed. This will help you determine the correct amount of detail to include. 
+
+<br>
+
+<docs-grid columns="2">
+
+<div>
+
+![](/images/do-1.png)
+
+<docs-do>
+This provides enough detail to be immediately recognizable as a house.
+
+</docs-do>
+
+</div>
+
+<div>
+
+![](/images/navicon-don-t-1.png)
+
+<docs-do-not>
+The house on the left does not align with the level of detail in the icon set, when possible include more detail for both clarity and visual interest. The icon on the right has too much detail - at scale this looks busy and unclear.
+
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+### **C﻿lear & unique**
+
+Do not use icons that are commonly used for alternate actions. 
+
+<docs-grid columns="2">
+
+<div>
+
+![](/images/do-2.png)
+
+<docs-do>
+A target works better for “Prospecting” than a magnifying glass. Additionally, the target provides more visual interest and is a more intriguing concept.
+
+</docs-do>
+
+</div>
+
+<div>
+
+![](/images/navicon-don-t-2.png)
+
+<docs-do-not>
+The magnifying glass is often used for search and/or zoom which could create confusion for users.
+
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+### Optical alignment
+
+The align tools are great, but make sure to always optically align shapes when needed.
+
+<docs-grid columns="2">
+
+<div>
+
+![](/images/do-3.png)
+
+<docs-do>
+
+This is optically aligned. Although mathematically the triangle is not centered in the circle, it looks centered to the human eye.
+
+</docs-do>
+
+</div>
+
+<div>
+
+![Avoid using icons that are not left chevrons, such as forward slash "/", dash "-", and etc.](/images/navicon-don-t-3.png)
+
+<docs-do-not>
+This is mathematically aligned but looks off due to the shape and weight of the triangle.
+
+</docs-do-not>
+
+</div>
+
+</docs-grid>
+
+<docs-spacer>
+
+</docs-spacer>
+
+<!--EndFragment-->
+
+- - -
 
 ## System Icons
 
-Our system icons are a set of line icons that can be used throughout the UI to draw more attention to a specific element or action. Typically our system icons are used to the left of the text label within buttons to help draw more attention to them. Or, if the icon is easily identifiable, the icon can be used alone within a button in order to save space.
+Our system icons are a set of line icons that can be used throughout the UI to draw more attention to a specific element or action. Typically our system icons are used to the left of the text label within buttons to help draw more attention to them. Or, if the icon is easily identifiable, the icon can be used alone within a button to save space.
 
 ### File system icons
 
-All file system icons have a default color to help users make connections with other, non-Zywave systems. Grayscale is available for edge case scenarios, and should be used rarely.
+All file system icons have a default color to help users make connections with other, non-Zywave systems. Grayscale is available for edge case scenarios and should be used rarely.
 
 ### System icon usage guidelines
 
@@ -102,7 +256,7 @@ Our message delivery systems can use colored icons to convey the type of message
 
 ### Interactive icons
 
-Aside from icon buttons, there are a few instances that are clickable or on hover will trigger a Tooltip or Popover. These icons should be ZUI Blue 500 in order to indicate that they are interactive and draw more attention to them. Typically these icons are represented by our help icon or our info circle icon.
+Aside from icon buttons, there are a few instances that are clickable or on hover will trigger a Tooltip or Popover. These icons should be ZUI Blue 500 to indicate that they are interactive and draw more attention to them. Typically these icons are represented by our help icon or our info circle icon.
 
 <center>
 
@@ -124,9 +278,9 @@ The zui-close icon is used to signify when a component can be closed or dismisse
 
 ### Remove or delete icons
 
-There are two icons that may be used to signify something that can be removed/deleted: zui-delete and zui-remove.  
-The zui-delete icon (trash can) should be used sparingly and is often associated with a more permanent delete. We recommend using this in situations where there is only one delete action on the page. It appears most often alongside text within a button, but it can also be used alone within an icon button. This icons should be ZUI Red 500 to indicate a destructive action when clicked, and should never be ZUI Gray 800 when used in this context.  
-The zui-remove (X) icon is used more frequently and can indicate the ability to remove or permanently delete something. Zui-remove is the preferred icon when there is one or more delete/remove action on the page. For example, it is often seen in tables to delete a row or to remove filters and selections in a dropdown. Consider using ZUI Red 500 to indicate a destructive action when clicked.
+Two icons may be used to signify something that can be removed/deleted: zui-delete and zui-remove.\
+The zui-delete icon (trash can) should be used sparingly and is often associated with a more permanent delete. We recommend using this in situations where there is only one delete action on the page. It appears most often alongside text within a button, but it can also be used alone within an icon button. This icon should be ZUI Red 500 to indicate a destructive action when clicked, and should never be ZUI Gray 800 when used in this context.\
+The zui-remove (X) icon is used more frequently and can indicate the ability to remove or permanently delete something. Zui-remove is the preferred icon when there is one or more delete/remove actions on the page. For example, it is often seen in tables to delete a row or to remove filters and selections in a dropdown. Consider using ZUI Red 500 to indicate a destructive action when clicked.
 
 <center>
 
